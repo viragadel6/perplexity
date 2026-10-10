@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7ddbf991ed3148fab45106094020d396",
+  "context_title": "",
+  "created_at": "20260123T04:39:56.500054Z",
+  "updated_at": "20260123T04:40:08.771371Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7f22cd322536417b8e6212af14a427ff",
+      "query": "",
+      "answer": "A megadott link egy IEEE Xplore cikkoldalra mutat, de jelenleg nem férek hozzá közvetlenül a cikk tartalmához vagy metaadataihoz ezen az URLen keresztül, ezért pontos címet, szerzőlistát, absztraktot, évfolyam/szám adatokat most nem tudok megbízhatóan megmondani.[1]\n\n Mit tudsz most az URLlel kezdeni?\n\n Ha a böngésződben megnyitod a https://ieeexplore.ieee.org/document/11319990/ oldalt, az IEEE Xplore felületén látni fogod:\n   a cikk címét;\n   a szerzők neveit és affiliációját;\n   a folyóirat / konferencia nevét, évfolyam, szám, oldalszámok (ha releváns);\n   DOI azonosítót (pl. 10.1109/... formátumban);\n   absztraktot és letölthető PDFet (ha az intézményed vagy te magad jogosult vagy hozzáférni).[7]\n\n Ha azt szeretnéd, hogy elemezzem a cikket\n\nHa azt akarod, hogy érdemben, részletesen foglalkozzunk vele (technikai tartalom, módszerek, egyenletek, eredmények, ötletek implementálása stb.), kérlek:\n\n1. Másold be:\n    a cikk címét és absztraktját, vagy\n    a cikk teljes szövegének releváns részeit (pl. bevezetés + módszer + eredmények),  \n   ügyelve a terjedelemre és a szerzői jogra (ne másold be szó szerint az egész cikket).\n2. Írd meg, hogy mi érdekel konkrétan:\n    részletes technikai magyarázat;\n    képletek levezetése;\n    algoritmus pszeudokód / implementációs útmutató;\n    összehasonlítás más módszerekkel;\n    diplomamunka / publikáció szempontjából releváns részek kiemelése stb.\n\n Milyen jellegű segítséget tudsz kapni?\n\nMiután átmásoltad a releváns részeket, tudok például:\n\n Részletes magyar magyarázatot adni a cikk modelljéről, algoritmusáról, bizonyításairól.\n Segíteni képletek, jelölések, szimbólumok értelmezésében és intuitív magyarázatában.\n Vázolni implementációs lépéseket (pl. Python / PyTorch / MATLAB pszeudokód).\n Összefoglalni a cikket különböző mélységekben (rövid/ hosszú, BSc/MSc/PhD szint).\n Kitalálni, hogyan tudod a cikk ötleteit:\n   saját kutatásodban;\n   diplomamunkában;\n   gyakorlati rendszerben (pl. kommunikációs hálózat, ML rendszer stb.) alkalmazni.\n\nÍrd le, hogy pontosan mire van szükséged ezzel a cikkel kapcsolatban (pl. „részletes technikai magyarázat MSc szinten”, „pszeudokód a 3. fejezet algoritmusára”, „összehasonlítás XY cikkel”), és másold be a releváns tartalmat, onnan nagyon részletesen tudunk tovább menni.",
+      "created_at": "20260123T04:39:56.628968Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

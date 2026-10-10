@@ -1,0 +1,19 @@
+{
+  "context_uuid": "67f2bbd6d974428b8e4d2b7238a9d141",
+  "context_title": "szegednek es magyatorszagnak van valami rejtett vagy nem hires koze az ai hoz?",
+  "created_at": "20250824T22:06:26.827820Z",
+  "updated_at": "20250824T22:06:26.827820Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "45ef07cb4d2146328fed55812c769f37",
+      "query": "szegednek es magyatorszagnak van valami rejtett vagy nem hires koze az ai hoz?",
+      "answer": " Vane “rejtett” vagy kevéssé ismert AIkötődése Szegednek és Magyarországnak?\n\n Röviden\n Igen: Szegednek markáns, de nem széles körben ismert AIökoszisztémája van az SZTE köré szerveződve (kutatócsoportok, nemzeti labor, új AIszuperszámítógép, kompetenciaközpont) [1][2][3][4][5][6].  \n Országos szinten Magyarország 2020–2030as Nemzeti MI Stratégiája és az MI Koalíció több száz taggal ad keretet a fejlesztéseknek, és jelenleg zajlik a stratégia frissítése az EU AI Acthez igazodva [7][8][9].\n\n Szeged kevéssé ismert AIpillérei\n HUNREN—SZTE Mesterséges Intelligencia Kutatócsoport: beszédtechnológia, természetesnyelvfeldolgozás, szoftvertechnológia, biztonság stb. a fókuszterületek között [1].  \n SZTE és az MI Nemzeti Labor kapcsolata: mélytanulás, adversariális robusztusság vizsgálata, gyakorlati együttműködések [2].  \n Új AIszuperszámítógép az SZTEn: 1,75 petaFLOPS helyi kapacitás HPE technológiával, hozzáférés németországi Jülich kapacitásokhoz is; célzottan AIkutatásokra optimalizálva [5][6].  \n AI Kompetencia Központ az SZTEn (vezető: Jelasity Márk): kutatócsoportok támogatása módszertanban, modellezésben és számítási erőforrásban; adminisztratív és klinikai folyamatok AIalapú tehermentesítése is cél [3][4].  \n ELIALPS (Szeged): világszínvonalú attoszekundumos fényinfrastruktúra; bár elsősorban lézer és ultragyors fizika, a létrejövő adatmennyiség és anyagtudományi/biomedikai irányok AItámogatást igényelhetnek [10][11].\n\n Magyarország országos AIkapcsolódásai\n Nemzeti MI Stratégia (2020–2030): adatgazdaság, K+F+I, oktatás, infrastruktúra, etikaszabályozás; fókuszágazatok: gyártás, egészségügy, agrárium, közigazgatás, közlekedés, logisztika, energia; zászlóshajó programok: autonóm járművek, digitális egészség, klímatudatos agrárium, automatizált magyar nyelvű ügyintézés stb. [7][8].  \n MI Koalíció: 2018 óta 320+ tagszervezet kormányzati–akadémiai–ipari összefogással; akcióterv és stratégiaalkotás [7][8].  \n Stratégiafrissítés 2025ben: az EU AI Acthez igazodó aktualizálás előkészítés alatt; hangsúly a hazai adatvagyon, számítási kapacitás és jogi környezet kiaknázásán [9].\n\n Miért “rejtett”?\n A szegedi fejlesztések (kutatócsoportok, nemzeti laboros együttműködés, dedikált AIszuperszámítógép) és a nagy európai kutatási infrastruktúra (ELIALPS) inkább szakmai körökben ismertek, miközben ténylegesen nemzetközi szintű kapacitást építenek az AIkutatás és alkalmazás számára [1][2][5][6][10].\n\n Példák alkalmazási irányokra Szegeden\n Genomika, gyógyszerfejlesztés, neuro és implantátumtechnológiák, epidemiológiai modellezés, anyagtudomány – mind olyan területek, ahol a friss AIszuperszámítógépes háttér gyorsítást adhat [4].  \n Egyetemi működés: hallgatói ügyintézés és klinikai betegút egyszerűbb folyamatai AIasszisztensekkel tehermentesíthetők [3].\n\nHa érdekes, szívesen adok kapcsolat és programajánlót (SZTE AI Kompetencia Központ, MI Koalíció) vagy összegyűjtöm a szegedi AIállásokat és kutatási lehetőségeket a jelenlegi szemeszterre hivatkozva [3][2][7].",
+      "created_at": "20250824T22:06:26.971088Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

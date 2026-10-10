@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e90c62334a114f7c8e20e56e584db133",
+  "context_title": "melyik ceg jar legkozelebb at agi hoz",
+  "created_at": "20251222T07:44:57.445580Z",
+  "updated_at": "20251222T07:44:57.445580Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8f39b32219b0448fa7a127127f377133",
+      "query": "melyik ceg jar legkozelebb at agi hoz",
+      "answer": "Az AGI (Archeogenomikai Intézet) a budapesti 1097es kerületben, a Tóth Kálmán utca 4. szám alatt található. A legközelebbi tömegközlekedési járatok a következők:[1][2]\n\n Villamos\n\nA 2es, 23as és 24es villamos jár a legközelebb az AGIhoz. A legközelebbi villamosmegálló a \"Haller Utca / Mester Utca\", amely csak 35 perces sétára van az intézettől. Az 1es villamos szintén megközelíthető a \"Közvágóhíd H\" megállónál.[3][4][5]\n\n Autóbusz\n\nTöbb autóbuszjárat is megáll az AGI közelében: az 55ös, 107es, 212es, 224es és 281es buszok. A \"Ferencvárosi Rendelőintézet\" buszm megálló mindössze 1 perces sétára van, míg a \"Mester Utca / Könyves Kálmán Körút\" megálló 67 perces gyaloglásra található.[4][3]\n\n Metró és vasút\n\nAz M3as metró (kék vonal) és a H7es HÉV Boráros tér irányába szintén elérhető közelségben van.[5][4]",
+      "created_at": "20251222T07:44:57.562989Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

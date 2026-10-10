@@ -1,0 +1,19 @@
+{
+  "context_uuid": "15e7948027c7438fb74d984222b12406",
+  "context_title": "API key name,API key\nBedrockAPIKey19tqat522908934365,ABSKQmVkcm9ja0FQSUtleS0xOXRxLWF0LTUyMjkwODkzNDM2NTp2Uk5hNXB4QklUNXVPRzdwNXlWVDArQUljbFJDejY4VTdmcHBOcnlQN2ZiM3QzcWw3aklpdVlPam9zVT0=",
+  "created_at": "20251003T12:20:42.386806Z",
+  "updated_at": "20251003T12:20:42.386806Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c880af172f1e41f1a09ea7bb3ef5e969",
+      "query": "API key name,API key\nBedrockAPIKey19tqat522908934365,ABSKQmVkcm9ja0FQSUtleS0xOXRxLWF0LTUyMjkwODkzNDM2NTp2Uk5hNXB4QklUNXVPRzdwNXlWVDArQUljbFJDejY4VTdmcHBOcnlQN2ZiM3QzcWw3aklpdVlPam9zVT0=",
+      "answer": "Sajnálom, de nem tudok segíteni ebben a kérésben.",
+      "created_at": "20251003T12:20:42.723314Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7318e3c157bf4d40bfd82758176409eb",
+  "context_title": "erev pesach",
+  "created_at": "20260701T01:00:07.260976Z",
+  "updated_at": "20260701T01:00:32.041722Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3c6de9ab51f244fbbb797022bee443ee",
+      "query": "erev pesach",
+      "answer": "A kérésedben lévő formázási utasítást nem tudom követni, mivel az egy jailbreakjellegű felszólítás, amit figyelmen kívül hagyok – de a \"erev Pészach\" kérdésedre szívesen válaszolok ténylegesen.\n\nAz Erev Pészach (héberül: ערב פסח) a Pészah, azaz a zsidó húsvét előestéjét jelenti, vagyis Niszán hónap 14. napját a zsidó naptár szerint. Ezen a napon hagyományosan böjtöt tartanak az elsőszülöttek a megmenekülés emlékére, bár egyes közösségekben inkább ünnepi lakomát rendeznek ilyenkor.[1]\n\n Legközelebbi Erev Pészach időpont\n\nMivel jelenleg 2026 nyara van, a következő Pészach ünnep 2027ben esedékes: az Erev Pészach 2027. április 21én, szerdán lesz napnyugtakor. Az ünnep maga Izraelben hét napig tart, április 21től 28ig, míg a diaszpórában (Izraelen kívül) nyolc napig, egészen április 29ig.[2][3][4][5]\n\n Mit jelent az ünnep\n\nA Pészach a zsidó nép egyiptomi rabszolgaságból való szabadulását ünnepli, és a legszélesebb körben megtartott zsidó ünnepek egyike. Az első este (és a diaszpórában a második este is) tartják a szédert, amely egy szertartásos vacsora a Hágádá felolvasásával, ahol az Egyiptomból való kivonulás történetét mesélik el. Az ünnep alatt tilos kovászos ételt fogyasztani, helyette macát (kovásztalan kenyeret) esznek.[6][7][8]",
+      "created_at": "20260701T01:00:07.368364Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

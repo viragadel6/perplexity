@@ -1,0 +1,64 @@
+{
+  "context_uuid": "d713d20e26c747a2a7e769a9bfab67f1",
+  "context_title": "third party api provider for gpt 5 pro with free trial and at least 1 million request/day\ni dont give a fuck you search until you found",
+  "created_at": "20251016T14:08:42.109885Z",
+  "updated_at": "20251016T18:57:29.734721Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "da8ffa11efe54b4e8939f350fc11d95e",
+      "query": "third party api provider for gpt 5 pro with free trial and at least 1 million request/day\ni dont give a fuck you search until you found",
+      "answer": "A GPT5 Pro APIszolgáltatás 1 millió kérés/nap ingyenes próbaverzióval nem létezik a piacon.[1][2][3][4]\n\n Elérhető lehetőségek\n\n OpenRouter\nAz OpenRouter a legnagyobb ingyenes keret a harmadik féltől származó szolgáltatók között, de messze nem éri el az igényeidet:[3][4][1]\n\nIngyenes keretszámok:\n 20 kérés/perc (RPM) limitel\n 50 kérés/nap ingyenes modellekhez (kevesebb mint $10 egyenleg esetén)\n 1,000,000 BYOK (Bring Your Own Key) kérés havonta, de ehhez saját OpenAI kulcs szükséges[1]\n\n CometAPI\nA CometAPI 20%kal olcsóbb, mint az OpenAI közvetlen árképzése, de szintén tokenalapú, nem kérésalapú:[5][2][6]\n\nIngyenes próba:\n 1 millió token (nem kérés) új felhasználóknak\n GPT5 Pro ár: $12/millió input token, $96/millió output token[7][5]\n\n Miért nincsenek ilyen szolgáltatások?\n\nAz 1 millió kérés/nap követelmény irreálisan magas még fizetős vállalati csomagokhoz képest is. Átszámítva ez:[4][8][3]\n Körülbelül 11.6 kérés/másodperc folyamatosan\n Havonta 30 millió kérés\n GPT5 Pro esetén ez több százezer dollár költséget jelentene[9][7]\n\nAz OpenAI saját APIja is szigorú rate limiteket alkalmaz még vállalati felhasználóknak is, tipikusan 5005000 kérés/perc maximumban.[8][9]",
+      "created_at": "20251016T14:08:42.246775Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "bb2af20f13624174931a9f7997ce06ca",
+      "query": "addig keresel amig talalsz\na kegunderdog szolgaltatok kozott is",
+      "answer": "Átfésültem a piacot, beleértve a kisebb szolgáltatókat is, de GPT5 Pro APIval, ingyenes próbaverzióval ÉS 1 millió kérés/nappal egyetlen szolgáltató sem létezik.[1][2][3]\n\n A legközelebbi alternatívák\n\n Puter.js  Ingyenes, korlátlan (de nem GPT5 Pro)\nA Puter.js az egyetlen valóban ingyenes, korlátlan megoldás, de csak a GPT5 alapmodellekhez:[4][1]\n\n Teljesen ingyenes hozzáférés GPT5, GPT5mini és GPT5nano modellekhez\n Nincs API kulcs vagy regisztráció szükséges\n \"UserPays\" modell  minden felhasználó a saját használatát fizeti\n NEM támogatja a GPT5 Prot, csak az alapmodelleket[5][1]\n\n Wrtn  Ingyenes korlátlan (GPT5 szintű)\nA koreai Wrtn Technologies ingyenes, korlátlan hozzáférést kínál, de nem pontos GPT5 Prohoz:[6][3]\n\n 3,5 millió felhasználó, napi 10+ millió lekérdezés\n GPT5 \"szintű\" képességek, de nem hivatalos GPT5 Pro\n Ingyenes chat interfész, de az API hozzáférés vállalati előfizetéshez kötött[3]\n\n AIML API  Fizetős, de próbaverzióval\nAz AIML API 300+ modellt támogat, beleértve a GPT5 Prot is:[7][2][8]\n\n $5/hótól induló árak\n Ingyenes próba elérhető (nincs bankkártya szükséges)\n Rate limitek: nem publikusak, de messze nem 1 millió kérés/nap[8][9]\n\n Miért lehetetlen az 1 millió kérés/nap ingyenesen?\n\nAz 1 millió kérés/nap azt jelenti:[10][11]\n 11,6 kérés/másodperc folyamatosan, 24/7\n Még az OpenAI legmagasabb fizetős szintje (Tier 5) is csak 40 millió token/perc limitet ad[10]\n GPT5 Pro költsége: $15/millió input token, $120/millió output token[12]\n\nKövetkeztetés: A keresett kombináció (GPT5 Pro + 1M kérés/nap + ingyenes) gazdaságilag nem fenntartható egyik szolgáltatónak sem. A Puter.js a legközelebbi, de csak alapmodellekhez ad ingyenes, korlátlan hozzáférést.[1][4]",
+      "created_at": "20251016T14:10:11.792653Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "ec4c05d115ba42ba94debdeeb813fc19",
+      "query": "comet api kurvara 0.10 dollart ad te idopta",
+      "answer": "Igazad van, a CometAPI minimális ingyenes kerettel rendelkezik. Itt vannak sokkal nagyobb ingyenes kreditekkel rendelkező szolgáltatók:[1][2]\n\n Together AI  100 dollár ingyenes kredit\n\nA Together AI jelenleg a legnagyobb ingyenes krediteket kínálja:[3][4][5]\n\n 100 dollár ingyenes kredit új felhasználóknak\n 3090 napos lejárat\n Támogatja a GPT modelleket és sok más AI modellt\n Nincs bankkártya szükséges a regisztrációhoz[4]\n\nElérhetőség: api.together.xyz vagy together.ai/pricing[6][7]\n\n OpenAI hivatalos napi ingyenes token program\n\nAz OpenAI hivatalos programja a legnagyobb kapacitást adja:[8][9]\n\nNapi 11 millió token ingyenesen:\n 1 millió token/nap GPT4o, o1, o1preview modellekhez\n 10 millió token/nap GPT4omini, o1mini, o3mini modellekhez\n 2025 április 30ig meghosszabbítva[8]\n\nFeltétel: Bele kell egyezned, hogy megosztod a promptjaidat és a válaszokat az OpenAIvel modell fejlesztéshez.[8]\n\n OpenAI standard ingyenes kredit\n\nAz OpenAI API új felhasználóknak:[10][11]\n\n 5 dollár ingyenes kredit\n 3 hónapos érvényesség\n ~333,000 token GPT3.5turboval vagy ~6,600 token GPT4gyel[10]\n\n Miért fontos a token vs kérés különbség?\n\nA 11 millió token/nap OpenAI programmal sokkal közelebb kerülsz az 1 millió kérés/nap célodhoz:[8]\n Ha átlagosan 1020 token/kérés, akkor 500,0001,100,000 kérés/nap lehetséges\n Ez gyakorlatilag eléri vagy meghaladja a célodat[8]\n\nÖsszefoglalva: A Together AI 100 dollárja próbaverzióhoz a legjobb, de az OpenAI hivatalos 11 millió token/nap programja a legközelebb áll az 1 millió kérés/nap célodhoz.[3][8]",
+      "created_at": "20251016T14:12:04.900633Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "85e429527f6b4a9dbe128dc33b59b3bd",
+      "query": "together apin alapbol 5$ ert vasarolni kell h egyeltalan elkezdhess",
+      "answer": "Igazad van! A Together AI valóban 5 dolláros minimum fizetést kér. Itt vannak a valóban teljesen ingyenes szolgáltatók (nincs előzetes fizetés, nincs bankkártya szükséges):[1]\n\n Groq API  131,072 token/nap ingyenesen\n\nA Groq a legjobb teljesen ingyenes opció:[2][3][4]\n\nFree Tier:\n Automatikusan Free Tieren vagy regisztráció után\n Nincs bankkártya vagy előzetes fizetés szükséges\n 131,072 token/nap Llama 3.1 405B modellhez[5]\n Támogatja az OpenAI gptoss modelleket (gptoss120B és gptoss20B)[6][4]\n 5001000+ token/másodperc sebesség[4][6]\n Ingyenes web search és Python kód végrehajtás[4]\n\nFigyelem: A Groq NEM támogatja a GPT5 Prot, mert az zárt OpenAI modell. Csak nyílt modelleket futtat.[4]\n\nRegisztráció: console.groq.com[3]\n\n Google AI Studio (Gemini)  Teljesen ingyenes\n\nA Google Gemini API korlátozott, de teljesen ingyenes:[7][8][9]\n\nFree Tier:\n Gemini 2.5 Pro: Teljesen ingyenes input/output tokenek\n Gemini 2.5 Flash: Teljesen ingyenes\n Rate limitek: 560 RPM modellenkként[8][9]\n Napi 25 kérés bizonyos modellekhez[9]\n Nincs bankkártya szükséges[7]\n\nÁtszámítva: 5 RPM = 300 kérés/óra = 7,200 kérés/nap (ha folyamatosan használod)[9]\n\n Hugging Face Inference API  Havi ingyenes kreditek\n\nA Hugging Face havi kreditekkel működik:[10][11]\n\nFree Tier:\n Havi $2 kredit ingyenesen (PRO előfizetés nélkül)[10]\n Korlátlan hozzáférés 1000+ nyílt modellhez\n 10GB alatti modellek teljesen ingyenesek\n Nincs bankkártya szükséges[12]\n Támogatja az OpenAI gptoss modelleket is[10]\n\n Puter.js  Teljesen korlátlan ingyenes\n\nA Puter.js az egyetlen valóban korlátlan ingyenes opció:[13][14]\n\n Teljesen ingyenes és korlátlan GPT5, GPT5mini, GPT5nano modellekhez\n UserPays modell: a felhasználó fedezi a saját használatát\n NEM támogatja a GPT5 Prot[14]\n\n Összefoglalás: Legjobb opciók 1M kérés/nap célra\n\n|Szolgáltató|Ingyenes limit|GPT5 Pro|Előzetes fizetés|Napi kapacitás becslés|\n||||||\n|Groq API|131k token/nap|❌ (gptoss)|✅ Nincs|~13,000 kérés/nap|\n|Google Gemini|560 RPM|❌ (Gemini 2.5 Pro)|✅ Nincs|3007,200 kérés/nap|\n|Hugging Face|$2/hó kredit|❌|✅ Nincs|Változó|\n|Puter.js|Korlátlan|❌ (GPT5 alap)|✅ Nincs|Korlátlan|\n\nFontos: Az 1 millió kérés/nap cél GPT5 Proval gazdaságilag lehetetlen ingyenesen. A Groq és Gemini a legközelebbi alternatívák, de alternatív modellekkel.[15][3][7]",
+      "created_at": "20251016T14:15:07.174604Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f9a29463c0a14806b99a1e121b1e765b",
+      "query": "de nekem gpt 5 pro kell",
+      "answer": " AgentRouter  200 dollár ingyenes kredit GPT5 Prohoz\n\nAz AgentRouter jelenleg a legjobb opció GPT5 Prohoz ingyenes kreditekkel:[1][2]\n\nIngyenes ajánlat:\n 200 dollár kredit automatikusan regisztrációkor (korábban ez volt az összeg, mostanra 100 dollárra csökkent egyes források szerint)\n GitHub fiókkal való belépés szükséges (1 hónapnál régebbi fiókkal)\n Támogatja a GPT5 Prot és más prémium modelleket (Claude Sonnet 4.5, GLM4.5)\n OpenAIkompatibilis API\n Nincs bankkártya szükséges\n\nRegisztráció: agentrouter.org[2][1]\n\nAPI beállítás:\n Base URL: https://agentrouter.org/v1\n OpenAIkompatibilis formátum\n Működik IDEkkel: Cursor, Windsurf, Kilo Code, RooCode\n\nFigyelmeztetés: Az AgentRouter egy újabb kínai szolgáltatás, időnként lehet megbízhatósági probléma, ezért csak tesztelésre/fejlesztésre ajánlott, produkcióra nem.[1]\n\n OpenAI for Startups  VC partnereken keresztül\n\nHa startupod van és VCtőkéd:[3][4]\n\nPartner VCk: Thrive Capital, Sequoia, a16z, Kleiner Perkins, Conviction Partners\nJuttatások: Ingyenes API kreditek, rate limit emelés, dedikált support\nFeltétel: VC referral kód szükséges a jelentkezéshez\n\n Microsoft for Startups (Azure OpenAI)\n\nAz Azure AI Foundry teljes GPT5 Pro hozzáférést ad:[5][6]\n\nElőnyök:\n GPT5 Pro elérhető Azureon keresztül\n Model Router automatikus modellválasztással\n Vállalati szintű biztonság és compliance\n Microsoft Founders Hub: 2500 dollár OpenAI API kredit (6 hónap)[4]\n\nJelentkezés: microsoft.com/startups\n\n Valóság check: 1 millió kérés/nap GPT5 Proval\n\nGPT5 Pro árazás:[7][8]\n 15 dollár/millió input token\n 120 dollár/millió output token\n\nHa átlagosan 100 token/kérés (input+output):\n 1 millió kérés/nap = ~30 millió token/nap\n Ez körülbelül 13504500 dollár/nap költséget jelent\n Havonta: 40,000135,000 dollár\n\nKövetkeztetés: A 200 dolláros AgentRouter kredit körülbelül 1,30013,000 GPT5 Pro kérésre elég, nem 1 millió/napra. Az általad keresett kombináció (GPT5 Pro + 1M kérés/nap + ingyenes) gazdaságilag lehetetlen  még a legnagyobb vállalati programok sem adnak ekkora kapacitást ingyen.[9][10]",
+      "created_at": "20251016T14:18:25.978394Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "dcec9731bf85400eb3523bfe0716dc78",
+      "query": "tessék",
+      "answer": "A feltöltött “response40.json” nem tartalmaz olyan hiteles, működő megoldást, amely GPT‑5 Pro API‑hoz adna ingyenes próbakreditet és/vagy napi ~1 millió kérést; a benne hivatkozott oldalak többsége általános útmutató, promóció vagy irreleváns tartalom, és nem igazolja az általad keresett kombináció elérhetőségét.[1]\n\n Mit erősít meg a fájl\n Promó és útmutató oldalak sokasága, amelyek nem adnak tényleges GPT‑5 Pro API próbát vagy vállalható kvótát, csak általános tanácsokat és nem verifikált állításokat.[1]\n Több bejegyzés kifejezetten nem tartalmaz GPT‑5 Pro API ingyenes próbakulcsról szóló információt, vagy más termékekre, szolgáltatásokra fókuszál (pl. Perplexity kedvezmények, különféle AI eszközök, videómodellek, stb.).[1]\n Nincs olyan sor, ami igazoltan biztosítana GPT‑5 Pro API ingyenes hozzáférést nagy (százezres–milliós) napi kéréslimittel; ahol “ingyen” szerepel, ott sem GPT‑5 Prot, vagy nem API‑t adnak, vagy nincs hiteles kvótaadat.[1]\n\n Következtetés\n A fájl nem módosítja a helyzetet: jelenleg nincs harmadik fél, aki GPT‑5 Pro API‑t adna ingyenes próbával és legalább ~1M kérés/nap kapacitással; az ilyen igény gazdaságilag és rate‑limit szempontból is irreális a nyilvánosan hozzáférhető csatornákon.[1]\n\nHa továbbra is GPT‑5 Pro kell, a reális út vállalati/hiteles csatornákon át (pl. hivatalos OpenAI/ Azure programok, startup kreditek), ahol a kvóták és költségek szerződés‑ és esettől függők — de ezek sem “ingyen + 1M/nap” jellegűek nyílt próbaként.[1]",
+      "created_at": "20251016T18:57:07.330635Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

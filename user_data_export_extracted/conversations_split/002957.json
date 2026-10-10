@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7dce8f262d894a9f83f5eada7f724e75",
+  "context_title": "ddpmpokemongen64",
+  "created_at": "20260413T20:11:39.220551Z",
+  "updated_at": "20260413T20:12:00.848638Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "40b6853120d84a6aa81e14816f25c232",
+      "query": "ddpmpokemongen64",
+      "answer": "A ddpmpokemongen64 egy DDPM (Denoising Diffusion Probabilistic Model) alapú képgeneráló modell, amelyet 64×64 pixeles Pokémon képek generálására tanítottak be.\n\n Mi ez a modell?\n\nA FelixChao/ddpm-pokemon-64 egy nyilvánosan elérhető diffúziós modell a Hugging Face platformon, amelyet a Diffusion Models Class 1. egységének keretében hoztak létre. A modell a diffusers könyvtár DDPMPipeline osztályán alapul, és 64×64 pixeles felbontású Pokémon képeket képes generálni semmiből, pusztán véletlenszerű zajból kiindulva.[1]\n\n Hogyan működik a DDPM?\n\nA DDPM (Denoising Diffusion Probabilistic Model) egy generatív deep learning architektúra, amely két folyamaton alapul. Az előre irányú folyamat során a modell fokozatosan Gausszajt ad a képekhez, amíg azok teljesen véletlenszerű zajjá nem válnak. A visszafelé irányú folyamat során egy UNet neurális hálózat megtanulja ezt a zajt lépésről lépésre eltávolítani, így képes új, valószerű képeket generálni. A modellt általában legalább 1000 epochon át tanítják, és a kimenet vizuális minősége erősen függ az UNet komplexitásától.[5]\n\n Hogyan használható?\n\nA modell egyszerűen betölthető és futtatható a Hugging Face diffusers könyvtárával:[1]\n\npython\nfrom diffusers import DDPMPipeline\n\npipeline = DDPMPipeline.from_pretrained('FelixChao/ddpm-pokemon-64')\nimage = pipeline().images[0]\nimage\n\n\nEz a néhány sornyi kód elegendő ahhoz, hogy a modell egy teljesen új, 64×64 pixeles Pokémonszerű képet generáljon. A modell súlyai és konfigurációs fájljai (config.json, model_index.json) mind elérhetők a Hugging Face repóban.[2][9]\n\n Kontextus és tanulási célok\n\nEz a projekt elsősorban oktatási célokat szolgál – a Hugging Face Diffusion Models kurzusának gyakorlati feladataként készült. A hasonló Pokemondiffúziós projektek (pl. shrebox/Pokemon-Diffusion) szintén UNet architektúrát alkalmaznak, és azt hangsúlyozzák, hogy kezdeti eredmények esetén a generált képek inkább elmosódott foltokra hasonlíthatnak, mintsem részletes Pokémon figurákra – ez normális jelenség kis modellek és kevés tanítási lépés esetén.[5][1]",
+      "created_at": "20260413T20:11:39.277623Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

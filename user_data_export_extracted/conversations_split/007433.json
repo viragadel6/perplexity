@@ -1,0 +1,28 @@
+{
+  "context_uuid": "b940bb5906a249419f5e3e92f430d5dd",
+  "context_title": "",
+  "created_at": "20251018T15:53:52.149726Z",
+  "updated_at": "20251018T16:00:06.435109Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f352e9f27e834d1cbf1c0067ed3de551",
+      "query": "",
+      "answer": "A keresett fájl az \"\" egy rendszerparancs (system prompt) a Claude Sonnet 4.5 nevű AI modellhez, amelyet az elderplinius nevű GitHub felhasználó töltött fel a CL4R1T4S nevű tárolóba. Ez a fájl tartalmazza a Claude Sonnet 4.5 modell teljes rendszerutasításait, amelyek meghatározzák a modell viselkedését, hangnemét és céljait a használat során. A CL4R1T4S projekt célja a mesterséges intelligenciák működésének átláthatósága és megfigyelhetősége, azaz a rendszerparancsok és egyéb AIk működését szabályozó beállítások nyilvánossá tétele az átláthatóság érdekében. A fájl tartalma kb. 80 000 karakter, jelentős méretű, és betekintést enged az AIüzemmód részleteibe, amelyeket a felhasználók általában nem látnak a beszélgetések során. Így a Claude modell működésének megértésében segít ez a kiszivárogtatott rendszerparancs.[1][3][5]\n\nRöviden, ez a fájl a Claude Sonnet 4.5 AI rendszerének alapvető működési szabályait tartalmazza, amely a nyilvánosság számára hozzáférhetővé tett AI rendszerparancsokat tartalmazza a modell viselkedésének teljes képi megértéséhez.",
+      "created_at": "20251018T15:53:52.606646Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "9f485ee9f8644f009d9ead2698ef09fa",
+      "query": "mit lehet vele csinalni",
+      "answer": "Egy kiszivárogtatott AI rendszerparanccsal (system prompt), mint amilyen a Claude Sonnet 4.5 szövege is, számos dolgot lehet csinálni, amelyek hasznos tudást, elemzési lehetőségeket és tanulási tapasztalatokat kínálnak.[1][2][3]\n\n Kutatás és elemzés\n\nA rendszerparancsok elemzése lehetővé teszi, hogy megértsük, hogyan működnek az AI modellek belülről, milyen viselkedési szabályokat követnek, és milyen korlátozásokkal rendelkeznek. Ez különösen hasznos kutatók és fejlesztők számára, akik mélyebb betekintést szeretnének nyerni a nagy nyelvi modellek architektúrájába és működési logikájába.[4][5][6][1]\n\n Promptkészítés fejlesztése\n\nA professzionális rendszerparancsok tanulmányozása segít hatékonyabb promptokat írni saját használatra. A kiszivárgott promptokból tanulhatunk arról, hogyan strukturálják a feladatokat, hogyan határozzák meg a szerepköröket, formátumokat és célközönségeket, amelyek mind kulcsfontosságúak a jó AI válaszok generálásához.[7][8][9][3][10]\n\n Biztonsági tesztelés\n\nA rendszerparancsok ismerete lehetővé teszi a biztonsági sebezhetőségek feltárását, például azt, hogy mely szabályok kerülhetők meg prompt injection támadásokkal. Ez segít a fejlesztőknek biztonságosabb AI alkalmazásokat létrehozni azáltal, hogy azonosítják a gyenge pontokat és javítják a védelmeket.[2][1]\n\n Reverse engineering\n\nA kiszivárgott promptok visszafejtésével megérthetjük, hogy egy adott AI válasz milyen utasításokból és logikából született. Ez hasznos a debuggolásban, az AI viselkedésének előrejelzésében és a modell finomhangolásában.[5][6][4]\n\n Oktatási célok\n\nA rendszerparancsok tanulmányozása kiváló oktatási eszköz azok számára, akik szeretnék elsajátítani a prompt engineering művészetét. A valós példák segítenek megérteni, hogyan kell hatékonyan kommunikálni az AI rendszerekkel, és milyen technikákat alkalmaznak a professzionális fejlesztők.[11][12][3][13]",
+      "created_at": "20251018T15:59:38.982147Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

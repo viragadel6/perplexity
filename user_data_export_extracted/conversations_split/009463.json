@@ -1,0 +1,19 @@
+{
+  "context_uuid": "072edb90e1fc446cbf31cf206f770dbd",
+  "context_title": "me leaning confidently against the right side of a black BMW E60 520d with white leather interior. It’s nighttime with a dreamy, deep violet and magenta sky transitioning into full darkness. dressed in stylish allblack clothing — modern, sleek streetwear — exuding a “savage” aura. expression is intense, confident, and seductive, like a highfashion male model. The urban street is dimly lit, with soft reflections on the car’s polished surface. The scene should have dramatic contrast lighting, neonlike ambient glow from the sky, and a slightly gritty cinematic mood. Fullbody shot, detailed textures on skin, clothing, and car. Hyperrealistic, moody, highfashion editorial style.",
+  "created_at": "20250717T21:38:59.730106Z",
+  "updated_at": "20250717T21:38:59.730106Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "87ea44668bf44cecbcbcccd466928945",
+      "query": "me leaning confidently against the right side of a black BMW E60 520d with white leather interior. It’s nighttime with a dreamy, deep violet and magenta sky transitioning into full darkness. dressed in stylish allblack clothing — modern, sleek streetwear — exuding a “savage” aura. expression is intense, confident, and seductive, like a highfashion male model. The urban street is dimly lit, with soft reflections on the car’s polished surface. The scene should have dramatic contrast lighting, neonlike ambient glow from the sky, and a slightly gritty cinematic mood. Fullbody shot, detailed textures on skin, clothing, and car. Hyperrealistic, moody, highfashion editorial style.",
+      "answer": "Image generated: 'A hyperrealistic fullbody shot of a man in allblack streetwear leaning against a black BMW E60 520d at night, under a violet and magenta sky, with dramatic neon light and a moody, cinematic feel.'",
+      "created_at": "20250717T21:38:59.862307Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

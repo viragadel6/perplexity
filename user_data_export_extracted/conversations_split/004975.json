@@ -1,0 +1,28 @@
+{
+  "context_uuid": "0db7ada3ae434f028aa0618638518c15",
+  "context_title": "inference.cerebras docsrol mindegyik linket kuld ami a glm 4.7 modelrol szol\nválaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20260113T10:57:46.679253Z",
+  "updated_at": "20260113T12:05:07.601772Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7c12045920a249fc9642b296a797f1df",
+      "query": "inference.cerebras docsrol mindegyik linket kuld ami a glm 4.7 modelrol szol\nválaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "\n\n (\\\"Migrate to GLM 4.7\\\" szekció)[4]\n\n\n (GLM4.7 említések)[6]\n (főoldal, GLM4.7 banner/link)[7]",
+      "created_at": "20260113T10:57:46.798973Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "05d060d2f466446c9d956d28e1e721dd",
+      "query": "válaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül. teljeseeg igenyevel osszes linket",
+      "answer": "Az inference.cerebras.ai dokumentációjában a GLM 4.7 modelről beszélő összes link:\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ",
+      "created_at": "20260113T11:01:34.067333Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

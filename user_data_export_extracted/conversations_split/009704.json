@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e729aa4aa0e94c188a23b147c25b063a",
+  "context_title": "Olyan platform ahol a legeslegfrissebb ai modellek beta verzioit probalhatom ki tesztelokent",
+  "created_at": "20250704T19:37:32.939420Z",
+  "updated_at": "20250704T19:37:32.939420Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9aab5ae183bf4a24bfc0db0a91cad846",
+      "query": "Olyan platform ahol a legeslegfrissebb ai modellek beta verzioit probalhatom ki tesztelokent",
+      "answer": "Ha a legfrissebb AI modellek béta verzióit szeretnéd kipróbálni tesztelőként, több platform is létezik, ahol naprakész, akár kísérleti (béta) állapotú generatív AImodelleket tesztelhetsz, gyakran ingyenesen vagy fejlesztői sandbox környezetben:\n\n1. GitHub Models\n A GitHub új „Models” szolgáltatása lehetővé teszi, hogy fejlesztők interaktív sandbox környezetben próbálják ki a legújabb generatív AImodelleket, például a Meta Llama 3.1et, OpenAI GPT4ot, GPT4o minit, Mistral Large 2t stb.\n Nincs szükség több fiókra vagy regisztrációra, egyetlen felületen különböző modelleket és paramétereket tesztelhetsz, akár a GitHub Codespaces vagy Visual Studio Code környezetben is[6].\n\n2. OpenAI Playground\n Az OpenAI saját webes „Playground” felületén a legújabb OpenAI modelleket (például GPT4, GPT3.5 Turbo) lehet valós időben, interaktívan tesztelni.\n Többféle üzemmódot kínál (chat, asszisztens, befejezés), fejlett fejlesztői funkciókkal, például kódértelmezéssel, prompt finomhangolással, valószínűségi visszajelzésekkel[10].\n\n3. Hugging Face\n Bár a keresési találatok nem említik explicit módon, a Hugging Face platform is közismerten lehetőséget ad a legújabb (gyakran béta) AImodellek kipróbálására, akár saját felhőjükben, akár helyben futtatva. Itt sok fejlesztő elsőként publikálja legújabb modelljeit.\n\n4. AI Hub (mobil app)\n Az AI Hub alkalmazásban több mint 50 LLM (nagy nyelvi modell) érhető el, köztük friss, béta állapotú modellek is, amelyeket közvetlenül mobilról lehet kipróbálni[12].\n\n5. Azure AI Solutions\n Az Azure platformon keresztül is hozzáférhetsz a legújabb OpenAI modellekhez, például az o1 és GPT4 sorozathoz, fejlesztői környezetben[4].\n\nFontos tudni:\n A legeslegfrissebb, még nem publikált vagy zárt béta modellekhez általában csak meghívásos vagy jelentkezéses alapon lehet hozzáférni (pl. OpenAI, Google, DeepSeek saját bétaprogramjai).\n A legtöbb nyilvános platformon (GitHub Models, OpenAI Playground, Hugging Face) a modellek legújabb, publikus vagy publikus béta verzióit lehet tesztelni, de ezek gyakran naprakészek és fejlesztői visszajelzést is várnak[6][10].\n\nÖsszefoglalva:  \n GitHub Models és OpenAI Playground a legkényelmesebb, leggyorsabb módja a legújabb AI modellek tesztelésének egy helyen, regisztráció vagy bonyolult beállítások nélkül[6][10].\n Ha zárt bétákat keresel, érdemes figyelni az AI fejlesztők hivatalos oldalait, Discord szervereit, vagy jelentkezni tesztelői programokra.\n\nEzeken a platformokon tesztelőként első kézből tapasztalhatod meg a legújabb AI fejlesztéseket, és akár visszajelzést is adhatsz a készítőknek.",
+      "created_at": "20250704T19:37:32.967241Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7d297aff0db049538eaee5714f89593e",
+  "context_title": "ios 18.1 jailbreak",
+  "created_at": "20250713T20:20:13.419292Z",
+  "updated_at": "20250713T20:20:13.419292Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5b4f71581b804d59a5d8df44a8aee23e",
+      "query": "ios 18.1 jailbreak",
+      "answer": "Jelenleg nincs elérhető jailbreak az iOS 18.1hez. A keresési eredmények között nem található információ sem iOS 18.1, sem újabb iOSverziók jailbreakjéről. A legfrissebb, dokumentált jailbreakek korábbi iOSverziókra vonatkoznak, és a jelenlegi trendek alapján az Apple folyamatosan javítja a biztonsági réseket, így az újabb rendszerek feltörése egyre nehezebb és ritkább.\n\nÁltalános tudnivalók a jailbreakről:\n A jailbreak lehetővé teszi, hogy a felhasználó olyan alkalmazásokat és módosításokat telepítsen, amelyeket az Apple hivatalosan nem engedélyez[1][6].\n A jailbreakelés biztonsági és adatvédelmi kockázatokat rejt, valamint garanciavesztéssel járhat[1].\n A legújabb iOSverziókhoz gyakran hónapokig, akár évekig sem jelenik meg működő jailbreak, vagy egyáltalán nem is készül hozzájuk.\n\nHa iOS 18.1es eszközre keresel jailbreaket, jelenleg nem áll rendelkezésre ilyen megoldás. Ha a jövőben lesz fejlemény, azt a jailbreak közösség (pl. Reddit, X, fejlesztői blogok) rendszerint gyorsan hírül adja.",
+      "created_at": "20250713T20:20:13.459152Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

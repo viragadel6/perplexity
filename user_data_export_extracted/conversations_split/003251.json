@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9524c62f900947778e35cac454385b1b",
+  "context_title": "GAIR/daVinciMagiHuman van olyan jo mint a grok kmage to video?",
+  "created_at": "20260326T23:41:54.758759Z",
+  "updated_at": "20260326T23:42:53.562038Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "12e1d7c21f5b443391097bd37d0fc425",
+      "query": "GAIR/daVinciMagiHuman van olyan jo mint a grok kmage to video?",
+      "answer": "Ez egy nagyon érdekes összehasonlítás, de a két modell valójában nem teljesen ugyanolyan kategóriában versenyez – részben átfednek, de eltérő erősségeik vannak.\n\n Mi az a daVinciMagiHuman?\n\nA GAIR/daVinciMagiHuman a Shanghai SII GAIR Lab (Dr. Pengfei Liu vezetésével) és a Sand.ai közös fejlesztése, amely 2026. március 2324én jelent meg. Ez egy nyílt forráskódú, 15 milliárd paraméteres singlestream Transformer modell, amely egyszerre generál videót és hangot – emberi tartalmakra (arcok, ajkak szinkronja, beszéd) specializálva. Legfontosabb technikai újítása, hogy a szöveg, videó és audiotokeneket egyetlen közös látens térben kezeli, külön fúziós modulok nélkül.[1][2]\n\nA sebesség figyelemre méltó: egyetlen H100 GPUn 2 másodperc alatt generál 5 másodperces 256p videót, míg HD 1080ps kimenet kb. 38 másodpercet vesz igénybe. A közösség szerint legyőzi az LTX 2.3at, és nyílt forráskódú szinten kiemelkedő.[3][4]\n\n Grok ImagetoVideo képességek\n\nA Grok Imagine (xAI) imagetovideo funkciója egy általánosabb célú animációs eszköz: statikus képet tölt fel a felhasználó, majd szöveges prompttal leírja a kívánt mozgást, kameraviselkedést. A jelenlegi output 720p felbontású, maximum 10 másodperces klip, automatikus hangszinkronizálással és gyors generálási idővel. A Grok Imagine szöveges promptból is tud videót generálni, és a platform audio effekteket is illeszt a klipekhez.[5][6][7]\n\n Miben különböznek valójában?\n\n| Szempont | daVinciMagiHuman | Grok ImagetoVideo |\n||||\n| Forrás | Nyílt forráskódú (HuggingFace) | Zárt, kereskedelmi (xAI) |\n| Fókusz | Emberi tartalom (lipsync, avatar) | Általános képanimáció |\n| Felbontás | 1080p HD elérhető | 720p |\n| Audio | Natív, szinkronizált generálás | AIgenerált, hozzáadott |\n| Paraméterszám | 15B | Nem nyilvános |\n| Hozzáférés | Önállóan futtatható | Grok előfizetés szükséges |\n\nA döntő különbség a felhasználási eset: ha szinkronizált, emberi arcokat és ajkakat ábrázoló videókat szeretnél generálni (pl. digitális avatarok, AI előadók, talkinghead tartalom), a daVinciMagiHuman jelentősen jobb, mert erre lett optimalizálva. A Grok imagetovideo ezzel szemben sokkal általánosabb – tájakat, tárgyakat, állatos képeket stb. is jól animál, és sokkal egyszerűbben elérhető böngészőből. Ha opensource megoldást keresel és erős hardvered (H100 GPU vagy hasonló) van, a daVinciMagiHuman versenyképes vagy jobb alternatíva lehet a Grokhoz képest emberi tartalmak terén.[2][4][6][3][5]\n\nMilyen típusú videókat szeretnél generálni – emberi arcokat/avatárokat, vagy inkább általános animációkat?",
+      "created_at": "20260326T23:41:55.018936Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

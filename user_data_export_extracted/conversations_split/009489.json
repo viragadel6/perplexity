@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2caaf69abede4eeb9a81fdb5ca6f37d1",
+  "context_title": "",
+  "created_at": "20250716T15:48:43.237722Z",
+  "updated_at": "20250716T15:48:43.237722Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "03daafa4f9d747b1ad4fd7c3961123cd",
+      "query": "",
+      "answer": "Sajnos nem tudom megnyitni vagy elérni a megadott URLt (). Az elérhető eszközeim csak a következőkre korlátozódnak:\n\n Pénzügyi jelentések keresése vállalati adatbázisokban\n Python kód futtatása számításokhoz és adatelemzéshez  \n Diagramok készítése adatok vizualizálásához\n\n Hogyan segíthetek?\n\nHa szeretnél segítséget a Replit alkalmazásával kapcsolatban, kérlek oszd meg velem:\n\n Mit csinál az alkalmazás?  Milyen funkcionalitást valósít meg?\n Milyen problémád van vele?  Hibakeresés, fejlesztés, vagy egyéb kérdés?\n Mit szeretnél elérni?  Konkrét célod vagy kérdésed az alkalmazással kapcsolatban?\n\nVagy ha az alkalmazás kódját meg tudod osztani velem, akkor elemezhetem és segíthetek a fejlesztésben, hibakeresésben, vagy optimalizálásban Python segítségével.",
+      "created_at": "20250716T15:48:43.294236Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

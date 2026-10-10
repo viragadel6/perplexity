@@ -1,0 +1,37 @@
+{
+  "context_uuid": "5b75bf30154949c7ad5e41247aa911ba",
+  "context_title": "exa ai prompt guide",
+  "created_at": "20251222T14:03:59.640192Z",
+  "updated_at": "20251222T14:52:17.692297Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7d863f3e6d1d4a288dab56b09eb59c40",
+      "query": "exa ai prompt guide",
+      "answer": " Exa AI prompt útmutató\n\nAz Exa AI egy mesterséges intelligenciával működő keresőmotor és webes API, amely különösen fejlesztők és kutatók számára lett tervezve. A rendszer hatékony használatához kulcsfontosságú a megfelelő promptolás, amely drámaian javíthatja a keresési eredmények relevanciáját és hasznosságát.[3][5]\n\n Mikor használjunk Exa keresést\n\nAz AI asszisztensnek akkor kell Exa keresést végeznie, amikor:[4]\n A felhasználó aktuális eseményekről, friss hírekről vagy időérzékeny információkról kérdez\n Adatokra, statisztikákra vagy olyan tényekre van szükség, amelyekben bizonytalan vagy\n Termékértékelések, összehasonlítások vagy piackutatás szükséges\n Tudományos publikációk, kutatások vagy technikai dokumentációk keresése a cél\n\n Hatékony promptolási stratégiák\n\nLegyél specifikus: A konkrét lekérdezések jobb Exa eredményeket adnak. Például a \"hírek az AIról\" helyett használd ezt: \"az elmúlt hónapban publikált AI áttörések az egészségügyben\".[4]\n\nMindig hivatkozz forrásokra: Állítsd be az asszisztenst, hogy mindig URLeket és forrásmegjelöléseket adjon meg az Exa keresési eredmények használatakor. Ez bizalmat épít és lehetővé teszi a felhasználók számára az információk ellenőrzését.[4]\n\nKombináld a kereséseket: Összetett lekérdezéseknél végezz több célzott keresést és szintetizáld az eredményeket. Például keress rá az \"iPhone 15 értékelések\"re, majd az \"iPhone 15 vs Samsung S24\"re, végül szintetizáld a megállapításokat.[4]\n\n Technikai paraméterek\n\nAz Exa API több hasznos paramétert kínál:[3]\n useAutoprompt: Automatikusan javítja a lekérdezést (alapértelmezés: false)\n type: Keresés típusa (neural, keyword, auto, fast)\n includeDomains/excludeDomains: Domain szűrés specifikus forrásokhoz\n summary: AI által generált összefoglalók beillesztése\n livecrawl: Élő weboldalak bejárási módja",
+      "created_at": "20251222T14:03:59.739047Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6f91c622ade2470da48653bc45ae8907",
+      "query": "de a talalat stb szamot kezzel kell be allitani xd",
+      "answer": "Igen, teljesen igazad van! 😄 A találatok számát (numResults vagy num_results) manuálisan kell beállítani az Exa API hívásakor.[1]\n\n Alapértelmezett és maximális értékek\n\nAz alapértelmezett eredményszám általában 10, de ez keresési típusonként változik:[2][1]\n Neural keresés: maximum 100 találat\n Deep keresés: maximum 100 találat\n Egyes integrációkban (pl. LlamaIndex): alapértelmezett 3[3]\n Sim.ai integráció: maximum 25[2]\n\nHa többre van szükséged a standard limietnél, kapcsolatba kell lépni az Exa értékesítési csapatával ([email protected]).[1]\n\n Példa használat\n\nKódban így állíthatod be a találatok számát:[4]\n\npython\nresult = exa.search_and_contents(\n    query,\n    type=\"auto\",\n    num_results=5,  # Itt állítod be manuálisan!\n    text={\"max_characters\": 1000}\n)\n\n\nVagy a research endpoint esetén:[5]\n\npython\nresearch_response = exa.research(\n    query=query,\n    num_results=5,  # Találatok száma keresési feladatonként\n    use_autoprompt=True\n)\n\n\nSzóval nincs automatikus \"ideális\" számmeghatározás  neked kell eldöntened, hogy az adott feladathoz 3, 10, vagy akár 100 találat kelle.[3][1]",
+      "created_at": "20251222T14:04:52.178692Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "c3a40db03a6748368e555a72c98f3af6",
+      "query": "akkor elkuldod vegre a kurva prompt guide linkeket vagy mi a faszom lesz",
+      "answer": "Itt vannak végre a kért Exa AI “prompt guide” linkek (a hivatalos, Exaspecifikus részekkel kezdve). Ha szeretnéd, leírom melléjük azt is, hogy melyiket mikor érdemes használni.\n\n Hivatalos Exa prompt guide\n\n Prompting Websets (Exa Docs): \n Websets – Prompting your search (Quick Guide videó): \n\n Exa API “promptolás” (query + paraméterek)\n\n Quickstart (példák: searchAndContents, streamAnswer, stb.): \n Search endpoint referencia (query, type, contents, numResults, stb.): \n Exa’s capabilities explained (mire jó az Exa, milyen módokon érdemes használni): \n FAQ (általános tudnivalók Exáról): \n\n Ha integrációval használod (hasznos)\n\n LangChain Exa Search integráció: \n LlamaIndex Exa tool leírás: \n\nMondd meg, te pontosan mire akarod (Websets leadlista / sima webkeresés RAGhoz / “answer engine” citeokkal), és küldök hozzá 2–3 kész, másolható prompt mintát.",
+      "created_at": "20251222T14:51:47.494729Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

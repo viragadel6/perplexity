@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9350665f89b14d7288838527ee5568bd",
+  "context_title": "Minden kategóriában keresek olyan ai modelt, mint a Gigapixel\nÚgy értem, hogy nagy nevű gyártó készítette, és messze felülmúlja az összes képfeljavítót – egyik másik app sem közelíti meg. Ennek ellenére nincs fenn az ajanlasok vagy google keresesek toplistáján, sőt szó szerint soha nem dobja fel.\nPont ilyen etalon modeleket keresek, amiket valamiért mégis alig ismer valaki – például videófeljavítás, kódolás, képszerkesztés és mindenféle más területe",
+  "created_at": "20251211T23:20:31.287370Z",
+  "updated_at": "20251211T23:20:31.287370Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "50fca17c53da48fdb8b0b00df0a2f881",
+      "query": "Minden kategóriában keresek olyan ai modelt, mint a Gigapixel\nÚgy értem, hogy nagy nevű gyártó készítette, és messze felülmúlja az összes képfeljavítót – egyik másik app sem közelíti meg. Ennek ellenére nincs fenn az ajanlasok vagy google keresesek toplistáján, sőt szó szerint soha nem dobja fel.\nPont ilyen etalon modeleket keresek, amiket valamiért mégis alig ismer valaki – például videófeljavítás, kódolás, képszerkesztés és mindenféle más területe",
+      "answer": "What are the best highperformance AI models for video upscaling, coding, and editing from major vendors that are industry secrets and outperform popular tools?\nMelyek a legjobb nagy teljesítményű AI modellek videófeljavításra, kódolásra és szerkesztésre nagy gyártóktól, amelyek ipari titkok és felülmúlják a népszerű eszközöket?",
+      "created_at": "20251211T23:20:31.944330Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

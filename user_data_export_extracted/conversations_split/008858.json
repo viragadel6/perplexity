@@ -1,0 +1,19 @@
+{
+  "context_uuid": "49209b7e28f946349e1449ee94cd462e",
+  "context_title": "kuld",
+  "created_at": "20250829T00:54:45.233728Z",
+  "updated_at": "20250829T00:54:45.233728Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "e8cdbf61042448ff8522329c46c72f3a",
+      "query": "kuld",
+      "answer": "English:\nsend\n\nMagyar:\nküld",
+      "created_at": "20250829T00:54:45.573195Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

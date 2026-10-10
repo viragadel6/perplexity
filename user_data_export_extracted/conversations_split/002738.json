@@ -1,0 +1,37 @@
+{
+  "context_uuid": "13467bc6a6eb40e4a1d8cc88b0461163",
+  "context_title": " Sign up for Enterprise Cloud organizationt regizek githubon. egyedul fejlesztem a Jaidet de egyeni vallalkozo vagyok két éve. le is fogom védettetni később a jaidet.",
+  "created_at": "20260425T11:27:34.098015Z",
+  "updated_at": "20260425T11:32:03.875658Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "968e6592bea64d86be40f59fd4998fee",
+      "query": " Sign up for Enterprise Cloud organizationt regizek githubon. egyedul fejlesztem a Jaidet de egyeni vallalkozo vagyok két éve. le is fogom védettetni később a jaidet.",
+      "answer": "Látom a helyzeted és segítek eligazodni! A képernyőképek alapján éppen a GitHub Enterprise Cloud regisztrációs űrlapot töltöd ki, ahol a \"Jaide\" nevet és \"jaide\" URL slugot adtad meg. Nézzük meg, mi a legjobb megközelítés a te esetedhez.[1]\n\n Szükséged vane valóban Enterprisere?\n\nA GitHub Enterprise Cloud havonta ~21 USD/felhasználó (azaz minimum ~252 USD/év), és főleg nagyobb csapatoknak, szigorú biztonsági és compliance követelményekkel rendelkező cégeknek való. Egyéni vállalkozóként, aki egyedül fejleszted a Jaidet, ez valószínűleg nem az ideális csomag számodra – legalábbis egyelőre.[1]\n\n Mi lenne a jobb választás?\n\nMivel egyedül dolgozol és a  is Replit környezetben fejlesztett Zig projekt , a GitHub Free vagy GitHub Pro (~4 USD/hó) teljesen elegendő lenne. A Pro csomaggal privát repókat is kezelhetsz korlátlanul, van GitHub Copilot hozzáférés, és minden lényeges funkció elérhető.\n\n Mikor érdemes Enterpriset fontolni?\n\nAz Enterprise Cloud elsősorban akkor releváns, ha a Jaide projekthez alkalmazottakat vagy alvállalkozókat veszel fel, és szükséged van SAML SSOra, audit logokra, vagy szigorú IPcím szűrésre . Ha a védjegyoltalomra gondolsz (amit helyesen tervezel), az teljesen független a GitHub csomagtól – azt a Magyar Szabadalmi Hivatal (SZTNH) vagy az EUIPOn keresztül kell intézni.\n\n Ha mégis Enterpriset szeretnél\n\nHa a jövőbeni növekedés miatt mégis létrehoznád az Enterprise fiókot, az űrlapon a \"Software & Internet\" industry kategória lesz a legjobb választás a Jaide projekthez. Az admin névhez és munkahelyi emailhez a saját adataidat add meg egyéni vállalkozóként, az Organization mezőt pedig hagyd \"Create without an organization\" értéken, hacsak nem akarsz már most külön orgot is.[2]\n\n A Jaide szellemi tulajdon védelme\n\nEgyéni vállalkozóként két éve fejlesztett, saját névvel ellátott szoftvertermékként a Jaide már most is élvez bizonyos szerzői jogi védelmet. A formális védjegyoltalom (®) bejegyeztetéséhez érdemes az SZTNHhoz fordulni – a szoftvernév védjegyként bejegyeztethető, az eljárás általában 612 hónapot vesz igénybe .",
+      "created_at": "20260425T11:27:34.263327Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "dc38b63c67c64ab3b90d7be552736e08",
+      "query": "csak free trial al regisztralok",
+      "answer": "Teljesen rendben van, a free trial egy remek lehetőség hogy kipróbáld mielőtt elköteleznéd magad![1]\n\n A 30 napos trial mit tartalmaz\n\nA GitHub Enterprise Cloud trial 30 napig ingyenes, és szinte minden Enterprise funkciót tartalmaz. Megkapod a GitHub Copilot Business hozzáférést (ami önmagában ~19 USD/hó értékű lenne), a GitHub Advanced Security és Secret Protection funkciókat, egy enterprise accountot szervezetek kezeléséhez, és akár 50 licencet felhasználóknak. Ez bőven elég, hogy megismerd a rendszert és eldöntsd, valóban szükséged vane rá.[2][1]\n\n Mi NEM része a trialnak\n\nFontos tudni, hogy a trial nem tartalmaz GitHub Codespacest, GitHub Copilot Enterpriset (csak a Business verziót), GitHub Sponsorst, fizetős Marketplace appokat, és a GitHub Actions percek is korlátozottak (max 3000 perc standard runner). Ez egyéni fejlesztőként valószínűleg nem fog gondot okozni.[2]\n\n Mi történik a 30 nap után\n\nHa a trial lejár és nem fizetsz elő, a Jaide projektjeid és az enterprise account egy lecsökkentett állapotban maradnak meg, tehát nem veszíted el az adataidat azonnal. Ha esetleg megszakítod a trialt, az enterprise fiókhoz kapcsolt szervezetek visszaállnak az eredeti állapotukba. Mivel az űrlapon a \"Create without an organization\" opciót hagytad meg, ez neked egyszerűbb helyzet.[3][4]\n\n A regisztráció befejezése\n\nAz iparág mezőhöz a \"Software & Internet\" kategória a legmegfelelőbb a Jaide projekthez. Az admin névhez és munkahelyi emailhez saját egyéni vállalkozói adataidat add meg. A  és további 4 privát repód már most is látható a kollarsandor fiókodhoz kötve , ezeket a trial alatt az enterprise alá vonhatod ha szükséges.[5]",
+      "created_at": "20260425T11:29:31.918859Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "406c4d91569e423da7fe3557c30c38cd",
+      "query": "akkor mi a faszra jo",
+      "answer": "Rendben, megértelek – akkor mit kapsz a free triallal a te esetedben konkrétan?\n\n Ami ténylegesen hasznos lesz neked\n\nA  projektedből látom, hogy egy komoly, Zigben írt LLM architektúrán dolgozol , formális verifikációval (Lean 4, Beluga, Mizar), GPU kernelekkel és IBM Quantum integrációval. Ez igenis indokolja az Enterprise trialt, mert a 30 nap alatt ingyen kipróbálhatod a GitHub Advanced Securityt – ez automatikusan szkennel secret leakeket, dependency sebezhetőségeket és code scanninget a privát repóidban is . Egyébként ezek a funkciók Pro csomaggal nem elérhetők.\n\n Ami valójában nem fog kelleni\n\nA trial többi Enterpriseonly funkciója (SAML SSO, audit log, IP szűrés, managed user provisioning) egyedüli fejlesztőként teljesen felesleges számodra . Ezek nagyvállalati compliance és HRintegrációs eszközök, nem fejlesztői productivitás funkciók.\n\n A valódi érték a Jaide esetén\n\nMivel a Jaide projekt tartalmaz GPU kernel kódot, Lean 4 formális bizonyítékokat, és várhatóan API kulcsokat / IBM Quantum tokeneket is , a Secret Scanning Protection az egyetlen Enterprise funkció, ami tényleg megvédhet téged – ez megakadályozza, hogy véletlenül nyilvános repóba kerüljön egy API kulcs. Ezt a 30 napos trial után érdemes mérlegelni, hogy megérie fizetős csomagra váltani, vagy elegendő a GitHub Pro (~4 USD/hó), ami már tartalmaz korlátlan privát repót és Copilot hozzáférést.",
+      "created_at": "20260425T11:31:02.155694Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

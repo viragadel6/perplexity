@@ -1,0 +1,19 @@
+{
+  "context_uuid": "935c1766253b4c3fb5b5a8a21886b3e4",
+  "context_title": "",
+  "created_at": "20260226T17:10:23.833826Z",
+  "updated_at": "20260226T17:12:21.273241Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8ccff17628ba46889441a3c5e54f5f66",
+      "query": "",
+      "answer": "A https://github.com/kaiizie/moonlang URLt sajnos nem sikerült elérni — a GitHub repo vagy nem létezik, privát, vagy esetleg eltávolították. A keresési eredmények sem találtak semmilyen releváns találatot erre a konkrét felhasználóra (kaiizie) és repóra (moonlang).\n\n Mi lehet az oka?\n\nA GitHub néha 404es hibát ad vissza a következő esetekben:\n\nA repó nem létezik vagy törölve lett. A kaiizie/moonlang kombináció egyetlen nyilvános forráson sem jelenik meg, ami azt sugallja, hogy a repó sosem volt publikusan indexelve, vagy azóta törölték.\n\nA repó privát. Ha a tulajdonos privátnak állította be, akkor csak bejelentkezve és megfelelő jogosultsággal érhető el — keresőrobotok és külső eszközök nem tudják megnyitni.\n\nGépelési hiba a URLben. Lehetséges, hogy a felhasználónév (kaiizie) vagy a repónév (moonlang) esetleg másképp van írva. Érdemes ellenőrizni közvetlenül a GitHubon a böngésződben.\n\n Mit tehetsz?\n\nHa a repót szeretnéd elérni, próbáld ki a következőket: navigálj közvetlenül a https://github.com/kaiizie profilra a böngésződben — ha a profil létezik, ott láthatod a nyilvános repókat. Ha privát a repó, a tulajdonosnak meg kell adnia neked a hozzáférést. Ha esetleg másik platformon (pl. GitLab, Codeberg) keresed ugyanezt a projektet, próbálj ott is rákeresni a moonlang névre.[1]\n\nHa pontosabb információt tudsz adni a projektről (pl. mi a célja, milyen programozási nyelven íródott), szívesen segítek azzal kapcsolatban is!",
+      "created_at": "20260226T17:10:24.510546Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "context_uuid": "88eeeb4ebc164098a4d16e536ee9af78",
+  "context_title": "erthetoen",
+  "created_at": "20250730T21:28:58.022427Z",
+  "updated_at": "20250730T21:32:52.893709Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "83f896bc550946d3ade0a05bca1bf802",
+      "query": "erthetoen",
+      "answer": "A kép egy ár és kapacitásösszehasonlító táblázatot mutat a Groknyelvi modellekhez. Íme a lényeg magyarul, közérthetően:\n\n Főbb különbségek a Grokmodellek között\n\n| Modell | Konteksztméret (token) | Percenkénti limit | Alapár / 1M token | Finomított ár / 1M token | Megjegyzés |\n|  |  |  |  |  |  |\n| grok40709 | 256 000 | 480 kérés/perc | $3.00 | $15.00 | Legnagyobb szövegablak, drágább finomhangolás |\n| grok3 | 131 072 | 600 kérés/perc | $3.00 | $15.00 | Hosszú kontextus, standard ár |\n| grok3mini | 131 072 | 480 kérés/perc | $0.30 | $0.50 | Olcsóbb, kisebb modell |\n| grok3fast | 131 072 | 600 kérés/perc | $5.00 | $25.00 | Gyorsított válasz, magasabb ár |\n| grok3minifast | 131 072 | 180 kérés/perc | $0.60 | $4.00 | Mini, de gyorsabb verzió |\n| grok2vision1212 (useast1) | 32 768 | 600 kérés/perc | $2.00 | $10.00 | Szöveg + kép bemenet, kisebb kontextus |\n| grok2vision1212 (euwest1) | 32 768 | 50 kérés/mp | $2.00 | $10.00 | Ugyanaz európai régióban, szigorúbb limit |\n\n Értelmezés\n\n Konteksztméret: ennyi tokent (szótöredéket) tud a modell egyszerre „fejben tartani”. Minél nagyobb, annál hosszabb dokumentumot kezel.\n Rate limit: mennyi lekérdezést (kérést) enged a szolgáltató adott idő alatt. Az rpm / rps érték mutatja az egyidejű terhelhetőséget.\n Árak: két tétel szerepel—az alapkiadás (inference) és a finomhangolás (finetune). Utóbbi jellemzően ötször drágább.\n Fast jelzésű modellek rövidebb válaszidőre optimalizáltak, cserébe magasabb a tokendíj.\n Mini jelzés olcsóbb, kisebb paraméterszámú variáns, amely legtöbbször elég a hétköznapi feladatokra.\n\n Gyors döntési segéd\n\n Ha óriási dokumentumokat kell elemezni: válaszd a grok40709et.\n Árérték arányra fókuszálsz: grok3mini a legolcsóbb általános modell.\n Villámgyors interaktív chatbot kell: grok3fast vagy grok3minifast.\n Multimodális (szöveg + kép) feladatokhoz: grok2vision1212.\n Európai adatszuverenitás fontos: válaszd az euwest1 régiós modelleket, számíts kisebb sebességre.",
+      "created_at": "20250730T21:28:58.125355Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "0beb2326948842c28adcbec945af89f6",
+      "query": "de akkor ez az hogy en mennyit hasznalhatom nem?",
+      "answer": "Igen – a „Rate limits” oszlop pont azt mutatja, milyen sűrűn kérdezheted a modellt:\n\n  rpm (requests per minute)  \n  rps (requests per second)\n\nPéldák:  \n grok3minifast: 180 kérés/perc → legfeljebb minden ⅓ másodpercben küldhetsz egy új promptot.  \n grok40709: 480 kérés/perc → kb. 8 kérés/másodperc.  \n euwest1es grok2vision1212: 50 kérés/mp → itt másodpercenként számolja, nem percenként.  \n\nHa túlléped a limitet, a szolgáltató HTTP429 („Too Many Requests”) hibával visszautasítja az új hívásokat, ezért a kliensedben érdemes ratelimitet (pl. várakozást vagy újrapróbálkozást) beépíteni.\n\nÖsszefoglalva:  \n– A tokendíj azt mutatja, mennyibe kerül az egyes hívások tartalma.  \n– A ratelimit pedig azt szabályozza, milyen gyorsan (milyen gyakran) hívhatod a modellt.",
+      "created_at": "20250730T21:29:37.895516Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "2b6189bb9bf04c4290a0666818d25ac7",
+      "query": "akkor grok 4 bol ilyen sokat hasznalgatok?",
+      "answer": " Mit jelent ez a gyakorlatban a grok40709 modellnél?\n\n Ratelimit: 480 kérés/perc → nagyjából 8 kérés/másodperc.  \n Költség: $3.00/1M token (inference) és $15.00/1M token (finomhangolás).\n\n Mennyi használat fér bele?\n\n1. Kérések száma:  \n     Maximálisan percenként 480 APIhívást indíthatsz.  \n     Ha ezt egész nap folyamatosan kihasználod: 480 × 60 = 28 800 kérés/óra.\n\n2. Tokenkeret:  \n     Egyetlen hívásnál akár 256 000 tokent is elkérhetsz, de ezt ritkán használod ki teljesen.  \n     A valós költséget az határozza meg, hogy ténylegesen hány tokent küldesz be és kapsz vissza.\n\n3. Példa számítás (tipikus 2 0002 000 tokenes chat):  \n     4 000 token/hívás → 480 hívás × 4 000 = 1 920 000 token/perc.  \n     Díj: 1.92 M token × $3.00 ≈ $5.76 percenként.  \n     Napi 8 óra nonstop terhelés mellett ez már több ezer dollár.\n\n Összefoglalva\n\n Igen, technikailag “sokat használhatod” – percenként akár 480 hívást is.  \n A korlátot nem a kvóta, hanem inkább a pénztárcád és a valódi igény jelenti.  \n Érdemes beépíteni egy mérőlogikát, ami figyeli a tokenfogyasztást, nehogy meglepetés érjen számlázáskor.",
+      "created_at": "20250730T21:30:25.029205Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "59ac895f678c4b8f9c0c20d601853db1",
+      "query": "magyarul ha egy webappva amu python backendes integralom akkor napi monjduk 900 uzenetet kuldhetrk neki siman nem?",
+      "answer": " Napi 900 üzenet a Grok40709 modellel\n\nIgen, gond nélkül belefér.\n\n Miért fér bele?\n\n Ratelimit: 480 kérés/perc → elméletben akár 28,800 kérés/óra küldhető.  \n Napi 900 üzenet: ez mindössze átlagosan 0.625 kérés/perc (900 ÷ 24 ÷ 60).  \n A napi 900 hívás tehát a megengedett csúcsértéknek csupán 0.13%a, ezért a szolgáltató nem fogja throttleolni a forgalmat.\n\n Mire figyelj még?\n\n Tokenfogyasztás: a pénzt a be és kimenő tokenek száma határozza meg, nem a hívások darabszáma.  \n    Példa: ha egy üzenet összesen 3,000 tokent emészt fel (prompt+válasz), napi 900 hívás → 2.7 M token/nap → 2.7 × $3 ≈ $8.10/nap.  \n Sávos terhelés: ha rövid idő alatt (pl. 12 mp) indítasz hirtelen több száz kérést, közelítheted a 480 rpm plafont. Érdemes a kéréseket egyenletesen elosztani vagy sorba állítani.  \n Hibakezelés: építs be retry logikát HTTP429 (Too Many Requests) esetére, bár ekkora forgalomnál ez ritkán fordul majd elő.\n\n Összefoglalás\n\nEgy Pythonalapú webalkalmazásból napi 900 üzenet simán kiszolgálható a grok40709 modellel; a technikai korlátot messze nem éri el, így elsősorban a tokendíjra és a hívások egyenletes ütemezésére kell ügyelni.",
+      "created_at": "20250730T21:31:13.519517Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f068970caf044e29b9003e67159e0684",
+      "query": "es ugy hogy meg nem vettem semennyi kreditet ugy is hasznalhatom? csak majd utolag ha kell fizetnem,",
+      "answer": "Alapesetben az ilyen nagy nyelvi modellek (mint a Grok40709) használatához előre kell vásárolnod kreditet vagy regisztrálnod egy fizetési módot, mielőtt ténylegesen elindíthatnád az APIhívásokat. A legtöbb szolgáltató (például OpenAI, Anthropic, stb.) nem engedi, hogy kredit vagy beállított fizetési mód nélkül elindítsd a hívásokat – kivéve, ha valamilyen ingyenes próbaidőszak vagy tesztkeret jár az új regisztrációhoz.\n\n Mire számíts?\n\n Ha NEM vásároltál kreditet, és NINCS próbaidőszak:  \n   Nagy eséllyel hibaüzenetet kapsz a próbálkozásnál, hogy „az egyenleged nulla”, vagy hogy „credit required”.\n Ha VAN valamilyen ingyenes kontingens (pl. bevezető promóció, tesztelés céljára 5 USD keret stb.):  \n   Addig használhatod a szolgáltatást, ameddig a próbakereted tart. Ez után viszont számlázás/letiltás jön.\n Későbbi fizetés („utólagos számlázás”):  \n   Ilyen rendszer általában csak üzleti ügyfeleknek vagy szerződéssel működik, amikor előre nem kell fizetned minden tranzakció után, csak hó végén vagy keret kimerülésekor.\n\n Összefoglalva\n\n Magánszemélyként – amíg nincs semennyi egyenleged/kredited, vagy nincs elérhető promóciós próbaidőszakod, a modell APIját nem tudod használni.\n Előbb kell feltölteni, csak aztán indíthatod a hívásokat.\n Egyes cégek engednek pár próbahívást regisztráció után, de erről mindig az adott szolgáltató szabályzata dönt.\n\nHa konkrét szolgáltatóról van szó, nézd meg a regisztrációs/elszámolási feltételeket, hogy járe ingyenes próba!",
+      "created_at": "20250730T21:32:10.113658Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "da5eea6a3ccc4666a6a6748b9509be17",
+      "query": "de akkor fasznak van limitem",
+      "answer": "A ratelimit (pl. 480 kérés/perc) nem azt szolgálja, hogy „téged személy szerint” akadályozzon, hanem azért létezik, hogy:\n\n A szervererőforrásokat igazságosan osszák el minden felhasználó között (nehezebb legyen túlterhelni a rendszert, DDoS támadást indítani, stb.).\n Megvédjék a szolgáltatót attól, hogy egyetlen ügyfél miatt leálljon a rendszer vagy az extrém terhelést kezelhetetlenné váljon.\n Előre kalkulálják a tervezhető, stabil költségeket: így tudják biztosítani, hogy nem fut el egy projekt költsége sem előre nem látott tömeges APIhívások miatt.\n\n Miért van tehát limit?\n\n Technikai stabilitás: Mindig maradjon elég kapacitás másoknak, ne tudja senki „kisajátítani” az egész rendszert.\n Gazdasági védelem: Szolgáltató is tudja kezelni erőforrásait, ne legyen extrém veszteség/váratlan, brutális hardverköltség.\n Biztonsági okokból: Nehezebb automatizált támadást vagy visszaélést végrehajtani.\n Jogosultsági szintek: Nagyvállalati ügyfeleknek kérésre emelni szokták a limittet, ha szükséges és jogos.\n\nTehát: a limit nem ellened van, hanem a rendszer védelmére és mindenkinek egyenlő hozzáférésére. Neked általában nem okoz gondot, mert napi 900 kérés például messze a limit alatt marad.",
+      "created_at": "20250730T21:32:42.775188Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

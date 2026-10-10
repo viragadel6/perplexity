@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4f119e474f504174a1222c3ada4e3aec",
+  "context_title": "melyik jelenleg a vilag legfejlettebb ai modellje ha csak 1 et valaszhatunk minden szempontbol? (nem arra gondolom hogy licenc meg open source e )\n\ngpt 4.5\ngpt 4.1\nclaude opus 4.1\ngrok 4? grok 4 heavy?\ngemini 2.5 pro?\nGPTOSS120B\nQwen3480B (Coder)\nQwen3235B (Instruct)\nQwen3235B (Thinking)\nQwen332B\nLlama3.370B\nLlama4Maverick\nLlama4Scout\nLlama3.18B\n\nstb teljesen az osszes kozul nezve csak nem ismerem mindet",
+  "created_at": "20250806T23:49:50.636909Z",
+  "updated_at": "20250806T23:49:50.636909Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5a225829da7d47b39d2caff3e72b2c47",
+      "query": "melyik jelenleg a vilag legfejlettebb ai modellje ha csak 1 et valaszhatunk minden szempontbol? (nem arra gondolom hogy licenc meg open source e )\n\ngpt 4.5\ngpt 4.1\nclaude opus 4.1\ngrok 4? grok 4 heavy?\ngemini 2.5 pro?\nGPTOSS120B\nQwen3480B (Coder)\nQwen3235B (Instruct)\nQwen3235B (Thinking)\nQwen332B\nLlama3.370B\nLlama4Maverick\nLlama4Scout\nLlama3.18B\n\nstb teljesen az osszes kozul nezve csak nem ismerem mindet",
+      "answer": " A legfejlettebb AImodell: GPT4.5\n\nA jelenleg elérhető modellek közül minden szempontot figyelembe véve a világ legfejlettebb AImodelljének az OpenAI GPT4.5ös verzióját tekinthetjük. \n\nEnnek indoklása:\n\n  Teljesítmény és szakértelem  \nGPT4.5 széles körben kiválóan teljesít mind általános nyelvi feladatokban (szövegértés, szövegalkotás, fordítás), mind speciális doménfeladatokban (kódgenerálás, jogi vagy orvosi támogatás), gyakran meghaladva a versenytársak pontszámait benchmarkokon.  \n  Multimodális képességek  \nA GPT4.5 nemcsak szöveget, de képeket is képes értelmezni és generálni, mélyebb kontextusértelmezést tesz lehetővé, ami előnyös az összetett, többféle forrást igénylő feladatoknál.  \n  Folyamatosság és stabilitás  \nA GPT4.5 párhuzamosan került finomhangolásra széleskörű valós használati esetekre, így robusztusabb válaszadást és konzisztensebb minőséget nyújt, mint a korábbi verziók vagy a legtöbb alternatív modell.  \n  Széles körű ökoszisztéma  \nOpenAI GPT4.5 támogatottsága és integrációi (APIk, pluginek) révén gyakorlatilag bármilyen üzleti és kutatási környezetbe beilleszthető, ami hozzáférést biztosít azonnali bővíthetőséghez és testreszabhatósághoz.  \n\nMindezek miatt, ha egyetlen modellt kell választani minden szempont – pontosság, sokoldalúság, stabilitás és alkalmazhatóság – alapján, a GPT4.5 nyeri a versenyt.",
+      "created_at": "20250806T23:49:50.738255Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

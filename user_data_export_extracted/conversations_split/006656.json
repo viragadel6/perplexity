@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9921e6aaec494a8aa545cf2475959639",
+  "context_title": "ebbe a css is benne van?",
+  "created_at": "20251105T08:52:33.130915Z",
+  "updated_at": "20251105T08:52:33.130915Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0ae8987eec8c47acb2c110df1e9e612c",
+      "query": "ebbe a css is benne van?",
+      "answer": "Röviden: a CSS nincs beágyazva ebbe a fájlba; csak külső stíluslapokra mutató hivatkozások szerepelnek benne.[1]\n\nA head részben több link rel=\"stylesheet\" tag látható (például globalheader.css, overview.built.css, main.built.css, overview.css), ami azt jelzi, hogy a stílusok külön .css fájlokból töltődnek be.[1]",
+      "created_at": "20251105T08:52:33.401947Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

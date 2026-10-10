@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0ccddca441544afcaa477e7f8f71afce",
+  "context_title": " ez mikori kiadas",
+  "created_at": "20250608T13:50:54.955581Z",
+  "updated_at": "20250608T13:50:54.955581Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7ca6331701b0464b8fd00c01355929c6",
+      "query": " ez mikori kiadas",
+      "answer": "A  modell pontos kiadási dátuma a keresési eredmények alapján nem található meg. Azonban a Topaz Video AI modellek verziózási és kiadási szokásai alapján a „thfv4” modell valószínűleg 2023 vége és 2024 közepe között jelent meg.\n\nA Topaz Video AI modellek típusairól és verzióiról szóló közösségi fórumokon 2023 augusztusában már említik a „thf” modelleket, és a verziózásuk (például „v4”) azt jelzi, hogy több iteráció után készült el ez a változat[2]. A fórumokon 2021 januári szerkesztésben is szerepel már a „thf” modell, de a konkrét „v4” verzió megjelenése ennél későbbi. A legfrissebb Video AI kiadások 2024–2025ös dátumúak, de a „thfv4” modell ennél régebbi, valószínűleg 2023 végén vagy 2024 elején került kiadásra[3].\n\nÖsszefoglalva:  \nA thfv4gnetfp32576x6724xox.tz modell várhatóan 2023 vége és 2024 közepe között jelent meg, de pontos, napra kész kiadási dátumot a keresési eredmények nem tartalmaznak[2][3].",
+      "created_at": "20250608T13:50:54.983192Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5fc02d7ebfe040bab90ac48980c3e6f4",
+  "context_title": " minden hibát javíts ki és pushold!",
+  "created_at": "20260421T12:23:19.389590Z",
+  "updated_at": "20260421T12:25:03.926197Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "cadce6e677f74a0ba6243288651cfad9",
+      "query": " minden hibát javíts ki és pushold!",
+      "answer": "Most már elegendő kontextussal rendelkezem a legfontosabb, fordítást blokkoló hibák javításához. Most pusholjuk a javításokat:",
+      "created_at": "20260421T12:23:19.654948Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

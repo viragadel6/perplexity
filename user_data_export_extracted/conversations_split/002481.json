@@ -1,0 +1,19 @@
+{
+  "context_uuid": "db2992df8ace4168926a8e1bc5cc1a6c",
+  "context_title": "hermon konyir be hol kell be lepni",
+  "created_at": "20260507T19:10:41.030712Z",
+  "updated_at": "20260507T19:11:43.925216Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "70a17bd446f84b23b292be752a7d119f",
+      "query": "hermon konyir be hol kell be lepni",
+      "answer": "A HERMONKÖNYIR (Körözési Nyilvántartás) a magyar rendőrség belső rendszere körözések, holttestek és hasonló nyilvántartások kezelésére, elérhető elsősorban az Ügyintézési Portálon keresztül.[1][2]\n\n Belépési hely\nA bejelentkezés a  oldalon történik, ahol Ügyfélkapuval vagy Cégkapuval kell belépni. Ez a portál kezeli a HERMONKÖNYIR webes hozzáférését, amit együttműködő szervek használnak.[3][4][5]\n\n Hogyan lépj be lépésről lépésre\nElőször regisztrálj Ügyfélkaput a  oldalon, ha még nincs. Ezután a  főoldalon válaszd az \"Új ügy indítása\" gombot, navigálj a megfelelő kategóriához (pl. körözéshez kapcsolódó űrlapok), ahol a rendszer kéri a bejelentkezést – add meg Ügyfélkapufelhasználónevedet és jelszavadat. A belépés után keresd a HERMONKÖNYIR menüpontot vagy űrlapokat, majd digitálisan aláírva küldheted el az ügyeket. Magánszemélyként vagy cégként is működik, utóbbi esetben előzetes meghatalmazás kell.[6][1]\n\nEz a rendszer főként hatósági, jogi vagy együttműködői használatra van, nem nyilvános keresésre. Ha rendőri vagy hivatali jogosultságod van, a belépés után korlátozottan érheted el (pl. karbantartásoknál).[7][4]",
+      "created_at": "20260507T19:10:41.293546Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

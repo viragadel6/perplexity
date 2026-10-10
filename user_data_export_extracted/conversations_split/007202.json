@@ -1,0 +1,19 @@
+{
+  "context_uuid": "835f50188547488d8e0fa6b8a5d888e5",
+  "context_title": "dragonfly cloud nal is gyorsabb db",
+  "created_at": "20251024T13:34:34.137967Z",
+  "updated_at": "20251024T13:34:34.137967Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "43226f24ae11444b8ec683b7ab495ea4",
+      "query": "dragonfly cloud nal is gyorsabb db",
+      "answer": "Sajnos a “Dragonfly Cloudnál is gyorsabb DB?” kérdésre még nem találtam elegendő, megbízható mérési adatot a nyilvános forrásokban, így jelenleg nem tudok pontos választ adni.",
+      "created_at": "20251024T13:34:34.275933Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

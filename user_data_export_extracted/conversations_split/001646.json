@@ -1,0 +1,19 @@
+{
+  "context_uuid": "cfb4a05361d04b89b77bfab62e02e9e5",
+  "context_title": "Iaz mit jelent hogy I strongly advise you to proceed with caution.?",
+  "created_at": "20260702T10:21:46.391970Z",
+  "updated_at": "20260702T10:22:50.159936Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "62a1a61488344f57b1ce3ab898352f0e",
+      "query": "Iaz mit jelent hogy I strongly advise you to proceed with caution.?",
+      "answer": "Az “I strongly advise you to proceed with caution” azt jelenti, hogy “erősen azt tanácsolom, hogy nagy óvatossággal / körültekintéssel járj el”.[1][2]\n\nA mondat hangneme komoly és figyelmeztető: nem csak azt mondja, hogy légy óvatos, hanem azt is sugallja, hogy van valamennyi kockázat vagy veszély, ezért érdemes nagyon megfontoltan lépni.[3][2]\n\n Egyszerű magyar megfelelő\nPár természetes fordítás:\n Erősen javaslom, hogy óvatosan haladj.[2][1]\n Nagy óvatossággal járj el.[3][2]\n Jól gondold meg, mielőtt továbbmész.[4][3]\n\n A szavak jelentése\nAz advise itt azt jelenti, hogy valakit tanácsolni vagy figyelmeztetni valamire.[5][1]\nA proceed with caution pedig azt jelenti, hogy óvatosan, körültekintően folytasd a dolgot, mert lehet benne bizonytalanság vagy veszély.[2][3]\n\nHa szeretnéd, le tudom fordítani a teljes mondatot formális, közvetlen és mindennapi magyar stílusban is.",
+      "created_at": "20260702T10:21:46.461733Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

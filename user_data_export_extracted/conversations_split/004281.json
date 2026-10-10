@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5e45755be65a4c5a8ce6e0221cddf608",
+  "context_title": "",
+  "created_at": "20260210T22:44:29.490672Z",
+  "updated_at": "20260210T22:44:39.999205Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "15b0916c30ad4751a311b632f2437762",
+      "query": "",
+      "answer": "A megadott URL egy Hugging Face modelloldalra mutat (AlignmentResearch/sequoiav0), de jelenleg nem férek hozzá közvetlenül az oldal tartalmához, ezért csak általánosan tudok segíteni, nem tudom pontosan leírni, mi van azon az oldalon.  \n\nAmit ennek ellenére tudsz megtenni, ha részletes magyarázatot szeretnél a modellről vagy a repo tartalmáról:  \n1. Nyisd meg a linket a böngészőben.  \n2. Másold be ide a következő részeket szövegként:  \n    a README eleje (modell leírás, intended use, limitations),  \n    a “Model card” fő szekciói,  \n    ha van, a “Configuration”/“Files and versions” legfontosabb paraméterei (pl. architektúra, paraméterszám, context window, kvantizációk).  \n3. Írd meg, hogy mire szeretnél fókuszálni:  \n    implementáció (hogyan futtasd, milyen HW kell),  \n    finomhangolás (SFT, DPO, RLHF, LoRA),  \n    biztonság/alignement szempontok,  \n    teljesítmény/benchmarkok,  \n    más modellekkel való összehasonlítás.  \n\nHa ezeket bemásolod, tudok:  \n lépésről lépésre leírást adni, hogyan indítsd/futtasd a modellt,  \n javasolni konkrét finomhangolási recepteket (pl. milyen learning rate, batch size, LoRA beállítás),  \n segíteni biztonsági guardrailek vagy értékelők (reward model / kritikusi modell) köré épített pipeline tervezésében,  \n összehasonlító táblázatot írni más modellekkel, amiket megnevezel (pl. “hasonlítsuk Llama3.170BInstructtal és Qwen2.572Bvel”).  \n\nÍrd le, pontosan mire kell a sequoiav0 (chatbot, tooluse agent, evalmodell, reward model, stb.), és úgy tudok egy nagyon részletes, erősen technikai, “productiongrade” választ adni.",
+      "created_at": "20260210T22:44:29.802608Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

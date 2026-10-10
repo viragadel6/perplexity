@@ -1,0 +1,28 @@
+{
+  "context_uuid": "ecacdbfe248e4cbfac6c3fd6a0ddba88",
+  "context_title": "paybis Hogyan csináljam azt hogy lehet fizetésünket küldeni és bárki anonimen kifizetheti apple pay el Fiúk + regisztráció nélkül és aki küldte a fizetési linket az azonnal megkapja azt a pénzt",
+  "created_at": "20260504T19:32:12.016282Z",
+  "updated_at": "20260504T19:38:42.849460Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "10e948d3aa8c4c75b7dc5abc1a6748d6",
+      "query": "paybis Hogyan csináljam azt hogy lehet fizetésünket küldeni és bárki anonimen kifizetheti apple pay el Fiúk + regisztráció nélkül és aki küldte a fizetési linket az azonnal megkapja azt a pénzt",
+      "answer": "Nem lehetséges a Paybisen fizetési linket létrehozni, amit bárki anoním módon, regisztráció nélkül Apple Payjel kifizethet, miközben a küldő azonnal megkapja a pénzt, mivel a Paybis elsődlegesen kriptopénzvásárlásra szolgál, regisztrációt és AMLkompatibilis ellenőrzést igényel nagyobb összegeknél.[1][2]\n\n Paybis működése\nA Paybis egy kriptovaluta kereskedőplatform, ahol főként Bitcoint és más kriptókat vásárolhatsz hitelkártyával, banki átutalással vagy alternatív módszerekkel, beleértve az Apple Payt is. Az Apple Pay használata vásárláskor lehetséges: bejelentkezés után válaszd a Credit/Debit Card opciót, majd Apple Payt, és hitelesítsd Touch IDvel vagy Face IDvel. Azonban ez vevőként történik (kripto vásárlása), nem eladóként fizetési link küldéseként, és teljes anonimitás nincs, mert a platformnak be kell tartania az AMLszabályokat (pl. 1000 USD felett KYC szükséges).[3][2][4][1]\n\n Miért nem támogatja a kért funkciót?\nNincs fizetési link generáló eszköz a Paybisen, amit megosztva mások Apple Payjel fizethetnének neked regisztráció nélkül. Az Apple Pay maga sem támogat anoním pénzküldést: tranzakciókhoz hitelesítés kell (Face ID/Touch ID), és adatvédelem ellenére a bankok/kártyakibocsátók látják a tranzakciókat. Paybisen a vevőnek be kell lépnie a fiókjába Apple Pay használatához, ami kizárja a \"regisztráció nélkül\" opciót. Azonnali pénzátutalás a küldőnek vásárlásnál lehetséges (kripto érkezik percek alatt), de fizetési linkként nem.[5][3][1]\n\n Alternatívák Apple Pay fizetési linkhez\nHa fizetési linket akarsz Apple Pay elfogadással (de nem teljesen anoním/regisztráció nélkül), nézd meg ezeket:\n Stripe: Linkeket generálsz, Apple Pay támogatott, vevő fizethet vendégként (de kártyaadatokkal), eladó azonnal kapja (payout 2 nap).[ – hasonló platformok]\n PayPal: \"PayPal.me\" linkek, Apple Pay integrációval, de fiók kell a vevőnek nagyobb összegeknél.\n Square vagy SumUp: POS linkek, Apple Pay kompatibilis, de üzleti fiók kell.\n\n| Platform | Apple Pay | Reg. nélkül vevő | Anonim | Azonnali payout |\n||||||\n| Paybis  | Igen (vásárlás) | Nem | Nem | Kripto: igen |\n| Stripe  | Igen | Részben (vendég) | Nem | 2 nap |\n| PayPal  | Igen | Nem mindig | Nem | Igen (fiók) [6] |\n\n Etikai és jogi megfontolások\nAnoním fizetések vonzzák a csalásokat (pl. lopott kártyák Apple Payn), és illegális tevékenységeket (pl. pénzmosás). Mindig ellenőrizd a tranzakciókat, engedélyezd az értesítéseket, és kerüld a nyilvános WiFit VPN nélkül. Magyarországon a bankok visszatéríthetik a csalást, de ne számíts rá mindig.[7][8][9][2]\n\nMilyen összegről van szó, vagy mire kell a fizetési link (pl. szolgáltatás értékesítés)? Ez segít pontosabb alternatívát javasolni.",
+      "created_at": "20260504T19:32:12.560416Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "9e83f208c779458d9f82da3b616e892e",
+      "query": "de lehet",
+      "answer": "Igen, értem! Az képek alapján amit küldtél, Sentz.me fizetési linkekről van szó – ez teljesen más megoldás, mint a Paybis.[1][2]\n\n Sentz.me működése\n\nA Sentz.me egy kriptopénzalapú fizetési platform, ahol fizetési linkeket tudsz létrehozni, amelyeket bárki megoszthat és Apple Payjel kifizetheti, anélkül hogy regisztrálnia kellene. A lényeg: te (az eladó) linket generálsz, valaki Apple Payjel fizet, és az összes криптó azonnal megérkezik a te tárcádba, mivel a Sentz a partner (Paybis), amely a kriptót azonnal konvertálja és átutalmazza.[2][1]\n\n Az Apple Pay fizetés folyamata\n\n1. Link generálása: Sentz.men kiszabtad az összeget (pl. 50 euró)\n2. Megosztás: Elkülded az embereknek (pl. közösségi médián, emailen, SMSben)\n3. Fizetés: Kattintanak a linkre, Apple Payt választanak, hitelesítenek (Face/Touch ID), és kész\n4. Azonnali feltöltés: Te azonnal kapod a kriptoegyenleget a tárcádba[1]\n\n Regisztráció nélküli fizetés\n\nAz a döntő különbség: a vevőnek (aki fizet) nem kell Sentz.me fiók. Csak Apple Payvel hitelesítik magukat és fizet. Ez nagyon közel van ahhoz, amit kerestél. A vevő csak megnyitja a linket, Apple Pay kerül föl, és már lehet fizetni.[2]\n\n Azonban van egy fontos korlátozás\n\nAhogy az a második képen látod: \"No refunds for this payment is issued by Sentz. Your bank, or the credit card company.\" Ez azt jelenti, hogy az Apple Pay fizetése végleges és irreverzbilis – a vevő nem tudja visszavonni a pénzt. Ezért van az előkészítő figyelmeztetés: \"Pay only someone you trust\".[2]\n\n Összegzés\n\nIgen, lehet Sentz.mevel azt csinálni, amit szeretnél:\n ✅ Fizetési linkeket generálsz\n ✅ Apple Pay támogatott\n ✅ Vevő regisztráció nélkül fizet\n ✅ Te azonnal kapod a kriptoegyenleget\n ⚠️ Véglegese és nem visszavonható\n\nEz az a megoldás, amit kerestél![1][2]",
+      "created_at": "20260504T19:38:32.266709Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

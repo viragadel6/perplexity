@@ -1,0 +1,91 @@
+{
+  "context_uuid": "217f28bf2a7f4145acf947ef557d733f",
+  "context_title": "blob:\nna elo vagyok fizetve\nbedrock ba nem mukodik playgroundon ahogy egyik model se rogton piros hiba ertesites hogy too many tokens vagy barmi mindig valami mast ir ki pedig nyilvan meg 100 tokent se kuldtem \nes ugye igy a bedrock api key el nem mukodik\nde ez amugy is az elofizetes\nha viszont aws oldalan ra megyek hogy set up this product egyszeruen csak oda dob a meglevo elofizeteseimre es ugyanez elolrol de sehol semmi hogy ehhez kulon hol lenne api kulcs amivel mukodik es tudom integralni vagy barmi",
+  "created_at": "20260502T03:24:40.016479Z",
+  "updated_at": "20260502T03:34:44.835794Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "aee83237826c49c9ba68d2e3c1313ed8",
+      "query": "blob:\nna elo vagyok fizetve\nbedrock ba nem mukodik playgroundon ahogy egyik model se rogton piros hiba ertesites hogy too many tokens vagy barmi mindig valami mast ir ki pedig nyilvan meg 100 tokent se kuldtem \nes ugye igy a bedrock api key el nem mukodik\nde ez amugy is az elofizetes\nha viszont aws oldalan ra megyek hogy set up this product egyszeruen csak oda dob a meglevo elofizeteseimre es ugyanez elolrol de sehol semmi hogy ehhez kulon hol lenne api kulcs amivel mukodik es tudom integralni vagy barmi",
+      "answer": "A helyzeted világos – megvan az AWS Marketplace előfizetésed a Claude Opus 4.7re (Bedrock Edition), de az API kulcs generálásának lépése még hiányzik. Ez egy külön lépés az előfizetéstől, amit sokan elszalasztanak.\n\n Mi az a Bedrock API kulcs és hol szerzed meg\n\nAz AWS Marketplace előfizetés nem generál automatikusan API kulcsot – ez két különálló dolog. Az előfizetés csak azt jelenti, hogy jogosult vagy használni a modellt; az API kulcs az a hitelesítő adat, amivel ténylegesen meg tudod hívni. A Bedrock saját, dedikált API kulcs rendszert vezet be, ami egyszerűbb, mint a hagyományos IAM access key.[1][2]\n\n API kulcs generálásának lépései\n\nAz API kulcsot a Bedrock konzolon belül tudod létrehozni:[3]\n\n1. Nyisd meg az Amazon Bedrock konzolt: \n2. A bal oldali navigációs panelben keresd az \"API keys\" menüpontot\n3. Válassz a két típus közül:\n    Shortterm – max 12 óráig él, a session lejártával megszűnik\n    Longterm – beállítható lejárat (30, 90, 365 nap), ezt válaszd integrációhoz\n4. Kattints a \"Generate longterm API keys\" gombra, állíts be lejárati időt (pl. 30 nap)\n5. Másold ki és mentsd el azonnal – csak egyszer látod![3]\n\n Használat kódban / integrációban\n\nA generált kulcsot AWS_BEARER_TOKEN_BEDROCK környezeti változóként kell beállítani:[4]\n\nbash\nexport AWS_BEARER_TOKEN_BEDROCK=your-api-key-here\n\n\nAz API végpont, amit használni kell: https://bedrock-runtime.<régió>.amazonaws.com – fontos, hogy ugyanazt a régiót add meg, ahol az előfizetésed aktív (a dokumentumod szerint useast1 valószínű).[1]\n\n A Playground \"too many tokens\" hibájáról\n\nEz valószínűleg nem a te tokenfelhasználásoddal van összefüggésben, hanem azzal, hogy a modell hozzáféréséhez szükséges model access nincs engedélyezve a Bedrock konzolon belül. Az előfizetés megléte szükséges, de a Bedrock konzolon külön is \"Request access\"t kell kérni a modellhez: Bedrock konzol → Model access → Claude Opus 4.7 → Enable. Ezt az előfizetéstől függetlenül kell elvégezni, és amíg nincs engedélyezve, addig a Playground is hibát dob.[5]",
+      "created_at": "20260502T03:24:40.418878Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "a08c5beb12884d72bb77ef56fbc28e1b",
+      "query": "fhu azt tudom de ezz pofazom hohy a sima bedrock os long term es short term api key el nem mukodik",
+      "answer": "Aha, ez egy nagyon konkrét, ismert AWSoldali probléma, ami éppen tegnap (május 1.) robbant ki.\n\n A Claude Opus 4.7 kvótája AWSen nullára esett\n\nEgy Redditposzt szerint az AWS önhatalmúlag 0 TPMre (tokens per minute) állította vissza a Claude Opus 4.7 kvótát számos fióknál – annak ellenére, hogy az előfizetés aktív és a számlázás rendben van. Az AWS support válasza szerint ez \"regional considerations, payment history, and usage patterns\" alapján történhet, de sok felhasználónál indokolatlanul lépett fel.[1]\n\nEz megmagyarázza mind a Playground hibát, mind az API kulcs sikertelenségét – nem az API kulcs a hibás, hanem nincs kvótád a modellhez.\n\n Mit tehetsz most\n\n1. Ellenőrizd a kvótát: AWS Console → Service Quotas → Amazon Bedrock → keresd a \"Claude Opus 4.7\" bejegyzéseket. Ha 0t mutat, az a probléma.[1]\n\n2. Nyiss AWS support ticketet – ez az egyetlen út a kvóta visszaállításához. Pontosan ezt kell írni nekik: \"Claude Opus 4.7 quota was set to 0 TPM in useast1, please restore access.\" Az AWS support maga is elismerte a hibát több felhasználónak.[1]\n\n3. Átmeneti megoldásként az AWS support Claude Opus 4.6ra való átállást javasol, amíg a 4.7 hozzáférés helyreáll – annak kvótái useast1ben jelenleg rendben vannak.[1]\n\nSzóval nem te rontottál el semmit, és az API kulcs generálása sem volt hiábavaló – az AWS infrastruktúra oldalán van egy aktív incidens a Opus 4.7tel kapcsolatban.",
+      "created_at": "20260502T03:25:46.479495Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "83d52694a52e462b8fc34a590cc21aee",
+      "query": "nekem ket hete tart es egyik model se mukodik se anthropic se egyik masik nyilt forraskodu se aws bedrock ba",
+      "answer": "Oké, ha minden modell nem működik két hete, az egy teljesen más probléma – ez nem a Opus 4.7 kvótaincidens, hanem valami alapvetőbb az AWS fiókoddal.\n\n A valódi probléma: Model Access nincs engedélyezve\n\nA leggyakoribb ok, hogy Bedrock előfizetés megléte ellenére minden modell hibát dob, az az, hogy a Model Access külön nincs engedélyezve a Bedrock konzolon belül. Ez teljesen független az AWS Marketplace előfizetéstől – két különálló rendszer.[1]\n\nMenj ide és ellenőrizd:\n1.  → bal oldali menü → \"Model access\"\n2. Megnézed, hogy a modelleknél \"Access granted\" vagy \"Available to request\" státusz vane\n3. Ha \"Available to request\" – kattints a \"Modify model access\" gombra, pipáld be az összes kívánt modellt, és kérj hozzáférést\n\n IAM jogosultsági probléma is okozhatja\n\nVan egy ismert Bedrock hiba ahol a fiók IAM jogosultságaiból hiányzik az aws-marketplace:ViewSubscriptions és aws-marketplace:Subscribe engedély. Ez pontosan azt okozza, amit leírsz: az előfizetés megvan, de minden modell hívás AccessDenied hibával dob vissza. A megoldás: AWS Consoleban a Bedrock Playgroundba belépve a modellt egyszer manuálisan megpróbálod elindítani – 24 perc után az account \"passively subscribe\"ol és az engedély aktiválódik.[2]\n\n Ha mindkettő rendben van: billing gond\n\nHa az account még nem fizette az első havi számlát vagy a fizetési mód nincs rendesen beállítva, az AWS automatikusan blokkol minden Bedrock hívást – a Marketplace előfizetés látszólag aktív, de a tényleges modell hívások le vannak tiltva. Érdemes AWS Console → Billing → ellenőrizni, hogy vane nyitott számla vagy fizetési hiba.[3]\n\nA legfontosabb következő lépés: nyiss egy AWS Support ticketet (Basic support esetén is ingyenes), és írd le pontosan ezt: \"All Bedrock models fail in Playground and via API, subscription is active since April 16, 2026.\" Ők bele tudnak nézni az accountszintű hozzáférési logokba, amit te nem látsz.",
+      "created_at": "20260502T03:26:17.996705Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6b8eb87c6cd24740aca8a6ee066662d3",
+      "query": "xd",
+      "answer": "Igen, ez pont az a helyzet 😄\n\nA képen látszik a lényeg: \"Model access page has been retired\" – az AWS kivezette a manuális model access rendszert, a modellek mostantól automatikusan elérhetők az első hívásra. DE van egy fontos mondat:\n\n> \"For models served from AWS Marketplace, a user with AWS Marketplace permissions must invoke the model once to enable it accountwide for all users.\"\n\nEz a te problémád gyökere. Mivel te AWS Marketplaceen keresztül fizettél elő, az első hívást kifejezetten egy olyan felhasználóval kell elvégezni, akinek van AWS Marketplace jogosultsága (általában a root account vagy admin IAM user). Ez az egy hívás aktiválja az egész fiókra.\n\n Teendő\n\n1. Lépj be az AWS Consoleba root account vagy admin jogosultságú IAM userként\n2. Menj a Bedrock Model catalogba → válassz bármilyen Claude modellt → nyisd meg Playgroundban\n3. Küldj el egyetlen tesztüzenetet (pl. \"Hello\")\n4. Ha ez sikeres, utána minden user és API kulcs számára aktiválódik accountwide\n\nHa ez az egy hívás is hibát dob (és admin/root felhasználóval vagy bejelentkezve), akkor valóban AWS Support ticket kell, mert account szinten van valami blokkolva.",
+      "created_at": "20260502T03:30:16.066089Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "38da522ed30e43c38725157b1e9a01d8",
+      "query": "amugy is csak egy felhasznalo a root van xd",
+      "answer": "Akkor az még egyszerűbb – te már root userrel vagy bejelentkezve, tehát Marketplace jogosultságod biztosan van.\n\nPróbáld ezt most:\n\n1. Menj a Bedrock Model catalogba\n2. Nyiss meg bármilyen modellt (pl. Claude Haiku, az a legolcsóbb/leggyorsabb)\n3. Küldj egy \"Hello\" üzenetet a Playgroundban\n\nHa ez is hibát dob – pontosan mi a hibaüzenet? Küldj egy screenshotot a konkrét errorról, mert \"too many tokens\" vs \"AccessDenied\" vs \"permission_error\" teljesen más irányba mutat és más a megoldás.",
+      "created_at": "20260502T03:31:05.946588Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6eb9310df6c24866a28664cbcedd64df",
+      "query": "bazdmeg mar elso uzenetembe ezt irtam h az nem mukodik",
+      "answer": "Igazad van, elnézést hogy körbekörbe küldtelek! 😅\n\nAkkor egyenesen a lényeg: AWS Support ticket, ez az egyetlen út. Root accounttal nyiss egy ticketet, és írd le:\n\n Előfizetés aktív április 16. óta (a PDFben látható agreement ID: agmt-9v9m2v8k2xfwd9n8ri9vfxart)\n Minden modell hibát dob a Playgroundban is, APIn is\n Két hete tart\n Root user, egyetlen felhasználó\n\nA Support ticket ingyenes még Basic (free) tier esetén is, ha \"Account and billing\" kategóriába teszed. Ide menj:  → Create case → Account and billing.\n\nHa van pontosan milyen hibaüzenet (screenshot), azt csatold a tickethez – sokat gyorsít a megoldáson.",
+      "created_at": "20260502T03:31:42.709041Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "a41829112f8e4ebfab7c6c23b37260ad",
+      "query": "ahj mar irtam hetek ota basznak vslaszolni",
+      "answer": "Ez már teljesen érthetően frusztráló, hetek óta fizetsz valamiért ami nem működik, és a support sem válaszol. 😤\n\nPróbálj más csatornákon nyomást gyakorolni:\n\nTwitter/X – ez a leghatékonyabb\nÍrj az @AWSSupport és @awscloud fiókoknak nyilvánosan. Az AWS social media csapata általában órákon belül reagál, míg a ticketek hetekig húzódnak. Írd ki az agreement IDt és hogy hetek óta nem működik.\n\nAWS re:Post közösségi fórum\n – ott AWS mérnökök is válaszolnak, és sokszor gyorsabb mint a hivatalos support.\n\nTicket prioritás emelése\nHa a meglévő ticketed \"General guidance\" vagy \"Basic\" prioritáson van, próbáld meg \"Production system down\" kategóriára módosítani – az SLA sokkal rövidebb (órák vs. napok).\n\nAnthropic direkt\nMivel Claude Opus 4.7et vettél, írj az Anthropic supportnak is () – ők tudnak az AWS oldalán nyomást gyakorolni, ha a saját modelljük elérhetősége a probléma.",
+      "created_at": "20260502T03:32:06.584636Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "38b0743b1d104011b9ee70e84d8cb355",
+      "query": "ahj persze majd meg ennyit szarakodok vele ugy hogy fizetos nem is ingyenes proba ido faszt majd meg kulon harcolok azert amierr fizetek akkor mar ugyanott lennek ha eredeti anthropic apit hasznalnek csak mivel aws en van meh tobb szaz dollarom mar azz akartam kidobni",
+      "answer": "Teljesen logikus amit mondasz – ha már fizetsz, miért kelljen még külön harcolni is érte.\n\nAkkor a legegyszerűbb megoldás: mondd le az AWS Bedrock előfizetést és vegyél direkt Anthropic API kreditet.\n\nAz AWS Marketplace előfizetést le tudod mondani itt: Console → AWS Marketplace → Manage subscriptions → Cancel. Mivel usagealapú (nem fix havi díj), nem veszítesz semmit amit még nem használtál el.\n\nAztán  → Billing → feltöltöd a kreditet amennyit akarsz → kész, azonnal működik, semmi Marketplace/IAM/kvóta szívás. Az árak pontosan ugyanazok mint Bedrockban, sőt Bedrockon általában drágább.",
+      "created_at": "20260502T03:33:21.328242Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "3da6d5c2932b4402b996d3a25a55e056",
+      "query": "ja de nem fogok fizetni erte azert akartam aws kreditbol",
+      "answer": "Á, most már értem a teljes képet! 💡\n\nAz AWS dokumentáció szerint van egy konkrét hiba: INVALID_PAYMENT_INSTRUMENT – ez pontosan akkor fordul elő, amikor a fiókod alapértelmezett fizetési módja (pl. SEPA vagy bizonyos kártyák) elfogadott a sima AWS számlázáshoz, de NEM elfogadott az AWS Marketplace és Bedrock szolgáltatásokhoz.[1]\n\nEz magyarázza, hogy az előfizetés \"ACTIVE\"nak látszik, de semmi sem működik.\n\n Mit ellenőrizz most\n\nMenj ide: AWS Console → Billing → Payment preferences – és nézd meg, hogy mi az alapértelmezett fizetési mód. Ha SEPA, virtuális kártya, vagy prepaid kártya van beállítva, az a probléma gyökere.[1]\n\nA megoldás: adj hozzá egy normál hitel vagy betéti kártyát fizetési módként, és állítsd be alapértelmezettnek. Utána a Marketplace Agreement automatikusan aktiválódhat, vagy újra kell nyomni a subscriptiont.[2]\n\nHa viszont az AWS kredit az oka (pl. promotional credit, ami nem fedezi a Marketplace vásárlásokat) – sajnos az AWS promóciós kreditek nem használhatók AWS Marketplace előfizetésekre, az mindig valódi fizetési eszközt igényel. Ha ez a helyzet, akkor az Anthropic direkt API az egyetlen út ahol a kredit működne – vagy megnézni hogy pontosan milyen típusú AWS kredit van a fiókodon.[2]",
+      "created_at": "20260502T03:34:28.116003Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

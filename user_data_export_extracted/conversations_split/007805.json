@@ -1,0 +1,19 @@
+{
+  "context_uuid": "223bff315aac4fec8c7441e1067d9334",
+  "context_title": "",
+  "created_at": "20251009T22:00:43.174757Z",
+  "updated_at": "20251009T22:00:43.174757Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0f642cc0074646648a6ab53d2d7ba99d",
+      "query": "",
+      "answer": "A Ling1T egy 1 billió paraméteres, FP8 vegyes precízióval tanított alapnyelvi modell az inclusionAItól, amely kiemelkedő hatékonyságot és komplex következtetési képességeket nyújt. Képes hosszú kontextusokat kezelni (akár 128K hosszúságú szöveget is), és különösen erős a vizuális érvelés, kódgenerálás, és többnyelvű szövegalkotás terén. Az egyik legjobb nyílt forráskódú modellként verseng a zárt forráskódú modellekkel, egyensúlyban tartva a pontosságot és a számítási hatékonyságot. Letölthető a Hugging Faceről és ModelScoperól, kipróbálható online és APIn keresztül is elérhető.[1][2]\n\nFőbb jellemzők:\n 1 billió paraméter, 50 milliárd aktív paraméter tokenenként\n FP8 vegyes precíziós tréning, 15% gyorsulással a végponti feldolgozásban\n Akár 128K hosszú kontextus kezelése (YaRN módszerrel)\n Kiemelkedő teljesítmény komplex matematikai, kódolási és érvelési feladatokban\n Szintetikus nyelvi utasítások értelmezése és vizuális komponensek generálása\n Nyílt forráskódú, MIT licensz alatt\n\nHasználati lehetőségek:\n Online próbaverzió a ZenMux platformon\n API hívások OpenAI kompatibilis interfészen keresztül\n Hugging Face transformers könyvtárral könnyű integráció\n ModelScope kínai felhasználóknak gyorsabb elérést biztosít\n\nEz a modell egy új korszakot nyit a hatékony, skálázható és komplex érvelésekre képes mesterséges intelligencia rendszerekben.[2][1]",
+      "created_at": "20251009T22:00:43.284542Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

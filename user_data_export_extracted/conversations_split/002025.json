@@ -1,0 +1,37 @@
+{
+  "context_uuid": "f8cca22b043842059256c1e45ffc2704",
+  "context_title": "Free SMS verification number online without registration",
+  "created_at": "20260606T05:46:49.810495Z",
+  "updated_at": "20260606T05:48:56.921400Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "04d1448567474edebaa4902bec2bbfcd",
+      "query": "Free SMS verification number online without registration",
+      "answer": "Több nyilvános oldal kínál ingyenes, regisztráció nélküli SMSfogadó számokat, de ezek közös, publikus inboxok, ezért a biztonságuk és megbízhatóságuk korlátozott lehet.[1][2][3]\n\n Mit érdemes tudni\nAz ilyen szolgáltatások lényege, hogy kiválasztasz egy ideiglenes számot, megadod egy regisztrációnál, majd a bejövő kódot az adott weboldalon olvasod el. Több oldal kifejezetten azt állítja, hogy nincs szükség fiókra vagy regisztrációra. Ugyanakkor ezek a számok gyakran publikusak, így bárki láthatja az üzeneteket, ami adatvédelmi kockázatot jelent.[4][5][3][6][1]\n\n Példák\nNéhány talált opció: , , , , és . Ezek közül több több országból is kínál számokat, és egyesek folyamatosan frissítik a listát. A működés általában hasonló: szám kiválasztása, megadása a regisztrációnál, majd az SMS megjelenésének várása.[2][5][3][6][1][4]\n\n Fontos korlátok\nSok szolgáltatás kifejezetten figyelmeztet arra, hogy a számok ideiglenesek és idővel inaktívvá válhatnak. Emiatt nem jó választás olyan fiókokhoz, amelyekhez később is hozzáférés kellhet, például helyreállításhoz vagy kétlépcsős belépéshez. Ha megmondod, melyik országra vagy melyik szolgáltatásra kellene, szűkítem a lehetőségeket.[5][1][2][4]",
+      "created_at": "20260606T05:46:50.073104Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e2352216e0f74d6997684e9b5ef9de5a",
+      "query": "olyan kell ami tenyleg mukodik",
+      "answer": "Röviden: olyat, ami tényleg működik, publikus, ingyenes SMSverifikációhoz használható oldalak közül több is létezik, de nincs olyan, ami minden szolgáltatásnál és minden időben megbízható lenne.[1][2][3]\n\n Ami most a leginkább ígéretes\nA találatok alapján a receivesmss.com, a quackr.io, az anonymsms.com és a smspva.com/freephonenumbers azok közé tartoznak, amelyek kifejezetten online SMSfogadásra és verifikációra vannak pozicionálva. Ezek közül több oldal azt állítja, hogy regisztráció nélkül használható, és az üzenetek azonnal megjelennek a böngészőben. A gyakorlatban azonban az, hogy “működik”, nagyban függ attól, melyik szám épp aktív, és melyik platformot akarod verifikálni.[4][5][6][7][8]\n\n Mire számíts\nA publikus számok gyakran túlhasználtak, ezért előfordulhat, hogy egy számot már több százan is láttak vagy használtak. Emiatt egyes szolgáltatások elutasítják őket, főleg ha ismert virtuális vagy ideiglenes számokról van szó. Tehát a “tényleg működik” nem azt jelenti, hogy garantáltan bármelyik weboldalon átmegy, hanem inkább azt, hogy van élő szám és bejön az SMS.[3][5][6][7][8][9][4]\n\n Praktikus választás\nHa most azonnal próbálkoznál, először a receivesmss.com vagy a quackr.io felé érdemes menni, mert ezek kifejezetten friss, ideiglenes számokat kínálnak. Ha valami még inkább SMSfogadásra specializált megoldást keresel, az anonymsms.com és az smspva.com szintén releváns opciók. Ha megírod, melyik szolgáltatásra kell a verifikáció, meg tudom mondani, melyik típusú számnak van a legnagyobb esélye átmennie.[5][6][7][4]",
+      "created_at": "20260606T05:47:19.743266Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f96c3bb8213148ce912afe4326001a1b",
+      "query": "de valami uj kell mert aws hez kene",
+      "answer": "AWShez nem tudok segíteni ideiglenes vagy “eldobható” SMSverifikációs számmal, mert az ilyen megoldás gyakran megkerülné az azonosítási és biztonsági szabályokat. Viszont el tudom mondani, mi működik legálisan és ténylegesen az AWSnél: a sandboxban csak ellenőrzött céltelefonszámokra lehet SMSt küldeni, és a számot magát is verifikálni kell.[1][2][3]\n\n Ami tényleg működik\nAz AWS dokumentációja szerint a sandboxban a céltelefonszámot előbb hozzá kell adni, majd verifikálni kell a kapott kóddal. A rendszer azt is jelzi, hogy a verifikációs kód küldése után a kapott kódot beírva lesz a szám használható a teszteléshez. Ha a fiók kikerül a sandboxból, a korlátozások enyhülnek, de ehhez külön AWS támogatási folyamat is tartozik.[2][3][1]\n\n Legjobb út\nHa a saját AWSfiókodhoz kell hozzáférés, a legbiztosabb megoldás egy saját, valós mobil szám használata, amin tényleg tudsz SMSt fogadni. Ha nem akarsz a személyes számodat használni, akkor külön céges vagy teszt célú, stabilan birtokolt számot érdemes beszerezni, mert az AWS a verifikációt ehhez köti. Az AWS SMS díjazása használat alapú, és nincs előzetes díj, de a tényleges küldés költséges lehet.[4][3][5][1][2]\n\n Mit nem érdemes próbálni\nA publikus, ingyenes SMSoldalak általában ideiglenesek és megosztottak, ezért az AWS gyakran nem fogadja el őket megbízható verifikációra. Az ilyen számokat sok platform eleve blokkolja vagy nagy eséllyel már használták mások is. Emiatt ezek tipikusan nem jók AWSfiókhoz, ahol a biztonság és a visszaigazolhatóság fontos.[6][7][8][9][10][1][2]\n\n Amit helyette csinálj\nHa most a célod az AWS elérése, a következő a legrövidebb, működő út: saját mobil szám hozzáadása, verifikáció a kapott kóddal, majd szükség esetén sandboxból kilépés kérése. Ez a hivatalos, stabil megoldás, és nem fog egy publikus ideiglenes szám miatt elhasalni.[3][1][2]",
+      "created_at": "20260606T05:48:49.934438Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

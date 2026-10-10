@@ -1,0 +1,19 @@
+{
+  "context_uuid": "46df4d40f27a41ff92f6cad8014404eb",
+  "context_title": "",
+  "created_at": "20260321T16:58:47.839289Z",
+  "updated_at": "20260321T16:59:03.409517Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bfff6ba69a204cf0a14be8ca0b274f16",
+      "query": "",
+      "answer": "Ez a GitHubrepo a Math, Inc. OpenGauss ügynökének nyilvános forráskódját tartalmazza, ami egy Leanalapú autoformalizációs “harness” matematikai tételek gépi bizonyításához.[1][2]\n\n Mi ez az OpenGauss?\n\nAz OpenGauss egy nyílt forrású, ügynökalapú rendszer, amely természetes nyelvű (vagy LaTeXszerű) matematikai szövegeket próbál Lean 4 bizonyításokká fordítani, és egy teljes “projektworkspace”et kezel (fájlstruktúra, build, több szálon futó részfeladatok, stb.). A Math, Inc. saját leírása szerint egy kifejezetten “proof engineering” munkafolyamatokra tervezett keret, nem pusztán benchmarkdemókra optimalizált sandbox. A rendszer a FormalQualBench nevű nyílt formális matematikai benchmarkon lett kiértékelve, ahol több alternatív nyílt és zárt megoldásnál gyorsabbnak és hatékonyabbnak bizonyult.[2][3]\n\nA GitHubrepóban (mathinc/OpenGauss) egy Python‑alapú futtató és orkesztrációs réteget találsz, amely Lean projektekhez kapcsolódik, és szub‑ügynököket, task‑kezelést, valamint egy CLIszerű indítót (a gauss scriptet) tartalmaz. A projekt moduláris felépítésű: a Lean‑hez kapcsolódó konkrét kód nagy része külön almodulokban és git submoduleökben érkezik, amit a .gitmodules is jelez.[4][5][1]\n\n Fő jellemzők és architektúra\n\nA Math, Inc. leírása szerint az OpenGauss egyik kulcsjellemzője, hogy sok párhuzamos szub‑ügynököt tud indítani, amelyek külön fejezeteken, lemmákon vagy proof‑skicceken dolgoznak. A rendszer úgy lett kialakítva, hogy a felhasználó tetszőlegesen interaktív maradhasson: lehet “teljesen automata fordítóként” használni, vagy finomhangoltan, kézzel megadott hintekkel, részben kész proofszakaszokkal együtt. A permisszív nyílt forrású licenc miatt a felhasználó módosíthatja, bővítheti, és mélyen megvizsgálhatja a rendszer működését, ami különösen fontos formális verifikációs kutatáshoz.[3][2]\n\nA pyproject alapján a mag köré egy Pythoncsomag épül, amely egy “managed Claude Code launcher”t is említ, vagyis a rendszer egy külső kódíró/ügynökmodellt menedzsel egy Lean‑workspace fölött. Ez magában foglalhatja a Lean‑fájlok generálását, javítását, az lake build vagy hasonló build‑eszközök meghívását, és a hibaüzenetek alapján történő iteratív finomítást. A gauss script egy projekt‑szintű workflow belépési pontjaként szolgál, például új feladat indítására vagy egy már létező Lean projekt autoformalizálására.[5][1]\n\n Kapcsolódó dokumentáció és kontextus\n\nA Math, Inc. külön oldalon mutatja be az OpenGausst, ahol hangsúlyozzák, hogy szoros együttműködésben készült a vezető nyílt forrású Lean‑eszközök karbantartóival. Ugyanitt említik, hogy a rendszer képes PhD‑szintű kvalifikációs vizsgákhoz hasonló nehézségű formális feladatok megoldására a FormalQualBench keretében. A vállalat más nyilvános Lean‑projektjei (például Tao erős prímszám‑eloszlási tételének formálisítása vagy FRI‑biztonsági bizonyítás) is Gauss‑asszisztált workflowval készültek, és a GitHubon elérhetők.[6][2]\n\nA projekthez tükrözött forrásokat és bináris kiadásokat más platformokon is találsz, például a SourceForge “Open Gauss” tükörprojektjén, de ez elsősorban a GitHub‑repo tartalmát tükrözi, nem egy külön termék. A kiadások (releases) oldalán előre csomagolt verziók, release noteok és esetleges buildelt komponensek érhetők el, ha a fejlesztők ilyeneket közzétesznek.[7][8]\n\nSzeretnéd, hogy lépésről lépésre, parancsszintűen leírjam, hogyan lehet ezt a repót klónozni és egy egyszerű Lean‑projektet OpenGaussszal autoformalizálni?  ",
+      "created_at": "20260321T16:58:48.544476Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

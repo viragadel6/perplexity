@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4427dd8fb8e74ba199d3c6b37ffed905",
+  "context_title": "ehhez mindegyikhez az osszes docs direkt linket kuld válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül. \nUPSTASH_REDIS_REST_URL=\"\"\nUPSTASH_REDIS_REST_TOKEN=\"\"\nDRAGONFLY_USERNAME=\"\"\nDRAGONFLY_TLS_ENABLED=\"\"\nUPSTASH_SEARCH_REST_URL=\"\"\nUPSTASH_SEARCH_REST_TOKEN=\"\"\nIONOS_TOKEN_ID=\"\"\nIONQ_API_KEY=\"\"\nMODAL_SHELL_TOKEN=\"\"\nIBM_QUANTUM_API_TOKEN=\"\"\nMODAL_TOKEN_ID=\"\"\nMODAL_TOKEN_SECRET=\"\"\nIONOS_UUID=\"\"\nIONOS_HREF=\"\"\nIONOS_TOKEN_VALUE=\"\"\nIONOS_PASSWORD=\"\"\nIONOS_USERNAME=\"\"\nIQM_API_TOKEN=\"\"\nIQP_API_TOKEN=\"\"\nBABY_URL=\"\"\nBABY_PORT=\"\"\nBABY_KEY=\"\"\nBABY_URI=\"\"\nIBM_QUANTUM_API_KEY=\"\"\nQ3AS_API_ID=\"\"\nQ3AS_API_KEY=\"\"\nDRAGONFLY_PORT=\"\"\nDRAGONFLY_HOST=\"\"\nDRAGONFLY_KEY=\"\"\nDRAGONFLY_URL=\"\"\nDRAGONFLY_PASSWORD=\"\"\nDRAGONFLY_REDIS_URL=\"\"\nDRAGONFLY_URI=\"\"",
+  "created_at": "20251011T02:03:06.658956Z",
+  "updated_at": "20251011T02:03:06.658956Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "51ae67e8f89844f9b922eafd6327f708",
+      "query": "ehhez mindegyikhez az osszes docs direkt linket kuld válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül. \nUPSTASH_REDIS_REST_URL=\"\"\nUPSTASH_REDIS_REST_TOKEN=\"\"\nDRAGONFLY_USERNAME=\"\"\nDRAGONFLY_TLS_ENABLED=\"\"\nUPSTASH_SEARCH_REST_URL=\"\"\nUPSTASH_SEARCH_REST_TOKEN=\"\"\nIONOS_TOKEN_ID=\"\"\nIONQ_API_KEY=\"\"\nMODAL_SHELL_TOKEN=\"\"\nIBM_QUANTUM_API_TOKEN=\"\"\nMODAL_TOKEN_ID=\"\"\nMODAL_TOKEN_SECRET=\"\"\nIONOS_UUID=\"\"\nIONOS_HREF=\"\"\nIONOS_TOKEN_VALUE=\"\"\nIONOS_PASSWORD=\"\"\nIONOS_USERNAME=\"\"\nIQM_API_TOKEN=\"\"\nIQP_API_TOKEN=\"\"\nBABY_URL=\"\"\nBABY_PORT=\"\"\nBABY_KEY=\"\"\nBABY_URI=\"\"\nIBM_QUANTUM_API_KEY=\"\"\nQ3AS_API_ID=\"\"\nQ3AS_API_KEY=\"\"\nDRAGONFLY_PORT=\"\"\nDRAGONFLY_HOST=\"\"\nDRAGONFLY_KEY=\"\"\nDRAGONFLY_URL=\"\"\nDRAGONFLY_PASSWORD=\"\"\nDRAGONFLY_REDIS_URL=\"\"\nDRAGONFLY_URI=\"\"",
+      "answer": " UPSTASH_REDIS_REST_URL — \n UPSTASH_REDIS_REST_TOKEN — \n DRAGONFLY_USERNAME — \n DRAGONFLY_TLS_ENABLED — \n UPSTASH_SEARCH_REST_URL — \n UPSTASH_SEARCH_REST_TOKEN — \n IONOS_TOKEN_ID — \n IONQ_API_KEY — \n MODAL_SHELL_TOKEN — \n IBM_QUANTUM_API_TOKEN — \n MODAL_TOKEN_ID — \n MODAL_TOKEN_SECRET — \n IONOS_UUID — \n IONOS_HREF — \n IONOS_TOKEN_VALUE — \n IONOS_PASSWORD — \n IONOS_USERNAME — \n IQM_API_TOKEN — \n IQP_API_TOKEN — \n BABY_URL — \n BABY_PORT — \n BABY_KEY — \n BABY_URI — \n IBM_QUANTUM_API_KEY — \n Q3AS_API_ID — \n Q3AS_API_KEY — \n DRAGONFLY_PORT — \n DRAGONFLY_HOST — \n DRAGONFLY_KEY — \n DRAGONFLY_URL — \n DRAGONFLY_PASSWORD — \n DRAGONFLY_REDIS_URL — \n DRAGONFLY_URI — ",
+      "created_at": "20251011T02:03:06.731446Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

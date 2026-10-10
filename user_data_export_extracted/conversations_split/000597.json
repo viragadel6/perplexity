@@ -1,0 +1,19 @@
+{
+  "context_uuid": "484ce4d6095e41a580d915fee9e66ef3",
+  "context_title": "airpods 4 ami hibas volt de mar jo annak a gyari vissza allitasa meddig szokott tartai?",
+  "created_at": "20260905T00:08:22.050264Z",
+  "updated_at": "20260905T00:08:29.886620Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "124c321369e84ab4a142a92508ba5f9a",
+      "query": "airpods 4 ami hibas volt de mar jo annak a gyari vissza allitasa meddig szokott tartai?",
+      "answer": "Az AirPods 4 gyári visszaállítása (factory reset) a teljes műveletet nézve körülbelül 1–2 percet vesz igénybe. Maga a közvetlen visszaállítási folyamat mindössze 10–15 másodperc alatt lezajlik, amint elindítja a tok felületén a koppintási parancsot.[1][2][3]\n\n A visszaállítás pontos menete\n\nAz AirPods 4 modellen már nincs fizikai gomb a tok hátulján; helyette egy rejtett kapacitív érintőfelület található a tok elülső oldalán:[2][4]\n\n Helyezze mindkét fülhallgatót a töltőtokba, csukja le a fedelet, majd várjon legalább 30 másodpercet.[5][2]\n Nyissa fel a tok fedelét.[5]\n Amikor az állapotjelző lámpa világít, koppintson duplán a tok elejére.[2]\n Amikor a fény fehéren kezd villogni, koppintson ismét duplán.[2]\n Amint a LED gyorsabb ütemben villog, koppintson harmadszor is duplán a tok elejére.[2]\n Tartsa nyitva a fedelet, amíg a LED borostyánsárgán (narancssárgán), majd fehéren nem kezd villogni.[2]\n\n Mire számítson a befejezés után\n\nAmikor a LED újra folyamatosan vagy lassan fehéren villog, a készülék visszatért a gyári alapállapotba, és készen áll az újbóli párosításra. Ha a fülhallgató korábban hibát jelzett, a reset törli a hibás firmwareállapotokat és a meglévő Bluetoothprofilokat, így a telefonhoz közel tartva a felugró ablak azonnal megjelenik.[4][2]",
+      "created_at": "20260905T00:08:22.081122Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2f9755419ae940b6aed7ebcd59ab6df2",
+  "context_title": "cerebras\nhetzner\ninfer\nlmstudio\nmoark\nsarvam\nthinkingmachines\naixy\nblueclaw\ncoralbricks\nkosmik\nlongcat\nnova\nparetoinference\nsubconscious\ntrustedrouter\nwallaby\nzenifra\nainetcafe\n\n\nezeknek az llm api szolgaktatoknak mind kuld el a honlapjat url In your reply, I’d like you to just list the results, nothing else.",
+  "created_at": "20260927T17:46:02.734764Z",
+  "updated_at": "20260927T17:46:58.082960Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0cacac5fc10f456288d7e33c913140fc",
+      "query": "cerebras\nhetzner\ninfer\nlmstudio\nmoark\nsarvam\nthinkingmachines\naixy\nblueclaw\ncoralbricks\nkosmik\nlongcat\nnova\nparetoinference\nsubconscious\ntrustedrouter\nwallaby\nzenifra\nainetcafe\n\n\nezeknek az llm api szolgaktatoknak mind kuld el a honlapjat url In your reply, I’d like you to just list the results, nothing else.",
+      "answer": " [1]\n [2]\n [3]\n [4]\n [5]\n [6]\n [7]\n [8]\n [9]\n [10]\n [11]\n [12]\n [13][14]\n [15]\n [16]\n [17]\n [18]\n [19]\n [20][21]",
+      "created_at": "20260927T17:46:02.782892Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

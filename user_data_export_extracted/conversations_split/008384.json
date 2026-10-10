@@ -1,0 +1,19 @@
+{
+  "context_uuid": "198719e22b04445ab3a2bd8b56aa438c",
+  "context_title": "iphoneon hogy nezzem vissza a mai napon mi volt a vago lapomon az osszeset? nincs ilyen app letoltve\n\nde aazt mondom hogy letoltok ha van ilyan ami tudja ezt\nde eddig nem volt letoltve ilyen es most nekem kell ami ma a vagolapomom volt korabban",
+  "created_at": "20250920T20:11:34.138252Z",
+  "updated_at": "20250920T20:11:34.138252Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4cf3a904ef694a149a6bc6829375e31a",
+      "query": "iphoneon hogy nezzem vissza a mai napon mi volt a vago lapomon az osszeset? nincs ilyen app letoltve\n\nde aazt mondom hogy letoltok ha van ilyan ami tudja ezt\nde eddig nem volt letoltve ilyen es most nekem kell ami ma a vagolapomom volt korabban",
+      "answer": "Röviden: iOSen nincs beépített vágólapelőzmény, csak az utolsó másolt elem érhető el; a korábbi mai tételeket utólag nem lehet visszanézni, hacsak nem mentette őket valamilyen app vagy Shortcut korábban.[1][2][3]\n\n Mit tud az iPhone vágólap\n Az iPhone vágólapja egyszerre csak egy elemet tart meg, és a következő másolás felülírja az előzőt, ezért nincs visszamenőleges „történet” böngészés alapból.[1][2]  \n A jelenlegi tartalom megtekinthető beillesztéssel (pl. egy jegyzetbe), de ez csak az utolsó elem, nem a korábbiak.[1][4]\n\n Vissza lehet hozni a „mai” korábbi vágólap tételeket?\n Ha nem futott korábban vágólapkezelő app vagy olyan Shortcut, ami naplózta a másolásokat, akkor a korábbi tételek nem állíthatók helyre iOSen.[3][1]  \n Harmadik féltől származó appok sem tudják utólag kiolvasni a múltbeli vágólaptartalmakat, csak onnantól tudnak gyűjteni, hogy telepítve és megnyitva vannak, a rendszer korlátai miatt.[5][6]\n\n Mit lehet tenni most\n Azonnal telepíthető egy vágólapkezelő (pl. Paste, PastePal), amely a megnyitása után – engedéllyel – automatikusan rögzíti a következő másolásokat, de háttérben nem gyűjthet korlátlanul iOSen.[5][6]  \n Alternatíva: készíthető Shortcut (pl. „Adjust Clipboard” vagy összetettebb „Clipboard Manager”), amellyel gyorsan megjeleníthető az aktuális vágólap és elmenthető egy listába; ez is csak a telepítéstől kezdve gyűjt.[1][7]\n\n Gyors ideiglenes megoldás\n Nyisson meg egy Jegyzetek alkalmazást, hozzon létre új jegyzetet, és illessze be; így látszik az aktuális vágólap, és innentől tudatosan „naplózhatja” a másolásokat egy jegyzetbe.[1][4]  \n Adjon hozzá Shortcutsban egy „Adjust Clipboard” parancsikont, amely egy koppintással megmutatja és másik művelettel el is menti az aktuális tartalmat egy listába a továbbiakhoz.[1][7]\n\n Fontos iOSkorlátok\n iOS 16 óta apponként engedélyezni kell a „Beillesztés más appokból” hozzáférést; a vágólapkezelők csak akkor látják és mentik a tartalmat, amikor aktívak és engedélyt kapnak.[5][3]  \n Emiatt bármely megoldás csak előre működik: a korábbi, már felülírt vágólaptartalmak nem kérhetők le utólag.[1][5]",
+      "created_at": "20250920T20:11:34.347417Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "864096b11afc4877ac0f43c1eceedb97",
+  "context_title": "gpt image 2.5",
+  "created_at": "20260909T03:04:12.792896Z",
+  "updated_at": "20260909T03:04:19.118733Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "550b7d42ce12414485374f0ab8b3f78e",
+      "query": "gpt image 2.5",
+      "answer": "ChatGPT Images 2.5 (és az APIban a GPTImage2.5 modellcsalád) az OpenAI legújabb generatív képmegoldása. A frissítés a korábbi GPTImage2 architektúrára épít, jelentősen növelve a generálási sebességet és a részletgazdagságot.[1][2][3]\n\n Főbb újdonságok és képességek\n\n Jelentős sebességnövekedés: Az OpenAI adatai szerint a képgenerálás késleltetése akár 50%kal csökkent az előző generációhoz képest.[2][1]\n Pontosabb szerkesztés és alanyhűség: A modell megbízhatóbban őrzi meg a referenciafotókon látható személyek, háziállatok és tárgyak vonásait, miközben a többfordulós módosítások során csak a kért részleteket változtatja meg.[4][1]\n Természetesebb fények és textúrák: Érezhetően tisztább felületi struktúrákat, realisztikusabb megvilágítást és élesebb apró részleteket produkál.[1][2]\n Sketch funkció és szerkesztőeszközök: A felhasználói felületen közvetlen kézi rajzolási (Sketch) lehetőség és új szerkesztősáv érhető el a vizuális jelölésekhez és finomhangolásokhoz.[5][6][4]\n\n APImodellek fejlesztőknek\n\nA fejlesztői APIban a korábbi egyetlen modell helyett két külön változat jelent meg:[7][1]\n\n| Modell | Fő célterület | Jellemzők |\n| : | : | : |\n| GPTImage2.5 Flare | Általános és nagy volumenű generálás | Alapértelmezett, gyors modell 50%kal alacsonyabb késleltetéssel |\n| GPTImage2.5 Sunburst | Professzionális kreatív munkafolyamatok | Lassabb generálás, cserébe maximális szerkesztési precizitás |\n\nMindkét modell elérhető a ChatGPT ingyenes és fizetős szintjein, a ChatGPT Work és Codex felületeken, valamint az OpenAI hivatalos APIján keresztül.[5][1]",
+      "created_at": "20260909T03:04:12.822455Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

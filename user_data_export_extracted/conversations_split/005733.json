@@ -1,0 +1,19 @@
+{
+  "context_uuid": "35f8328f3a414f0fa6a6d1b022b7913f",
+  "context_title": "a 180 masikat nem tudom es a per 90 magasvernyomas?",
+  "created_at": "20251213T05:37:17.498071Z",
+  "updated_at": "20251213T05:37:17.498071Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4cb62316a8e14b4bb4f56deefdc36e0a",
+      "query": "a 180 masikat nem tudom es a per 90 magasvernyomas?",
+      "answer": "A 180/90 Hgmm vérnyomás egyértelműen magas vérnyomásnak számít, amely sürgős orvosi figyelmet igényel. A felső (szisztolés) 180as érték már a III. fokozatú, súlyos hipertónia kategóriába tartozik, míg az alsó (diasztolés) 90es érték is meghaladja az egészséges tartományt.[1][2][3]\n\n Vérnyomás kategóriák\n\nAz orvosi ajánlások szerint a vérnyomás értékek a következő kategóriákba sorolhatók:[2][3]\n\n Optimális: 120/80 Hgmm alatt\n Normális: 120129/8084 Hgmm\n Magas normális: 130139/8589 Hgmm\n I. fokú hipertónia: 140159/9099 Hgmm\n II. fokú hipertónia: 160179/100109 Hgmm\n III. fokú hipertónia: 180/110 Hgmm és afölött\n\n Mit jelent a 180/90 érték\n\nA szisztolés (felső) 180as érték már súlyos vérnyomásemelkedésnek minősül. Amennyiben a vérnyomás első értéke eléri vagy meghaladja a 180 Hgmmt, az sürgős beavatkozást igényelhet, és a vérnyomást 2448 óra alatt fokozatosan kell csökkenteni gyógyszerekkel. Az ilyen mértékű vérnyomásemelkedés komoly, több szervet érintő károsodást okozhat.[4][3]\n\nFontos: ilyen magas vérnyomás esetén mindenképpen forduljon orvoshoz, mert kezelést igényel és nem hagyható figyelmen kívül!",
+      "created_at": "20251213T05:37:17.579987Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

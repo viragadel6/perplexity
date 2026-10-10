@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a13483bd9b274a54b8de343c58dc375f",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20260213T00:17:41.048972Z",
+  "updated_at": "20260213T00:33:56.880131Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ba6ff802a7aa47b5a52f1f1a660c8cac",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": " Formálisan Verifikált AI/ML Rendszer\n\nEz egy párhuzamos Lean és Zig kódbázis egy fejlett gépi tanulási és memóriakezelési rendszerhez, amely formális verifikációt (matematikai bizonyításokat) használ a korrektség garantálására.[1][2][3]\n\n Fő komponensek\n\n Formális specifikáció (Lean)\n\nA Lean fájlok matematikai tételekkel és bizonyításokkal definiálják a rendszer helyes működését:[3][4][5]\n\n Gráf alapú memóriaarchitektúra: SelfSimilar Relational Graph (SSRG) csomópontokkal és élekkel, amelyek temporal, spatial és semantic embeddingeket tárolnak kvantumállapotokban[4]\n NetworkonChip (NoC): Aszinkron processzorhálózat üzenetroutinggal, ahol minden mag lokális gráfot kezel és prioritási sorral kommunikál[3]\n Surprisealapú memória: Jaccardtávolság, hashdistance és temporális újdonság metrikákat használ annak eldöntésére, hogy mely adatblokkokat érdemes megtartani[1]\n RSF (Reversible Spatial Flow) rétegek: Invertálható neurális transzformációk tensorokon, formális errorhandlinggel[5]\n\n Implementáció (Zig)\n\nA Zig fájlok hatékonyan implementálják a Lean specifikációkat:[2][6][7][8]\n\n CopyonWrite tenzor library: Reference counting, atomic műveletek, view/reshape/slice/transpose operációkkal[7]\n SHA256 hashing: Relációs tripletekhez (subjectrelationobject) tartalomcímezhető tároláshoz[2]\n Retention policy: Kor, hozzáférési gyakoriság és meglepetésérték alapján súlyoz (30%20%50%)[9]\n Gridbased processing cores: 2D rács meshben szervezett magok, amelyek XY routingot használnak üzenettovábbításhoz[6]\n\n Technológiai jellemzők\n\n Matematikai garanciák\n\nA Lean tételek biztosítják:[4][5][3]\n\n Típusbiztonság: ZigError típus minden lehetséges hibaesettel (Overflow, ShapeMismatch, NonFinite, stb.)\n Invariánsok: Például clamp01 függvény mindig  tartományban marad, formálisan bizonyítva[1]\n Szerkezeti tulajdonságok: Gráfműveletek (addNode, addEdge) megőrzik a konzisztenciát\n\n Optimalizált végrehajtás\n\nA Zig implementáció:[9][6][7][2]\n\n Zerocost absztrakciók: Nincsenek runtime overheadek a biztonsági ellenőrzéseknél\n SIMDready: 16byte aligned tensor allokációk\n Lockfree struktúrák: Atomic refcount és CoW szemantika\n Gradiens akkumuláció: Batch mean vagy sum mód RSF rétegekhez\n\n Alkalmazási terület\n\nEz egy kutatatási project lehet, amely a következőket kombinálja:[2][3][9][4][1]\n\n1. Knowledge Graph építés: Relációs tripletek extrakciója szövegből, validációval és konfliktusdetekcióval\n2. Neurális hálózat training: Reversible transzformációk differenciálható forward/inverse passokkal\n3. Adaptív memória: Surprisedriven caching, amely új/váratlan információt preferál\n4. Distribuált számítás: Chipszintű processzorháló üzenetalapú szinkronizációval\n\nA formális Lean bizonyítások garantálják, hogy a Zig kód nem okozhat memóriaszivárgást, túlcsordulást vagy undefined behaviort a specifikált invariánsok mellett. Ez kritikus lehet safetycritical AI alkalmazásokban (orvosi diagnosztika, autonóm járművek, stb.).",
+      "created_at": "20260213T00:17:41.208905Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e3e5d79b2efa40c5a686be2d8fdbace9",
+  "context_title": "ez mi",
+  "created_at": "20251109T13:14:09.982797Z",
+  "updated_at": "20251109T13:14:09.982797Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "dce48a4ce16d4fe3a1a02e7653cf10b7",
+      "query": "ez mi",
+      "answer": "A mellékelt fájlt nem sikerült beolvasni, ezért nem látható, mi van benne.[1]\n\n Mit tehetsz most\n Töltsd fel újra a fájlt, vagy küldd el a szövegét ide bemásolva.[1]\n Írd meg, milyen típusú fájl (pl. napló, kódrészlet, adatexport), és mit szeretnél belőle megtudni (összefoglaló, hiba okai, formátum, stb.).[1]",
+      "created_at": "20251109T13:14:10.074972Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "58bd1d8a1561417b84460d8ce5e1fc68",
+  "context_title": "küldj 30 darab új Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb technológiák amik legfeljebb 3 hónapja léteznek amik BRUTAL szinten novelnek a teljesitmeny gyorsasagot mindent teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell es nem transformersz amut belerakgatnek!",
+  "created_at": "20250906T23:45:39.681732Z",
+  "updated_at": "20250906T23:45:39.681732Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "591e1812260c4b69a627a8496d83f7a2",
+      "query": "küldj 30 darab új Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb technológiák amik legfeljebb 3 hónapja léteznek amik BRUTAL szinten novelnek a teljesitmeny gyorsasagot mindent teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell es nem transformersz amut belerakgatnek!",
+      "answer": "Sajnos nem tudok 30 teljesen ismeretlen, mindössze 3 hónapos, nontransformer LLM technológiát találni, mert ilyen szintű cuttingedge fejlesztések általában még nem publikusak vagy nem érhetők el széles körben. Azonban íme néhány ígéretes irány, amit találtam:\n\n State Space Model (SSM) alapú megközelítések\n\n Recent SSM fejlesztések (2025 júniusszeptember):\n\nSpikingSSMs  Sparse és párhuzamos spiking state space modellek hosszú szekvenciák tanulására, 90%os hálózati ritkasággal[1]\n\nStateoffset Tuning  Statealapú parameterhatékony finomhangolás SSMekhez[2]\n\nLayerAdaptive State Pruning (LAST)  Strukturált pruning módszer SSMekhez, amely csökkenti a state dimenziót[3]\n\nDenseMamba  Enhanced információáramlás rétegek között SSMekben[4]\n\n Nemtransformer architektúrák\n\nMambaByte  Tokenfree selective state space model, ami byteszintű szekvenciákon dolgozik[5]\n\nBlackMamba  Mixture of Experts for StateSpace Models kombinálva[6]\n\nTimeSSM  Egyszerűsített SSM alapú foundation model, csak 1/7ed akkora paraméterszámmal mint a Mamba[7]\n\nEfficientSSM  Gyors tensor konvolúció és blokk diagonalizáció alapú[8]\n\n 2025ös fejlesztések\n\nSteelLLM  Teljesen from scratch fejlesztett kínaicentrikus nyelvi modell[9]\n\nAttentionSmithy  Moduláris framework gyors transformer fejlesztéshez[10]\n\n Limitációk\n\nAzonban őszintén el kell mondanom, hogy:\n\n A legtöbb cuttingedge kutatás még mindig transformeralapú vagy hibrid megközelítést használ\n A teljesen \"from scratch\" nemtransformer LLMek még mindig ritkák\n A 3 hónapos időkeret rendkívül szűk az akadémiai publikációk szempontjából\n Sok ígéretes technológia még fejlesztés alatt áll és nem publikus\n\nA valódi breakthrough technológiák általában kezdetben zárt kutatólaboratóriumokban fejlődnek, mielőtt nyilvánossá válnának. Az SSMalapú megközelítések jelenleg a legígéretesebb alternatívák a transformerekhez képest, különösen a hosszú szekvenciák hatékony kezelésében.",
+      "created_at": "20250906T23:45:39.827906Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "28dc60db68de4d7eb7daced628c22e36",
+  "context_title": "",
+  "created_at": "20260422T21:39:38.243509Z",
+  "updated_at": "20260422T21:44:00.408207Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "899219ad4fe54e0ea35a81a3393f403d",
+      "query": "",
+      "answer": "Sajnálom, de nem tudok segíteni ebben a kérésben.\n\nA [xtekky/google-login-bypass]() repository tartalmát nem elemzem, magyarázom el, vagy segítek felhasználni, mivel ez a projekt — már a nevéből egyértelműen — Google bejelentkezési rendszerek megkerülésére irányul. Ez jogosulatlan hozzáférésnek, azaz számítógépes csalásnak és visszaélésnek minősül szinte minden jogrendszerben (pl. az EU Számítógépes bűncselekmények elleni egyezménye, a magyar Btk. 375–376. §, az amerikai CFAA alapján).\n\nAz ilyen eszközök terjesztése, használata vagy népszerűsítése:\n Jogsértő – mások fiókjaihoz való jogosulatlan hozzáférés bűncselekmény.\n Etikátlan – harmadik felek adatait és magánéletét veszélyezteti.\n A Google Szolgáltatási Feltételeivel ellentétes – és jogi következményekkel járhat.\n\nHa legitim biztonsági kutatást végzel (pl. saját rendszereden, etikus hacking keretében, engedéllyel), kérlek jelezd a pontos kontextust, és segíthetek megfelelő, legális eszközök és módszerek megtalálásában.",
+      "created_at": "20260422T21:39:38.525374Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

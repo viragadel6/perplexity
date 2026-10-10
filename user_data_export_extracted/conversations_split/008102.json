@@ -1,0 +1,37 @@
+{
+  "context_uuid": "0948048d36744f5498d290c97c3f8b19",
+  "context_title": "rangsorold is",
+  "created_at": "20251002T03:05:26.247624Z",
+  "updated_at": "20251002T03:18:03.645995Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "92b7975116bf4b169cfa802d52482048",
+      "query": "rangsorold is",
+      "answer": "A rendelkezésre álló fájlok alapján a következők szerint rangsorolhatók a \"legjobb\" teljes forráskódok az adott LLM projekthez (JAIDE):\n\n1. jaide_all_code.txt  \n   Ez a fájl tartalmazza a projekthez tartozó legfontosabb kódokat, beleértve az orchestratort (klasztert/vezérlő), több modul részletes implementációját, ideértve a KAN rétegeket, Clifford rétegeket, frakcionális KAN réteget, kapszula réteget, valamint több más fejlett architektúrát és modult. A fájl hosszú és részletes, és komplett, jól strukturált LLM architektúrát mutat be. Ez az állomány a legkomplexebb és leginkább teljes forráskód.\n\n2. jaidemadebykollrsndor3.txt  \n   Ez az állomány részletesen definiálja a KAN háló modellt, tokenizert, tanulási ciklust, optimizálókat, kvantálást, kvantumkomputációt és egyéb fejlett komponenseket, továbbá tartalmaz konfigurációs fájlokat is. Teljes lett az architektúra, futtatórendszer, hardver támogatás, tokenizálás és optimalizáció terén.\n\n3. bybmh.txt  \n   Ez a fájl a konfigurációs és függőségi kezelést, valamint a legtöbb runtime és hardverkörnyezetfeltétel meghatározását tartalmazza, plusz különféle támogató komponenseket. Ez a forrás inkább az infrastruktúra és környezeti oldal.\n\n4. ls.txt  \n   Ez is hasonlóan átfogó, részben ismétlődik a többi fájllal, több népszerű funkció van benne kódként, de nem annyira teljes vagy mély, mint az első kettő.\n\n5. youalwYsthin.txt  \n   Ez inkább rövidebb, fontosabb futtatási parancsokat és build rendszereket, plusz néhány tanúsítási vagy verifikációs részt tartalmaz.\n\n6. jaidemadebykollrsndor2.txt  \n   Részben átfedi az előző \"3\" verziót, de általánosságban véve valamivel rövidebb és kevésbé részletes.\n\n7. us.txt  \n   Ez a Julia nyelvű környezeti, runtime és támogató könyvtárakat tartalmazza, de nem a magát az LLMet, inkább a futtatáshoz kiegészítéseket.\n\n Összefoglaló rangsor (teljesség, fejlettség és önálló megvalósítás alapján):\n\n| Sorszám | Fájl neve                     | Megjegyzés                                               |\n||||\n| 1       | jaide_all_code.txt             | Teljes, 0ról épített, részletes LLM architektúra         |\n| 2       | jaidemadebykollrsndor3.txt | 0ról épített, komplex KAN LLM, hardver és runtime támogatás |\n| 3       | bybmh.txt                     | Környezeti, build, futtatási környezet, függőségek       |\n| 4       | ls.txt                       | Átfogó, népszerű funkciók, de kevésbé mély               |\n| 5       | youalwYsthin.txt             | Build, verifikáció, futtatási szkriptek                   |\n| 6       | jaidemadebykollrsndor2.txt | Korábbi verzió, kevésbé részletes                          |\n| 7       | us.txt                       | Julia runtime és könyvtár támogatás, nem mag a modell     |\n\nEz a rangsor alapján a legjobb választás a \"jaide_all_code.txt\" állomány, mivel teljesen önálló kódot, fejlett architektúrát, runtimeot és legkevesebb placeholder vagy szimulált elemet tartalmaz. Utána következik a 3. verzió, ami szintén nagyon kifinomult és teljes.\n\nHa részletesebb összehasonlítást vagy értékelést kér egyes modulokról, akkor jelezze.",
+      "created_at": "20251002T03:05:26.436440Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "6ef773fe2b3e41689f4bda194dca9cb8",
+      "query": "melyik hany nyelven can",
+      "answer": "Az egyes fájlokban használt programozási nyelvek száma a következő: [1]\n\n| Fájl                                   | Nyelvek száma                  |\n|||\n| youalwYsthin.txt                       | 26 [2]                    |\n| ls.txt                                 | 26 [1]                    |\n| jaidemadebykollrsndor3.txt      | 26 [3]                    |\n| jaidemadebykollrsndor2.txt      | 26 [4]                    |\n| bybmh.txt                              | 26 [5]                    |\n| jaide_all_code.txt                     | 1  [6]                    |\n| us.txt                                 | 1  [7]                    |",
+      "created_at": "20251002T03:10:37.473519Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "7f7b4cfda7694c4881da979ff7e4b452",
+      "query": "melyik hany nyelvel epult",
+      "answer": "Az egyes fájlokban használt programozási nyelvek száma a következők:\n\n| Fájl                                   | Használt nyelvek száma |\n|||\n| youalwYsthin.txt                       | 26 [1]            |\n| ls.txt                                 | 26 [2]            |\n| jaidemadebykollrsndor3.txt      | 26 [3]            |\n| jaidemadebykollrsndor2.txt      | 26 [4]            |\n| bybmh.txt                              | 26 [5]            |\n| jaide_all_code.txt                     | 1  [6]            |\n| us.txt                                 | 1  [7]            |",
+      "created_at": "20251002T03:17:44.314290Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "81f41218c2234551afb6c4096b8b788d",
+  "context_title": "hopx.ai vs daytona",
+  "created_at": "20260415T08:05:43.372362Z",
+  "updated_at": "20260415T08:06:18.897527Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8ff022e70fb844e28dc58ab4635a21c7",
+      "query": "hopx.ai vs daytona",
+      "answer": "A hopx.ai és a Daytona mindkettő AIagent sandboxolásra és fejlesztői környezetek gyors létrehozására fókuszál, de eltérő megközelítéssel, technológiával és célközönséggel rendelkeznek.\n\n Mi az a hopx.ai?\n\nA hopx.ai (Bunnyshell által fejlesztett platform) egy menedzselt sandbox megoldás, amely Firecracker microVMeket használ az izolációhoz. Célja az AIügynökök számára gyors, biztonságos és elszigetelt futtatókörnyezet biztosítása — az indulási idő körülbelül ~100 ms. A platform Python, JavaScript, .NET, Java és Go nyelveket támogat, és teljes SDKt kínál fájlműveletekhez, folyamatvezérléshez, porttovábbításhoz és snapshotokhoz. Az egyik kiemelkedő funkciója az MCP (Model Context Protocol) szerver integráció, ami lehetővé teszi, hogy Claude Code, Cursor vagy Windsurf kliensekből közvetlenül kezeld a környezeteket.[1][2]\n\n Mi az a Daytona?\n\nA Daytona eredetileg nyílt forráskódú fejlesztői környezetkezelőként indult, majd 2025 elején teljesen az AI sandbox infrastruktúrára fókuszált. A platform Dockeralapú izolációt használ alapértelmezettként, és sub90 msos cold startokkal büszkélkedhet. 2026 februárjában 24 millió dolláros Series A finanszírozást kapott a FirstMark Capital vezette körben. A Daytona 2026 januárjában bevezette a Custom Regions és SelfHosted Runners funkciókat, amelyek lehetővé teszik saját hardveren vagy meghatározott felhőrégióban való futtatást. Az SDKk Ruby és Go nyelveken is elérhetők.[3][4][5][6]\n\n Technológiai összehasonlítás\n\n| Jellemző | hopx.ai | Daytona |\n||||\n| Izolációs technológia | Firecracker microVM [2] | Docker (alapértelmezett) [4] |\n| Cold start | ~100 ms [7] | <90 ms [5] |\n| MCP szerver integráció | Igen [2] | Nem [2] |\n| Selfhosted / BYOC | Nem (csak managed) [8] | Igen – Custom Regions & SelfHosted Runners [3] |\n| Nyílt forráskód | Nem | Igen (eredeti core) [9] |\n| Nyelvi támogatás | Python, JS, .NET, Java, Go [2] | Devcontaineralapú, bármilyen stack [9] |\n| AI IDE integráció | Cursor, Windsurf, Copilot, JetBrains [2] | VS Code, JetBrains [2] |\n| Finanszírozás/státusz | Bunnyshell product [8] | $24M Series A (2026) [6] |\n\n Mikor válaszd a hopx.ait?\n\nA hopx.ai erőssége az MCP integráció és a Firecrackeralapú erős izoláció, ami különösen fontos, ha nem megbízható kódot hajtasz végre AIügynökökkel. Ha Claude Code vagy Cursor környezetből szeretnéd közvetlenül kezelni a sandboxokat, a hopx az egyetlen, amelyik ezt natívan támogatja. A platform a Bunnyshell teljes ökoszisztémájába integrálódik, így staging, preview és production környezetekkel együtt is kezelhető.[7][2]\n\n Mikor válaszd a Daytonat?\n\nA Daytona a legjobb választás, ha saját infrastruktúrán szeretnél futtatni (BYOC / selfhosted), adatrezidenciakövetelmények teljesítése szükséges, vagy ha meglévő Docker containereket szeretnél módosítás nélkül használni. A platform gyors növekedésben van a 2026os Series A után, és az SDKkínálata bővül (Ruby, Go). A Daytona sandbox APIja újabb funkció, ezért a hopx mögött jár érettség tekintetében.[2][5][3]",
+      "created_at": "20260415T08:05:43.599032Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

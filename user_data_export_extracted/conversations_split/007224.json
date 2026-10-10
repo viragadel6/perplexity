@@ -1,0 +1,28 @@
+{
+  "context_uuid": "ee56db20ac3c42e59bf448edf99df4e0",
+  "context_title": "hibák? válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20251024T04:40:37.232615Z",
+  "updated_at": "20251024T04:45:08.707606Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "84f57b9b59174b3a8080afac0d20896e",
+      "query": "hibák? válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Az identify_knowledge_gaps metódus szinkron, de az await kulcsszóval hívják a deepen_specific_topics függvényben, ami TypeErrort okoz.\n A background tasks (pl. execute_simple_mode) aszinkron függvények, de a FastAPI BackgroundTasksbe sync módon adják hozzá, ami futásidejű hibát okoz az event loop hiánya miatt.\n A WebSocket kapcsolatok nem regisztrálódnak a ConnectionManagerbe (ws_manager.connect nincs hívva), így a broadcast üzenetek nem érkeznek meg a kliensekhez.\n Az active_tasks globális szótár nem kerül feltöltésre a feladatok létrehozásakor, így a /cancel endpoint nem tudja megszakítani a futó feladatokat.\n A QueryRequest paraméterek (pl. max_sources, exclude_domains, prefer_recent, autonomous_depth) nagyrészt figyelmen kívül maradnak a végrehajtási módokban (hardkódolt értékek használata).\n A GPT5Adapter nem létező modellt (openai/gpt-5) és APIt (https://models.github.ai) használ, ami ValueErrort vagy kapcsolat hibát okoz.\n A cross_validate_results függvényben a str(grok_result) hívás csúnya sztringet eredményez a dictből, ami nem ideális bemenet a cross_validate_analysisnek.\n A sanitize_text függvény ASCIIre kódol, ami elveszíti a nem ASCII karaktereket (pl. magyar ékezeteket) a promptokban és szövegekben.\n A simple_modeban a key_claims kinyerése a synthesis.split('\\n')[:5] alapján véletlenszerű, nem feltétlenül tartalmazza a kulcsfontosságú állításokat.\n A research_modeban a források unique_sources[:200]ra korlátozódnak, figyelmen kívül hagyva a lehetséges 2000+ találatot.\n A final_reportokban chr(10).join(...) használata felesleges, \\n.join jobb lenne.\n A magyar promptokban hiányoznak az ékezetek (pl. \"Keszits\" helyett \"Készíts\"), ami a szöveg minőségét rontja.",
+      "created_at": "20251024T04:40:37.349276Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "0c7eac1f406e4c4ca349ecfb444e83b7",
+      "query": "de a github modelsbe van gpt 5 xd",
+      "answer": " Az identify_knowledge_gaps metódus szinkron, de awaittel hívják, ami TypeErrort okoz.[11]\n A BackgroundTaskshez aszinkron függvényeket adnak szinkron módon, ezért eventloop hiba léphet fel.[11]\n A WebSocketkapcsolatok nem kerülnek regisztrálásra (ws_manager.connect nincs hívva), így nem érkeznek meg a broadcast üzenetek.[11]\n Az active_tasks szótárba nem teszik bele a futó feladatokat, ezért a megszakítás nem működik.[11]\n A QueryRequest több paraméterét (pl. max_sources, exclude_domains) figyelmen kívül hagyják, hardkódolt értékeket használnak.[11]\n A cross_validate_results a str(grok_result) miatt rossz bemenetet küld a szintézishez.[11]\n A sanitize_text ASCIIre kódol, így elvesznek a magyar ékezetek.[11]\n A simple_mode kulcsállításkiválasztása véletlenszerű (split('\\\\n')[:5]), nem biztos, hogy tényleg fontos állításokat ellenőriz.[11]\n A research_mode csak unique_sources[:200]at használ, a többi találat elveszik.[11]\n A final_reportokban feleslegesen használják a chr(10).joint, elég lenne \\\\n.[11]",
+      "created_at": "20251024T04:42:36.897312Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

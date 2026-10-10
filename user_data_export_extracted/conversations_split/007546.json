@@ -1,0 +1,19 @@
+{
+  "context_uuid": "68e994d5328847e2a098ae959ac7ab9b",
+  "context_title": "Legfrissebb legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb gyorsabb nagyobb teljesitmenyu PostgreSQL Adatbázis amik tenyleg brutalisan ismeretlenek de a main stream eknél többszöresen gyorsabb erősebb stb es van ingyen trial",
+  "created_at": "20251015T23:32:15.667362Z",
+  "updated_at": "20251015T23:32:15.667362Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "db164c4f9d8742a6a64de6b16d0f61ef",
+      "query": "Legfrissebb legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb gyorsabb nagyobb teljesitmenyu PostgreSQL Adatbázis amik tenyleg brutalisan ismeretlenek de a main stream eknél többszöresen gyorsabb erősebb stb es van ingyen trial",
+      "answer": " Brutálisan gyors és ismeretlen PostgreSQL megoldások\n\nA legfrissebb, fejlesztői körben is alig ismert, de cuttingedge PostgreSQL alapú adatbázisok többszörös teljesítményt kínálnak a mainstream megoldásokhoz képest.[1][2][3]\n\n ParadeDB\n\nA ParadeDB egy 2023ban indult PostgreSQL extension, amely Elasticsearch alternatívaként szolgál, de brutálisan gyorsabb teljesítményt nyújt a natív PostgreSQL fulltext kereséshez képest. A BM25 algoritmusra és Tantivy keresőmotorra épül.[4][5][6]\n\nTeljesítmény: 10 millió sornál 265x gyorsabb, 100 millió sornál pedig 500x gyorsabb a PostgreSQL natív fulltext keresésénél, mindössze 628ms lekérdezési idővel. Az index építés is 6x gyorsabb.[5]\n\nIngyenes trial: Teljesen nyílt forráskódú, azonnal használható.[7]\n\n pgvectorscale (TimescaleDB)\n\nA pgvectorscale egy 2024es Rustalapú PostgreSQL extension, amely a pgvectort egészíti ki StreamingDiskANN indexszel és Statistical Binary Quantization tömörítéssel.[2][8]\n\nTeljesítmény: 50 millió embedding esetén 28x alacsonyabb p95 latencia és 16x magasabb query throughput 99%os recall mellett, mint a Pinecone specializált vektordatabázis. Az összehasonlításban a Qdrantnál is 4.4x magasabb throughputot ért el.[9][10][2]\n\nIngyenes trial: Opensource, ingyenesen használható vanilla PostgreSQLlel is.[8]\n\n OrioleDB\n\nAz OrioleDB egy forradalmi új storage engine PostgreSQLhez, amely a PostgreSQL Table Access Method (TAM) interfészt használja. Modern cloudnative architektúrára tervezték, kiküszöbölve a PostgreSQL \"wicked problems\"jait.[3][11]\n\nTeljesítmény: Modern hardwarere optimalizált (SSD, NVRAM), megszünteti a VACUUM szükségességét undo log implementációval, 64bit transaction IDvel kiiktatja a transaction wraparound problémát. Rowlevel writeahead log párhuzamos apply támogatással.[11][12]\n\nIngyenes trial: PostgreSQL licenc alatt szabadon használható.[13][11]\n\n DuckDB Foreign Data Wrapper\n\nA DuckDB FDW PostgreSQLhez csatlakoztatja a DuckDB analitikai motorját, amely OLAP workloadokra optimalizált.[14][15]\n\nTeljesítmény: A DuckDB vectorizált végrehajtási motorja és oszlopos tárolása orders of magnitude gyorsabb analitikai lekérdezéseknél, mint a hagyományos PostgreSQL. Közvetlenül Parquet fájlokat is tud olvasni.[15][16][17]\n\nIngyenes trial: Nyílt forráskódú extension.[14]\n\n Neon Serverless PostgreSQL\n\nA Neon egy serverless PostgreSQL platform szétválasztott storage és compute architektúrával, instant branching képességgel.[18][19]\n\nTeljesítmény: Subsecond scaling, zero coldstart architecture 2025ben, Gitszerű database branching milliszekundumok alatt. PostgreSQL 18 támogatás már elérhető.[20][19]\n\nIngyenes trial: Generous free tier elérhető.[21]\n\nEzek a megoldások valóban \"underdog\" státuszúak  a mainstream Amazon Aurora, Google AlloyDB vagy Azure mellett alig ismertek, mégis specifikus területeken többszörös teljesítményt nyújtanak.[22][23]",
+      "created_at": "20251015T23:32:15.767786Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "069b0466ba414fe0b9b2af71f833d2ec",
+  "context_title": "Cerebras github repo inak a parancsat MINDET kuld el ami pythonba van",
+  "created_at": "20250727T09:07:13.651571Z",
+  "updated_at": "20250727T09:08:42.108060Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5d89ea7e4c4f4ffda4f6521574992f8a",
+      "query": "Cerebras github repo inak a parancsat MINDET kuld el ami pythonba van",
+      "answer": "Íme a legtöbb hivatalos Cerebras GitHub repó, amelyben Python parancsfájlokat és kódokat is találsz – használd az alábbi listát! Ezekben megtalálod a parancsfájlokat, futtatható példákat, és minden Python implementációt.\n\n Főbb Cerebras Pythonos repók és jellemzőik\n\n| Repo név | Rövid leírás | Fő Python fájlok/lehetőségek |\n||||\n| cerebrascloudsdkpython | Hivatalos Python kliens Cerebras REST APIhoz | Python SDK, API hívások[1] |\n| modelzoo | Referencia implementációk, modellek (NLP, Vision stb.) Cerebras hardverhez | Konfigurációk, referencia modellek, CLI, dataset toolok[2] |\n| inferenceexamples | Inference API demók, példakódok, workflow minták | Minden egyes projekt külön mappában: Langchain, Streamlit, Pinecone stb., futtatható Python példák[3] |\n| gigaGPT | Egyszerű, könnyen olvasható, nagyméretű LLMek (GPT3 méretig) tanításához | train.py, model.py, eval.py, sample.py; gyorsindító lépések[4] |\n| cslexamples | Benchmarkok és tutorialok a Cerebras SDK/CSLhez, Python simulátor futtató fájlok | Minden példában run.py, parancsfájlok, dokumentáció[5] |\n| onlinenormalization | Online Normalization kutatási implementáció | Python install: pip install e . az onlinenorm/pytorch mappában; példák, kód[6] |\n| DocChat | GPT4 szintű dokumentumkérdező és retriever; adatelőkészítéstől a tanításig | Dataset, train, eval kódok, teljes pipeline végig Pythonban[7] |\n\n Mire jók ezek?\n\n Python futtathatóság: Gyakorlatilag minden repo tartalmaz Python parancsfájlokat, főleg példák (run.py, train.py, eval.py stb.) formájában.\n modelzoo repo: Szinte minden népszerű LLM család (GPT, Llama, Mistral stb.) megtalálható, konfigurálható, saját adaton is ki tudod próbálni.\n inferenceexamples repo: Nagyon sok „endtoend” példával, mint Streamlitdash app, RAG, Langchain integráció stb.\n gigaGPT: Egy teljes, átlátható GPTszerű modell, pár python fájlban lekezelve.\n cslexamples: Az SDK tutorialjai is mindig egy run.pyvel futnak!\n onlinenormalization: Konkrét kutatási területhez is Python példák.\n DocChat: Dokumentum kérdezésfeladat, endtoend pipeline.\n\n Segédlet parancsfájlokhoz:\n\n Általános futtatás: \n   python train.py <config.yaml>\n   python eval.py <model.yaml> --checkpoint <path>\n   Vagy: python run.py (SDK példáknál)\n Telepítés gyakran:\n   pip install -r requirements.txt\n   Speciális esetben: python -m pip install -e . (repo teljes install)\n\nTovábbi pythonos Cerebras repókat ide nézd (mindegyikben domináns a Python kód):\n\n cerebrascloudsdkpython\n modelzoo\n inferenceexamples\n gigaGPT\n cslexamples\n onlinenormalization\n DocChat\n\nÍgy mindegyik Cerebras GitHub repo, ami Pythonba írva van és releváns, fent van! A fő Python parancsfájlokat minden példában megtalálod run.py, train.py, eval.py néven, vagy workflowleírás alapján[1][2][3][4][5][6][7].\n\nHa konkrét repo összes Python parancsfájlja kell:\nMindegyik fő Python fájl (például modelzoo/src/cerebras/modelzoo/, gigaGPT/train.py, cslexamples//run.py) nyilvánosan elérhető, csak lépj be a megfelelő repóba és böngéssz vagy git cloneozd!\n\nRemélem, ez segít – ha részletes tartalom vagy konkrét parancsfájlok listája/repo filetree kell, jelezz!",
+      "created_at": "20250727T09:07:13.808751Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "d5094b641e9c4dfaadc41f4e4a25f22a",
+      "query": "De a clone repo parancsokat egyesevel mindet",
+      "answer": "A következő parancsokat kell kiadni, ha az összes főbb, Pythonos Cerebras GitHub repót egyesével szeretnéd klónozni:\n\n modelzoo\n cerebrascloudsdkpython\n inferenceexamples\n gigaGPT\n cslexamples\n onlinenormalization\n DocChat\n\nItt vannak a klónozó parancsok mindegyikhez:\n\n\ngit clone https://github.com/Cerebras/modelzoo.git\ngit clone https://github.com/Cerebras/cerebras-cloud-sdk-python.git\ngit clone https://github.com/Cerebras/inference-examples.git\ngit clone https://github.com/Cerebras/gigaGPT.git\ngit clone https://github.com/Cerebras/csl-examples.git\ngit clone https://github.com/Cerebras/online-normalization.git\ngit clone https://github.com/Cerebras/DocChat.git\n\n\nMindegyik parancs egy külön repót klónoz le a gépedre[2][5].\n\nHa valamelyik repót nem találod, vagy magán repo, akkor GitHubon a Cerebras profilján () nézd meg az aktuális listát, mert ezek idővel változhatnak[1].",
+      "created_at": "20250727T09:08:05.332240Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

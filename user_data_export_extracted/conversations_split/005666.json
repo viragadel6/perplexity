@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0447edeff0fe4e9b8156813b10c134f2",
+  "context_title": "ez a traning datasets jo minosegu? csaj igen sgy mini peldat kuldtem nem teljes betanitasra szanom ezt nyilvan",
+  "created_at": "20251215T04:59:00.463889Z",
+  "updated_at": "20251215T04:59:00.463889Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9e0d5a91b7784b289fd9d76b69e2a76a",
+      "query": "ez a traning datasets jo minosegu? csaj igen sgy mini peldat kuldtem nem teljes betanitasra szanom ezt nyilvan",
+      "answer": " A dataset minőségének értékelése\n\nA csatolt training dataset jó strukturális minőséget mutat. Minden példa tartalmaz alapvető metaadatokat (id, típus, nyelv, nehézségi szint, domain) és biztonsági jelöléseket, ami professzionális adatkezelésre utal.[1]\n\n Erősségek\n\n Gazdag metaadatok: Minden rekord tartalmaz részletes információkat (generálási időpont, modell, checksum, biztonsági jelzők)[1]\n Tartalmi változatosság: A mintában 3 különböző típus szerepel (dialógus, utasítások, matematika), több domainnel (tárgyalástechnika, szövegszerkesztés, valószínűségszámítás)[1]\n Magyar nyelv minősége: A szövegek nyelvtanilag helyesek és természetes megfogalmazásúak[1]\n Biztonsági compliance: Minden példa copyright_safe: true, pii: false és alacsony hallucinációs kockázatú[1]\n\n Fejlesztési területek\n\n Források hiánya: A sources mező minden példánál üres tömb, ami alacsony faktikus megalapozottságra utal[1]\n Nulla citáció: A citations_count: 0 minden példánál azt jelzi, hogy nincsenek hivatkozások[1]\n AIgenerált tartalom: Mivel teljesen szintetikus (Grok4 által generált), valós használati eseteket kevésbé tükröz[1]\n\nA dataset alkalmas kezdeti tesztelésre és prototípus fejlesztésre, de érdemes későbbi fázisban valós forrásokkal és citációkkal bővíteni a megbízhatóság növeléséhez.[1]",
+      "created_at": "20251215T04:59:00.535299Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

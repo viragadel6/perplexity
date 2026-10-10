@@ -1,0 +1,37 @@
+{
+  "context_uuid": "3b2fec59f50d45d2a4c41ca9fcc9d69e",
+  "context_title": "",
+  "created_at": "20251118T22:49:26.171308Z",
+  "updated_at": "20251118T22:51:44.948016Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8862f033cf0f4a38a9cd57764696d4c2",
+      "query": "",
+      "answer": "A docutranslate egy fájlfordító eszköz, amely fejlett dokumentumelemző motorokat (például docling és minerU) kombinál nagy nyelvi modellekkel (LLMekkel) a különféle formátumú dokumentumok pontos fordítására. Többféle fájlformátumot támogat, például .docx, .xlsx, .md, .txt, .json, .epub, .srt és még sok mást. Egy munkafolyamatalapú (Workflow) architektúrát használ, amely magas fokban konfigurálható és bővíthető a különböző típusú fordítási feladatokhoz.\n\nFontos funkciói közé tartozik a táblázatok, képletek és kódok felismerése, valamint a Word és Excel fájlok magas minőségű fordítása az eredeti formátum megtartásával. Több AI platformot támogat párhuzamos és testreszabott fordítási kérések kezelésére.\n\nA használat során a felhasználóknak először ki kell választaniuk a megfelelő munkafolyamatot a fájl típusától függően (például MarkdownBasedWorkflow PDFekhez, TXTWorkflow egyszerű szöveges fájlokhoz). Ezután egy konfigurációs objektumot hoznak létre, ami tartalmazza a konverter, fordító és exportáló beállításokat. Maga a fordítás az adott munkafolyamat példányosításával, majd a fájl beolvasásával és az asszinkron vagy szinkron fordítás futtatásával történik. Az eredményeket HTML, markdown, docx, xlsx vagy egyéb formátumban lehet elmenteni vagy exportálni.\n\nA szolgáltatás biztosítja az online (minerU) és helyi (docling) dokumentumfeldolgozó motorokat, így akár offline vagy adatvédelmi szempontból kritikus környezetekben is használható. Külön webes felület és RESTful API áll rendelkezésre a könnyű integráció és használat céljából.\n\nTelepítése egyszerű, pip vagy uv csomagkezelővel végezhető, és mindkét dokumentumfeldolgozó motor támogatott. A használathoz szükséges AI platform API kulcsokat a megfelelő szolgáltatóktól kell beszerezni.\n\nÖsszefoglalva, a DocuTranslate egy fejlett, sokoldalú dokumentumfordító eszköz, amely a modern mesterséges intelligencia és dokumentumfeldolgozó technológiák előnyeit egyesíti a különféle típusú fájlok pontos és eredeti formátumot megőrző fordítására.[2][3][4][5]",
+      "created_at": "20251118T22:49:26.710334Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f59a05e941d0438e8b0f649141dcc7b3",
+      "query": "de ezt be kell tanirani vagy api kzlcs kell hozza? vagy a package alapbol valahogx tud forditani minden ilyesmi nelkul? cd",
+      "answer": "Nem kell semmit „betanítanod”, a DocuTranslate maga nem egy modell, hanem egy keret a már meglévő LLM‑ek fölött.[1]\nViszont mindig kell mögé valamilyen nyelvi modell (felhős API kulccsal vagy lokálisan futó modell formájában), magában, modell nélkül nem tud fordítani.[1]\n\n Kell‑e API kulcs?\n\n A példákban mindenhol van , ,  mező a ben, pl. OpenAI , Zhipu  stb., tehát alapértelmezésben egy külső LLM API‑hoz kell kulcs.[1]\n A dokumentáció külön szekcióban írja, hogy a fordítás nagy nyelvi modelleken alapul, és az ezekhez tartozó , ,  adatokat a választott platformról kell beszerezni.[1]\n\n Tud működni teljesen „csak a package”ként?\n\n A DocuTranslate nem tartalmaz beépített saját fordító modellt, csak a fájl‑feldolgozó és munkafolyamat logikát (PDF/Word → Markdown → LLM‑fordítás → export).[1]\n Ha nem akarsz felhős API‑t használni, akkor is kell egy lokálisan futó LLM, pl. Ollama vagy LM Studio, és azt ugyanúgy lel konfigurálod (pl. ).[1]\n Tehát „minden ilyesmi nélkül” (se felhős, se lokális modell nélkül) nem fog fordítani, mert ő csak a keretrendszer és UI, nem maga a fordító agy.[1]\n\n Kell‑e bármit tanítani?\n\n Nem kell saját modellt tréningezni vagy finomhangolni; csak kiválasztod a modellt (pl. , ,  stb.), beírod az API kulcsot / lokális t, és már fordít.[1]\n Testre szabni legfeljebb a promptokat, chunk méretet, párhuzamosságot, célnyelvet kell a konfigurációban, de ez nem tanítás, csak beállítás.[1]\n\nRöviden: nem kell betanítani, de kell mögé egy LLM – vagy felhős API kulccsal, vagy lokálisan futtatott modellel; a package önmagában nem fordít.[1]",
+      "created_at": "20251118T22:50:00.660684Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "dfc152aab41f4c07999d9f9d19301dd9",
+      "query": "cerebras gpt ossal es replit en?",
+      "answer": "Igen, elvileg tudod használni Cerebras  modellekkel, és Repliten is futhat a DocuTranslate, csak jól kell beállítani a t, a modellt és a környezetet.[1][2][3]\n\n DocuTranslate + Cerebras \n\n A DocuTranslate csak azt várja, hogy megadj egy , ,  értéket, és OpenAI‑szerű  API‑val beszélhessen (a példákban  és más szolgáltatók URL‑jei vannak).[4][1]\n A Cerebras inference API kifejezetten „nagyrészt OpenAI‑kompatibilisnek” van tervezve: ugyanazt az OpenAI klienst tudod használni, csak a t átírod re és a saját Cerebras API kulcsodat adod meg.[2]\n Ez azt jelenti, hogy a DocuTranslate‑ben a fordító konfigurációnál be tudod állítani: , ,  (vagy amit a Cerebras épp használ), és működnie kell, mivel a csomag „multi‑AI platform support” módon bármely OpenAI‑kompatibilis végponttal számol.[5][1]\n\n Futás Repliten\n\n A DocuTranslate egy sima Python csomag (), amit bármilyen Python környezetben fel lehet tenni; Repliten is van hivatalos  / csomagkezelés Python projektekhez.[3][6][4]\n A CLI / Web UI a  paranccsal indul, alapból egy HTTP szervert indít  címen egy porton (pl. 8010); Repliten pont az ilyen, ra bindoló HTTP portokat teszi ki a webes nézetbe, ha fut a szerver.[7][8][4]\n Arra figyelni kell, hogy a nagy PDF/Word feldolgozás és a / modellek letöltése elég erőforrás‑igényes lehet, ami egy free Replit környezetben lassú vagy problémás lehet, de technikailag megoldható (különösen kisebb fájlokra vagy ha csak TXT/JSON workflow‑t használsz).[6][4][1]\n\n Összefoglalva\n\n Cerebras  /  használat: igen, amennyiben OpenAI‑kompatibilis chat/completions API‑t használsz  lel és saját API kulccsal.[2][5]\n Replit: igen, tudsz rajta DocuTranslate‑et futtatni (, Python repl, ‑ra hallgató szerver), csak számolj a korlátozott CPU/RAM‑mal és futásidővel nagyobb dokumentumoknál.[4][3][7]",
+      "created_at": "20251118T22:51:23.694347Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

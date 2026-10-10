@@ -1,0 +1,46 @@
+{
+  "context_uuid": "6a564336342b440c8e5178e38f5acb9a",
+  "context_title": "hogy hivjak ezeket; Gaussian blur effektuss. a honlap legyen magyar. hasznalj a tobbi elemen: depth and dimension, UIBlurEffect és UIVibrancyEffect API, Frosted Glass Effect, Vibrancy and Blur",
+  "created_at": "20250610T02:51:30.916229Z",
+  "updated_at": "20250610T02:53:16.088354Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "29e7d5bebb9d4505b583b1edb6be726d",
+      "query": "hogy hivjak ezeket; Gaussian blur effektuss. a honlap legyen magyar. hasznalj a tobbi elemen: depth and dimension, UIBlurEffect és UIVibrancyEffect API, Frosted Glass Effect, Vibrancy and Blur",
+      "answer": "A kérdezett effektusokat és technológiákat a következőképpen nevezik magyarul, illetve így használhatod őket a weboldaladon vagy UI elemekben:\n\nGaussian blur effektus  \nMagyarul: „Gausselmosódás” vagy „Gauss életlenítés”  \nEz az effektus lágyítja a képet, csökkenti a zajt, és kiemeli a fókuszban lévő elemeket, miközben a hátteret elmosódottá teszi[4][1][5].  \nPhotoshopban például így találod: Szűrő / Életlenítés / Gauss életlenítés (Filter / Blur / Gaussian Blur)[5].\n\nDepth and dimension  \nMagyarul: „mélység és dimenzió”  \nEz általában azt jelenti, hogy a különböző UI vagy képelemek között mélységérzetet hozol létre, például elmosódással, árnyékkal vagy rétegezéssel[1][4].\n\nUIBlurEffect és UIVibrancyEffect API  \nEzek iOS fejlesztésben használt APIk, melyek magyarul így fordíthatók:  \n „Elmosódás effektus” (UIBlurEffect)  \n „Élénkség effektus” (UIVibrancyEffect)  \nEzekkel a natív UI elemek hátterét tudod elmosni, illetve élénkebbé tenni a tartalmat[3].\n\nFrosted Glass Effect  \nMagyarul: „deres üveg effektus” vagy „fagyos üveg effektus”  \nEz az elmosódott, áttetsző hatás, amit gyakran használnak modern UIban, például ablakok vagy panelek hátterén. Általában Gausselmosódással (Gaussian blur) és átlátszósággal érik el[4][3].\n\nVibrancy and Blur  \nMagyarul: „élénkség és elmosódás”  \nAz „élénkség” (vibrancy) effektus az elmosódott háttér fölötti tartalom színeit és fényerejét emeli ki, hogy jobban olvasható és látványosabb legyen[3].\n\n\n\n Összefoglaló táblázat\n\n| Angol kifejezés         | Magyar megfelelő         | Leírás |\n||||\n| Gaussian Blur           | Gausselmosódás / életlenítés | Lágy, elmosott háttér, zajcsökkentés, fókusz kiemelése[4][1][5] |\n| Depth and Dimension     | Mélység és dimenzió     | Rétegek, elmosódás, árnyékok a térhatásért[1][4] |\n| UIBlurEffect            | Elmosódás effektus      | iOS API, natív háttérelmosás[3] |\n| UIVibrancyEffect        | Élénkség effektus       | iOS API, tartalom kiemelése elmosott háttéren[3] |\n| Frosted Glass Effect    | Deres/fagyos üveg effektus | Áttetsző, elmosott üveg hatás, modern UIban gyakori[4][3] |\n| Vibrancy and Blur       | Élénkség és elmosódás   | Színek, fényerő kiemelése elmosott háttéren[3] |\n\n\n\nHa magyar honlapra vagy UIra szeretnéd alkalmazni ezeket, használd a fenti magyar elnevezéseket, például:  \n „Deres üveg effektus” a panelek hátterén  \n „Gausselmosódás” képek vagy UI elemek mögött  \n „Élénkség effektus” a kiemelendő szövegeken vagy ikonokon  \n „Mélység és dimenzió” rétegezéssel, árnyékokkal és elmosódással\n\nEzek a vizuális effektek modern, letisztult és professzionális megjelenést adnak a weboldaladnak vagy alkalmazásodnak[4][1][3].",
+      "created_at": "20250610T02:51:30.941768Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6d0831a13aca4ecd9987f8e0feaa675f",
+      "query": "de az osszefoglalo nevuk",
+      "answer": "Az általad felsorolt vizuális effektek összefoglaló neve magyarul:\n\n Összefoglaló név\n\nElmosódásos üveg effektusok  \nvagy  \nÜveghatású UIeffektek\n\nGyakran használják még a következő kifejezéseket is:\n\n Üvegszerű (glassmorphism) dizájn\n Fagyos üveg (frosted glass) effektusok\n Elmosódásos felhasználói felület (blurred UI)\n\n A legelterjedtebb összefoglaló angol név:  \nGlassmorphism\n\nEz a kifejezés foglalja magában a Gaussian blur, a frosted glass, a vibrancy és a depth/dimension effekteket is. Magyarul a „glassmorphism” legtöbbször „üvegszerű dizájn” vagy „üveghatású felület” néven terjedt el.\n\n\n\n Rövid összefoglalás\n\nAz összefoglaló nevük magyarul:\n üvegszerű dizájn\n üveghatású felület\n elmosódásos üveg effektusok\n\nAngolul:\n glassmorphism\n\nEz a stílus magában foglalja a Gaussian blurt, a frosted glasst, a vibrancyt, és a depth/dimension vizuális effekteket is.",
+      "created_at": "20250610T02:52:33.739488Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "53a7df1d0dcf47148a72fb372313f446",
+      "query": "Hogyan nevezik magyarul a Gaussian blur és hasonló effektusokat",
+      "answer": "A Gaussian blur és a hozzá hasonló effektusok magyarul általában az alábbi neveken ismertek:\n\n\n\n Főbb magyar elnevezések\n\n Elmosódás  \n  Általános kifejezés minden olyan effektusra, amely a képet vagy a felületet életlenné, homályossá teszi.\n\n Életlenítés  \n  Szintén általános, gyakran használt szó. Például: „háttér életlenítés”.\n\n Gausselmosódás vagy Gauss életlenítés  \n  Kifejezetten a Gaussian blur magyar megfelelője.  \n  (Pl. Photoshopban is így szerepel: „Gauss életlenítés”)\n\n Üveghatás vagy üvegszerű effektus  \n  Ha az elmosódás áttetsző, „fagyos üveg” hatást kelt, gyakran így hivatkoznak rá.\n\n Deres üveg effektus vagy fagyos üveg effektus  \n  Kifejezetten a „frosted glass” (elmosódott, áttetsző felület) magyar megfelelője.\n\n\n\n Példamondatok\n\n „A fejlécen Gausselmosódást alkalmaztunk.”\n „Az ablak háttere deres üveg effektus lett.”\n „A menü elmosódott háttérrel jelenik meg.”\n\n\n\n Összefoglalás\n\nA Gaussian blur és hasonló effektek magyarul:\n elmosódás\n életlenítés\n Gausselmosódás / Gauss életlenítés\n üveghatás / üvegszerű effektus\n deres üveg effektus / fagyos üveg effektus\n\nEzek a kifejezések a legelterjedtebbek a magyar szakmai és hétköznapi nyelvben.",
+      "created_at": "20250610T02:52:59.142274Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "284135e1e62644fba2e22db86f68e339",
+      "query": "Milyen kifejezéseket használnak az effektek összefoglalására magyar nyelven",
+      "answer": "Nagyon jó kérdés! Az ilyen vizuális effektek összefoglalására magyar nyelven többféle kifejezés is használatos, attól függően, hogy milyen kontextusban (dizájn, UI, képszerkesztés) beszélünk róluk.\n\n Leggyakoribb összefoglaló magyar kifejezések\n\n 1. Elmosódásos effektusok\nÁltalános gyűjtőnév minden olyan vizuális hatásra, amely a képet, hátteret vagy UIelemet életlenné, homályossá teszi.\n\n 2. Életlenítő effektusok\nSzintén tág kategória, főleg képszerkesztésben használják.\n\n 3. Üveghatású (glassmorphism) effektusok\nModern UIdizájnban, amikor áttetsző, elmosódott, „üvegszerű” felületekről beszélünk.  \nGyakran előfordul még:  \n üvegszerű dizájn  \n üveghatású UI  \n üveghatású felület\n\n 4. Deres/fagyos üveg effektusok\nKifejezetten a „frosted glass” típusú, elmosódott, áttetsző hátterekre.\n\n 5. Áttetsző (transzparens) effektusok\nHa a fókusz az áttetszőségen és a rétegeken van, gyakran ezt a szót is használják.\n\n\n\n Példák a használatra\n\n „A menü hátterén elmosódásos effektust alkalmaztunk.”\n „A dizájn fő eleme az üveghatású felület.”\n „A fejléc deres üveg effektussal lett kiemelve.”\n „Az alkalmazás modern, üvegszerű dizájnt kapott.”\n\n\n\n Összefoglalás\n\nAz ilyen effektek összefoglaló magyar nevei:\n elmosódásos effektusok\n életlenítő effektusok\n üveghatású (glassmorphism) effektusok\n üvegszerű dizájn\n deres/fagyos üveg effektusok\n áttetsző effektusok\n\nEzek a kifejezések jól lefedik a Gaussian blur, frosted glass, vibrancy, depth, és hasonló vizuális hatások magyar megfelelőit.",
+      "created_at": "20250610T02:53:10.130879Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

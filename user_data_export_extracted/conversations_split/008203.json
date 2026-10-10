@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6aa9a059dffe41dd8f7163d68e05df53",
+  "context_title": "replit be shell script klonozza ezt a repot es a teljes tartalmat egybe fuzi egy darab python fajlba: ",
+  "created_at": "20250929T06:21:38.917478Z",
+  "updated_at": "20250929T06:21:38.917478Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b0a30d93c85640d9af587d392dde3d11",
+      "query": "replit be shell script klonozza ezt a repot es a teljes tartalmat egybe fuzi egy darab python fajlba: ",
+      "answer": "Persze, elkészítettem a kért shell scriptet. A script klónozza a megadott GitHub repositoryt, majd az összes Python fájl tartalmát összefűzi egyetlen unimol_egybe.py nevű fájlba.\n\n A Shell Script\n\nAz alábbi scriptet egy Replit Shell környezetben futtathatja.\n\nbash\n# 1. Klónold le a repót\ngit clone https://github.com/deepmodeling/Uni-Mol.git\ncd Uni-Mol\n\n# 2. Minden python file tartalmát egyetlen python file-ba fűzi\nfind . -type f -name '*.py' | sort | while read fname; do\n  echo -e \"\\n# ===== $fname =====\\n\" >> ../unimol_egybe.py\n  cat \"$fname\" >> ../unimol_egybe.py\n  echo -e \"\\n\" >> ../unimol_egybe.py\ndone\n\ncd ..\n\n\n Letölthető Script Fájl\n\nA könnyebb használat érdekében a fenti scriptet elmentettem egy letölthető .sh fájlba.\n Hogyan működik a script?\n\n1.  git clone ...: Letölti a deepmodeling/Uni-Mol repository teljes tartalmát a Replit környezetbe egy Uni-Mol nevű mappába [1][2].\n2.  cd Uni-Mol: Belép a frissen klónozott mappába.\n3.  find . -type f -name '*.py': Megkeresi az összes .py kiterjesztésű fájlt a Uni-Mol mappán belül, rekurzívan (az összes almappában is) [3][4].\n4.  sort: ABC sorrendbe rendezi a talált fájlokat.\n5.  while read fname; do ... done: Egy ciklus segítségével végigmegy a fájlok listáján.\n6.  echo ... >> ../unimol_egybe.py: Minden fájl tartalma elé beilleszt egy kommentet, ami az eredeti fájl nevét tartalmazza (pl. # ===== ./mappa/fajl.py =====). Az eredményt a szülő mappában (../) létrehozott unimol_egybe.py fájlba írja [4][5].\n7.  cat \"$fname\" >> ...: Hozzáfűzi az aktuális Python fájl teljes tartalmát az unimol_egybe.py fájlhoz [6].\n8.  cd ..: A végén visszalép a kiindulási mappába.\n\n Használata Repliten\n\n1.  Hozzon létre egy új Replitet a Bash sablon használatával.\n2.  Töltse le a fenti klonoz_fuz.sh fájlt.\n3.  Töltse fel a letöltött fájlt a Replit környezetbe.\n4.  A Replit Shell ablakában adja ki a következő parancsot a script futtatásához: bash klonoz_fuz.sh.\n\nA script lefutása után a fájlok között megtalálja az unimol_egybe.py fájlt, ami tartalmazza a repository összes Python kódját összefűzve.",
+      "created_at": "20250929T06:21:39.919602Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

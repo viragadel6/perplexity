@@ -1,0 +1,28 @@
+{
+  "context_uuid": "b952c2679edb42f08e37d8af3b216780",
+  "context_title": " teljesen nezd at a tekjes repot es ird meg hogy Ez mi? Magyarul ertekeld  kissofdeath/\n├── hw/\n│   ├── asic/\n│   ├── fpga/\n│   └── fuzz/\n└── src/\n    ├── api/\n    ├── bench_deps.zig\n    ├── build.zig\n    ├── core/\n    │   ├── io.zig\n    │   ├── memory.zig\n    │   ├── model_io.zig\n    │   ├── tensor.zig\n    │   └── types.zig\n    ├── core_relational/\n    ├── distributed/\n    ├── hw/\n    ├── index/\n    ├── inference_server_main.zig\n    ├── main.zig\n    ├── main_distributed.zig\n    ├── main_distributed_futhark.zig\n    ├── main_gpu.zig\n    ├── optimizer/\n    ├── processor/\n    ├── ranker/\n    ├── scripts/\n    ├── tests/\n    ├── tokenizer/\n    ├── verification/\n    ├── wasm/\n    ├── wasm_deps.zig\n    └── zk/",
+  "created_at": "20260122T23:41:07.770184Z",
+  "updated_at": "20260122T23:58:02.103073Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d64629831ea545628f300814351967ce",
+      "query": " teljesen nezd at a tekjes repot es ird meg hogy Ez mi? Magyarul ertekeld  kissofdeath/\n├── hw/\n│   ├── asic/\n│   ├── fpga/\n│   └── fuzz/\n└── src/\n    ├── api/\n    ├── bench_deps.zig\n    ├── build.zig\n    ├── core/\n    │   ├── io.zig\n    │   ├── memory.zig\n    │   ├── model_io.zig\n    │   ├── tensor.zig\n    │   └── types.zig\n    ├── core_relational/\n    ├── distributed/\n    ├── hw/\n    ├── index/\n    ├── inference_server_main.zig\n    ├── main.zig\n    ├── main_distributed.zig\n    ├── main_distributed_futhark.zig\n    ├── main_gpu.zig\n    ├── optimizer/\n    ├── processor/\n    ├── ranker/\n    ├── scripts/\n    ├── tests/\n    ├── tokenizer/\n    ├── verification/\n    ├── wasm/\n    ├── wasm_deps.zig\n    └── zk/",
+      "answer": "Answer skipped.",
+      "created_at": "20260122T23:41:07.862039Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "2b6b8b8ec8254da5ad20c07a8592689d",
+      "query": "semmmilyen inference t nem valosit meg illetve de de az csak egy fajl kissofdeath/\n├── hw/\n│   ├── asic/\n│   ├── fpga/\n│   └── fuzz/\n└── src/\n    ├── api/\n    ├── bench_deps.zig\n    ├── build.zig\n    ├── core/\n    │   ├── io.zig\n    │   ├── memory.zig\n    │   ├── model_io.zig\n    │   ├── tensor.zig\n    │   └── types.zig\n    ├── core_relational/\n    ├── distributed/\n    ├── hw/\n    ├── index/\n    ├── inference_server_main.zig\n    ├── main.zig\n    ├── main_distributed.zig\n    ├── main_distributed_futhark.zig\n    ├── main_gpu.zig\n    ├── optimizer/\n    ├── processor/\n    ├── ranker/\n    ├── scripts/\n    ├── tests/\n    ├── tokenizer/\n    ├── verification/\n    ├── wasm/\n    ├── wasm_deps.zig\n    └── zk/",
+      "answer": "Teljesen átnézem a kissofdeath repositoryt, de ahhoz, hogy részletes értékelést adhassak, szükségem van a konkrét fájlok tartalmára is, nem csak a könyvtárstruktúrára. Kérem, engedélyezze a repository teljes tartalmának lekérését.",
+      "created_at": "20260122T23:56:01.733916Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

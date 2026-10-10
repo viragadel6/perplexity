@@ -1,0 +1,19 @@
+{
+  "context_uuid": "dbbf05b740cb40de9439ad2894de6dd9",
+  "context_title": "Gpt 5 pro model api kulcs harmadik feltol ingyenes probaidovel",
+  "created_at": "20251023T14:56:43.983722Z",
+  "updated_at": "20251023T14:56:43.983722Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "36993251f3924d3c807b4dcfc605ef1e",
+      "query": "Gpt 5 pro model api kulcs harmadik feltol ingyenes probaidovel",
+      "answer": "Where can a thirdparty provider offer a GPT5 Pro API key with a free trial?\n\nHol kínál harmadik fél GPT5 Pro API kulcsot ingyenes próbaidővel?",
+      "created_at": "20251023T14:56:44.418817Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

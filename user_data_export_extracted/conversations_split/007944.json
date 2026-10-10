@@ -1,0 +1,37 @@
+{
+  "context_uuid": "448b55067e4c4fa4b1adae19bb009c93",
+  "context_title": "mai nap legfejletteb open source llm\nhuggibg faces eket is bezd ne csak llama deepseek qwen \n\nennel fan fejlettebb os llm ma?",
+  "created_at": "20251006T04:02:09.435224Z",
+  "updated_at": "20251006T04:10:50.061082Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "602be93ec3b143018ac128ce0772c62e",
+      "query": "mai nap legfejletteb open source llm\nhuggibg faces eket is bezd ne csak llama deepseek qwen \n\nennel fan fejlettebb os llm ma?",
+      "answer": "A Ring1Tpreview jelenleg az egyik legnagyobb és legújabb open source LLM, amely 2025. szeptember 30án jelent meg az Ant Group inclusionAI csapatától. Ez egy 1 trillió paraméteres \"thinking\" modell MoE (MixtureofExperts) architektúrával, amely 20 trillió tokenen lett előképezve.[1][2]\n\n Teljesítmény és képességek\n\nA Ring1Tpreview kiemelkedő eredményeket ért el komplex érvelési feladatokban. Az AIME 2025 matematikai versenyen 92,6 pontot ért el tiszta természetes nyelvi érveléssel, közelítve a GPT5 thinking modell 94,6 pontos eredményét. A modell erős teljesítményt mutat a HarvardMIT matematikai versenyen (HMMT 2025), verseny szintű kódgenerálásban (LiveCodeBench v6, CodeForces) és az ARCAGI1 feladatokban is.[1]\n\n Versenytársak\n\nOktóber 2025ben több hasonlóan fejlett open source modell érhető el:\n\nDeepSeekR1 (január 2025): 671 milliárd paraméter (37 milliárd aktív), amely kiváló teljesítményt nyújt különböző benchmarkokban  AIME 2024ben 79,8%, MATH500ban 97,3%, MMLUban 90,8%.[3][4]\n\nGPTOSS120B (augusztus 2025): OpenAI első teljesen nyílt forráskódú modellje Apache 2.0 licenccel, 117 milliárd paraméter, amely MMLUban ~90%ot ért el.[5][6][7]\n\nQwen3235BA22B (augusztus 2025): 235 milliárd ritka paraméter, erős többnyelvű és multimodális teljesítménnyel, 1 millió tokenes kontextus támogatással.[8][9]\n\n Következtetés\n\nA Ring1Tpreview paraméterméreten valóban a legnagyobb nyílt forráskódú modell jelenleg, de a \"legfejlettebb\" megítélése a konkrét használati esettől függ. Különböző modellek különböző területeken jeleskednek  a DeepSeekR1 költséghatékonyságban és matematikai érvelésben, a GPTOSS megbízhatóságban és eszközhasználatban, míg a Ring1Tpreview méretben és komplex gondolkodási képességekben.[10][11][3][1]",
+      "created_at": "20251006T04:02:09.565718Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "230e6f6b022b411eac6572cecc1ceb98",
+      "query": "de alapbol van mar qwen 3 llama 4 deepsek 3.2 \nmax egy honapos modelleket nezd",
+      "answer": "Az elmúlt egy hónapban (szeptember 6  október 6, 2025) mindössze két jelentős open source LLM jelent meg, és a Ring1Tpreview egyértelműen a legfejlettebb közülük.[1][2]\n\n Ring1Tpreview (szeptember 30, 2025)\n\nA legnagyobb és legfejlettebb frissen megjelent modell 1 trillió paraméterrel és MoE architektúrával. Az AIME 2025 matematikai versenyen 92,6 pontot ért el, ami közelíti a GPT5 thinking modell teljesítményét. 20 trillió tokenen lett előképezve, és kiemelkedő eredményeket mutat komplex érvelési feladatokban, verseny szintű kódgenerálásban és ARCAGI1 tesztekben.[2][3]\n\n TildeOpen LLM (szeptember 3, 2025)\n\nAz egyetlen másik friss open source modell 30 milliárd paraméterrel, amely az európai nyelvekre specializálódott. A Tilde fejlesztette ki az Európai Bizottság megbízásából, különös hangsúllyal a balti országok nyelveire, valamint az ukrán és török nyelvekre. A modell a LUMI szuperszámítógépen lett tréningezve, és ingyenesen elérhető Hugging Faceen.[4][5][1]\n\n Összegzés\n\nAz október 6ai állapot szerint a Ring1Tpreview a legfejlettebb nyílt forráskódú LLM az elmúlt egy hónapból, amely méretben, teljesítményben és érvelési képességekben egyaránt kiemelkedik. A TildeOpen LLM sokkal kisebb és specifikus célközönségre készült, így általános feladatokra nem versenyképes a Ring1Tvel.[5][1][2]",
+      "created_at": "20251006T04:04:21.832354Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "306c7cdeb61f4ea09cc29995804a0499",
+      "query": "Friss listát kérek az elmúlt 30 napban kiadott LLMekről",
+      "answer": "Az elmúlt 30 napban (szeptember 6  október 6, 2025) hét jelentős nyílt forráskódú LLM jelent meg:[1][2][3][4]\n\n Szeptember\n\nTildeOpen LLM (szeptember 34)\n30 milliárd paraméter, európai nyelvekre optimalizálva, különösen balti, ukrán és török nyelvekre.[4][5]\n\nQwen3MaxPreview (szeptember 5)\nAlibaba legújabb zászlóshajó modellje 1+ trillió paraméterrel, amely meghaladja a MoonShot AI Kimi K2, Claude Opus 4 és DeepSeek V3.1 teljesítményét több benchmarkban. Nem nyílt forráskódú, csak Alibaba Cloudon elérhető.[3][6]\n\nLongCatFlashThinking (szeptember 2122)\nMeituan 560 milliárd paraméteres MoE modellje, amely átlagosan 27 milliárd paramétert aktivál. LiveCodeBenchben 86,0%ot, AIME24ben 79,9%ot ért el, miközben 64,5%kal kevesebb tokent használ az AIME25ön. Natív eszközhasználattal és háromszorosán gyorsabb aszinkron RLlel rendelkezik.[2][7][8]\n\nQwen3VL nagyobb verzió (szeptember 24)\nMultimodális modell, amely felülmúlta a Gemini 2.5 Prot több vizuális benchmarkban.[9]\n\nQwen3Next80BA3B (szeptember 26)\n80 milliárd paraméteres MoE modell, amely csak 3 milliárd paramétert aktivál inferencia során. Megegyezik a Qwen3235BA22B teljesítményével, miközben a tréning költség kevesebb mint 10%át használja. 256K tokenes kontextus támogatással, 1 millió tokenig bővíthető.[10]\n\n Október\n\nRing1Tpreview (szeptember 30)\n1 trillió paraméteres MoE modell az Ant Grouptól, 20 trillió tokenen előképezve. AIME 2025ben 92,6 pontot ért el, közelítve a GPT5 thinking modell teljesítményét.[11][12]\n\nQwen3VL kompakt verziók (október 3)\nKét 30 milliárd paraméteres modell 3 milliárd aktív paraméterrel: Qwen3VL30BA3BInstruct és Qwen3VL30BA3BThinking. Versenyképesek a GPT5Mini és Claude 4 Sonnettel matematikában, képfelismerésben, videófeldolgozásban és agent vezérlésben.[13][1]\n\nA Ring1Tpreview és a LongCatFlashThinking emelkednek ki méretben és érvelési képességekben, míg az Alibaba Qwen3 család a hatékonyságban és sokszínű alkalmazási területekben vezet.[8][2][11]",
+      "created_at": "20251006T04:10:00.684695Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

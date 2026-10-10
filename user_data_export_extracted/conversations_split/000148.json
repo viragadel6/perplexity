@@ -1,0 +1,37 @@
+{
+  "context_uuid": "b90f318e79d143c3ae1239da14e167c0",
+  "context_title": "send back every single URL\nIn your reply, I’d like you to just list the results, nothing else. \nOne url per line\nno list numbers",
+  "created_at": "20260926T00:06:52.639382Z",
+  "updated_at": "20260926T00:20:44.442050Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "dc2c69c3be4d45e780a0c1e2623fae09",
+      "query": "send back every single URL\nIn your reply, I’d like you to just list the results, nothing else. \nOne url per line\nno list numbers",
+      "answer": "The attached text file contains every URL extracted from your upload, one per line.[1]",
+      "created_at": "20260926T00:06:52.710025Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "9374bfa60ef04cb6b65ad76b6373f2c5",
+      "query": "only main domains",
+      "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[1]",
+      "created_at": "20260926T00:19:56.742804Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "0ca3615f749e47969fdac1b566d8cc94",
+      "query": "put in txt file",
+      "answer": "The TXT file contains the 278 maindomain URLs, one per line.[1]",
+      "created_at": "20260926T00:20:31.924603Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

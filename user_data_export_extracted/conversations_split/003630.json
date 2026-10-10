@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0b4550d4fc0c43d8b0392adeb9f523ca",
+  "context_title": "Kép\n",
+  "created_at": "20260309T16:51:04.310490Z",
+  "updated_at": "20260309T16:51:13.404221Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4ab4f87cdcba4decaea606345d200b76",
+      "query": "Kép\n",
+      "answer": "A megadott link egy iOS‑alkalmazás („v0” by Vercel, Inc) App Store‑oldalára mutat, ahol a fejlesztő által feltöltött képernyőképeket (screenshotokat) az App Store felülete jeleníti meg, nem lehet őket innen közvetlenül letölteni vagy beágyazni külső alkalmazásból.[1][2][3]\n\nHa képet szeretnél róla, nyisd meg a linket az iPhone‑odon, görgess le a képernyőképekig, és ott a kívánt képre rábökve készíthetsz róla saját képernyőfotót, amit utána már bárhová feltölthetsz vagy továbbküldhetsz.[2][3][1]\n\nPontosan mit szeretnél csinálni a képpel – letölteni, beilleszteni valahová, vagy csak látni, hogyan néz ki az app?",
+      "created_at": "20260309T16:51:05.225780Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

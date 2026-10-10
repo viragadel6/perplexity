@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9714f10c9ff74c269a50d0920aa85c66",
+  "context_title": "",
+  "created_at": "20251001T08:32:48.545056Z",
+  "updated_at": "20251001T08:32:48.545056Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "934de5b5b1c141029ede7487fb72917b",
+      "query": "",
+      "answer": "A tartalom jelenleg nem érhető el erről az oldalról, így nem tudom bemutatni vagy részletezni a  oldal információit. Ha specifikus kérdésed van a Hunyuan3DPart projektről vagy annak képességeiről, érdemes rövid összefoglalót vagy további részleteket megadni, hogy pontosabb választ adhassak.",
+      "created_at": "20251001T08:32:48.850569Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

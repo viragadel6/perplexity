@@ -1,0 +1,28 @@
+{
+  "context_uuid": "0c6eda8373934034aed9b0543a73ab44",
+  "context_title": "tegyél fel ellenőrző kérdéseket a találstokra: Olyan böngészőt keresek iOSre, amelyben a weboldalak ténylegesen biztosan soha nem ismerik fel a készülékemet vagy a hálózatomat, és nem tudják, hogy valaha jártam azon az oldalon.",
+  "created_at": "20260531T23:10:06.947856Z",
+  "updated_at": "20260531T23:10:25.305147Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "40e70026310c43ed89b551e6973c37a5",
+      "query": "tegyél fel ellenőrző kérdéseket a találstokra: Olyan böngészőt keresek iOSre, amelyben a weboldalak ténylegesen biztosan soha nem ismerik fel a készülékemet vagy a hálózatomat, és nem tudják, hogy valaha jártam azon az oldalon.",
+      "answer": "Nem létezik olyan iOS böngésző, amelyről őszintén meg lehetne mondani, hogy a weboldalak biztosan soha nem ismerik fel a készülékedet vagy a hálózatodat, és azt sem tudják meg, hogy jártál ott korábban. Az iOSen a Safari és más böngészők is ugyanarra a WebKitalapra vannak korlátozva, ezért a teljes, garantáltan felismerhetetlen állapot nem reális cél.[1][2]\n\n Ami tényleg közelít ehhez\n\nA legerősebb iOSes megoldás általában az Onion Browser, mert a Torhálózaton keresztül próbálja anonimabbá tenni a böngészést, és kifejezetten iOSre létezik. Viszont még ez sem ad olyan erős ujjlenyomatvédelmet, mint a desktop Tor Browser, és iOSen a platformkorlátok miatt a teljes anonimitás itt sem garantálható.[3][4][5]\n\nA másik érdemi lehetőség a Safari iCloud Private Relayjel, mert ez elrejti az IPcímedet és csökkenti a hálózati megfigyelhetőséget Safari alatt. Ez azonban nem ugyanaz, mint a weboldalak előli teljes rejtőzés: a webhelyek továbbra is használhatnak más azonosító jeleket, és a böngészési előzményeket sem semmisíti meg önmagában.[6][7]\n\n Melyik mennyire erős\n\n| Megoldás | IPcím elrejtése | Ujjlenyomatvédelem | Előzmények/nyomok ellen |\n|||||\n| Onion Browser | Jó, Toron át [3][4] | Korlátozott iOSen [3] | Jobb, de nem tökéletes [4][5] |\n| Safari + iCloud Private Relay | Jó Safari alatt [6][7] | Közepes [8] | Nem nulláz mindent [6][7] |\n| Más iOS böngészők | Változó | Általában iOS/WebKitkorlátok alatt [2] | Nem garantált [2] |\n\n Mit érdemes keresned\n\nHa a célod az, hogy a weboldalak minél nehezebben ismerjenek fel, akkor olyan böngészőt keress, amelynek van antifingerprinting, cookieisolation, IPcím elrejtés és tabonkénti elkülönítés jellegű funkciója. A Privacy Guides által idézett Psylo például tabonkénti elkülönítést és saját IPcímet említ, de ez még akkor sem egyenlő az abszolút felismerhetetlenséggel.[9][5]\n\n Ellenőrző kérdések a megfelelő találatokhoz\n\nMielőtt ajánlok konkrét appokat, ezekre a kérdésekre érdemes választ adni, mert ezek döntik el, melyik megoldás illik hozzád:\n\n1. Csak Safarialapú megoldás érdekel, vagy jöhet külön app is?\n2. Fontosabb az IPcím elrejtése, vagy az ujjlenyomat elleni védelem?\n3. Használnál Torhálózatot, még ha lassabb is?\n4. Kell, hogy a böngésző ne őrizzen meg semmilyen előzményt, vagy elég a minimális nyom?\n5. Olyan kell, ami a mindennapi használatban kényelmes, vagy inkább a maximális adatvédelem a fő szempont?\n\nHa ezekre válaszolsz, szűkíteni tudom a listát a te célodra legjobb iOS böngészőkre.",
+      "created_at": "20260531T23:10:07.052449Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "b3ed6dd87a6c4c96b1fdec9c82717e71",
+      "query": "Maximális adatvédelem a célom, a kényelem másodlagos",
+      "answer": "Answer skipped.",
+      "created_at": "20260531T23:10:23.407834Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "context_uuid": "a464c4d437bb4cd1b1a1f49ba4f50d93",
+  "context_title": "coinbase rol akoor igy kuldok az uscd t akkor elfogadja megfog erkezni base n kuldve?",
+  "created_at": "20260603T22:58:30.582339Z",
+  "updated_at": "20260603T23:00:59.863208Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "35e7ab1d1dc54478b4e04250492a2268",
+      "query": "coinbase rol akoor igy kuldok az uscd t akkor elfogadja megfog erkezni base n kuldve?",
+      "answer": "Nem, ez így nem fog megérkezni — és ez egy fontos különbség, amit figyelembe kell venni, mielőtt elküldenéd.\n\n Mi a probléma?\n\nA két képernyőkép két teljesen különböző hálózatot mutat:\n\n 1. kép (Coinbase küldő oldal): USDC küldése Base hálózaton keresztül\n 2. kép (fogadó oldal): A cím USDCt vár BNB Chain (BEP20) hálózaton\n\nEzek nem kompatibilisek egymással. Ha Baseen küldöd az USDCt egy BNB Chaines deposit címre, a pénzed elveszhet örökre. A fogadó platform maga is figyelmeztet erre a képernyőn: \"Only send Native USDC (BNB Chain) assets to this address. Other assets will be lost forever.\"[1]\n\n Mit kell tenned helyette?\n\nAhhoz, hogy a tranzakció megérkezzen, a Coinbaseen BNB Chain (BEP20) hálózatot kell kiválasztanod küldéskor — nem Baset. Coinbase sajnos jelenleg nem minden platformnál támogatja a BNB Chaint USDCre.[1]\n\nHa a Coinbase nem enged BNB Chainen küldeni, akkor egy bridge (híd) szolgáltatáson keresztül kell átalakítani a hálózatot — például a  vagy  platformokon, amelyek Base → BNB Chain irányban is működnek.[2][3]\n\n Rövid összefoglalás a biztonsághoz\n\n| Küldő hálózat | Fogadó cím elvárása | Megérkezik? |\n||||\n| Base (USDC) | BNB Chain (BEP20) | ❌ Elvész |\n| BNB Chain (USDC) | BNB Chain (BEP20) | ✅ Megérkezik |\n\nSoha ne küldj addig, amíg a hálózat 100%ban nem egyezik a fogadó oldalon megjelölt hálózattal. Tesztelj először kis összeggel, ahogy a Coinbase maga is javasolja.[4]\n\nMelyik platformra szeretnél küldeni — tudod, hogy az fogade BNB Chain USDCt?",
+      "created_at": "20260603T22:58:30.858325Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "71fe3c93048d47868af324bc7b38f263",
+      "query": "akkor hogy a rakba oldjam meg",
+      "answer": "A helyzet megoldható, de nem lehet egy lépésben intézni — két út van előtted.\n\n 1. lehetőség: Coinbaseen belül (legegyszerűbb)\n\nHa a Coinbase lehetővé teszi számodra, hogy BNB Chain (BEP20) hálózaton küldj USDCt, akkor egyszerűen:\n\n1. Menj a Coinbase küldés felületére\n2. Válaszd az USDCt\n3. Hálózatnál ne a Baset válaszd, hanem BNB Chain / BEP20at\n4. Add meg a fogadó cím QRkódját (a 2. képen látható 0x56OO5aBfB93C2Dc331B9O6DDO57... cím)\n5. Küldés\n\nSajnos a Coinbase nem mindig kínálja a BNB Chain opciót USDCre — ha nincs ott, akkor a 2. út kell.[1]\n\n 2. lehetőség: Bridge (híd) szolgáltatáson keresztül\n\nHa a Coinbase csak Baseen engedi küldeni az USDCt, akkor először ki kell bridgelni Baseről BNB Chainre. A legegyszerűbb eszközök erre:[2][3]\n\nJumper.exchange vagy LI.FI (ajánlott, aggregátor, a legjobb árat keresi automatikusan):\n1. Menj a  oldalra\n2. Csatlakoztasd a Coinbase Walletet vagy MetaMaskot\n3. From: Base – USDC\n4. To: BNB Chain – USDC\n5. Add meg a fogadó BNB Chaines címet\n6. Erősítsd meg a tranzakciót\n\nA bridge díja általában nagyon alacsony (pár cent), és néhány perc alatt megérkezik.[2]\n\n Fontos figyelmeztetés\n\n| Lépés | Teendő |\n|||\n| Ellenőrzés | Győződj meg, hogy a fogadó platform Native USDC on BNB Chain (BEP20) cím |\n| Tesztelés | Először küldj kis összeget (pl. $12), és csak ha megérkezett, küldd a többit |\n| Gas | A bridgehez kell egy kis BNB a tárcádban gas díjra |\n\nCoinbaseben látode a hálózatnál a BNB Chain opciót, vagy csak a Base jelenik meg?",
+      "created_at": "20260603T22:59:53.677439Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "bdfcfc598c044e02a819e8c03d9c4313",
+      "query": "vagy igy? polyglon megy coinbasen",
+      "answer": "Igen, a Polygon sokkal jobb megoldás! A Coinbase támogatja az USDC küldést Polygon hálózaton, és az új képen látható fogadó cím is Polygon USDCt vár — tehát ez egyezik!\n\n Ez a helyes út\n\nAz új képernyőképen a fogadó oldal USDC on Polygont vár, és a Coinbaseen igenis elérhető a Polygon hálózat USDC küldésnél. Ez ingyen vagy filléres díjjal megy, sokkal gyorsabb és olcsóbb mint az Ethereum hálózat.[1][2]\n\n Lépések Coinbaseen\n\n1. Nyisd meg a Coinbase appot → Send\n2. Válaszd az USDCt\n3. Add meg a fogadó címet (a képen látható 0x08O1BO6Be4e1D5Fe5c2E7dF5CDO2...)\n4. A hálózatnál kattints a nyílra és válaszd a Polygont[1]\n5. Ellenőrizd, majd küldés\n\n Fontos különbség a két kép között\n\nAz előző képen BNB Chain volt a fogadó hálózat — az nem ment volna Coinbaseről. De ez az új kép Polygont mutat, amit a Coinbase közvetlenül támogat. Ez a kombináció működik, nem kell bridge vagy közvetítő![2]\n\nCsak arra figyelj: mielőtt a teljes összeget elküldenéd, küldj először $12 értékűt tesztnek, és nézd meg, megérkezike. Ha igen, mehet a többi is.",
+      "created_at": "20260603T23:00:39.219315Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "32e76eafc60948698c8a098d62f15671",
+  "context_title": "melsik a jobb",
+  "created_at": "20250917T03:59:03.890231Z",
+  "updated_at": "20250917T03:59:03.890231Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c1b5055115784994aa59528adbbd522e",
+      "query": "melsik a jobb",
+      "answer": "A két csatolt fájl közül a szöveg47 (JAIDE IONQ IBM IQM Hybrid) technikailag koherensebb, érettebb és funkcionálisan bővebb megoldás; ezért az a jobb választás a “supernatural” változathoz képest.[1]\n\n Miért jobb\n Integrációs lefedettség: Az IQM mellett az IBM és IONQ útvonalakat is kezeli, explicit backend inicializálással (Sampler/Estimator, DD pass manager), míg a “supernatural” csak IBM/IONQra fókuszál és egyszerűbb szimulátoros úton megy.[2][1]\n Natív híd és API: Részletesebb Zig FFI exportokkal (inferencia, elosztott tréning, kvantum elemzés, memóriakezelés, context lekérdezések, spektrális reguláció), pontosabb típusaláírásokkal és erősebb hibakezeléssel, míg a “supernatural” implementáció szűkebb és kevésbé konzisztens (pl. függvénynevek, erőforráskezelés).[2][1]\n\n Konfiguráció és skálázás\n Nagyobb skála és részletesebb config: Több kvbit (32), nagyobb shots (16384), részletesebb optimizer beállítások, több munkaszál és Ray integráció következetesen dokumentálva; a “supernatural” kisebb HDS/TGN méreteket és 8192 shotot használ, kevesebb skálázási opcióval.[1][2]\n Hardverút és build: Robusztusabb build script lépésenkénti ellenőrzéssel, diagnosztikával és hibakódokkal, plusz IQM provider csomagok a Nix környezetben; a “supernatural” build folyamatában kevesebb ellenőrzés és kevesebb providercsomag szerepel.[2][1]\n\n Modell és pipeline\n Modellstruktúra: Tisztábban szétválasztott CustomTGN komponens, konzisztens dimenziók (4096/20480), és grafkonv beillesztés; a “supernatural”ban a TGN/graphconv útvonal keverése és méretezése szórtabb.[1][2]\n Tréning és validáció: A JAIDE változat egységes TrainingPipelinet, Rayalapú elosztást, és orchestrátori optimalizációs/spektrális regulációs hívásokat kínál; a “supernatural” pipeline kevésbé letisztult és vegyes nyelvű stubokkal tarkított.[2][1]\n\n Formális és biztonsági részek\n Formális verifikáció: Agda/Isabelle/Dedukti lánc részletesebb, mérnökibb (pl. Lorenzchaos lemmák, paraméterezés, típusellenőrzés), míg a “supernatural” oldalon ezek inkább mintaszerűek és kevésbé következetesek.[1][2]\n Biztonsági modulok: Kidolgozottabb SecurityDetector/SecurityModule (Lorenzalapú token, JSD, állapotverifikáció), szemben a “supernatural” egyszerűbb hash és spektrumnormellenőrzésével.[2][1]\n\n Fejlesztői élmény\n Orchestrator: Rendezettebb rétegzés (SystemConfig, NativeBridge, QuantumProcessor, Orchestrator), több diagnosztika és tisztább erőforráséletciklus; a “supernatural” orchestrator egyszerűbb, kevesebb védőkorláttal.[1][2]\n Dokumentáltság és lokalizáció: Jobb hibajelzések, magyar nyelvű logok és UIáramlás, részletesebb Streamlit interfész és utilityk; a “supernatural” app minimalista.[2][1]\n\n Mikor lehet mégis a “supernatural” elég\n Ha csak IBM/IONQ szimuláció gyors kipróbálása a cél, kisebb dimenziókkal és egyszerűbb builddel, a “supernatural” minimális demóhoz használható, de hosszú távon kevesebb tartalékot ad.[2]\n Ha a projekt nem igényel IQMt, mélyebb FFI APIt és skálázást, a kisebb lábnyom előny lehet rövid ProofofConcepthez.[2]\n\n Döntési javaslat\n Production vagy kutatói platform: Válassza a JAIDE (szoveg47) verziót a bővebb backendtámogatás, stabilabb build, gazdagabb FFI és erősebb verifikáció miatt.[1]\n Gyors prototípus minimális külső függőséggel: A “supernatural” elindulhat gyorsabban, de később migráció szükséges lesz a szélesebb funkciókhoz.[2]",
+      "created_at": "20250917T03:59:04.036797Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2b3de4eea0694027800de614a56082c5",
+  "context_title": "mit ir hol kapok legerosebb ingyenes probat quantum gephez",
+  "created_at": "20250922T00:41:42.074211Z",
+  "updated_at": "20250922T00:41:42.074211Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f4e1b9cfa9e44d64a3c0f1a024ed5668",
+      "query": "mit ir hol kapok legerosebb ingyenes probat quantum gephez",
+      "answer": " Lehető legerősebb ingyenes kvantumszámítógép próbahozzáférés – hol érhető el\n\nÖsszefoglalás:  \nHa a legerősebb, valóban ingyenesen kipróbálható kvantumszámítógépet keresed, a jelenlegi lehetőségek között az IBM Quantum platform ingyenes csomagja érhető el a legszélesebb körben. Egyéb szolgáltatók (mint SuperQ) leginkább csak fizetős, trial ajánlatot kínálnak, teljesen ingyenes, hosszabb vagy komolyabb erőforrásra szóló próba nem hozzáférhető a nagyobb gépeken.\n\n\n\n IBM Quantum – Ingyenes próbalehetőség\n\n Hol érhető el?  \n  Regisztrációval, a  weboldalon keresztül.\n Mit kínál?  \n  IBM Quantum ingyenes csomagja havonta maximum 10 perc runtimehozzáférést biztosít a kvantum gépfleetjükön belül.  \n  Ez alkalmas kísérletezésre, kisebb algoritmusfuttatásra, fejlesztésre – nem ipari, hanem kutatási és oktatási célra[1].\n Mire elég?  \n  Az ingyenes csomag gyakorlati célra, tanulásra, kisebb projekteknél jól használható. Nagy, komoly gépteljesítmény vagy futásidő (pl. ipari szimulációk) csak fizetős csomagban érhető el.\n\n\n\n SuperQ – Legerősebb platform, de nem ingyen\n\n A legújabb kvantum platformok között a SuperQ Trailblazer Tier ajánlata tűnik a legerősebbnek a nemkommersz/oktatási felhasználásra, de nem ingyenes, csak jelentős kedvezménnyel szerezhető be (aktuális ár: $149/hó vagy $1,428/év). Ingyenes API vagy demó hozzáférés nincs, csak előfizetői rendszer.\n\n\n\n Egyéb lehetőségek\n\n Google Quantum AI, IonQ, QuEra, EPB Quantum és más szolgáltatók jelenleg nem kínálnak valóban ingyenes (próbacsomag, API) hozzáférést a legerősebb gépeikhez – még pályázgatás, kutatói projekt vagy tanulmányi együttműködés keretében sem[1].\n Számos platform kínál ingyenes tananyagokat, szimulátorokat, amivel kvantumprogramozást, algoritmusokat lehet fejleszteni, de magához a hardverhez nem adnak közvetlen hozzáférést.\n\n\n\n Hogyan juthatsz hozzá?\n\n1. IBM Quantum Experience regisztráció:  \n    – regisztráció után a felületen tudod futtatni saját algoritmusaidat, elérhető Python SDK (Qiskit).\n2. Fizesd elő, ha komolyabb hozzáférés kell:  \n   Ha valóban erős gépet, ipari futásidőt akarsz, jelenleg a Trailblazer Tiert ajánlja a SuperQ, de ez fizetős, nem ad ingyenes kipróbálást.\n\n\n\n Rövid válasz  Hol kapsz legerősebb, valóban ingyenes próbát?\n\nJelenleg az IBM Quantum platformon van ingyenes próbacsomag, de csak korlátozott ideig és teljesítményen.  \nA legerősebb gépekre mindenütt fizetni kell vagy kutatói projekt keretében lehet hozzáférni.\n\n\n\n Hivatkozások\n\n[1] IBM Quantum ingyenes csomag kínálata – 10 perc runtime havonta  \n SuperQ Trailblazer Tier részletei – fizetős, nincs teljesen ingyenes próba",
+      "created_at": "20250922T00:41:42.168232Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

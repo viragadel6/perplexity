@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0704c2fdbc1342e88e844c7a0f9cd6fb",
+  "context_title": "melyik a legmodernebb legerosebb fejlettebb mind kozul?",
+  "created_at": "20250704T17:37:42.395784Z",
+  "updated_at": "20250704T17:37:42.395784Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "cd7db2b675474de0b713b1d6fdd2aaf7",
+      "query": "melyik a legmodernebb legerosebb fejlettebb mind kozul?",
+      "answer": " A legmodernebb, legerősebb és legfejlettebb JADE platform összehasonlítás\n\nA felhasználó kérdése szerint: melyik a legmodernebb, legerősebb és legfejlettebb a JADE platformok között?\n\nA csatolt források alapján a JADE platformok különböző verziói és fejlesztési szintjei elérhetőek, amelyek közül a legújabb, legmodernebb és legnagyobb teljesítményű a \"JADE ULTIMATE\" vagy \"JADE ULTIMATE  StateoftheArt AI Security Platform\" elnevezésű változat[1][2][3].\n\n Összehasonlítás: JADE verziók és képességek\n\n| Verzió / Platform                | Kulcsfunkciók                                                                                  | AI modellek száma | Innovatív jellemzők                | Megjegyzés                |\n||||||\n| JADE 2.0 / JADE AI Platform       | Több AI integráció, chat API, websocket, metrikák, Docker/Kubernetes támogatás                | Több (OpenAI, Anthropic, Google, Mistral, Cohere, Perplexity) | Rate limiting, circuit breaker, monitoring | Fejlett, skálázható        |\n| JADE 3 / JADE Ultimate            | MultiAI, Gemini, Replicate, Jina, Exa, Portkey, Vespa, Redis, Prometheus, komplex adatbázis  | 8+                | Hiperorchestráció, hálózati vizualizáció, executive report | Nagyon fejlett, ipari szint |\n| JADE Ultimate (2025, Monolith)    | 12+ AI modell, quantuminspired UI, neural network vizualizáció, voice control, zerotrust    | 12+               | Quantum encryption, autonóm védelem, mindreading UX | Legmodernebb, legfejlettebb|\n| JADE Ultimate (main.py, 2025)     | FastAPI, 12+ AI modell, Redis, Prometheus, komplex adatbázis, multimodal AI, quantum crypto  | 12+               | Quantum encryption, autonóm védelem, mindreading UX | Legmodernebb, legfejlettebb|\n\n Kiemelt előnyök a legfejlettebb verzióval\n\n 12+ AI modell párhuzamos futtatása (DeepSeek R1, Qwen 2.5 Coder, Llama 3.3 70B, Code Llama 34B, Phi3.5 MoE, Mistral 7B v0.3, RWKV7, Gemma 2, YiCoder, SolarPro, NousHermes, WizardCoder)\n Quantuminspired UI és neural network vizualizáció\n Valós idejű fenyegetésfelderítés és autonóm védelem\n Voice control és mindreading UX\n Quantum encryption és zerotrust architektúra\n Összetett adatbázis, Redis, Prometheus, Docker, Kubernetes támogatás\n Executive report, hálózati térkép, multimodal elemzés\n\n Következtetés\n\nA legmodernebb, legerősebb és legfejlettebb a JADE platformok között a 2025ös \"JADE ULTIMATE\" vagy \"JADE ULTIMATE  StateoftheArt AI Security Platform\" verzió.  \nEz a verzió összegzi a legmodernebb AI technológiákat, a legfejlettebb biztonsági megoldásokat és a legnagyobb skálázhatóságot, valamint innovatív felhasználói élményt nyújt a részletes hálózati vizualizációval, voice controllal és quantuminspired UIval[1][2][3].\n\nÖsszefoglalva:  \nA legmodernebb, legerősebb és legfejlettebb a JADE platformok között a 2025ös JADE ULTIMATE verzió, amely 12+ AI modellt, quantum encryptiont, autonóm védelemet, voice controlt és neural network vizualizációt kínál.",
+      "created_at": "20250704T17:37:42.421536Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

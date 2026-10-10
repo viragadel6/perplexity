@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e385596953e149a3a73001025f76ba7d",
+  "context_title": "Alza alkalmazásból küldve: ",
+  "created_at": "20250613T20:29:51.903889Z",
+  "updated_at": "20250613T20:29:51.903889Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f8b1a79187b243929c626310554c0080",
+      "query": "Alza alkalmazásból küldve: ",
+      "answer": "A megadott linken található termék az UGREEN USB4 Data and Charging Cable 0.8m 40Gbps adatkábel, amely gyors adatátvitelt és töltési lehetőséget biztosít USB4 kompatibilis eszközökhöz[1].\n\n Főbb jellemzők\n\n Típus: USB4 adat és töltőkábeles\n Hossz: 0,8 méter\n Átviteli sebesség: Akár 40 Gbps (gigabit per másodperc)\n Kompatibilitás: USB4 szabvánnyal kompatibilis, visszafelé kompatibilis USB 3.x és Thunderbolt 3 eszközökkel is\n Töltési funkció: Támogatja a gyors töltést, de a maximális teljesítményt nem tüntetik fel a termékleírásban (más UGREEN Thunderbolt 3/USB4 kábel 100Wot is támogat)[2]\n Felhasználás: Adatátvitel, töltés, multimédia (pl. videó átvitel, több monitor csatlakoztatása, Daisy chain)\n\n További információ\n\nA kábel megfelel a legújabb USB4 szabványnak, így ideális választás lehet modern laptopok, külső merevlemezek, SSDk, vagy akár monitorok csatlakoztatásához, ha a maximális sebességre van szükség. A termékleírás szerint a specifikációk előzetes tájékoztatás nélkül változhatnak, a képek pedig csak illusztrációk[1].\n\nHa a kábel mellé a maximális töltési teljesítmény is fontos, érdemes lehet más UGREEN modellt is megvizsgálni, ahol expliciten 100Wos töltést is ígérnek[2].",
+      "created_at": "20250613T20:29:51.963090Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

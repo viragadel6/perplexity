@@ -1,0 +1,28 @@
+{
+  "context_uuid": "af20c915fe9543219e1ccb0ab98bfcba",
+  "context_title": "iden wm hány lesz ?",
+  "created_at": "20260220T00:31:07.563533Z",
+  "updated_at": "20260220T00:31:55.735135Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "966bf8fc541d48209c548006dc78d20f",
+      "query": "iden wm hány lesz ?",
+      "answer": "A kérdés sajnos nem egyértelmű számomra – a „WM\" rövidítés több dolgot is jelenthet (pl. labdarúgóvilágbajnokság németül: Weltmeisterschaft, dartsvilágbajnokság, stb.). A keresési eredmények sem adtak egyértelmű választ.\n\nHa a 2026os FIFA labdarúgóvilágbajnokságra gondoltál (ami idén, 2026ban lesz az USAban, Kanadában és Mexikóban), akkor a legfontosabb számok:\n\n 48 csapat vesz részt (az eddigi 32 helyett bővített formátumban)[2]\n Ez összesen 104 mérkőzést jelent (az eddigi 64 helyett)\n\nHa viszont más „WM\"re gondoltál (pl. egy adott sport más világbajnoksága, vagy valami teljesen más), pontosítsd légyszíves a kérdést, hogy pontos választ tudjak adni! 🙂",
+      "created_at": "20260220T00:31:07.940233Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "1fedb36092d542799beffc5378926394",
+      "query": "wrestle mania",
+      "answer": "Idén a WrestleMania 42 lesz, amit „WrestleMania Vegas\" névvel is reklámoznak.[1]\n\n WrestleMania 42 – Alapadatok\n\nAz eseményt 2026. április 18án (szombat) és április 19én (vasárnap) rendezik meg, két éjszakán át, a nevadai Las Vegasban található Allegiant Stadionban.  Ez már a harmadik alkalom, hogy Las Vegas ad otthont a WrestleManiának (korábban 1993ban és 2025ben volt itt), és egymás után a második év, hogy ugyanabba a stadionba térnek vissza.[2][3][4]\n\n Miért Las Vegas megint?\n\nA WrestleMania 41 (2025) minden idők legsikeresebb és legnagyobb bevételű WWEeseménye lett, amelyen két este összesen 124 693 néző vett részt, és rekordot döntött a kapubevételben is.  Emiatt a WWE (anyavállalata, a TKO Group Holdings) úgy döntött, hogy újra Las Vegasba viszi az eseményt, mivel az UFC is itt székel, és a szervezők jól ismerik a helyszín profitmaximalizálási lehetőségeit.  Eredetileg New Orleanst jelölték meg helyszínként (április 1112.), de ezt megváltoztatták – New Orleans helyette a Money in the Bank 2026 eseménynek ad majd otthont (augusztus 29én), és egy jövőbeli WrestleManiát is kapni fog.[4][5][2]\n\n WWE World – Kiegészítő programok\n\nA WrestleManiahét április 16tól 20ig tart a WWE World keretein belül, ahol sztártalálkozók, fotó és dedikálási lehetőségek is várnak a rajongókra – a részletek márciusban kerülnek nyilvánosságra.  Jegyek az Allegiant Stadionba jelenleg kaphatók, mind alap, mind VIP/Priority Pass csomagban.[6][7]",
+      "created_at": "20260220T00:31:34.680263Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

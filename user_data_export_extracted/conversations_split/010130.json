@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a3c675481f73463397937cf1278a2587",
+  "context_title": "a  honlapotle kell klónoznom a 3d animacioiv egyutt. hogyan? csak a megoldast ird, nem erdekel hogy kihivas stb stb hanem csak a megoldas",
+  "created_at": "20250606T18:42:43.383163Z",
+  "updated_at": "20250606T18:42:43.383163Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d8c3124a371648a7808219b73a848d98",
+      "query": "a  honlapotle kell klónoznom a 3d animacioiv egyutt. hogyan? csak a megoldast ird, nem erdekel hogy kihivas stb stb hanem csak a megoldas",
+      "answer": " Website Klónozás 3D Animációkkal\n\nA dotdna.io weboldal 3D animációival együtti klónozásához a következő megoldásokat alkalmazhatod, mivel ez egy dinamikus, JavaScriptalapú oldal.\n\n Automatikus Módszer  Puppeteeralapú Klónozás\n\nWebsitescraperpuppeteer telepítése:\nbash\nnpm install website-scraper website-scraper-puppeteer\n\n\nKlónozó script (clone.js):\njavascript\nconst scrape = require('website-scraper');\nconst PuppeteerPlugin = require('website-scraper-puppeteer');\n\nscrape({\n  urls: ['https://dotdna.io'],\n  directory: './dotdna-clone',\n  plugins: [\n    new PuppeteerPlugin({\n      launchOptions: { headless: false },\n      gotoOptions: { waitUntil: 'networkidle0', timeout: 60000 },\n      scrollToBottom: { timeout: 30000, viewportN: 10 },\n      blockNavigation: false\n    })\n  ]\n});\n\n\nFuttatás:\nbash\nnode clone.js\n\n\n Manuális Módszer  Browser DevTools\n\n1. Nyisd meg a  Chromeban[15]\n2. F12 → Network tab → Disable cache bekapcsolva\n3. Oldal újratöltése teljes betöltésig\n4. Jobb klikk → Inspect → Elements\n5. <html> tagen jobb klikk → Copy → Copy outerHTML\n6. Új index.html fájlba beillesztés[15]\n7. Network tabban minden asset (JS, CSS, képek, 3D modellek) kézi letöltése\n8. Relatív útvonalak javítása a lokális fájlokhoz\n\n Specializált Klónozó Eszközök\n\nHTTrack használata:\nbash\nhttrack https://dotdna.io -O ./dotdna-clone -r6 -p -k -K -a -j -v\n\n\nUIClonerPuppeteer:[13]\nbash\ngit clone https://github.com/zerosdev/ui-cloner-puppeteer\ncd ui-cloner-puppeteer\nnpm install\nnode clone url=https://dotdna.io\n\n\n További Asset Mentés\n\nA 3D animációkhoz szükséges fájlok (WebGL shaderek, 3D modellek, textúrák) gyakran dinamikusan töltődnek be, ezért ellenőrizd a Network tab alatt a következő fájltípusokat:\n .gltf, .glb (3D modellek)\n .bin, .dae (model adatok)  \n .jpg, .png, .hdr (textúrák)\n .js fájlok (Three.js, WebGL könyvtárak)[18]\n\nEredmény: A klónozott oldal a ./dotdna-clone mappában lesz elérhető minden 3D animációval együtt.",
+      "created_at": "20250606T18:42:43.435259Z",
+      "label": null,
+      "query_status": null,
+      "engine_mode": "deep_research"
+    }
+  ]
+}

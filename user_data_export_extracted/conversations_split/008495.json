@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2f53617037f24e948c4b65af8b864403",
+  "context_title": "Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal minosegibb training dataset  amik legfeljebb 3 hónapja léteznek es teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell betanitasara alkalmasak",
+  "created_at": "20250914T23:40:25.746753Z",
+  "updated_at": "20250914T23:40:25.746753Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "3d5b5d8e0234419eac2f37eecb20346e",
+      "query": "Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal minosegibb training dataset  amik legfeljebb 3 hónapja léteznek es teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell betanitasara alkalmasak",
+      "answer": "English:\n“Find extremely undertheradar yet cuttingedge, higherquality LLM pretraining datasets created within the last 3 months, suitable for training a truly fromscratch base model (not finetunes or adapters), with provenance and licensing clear enough for fullscale pretraining.”\n\nMagyar:\n„Keress extrém módon ismeretlen, mégis cutting edge és magas minőségű LLM előtanító (pretraining) dataseteket, amelyek az elmúlt 3 hónapban jelentek meg, teljesen from scratch bázismodell tanítására alkalmasak (nem finomhangoláshoz vagy adapterekhez), egyértelmű eredettel és licenccel teljes körű pretraininghez.”",
+      "created_at": "20250914T23:40:25.943892Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

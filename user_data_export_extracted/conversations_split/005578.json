@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7dd437ca87ec4a7a9d92d57426feb0d5",
+  "context_title": "",
+  "created_at": "20251217T22:45:40.179869Z",
+  "updated_at": "20251217T22:45:40.179869Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "026702f5e7344ec8b2a70edb2c67a901",
+      "query": "",
+      "answer": "A  a LanceDB Cloud felhőalapú kezelőfelülete, ahol a LanceDB szerver nélküli (serverless), menedzselt vektoradatbázisszolgáltatását tudod használni és adminisztrálni.[1][2]\n\n Mi ez röviden?\n\n Teljesen menedzselt, serverless vektoradatbázis AI/RAG, kereső és agent‑alkalmazásokhoz, így nem kell saját infrastruktúrát üzemeltetned.[3][1]\n Ugyanazt a LanceDB engine‑t használja, mint az open‑source verzió, de automatikus skálázással, biztonsággal és felügyeleti funkciókkal a felhőben.[4][1]\n\n Fő funkciók a Cloudban\n\n Projekt és táblakezelés: projektek, táblák, indexek létrehozása, módosítása, törlése webes konzolról.[2][1]\n Serverless skálázás: a háttérben automatikusan skálázza a számítást, te elsősorban a tárhelyért és a használatért fizetsz (usage‑based pricing).[5][1]\n Biztonság: titkosítás nyugalmi állapotban, vállalati szintű biztonsági és megfelelőségi funkciók (pl. SOC2, HIPAA a dokumentáció szerint).[1][4]\n\n Hogyan csatlakozol a Cloudhoz?\n\n A Cloud konzolban kapsz egy db://... formátumú LanceDB URI‑t és egy API‑kulcsot.[6][7]\n A klienskönyvtárakban (Python, JS/TS) ezt az URI‑t és API‑kulcsot adod meg a connect() hívásnál, így ugyanúgy éred el az adatbázist, mintha lokális LanceDB‑t használnál.[6][3]\n\n Mikor érdemes használni?\n\n Ha nem akarsz saját LanceDB‑t futtatni, csak egy menedzselt vektoradatbázisra van szükséged RAG‑hoz, kereséshez vagy multimodális (szöveg, kép, videó) adatok kezeléséhez.[3][1]\n Ha lokális/OSS LanceDB‑ről akarsz “felköltözni” felhőbe: ilyenkor jellemzően elég a connection URL‑t db://...‑ra cserélni, kódmódosítás nélkül.[1][3]\n\nHa leírod, mire szeretnéd használni (pl. RAG chatbot, dokumentumkereső, image search), tudok konkrét csatlakozási vagy schema‑tervezési példát is adni.",
+      "created_at": "20251217T22:45:40.518935Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

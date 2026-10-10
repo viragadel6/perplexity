@@ -1,0 +1,28 @@
+{
+  "context_uuid": "6e54fccaaade46d798da6fba616872d4",
+  "context_title": "paste.txt",
+  "created_at": "20260409T15:41:44.841586Z",
+  "updated_at": "20260409T15:46:03.726212Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "82ddf861785c4edbae0fd726e7861ae4",
+      "query": "paste.txt",
+      "answer": "A feltöltött paste.txt fájl egy rendkívül összetett, kétrétegű dokumentum: egy részletes Zig → Lean 4 formális transzpilerspecifikáció, amely tartalmazza a forrás Zigkódot és az elkezdett Lean 4 fordítást is.[1]\n\n A fájl struktúrája\n\n 1. rész: Transzpilerutasítások\n\nA fájl elején egy szigorú specifikáció található egy ZigtoLean 4 transzpilernek.  A főbb megszorítások:[1]\n\nKizárólag termmode bizonyítások engedélyezettek — a by, simp, omega, rw, exact stb. taktikák szigorúan tilosak. Csak fun, Nat.recOn, List.recOn, congrArg, Eq.trans stb. konstruktorok használhatók.[1]\n\n1:10 kódbizonyítás arány: minden egyes definíciósorhoz legalább 10 sor szigorú tételbizonyítás szükséges — nem triviális Eq.refl spam, hanem strukturális indukcióval dolgozó mélységi invariánsok.[1]\n\nLebegőpontos aritmetika tiltva: minden f32/f64 logikát racionális (FP) vagy fixpontos egész struktúrára kell leképezni, mert az opaque Float törné a termmode egyenlőségbizonyításokat.[1]\n\n\n\n 2. rész: A Zig forráskód – RSF modell\n\nA Zigkód egy RSF (Realvalued Sequence Flow) neurális hálózatot valósít meg — ez egy invertálható normalizing flow architektúra, ahol minden réteg bijektív leképezés.  A fontosabb komponensek:[1]\n\nLayerCore — az alapvető coupling réteg, amely tartalmaz s_weight/t_weight (scale/translation súlymátrixok, dim×dim), s_bias/t_bias (bias vektorok), Xavierinicializálással és Xavierhatárral \\(\\sqrt{6 / (\\text{fan\\_in} + \\text{fan\\_out})}\\).[1]\n\nA forwardInPlace a következő transzformációt végzi minden batchsorra:\n \\( x_1 \\leftarrow x_1 \\cdot \\exp(\\text{clip}(Wx_2 + b_s)) \\)\n \\( x_2 \\leftarrow x_2 + W x_1 + b_t \\)\n\nAz inverseInPlace ezt pontosan megfordítja (ezért invertálható).[1]\n\nA szálbiztonságot Thread.RwLock és egy globális AutoHashMapalapú registry valósítja meg handleownership ellenőrzéssel — ha egy handlet lemásolnak, error.HandleCopieddel jelzi.[1]\n\nA GPUgyorsítás (accel_interface.zig) csak egyetlen rétegre (num_layers == 1) és clip_min == -5.0, clip_max == 5.0 konfigurációra aktiválódik; a súlyokat f16ra konvertálja, és verziókövetéssel szinkronizálja (cpu_weight_version vs gpu_weight_version).[1]\n\nA mentési formátum (verzió 4) bináris fájl \"RSF0\" magic bytesszal, CRC32 ellenőrző összeggel; a tenzor adatok littleendian u32 bitcastként kerülnek tárolásra.[1]\n\n\n\n 3. rész: A részleges Lean 4 fordítás\n\nA fájl harmadik részében a Lean 4 kód kezdete látható.  A legfontosabb lefordított típusok és bizonyított tételek:[1]\n\nFP (FixedPoint) aritmetika — Intalapú ×10⁸ skálázással, teljes algebra: összeadás, kivonás, szorzás, összehasonlítás, abs, min, max, clamp. Bizonyítva: FP.le_trans, FP.lt_of_le_of_lt, FP.clamp_ge_lo, FP.clamp_le_hi.[1]\n\nSystemState + MonotonicCounter — a végrehajtási nyom temporális monotonitása: executeN_monotone és executeN_strict_monotone tételek bizonyítják, hogy minden ExecutionStep után az opCounter szigorúan növekszik.[1]\n\nRWLockState — szálbiztonsági modellez: bizonyítva noWriteDuringRead, noReadDuringWrite, lockSharedThenUnlockGivesUnlocked.[1]\n\nVersionedCore — GPU szinkronizáció verziókövető logikája: updateWeights_invalidatesGPU, syncGPU_makesAvailable, updateThenSync_available.[1]\n\nTempFileState + IOEvent — az atomikus fájlírás állapotgépe; atomicWriteSucceedsPath bizonyítja a create→write→sync→rename szekvencia sikerét.[1]\n\nAllocationLog — memóriakezelés helyes megvalósítása: liveCount = allocCount - freeCount, és a Nat.succ_sub segédtétellel bizonyított inkrementálás.[1]\n\nModelRegistry — handlealapú registry modellje RegistryEntrykkel; bizonyítva uniqueIdsAfterRegister, markDestroyed_isDestroyed.[1]\n\nCRC32 modell — crc32Model determinisztikus List Nat → Nat függvényként definiálva; crc32Append_correct a sorrendi konzisztenciát bizonyítja az encode/decode roundtriphez.[1]\n\n\n\n Összefoglalás: Mi van jelenleg kész?\n\n| Komponens | Állapot |\n|||\n| Transzpilerinstrukciók | ✅ Teljes specifikáció |\n| Zig forrás (RSF modell) | ✅ Teljes Zig kód |\n| Lean 4 – FP aritmetika | ✅ Részlegesen kész |\n| Lean 4 – SystemState/MonotonicCounter | ✅ Kész |\n| Lean 4 – RWLock, AllocationLog, Registry | ✅ Kész |\n| Lean 4 – LayerCore forward/backward | 🔄 Részleges |\n| Lean 4 – RSFCore teljes bizonyítékok | ❌ Hiányzik |\n| Lean 4 – 1:10 kód/bizonyítás arány teljesítve | ❌ Nem teljesített |\n\nSzeretnéd, hogy folytassam a Lean 4 fordítást a hiányzó részekre (pl. LayerCore forward/backward bizonyítékok, vagy az RSFCore globális invariánsok)?",
+      "created_at": "20260409T15:41:44.962434Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "eede01acbed2438c9bae9d5b9940fbd1",
+      "query": "beilleszted fel bejön neked az utasítást adtam nem  simán hogy olvasd el hanem  az utasításba az összes  meg az utasítás is",
+      "answer": "",
+      "created_at": "20260409T15:46:03.725951Z",
+      "label": null,
+      "query_status": "PENDING",
+      "engine_mode": null
+    }
+  ]
+}

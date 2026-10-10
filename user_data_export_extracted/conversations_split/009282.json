@@ -1,0 +1,28 @@
+{
+  "context_uuid": "b32627e77f334779b0a09267c2d9028a",
+  "context_title": "van egy ai chat webappom\nmilyen api kat szerezzek be amikkel konnyen integralhatom pythonba ws a honlapom teljesitmenyet noveli?",
+  "created_at": "20250730T20:23:56.474627Z",
+  "updated_at": "20250730T20:24:59.837142Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "cdcf777cd3694f95ad7b647907475f3f",
+      "query": "van egy ai chat webappom\nmilyen api kat szerezzek be amikkel konnyen integralhatom pythonba ws a honlapom teljesitmenyet noveli?",
+      "answer": " Ajánlott APIk és könyvtárak egy AI chat webapp Pythonintegrációjához\n\n 1. Modell és NLPAPIk  \n OpenAI Chat Completion – tömör, streaming output, magas minőségű válaszok[1].  \n Anthropic Claude – hosszabb kontextus­ablak, GDPRbarát európai hosztolás (AWSen).  \n Mistral/Levanter – európai LLMek, kedvező ár, helyi adatvédelem.\n\nMiért: mindhárom RESTes, egyszerű requests vagy httpxhívással használható, a tiktokenhez hasonló tokenkalkulátorok elérhetők, Python wrapperrel.\n\n 2. Valós idejű kommunikáció és streaming  \n| Feladat | Python könyvtár | Előny | Megjegyzés |\n|||||\n| WebSocketszerver | FastAPI + Starlette WebSockets[2] | AsyncIOt, uvicornt használ; egyszerű routedefiníció | 510× gyorsabb, mint klasszikus FlaskSocketIO |\n| Kliensoldali WS | natív WebSocket API (böngésző)[3] | Széles kompatibilitás | Ha backpressure kell: WebSocketStream csak Chromeban |\n| Serverless WS | AWS API Gateway WebSocket[4] | Autoscale, payperuse | Python Lambdahandlerhez jó sablon[5] |\n\nTippek teljesítményre: használj binary üzenetformátumot (MessagePack) és gzipelt payloadot; küldj maximum 12 kBos chunkokat streaming közben, így a kliens azonnal megjeleníti a választ.\n\n 3. Prompt és hívásmonitoring  \n LiteralAI / Chainlit telemetry – beépített dashboard, híváslatency, tokenszámláló[6].  \n OpenAI usage API – költség és timeout monitoring (JSON, könnyen loggolható).\n\n 4. RAG / tudásbázis  \n LlamaIndex – dokumentumindexelés, chunkelés, retrieverinterface.  \n Weaviate vagy Chroma – vektoradatbázis, Python kliens, Dockerkonfig percek alatt.\n\n 5. Cacheelés és skálázás  \n Redis – chathistory TTLcache, pub/sub a több worker közti fanouthoz.  \n FastAPI BackgroundTasks – aszinkron naplózás, kvótaellenőrzés soroldalra.\n\n 6. DevOps/CI  \n GitHub Actions + Docker multistage build[7].  \n Automatikus deploy Azure App Servicere: beépített CI/CD, autoscaling[8].\n\n 7. Példa minimális stack\n1. uvicorn + FastAPI backend (REST + /ws route).  \n2. openaipython lib a háttérLLMhíváshoz.  \n3. Redis inmemory store (ratelimit, session cache).  \n4. Frontend: vanilla JS WebSocket a valós idejű streamhez.  \n5. GitHub Actions → Docker → Azure App Service vagy AWS Fargate.\n\nÍgy a válaszok 100200 mson belül indulnak, a throughput a WSkapcsolat miatt lineárisan skálázható a workerszám függvényében.",
+      "created_at": "20250730T20:23:56.587088Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "7dfdc7d0bcdf4e07afac44a223715525",
+      "query": "ebbe",
+      "answer": "Úgy tűnik, véletlenül nem kérdeztél semmit – csak a rendszer előző párbeszéde és egy hatalmas kódrészlet jelent meg. Ha van konkrét kérdésed vagy feladatod, írd le, és szívesen segítek!",
+      "created_at": "20250730T20:24:47.692266Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

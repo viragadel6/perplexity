@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5501ae924e014fe691bde69ef6c642a4",
+  "context_title": "alphagenome api kulcs mal integralas",
+  "created_at": "20251029T09:16:06.882129Z",
+  "updated_at": "20251029T09:16:06.882129Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c13ac670a1754baaa95d11582c7dfd14",
+      "query": "alphagenome api kulcs mal integralas",
+      "answer": "Az AlphaGenome API egy ingyenes szolgáltatás, amelyet a Google DeepMind fejlesztett ki a genomikai szekvenciák elemzésére, és amely DNS szekvenciákat képes elemezni, génexpressziót, spliceolási mintázatokat, kromatin jellemzőket és kromatin térképeket jósolni.[1][2]\n\n API kulcs megszerzése\n\nAz AlphaGenome API kulcs beszerzéséhez Gmail fiókra van szükséged, mivel más domainek (pl. intézményi email címek) nem működnek. A következő lépéseket kell követned:[3]\n\n1. Hozz létre vagy jelentkezz be egy Google (Gmail) fiókba[3]\n2. Látogasd meg a  oldalt[4]\n3. Kattints a \"Get API Key\" linkre[3]\n4. Töltsd ki a kért adatokat és kattints a \"Create API Key\" gombra[3]\n5. Az API kulcsot azonnal megkapod, és később is visszakeresheted ugyanezen az oldalon[3]\n\n Integráció és használat\n\n Telepítés\n\nAz AlphaGenome kliens telepítése pip segítségével történik:[5]\n\nbash\npip install -U alphagenome\n\n\n API kulcs beállítása\n\nKétféleképpen használhatod az API kulcsot:\n\nKörnyezeti változóként:[4]\nbash\nexport ALPHAGENOME_API_KEY=\"your-key-here\"\n\n\nGoogle Colab környezetben a Secrets funkcióval tárolhatod az ALPHA_GENOME_API_KEY névvel.[5]\n\nProgramkódban közvetlenül:[3]\npython\nfrom alphagenome.models import dna_client\n\nmy_api_key = \"<<your-api-key>>\"\nalphagenome_model = dna_client.create(my_api_key)\nalphagenome_model.predict_sequence(\"...ACGTGAAATA...\")\n\n\n Használati korlátozások\n\nAz API ingyenesen használható nem kereskedelmi célokra, és kisebbközepes méretű elemzésekhez alkalmas (több ezer előrejelzés), de nagy léptékű elemzésekhez, amelyek 1 millió előrejelzésnél többet igényelnek, valószínűleg nem megfelelő.[2][1]",
+      "created_at": "20251029T09:16:07.014446Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

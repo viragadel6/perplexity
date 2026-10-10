@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a0bb9f2d0b3948c39b9205aa40a6b5f5",
+  "context_title": "",
+  "created_at": "20251017T16:56:02.990878Z",
+  "updated_at": "20251017T16:56:02.990878Z",
+  "mode": "COPILOT",
+  "collection_uuid": "2f1cd765f8fa432c80b8b97293edce98",
+  "entries": [
+    {
+      "entry_uuid": "394911b47f514c4390734c0a30050956",
+      "query": "",
+      "answer": "Ez a frissen megjelent \"Budgetaware Testtime Scaling via Discriminative Verification\" című tanulmány egy forradalmi megközelítést mutat be az LLMek teljesítményének növelésére komplex érvelési feladatokban.[1][2]\n\n Központi Innováció\n\nA kutatók egy hibrid diszkriminatív verifikációs módszert fejlesztettek ki, amely a selfconsistency technikát kombinálja hatékony verifikátorral. Ez a megoldás akár 15,3%kal magasabb pontosságot ér el az AIME2025 benchmarkon, mint a jelenlegi stateoftheart generatív verifikációs módszerek, miközben töredék számítási költséggel működik.[2][1]\n\n Technikai Áttörések\n\nA tanulmány három kulcsfontosságú hozzájárulást tesz. Először is, az első szisztematikus empirikus elemzést végzi a diszkriminatív verifikáció testtime scaling tulajdonságairól. Másodszor, computecentrikus összehasonlítást nyújt, amely kimutatta, hogy 32 megoldás verifikálása a diszkriminatív verifikátorral mindössze 4,1×10¹⁴ FLOPot igényel, míg a generatív verifikátor 3,1×10¹⁶ FLOPot, azaz 76szor többet. Harmadszor, a latencia méréseknél a diszkriminatív verifikáció csak 1,66 másodpercet vesz igénybe 32 megoldás esetén, szemben a generatív verifikáció 3423,7 másodpercével.[1]\n\n Jaide V34 Relevanciája\n\nEz a technológia kifejezetten friss (2025. október 16án publikálták) és brutálisan alulértékelt a mainstream körökben. A hibrid pessimistic verification (PV) és weighted selfconsistency (WSC) módszerek olyan cuttingedge technikák, amelyeket még egyetlen production LLM sem integrált teljes mértékben. A 1,5B paraméteres diszkriminatív verifikátor architektúrája, amely egy BradleyTerry ranking losst használ L₂ regularizációval, szintén újszerű megközelítés.[1]\n\n Implementációs Részletek\n\nA kutatók DeepSeekR1DistillQwen1.5Bből kiindulva építették fel a verifikátort, a language modeling headet egy két rétegű scalar value headre cserélve. A 32k NuminaMath probléma alapú training dataset 80%os fuzzymatch decontaminationnel került előkészítésre. A kód elérhető a GitHubon: ",
+      "created_at": "20251017T16:56:03.726273Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

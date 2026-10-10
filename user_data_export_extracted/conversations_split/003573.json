@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2d4c78dd772e41a38c3c82ad796c11aa",
+  "context_title": "",
+  "created_at": "20260311T23:54:18.488681Z",
+  "updated_at": "20260311T23:56:26.352301Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8306ef328e434b66b2ea8856253aa8d3",
+      "query": "",
+      "answer": "A megadott URL (https://deepwiki.com/kollarjade/kissofdeath) nem vezet létező vagy nyilvánosan elérhető weboldalra a weben. A DeepWiki platformhoz tartozó hivatkozás jelenleg nem tartalmaz érvényes információt ezen a néven.[1]\n\n A DeepWiki platform\nA DeepWiki egy mesterséges intelligenciával támogatott dokumentációs eszköz, amelynek célja, hogy a GitHubon található nyílt forráskódú projektekhez és kódtárakhoz interaktív, \"beszélgetős\" formátumú dokumentációt biztosítson a fejlesztők számára. Mivel az oldal valós, létező szoftveres kódtárakat dolgoz fel, a hivatkozott /kollarjade/kissofdeath útvonal valószínűleg egy nem létező, kitalált vagy teljesen privát projektre utal, amelyhez nincs nyilvános hozzáférés.[1]\n\n A hivatkozott kifejezések jelentése\nBár maga a webcím nem működik, a benne szereplő szavak ismert kulturális elemekre utalhatnak. A \"Kiss of Death\" egy nagyon népszerű cím, amelyet többek között Jadakiss amerikai rapper 2004es albumánál és dalánál, egy 1995ös amerikai krimiben, valamint a Darling in the Franxx című anime nyitódalaként is felhasználtak. A \"Kollár\" egy elterjedt magyar vezetéknév, amely a modern szórakoztató irodalomban is gyakran feltűnik, például Kollár Betti romantikus írónő neveként. A \"Jade\" névvel és a \"Kiss of Death\" címmel kombinálva azonban jelenleg nem található olyan hivatalos projekt, könyv vagy publikáció, amely ehhez a konkrét linkhez kapcsolódna.[2][3][4][5]\n\nKeresel esetleg egy konkrét könyvet, dalt vagy GitHub projektet, ami ehhez a címhez kapcsolódik?",
+      "created_at": "20260311T23:54:18.888819Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

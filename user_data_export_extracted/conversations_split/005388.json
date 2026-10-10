@@ -1,0 +1,28 @@
+{
+  "context_uuid": "045a507de5d44404809aff427fc9f033",
+  "context_title": "replit agent 3 features",
+  "created_at": "20251223T07:19:43.519497Z",
+  "updated_at": "20251223T07:20:22.637722Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5b8557874fb045f8a5c1c1c468352cef",
+      "query": "replit agent 3 features",
+      "answer": "A Replit Agent 3 (Agent 3.0) fő újdonsága, hogy hosszabb ideig tud önállóan dolgozni, közben böngészőben tesztel, hibát keres, majd automatikusan javít.[3]\n\n Fő funkciók\n Hosszabb autonóm futás: akár kb. 200 percig képes megszakítás nélkül dolgozni összetett feladatokon (pl. tervezés–kódolás–teszt–javítás ciklusban).[5][3]\n Öntesztelés valódi böngészővel: időnként megnyitja az alkalmazást, kattintgat, űrlapokat/APIkat ellenőriz, majd összefoglal és javítja a talált hibákat.[3]\n Önjavító hibakeresési ciklus: futtatja a kódot, és ha hibát talál, módosít, majd újratesztel, amíg a tesztek/követelmények teljesülnek.[5]\n\n “Agentet építő” képesség\nAgent 3 képes más, célfeladatra specializált agenteket és automatizmusokat létrehozni természetes nyelvű leírás alapján, vagyis workflowkat is tud “kigenerálni” és beállítani.[2][5]\n\n Módok és bemenetek (használat)\n Két fő működés: Build mode (kódot ír és fájlokat módosít) és Plan mode (tervez, ötletel, architektúrát javasol kódmódosítás nélkül).[4]\n A promptba nem csak szöveg tehető: csatolhatsz fájlokat, beadhatsz weboldaltartalmat URLből, illetve készíttethetsz weboldalscreenshotot is.[4]\n\nHa leírod, mire használnád (pl. webapp, bot, belső automatizáció), adok egy rövid “legjobb prompt” mintát Agent 3hoz.",
+      "created_at": "20251223T07:19:43.585999Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "25d850dc11a842e4bd91206673f66e8a",
+      "query": "de minden funkciot es 2025 december 22 en",
+      "answer": "2025. december 22i állapot szerint az Agent 3 a Replit Agent autonóm fejlesztési csomagja: appot generál, önállóan tesztel valódi böngészőben, hibákat javít, és akár külön “Agents & Automations” agenteket/workflowkat is létrehoz.[1][2][3]\n\n Agent 3 autonóm funkciók\n Extended autonomous development: hosszabb, minimális felügyelet melletti “önjáró” fejlesztés, ahol az agent több lépésben halad a feladattal.[2][1]\n App Testing: automatikus “computer use” jellegű tesztelés egy tényleges böngészővel (az appot megnyitja és felhasználóként végigpróbálja).[4][2]\n Autonomy Level: állítható, mennyire dolgozzon önállóan (kézi kontrolltól az extended autonómiáig).[5][2]\n Agents & Automations: a leírásod alapján képes külön agenteket és automatizmusokat létrehozni ismétlődő feladatokra/workflowkra.[6][2]\n\n Fejlesztési módok (Agent)\n Build mode (alapértelmezett): kódot ír, fájlokat módosít és implementálja a kért funkciókat a projektben.[1]\n Plan mode: ötletelés/tervezés és architektúraegyeztetés kódmódosítás nélkül.[1]\n Design Mode: kb. 2 perc alatt vizuális, interaktív designt készít (backend funkciók nélkül), UI/UX fókuszszal.[7]\n\n Promptbemenetek és kontextus\n Fájlcsatolmányok: fájlokat húzhatsz be vagy a csatoló ikonnal adhatsz hozzá kontextust.[1]\n Web content (URLből): egy oldal szövegét be tudod emelni a promptba “Copy page content” opcióval.[1]\n Webpage screenshot (URLből): képernyőképet is be tudsz kérni “Take screenshot” opcióval.[1]\n\n Integrációk (Agent képességek)\n Integrációtípusok: Replitmanaged (beépített), Connectors (firstparty), External integrations (harmadik fél, API kulccsal).[8]\n Előfizetéskorlátok: a dokumentáció szerint az Agent 3 autonóm mód funkciói (és több integrációs lehetőség) Core vagy Teams csomaghoz kötöttek.[8][1]\n\nHa azt írod meg, hogy “minden funkció” alatt csak az Agent 3/Agent AI funkciókat értede, vagy a teljes Replit platformot is (Deployments, DB, Auth, stb.), pontosan a megfelelő teljes listát adom.",
+      "created_at": "20251223T07:20:04.947526Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

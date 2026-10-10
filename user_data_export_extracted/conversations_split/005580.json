@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f0cba4cea4f64cb8b1a0e32654146e2f",
+  "context_title": "",
+  "created_at": "20251217T22:03:32.641432Z",
+  "updated_at": "20251217T22:03:32.641432Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "41e8c44d402f4d73a24d91373210e969",
+      "query": "",
+      "answer": "Ez a link a VintLang GitHubszervezet nyilvános profiljára mutat.[2]\n\n Mi ez az oldal?\n\nA  oldal egy GitHuborganizáció profilja, ahol a VintLang programnyelvhez kapcsolódó nyílt forráskódú repók találhatók.[2]\nA leírás szerint a VintLang egy modern, könnyű, sokoldalú programozási nyelv, amit egyszerűségre és teljesítményre optimalizáltak, elsősorban webes alkalmazásokhoz, CLI eszközökhöz és automatizáláshoz.[5][2]\n\n Mire jó a VintLang?\n\nA nyelv Goban íródott, és olyan beépített képességeket kínál, mint hálózati funkciók és átfogó időkezelő műveletek.[5]\nCélja, hogy intuitív szintaxissal, „out of the box” funkciókkal segítse a fejlesztőket webfejlesztésben, adatfeldolgozásban és automatizálásban.[2][5]\n\n Mit találsz a repókban?\n\nA pinned projektek között a fő vintlang nyelvi repo és a vintpm csomagkezelő jelenik meg.[4][2]\nA fő repo a nyelv fordítóját és standard könyvtárait tartalmazza, míg a vintpm a VintLang csomagok kezelésére szolgáló eszköz.[8][4]\n\n Hogyan tudod használni?\n\nA VintLangtelepítési és használati leírás a hivatalos weboldalukon (vintlang.ekilie.com) és a fő GitHubrepó dokumentációjában érhető el.[8][5]\nLétezik hivatalos VS Codebővítmény is, amely nyelvi szolgáltatásokat (LSP) biztosít VintLanghez.[9]\n\n Ha konkrét segítség kell\n\nÍrd meg, miben segítsek: telepítés (Linux/Windows/macOS), első „hello world”, vagy példák webappra / CLI eszközre VintLangben.[5][8]",
+      "created_at": "20251217T22:03:34.454561Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

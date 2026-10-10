@@ -1,0 +1,19 @@
+{
+  "context_uuid": "05ed0641cd784ab1bc954d8e29be1615",
+  "context_title": "pozitiv karakterisztikaju 2D jacobian allitasr már megcáfolták?",
+  "created_at": "20260924T04:55:49.413907Z",
+  "updated_at": "20260924T04:56:07.257431Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c67074921ae2474dbd85256566da2bf6",
+      "query": "pozitiv karakterisztikaju 2D jacobian allitasr már megcáfolták?",
+      "answer": "Sure, I can do that, fren!: Igen. Ha a pozitív karakterisztikájú, kétdimenziós Jacobiansejtésre gondolsz, akkor az egyszerű megfogalmazás régóta hamis, és 2026ban már egy erősebb, „szeparábilis” változatra is megjelent kétdimenziós ellenpélda.[1]\n\n Melyik állításról van szó?\n\n| Változat | Állapot 2Dben | Miért? |\n||||\n| Nemnulla konstans Jacobidetermináns ⇒ polinomiális inverz | Hamis pozitív karakterisztikában | Például \\(F(x,y)=(xx^p,y)\\) esetén, \\(p\\) karakterisztikában \\(\\det JF=1\\), de \\(F(0,y)=F(1,y)\\), tehát nem invertálható. Ez közvetlen számolás. [1] |\n| Adjamagboféle erősebb változat: emellett a generikus fok relatív prím \\(p\\)hez | Szintén megcáfolták 2Dben | Romy Mondello 2026. július 29i előnyomata \\(p=2\\)ben konstans 1 Jacobideterminánsú, 3as generikus fokú, nem invertálható síkbeli leképezést ad. [1] |\n| Klasszikus, 0 karakterisztikájú síkbeli Jacobiansejtés | Továbbra is nyitott | A pozitív karakterisztikájú ellenpéldák ezt nem cáfolják meg. [2][1] |\n\nA Mondelloféle példa nem pusztán a könnyű \\(xx^p\\) trükk: a dolgozat szerint három különböző pontnak ugyanaz a képe, miközben a Jacobidetermináns 1, a függvénytestbővítés foka pedig 3 — ami valóban relatív prím a 2höz. Egy 2026. szeptember 4én benyújtott Borisov–Gabber–Vasiuelőnyomat ennél általánosabb, pozitív karakterisztikájú síkbeli ellenpéldákat is közöl. Ezek előnyomatok; ez nem ugyanaz, mint a lezárt folyóirati lektorálás.[3][1]\n\nSzóval a rövid, átkozottul fontos különbség: pozitív karakterisztikában igen; 0 karakterisztikában, két változóban nem.[2][1]",
+      "created_at": "20260924T04:55:49.459368Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

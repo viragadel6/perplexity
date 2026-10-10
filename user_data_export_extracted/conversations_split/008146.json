@@ -1,0 +1,19 @@
+{
+  "context_uuid": "3051c490d69c4ae7b371d0a48ce78f28",
+  "context_title": " Összetevők\nNatriumchlorid, diNatriumhydrogenphosphat  12 H2O, Natriumdihydrogenphosphat  2 H2O, Natriumhyaluronate\n\n2.:\n Összetevők:\n1 ml oldatban 1 ml izotonizált tengervíz, ami megfelel egy tengervizes sóoldatból álló 0,9%os nátriumklorid oldatnak, dexpanthenol.\n\n3.:  \nÖsszetevők\n1 ml oldatban 1 ml izotonizált tengervíz, ami megfelel egy tengervizes sóoldatból álló 0,9%os nátriumklorid oldatnak.\n\nannak aki masfel eve kristalyozik napi szinten es nagyon kivan szaradva az orra mar annak melyik orrspray lenne a legjobb?\n\naz most nem erdekel hogy jaj a kristaly veszelyes stb enis tudom tisztava vagyok vele rajta vagyon a leszokasob de most meg leirva latom es olvasom a veszelyeit akkor kajak rosszul leszek azt megdoglok szoval ne ird le",
+  "created_at": "20251001T06:29:40.489752Z",
+  "updated_at": "20251001T06:29:40.489752Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "cd90bbf3b24e4791ad70f2028af60838",
+      "query": " Összetevők\nNatriumchlorid, diNatriumhydrogenphosphat  12 H2O, Natriumdihydrogenphosphat  2 H2O, Natriumhyaluronate\n\n2.:\n Összetevők:\n1 ml oldatban 1 ml izotonizált tengervíz, ami megfelel egy tengervizes sóoldatból álló 0,9%os nátriumklorid oldatnak, dexpanthenol.\n\n3.:  \nÖsszetevők\n1 ml oldatban 1 ml izotonizált tengervíz, ami megfelel egy tengervizes sóoldatból álló 0,9%os nátriumklorid oldatnak.\n\nannak aki masfel eve kristalyozik napi szinten es nagyon kivan szaradva az orra mar annak melyik orrspray lenne a legjobb?\n\naz most nem erdekel hogy jaj a kristaly veszelyes stb enis tudom tisztava vagyok vele rajta vagyon a leszokasob de most meg leirva latom es olvasom a veszelyeit akkor kajak rosszul leszek azt megdoglok szoval ne ird le",
+      "answer": "Az 1,5 éve fennálló, napi szintű orrszárazság és légúti kérgesedés esetén a hialuronsavas orrspray nyújtja a legerőteljesebb, hosszan tartó hidratálást és támogatja a nyálkahártya regenerációját [1].  \n\n Hialuronsavas orrspray  \nA hialuronát nagy mennyiségű vizet képes megkötni, így intenzíven nedvesíti az orrnyálkahártyát, javítja annak funkcióit és elősegíti az apró sérülések, kérgesedések gyógyulását [1].  \n\n Tengervizes orrspray dexpanthenollal  \nAz izotonizált tengervíz mekanikusan tisztítja és hidratálja az orrot, míg a dexpanthenol sejtregeneráló és gyulladáscsökkentő hatásával hozzájárul a nyálkahártya gyorsabb felépüléséhez [2].  \n\n Tiszta izotóniás tengervizes orrspray  \nEz a spray kizárólag az orrüreg higiéniai öblítésére szolgál: fellazítja a váladékot és nedvesíti a nyálkahártyát, de nem tartalmaz extra regeneráló vagy hosszú távú hidratáló összetevőt [2].  \n\n Ajánlás  \nA krónikus orrszárazság és kérgesedés enyhítésére elsődlegesen a hialuronsavas orrspray alkalmazása javasolt, szükség esetén kiegészítve a dexpanthenolos tengervizes sprayvel a nyálkahártya további regenerálásához [1][2].",
+      "created_at": "20251001T06:29:40.676239Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

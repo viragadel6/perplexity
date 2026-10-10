@@ -1,0 +1,37 @@
+{
+  "context_uuid": "ffa5db3d91dc4503adeb2c76fb366a07",
+  "context_title": "fix the grammar: procced with caution",
+  "created_at": "20260321T14:31:15.483032Z",
+  "updated_at": "20260321T14:33:42.665088Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c8cb0bde93f4451b832d302dda87132e",
+      "query": "fix the grammar: procced with caution",
+      "answer": "> Proceed with caution\n\nWould you like a more formal alternative, like \"Exercise caution before proceeding\"?",
+      "created_at": "20260321T14:31:15.546756Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "119ec566be434ea193495a29a1b9b62c",
+      "query": "azt ird amit wwe s naomi szlengje",
+      "answer": "A WWEs Naomi (Trinity Fatu) ismert szlengjei és catchphraseei:\n\n\"Feel the Glow\" – ez az ő legismertebb mondása, utalva a neonfényes, ragyogó ringbelépőjére és karakterére.\n\n\"Glow\" – szinte mindent ezzel fejez ki, ami klassz, energikus vagy menő. Ha valami \"glowing\", az azt jelenti, hogy teljesen királyian sül el.\n\n\"The Glow is real\" – amikor valami igazán autentikus és erős, akkor \"the glow is real.\"\n\nEzek elsősorban a karakteréhez kötődnek, nem feltétlenül utcai szleng, hanem inkább a WWE által épített persona részei – de a rajongók körében ezek terjedtek el a legjobban.",
+      "created_at": "20260321T14:31:44.171153Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e139d9a99e934e34b73a558eeca4fda8",
+      "query": "de a procced with caution",
+      "answer": "A helyes forma: Proceed with caution.\n\nHa Naomistílusban akarod, akkor lehetne például: Proceed with caution, and feel the glow.",
+      "created_at": "20260321T14:33:40.548833Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

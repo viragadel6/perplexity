@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0f612e0c453c4650a2c835c9a1fbb29c",
+  "context_title": "",
+  "created_at": "20250720T01:20:25.062316Z",
+  "updated_at": "20250720T01:20:25.062316Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "300d4e28004b4811958c60c687871a8e",
+      "query": "",
+      "answer": "A megadott GitHubcím (https://github.com/kurvavagyok/jade.git) egy Git repositoryra mutat, amelynek neve jade[1]. Az elérhető keresési eredmények alapján ez az oldal nem tartalmaz leírást vagy részletes információt arról, hogy pontosan milyen szoftver vagy projekt található benne, és úgy tűnik, nem kapcsolódik sem a Blockstream Jade hardver pénztárcához[4], sem a legismertebb “JADE” nevű más opensource projektekhez[2][3].\n\nFontos tudnivalók:\n A .git végződés arra utal, hogy ez egy GITalapú verziókezelő rendszerben tárolt forráskódprojekt.\n A név (kurvavagyok/jade) alapján egy privát vagy kevéssé ismert, személyes projekt lehet, és nincs nyilvános dokumentáció hozzá.\n A link csak a repository elérési útját adja meg, nem tartalmaz semmilyen információt a projekt céljáról, funkciójáról vagy tartalmáról.\n\nAmennyiben meg szeretné nézni, hogy mit tartalmaz a repository, git parancssorból klónozhatja az alábbi módon:\n\nbash\ngit clone https://github.com/kurvavagyok/jade.git\n\n\nEzután megvizsgálhatja a letöltött mappát és benne a README vagy más dokumentációs fájlokat (ha vannak), hogy pontosan megtudja, milyen szoftvert vagy kódot tartalmaz.\n\nHa konkrétan tudni szeretné, mi ez, vagy hogy mire használható, további információt a repository tulajdonosától vagy a projekt leírásából lehetne megtudni—ez azonban jelenleg hiányzik az online keresési találatokból[1].",
+      "created_at": "20250720T01:20:25.081327Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

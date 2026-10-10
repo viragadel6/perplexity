@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b1789f61f8224a3b8cd5662e9ca30ed1",
+  "context_title": "gemini pretraining datasets leak",
+  "created_at": "20251122T23:16:04.787810Z",
+  "updated_at": "20251122T23:16:04.787810Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "31c16a42d3344873a230bd27084f1127",
+      "query": "gemini pretraining datasets leak",
+      "answer": "What details are available regarding the leak of Google Gemini's pretraining datasets?\nMilyen információk állnak rendelkezésre a Google Gemini előtanítási adatbázisainak kiszivárgásáról?",
+      "created_at": "20251122T23:16:05.099003Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

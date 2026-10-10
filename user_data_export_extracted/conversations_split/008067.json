@@ -1,0 +1,28 @@
+{
+  "context_uuid": "2ddac0487e0441f7a436325449ffc280",
+  "context_title": "van ugye az exa ai code feature azt hogy kell hasznalni",
+  "created_at": "20251002T20:30:36.277545Z",
+  "updated_at": "20251002T20:31:32.584859Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "61873b4f8ed940798ecba933ded74645",
+      "query": "van ugye az exa ai code feature azt hogy kell hasznalni",
+      "answer": "Az Exa AI „code feature”t fejlesztők elsősorban AIasszisztensekkel vagy Coding Agentekkel összekötve használják arra, hogy gyorsan releváns és pontos kódrészleteket, példákat és dokumentációt kapjanak természetes nyelvű kereséssel, főként fejlesztési és automatizálási workflowk részeként[1][2][3].\n\n Hogyan működik az Exa AI kód funkció\n\n A „code feature” magas pontosságú keresést végez több mint 1 milliárd dokumentumoldalon, GitHubrepositoryban és Stack Overflowposztban, így segíti az LLMeket abban, hogy ne generáljanak hibás, „hallucinációs” kódot[2][3].\n Speciális prompttal vagy utasítással (például „use exacode”) aktiválható. A promptot a coding agentbe vagy workflowba kell írni.\n Általában három lépésből dolgozik: hibrid keresés indítása, a releváns kódrészletek kinyerése és intelligens módon rendezése, majd tömör, célzott stringben történő visszaadás a kérésre[2].\n\n Hogyan használd konkrétan\n\n Ha például AI coding agentet (Claude, Cursor, stb.) konfigurálsz, az MCP (Model Context Protocol) szervert kell beállítani úgy, hogy az Exat használja. A configban meg kell adni az Exa API kulcsodat:\n\n{\n  \"mcpServers\": {\n    \"exa\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.exa.ai/mcp?exaApiKey=YOUR_API_KEY_HERE\"\n    }\n  }\n}\n\n Promptban használd a „use exacode” utasítást, hogy garantáltan a kódfunkció legyen meghívva, ne csak általános web search[3].\n Ingyen ki lehet próbálni Smitheryban vagy közvetlenül Exa Docsban API kulcs nélkül is (részletek az exa.ai oldalán vagy a GitHub dokumentációban)[3].\n\n Mire jó és mikor érdemes használni\n\n Gyors, lényegre törő példák keresése (API használat, környezet konfigurálás, dependency hívás).\n Pontos, tömör találatokkal csökkenti a tokenfogyasztást és növeli a hatékonyságot[2].\n Megbízhatóbb AIasszisztált kódíráshoz, főként prototípusgyorsításra, automatikus konfigurációkra ideális.\n\n Tippek fejlesztőknek\n\n Mindig adj specifikus promptot („use exacode”, vagy „példa Rust Nix környezetre”).\n Konfiguráld, hogy mennyi találatot kérsz (search results).\n Ha workflowban vagy AIban használod, integráld downstream nodeokba, hogy tovább tudj vele dolgozni (pl. összefoglalás, elemzés).\n\nHa konkrét workflowhoz vagy programozási nyelvhez kell integrálni, javasolt az Exa hivatalos GitHubján lévő példákat és dokumentációt átnézni, illetve prompt engineeringgel kísérletezni, hogy minél relevánsabb kódokat kapj[3][4].\n\nAmennyiben kézzel, APIn keresztül hívod, a dokumentáció elérhető és részletesen leírja a lekérdezési lehetőségeket, paramétereket és integrációt.",
+      "created_at": "20251002T20:30:36.397204Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "4d78e6ed07b34e5aacebf11e929efeab",
+      "query": "hat errol az oldalrol szeretnek minden relevans adatot ",
+      "answer": "A Dragonfly egy modern, memóriában működő adatbázis, amely teljesen kompatibilis a Redis és Memcached APIkkal, és több szempontból fejlettebb architektúrát biztosít[1][1].\n\n Fő jellemzők\n\n Teljes kompatibilitás a Redis ökoszisztémával, nincs szükség kódmódosításra az átálláshoz[1].\n Új algoritmusokat és adatstruktúrákat alkalmaz multithreaded, sharednothing architektúrával, ami sokszálú, elosztott működést jelent[1].\n 25X nagyobb teljesítményt kínál a Redishez képest; akár több millió QPS (query per second) egyetlen példányon is elérhető[1].\n Megfelel a Redis és Memcached API követelményeinek, így minden meglévő fejlesztés vagy alkalmazás azonnal kompatibilis vele[1].\n\n Telepítés és használat\n\n Az oldal „Getting Started” szekciójában részletes telepítési útmutatót, deployment opciókat és kipróbálási módszereket találsz[1].\n Fejlesztőknek nem szükséges átírniuk meglévő Rediskódjaikat, a Dragonfly egyszerűen kicserélhető a háttérben[1].\n\n Előnyök\n\n Nagy teljesítmény, skálázhatóság, modern technológia.\n Egyszerű migráció, fejlesztőbarát kialakítás[1].\n\nEz minden releváns általános adat a Dragonfly oldal „Documentation” részéből. Speciális parancsok, APIleírások vagy példák a „Getting Started” alatt találhatók meg az oldalon[1].",
+      "created_at": "20251002T20:31:27.593698Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

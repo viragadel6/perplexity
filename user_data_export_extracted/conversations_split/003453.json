@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f78bee2a8ff247babded561e49cbdd2b",
+  "context_title": "",
+  "created_at": "20260316T01:46:18.490330Z",
+  "updated_at": "20260316T01:46:49.871017Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "37e3b52f6c624435b9a98d2b3d0bd948",
+      "query": "",
+      "answer": "Az általad megosztott URL egy Cobalt API letöltési link, amelyet a raju014 felhasználó Hugging Face Spaceén hosztolt példányból generáltak. Sajnos a link tartalmát nem sikerült közvetlenül elérni, valószínűleg lejárt vagy már nem érhető el.\n\n Mi ez a link?\n\nA raju014-cobalt-api.hf.space egy Cobalt médiafeldolgozó APIt futtató Hugging Face Space. A Cobalt egy nyílt forráskódú médialetöltő eszköz, amely proxyként működik: tartalmat közvetít anélkül, hogy azt szerver oldalon tárolná. Az ilyen /download/<azonosító> végpontok időkorlátosak — a generált letöltési link általában csak rövid ideig aktív, és lejárat után már nem érhető el.[1][2][3]\n\n Miért nem érhető el?\n\nA Cobalt APIn keresztül generált letöltési linkek jellemzően ideiglenes URLek, amelyek adott idő (általában néhány perc) után érvénytelenné válnak. A 86991ce0 azonosítójú link valószínűleg már lejárt, vagy a Hugging Face Space az adott pillanatban nem volt elérhető.[2]\n\n Mit tehetsz?\n\nHa szeretnéd elérni a tartalmat, a legjobb megoldás az, hogy visszatérsz az eredeti forráshoz — ahonnan a Cobalt APIn keresztül a letöltési linket generáltad — és újra elvégzed a letöltési kérést. A raju014/cobalt-api Spacet közvetlenül a  érheted el.[4]\n\nMit szerettél volna letölteni? Ha megadod az eredeti videó/médiafájl URLjét, segíthetek a megfelelő megközelítésben.",
+      "created_at": "20260316T01:46:23.758777Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

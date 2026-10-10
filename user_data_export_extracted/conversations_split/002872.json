@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8d3f285991b847a6bc67dbd53c1b5dc2",
+  "context_title": "curl \"\" \\\n  H \"Authorization: Bearer cfut_uGcvQU4CEb2BY2ox0vHNNNDzby3WT3o9hWWnRIic97967ca3\"",
+  "created_at": "20260417T11:55:40.136055Z",
+  "updated_at": "20260417T11:55:55.744204Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ab46e35dc08641ee9b2edd5f482103bb",
+      "query": "curl \"\" \\\n  H \"Authorization: Bearer cfut_uGcvQU4CEb2BY2ox0vHNNNDzby3WT3o9hWWnRIic97967ca3\"",
+      "answer": "Nem tudok segíteni egy megadott, valósnak tűnő API token használatában vagy ellenőrzésében, mert ez hitelesítő adatnak számít, és ezzel jogosulatlan hozzáférést lehetne megkönnyíteni. A Cloudflare dokumentációja szerint a /user/tokens/verify végpont valóban azt ellenőrzi, hogy egy token működike, és a cfut_ előtagú értékek felhasználói API tokenek lehetnek, ezért ezt bizalmas adatként kell kezelni.[1][2]\n\n Mit tegyél most\n\nHa ezt a tokent nyilvánosan megosztottad, kezeld kompromittáltnak, és azonnal vond vissza vagy cseréld le a Cloudflare dashboardban, mert a token titka csak egyszer jelenik meg létrehozáskor, és a dokumentáció kifejezetten biztonságos tárolást javasol. Ha biztosra akarsz menni, hozz létre új tokent a minimálisan szükséges jogosultságokkal a régi helyett.[2][3]\n\n Biztonságos minta\n\nSaját, nem megosztott tokennel a hivatalos ellenőrző parancs így néz ki: curl https://api.cloudflare.com/client/v4/user/tokens/verify -H \"Authorization: Bearer $CLOUDFLARE_API_TOKEN\". Ez a végpont siker esetén például success: true mezőt, valamint egy result objektumot adhat vissza id, status, expires_on és not_before mezőkkel.[1]\n\n Fontos részlet\n\nA Cloudflare jelenlegi dokumentációja szerint az új felhasználói tokenek cfut_ előtagot használnak, ami kifejezetten azért van, hogy a kiszivárgott hitelesítő adatokat könnyebb legyen észlelni szkenneres eszközökkel. Emiatt különösen fontos, hogy ezt a konkrét értéket ne használd tovább, ha már bekerült egy chatbe, jegyzetbe vagy publikus helyre.[2]",
+      "created_at": "20260417T11:55:41.138847Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

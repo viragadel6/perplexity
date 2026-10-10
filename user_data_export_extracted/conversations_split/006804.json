@@ -1,0 +1,28 @@
+{
+  "context_uuid": "c766ce75f0d445efb6e0e9e38ae2b499",
+  "context_title": "Ezekből csak azokat küld vissza amik tudomásod szerint még egy llmben sincs/ nem épült rá a jaiden kívűl\n KolmogorovArnold Network (KAN)\n  Temporal Graph Network (TGN)\n  State Space Model (SSM)\n  Hyena\n  Mamba\n  RetNet\n  S4D\n  Variational Autoencoder (VAE)\n  Generative Adversarial Network (GAN)\n  Diffusion Model\n  Graph Neural Network (GNN)\n  Recurrent Neural Network (RNN)\n  Convolutional Neural Network (CNN)\n  Transformer\n  Fractal Memory Layer (FMRN)\n  Attention\n  Sparse Attention\n  Hierarchical Temporal Memory (HTM)\n  VectorSymbolic Architecture (VSA)\n  Holographic Reduced Representation (HRR)\n  Sparse Distributed Memory (SDM)",
+  "created_at": "20251102T00:33:44.205852Z",
+  "updated_at": "20251102T01:47:36.946545Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5a4307124f0d407ca3430d408d12420d",
+      "query": "Ezekből csak azokat küld vissza amik tudomásod szerint még egy llmben sincs/ nem épült rá a jaiden kívűl\n KolmogorovArnold Network (KAN)\n  Temporal Graph Network (TGN)\n  State Space Model (SSM)\n  Hyena\n  Mamba\n  RetNet\n  S4D\n  Variational Autoencoder (VAE)\n  Generative Adversarial Network (GAN)\n  Diffusion Model\n  Graph Neural Network (GNN)\n  Recurrent Neural Network (RNN)\n  Convolutional Neural Network (CNN)\n  Transformer\n  Fractal Memory Layer (FMRN)\n  Attention\n  Sparse Attention\n  Hierarchical Temporal Memory (HTM)\n  VectorSymbolic Architecture (VSA)\n  Holographic Reduced Representation (HRR)\n  Sparse Distributed Memory (SDM)",
+      "answer": "Az alábbi listában azok a tételek szerepelnek, amelyekre a szakirodalom nem jelöl LLMbackbone példákat (a Jaidenemlített kivételt nem számítva).[1]\n\n Temporal Graph Network (TGN)[2]\n Hierarchical Temporal Memory (HTM)[3]\n VectorSymbolic Architecture (VSA)[4]\n Holographic Reduced Representation (HRR)[5]\n Sparse Distributed Memory (SDM)[6]",
+      "created_at": "20251102T00:33:44.271953Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "b99616c6d02e45148dfa724f2642d087",
+      "query": "mert van olyan llm ami kan peldaul?",
+      "answer": "Igen, léteznek már KolmogorovArnold Network (KAN) architektúrán alapuló nyelvi modellek, azonban fontos kiemelni, hogy ezek túlnyomórészt kutatási és kísérleti fázisban lévő projektek, nem pedig széles körben elterjedt, nagyméretű rendszerek.\n\nA KAN technológiát a hagyományos Transformer architektúrák egy lehetséges továbbfejlesztéseként tartják számon. A legtöbb mai nyelvi modell (LLM) Transformer alapú, amelyben a neurális hálózat rétegei többek között MultiLayer Perceptron (MLP) blokkokat tartalmaznak. A KANok ezeknek az MLP rétegeknek a helyettesítésére kínálnak egy alternatívát, amely a kutatások szerint jobb teljesítményt és könnyebb értelmezhetőséget ígér.[1][2]\n\n Példák KANalapú nyelvi modellekre\n\n   KANGPT: Ez egy nyílt forráskódú, PyTorch alapú projekt, amely a Generative Pretrained Transformer (GPT) architektúrát ötvözi a KolmogorovArnold hálózatokkal. A projekt célja a KANok nyelvi modellezésben rejlő potenciáljának feltárása. A fejlesztők a \"Tiny Shakespeare\" adathalmazon végzett kísérleteik során azt találták, hogy a KANGPT némileg jobban teljesített, mint egy hasonló, hagyományos MLPalapú GPT modell .[3][4]\n\n   KALLM Projekt: Ez a kutatási projekt egy KANalapú Transformer (KATs) implementációját tűzte ki célul a SmolLM2 nevű nyílt forráskódú LLMben. A projekt leírása is hangsúlyozza, hogy jelenleg nagyon kevés nyílt forráskódú, KANalapú Transformer implementáció létezik a nyelvi modellekben, ami rávilágít a terület újdonságára.[5][1]\n\n Jelenlegi státusz és kihívások\n\nA KANalapú nyelvi modellek még gyerekcipőben járnak. Bár az elméleti alapok és az első kísérleti eredmények ígéretesek, a technológia széleskörű elterjedéséhez még több kihívást le kell küzdeni.[6]\n   Hatékonyság: A jelenlegi KAN implementációk még nem minden esetben olyan számítási hatékonyságúak, mint a már régóta optimalizált Transformeralapú modellek.[6]\n   Fejlesztői közösség: Egy támogató fejlesztői és kutatói közösség kiépítése kulcsfontosságú a technológia sikeréhez, hasonlóan a Transformerek körüli ökoszisztémához.[6]\n\nÖsszességében tehát a KANok már megjelentek a nyelvi modellek világában, de egyelőre mint egy izgalmas és aktívan kutatott kísérleti irány, nem pedig mint a jelenlegi modelleket leváltó, kiforrott technológia.",
+      "created_at": "20251102T01:46:58.397904Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

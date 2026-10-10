@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d3ef21f4abef49b282088d247f325d6a",
+  "context_title": "",
+  "created_at": "20260824T11:29:47.754535Z",
+  "updated_at": "20260824T11:29:57.718942Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8861b5647b90418f87584c5a78d6aa25",
+      "query": "",
+      "answer": "Ez az OpenAI Cookbook útmutató az imagegeneration modellek hatékony promptolásáról szól: hogyan adj meg világos képleírást, kompozíciót, stílust, szöveget a képen, valamint szerkesztési és iterációs instrukciókat. A megadott oldal közvetlen tartalmát most nem tudom megnyitni, ezért nem tudok belőle hiteles, részletes kivonatot készíteni.[1]\n\nÁltalános, jól működő képgeneráló promptszerkezet:\n\ntext\n[Téma és fő objektum]\n[Környezet és kompozíció]\n[Vizuális stílus, fényelés, kamera/nézőpont]\n[Pontos részletek és korlátozások]\n[Képbe kerülő szöveg, idézőjelben]\n\n\nPélda:\n\ntext\nEgy minimalista, prémium kávézói plakát Budapest belvárosában.\nFüggőleges kompozíció, középen egy gőzölgő espresso, halvány krémszínű háttérrel.\nSzerkesztői fotográfia, lágy reggeli oldalirányú fény, finom filmes szemcse.\nNe legyen ember, ne legyen logó, ne legyen zsúfolt háttér.\nA felső címsor pontosan: „LASSÚ REGGELEK”\n\n\nA képgenerálásnál általában a konkrétság többet ér, mint a hossz: nevezd meg a témát, a képkivágást, a fényviszonyokat és a kizárandó elemeket. Ha szöveget kérsz a képre, idézőjelben add meg pontosan, és külön mondd ki, hogy annak olvashatónak kell lennie. Az OpenAI jelenlegi platformja külön imagegeneration végpontokat és több képarányt is támogat a GPT Image modelleknél.[5]",
+      "created_at": "20260824T11:29:48.262799Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

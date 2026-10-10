@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5f193eb51ec74934b94761a176272fa5",
+  "context_title": "a kukas autoknak ugyanakkora a rendszam tablaja mint a szemelygep kocsiknal?",
+  "created_at": "20251226T09:43:29.465310Z",
+  "updated_at": "20251226T09:43:29.465310Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a6222ff5b4b141a9a2a4744b19437fd9",
+      "query": "a kukas autoknak ugyanakkora a rendszam tablaja mint a szemelygep kocsiknal?",
+      "answer": "Magyarországon a kukás autók (kommunális hulladékszállítók) rendszámtáblája alapvetően ugyanolyan méretű és kialakítású, mint a többi gépjárművé, például a személyautóké.  A szabványos hosszúkás alumínium, fényvisszaverő fóliás tábla mérete egységes, csak ritka esetben használnak négyzetes vagy speciális alakú táblát, ha a jármű kialakítása ezt indokolja.[1][2]\n\n Méret és forma\n\n A jelenleg használatos magyar rendszámtáblák hosszúkás, vízszintes kivitelű alumínium lemezek, amelyeken fényvisszaverő fólia van.[3]\n Ugyanezt a szabványos méretet kapják a teherautók, kukás autók és a legtöbb egyéb gépjármű is, a személyautókkal azonosan.[1]\n\n Kivételes esetek\n\n Létezik kisebb vagy négyzetes tábla is, de ezt főként motorkerékpárokon, egyes buszokon, speciális járműveken használják, ha a karosszéria kialakítása nem engedi a szokásos hosszú tábla felszerelését.[2]\n Kukás autóknál általában van hely a normál táblának, ezért ott is a szokásos személyautóméret jelenik meg, csak a jármű kategóriája (teher) és esetleges különleges rendszámkódja tér el, nem a fizikai méret.[1]",
+      "created_at": "20251226T09:43:29.650835Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

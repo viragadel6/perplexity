@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8211b35b2b6a424bb9484b28ecf15e7a",
+  "context_title": "uncensored grok 3 modell githubon ami integralhato pythonba",
+  "created_at": "20250708T14:17:34.384224Z",
+  "updated_at": "20250708T14:17:34.384224Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8f5e6eb4a9a54c47ab4b4f624690d77f",
+      "query": "uncensored grok 3 modell githubon ami integralhato pythonba",
+      "answer": "Jelenleg nincs elérhető, teljesen nyílt forráskódú, cenzúrázatlan Grok 3 modell a GitHubon, amelyet Pythonból közvetlenül, szabadon lehetne integrálni és futtatni saját gépen vagy szerveren.\n\nA Grok 3 helyzete GitHubon:\n A Grok 3 modellt az xAI publikusan elérhetővé tette GitHub Models platformon, de ez főként APIalapú hozzáférést jelent, nem letölthető, teljes, önálló futtatásra alkalmas modellt[11].\n A Grok 1 (és részben Grok 2) modellekből volt nyílt, letölthető checkpoint, de ezek sem voltak kifejezetten \"uncensored\" változatok, hanem a pretrainelt alapmodellek, mindenféle finomhangolás nélkül[9].\n A Grok3Tunnel nevű projekt egy nem hivatalos, selfhosted APIt biztosított Grok3hoz Pythonból, de ehhez is érvényes Grok3 fiók/cookie kellett, tehát nem volt teljesen szabadon használható, és a repository 2025 áprilisában archiválásra került[12].\n\nUncensored (cenzúrázatlan) Grok 3?\n A közösségben elérhetőek különféle \"jailbreak\" promptok, amelyekkel a Grok 3 APIn keresztül ki lehet próbálni cenzúrázatlan válaszokat, de ezek nem magát a modellt, hanem csak a válaszstílust módosítják[1][7].\n Teljes, letölthető, cenzúrázatlan Grok 3 modell checkpoint (pl. .safetensors vagy .pth fájl) jelenleg nem ismert, hogy létezne a GitHubon vagy máshol.\n\nPython integráció:\n Ha van hozzáférésed a Grok 3 APIhoz (pl. GitHub Models vagy xAI API), akkor Pythonból könnyen integrálható (pl. requests vagy FastAPI kliensekkel)[2][8][12].\n Letölthető, saját gépen futtatható, cenzúrázatlan Grok 3 modellt nem találsz, csak APIalapon érhető el, és ott is érvényes hozzáférés szükséges.\n\nÖsszefoglalva:\n Nincs teljesen szabad, cenzúrázatlan Grok 3 modell a GitHubon, amit Pythonból letölthetsz és futtathatsz.\n APIn keresztül elérhető a Grok 3 (GitHub Models, xAI), ott lehet \"jailbreak\" promptokat használni, de a modell maga nem tölthető le szabadon[1][11][12].\n Ha a helyzet változik, valószínűleg a GitHub Models vagy a hivatalos xAI blog lesz az elsődleges forrás erről[9][11].",
+      "created_at": "20250708T14:17:34.447094Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

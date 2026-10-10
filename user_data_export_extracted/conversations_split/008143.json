@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a4895b40c70447e2b4234ff339476e65",
+  "context_title": "Hunyuan3DPart",
+  "created_at": "20251001T08:33:10.900986Z",
+  "updated_at": "20251001T08:33:10.900986Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "05cdb70c0a2449d8af8ea63e9a09f280",
+      "query": "Hunyuan3DPart",
+      "answer": "A Hunyuan3DPart egy olyan AIvezérelt eszköz, amely teljes 3Dmodelleket bont részekre, majd az egyes alkatrészekhez részletes kompozíciókat generál [1][2].\n\n Funkciók áttekintése  \nHunyuan3DPart két fő modult használ: a P3SAM részdetektort és az XPart részgenerátort [1].  \nA bemeneti teljes hálót (mesh) a P3SAM elemzi, és automatikusan felismeri a különálló részeket [1].  \nAz XPart ezután minden egyes részhez külön finomított 3Dkompozíciókat hoz létre [1].\n\n Használati mód  \nA felhasználó feltölthet GLB, PLY vagy OBJ formátumú 3Dmodelleket a webes felületen [2].  \nA rendszer először elvégzi a részek szerinti szegmentálást, majd robbantott nézetet és részkompozíciókat generál [2].  \nAz elkészült részek exportálhatók további szerkesztésre Blenderbe, Unitybe vagy más 3Dszoftverekbe [2].\n\n Előnyök  \n  Gyors és automatizált részszegmentálás bármilyen komplex modellnél [1].  \n  Részletes alkatrészgenerálás, amely javítja a modell szerkezeti modularitását [1].  \n  Könnyen integrálható meglévő 3Dworkflowkba API vagy webes felület által [2].",
+      "created_at": "20251001T08:33:11.146646Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

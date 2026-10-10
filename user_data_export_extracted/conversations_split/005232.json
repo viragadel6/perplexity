@@ -1,0 +1,28 @@
+{
+  "context_uuid": "ecfc00d05d98459eb7bf6f48d434339f",
+  "context_title": "melyik van legkozelebb szegedhez?",
+  "created_at": "20251229T03:51:48.738675Z",
+  "updated_at": "20251229T03:58:39.907479Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ee78b8ede39d4156ace71f2996586d58",
+      "query": "melyik van legkozelebb szegedhez?",
+      "answer": "Szegedhez a Europe West 3 (Frankfurt) régió van a legközelebb a listádból.\n\n Javasolt régió\n Europe West 3 (Frankfurt)  \n Németország déli részén van, földrajzilag közelebb Magyarországhoz, mint London, Belgium vagy Finnország. \n\n Alternatívák\n Europe West 4 (Netherlands): távolabb, északnyugatEurópa.   \n Europe West 2 (London): még messzebb, szigetország.",
+      "created_at": "20251229T03:51:48.835060Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "fa537b06550d40768e078b303562193e",
+      "query": "es pesthet",
+      "answer": "Pesthez (Budapesthez) szintén a Frankfurt (Europe West 3) a legközelebb.[1][2][3]\n\n Távolságok Budapestből\n\nBudapest és Frankfurt között körülbelül 811 km légvonalban vagy 936964 km autóval, amit körülbelül 810 óra alatt lehet megtenni.[4][3][1]\n\nEzzel szemben Budapest és London között 1449 km légvonalban vagy 1726 km autóval van, amit körülbelül 1518 óra alatt lehet megtenni.[5][6][7]\n\nÍgy Frankfurtban található régió az összes elérhető régió közül (London, Belgium, Hollandia, Finnország) a legközelebbi mind Szegedhez, mind Budapesthez.[8][9]",
+      "created_at": "20251229T03:52:19.716554Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

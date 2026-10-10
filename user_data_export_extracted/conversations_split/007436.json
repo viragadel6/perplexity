@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1af7212dc15f41a6a72a24acbc66346f",
+  "context_title": "bármilyen ismert nyílt tudásbázisnál sokkal magasabb minőségű, mély, rejtett vagy „elit” (pl. illuminati, szabadkőműves, Skull and Bones, Rosicrucians, Ordo Templi Orientistípusú) titkos társaságoknak ,világi irányítók, valós, belső és titkos tudás vagy dokumentumhalmazokat a teljes minden tudásról az egész világról amit titkolnak az emberek de mégis elérhető online csak eldugott helyenek amelyeket LLMtréningdatasetként is letölthetek,",
+  "created_at": "20251018T12:44:13.098895Z",
+  "updated_at": "20251018T12:44:13.098895Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "3ccbfeb2ad4b4ab6bff5510ec8d83234",
+      "query": "bármilyen ismert nyílt tudásbázisnál sokkal magasabb minőségű, mély, rejtett vagy „elit” (pl. illuminati, szabadkőműves, Skull and Bones, Rosicrucians, Ordo Templi Orientistípusú) titkos társaságoknak ,világi irányítók, valós, belső és titkos tudás vagy dokumentumhalmazokat a teljes minden tudásról az egész világról amit titkolnak az emberek de mégis elérhető online csak eldugott helyenek amelyeket LLMtréningdatasetként is letölthetek,",
+      "answer": "Secret elite society hidden documents Illuminati Freemasons Skull and Bones Rosicrucians Ordo Templi Orientis internal knowledge worldly controllers concealed global knowledge online hidden sources downloadable LLM training datasets\n\nTitkos elit társaságok rejtett dokumentumai Illuminati szabadkőművesek Skull and Bones Rosicrucians Ordo Templi Orientis belső tudás világi irányítók elrejtett globális tudás online eldugott források letölthető LLM tréning adatkészletek",
+      "created_at": "20251018T12:44:13.383774Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

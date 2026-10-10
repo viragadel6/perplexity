@@ -1,0 +1,37 @@
+{
+  "context_uuid": "33867351852f4adeb73fdffa07b4c75f",
+  "context_title": "llms.txt",
+  "created_at": "20251218T19:31:45.004907Z",
+  "updated_at": "20251218T20:56:06.907727Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "17edce9641e6450e863dfe9caa315653",
+      "query": "llms.txt",
+      "answer": "Az llms.txt egy feltörekvő, javasolt webes „konvenció”, amelynek célja, hogy a nagy nyelvi modellek (LLMek) könnyebben megtalálják és értelmezzék egy weboldal legfontosabb, „LLMbarát” tartalmait.[1][9]\nTipikusan a webhely gyökerében, a /llms.txt útvonalon szolgálják ki, és Markdown formátumot használ.[5][1]\n\n Mi ez és mire jó\nAz llms.txt lényege, hogy kurált áttekintést adjon a siteról (mi a projekt, hol vannak a kanonikus doksik, mely oldalak a legfontosabbak), így az LLMnek nem kell HTMLben, menükben, scriptekben „bolyongania”.[8][1][5]\nA javaslat kifejezetten úgy pozicionálja, hogy együtt tud élni meglévő szabványokkal: a sitemap lehet teljes, a robots.txt inkább crawlszabály, az llms.txt pedig kontextust és kiemelt hivatkozásokat ad LLMeknek.[1]\n\n Hogy néz ki a formátum\nA specifikáció szerint a fájl Markdown, és a minimális elvárás egy H1 cím (a projekt/webhely neve), gyakran egy rövid összefoglaló blockquotetal és további magyarázó szakaszokkal.[1]\nGyakori minta, hogy H2 alcímek alatt linklisták vannak, ahol minden elem egy [név](url) hivatkozás, opcionális rövid megjegyzéssel, hogy az LLM tudja, melyik dokumentumban mit talál.[1]\n\n Gyakorlati használat és variánsok\nSok leírás kiemeli, hogy az llms.txt inkább „index”: linkeket és rövid leírásokat ad, és az ügynök/LLM ezekre kattintva (lekérve) jut a részletekhez.[6]\nEmellett léteznek kapcsolódó minták, például „llmsfull.txt”, ahol a részletes tartalom egyetlen nagy fájlban van összefűzve (ami hasznos lehet, de méret miatt belefuthat a kontextusablakkorlátokba).[5][6]\n\nSzeretnél egy rövid, kitölthető llms.txt sablont a saját webhelyedhez (pl. dokumentáció, blog vagy SaaS termék), és megírod hozzá a fő oldalak URLjeit?",
+      "created_at": "20251218T19:31:45.184881Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "dee8cf310894403b9fc499c5a5fbfdb3",
+      "query": "en is keszithetek barmelyik oldalrol amelyikrol meg nimcs?",
+      "answer": "Igen, készíthetsz llms.txt fájlt bármelyik saját weboldaladhoz, amelynek te vagy a tulajdonosa vagy van szerkesztési jogosultságod!  Az llms.txt egy nyílt, javasolt konvenció, nem pedig zárt szabvány, így bárki szabadon alkalmazhatja.[1][2][3]\n\n Saját oldaladon\nHa van weboldalad (blog, dokumentáció, cégoldal, portfólió stb.), egyszerűen létrehozol egy llms.txt nevű fájlt Markdown formátumban, és feltöltöd a domain gyökerébe, hogy elérhető legyen a https://tewweboldal.hu/llms.txt útvonalon.[2][4]\nA fájlban összefoglalod, mi a site, és linkeket adsz a legfontosabb oldalakra – így az LLMek (és AIasszisztensek) gyorsabban megtalálják a releváns tartalmat.[5][1]\n\n Mások oldalairól nem tudsz készíteni\nMás weboldalakhoz viszont nem tudsz llms.txtt létrehozni, mert azt a domain tulajdonosának kell a szerveren elhelyeznie.[1]\nViszont semmi nem akadályoz meg abban, hogy saját célra (pl. egy jegyzetfüzetben vagy lokálisan) kurált linklistát készíts egy másik projektről – ez viszont nem lesz hivatalos llms.txt, és az LLMek nem fogják automatikusan megtalálni.\n\nSzóval: saját weboldalon bátran használd, és a specifikáció (llmstxt.org) alapján könnyedén összeállítható!",
+      "created_at": "20251218T20:35:54.312005Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "b62920ad8e6d49cbb3ee738c977f934e",
+      "query": "de atr kerdeztem hogy barmelyikhet nem sajathoz\nes nem akarom kozze tenni csak magamnak kell es az llmsfull féle",
+      "answer": "Igen, készíthetsz „llmsfull” jellegű fájlt bármelyik weboldalról saját használatra, akkor is, ha az adott siteon nincs /llms.txt, csak ez nem lesz „hivatalos” és nem a webhely szolgáltatja ki.[1][2]\nAz „llmsfull” mintát általában úgy írják le, mint egy olyan változatot, ahol a lényegi tartalmak egy (nagy) fájlba vannak összefűzve, hogy egy LLM könnyebben kapjon komplett kontextust.[2][3]\n\n Amit ettől várhatsz\nEz nálad helyben egy praktikus jegyzet/forráscsomag lehet promptoláshoz vagy RAGhoz, de nem fogja semmilyen AI „automatikusan megtalálni” a céloldalon, mert nem a domain gyökerében lévő /llms.txt konvenciót követi.[1]\nAz llms.txt kezdeményezés alapötlete amúgy is az, hogy a siteról kurált, LLMbarát kiindulópontot adjon (gyakran linkekkel és rövid leírásokkal), nem feltétlenül azt, hogy mindent 1:1ben bemásolj.[3][1]\n\n Hogyan csináld (privát „llmsfull”)\n Készíts egy valami-llms-full.md fájlt Markdownban (cím + szekciók).[1]\n Rakd bele a kulcs URLek listáját és 1–3 mondatos saját összefoglalót oldalanként (ez sokszor elég, és kisebb a kontextus/kezelhetőség gond).  \n Ha tényleg „full”t akarsz: fűzd össze a releváns oldalak kivonatolt (pl. olvasó nézetből kimásolt) szövegét fejezetenként, a forrás URLt minden blokk tetején jelölve.\n\n Fontos jogi/etikai rész\nHa „nem saját” oldalról másolsz át teljes cikkeket/doksikat, az könnyen szerzői jogi és/vagy felhasználási feltételekbe ütközhet (különösen paywall, zárt docs, előfizetéses tartalom esetén).  \nBiztonságosabb megközelítés: link + saját összefoglaló + rövid idézetek, és csak annyit ments le, amennyi tényleg kell a munkádhoz.\n\nHa megírod, mire akarod használni (pl. „egy adott könyvtár doksiját akarom betölteni a modellemnek” vagy „cikkekből akarok QAt”), adok egy konkrét, jól működő llms-full.md sablont és javasolt szerkezetet.",
+      "created_at": "20251218T20:51:11.701826Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

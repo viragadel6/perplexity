@@ -1,0 +1,19 @@
+{
+  "context_uuid": "58d00f7b4f164a309484413746a7c9e9",
+  "context_title": "manus 1.6\n\namikor kerdezes es valaszolsz mind a ket model dolgozik vagy ha egyszeru kerdest teszek fel akkor csak siman a qwen?",
+  "created_at": "20260521T04:04:07.933598Z",
+  "updated_at": "20260521T04:10:25.053922Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a301e0df954f4f9bb034bdb4e2fe9557",
+      "query": "manus 1.6\n\namikor kerdezes es valaszolsz mind a ket model dolgozik vagy ha egyszeru kerdest teszek fel akkor csak siman a qwen?",
+      "answer": "A Manus 1.6 egy többmodelles architektúrán alapuló ágensrendszer, amelyben nem egyetlen modell dolgozik egyszerre – hanem a feladat komplexitásától függ, hogy éppen mi fut a háttérben.\n\n Hogyan működik a modellválasztás?\n\nA Manus nem egyszerű chatbot, hanem egy „ThinkPlanExecute\" ciklusban működő ágensrendszer. Egy beérkező kérést először felbont részfeladatokra, majd minden részfeladathoz kiválasztja a legalkalmasabb modellt. Ez azt jelenti, hogy a rendszer dinamikusan oszt el munkát – nem statikusan, előre meghatározva.[1]\n\nAz alap architektúra két fő modellt használ: a Claudeot (Anthropic) és a Qwent (Alibaba). A Claude inkább erős szöveges elemzési, értelmezési feladatokra van alkalmazva, a Qwen pedig adatintenzív számításoknál, kódolásnál és logikai műveleteknél teljesít jobban.[2][3]\n\n Egyszerű kérdés vs. összetett feladat\n\nEgyszerű csevegésnél (pl. egy rövid kérdés megválaszolása) jellemzően csak a könnyebb, gyorsabb modell – a Qwen – fut, és ez 5–15 kreditet fogyaszt. Ilyenkor nincs szükség a teljes ágensinfrastruktúra aktiválására, tehát a Claude nem feltétlenül dolgozik.[4]\n\nÖsszetett, többlépéses feladatoknál – mint például egy kutatási ügynök futtatása, weboldalfejlesztés vagy adatelemzés – már a teljes rendszer beindul: párhuzamos szubágensek futnak, amelyek mindegyike a Max architektúrán alapul, és akár 500–900 vagy több ezer kreditet is elfogyaszthat egyetlen feladaton.[5][4]\n\n Manus 1.6 Max vs. alap Manus\n\nA Manus 1.6ban bevezették a Manus 1.6 Max nevű új csúcságensmódot. Ez egy fejlettebb tervezési és problémamegoldó architektúrán fut, és belső tesztekben 19,2%kal magasabb felhasználói elégedettséget ért el a korábbi verzióhoz képest. A Max módot kézzel kell kiválasztani egy új feladat indításakor – nem automatikusan kapcsolódik be minden kérésnél.[5]\n\nÖsszefoglalva: igen, egyszerű kérdésnél nagy valószínűséggel csak a Qwen fut – ez gyorsabb és olcsóbb. Bonyolultabb, ágentikus feladatoknál azonban mindkét (vagy több) modell aktiválódik, és a szubágensek párhuzamosan dolgoznak.[3][1]",
+      "created_at": "20260521T04:04:08.325912Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

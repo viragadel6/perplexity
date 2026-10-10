@@ -1,0 +1,46 @@
+{
+  "context_uuid": "7aca9c9840eb4bb2944f11d70685efa2",
+  "context_title": "azure ai foundry api kulcsot env formaba ird meg: 7CSdDPGpXT6NrPvLZjmYtw3LNhWMSMlt5BgWpfuNjP1mJsfGq3lPJQQJ99BJACYeBjFXJ3w3AAAAACOGz4mg",
+  "created_at": "20251012T23:54:20.494904Z",
+  "updated_at": "20251012T23:58:58.799250Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "27f2b6c0b49d4f7aa6859b4bb46bd995",
+      "query": "azure ai foundry api kulcsot env formaba ird meg: 7CSdDPGpXT6NrPvLZjmYtw3LNhWMSMlt5BgWpfuNjP1mJsfGq3lPJQQJ99BJACYeBjFXJ3w3AAAAACOGz4mg",
+      "answer": "Az Azure AI Foundry API kulcs környezeti változó formátumban a következőképpen néz ki:[1][2]\n\n\nAZURE_OPENAI_API_KEY=\"7CSdDPGpXT6NrPvLZjmYtw3LNhWMSMlt5BgWpfuNjP1mJsfGq3lPJQQJ99BJACYeBjFXJ3w3AAAAACOGz4mg\"\n\n\n Beállítási módszerek\n\nWindows esetén a parancssorban:[1]\n\nsetx AZURE_OPENAI_API_KEY \"7CSdDPGpXT6NrPvLZjmYtw3LNhWMSMlt5BgWpfuNjP1mJsfGq3lPJQQJ99BJACYeBjFXJ3w3AAAAACOGz4mg\"\n\n\nPowerShell esetén:[1]\n\n$Env:AZURE_OPENAI_API_KEY = '7CSdDPGpXT6NrPvLZjmYtw3LNhWMSMlt5BgWpfuNjP1mJsfGq3lPJQQJ99BJACYeBjFXJ3w3AAAAACOGz4mg'\n\n\nLinux/Mac Bash esetén:[1]\n\nexport AZURE_OPENAI_API_KEY=\"7CSdDPGpXT6NrPvLZjmYtw3LNhWMSMlt5BgWpfuNjP1mJsfGq3lPJQQJ99BJACYeBjFXJ3w3AAAAACOGz4mg\"\n\n\n.env fájlban:[3][4]\n\nAZURE_OPENAI_API_KEY=7CSdDPGpXT6NrPvLZjmYtw3LNhWMSMlt5BgWpfuNjP1mJsfGq3lPJQQJ99BJACYeBjFXJ3w3AAAAACOGz4mg\n\n\nA környezeti változó beállítása után újra kell indítani a fejlesztői környezetet, hogy az új változó elérhető legyen.[5][1]",
+      "created_at": "20251012T23:54:20.550648Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f6143b623ab245f79eef6e939c7e3b77",
+      "query": "replit be kell",
+      "answer": "A Replit környezetben az Azure AI Foundry API kulcsot a Secrets (Titkok) funkcióval kell beállítani. A Replit nem használ hagyományos .env fájlokat, hanem biztonságos, titkosított környezeti változókat biztosít.[1][2][3][4]\n\n Secrets beállítása Replitben\n\n1. Lépések a Secrets hozzáadásához:[5][1]\n Kattints a bal oldali menüben a lakat ikonra (🔒 Secrets)\n Kattints az \"Add new secret\" gombra\n A Key mezőbe írd be: AZURE_OPENAI_API_KEY\n A Value mezőbe másold be: 7CSdDPGpXT6NrPvLZjmYtw3LNhWMSMlt5BgWpfuNjP1mJsfGq3lPJQQJ99BJACYeBjFXJ3w3AAAAACOGz4mg\n Mentsd el\n\n2. Használat a kódban:[3][6]\npython\nimport os\n\n# A környezeti változó elérése\napi_key = os.environ.get(\"AZURE_OPENAI_API_KEY\")\n\n\nvagy Node.js esetén:\njavascript\nconst apiKey = process.env.AZURE_OPENAI_API_KEY;\n\n\n Előnyök\n\nA Replit Secrets funkciója AES256 titkosítással védi az API kulcsokat, és automatikusan elrejti azokat mások elől, amikor megosztod vagy forkolod a projektet. Ez sokkal biztonságosabb megoldás, mint a nyílt .env fájlok használata.[2][4][1][3]",
+      "created_at": "20251012T23:54:48.078779Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "9f43378837fd4d928c57be6a911b0633",
+      "query": "de ez nem openai",
+      "answer": "Igazad van! Az Azure AI Foundry nem OpenAI, hanem egy általánosabb Azure AI platform. A képernyőképen látható API kulcshoz más környezeti változó neveket kell használni.[1][2]\n\n Azure AI Foundry helyes környezeti változók\n\nReplit Secrets beállítása:[3][1]\n\n1. PROJECT_ENDPOINT (Projektvégpont):\n    Key: PROJECT_ENDPOINT \n    Value: https://bibiszaros.services.ai.azure.com (vagy amit a képernyőn látsz)\n\n2. API Key:\n    Key: AZURE_AI_API_KEY vagy PROJECT_API_KEY\n    Value: 7CSdDPGpXT6NrPvLZjmYtw3LNhWMSMlt5BgWpfuNjP1mJsfGq3lPJQQJ99BJACYeBjFXJ3w3AAAAACOGz4mg\n\n Használat Python kódban\n\npython\nimport os\nfrom azure.ai.projects import AIProjectClient\nfrom azure.identity import DefaultAzureCredential\n\n# API kulcsos autentikáció\nproject_endpoint = os.environ.get(\"PROJECT_ENDPOINT\")\napi_key = os.environ.get(\"AZURE_AI_API_KEY\")\n\nclient = AIProjectClient(\n    endpoint=project_endpoint,\n    credential=api_key\n)\n\n\n Alternatív Service Principal autentikáció\n\nHa Service Principalt használsz, akkor ezeket a változókat add hozzá:[4][1]\n AZURE_CLIENT_ID\n AZURE_TENANT_ID\n AZURE_CLIENT_SECRET\n AZURE_SUBSCRIPTION_ID\n\nAz Azure AI Foundry SDK más, mint az Azure OpenAI SDK  ez egy átfogóbb platform, amely több AI szolgáltatást támogat, nem csak OpenAI modelleket.[5][6]",
+      "created_at": "20251012T23:56:26.808562Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "bfb3067893494050aed7a12b2df8e55e",
+      "query": "es ezt? ",
+      "answer": "Igen! Ha az endpoint https://bibiszaros.openai.azure.com/, akkor ez Azure OpenAI Service, és más környezeti változókat kell használni.[1][2]\n\n Azure OpenAI Service  Replit Secrets beállítása\n\n1. API Endpoint:[3][1]\n Key: AZURE_OPENAI_ENDPOINT\n Value: https://bibiszaros.openai.azure.com/\n\n2. API Key:[4][1]\n Key: AZURE_OPENAI_API_KEY\n Value: 7CSdDPGpXT6NrPvLZjmYtw3LNhWMSMlt5BgWpfuNjP1mJsfGq3lPJQQJ99BJACYeBjFXJ3w3AAAAACOGz4mg\n\n3. API Version (opcionális, de ajánlott):[5][6]\n Key: AZURE_OPENAI_API_VERSION\n Value: 2024-02-15-preview (vagy 2023-12-01-preview)\n\n Használat Python kódban\n\npython\nimport os\nfrom openai import AzureOpenAI\n\nclient = AzureOpenAI(\n    api_key=os.environ.get(\"AZURE_OPENAI_API_KEY\"),\n    api_version=os.environ.get(\"AZURE_OPENAI_API_VERSION\", \"2024-02-15-preview\"),\n    azure_endpoint=os.environ.get(\"AZURE_OPENAI_ENDPOINT\")\n)\n\n\n Node.js esetén\n\njavascript\nconst { AzureOpenAI } = require(\"openai\");\n\nconst client = new AzureOpenAI({\n  apiKey: process.env.AZURE_OPENAI_API_KEY,\n  apiVersion: process.env.AZURE_OPENAI_API_VERSION || \"2024-02-15-preview\",\n  endpoint: process.env.AZURE_OPENAI_ENDPOINT\n});\n\n\nAz openai.azure.com domain egyértelműen jelzi, hogy ez az Azure OpenAI Service, nem az általános Azure AI Foundry platform.[2][1]",
+      "created_at": "20251012T23:58:37.751085Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

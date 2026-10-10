@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b777e088470d4f08951174de11cccb4f",
+  "context_title": "",
+  "created_at": "20251006T15:13:22.555589Z",
+  "updated_at": "20251006T15:13:22.555589Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "31935fb1f49c4c0196dd4f816c7e9a25",
+      "query": "",
+      "answer": "A megadott link egy PyPIoldal az rdapi csomaghoz, ami egy HTTP fájlszerver statikus fájlokhoz és egy megbízható letöltési APIhoz, amely 2 MiBos blokkokban szolgál ki, blokkellenőrzőösszeggel és megszakítás utáni folytatással, Redis gyorsítótárral a metaadatokhoz.[1]\n\n Mi ez az rdapi\nAz rdapi egy könnyű HTTP fájlszerver, amely a webroot alatti fájlokat szolgálja ki, hasonlóan a python m http.server használatához, de kiegészítve megbízható, blokkos letöltési funkcióval az rd klienssel együtt használva. A megbízható letöltés 2 MiBos blokkokkal, blokkszintű SHA1 ellenőrzéssel, hibák esetén újrapróbálással és félbehagyott letöltés folytatásával működik.[1]\n\n Telepítés\n Debian/Ubuntu: redisserver és pipx telepítése, majd pipx install rdapi; a Redis a blokk sha1sum cacheeléséhez kell.[1]\n RHEL: dnf install redis python3pip, systemctl start redis, majd pip install user rdapi.[1]\n Futtatás: rdapi help, illetve ~/.local/bin/rdapi help ha a PATHból hiányzik az útvonal.[1]\n\n Alap használat\n Szerver oldalon: a fájlok (pl. bigfile1, bigfile2) mappájában indítható rdapi host 0.0.0.0 port 8082 paranccsal.[1]\n Kliens oldalon: az rd klienssel tölthető le, például rd , amely a megbízható, blokkos letöltést és ellenőrzést végzi.[1]\n\n Működés részletei\nAz rd kliens először a /rd/ végponton kéri a blokkmetaadatokat (blokkszám, blokkazonosító, offset, blokk SHA1), majd HTTP Range kérésekkel tölti le a blokkokat és mindegyiket ellenőrzi. A metaadatok kiszolgálása számítás közben fokozatos, és Redisben kerül cacheelésre a teljesítmény érdekében. A letöltés bármikor megszakítható, majd ugyanazzal a paranccsal később folytatható; a kliens automatikusan újrapróbál hibák és ellenőrzési eltérések esetén.[1]\n\n Platform és licenc\nA megbízható letöltés Haskellben íródott, és Linuxon fut; a binárist a PyPIn terjesztik a könnyebb telepítés érdekében. A projekt GPLv3+ licenc alatt érhető el; a forráskód a megadott GitLab repóban található.[1]\n\n Változásnapló fő pontok\n 1.6.0.0 (20240426): kis fájlok tartalomváltozásának automatikus felismerése és metaadatcache érvénytelenítése; finomított fileWorker logok.[1]\n 1.5.0.0 (20240408): Unicode URLútvonal kezelés javítása; helyi idő használata logokban; d/webroot opció javítása.[1]\n 1.4.0.0 (20231018): alapértelmezett listen host ::, IPv4/IPv6 támogatás miatt.[1]\n\n Csomagfájl hashek\nA rd_api1.6.0.0py2.py3noneany.whl SHA256: 86429396d42a63be780774f4187a66f0fee70b18341bb71429365af7b5624bfa; MD5: 70c02d4aea37ded034bf2a1593b6f9b3; BLAKE2b256: c4e7487fe27681177b09ef2dcc3599cf81078abdca5fbf76ef88a85494149ad6.[1]",
+      "created_at": "20251006T15:13:23.402300Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

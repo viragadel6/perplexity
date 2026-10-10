@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c6bbc8f9576b46a58cf1bebb0b07f01c",
+  "context_title": "Most advanced nontransformer model API available that processes documents characterbycharacter without approximation",
+  "created_at": "20251021T17:46:42.075385Z",
+  "updated_at": "20251021T17:46:42.075385Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "71609fa87baa4ab3909588095912d454",
+      "query": "Most advanced nontransformer model API available that processes documents characterbycharacter without approximation",
+      "answer": "A legfejlettebb nontransformer modell APIk jelenleg az RWKV7 \"Goose\" és a Codestral Mamba, azonban fontos tisztázni, hogy egyik sem dolgoz fel dokumentumokat valódi karakterrőlkarakterre approximáció nélkül, mivel mindkettő tokenizációt használ.[1][2][3]\n\n Elérhető megoldások\n\nRWKV modellek API hozzáférése:\n OpenRouter: RWKV v5 World 3B modellt kínál APIn keresztül, ingyenesen a béta időszakban[4][5]\n AI00 RWKV Server: Saját hosztolású inference API szerver, OpenAIkompatibilis API interfészel, Vulkan gyorsítással (AMD kártyák is támogatottak)[6][7]\n RWKV Runner: Management tool OpenAIkompatibilis interfészel[8]\n\nMamba alapú megoldások:\n Codestral Mamba: Mistral AI La Plateforme APIján elérhető (codestral-mamba-2407 modell), Apache 2.0 licensz alatt, 7.2 milliárd paraméter[9][1]\n OpenRouter: Szintén támogatja a Codestral Mamba modellt[9]\n\n Fontos korlátozás\n\nEgyik modern nontransformer modell sem dolgoz fel valódi karakterszintű approximáció nélküli feldolgozást  mindegyik tokenizációt használ a hatékonyság érdekében. A klasszikus charRNN modellek ugyan karakterszintűek voltak, de elavultak és nincs hozzájuk korszerű API szolgáltatás.[10][11][12][13]\n\nAz RWKV7 \"Goose\" technológiailag a legfejlettebb, mivel konstans memóriahasználattal, lineáris inference idővel dolgozik, és meghaladja a Transformer TC⁰ korlátait.[2][3][14]",
+      "created_at": "20251021T17:46:42.200218Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "050373ad5fb6497c8c6d4f66c1133e80",
+  "context_title": "Kollár Sándor ember rablás Summarize all the previous points in a single sentence",
+  "created_at": "20260827T10:46:14.552946Z",
+  "updated_at": "20260827T10:46:31.103214Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e5791c3a67554a67a2464faec7f8abba",
+  "entries": [
+    {
+      "entry_uuid": "ac92737eecf347118d346e4087e2935c",
+      "query": "Kollár Sándor ember rablás Summarize all the previous points in a single sentence",
+      "answer": "A rendelkezésre álló források alapján jelenleg nem található hiteles információ vagy korábbi adat Kollár Sándorhoz köthető emberrablási ügyről, így nincsenek olyan előzmények, amelyeket egyetlen mondatban össze lehetne foglalni.[1][8]\n\nTudna további részleteket megadni arról, hogy mikor és hol történt ez az eset?",
+      "created_at": "20260827T10:46:14.720072Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "db952067f07b4a6fac8bc61b38bf2b37",
+  "context_title": "ephemerist 2003.08.05re, a Nap és Hold pozíciói?",
+  "created_at": "20260105T04:56:00.768270Z",
+  "updated_at": "20260105T04:56:00.768270Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "570f05672dcc4eae8067a7fe5bfcd86a",
+      "query": "ephemerist 2003.08.05re, a Nap és Hold pozíciói?",
+      "answer": "2003. augusztus 5én, 00:00 UT időpontban az asztrológiai efemeridák szerint a Nap 12°11'ben járt az Oroszlán csillagjelben. A Hold pozíciója ugyanebben az időben 8°05' Skorpióban volt.[1][2]\n\n Nap részletei\nA Nap lassan halad, így az augusztusi pozíciója pontosan 12°11' Oroszlán (Leo). Későbbi, 06:00 UTkor már 12°25're került.[3]\n\n Hold részletei\nA Hold gyorsan mozog, 00:00 UTkor 8°05' Skorpió (Scorpio), míg 06:00 UTkor 11°37're. Ezen a napon első negyed holdfázis volt 07:28 UTkor, amikor a Hold kb. 12° Skorpióban állt a négyszög aspektusban a Nappal.[2][4][1][3]",
+      "created_at": "20260105T04:56:00.954739Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

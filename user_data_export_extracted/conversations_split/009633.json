@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8789db00ad924ed6979a4863459255b8",
+  "context_title": "",
+  "created_at": "20250708T10:42:34.909578Z",
+  "updated_at": "20250708T10:42:34.909578Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "945966258fdf42afbd854a955f20e1ea",
+      "query": "",
+      "answer": " Bypass Paywall iOS Shortcut – Áttekintés\n\nA Bypass Paywall iOS Shortcut egy iOSeszközökre (iPhone, iPad) készült parancsikon, amely lehetővé teszi, hogy a felhasználók előfizetés vagy fizetés nélkül férjenek hozzá fizetős tartalmakhoz különböző weboldalakon. A shortcut célja, hogy megkönnyítse a böngészést azáltal, hogy eltávolítja azokat az akadályokat, amelyek a prémium tartalmakhoz való hozzáférést korlátozzák[1].\n\n Főbb jellemzők\n\n Fizetős tartalmak elérése: Lehetővé teszi cikkek, videók és más, előfizetéshez kötött tartalmak megtekintését anélkül, hogy elő kellene fizetni.\n Egyszerű telepítés: Az iOS Shortcuts alkalmazás segítségével könnyen hozzáadható és futtatható.\n Idő és pénzmegtakarítás: Alternatívát kínál azoknak, akik nem szeretnének előfizetni, de szeretnének hozzáférni bizonyos információkhoz.\n\n Telepítés és használat\n\n1. Shortcuts alkalmazás: Szükség van az iOS Shortcuts (Parancsok) alkalmazásra, amely letölthető az App Storeból.\n2. Shortcut telepítése:\n    Kattints az „Install Shortcut” gombra az oldalon.\n    A shortcut részleteinél válaszd az „Add Shortcut” lehetőséget.\n3. Beállítások módosítása: Engedélyezni kell a „Nem megbízható parancsikonok” telepítését a Beállítások > Parancsok menüpontban.\n4. Shortcut futtatása: A Parancsok alkalmazásban indítsd el a Bypass Paywall shortcutot, majd kövesd az utasításokat (pl. add meg a weboldal URLjét).\n\n Jogszabályi és etikai megfontolások\n\n Jogosultság: A shortcut használata sértheti a tartalomkészítők vagy kiadók felhasználási feltételeit, és bizonyos esetekben jogi következményekkel járhat.\n Etika: A fizetős tartalmak jogosulatlan elérése általában etikátlannak számít, és sértheti a szerzői jogokat.\n Biztonság: Csak megbízható forrásból származó shortcutokat telepíts, hogy elkerüld a biztonsági kockázatokat.\n\n Gyakori kérdések\n\n| Kérdés | Válasz |\n|||\n| Minden weboldalon működik? | Nem, a hatékonyság weboldalanként eltérő lehet, és egyes oldalak erősebb védelmet alkalmaznak. |\n| Legális a használata? | A jogi megítélés országonként és weboldalanként eltérő, mindig tájékozódj a helyi szabályozásról és a weboldal feltételeiről. |\n| Biztonságos? | Megbízható forrásból letöltve általában biztonságos, de mindig körültekintően járj el. |\n\n Összefoglalás\n\nA Bypass Paywall iOS Shortcut kényelmes megoldást kínál a fizetős tartalmak elérésére, de használata jogi és etikai kérdéseket vet fel. Mindig mérlegeld a következményeket, és támogasd a tartalomkészítőket, ha lehetséges[1].\n\n[1] ",
+      "created_at": "20250708T10:42:34.931425Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

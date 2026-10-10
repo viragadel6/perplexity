@@ -1,0 +1,55 @@
+{
+  "context_uuid": "39c6fcc69ffe45a2848788264f6cc223",
+  "context_title": "An app that lets me download a repository from GitHub using the git clone command and saves it directly to my phone's storage, not to the app's storage",
+  "created_at": "20260612T08:09:51.117962Z",
+  "updated_at": "20260612T08:19:28.868121Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7fc6ce9697254a91b67babd4cec60a62",
+      "query": "An app that lets me download a repository from GitHub using the git clone command and saves it directly to my phone's storage, not to the app's storage",
+      "answer": "Elkészült az app! Töltsd le a fenti git-clone.html fájlt — ez egy önálló, telepítést nem igénylő webalkalmazás, amit megnyithatsz közvetlenül a Chrome vagy Edge böngészőben.\n\n Hogyan működik\n\nAz app a GitHub nyilvános REST APIját és a böngésző File System Access APIját kombinálja . Ez utóbbi lehetővé teszi, hogy a böngésző közvetlenül írjon a telefon tetszőleges mappájába — nem az app saját homokozójába, hanem oda, ahová te mutatsz . Ez az Android Chrome 86+ verziójától elérhető.\n\n Főbb funkciók\n\nKlónozás fül: Beírod a GitHub repo URLjét (pl. https://github.com/torvalds/linux), opcionálisan branchet, mappanevet, majd a \"Célmappa\" gombra koppintva kiválasztod a telefon tárhelyén azt a mappát, ahová a fájlok kerülnek. Az app valós időben mutatja a letöltési folyamatot egy terminálszerű kimenetben, és pontos git clone parancselőnézetet is megjelenít.\n\nBeállítások fül: Shallow clone (--depth 1), singlebranch, submoduleok, és GitHub Personal Access Token privát repókhoz — mind be van építve.\n\nKét mentési mód:\n| Mód | Mikor aktív | Eredmény |\n||||\n| File System Access API | Android Chrome 86+ / Desktop Chrome | Fájlok közvetlenül a telefon mappájába |\n| ZIP fallback | Régebbi böngészők, Firefox, Safari | Letölti az egész repót .zipben |\n\n Fontos korlátok\n\nA git clone parancs nem tud ténylegesen futni egy böngészőben — az app a GitHub APIn keresztül tölti le a fájlokat és manuálisan írja ki őket . A .git metaadat mappa nem készül el, csak a munkafájlok. Nagy repóknál (500+ fájl) a letöltés eltarthat pár percig, mivel a GitHub API rate limit miatt kötegelt hívásokat végez.",
+      "created_at": "20260612T08:09:51.353500Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "240a955a530f40f8b5e5544da67dac5b",
+      "query": "de az lenne alenyeg hogy sima letoltes 10 perc egy 500 megabsjtos fajl pl git clone meg 3 masodpetc\nes azt akarom ilyen gyorsan klonozodjanak a keszulekemre",
+      "answer": "Teljesen igazad van — és ez sajnos nem megoldható egy webalkalmazással. Hadd magyarázzam el miért, és mi az egyetlen valódi megoldás.\n\n A valódi probléma: miért lassú a böngésző?\n\nA git clone sebessége nem a fájlmérettől függ, hanem attól, hogyan kéred le a fájlokat. Egy natív git clone egyetlen összecsomagolt adatfolyamot (packfile) tölt le a Git smart HTTP protokollon — ezért olyan gyors. Egy böngésző azonban ezt nem tudja megtenni, mert:[1]\n\n Nem tud raw Git protokollt kezelni (csak HTTPS kéréseket)\n A GitHub APIn keresztül minden fájlt különkülön kell lekérni (1 API call / fájl)\n Egy 500 MBos repóban lehet 10.000+ fájl → 10.000 API hívás sorban[2]\n\nEz az oka annak, hogy az előző app APIalapú megközelítése sohasem lesz közel olyan gyors, mint a valódi git clone.\n\n Az egyetlen valódi megoldás: Termux\n\nTermux egy ingyenes Android terminál emulátor, amelybe telepíthető a valódi git bináris — root nélkül. Ez natív sebességgel klónoz, pontosan úgy, ahogy egy PCn tennéd.[3][4]\n\nTelepítés (5 perc, egyszeri):\n\nbash\n# 1. Telepítsd a Termux-ot — FONTOS: ne a Play Store-ból, hanem innen:\n# https://github.com/termux/termux-app/releases\n# (az F-Droid verzió is tökéletes)\n\n# 2. A Termux-ban futtasd:\npkg update && pkg upgrade\npkg install git\n\n# 3. Klónozás közvetlenül a telefonod tárhelyére:\ntermux-setup-storage   # egyszeri engedélykérés\ncd ~/storage/shared    # ez a telefon belső tárhelye\ngit clone https://github.com/felhasználó/repo\n\n\nA ~/storage/shared mappa a telefon rendes belső tárhelye (amit a Fájlok appban is látsz). A git clone ott fut teljes natív sebességgel — az 500 MBos repó ugyanúgy 3 másodperc lesz, mint PCn.[5][6]\n\n Sebesség összehasonlítás\n\n| Módszer | 500 MBos repo | Megjegyzés |\n||||\n| Termux git clone | ~3–10 mp | Natív Git, packfile protokoll |\n| Böngésző (APIalapú) | 15–60+ perc | Fájlonként 1 API hívás |\n| ZIP letöltés (GitHub) | ~1–3 perc | Csak a fájlok, nincs .git history |\n\nHa tényleg fontos a sebesség és a valódi git funkcionalitás (push, pull, branch, history), a Termux az egyetlen helyes út Androidon.[4][3]",
+      "created_at": "20260612T08:14:57.701879Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "3eb8e2a7fd704aa88d8e2653c31415d2",
+      "query": "de ki a rak mondta amugy is hogy webalkalmazast kerek? es IOS RE",
+      "answer": "iOSen ez egy Applekorlát, nem egy fejlesztési kérdés — de van megoldás.\n\n Miért nem lehet natív app ezt megcsinálni iOSen?\n\nAz Apple sandboxrendszere megakadályozza, hogy bármelyik app tetszőleges folyamatot futtasson (pl. a git binárist). Ezért minden iOSes git app a libgit2 C könyvtárat használja belül, ami ugyanolyan gyors, mint a natív git clone — mert lényegében ugyanaz.[1]\n\nA másik korlát a tárhelyhozzáférés: iOSen egy app alapból csak a saját sandboxába írhat. A \"telefon tárhelye\" (amit a Fájlok appban látsz) más appoknak csak az iOS Files Provider APIn keresztül érhető el.\n\n\n\n A legjobb megoldások iOSre\n\n 1. Working Copy — a legjobb git kliens iOSre\nA Working Copy  libgit2alapú, tehát natív git clone sebességgel dolgozik. Klónoz, pushol, pullol, branchel. A klónozott repók elérhetők a Fájlok appból is (Files Provider integráció), tehát más appok is látják. Az alap klónozás ingyenes, a push fizetős (egyszeri ~20€).[2][3][4]\n\n 2. iSH — Linux shell iOSen, valódi gittel\nAz iSH egy x86 Linux emulátor iOSre. Telepítsd, majd:[5][1]\nbash\napk add git\nmount -t ios . /mnt   # itt választhatsz iOS mappát\ncd /mnt\ngit clone https://github.com/felhasználó/repo\n\nÍgy a klón közvetlenül az iOS Fájlok appban látható mappába kerül. Lassabb mint natív (emuláció miatt), de ingyenes és valódi git.\n\n 3. aShell — könnyűsúlyú, libgit2alapú\nAz aShell  egy minimalista terminál iOSre, beépített lg2 (libgit2) paranccsal. A pickFolder paranccsal bármely iOS Fájlokmappát mountolhatod, és oda klónozhatsz natív sebességgel. Teljesen ingyenes.[6]\n\n\n\n Összehasonlítás\n\n| App | Sebesség | Ár | Fájlok app | Push |\n||||||\n| Working Copy | ⚡ natív | Ingyenes / ~20€ push | ✅ | Fizetős |\n| aShell | ⚡ natív (lg2) | Ingyenes | ✅ | ✅ |\n| iSH | 🐢 emulált | Ingyenes | ✅ | ✅ |\n\nHa csak klónozni akarsz gyorsan, az aShell a legjobb ingyenes opció. Ha teljes git workflow kell szép felülettel, a Working Copy a de facto standard iOSen.[3][7][6]",
+      "created_at": "20260612T08:15:51.671833Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2663d7c1e87a41a7b67b31e4fa2f4eb0",
+      "query": "ez hulyeseg mert rengeteg app menthet telora\npl gigapixel ios app is model sulyokat is eszkoz tarhelyere toltotte le",
+      "answer": "Teljesen igazad van — bocsánat a félreinformálásért. iOSen egy app igenis tud nagy fájlokat menteni, és a Documents mappa elérhető a Fájlok appból is. A technika teljesen megvan:[1][2]\n\n libgit2 → natív git clone sebesség iOSen, Swift Package Managerrel integrálható[3][4][5]\n SwiftGitX → modern Swift wrapper libgit2re, 2025ben kiadva[6][7]\n Documents mappa + UIFileSharingEnabled → a klónozott repó látható a Fájlok appban \"On My iPhone\" alatt[2][1]\n\n\n\nA probléma viszont az, hogy én webes/Python eszközökkel dolgozom itt — iOS natív appot (Swift/Xcode projekt) nem tudok legenerálni és átadni neked futtatható formában, mert az .ipat Apple Developer fiók + Xcode + code signing nélkül nem lehet telepíteni.\n\nAmit tudok ajánlani:\n\n1. Working Copy — pontosan ezt csinálja már, natív libgit2 sebességgel, Fájlok app integráció van. Az alap klónozás ingyenes.[8][9]\n2. Ha saját appot akarsz fejleszteni (pl. mert Working Copy nem elég, vagy egyedi funkciókat akarsz) — megírom neked a teljes Swift forráskódot Xcode projektként, amit te buildelsz és telepítesz. Ehhez kell egy ingyenes Apple ID (sideloadinghoz) vagy Developer Program.\n\nMelyiket szeretnéd?",
+      "created_at": "20260612T08:17:56.842072Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "570f9eeb4e9f44f995143320f5e9fae7",
+      "query": "DE NEM KERTEM APPOT BAZDMEG HANEM KERESEK ILYET APP STOREBA",
+      "answer": "Rendben, íme a két legjobb App Storeos opció:\n\n Working Copy — \nA legjobb és legnépszerűbb git kliens iOSre. Natív libgit2alapú, tehát valódi git clone sebességgel működik. Klónozás után a repó látható az iOS Fájlok appban is. Klónozás ingyenes, push fizetős (~20€ egyszeri).[1][2][3]\n\n Clone — Git client advanced — \nSzintén natív git kliens iOSre, fejlett code editorral és vizualizációkkal. Kevésbé elterjedt mint a Working Copy, de szintén teljes értékű git kliens.[4]\n\n\n\nHa csak klónozni akarsz gyorsan és a fájlokat látni a telefonon, a Working Copy az egyértelmű választás — ez az iOSes git de facto standardje.[5]",
+      "created_at": "20260612T08:19:09.918076Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

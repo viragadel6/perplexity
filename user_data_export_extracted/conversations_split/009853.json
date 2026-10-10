@@ -1,0 +1,19 @@
+{
+  "context_uuid": "fffd4f9b88c445b689576704017306fa",
+  "context_title": "claude opus 4 leaked direkt file link",
+  "created_at": "20250621T00:49:49.781318Z",
+  "updated_at": "20250621T00:49:49.781318Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d01c07bc95364173afd4444e5bdc96b2",
+      "query": "claude opus 4 leaked direkt file link",
+      "answer": "A keresés alapján a Claude Opus 4 rendszerpromptjának szivárgott változata a következő GitHuboldalon érhető el közvetlenül:  \n [4].\n\n További információ a szivárgásról:\n A teljes rendszerprompt több mint 10 000 szóból áll, és részletes viselkedési szabályokat, biztonsági protokollokat és stílusirányelveket tartalmaz[3][4].\n A dokumentum szerkezete XMLszerű címkéket használ (pl. <antml:thinking_mode>), amelyek a modellel való kommunikációt szabályozzák[5].\n Az Anthropic eredetileg csak egy rövidített változatot tett közzé, de a teljes prompt \"Pliny the Liberator\" által szivárgott ki[3][4].\n\n Figyelem:\n A fájl nyers szövegformátumban érhető el, és technikai részleteket tartalmaz a modellek működéséről (pl. eszközök használata, gondolkodási blokkok)[5][4].\n Egyes elemzések szerint a prompt \"mesterséges hitelességet\" próbál elérni szigorú személyiségszabályozással[3].\n\nA link a fenti GitHubtárházban található, és közvetlen hozzáférést biztosít a szivárgott fájlhoz.",
+      "created_at": "20250621T00:49:49.803838Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

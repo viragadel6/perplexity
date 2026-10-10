@@ -1,0 +1,19 @@
+{
+  "context_uuid": "133db7160ed2481a91a2d756c255219b",
+  "context_title": "2019 szeptembber hany eve volt",
+  "created_at": "20260528T13:40:32.345700Z",
+  "updated_at": "20260528T13:40:35.684909Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "df040bc2d8014e93b8ccd9592fc65743",
+      "query": "2019 szeptembber hany eve volt",
+      "answer": "2019 szeptembere kb. 6 éve volt, mert 2026 májusában vagyunk, és 2019 szeptembere óta már több mint 6 év telt el.[6]\nPontosabban 2019 szeptember vége és 2026 májusa között nagyjából 6 év 8 hónap van.",
+      "created_at": "20260528T13:40:32.767840Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2d4399bcdf01480dba16534989abb33f",
+  "context_title": "Napi ellenőrzés a GitHub legfrissebb repójáról: olvasd el a teljes kódot az első karaktertől az utolsóig, és készíts részletes listát az összes talált hibáról, csak a hibákat felsorolva, minden egyéb szöveg nélkül",
+  "created_at": "20260214T02:00:11.453135Z",
+  "updated_at": "20260214T02:01:04.592698Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "aaaa8c4b327c45dfa4ed0674d3bd5e1f",
+      "query": "Napi ellenőrzés a GitHub legfrissebb repójáról: olvasd el a teljes kódot az első karaktertől az utolsóig, és készíts részletes listát az összes talált hibáról, csak a hibákat felsorolva, minden egyéb szöveg nélkül",
+      "answer": "1. pauliYGate függvény  helytelen komplex szorzás sorrendje (sor 359362): minus_i.mul(q.b) és i.mul(q.a) helyett q.b.mul(minus_i) és q.a.mul(i) kellene\n2. phaseGate closure  a factor konstans életciklusa nem garantált (sor 373382)\n3. addNode  node ownership problémás, ha a node.deinit() meghívódik hibakezelés után és az id már felszabadult (sor 544)\n4. addNode  errdefer blokk hiányzik az új node beszúrása után (sor 543544)\n5. addEdge  ha az append sikertelen, az EdgeKey továbbra is a mapben marad üres listával (sor 567)\n6. entangleNodes  nincs ellenőrzés hogy a két node azonose (sor 631)\n7. measure  race condition lehetséges több entangled node egyidejű mérésekor (sor 638702)\n8. measure  outcome >= 4 esetén undefined behavior (sor 656667)\n9. getAllNodeIds  memóriaszivárgás ha a sort közben hibát dob (sor 721733)\n10. updateTopologyHash  nem atomikus művelet, párhuzamos hozzáférés korrupciót okozhat (sor 736881)\n11. encodeInformation  nincs ellenőrzés hogy az id_buf buffer elég nagye (sor 888890)\n12. encodeInformation  errdefer blokk nem rollbackeli a quantum_register változásokat (sor 899916)\n13. encodeInformation  max_links számítás túlcsordulhat ha ids.items.len == 0 (sor 930)\n14. Qubit normalizeInPlace  NaN/Inf ellenőrzés után sem garantált valid állapot (sor 99104)\n15. Edge clone  source és target pointerek másolása helyett deep copy hiányzik (sor 227)\n16. Node clone  metadata iteráció során fellépő hiba esetén az n részlegesen épített állapotban marad (sor 149160)\n17. putOwnedStringBytes  ha a map.put sikertelen, a kulcs/érték már felszabadult de a hiba továbbadódik (sor 6062)\n18. SelfSimilarRelationalGraph.init  timestamp alapú seed nem kriptográfiailag biztonságos (sor 438)\n19. addEdge  canonicalIdPtr ellenőrzés után a pointer invalidálódhat (sor 548)\n20. setQuantumState  nincs szinkronizáció a nodes és quantum_register közötti állapot frissítésnél (sor 617628)\n21. applyQuantumGate  node.qubit frissítés és quantum_register frissítés között race condition (sor 634)\n22. Edge init  source és target pointerek nem validálódnak (sor 199)\n23. measure  entanglement collapse után az edges minőségének frissítése nem biztos hogy sikeres (sor 690691)\n24. encodeInformation  node_id ownership átadódik de nem minden hiba esetben szabadul fel (sor 893)\n25. getAllNodeIds  sort előtt nincs ellenőrzés hogy ürese a lista (sor 728)",
+      "created_at": "20260214T02:00:11.601231Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

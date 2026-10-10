@@ -1,0 +1,28 @@
+{
+  "context_uuid": "2ab4f18867be46269a536dbeeb343353",
+  "context_title": "ez jo a kocsimba? igen vagy nem",
+  "created_at": "20250625T20:04:27.498978Z",
+  "updated_at": "20250626T07:13:24.002678Z",
+  "mode": "COPILOT",
+  "collection_uuid": "3b299b78492746a09cff2d7784dd58ed",
+  "entries": [
+    {
+      "entry_uuid": "d66f42e222e843a58e49b44b93bae41f",
+      "query": "ez jo a kocsimba? igen vagy nem",
+      "answer": " Akkumulátor kompatibilitás a BMW 5 (E60) 520 d (N47 D20 A) típushoz\n\nIgen: a JÁSZAKKU JAK12100J típusú 12 Vos, 100 Ah kapacitású, jobb (+) pólus pozíciójú akkumulátor 352 × 175 × 190 mmes mérete és 800 A indítóárama megfelel a BMW E60 520 d gyári előírásainak (100 Ah, kb. 800–860 A, 353×175×190 mm, B13 tartó)[1][2].",
+      "created_at": "20250625T20:04:27.581888Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "1215ac57feb54b2286dd19ecca98cc9c",
+      "query": "es egy jo atlagos vagy az egyik legjobb specikifai alapjan a kocsimba",
+      "answer": "A JÁSZAKKU JAK12100J a paramétereivel (100 Ah, 800 A EN, 352 × 175 × 190 mm, B13, jobb +) tökéletesen belefér a BMW E60 520 d gyári előírásaiba, amelyek 80–95 (100) Ah kapacitást, 640–850 A indítóáramot és B13 rögzítést írnak elő, 315 vagy 353 mm hosszúságú akkumulátorházban[1].  \n\nHogy „jó átlagosnak” vagy inkább „felső kategóriásnak” számíte, azt az alábbiak szerint érdemes értékelni:\n\n  Technológia  \n – JAK12100J: hagyományos ólomkalcium akku, 1 év garanciával[2].  \n – Prémium megoldás: AGM (pl. Varta 95 Ah/850 A vagy Exide 95 Ah/850 A), amelyet a startstopra, fékenergiavisszanyerésre fejlesztettek ki, és jellemzően 3 év garanciát adnak rá[1][3].\n\n  Kapacitás / indítóáram  \n – 100 Ah / 800 A: a gyári tartomány felső vége, így hidegindításnál bőven tartalékos.  \n – A prémium AGMek hasonló vagy nagyobb (95 Ah / 850 A) indítóáramot tudnak.\n\n  Élettartam / ciklustűrés  \n – A hagyományos akku átlagos ciklusszáma kisebb; városi, rövid távú, nagy áramfelvételű használatnál hamarabb elfáradhat.  \n – Az AGMek mélyebb kisütést és több töltési ciklust viselnek el, ezért hosszabb élettartam várható.\n\nÖsszegzés  \n– Teljesítmény alapján: a JÁSZAKKU erős, sőt túlméretezett kapacitású, így „jó átlag feletti” választás.  \n– Minőség és tartósság alapján: inkább középkategória; ha a lehető leghosszabb élettartamot és startstop kompatibilitást szeretnél, a felsőkategóriás AGMek jelentenék a „legjobb” opciót.\n\nTehát: igen, nyugodtan betehető, de a „legjobb” megoldást az AGM technológiát képviselő prémium gyártók (Varta, Exide, Bosch) kínálják.",
+      "created_at": "20250626T07:12:16.644064Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

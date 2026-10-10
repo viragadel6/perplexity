@@ -1,0 +1,19 @@
+{
+  "context_uuid": "29b133c06cfa4d69b232fc65de7c8677",
+  "context_title": "sorold fel jelenleg az osszes frontier llm et!\nválaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20260602T14:44:16.998116Z",
+  "updated_at": "20260602T14:44:52.131128Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "634f66db76c54bb2910c88cea684a305",
+      "query": "sorold fel jelenleg az osszes frontier llm et!\nválaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "Az alábbi frontier LLMek jelenleg elérhetők:[1][2][3]\n\n GPT5 (OpenAI)\n Claude 4 Opus / Sonnet / Haiku (Anthropic)\n Gemini 3 (Google DeepMind)\n Grok 4 (xAI)\n DeepSeek V4 Pro (DeepSeek)\n Llama 4 (Meta)\n Qwen3 (Alibaba)\n Mistral Large (Mistral AI)\n Kimi K2 (Moonshot AI)\n GLM5 (Zhipu AI / Z.ai)\n ERNIE (Baidu)",
+      "created_at": "20260602T14:44:17.276776Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

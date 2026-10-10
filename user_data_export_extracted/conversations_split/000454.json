@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b5f44427f7c74faab18c69ee49d5efa0",
+  "context_title": "mi a barion telefonszáma",
+  "created_at": "20260911T13:10:40.927980Z",
+  "updated_at": "20260911T13:10:48.868424Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f92cdf3507f34ca982a3b74075dc3e6a",
+      "query": "mi a barion telefonszáma",
+      "answer": "A Barion ügyfélszolgálatának központi telefonszáma: +36 1 464 7099 (belföldről: 06 1 464 7099).[1]\n\n Telefonos ügyfélszolgálat elérhetősége\n\nA telefonos ügyfélszolgálat a hétköznapokon az alábbi nyitvatartási rend szerint érhető el:[1]\n\n Hétfő: 10:00 – 16:00\n Kedd: 10:00 – 16:00\n Szerda: 10:00 – 16:00\n Csütörtök: 08:00 – 20:00\n Péntek: 10:00 – 16:00\n\n További elérhetőségek\n\nAmennyiben a képernyőn látható felfüggesztés miatt keresed őket, érdemes először a fiókodhoz tartozó email fiókodat ellenőrizni, ahová a Barion elküldte a felfüggesztés okát és a teendőket.\n\n Email: hello@barion.com (írásbeli megkereséseket hétköznap 08:00 és 17:00 között dolgoznak fel).[1]\n Online felület: a hivatalos weboldalon elérhető  oldalon keresztül.[1]",
+      "created_at": "20260911T13:10:40.960082Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

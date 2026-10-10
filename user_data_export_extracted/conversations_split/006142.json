@@ -1,0 +1,19 @@
+{
+  "context_uuid": "667fe6306ad14423b1704dca2db2acdc",
+  "context_title": "",
+  "created_at": "20251124T23:25:46.518617Z",
+  "updated_at": "20251124T23:25:46.518617Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "05db1c5653bb418596385efde40e31f9",
+      "query": "",
+      "answer": "A BankingLLMSecurity egy endtoend biztonsági keretrendszer, amelyet kimondottan a prompt injekciós támadások és a jailbreak típusú támadások felismerésére, osztályozására és enyhítésére fejlesztettek ki banki chatbotok és pénzügyi nagy nyelvi modellek (LLMek) alkalmazásaiban. A keretrendszer különkülön finomhangolja a BERT, RoBERTa és DistilBERT modelleket több mint 100 ezer banki prompt alapján. Ezután ezeket az embeddek alapján egy ensemble metaosztályozóval kombinálja, hogy magas pontosságú felismerést biztosítson a rosszindulatú promptokra. Az optimalizáláshoz AdamW algoritmust használ alacsony tanulási rátával (5×10⁻⁵), és olyan mérőszámokat alkalmaz, mint az F1, pontosság (Precision), visszahívás (Recall) és ROCAUC. A projekt tartalmazza a tiszta tréning szkripteket és reprodukálható kísérleti pipelinet, készen arra, hogy banki chatbotokba és API átjárókba integrálják.\n\nFő jellemzők:\n Független finomhangolás BERT, RoBERTa és DistilBERT modelleken banki promptokra\n Súlyozott keresztentrópia veszteség az osztályegyensúlyhiány kezelése érdekében\n Magas pontosságú támadásfelismerés, amely kivédi a prompt injekciós és jailbreak támadásokat\n Egyszerű integrálhatóság banki chatbotokba és APIkba\n\nEz a keretrendszer speciálisan a pénzügyi szektor biztonsági igényeire lett tervezve, hogy megvédje a gépi tanulás alapú chatbotokat az olyan támadásoktól, amelyek megpróbálják kijátszani vagy félrevezetni a modellt a rosszindulatú parancsokkal, ezzel biztonságosabbá téve a pénzügyi szolgáltatásokat és ügyfélinterakciókat.[6]",
+      "created_at": "20251124T23:25:47.135899Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

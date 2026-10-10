@@ -1,0 +1,19 @@
+{
+  "context_uuid": "fcda91144b3f46158bd76b4f71281e53",
+  "context_title": "Összefoglalja ezt a fájlt",
+  "created_at": "20250723T14:01:11.079427Z",
+  "updated_at": "20250723T14:01:11.079427Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "dcb04126db67482d84c8a305282f8699",
+      "query": "Összefoglalja ezt a fájlt",
+      "answer": "Nem tudtam hozzáférni a mellékelt main3.py fájl tartalmához, ezért jelenleg nem tudom összefoglalni. Kérlek töltsd fel ismét, vagy másold ide a kódot, és szívesen segítek.",
+      "created_at": "20250723T14:01:12.559520Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

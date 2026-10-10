@@ -1,0 +1,19 @@
+{
+  "context_uuid": "22cdd4c7e18b4f5fbad9c5152ad995b4",
+  "context_title": "legmagasabb minősègű teljes földi tudást lefedő legjobban tisztitott datasets egy llm betanításához 0 ról",
+  "created_at": "20250901T03:59:27.971969Z",
+  "updated_at": "20250901T03:59:27.971969Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "2aee9d3aa8744f929653f29ecd6bbe26",
+      "query": "legmagasabb minősègű teljes földi tudást lefedő legjobban tisztitott datasets egy llm betanításához 0 ról",
+      "answer": "English:\nhighestquality, comprehensive, and most cleaned datasets covering full world knowledge to train an LLM from scratch\n\nMagyar:\nlegmagasabb minőségű, teljes világismeretet lefedő, legjobban megtisztított adatkészletek egy LLM 0ról történő betanításához",
+      "created_at": "20250901T03:59:28.124329Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

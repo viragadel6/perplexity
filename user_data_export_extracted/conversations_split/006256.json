@@ -1,0 +1,19 @@
+{
+  "context_uuid": "280e6d9108e84a158ec865cc4a764fe1",
+  "context_title": "",
+  "created_at": "20251120T08:51:46.713555Z",
+  "updated_at": "20251120T08:51:46.713555Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fafcf06c3d414aa6b421cd397cbbff6a",
+      "query": "",
+      "answer": "A SciML/OrdinaryDiffEq.jl egy kiváló teljesítményű Julia csomag, amely ordinárius differenciálegyenletek (ODE) és differenciálalgebrikus egyenletek (DAE) megoldására szolgál. Támogatja a neural ordinary differenciálegyenleteket (neural ODEket) és a tudományos gépi tanulást (SciML). Ez a csomag a DifferentialEquations ökoszisztéma része, és számos fejlett megoldó algoritmust kínál, amelyek hatékony numerikus megoldást tesznek lehetővé különböző típusú differenciálegyenletekhez. A GitHub oldalon rendszeresen frissítik a csomagot, új funkciókkal és hibajavításokkal bővítve azt.[2][3]",
+      "created_at": "20251120T08:51:47.586328Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

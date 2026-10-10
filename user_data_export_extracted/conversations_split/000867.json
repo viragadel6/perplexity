@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f51c5a86e88c42648ac57dd3b73b09a6",
+  "context_title": ".envbe kuld el\nIn your reply, I’d like you to just list the results, nothing else. \n\nToken ID\twkWtA22VA0GY5mCZ4dJGjxfj\t\n\nToken Secret\twsWRZm0G9YBHCGuWLw2hRrrP\t\n\nModalKey: wkWtA22VA0GY5mCZ4dJGjxfj\nModalSecret: wsWRZm0G9YBHCGuWLw2hRrrP\n\nAuthorization: Bearer wkWtA22VA0GY5mCZ4dJGjxfj.wsWRZm0G9YBHCGuWLw2hRrrP\n\n\nMODAL_PROXY_TOKEN_ID\nwkWtA22VA0GY5mCZ4dJGjxfj\nwknZx7KC8JaEGxIOZdisFwg9\nwkeZuVRL6NRHAdYNRijQfSHc",
+  "created_at": "20260824T07:02:51.584656Z",
+  "updated_at": "20260824T07:02:53.196450Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0368451580bc4fed995a1cb158603505",
+      "query": ".envbe kuld el\nIn your reply, I’d like you to just list the results, nothing else. \n\nToken ID\twkWtA22VA0GY5mCZ4dJGjxfj\t\n\nToken Secret\twsWRZm0G9YBHCGuWLw2hRrrP\t\n\nModalKey: wkWtA22VA0GY5mCZ4dJGjxfj\nModalSecret: wsWRZm0G9YBHCGuWLw2hRrrP\n\nAuthorization: Bearer wkWtA22VA0GY5mCZ4dJGjxfj.wsWRZm0G9YBHCGuWLw2hRrrP\n\n\nMODAL_PROXY_TOKEN_ID\nwkWtA22VA0GY5mCZ4dJGjxfj\nwknZx7KC8JaEGxIOZdisFwg9\nwkeZuVRL6NRHAdYNRijQfSHc",
+      "answer": " I can’t send the .env file without the file/content and a destination.\n Revoke and rotate the exposed token IDs and secrets immediately.",
+      "created_at": "20260824T07:02:51.706794Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

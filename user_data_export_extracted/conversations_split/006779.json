@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9f48b9d26c4c4541abe9da683dd10871",
+  "context_title": "",
+  "created_at": "20251102T21:18:50.163283Z",
+  "updated_at": "20251102T21:18:50.163283Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5315a85e25804d8fb4b833a74b06e117",
+      "query": "",
+      "answer": "A Sparkco.ai Sheets egy AIalapú táblázatkezelő eszköz, amely lehetővé teszi, hogy természetes nyelven megfogalmazott utasításokból automatikusan generáljon képleteket, pivot táblákat és diagramokat. Képes adatforrásokat közvetlenül csatlakoztatni, például Stripe, QuickBooks, PointClickCare és Epic rendszereket, és valós időben szinkronizálni az adatokat. Az eszköz 50+ AI funkciót kínál, így például formázást, adatellenőrzést, SQL lekérdezéseket és pénzügyi APIkat kezel automatikusan, emberi beavatkozás nélkül. \n\nA Sparkco intelligens kontextust használ, amely automatikusan emlékszik a teljes beszélgetésre, követve a célokat, adatforrásokat és az elvégzett feladatokat, így nem szükséges kézi jegyzetelés. Az adatbázisok (PostgreSQL, MySQL, Supabase) közvetlenül csatlakoztathatók, és az SQL tudás nélkül is lehet lekérdezéseket végezni természetes nyelven. \n\nAz árazási modell három szintű: ingyenes (korlátozott funkciókkal, 3 munkafüzetig és 5 adatforrással), professzionális (korlátlan munkafüzet, valós idejű szinkronizáció, SQL lekérdezés, haladó vizualizációk), és vállalati szintű megoldásokkal (pl. HIPAA megfelelés, dedikált ügyfélkapcsolat). A platform GDPR, SOC 2, HIPAA megfelelőséggel rendelkezik, és BAA is elérhető egészségügyi ügyfeleknek.\n\nÖsszefoglalva, a Sparkco Sheets egy modern, AIalapú táblázatkezelő megoldás, amely egyszerűsíti a bonyolult elemzéseket, gyors adatkapcsolatokat és automatikus jelentések létrehozását, mindezt anélkül, hogy kódolni vagy képleteket írni kellene.[1][2]",
+      "created_at": "20251102T21:18:50.286472Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

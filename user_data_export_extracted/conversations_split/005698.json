@@ -1,0 +1,37 @@
+{
+  "context_uuid": "5f0cd99853a54a22b3c2151cd6af9b1b",
+  "context_title": "",
+  "created_at": "20251214T03:00:01.696413Z",
+  "updated_at": "20251214T03:05:34.878934Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bb8973ce46544d0b8bd2eabb99bf9edd",
+      "query": "",
+      "answer": "Ez a link a Bifrost nevű nyílt forráskódú projekthez vezet a GitHubon.[1][2]\n\n Mi ez a repo?\n\nA maximhq/bifrost egy nagy teljesítményű LLM gateway, amely több mint egy tucat különböző AI szolgáltató (pl. OpenAI, Anthropic, AWS Bedrock, Google Vertex, Azure, Mistral, Groq stb.) elérését egységes, OpenAIkompatibilis API mögé rejti.  A célja, hogy egyetlen végpontról biztosítson failovert, terheléselosztást, szemantikus cache‑t, governance‑et és megfigyelhetőséget nagy forgalmú AI alkalmazásokhoz.[2][1]\n\n Fő képességek\n\n Egy OpenAI‑kompatibilis HTTP API, amelyen keresztül 1000+ modell érhető el több providerből.[1][2]\n Automatikus failover és load balancing több API‑kulcs és szolgáltató között, plusz szemantikus cache a költség és késleltetés csökkentésére.[2][1]\n MCP (Model Context Protocol) támogatás külső eszközökhöz, multimodális (szöveg, kép, audio, streaming) támogatással és bővíthető plugin rendszerrel (governance, logging, telemetry stb.).[1][2]\n\n Használat röviden\n\n Lokális futtatás: npx -y @maximhq/bifrost vagy Dockerrel docker run -p 8080:8080 maximhq/bifrost.[1]\n Ezután a böngészőben a http://localhost:8080 felületen lehet a providereket és beállításokat konfigurálni.[1]\n A meglévő OpenAI‑klienseket általában csak a base URL átállításával lehet átirányítani a Bifrostra (pl. https://api.openai.com → http://localhost:8080/openai).[1]\n\n Teljes dokumentáció\n\nA részletes útmutatók (Gateway Setup, Go SDK, provider konfigurációk, enterprise funkciók) a hivatalos dokumentációban érhetők el: https://docs.getbifrost.ai.  A repo GitHub oldalán megtalálhatóak a release‑ek, issue‑k és a forráskód teljes struktúrája is.[2][1]\n\nHa megírod, milyen stackben fejlesztesz (pl. Node, Python, Go) és milyen providereket használsz, szívesen segít egy konkrét integrációs példával is.",
+      "created_at": "20251214T03:00:02.282776Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6222970265224826a7b123aae84dd509",
+      "query": "repliten hogy? es akkor gemini gyorsabban valaszol vagy szoszi?",
+      "answer": "Repliten úgy a legegyszerűbb, hogy a Bifrost gatewayt ugyanúgy elindítod (NPXszel), csak figyelsz rá, hogy a szerver 0.0.0.0ra bindoljon és a portot a Replit “Ports”/preview rendszere lássa.  A Gemini attól nem lesz “automatikusan” gyorsabb, hogy Bifroston keresztül megy; a válaszidőt főleg maga a modell/provider határozza meg, a Bifrost overheadje mikrosekundumos nagyságrendű.[1][2]\n\n Bifrost futtatása Repliten\n\n Készíts egy Node.js (vagy bármilyen shellt adó) replt, majd Run/Shellben indítsd így: npx -y @maximhq/bifrost -host 0.0.0.0 -port 8080 -app-dir ./data.[3][4]\n Repliten akkor lesz elérhető a webes UI és az API, ha a port “kinyílik” és a portkötés rendben van (a Replit a belső portot külső portra/proxyra köti, amit a Preview/Webview el tud érni).[1]\n A Bifrost beépített UIja alapból a 8080on fut, és onnan tudsz providert felvenni (kulcsok, régiók, stb.).[6][7]\n\nGyakorlati tipp: a provider API kulcsokat Replit “Secrets”be tedd, és környezeti változóként add át (így nem kerülnek be a repóba).[8]\n\n Gemini használata Bifroston át\n\n Bifrostnál a Google GenAI/Gemini kompatibilis útvonal tipikusan a /genai, és a klienseket úgy kell átállítani, hogy a base URL oda mutasson.[9]\n Például a Google GenAI SDKnál a base_url lehet https://<replit-app-domain>/genai, a Gemini CLInél pedig környezeti változóval is átirányítható a hívás ugyanide.[5][3]\n\n Gyorsabb lesze Gemini, mint “szoszi”?\n\n Általánosságban: a végponttólvégpontig tartó késleltetés döntő része a provider/model oldalon keletkezik, miközben a Bifrost saját plusz késleltetése nagyon kicsi (benchmarkokban mikrosekundumos overheadet említenek).\n Amitől ténylegesen “gyorsabbnak” érződhet: a Bifrost tud szemantikus cachet és load balancing/failovert, így ismétlődő vagy hasonló kéréseknél gyorsabb válasz és stabilabb működés jöhet ki.\n Viszont hogy a Gemini gyorsabbe, mint a másik általad értett modell (“szoszi”), azt legbiztosabban egy rövid, azonos prompttal futtatott mérés dönti el ugyanarról a régióról.\n\nMit értesz pontosan “szoszi” alatt (Sonar/Perplexity, Claude, OpenAI, vagy valami más), és Repliten Workspaceben futtatnád, vagy Deployként?",
+      "created_at": "20251214T03:04:05.062318Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "47f81776abfe4a6e90327be4f142d778",
+      "query": "de en egy webapp ba akarom integralni llm eg\nha ezzel a bi n keresztul integralom ugy gyorsab?",
+      "answer": "Nem: ha a webappod ugyanazt a modellt ugyanannál a providernél hívja, akkor a Bifrost beiktatása önmagában nem “teszi gyorsabbá” a modellt, sőt hozzáad egy nagyon kicsi plusz hopot.  Viszont bizonyos esetekben gyorsabbnak érződhet (alacsonyabb átlag latency), mert a Bifrost tud szemantikus cachet, terheléselosztást és automatikus failovert.\n\n Mikor lehet gyorsabb?\n\n Ha sok az ismétlődő / nagyon hasonló kérés: a szemantikus caching miatt a Bifrost vissza tud adni korábbi választ (vagy közeli találatot), ami a teljes válaszidőt drasztikusan csökkentheti.\n Ha több provider/model közül választasz: a load balancing és fallback miatt több kulcs/provideren át el tudod kerülni a lassú vagy épp hibázó útvonalat, így javulhat az átlagos p95/p99 latency és a “nem áll le” élmény.\n Ha ugyanazt a Bifrostot több webapp instance használja: közös cache + közös kulcspool miatt stabilabb és sokszor gyorsabb rendszer épülhet, mintha minden példány külön “hideg” állapotból hívna.\n\n Mikor nem lesz gyorsabb?\n\nHa a kérések egyediek (nincs cache találat), és továbbra is ugyanazt az egy provider/modellt használod, akkor a teljes idő nagy részét a provider inference ideje adja, és a Bifrost legfeljebb minimális overheadet tesz rá.  Ilyenkor a sebességet inkább modellválasztás (kisebb/gyorsabb modell), streaming, rövidebb promptok, régióválasztás és concurrency limit beállítások javítják, nem a gateway “önmagában”.\n\n Integráció webappba\n\nA tipikus minta az, hogy a webapp backendje (nem a böngésző!) a Bifrost OpenAIkompatibilis APIját hívja, és a Bifrost intézi a providereket/kulcsokat.  Ez “dropin” jellegű: sok SDKnál elég a base URLt a Bifrost endpointjára állítani, és a modellt Bifrostféle névvel megadni (pl. provider/model formában).  Provider oldalon a Bifrost dokumentáció külön ír a Google GenAI/Gemini integrációról és endpointokról, ha kifejezetten Gemini kell.\n\nA webappod milyen stack (Next.js, Node/Express, Python/FastAPI, stb.), és a hívások szerverről mennek vagy közvetlenül a kliensből?",
+      "created_at": "20251214T03:05:11.181214Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

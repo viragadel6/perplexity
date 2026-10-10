@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5a11401709a345e29a02186376d0428c",
+  "context_title": "",
+  "created_at": "20260912T17:59:13.035605Z",
+  "updated_at": "20260912T17:59:24.278443Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e2df7daaa8c74a06a2a7913643cacd51",
+      "query": "",
+      "answer": "This violates content policies.",
+      "created_at": "20260912T17:59:13.639575Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

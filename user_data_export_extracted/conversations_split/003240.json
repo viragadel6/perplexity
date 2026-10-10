@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d786c557eb3940108d2b042c8375c283",
+  "context_title": " Ez mi?  Magyarul ertekeld! OLVASD el line by line end to end de nekem normálisan egyben válaszolj",
+  "created_at": "20260327T12:45:18.881269Z",
+  "updated_at": "20260327T12:45:58.039034Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "adf0fcd2b8424434bae3db46f9b0ad89",
+      "query": " Ez mi?  Magyarul ertekeld! OLVASD el line by line end to end de nekem normálisan egyben válaszolj",
+      "answer": "Az AutoGluon egy nyílt forráskódú, AWS által indított AutoML keretrendszer, ami azt célozza, hogy pár sor kóddal nagyon jó pontosságú gépi tanulási modelleket tudj tanítani képre, szövegre, idősorra és táblázatos adatra.[1][2]\n\n Mi ez röviden?\n\n Python könyvtár, amit pip install autogluonnal fel tudsz tenni, 3.8–3.11es Pythont támogat Linux/Mac/Windows alatt.[2][1]\n A fő szlogenje: „Fast and Accurate ML in 3 Lines of Code”, vagyis pár sorral komplett ML pipelinet kapsz: adatfeldolgozás, modellek kipróbálása, hiperparaméterhangolás, ensembling.[3][1]\n Az AWS ökoszisztémához is jól illeszkedik (pl. SageMaker AutoGluonTabular algoritmus), de teljesen külön és lokálisan is használható.[4]\n\n Fő képességek\n\n Tabuláris adatok: klasszifikáció, regresszió; automatikus feature engineering, modell szelekció (GBM, random forest, neurális hálók, stb.), stacking/ensembling.[5][4]\n Képek és szöveg: AutoGluonMultimodal (AutoMM) multimodális AutoML: képet, szöveget, táblázatot össze tud fogni, és foundation modellek finomhangolását is támogatja pár sor kóddal.[6][2]\n Idősor: idősoros előrejelzésre külön timeseries modulja van, saját pipeline generatorral (MLForecastalapú pipelineokat is használ).[4]\n Hiperparaméteroptimalizáció: automatikus tuning, modellek és konfigurációk intelligens keresése, kfold validáció, ensemblinggel kombinálva.[7][5]\n\n A GitHub repo lényege\n\nA autogluon/autogluon GitHub repó a fő monorepo: itt van a kód, az issuek, PRek, CI workflowk, releaseek.[3]\n A felirat: „Fast and Accurate ML in 3 Lines of Code.”[8][1]\n A workflowk között, amit most látsz (pl. Codespell), főleg minőségbiztosítási futások vannak: helyesírásellenőrzés a kódban, dokumentációban, PReken.   \n A legutóbbi futásokból látszik, hogy aktívan fejlesztik a timeseries és tabulár modulokat (pl. AutoMLPipelineFeatureGenerator hozzáadása, új tabulár modellek: TabPFNv2, Mitra, distillation bugfixek stb.). \n\n Kapcsolódó projekteik\n\nA GitHub org alatt több kiegészítő repo van:[3]\n autogluon-assistant: multiagent rendszer LLMekkel, endtoend multimodális ML automatizálásra.[3]\n autogluon-cloud: tréning/finetuning/deploy AutoGluon modellek felhőben, MLOps részletek elrejtve (erőforráskezelés, inferencia).[3]\n autogluon-rag: RAG pipeline „3 sor kóddal” LLMekhez.[3]\n\n Mire jó neked gyakorlatban?\n\n Ha gyorsan akarsz baselinet vagy erős modellt tabuláris adatra (pl. üzleti predikciók, fraud detection, scoring), akkor AutoGluonTabular nagyon jó kiindulás.[5][4]\n Ha multimodális (kép+szöveg+tabuláris) feladatod van, az AutoMM sok mindent automatizál (preprocessing, data split, augmen­táció, modellválasztás, finetuning).[6][2]\n Ha nem akarsz minden modellt egyenként kézzel hangolni, de szeretnél ensemblinget, hyperparameter searchöt és modern modelleket, ez a keretrendszer azt csomagban adja.[7][5]\n\nHa szeretnél, tudok egy rövid, konkrét Python példát írni tabuláris vagy multimodális használatra is.",
+      "created_at": "20260327T12:45:19.563100Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

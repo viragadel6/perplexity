@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e15744fdb6c945cbaca545c57bbbcf20",
+  "context_title": "február 8 csillagjegy",
+  "created_at": "20251025T18:27:46.887646Z",
+  "updated_at": "20251025T18:27:46.887646Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "df34df4a44db4b6191fe03d4fbc08fdc",
+      "query": "február 8 csillagjegy",
+      "answer": "Február 8. csillagjegye a Vízöntő.[1][9]\n\nA Vízöntő időszaka a források szerint nagyjából január 21. és február 18–20. közé esik, ezért a 02.08. biztosan Vízöntő.[3][6][9]",
+      "created_at": "20251025T18:27:46.970707Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

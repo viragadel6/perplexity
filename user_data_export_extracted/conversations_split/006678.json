@@ -1,0 +1,19 @@
+{
+  "context_uuid": "04b9c9eb809c407ea24bb872bbe793c5",
+  "context_title": "a filmekbe regen hova adtak be a szulok a lanyaikat hogy bent lakasosak legyenek es apacak?",
+  "created_at": "20251104T16:30:47.527465Z",
+  "updated_at": "20251104T16:30:47.527465Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3f69e1e3a9b540f8a972a251a6083b66",
+      "query": "a filmekbe regen hova adtak be a szulok a lanyaikat hogy bent lakasosak legyenek es apacak?",
+      "answer": "Röviden: zárdába (apácazárdába) adták be a lányokat, vagyis kolostori leánynevelő intézetbe; ha kifejezetten szerzetesnőnek készültek, a noviciátusba (jelöltség) léptek.  \n\nGyakori elnevezések: zárda, apácazárda, zárdaiskola, leánynevelő intézet, kolostori internátus, illetve konvent; a szerzetesi képzés korai szakasza a noviciátus.",
+      "created_at": "20251104T16:30:47.645713Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

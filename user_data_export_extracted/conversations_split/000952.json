@@ -1,0 +1,28 @@
+{
+  "context_uuid": "45fe5ffaca904bf58fe7d5a6da9b3ffe",
+  "context_title": "jade vs naomi wrestlemania este 1 vagy 2 n volt?",
+  "created_at": "20260819T12:20:41.289716Z",
+  "updated_at": "20260819T12:20:58.167025Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8bff96a4b6aa493684e816fb6fbc3279",
+      "query": "jade vs naomi wrestlemania este 1 vagy 2 n volt?",
+      "answer": "A Jade Cargill vs. Naomi meccs a WrestleMania 41 1. estjén (Night 1 / szombat) volt. Jade nyert Naomi ellen a Jaded finisherrel.[1][2]\n\nHa a WrestleMania 40es közös meccsükre gondoltál: Jade, Naomi és Bianca Belair is Night 1en birkózott a Damage CTRL ellen.[3]",
+      "created_at": "20260819T12:20:41.334543Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "fc081dfdf4cb440fb808be8a33642bbc",
+      "query": "41 re",
+      "answer": "Igen, a WrestleMania 41re: Jade Cargill és Naomi meccse az 1. estén, vagyis szombaton volt. Jade Cargill nyert.[1][2]",
+      "created_at": "20260819T12:20:56.509285Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

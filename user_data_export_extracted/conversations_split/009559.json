@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8aa3b7b86ea54a41b01f8a82f2cd7a58",
+  "context_title": "echance it more colorful light, userfriendly easy useable topegrafia",
+  "created_at": "20250713T00:22:53.602779Z",
+  "updated_at": "20250713T00:22:53.602779Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9c8e989e2f874e65b586285501581946",
+      "query": "echance it more colorful light, userfriendly easy useable topegrafia",
+      "answer": "Image generated: 'Színes, felhasználóbarát topográfiai térkép modern stílusban, könnyen olvasható feliratokkal.'",
+      "created_at": "20250713T00:22:53.630244Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "context_uuid": "20f197b19a824f2b9cdc31f6dd3f5cbd",
+  "context_title": "Paygate.to osszes dokumentacios linkjet kuld el egyedi kodolasu appba integralasrol",
+  "created_at": "20250723T12:41:24.282976Z",
+  "updated_at": "20250723T13:38:05.267383Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f2e4b8ac0ee24be2837b63d3ae72c983",
+      "query": "Paygate.to osszes dokumentacios linkjet kuld el egyedi kodolasu appba integralasrol",
+      "answer": " PayGate.to – Egyedi Kód Integrációs Dokumentációk és Linkek\n\nAz alábbiakban megtalálod a PayGate.to összes lényeges dokumentációs és fejlesztői integrációs linkjét, amelyek egyedi fejlesztésű alkalmazásba való beépítéshez szükségesek.\n\n 1. Alap API és Fejlesztői Dokumentáció\n\n Fő Információs oldal:  \n  [1]\n\n API dokumentáció (Instant Payment Gateway):  \n  [2]  \n  Ez az oldal tartalmazza az API integráció részleteit, valamint letölthetőek innen a különböző platformokhoz tartozó pluginok és a teljes API dokumentáció.\n\n WooCommerce Redirect Plugin doksi (egyedi kódhoz REST API):  \n  [3]\n\n Whitelabel API Custom Domain Guide:  \n  [4]  \n  Itt található lépésről lépésre, hogyan használhatsz saját domaint az API elérésre.\n\n 2. Plugin és Modul Integrációk\n\n WooCommerce Instant Payment Gateway plugin:  \n  [5]\n\n WHMCS Instant Payment Gateway plugin:  \n  Elérhető a fő plugin letöltési oldalról: [2]\n\n 3. Nyílt forráskód – GitHub\n\n PayGate.to hivatalos GitHub repositoryk:  \n  [6]\n\n  Itt találhatók:\n   Whitelabel API forráskód\n   WooCommerce pluginok\n   Modulok egyedi integrációkhoz\n\n 4. Hasznos Segédletek és Gyakran Ismételt Kérdések\n\n GYIK (FAQ):  \n  [7]\n\n Általános tájékoztató/kérdések:  \n  [8]\n\n 5. Egyéb Fejlesztői Oldalak\n\n Payment link generátor:  \n  [9]\n\n Megjegyzés integrátoroknak\n\n A pluginok mellett közvetlen API integráció is elérhető, minden dokumentáció oldalon külön kiemelve.  \n A GitHub repositoryk segítenek egyedi igény esetén a saját integrációs kód adaptálásában vagy módosításában is.\n\nTipp: Ha egyedi kódba, nem szabványos CMSbe szeretnéd beépíteni a PayGate.tot, először az API dokumentációt, majd a whitelabel vagy plugin példákat érdemes átnézned. A GitHub példatárakban minden nyíltan elérhető.\n\nHa további dokumentációra van szükséged, javasolt a főoldal vagy az aktuális fejlesztői szekciók használata, illetve közvetlenül a GitHub repok böngészése.",
+      "created_at": "20250723T12:41:24.555046Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6a3b8ad687fe4783849af9ea58652177",
+      "query": "Paygate.to alternativak",
+      "answer": " PayGate.to Alternatívák\n\nHa PayGate.to helyett más fizetési átjárót keresel, rengeteg lehetőség áll rendelkezésre – különösen azok számára, akik highrisk, nemzetközi vagy alternatív iparági igényekkel foglalkoznak. Az alábbiakban összegyűjtöttem a legnépszerűbb alternatívákat:\n\n Általános és HighRisk Payment Gateway Alternatívák\n\n| Szolgáltató           | Fő Szolgáltatás/Előnyök                                     | Megjegyzés                      |\n||||\n| PayPal Payments   | Nemzetközi elfogadás, egyszerű integráció                  | Legnépszerűbb általános választás[1][2][3] |\n| Stripe            | Modern API, fejlesztőbarát, széles fizetési módok           | Highrisk szektorban is elérhető[1][4] |\n| Payoneer          | Határokon átnyúló fizetések, devizaváltás                   | Különösen globális ecommerce[1][4] |\n| GoCardless        | Ismétlődő fizetések, automatizált SEPAinkasszó             | Előfizetéses modellekhez[1]     |\n| Authorize.net     | Bankkártyás és eCheck elfogadás                             | Népszerű a fizikai és online boltokban is[4][5] |\n| Square POS        | Komplett POS rendszer, mobil fizetés, riportok              | Kiemelten egyszerű használat[2][6][3] |\n| Venmo             | Mobilfizetés, fiatal korosztály célzása                     | USA piacra fókuszált[2][4][3] |\n| Shopify Payments  | Webshopba integrált, egyszerű indítás                       | Shopify rendszerekhez ajánlott[2][3][7] |\n| SagePay           | Európai piac, erős biztonság, többféle fizetési mód         | Highrisk kereskedőknek is[5]  |\n| PaymentCloud      | Kifejezetten highrisk szektor    | Gyors jóváhagyás, széles körű támogatás[8] |\n| Durango Merchant Services | Highrisk specialist, kriptós elfogadás is           | Nemzetközi és kockázatos iparágakhoz[8] |\n| NOWPayments       | Kriptós fizetések, könnyű APIintegráció                    | Highrisk, highvolume vállalkozásoknak[8] |\n| Peach Payments    | Online fizetési feldolgozás Afrikában                       | Főleg délafrikai piac[9]      |\n| PayKings          | Magas kockázati kategória, PCI DSS szintű védelmek          | Adult, vape, szerencsejáték stb.[5] |\n| SMB Global        | Személyre szabott highrisk megoldások                      | Nemzetközi szerződések, alacsony díjak[8] |\n\n Európai és egyéb alternatívák\n\n SaltPay: Komplex POS megoldások, gyors elszámolás, többféle integráció[10].\n MyPOS Connect: Bankkártyás fizetés és POS rendszer, fejlett riportok[6][10].\n Corefy: Highrisk és nemzetközi online fizetési igényekhez[11].\n\n Szektor és speciális megoldások\n\n WebPAYS: Európai highrisk szolgáltató, többféle integrációval[12].\n BIG FISH Payment Gateway: Magyar, főleg beépíthető online átutalás/fizetés[13].\n\n Választási szempontok\n\n Highrisk iparágak: Kiemelten fontos, hogy a szolgáltató támogatjae a számodra releváns (kockázatosnak minősített) iparágakat.\n Nemzetközi fizetések: Devizaváltás, több ország támogatása.\n API kiszolgálás: Ha egyedi fejlesztésű rendszerbe integrálnád, érdemes az API dokumentáció elérhetőségét ellenőrizni.\n\nAz itt felsorolt alternatívák közül a PayPal, Stripe, Payoneer, PaymentCloud, NOWPayments és Durango Merchant Services jelenleg a legnépszerűbbek olyan cégeknek, ahol a szokásostól eltérő, nagyobb kockázatot hordozó szektorokban van szükség online fizetési megoldásra[1][2][4][5][8][10][11].",
+      "created_at": "20250723T12:42:52.400160Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "178236baa7c34268b61a4ba652b06f01",
+      "query": "Sorold fel a paygate funkciot egy mondatban",
+      "answer": "A PayGate.to fő funkciója, hogy lehetővé teszi highrisk vállalkozások számára a gyors és anonim online fizetések fogadását Visa, Mastercard, Amex, Google Pay, Apple Pay és kriptovaluták (pl. Bitcoin, USDC) használatával, azonnali kifizetéssel, visszaterhelés és regisztráció nélkül, fejlesztőbarát APIval és számos integrációs lehetőséggel bármilyen weboldal vagy alkalmazás számára[1].",
+      "created_at": "20250723T13:35:51.228991Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "b76b206b22914fad8bb9a064bff6c853",
+      "query": "De csak a funkciokat",
+      "answer": " PayGate.to fő funkciói\n\n Gyors, azonnali fizetésfogadás (bankkártya: Visa, Mastercard, Amex, Google Pay, Apple Pay)\n Highrisk szektorok támogatása és anonim kereskedői fiók (nincs regisztráció, nincs KYB)\n Kriptovalutás fizetésfogadás (Bitcoin, ETH, USDC, USDT, stb.)\n Azonnali kifizetés kriptóban vagy USDCben saját tárcára\n Visszaterhelésmentesség (chargeback protection, minden tranzakció végleges)\n Fejlesztőbarát API és egyszerű beépíthetőség bármilyen weboldalba, alkalmazásba\n Több WooCommerce és WHMCS integráció, pluginok és REST API\n Tranzakciók átirányítása saját — vagy másik — WooCommerce oldalra fizetéshez\n Automatikus összegkalkuláció és fizetési státusz szinkronizálás több weboldal közt\n 24/7 chat támogatás\n Egyedi whitelabel beállítási lehetőségek (saját domain, egyéni branding)\n Minden jelentős bankkártya és kriptovaluta elfogadásának lehetősége világszerte  \n[1][2][3][4]",
+      "created_at": "20250723T13:37:25.443984Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "5370d131c7fe4fba9a792849b1bafc25",
+      "query": "EGY MONDATBA LENYEGET",
+      "answer": "A PayGate.to fő funkciója, hogy regisztráció és ellenőrzés nélkül, bankkártyával és kriptovalutákkal is azonnali, visszavonhatatlan online fizetések fogadását teszi lehetővé highrisk vállalkozások számára, az összeg közvetlenül a saját tárcába kerül minden tranzakciónál[5][12].",
+      "created_at": "20250723T13:37:57.071233Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "1740a8a79e384e76a182d1e577dcb9dc",
+  "context_title": "platform.parallelt integralom majd az appomba a deepresearch ultra x8 rol az ÖSSZES DOCST KULD EL DIREKR LINKEKET",
+  "created_at": "20251221T14:02:29.975560Z",
+  "updated_at": "20251221T14:06:17.210273Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6a925d2248834076b7e807b3ffcb4ef9",
+      "query": "platform.parallelt integralom majd az appomba a deepresearch ultra x8 rol az ÖSSZES DOCST KULD EL DIREKR LINKEKET",
+      "answer": "A Perplexity Deep Research API‑hoz a hivatalos dokumentációban „Sonar Deep Research” néven találsz mindent; külön „Deep Research Ultra x8” nevű hivatalos termékdoksit nem publikálnak, ez valószínűleg egy csomag / tier elnevezés valamelyik szolgáltatónál.[1][2]\n\nAz alábbiak a legfontosabb, közvetlen doksi‑linkek, amiket érdemes beépítés előtt végignézned:\n\n Fő API és modell doksik\n\n API áttekintés (entry point):  \n  \n API platform landing (pricing, regisztráció, kulcs):  \n  \n Sonar Deep Research modell leírás (ez a Deep Research agent/API):  \n  \n Sonar Pro (erősebb keresőmodell, ha nem kell full agentes deep research):  \n  \n Sonar alapmodell (gyors, olcsó keresés/Q&A):  \n  \n\n Keresés / Deep Research workflow doksik\n\n Search API quickstart (web‑search + rangsorolt találatok, jó, ha magad építed a „deep research” logikát):  \n  \n Pro / Deep research jellegű workflow‑quickstart (hogyan válassz gyors keresés vs mély kutatás között):  \n  \n API Cookbook (rengeteg gyakorlati példa, több‑lépéses kutatás, reasoning, stb.):  \n  \n\n Deep Research koncepció / működés\n\n „What is Research mode?” (hogyan működik a Deep Research UI‑ban, de a háttérlogika API‑nál is ugyanez):  \n  \n „How does Perplexity work?” (Search, Research, Labs összkép, Deep Research viselkedés):  \n  \n Blog: Introducing Perplexity Deep Research (architektúra, use case‑ek):  \n  \n Blog: Introducing the Perplexity Search API (ha a saját „Ultra x8” workflow‑dat a Search API‑ra akarod építeni):  \n  \n\n Kódpéldák és integráció\n\n Hivatalos API Cookbook GitHub repo (példák, integrációk, best practice):  \n  \n\n Mi lehet a „Deep Research Ultra x8”?\n\nA hivatalos Perplexity dokumentációban ilyen néven nem szerepel termék vagy modell; ott „Sonar Deep Research” a mély kutatásra optimalizált modell neve.[1][2]\nAz „Ultra x8” tipikusan valamilyen csomag / concurrency tier / multiplikátor elnevezése egy köztes szolgáltatónál (pl. aggregator, hosting provider), ezért az arra vonatkozó limit‑ és ár‑infókat annál a szolgáltatónál kell megnézni, nem a Perplexity docsban.[15][1]\n\nHa megírod, pontosan melyik provider vagy dashboard írja, hogy „Deep Research Ultra x8”, tudok segíteni célzottabban, hogy ott melyik API‑doksikat kell hozzá megnézned, és hogyan érdemes párhuzamosítanod a hívásokat a saját appodon belül.",
+      "created_at": "20251221T14:02:30.144236Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f5524f0e00904a9db94475634b83a231",
+      "query": "ki a gecim irt jekef perplexityt?",
+      "answer": "A Perplexityt (a céget és a terméket) nem egy ember “írta”, hanem egy alapító csapat hozta létre: Aravind Srinivas, Denis Yarats, Johnny Ho és Andy Konwinski alapították 2022ben.[1][2]\n\n Kik az alapítók\n Aravind Srinivas (CEO, társalapító).[2]\n Denis Yarats (CTO, társalapító).[2]\n Johnny Ho (CSO, társalapító).[2]\n Andy Konwinski (elnök/board, társalapító).[2]\n\n Mit jelent ez a gyakorlatban\nA “Perplexity” mint szolgáltatás több komponensből áll (kereső + LLMek + infrastruktúra), ezért nincs egyetlen “szerző”, hanem egy csapat és a későbbi mérnökök sokasága építi.[2]\n\nHa azt kérdezed, hogy konkrétan a “Deep Research” featuret ki csinálta: a publikus források jellemzően a cég szintjén hivatkoznak rá, nem egyetlen fejlesztőre név szerint.[3]",
+      "created_at": "20251221T14:05:34.756869Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

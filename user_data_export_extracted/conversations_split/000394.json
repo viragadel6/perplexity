@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7df12aac06714d0eb4930fe7c8bdee2c",
+  "context_title": "Searching /nix/store for \"stable25_05\\|nim2\\|Nim Compiler Version\"",
+  "created_at": "20260913T17:34:50.911487Z",
+  "updated_at": "20260913T17:41:17.089343Z",
+  "mode": "COPILOT",
+  "collection_uuid": "dd89b627d2a24c64993e4a84d51e7774",
+  "entries": [
+    {
+      "entry_uuid": "ec6676ed66984d23b3fcf451c2d4f57e",
+      "query": "Searching /nix/store for \"stable25_05\\|nim2\\|Nim Compiler Version\"",
+      "answer": "toml\nrun = [\"bash\", \"-lc\", \"find /nix/store -maxdepth 1 \\\\( -name '*stable-25_05*' -o -name '*nim-2*' \\\\) -print; grep -RIl --binary-files=without-match 'Nim Compiler Version' /nix/store 2>/dev/null\"]\n\n[nix]\nchannel = \"stable-25_05\"\n\n[agent]\nexpertMode = true\n\n\nnix\n{ pkgs }: {\n  deps = [\n    pkgs.bash\n    pkgs.findutils\n    pkgs.gnugrep\n    pkgs.nim\n  ];\n}\n",
+      "created_at": "20260913T17:34:51.028363Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

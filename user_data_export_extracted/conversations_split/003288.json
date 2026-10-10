@@ -1,0 +1,19 @@
+{
+  "context_uuid": "beb9def677a649b5b11a3ea025307490",
+  "context_title": " Ez mi? Magyarul értékeld! Olvasd el teljesen!",
+  "created_at": "20260324T22:13:13.115770Z",
+  "updated_at": "20260324T22:20:41.687420Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4ec3613c794f425e919f06674e268725",
+      "query": " Ez mi? Magyarul értékeld! Olvasd el teljesen!",
+      "answer": "Sajnos a megadott GitHub repository (https://github.com/kollarjade/nasty) nem volt elérhető az eszközeim számára – sem a közvetlen oldallekérés, sem a nyers tartalom (README.md) lekérése nem sikerült, és a webes keresés sem talált rá semmilyen releváns eredményt.\n\n Lehetséges okok\n\nEz több okból is előfordulhat. Az egyik lehetséges magyarázat, hogy a repository privát (azaz csak bejelentkezett, jogosult GitHubfelhasználók láthatják), így nyilvánosan nem hozzáférhető. Egy másik lehetőség, hogy a repository időközben törölték, vagy a megadott URL nem pontos – elütés, kis és nagybetű különbség, vagy megszűnt felhasználói fiók is okozhat ilyen hibát.[1]\n\n Mit tehetsz?\n\nHa biztosan létezőnek gondolod a repót, először is ellenőrizd, hogy be vagye jelentkezve a GitHubon, és hogy rendelkezele hozzáféréssel, amennyiben privát projektről van szó. Ha nyilvánosan elérhetőnek kellene lennie, másold be a README tartalmát vagy a releváns kódrészleteket ide közvetlenül, és szívesen elvégzem az értékelést! Ha szeretnél, illeszd be a repository tartalmát (README, kódok, fájlok), és azonnal részletes, magyar nyelvű elemzést adok róla.",
+      "created_at": "20260324T22:13:13.743461Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

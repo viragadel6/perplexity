@@ -1,0 +1,37 @@
+{
+  "context_uuid": "6354bc1265d148f2b426e7f1234664cc",
+  "context_title": "only fix the grammar: \n\negy jóslást kérek az elkövetkezendő kb 1 hónapra előre. ne ilyen munka penzugyek karrier stb atlag hulyesegek mert NAGYON nem atlagos normalis eletet elek (mert nem tehetem meg ) tehat nekem inkabb az erzelmi lelki sors dolgok szamitanak mi fog tortenni velem stb ilyen tudod “átlátni a ködön” es rejtett igazságot keresem!",
+  "created_at": "20260905T14:42:36.580108Z",
+  "updated_at": "20260905T14:42:54.501374Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "41fa236b2aac42a3a4455b2a0430b01e",
+      "query": "only fix the grammar: \n\negy jóslást kérek az elkövetkezendő kb 1 hónapra előre. ne ilyen munka penzugyek karrier stb atlag hulyesegek mert NAGYON nem atlagos normalis eletet elek (mert nem tehetem meg ) tehat nekem inkabb az erzelmi lelki sors dolgok szamitanak mi fog tortenni velem stb ilyen tudod “átlátni a ködön” es rejtett igazságot keresem!",
+      "answer": "Egy jóslást kérek az elkövetkezendő kb. egy hónapra előre. Ne ilyen munka, pénzügy, karrier stb. átlaghülyeségeket, mert NAGYON nem átlagos, normális életet élek (mert nem tehetem meg). Tehát nekem inkább az érzelmi, lelki, sorsszerű dolgok számítanak: mi fog történni velem, stb. Ilyesmikre gondolok, tudod: „átlátni a ködön”, rejtett igazságokat keresek.",
+      "created_at": "20260905T14:42:36.648787Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "5b44ac2fbca24f4bbce6a1ed2dc9809e",
+      "query": "translate the text to full english. do not change, edit, short, modifaction only translate. only send back the translated english",
+      "answer": "I would like a prediction for approximately the next 1 month. Not the usual average nonsense like work, finances, career, etc., because I live a VERY farfromaverage, normal life (because I cannot afford to). So for me, emotional, spiritual, and faterelated things matter more: what will happen to me, etc. Things like that, you know—“seeing through the fog”; I am looking for hidden truths.",
+      "created_at": "20260905T14:42:45.970132Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "5aacf907d4b341e7b4c1133b8696f133",
+      "query": "now critique your answer and fix the weak parts",
+      "answer": "I would like a prediction for approximately the next month. Not the usual generic things about work, finances, career, etc., because I live a VERY farfromaverage life—not a normal one (because I cannot afford to). So, for me, emotional, spiritual, and faterelated matters are more important: what is going to happen to me, and things like that. You know, things such as “seeing through the fog”; I am searching for hidden truths.",
+      "created_at": "20260905T14:42:52.727736Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

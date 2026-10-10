@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5b8934dbaec3434c8faf1f08b62e5fd3",
+  "context_title": "hibak?",
+  "created_at": "20250722T23:30:11.566268Z",
+  "updated_at": "20250722T23:30:11.566268Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "efce5f5eec9b41ea86b3acfdaae193f5",
+      "query": "hibak?",
+      "answer": "Átnéztem a csatolt main-2.py (backend, FastAPI) és index-3.html (frontend) fájlokat.\n\nLényeges hibák a kódban:\n\n 1. Python (main2.py)\n Syntax error a kódtörések miatt: A kódrészletek között sok helyen ... karakterek láthatók (... def ..., stb.). Ezek nem érvényes Python szintaxis részei – valószínűleg csak a kimásolt szöveg elválasztójai, de valódi kódban hibát okoznak.  \n  Javítás: Távolítsd el a ... karaktereket a kódban, minden függvény normális deklarációval kezdődjön (pl.  \n  python\n  def _init_master_database(self):\n      ...\n  \n  és ne legyen előtte \"...\" sor).\n\n A Python fájl teljes egésze jelen van?: Úgy tűnik, hogy a kódrészletben egyes függvények félbeszakadnak. Ellenőrizd, hogy a lementett .py fájl nem sérülte, vagy hiányzike belőle rész.\n\n Relative/absolute path a static fájlokhoz:  \n  python\n  @app.get(\"/\")\n  async def home():\n      return HTMLResponse(open(\"index.html\", \"r\", encoding=\"utf-8\").read())\n  \n  Ez akkor hibát dobhat, ha az index.html nincs ugyanabban a mappában, ahol a szerver indul.  \n  Javítás: használj abszolút elérési utat, vagy helyezd az index.htmlt a backend mellé.\n\n Port ütközés:  \n  A fő blokkban:  \n  python\n  uvicorn.run(app, host=\"0.0.0.0\", port=5000)\n  \n  A frontend szkriptekben is /api/master szerepel, vagyis minden egy porton keresztül fut – ez ok, csak fontos, hogy ne legyen más processz ugyanazon a porton.\n\n SQLite konkurens írás:  \n  Ha egyszerre több kérés jön, a memória/DB írásnál lehet \"database is locked\" hiba.  \n  Javítás: használj egyetlen szálat az íráshoz, vagy használj modern ORMet/fiókot, vagy engedélyezd a  módot.\n\n 2. Frontend (index3.html)\n API hívás relatív útvonalon  \n  Ha a frontend külön webszerveren fut (nem a FastAPIval szolgálod ki), akkor a /api/master nem feltétlen elérhető.  \n  Javítás: Használd ugyanazt a szervert a kiszolgáláshoz; vagy állítsd át a fetch hivatkozásokat teljes URLre vagy relatívra a futtatási beállítást követve.\n\n Haladó beállítások select érték  \n  js\n  const advancedOptions = JSON.parse(document.getElementById('advancedOptions').value);\n  \n  Ha a select value nem helyes JSON string, ez hibát dobhat. Ellenőrizni kell(ene), hogy minden value tényleg helyes JSON (pl. {\"high_precision\": true} ilyen, de a {} lehet nem mindig működik, vagy accidental whitespace belekerül).\n\n Belépéssel Enter  \n  Csak ctrl+enterre történik a küldés, ezért a kezdő felhasználók lehet nem jönnek rá.\n\n 3. Általános javaslatok\n Az AI kód nem dob kivételeket explicit hibás inputra, validációt érdemes bevezetni.\n Az adatbázishoz (SQLite) íráskor elkapott hiba csak logger.warning – ez jó, de ha gyakran előfordul, jelezni a frontendnek is lehetne.\n\n Összegzés\n\n Konkrét hibák (összegyűjtve):\n Szintaxis hibák: ... def → töröld ki a \"...\" sorokat, csak a függvénydefiníció maradjon!\n Hiányzó vagy nem jó helyen lévő index.html → hibát dobhat a főoldal.\n Előfordulhat \"database is locked\" SQLite íráskor.\n Haladó beállítások JSON feldolgozásnál lehet kivétel.\n Ha a frontend nem FastAPIn keresztül fut, nem találja meg az API hívásokat.\n Az összes API végpont csak a backend portján keresztül működik, ügyelj, hogy ott fusson.\n\n Ha konkrét Python tracebacket vagy böngésző hibát kapsz, írd meg, és részleteiben segítek!\n\nSzükség esetén szívesen átnézem a módosított vagy teljes kódot újra.",
+      "created_at": "20250722T23:30:12.688620Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

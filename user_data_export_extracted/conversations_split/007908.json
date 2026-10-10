@@ -1,0 +1,64 @@
+{
+  "context_uuid": "5084687ffb274dc8b605321ee9886626",
+  "context_title": "8× B200‑al a Modal Notebook összes dokumentacio direkt link",
+  "created_at": "20251007T05:32:47.691704Z",
+  "updated_at": "20251007T05:54:59.262358Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f05c473e55994e378072da2033839a31",
+      "query": "8× B200‑al a Modal Notebook összes dokumentacio direkt link",
+      "answer": "Itt vannak a Modal Notebooks hivatalos dokumentációjának közvetlen linkjei, 8× B200 GPU támogatásról is szóló oldalakkal együtt.[1][2][3]\n\n Fő dokumentáció\n Modal Notebooks | Modal Docs: részletes útmutató a notebookok használatához, GPU‑választással, erőforrás‑beállításokkal, megosztással, volume‑okkal és secretekkel [3].\n\n Bejelentés és áttekintés\n Introducing Notebooks | Modal Blog: általános ismertető a funkciókról (gyors indítás, kollaboráció, volume/secrets, AI kiegészítés), H100/B200 GPU‑k és akár 8 GPU‑s profil említésével [1].  \n Introducing: Modal Notebooks | YouTube: rövid videó, amely kimondottan említi a B200 és H100 GPU‑kat és a gyors indulást [2].",
+      "created_at": "20251007T05:32:47.900500Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "08b3282baf9f4eed906c59d428314225",
+      "query": "MONDOM DIREKT LINK AZ OSSZES DOCSHOZ",
+      "answer": "Itt vannak a Modal Notebooks dokumentációhoz vezető közvetlen linkek – minden releváns “Docs” oldal egyben, közvetlen URLlel.[1][2][3]\n\n Notebooks alapoldal\n Modal Notebooks | Modal Docs:  [1]\n\n Kapcsolódó notebooksoldalak\n Jupyter notebooks (általános használat Modalban): \n Jupyter notebook futtatása Sandboxban példa: ",
+      "created_at": "20251007T05:52:18.785494Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "ed18442ca07e4c9db6840b222b5068ae",
+      "query": "De az osszeset minden aloldal stb",
+      "answer": "Rendben — itt a Modal Notebooks teljes dokumentációs „univerzuma” direkt linkekkel, az összes releváns docsoldallal és kapcsolódó fejezetekkel, hogy mindent egy helyen elérhető legyen.[1][2][3]\n\n Notebooks főoldal\n Modal Notebooks | Modal Docs:  [1]\n\n Jupyter a Modalon\n Jupyter notebooks (általános útmutató): \n Jupyter notebook Sandboxban (példa): \n\n Kapcsolódó funkciók és integrációk\n Tunnels (böngészős appok, notebookok publikálása): \n Sandboxes (interaktív környezetek, notebookszerű futtatás): \n Fájlrendszerhozzáférés a Sandboxban: \n Helyi adatok átadása (local → Modal): \n Nagy adatkészletek bekebelezése: \n LLM‑ekkel való fejlesztés (AI kiegészítés, kódgenerálás): \n Fejlesztés és hibakeresés a felhőben: \n Globális változók és környezet: \n Aszinkron API használat: \n Service Users (programozott fiókok): \n\n Gyors kezdés és példák, amelyek notebookkal jól kombinálhatók\n Hello, world! tutorial: \n Jupyter Sandbox példa (ismét, közvetlenül projektként): \n Állapotos kód‑interpreter Sandboxban: \n ESM3 protein‑folding dashboard példa: \n GRPO/verl tréning példa: \n Dokumentum OCR job queue példa: \n Weaviate + beágyazások példa: \n\n Átfogó dokumentáció belépő\n Modal Docs kezdőlap (navigáció minden fejezethez): ",
+      "created_at": "20251007T05:52:51.583309Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "9b1176ef3c2e4ec4a04b530e53269f95",
+      "query": "Mast ne irj csak osszes link",
+      "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "created_at": "20251007T05:53:18.962854Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6a6086bec1564c5faca2dc86a1d54575",
+      "query": "De a notebook",
+      "answer": "\n\n\n\n\n\n\n\n",
+      "created_at": "20251007T05:53:39.719488Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "329852397d6c46a0b0a86062ce3f857b",
+      "query": "Indítsd el a Modal Notebookot a kívánt GPU konfigurációval",
+      "answer": "Íme a leggyorsabb mód a Modal Notebook indítására kiválasztott GPU‑val, akár 8× B200 konfigurációval is.[1][2][3][4]\n\n UIben (Notebook oldalsáv)\n Nyiss egy Notebookot, majd a jobb oldali Kernel beállításoknál állítható a GPU típus és darabszám; választható például B200, és beállítható 8 GPU is.[2]\n A Modal támogatja a B200‑at, és a GPU darabszámot a rendszer akár 8‑ig engedi a támogatott típusoknál.[1]\n\n Parancssorral (programozott indítás)\n GPU típus megadása funkción: @app.function(gpu=\"B200\") B200‑hoz; darabszám: @app.function(gpu=\"B200:8\") 8 GPU‑hoz.[1]\n A GPU rövidkódokat stringben érdemes használni; a régi modal.gpu.* API továbbra is működik, de elavulóban van.[3]\n\n Gyors notebook start példa\n Blog szerinti notebook indítás gyors GPU‑val lehetséges, és a Notebooks termék támogatja a H100/B200 profilokat akár 8 GPU‑val is; a kernel váltása másodpercek kérdése.[4]",
+      "created_at": "20251007T05:54:46.753475Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

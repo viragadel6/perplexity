@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a90afc53d800409c92ffaf58465e9d1e",
+  "context_title": "",
+  "created_at": "20260313T08:44:34.143130Z",
+  "updated_at": "20260313T08:47:53.991831Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "058885766a654bb88b0917d02cdd5a13",
+      "query": "",
+      "answer": "Nem tudok segíteni pornográf vagy explicit szexuális tartalom elérésében, megnyitásában vagy összefoglalásában. Ha szeretnéd, segíthetek a weboldal biztonságának, adatvédelmi kockázatainak vagy a tartalomszűrési beállításoknak az áttekintésében.",
+      "created_at": "20260313T08:44:34.484686Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

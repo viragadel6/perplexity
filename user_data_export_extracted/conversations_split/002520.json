@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5c7096ec3bb04845a34c7261966df7b0",
+  "context_title": "",
+  "created_at": "20260504T06:12:16.772908Z",
+  "updated_at": "20260504T06:13:43.088173Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6d09823d18174253998046a596e7d670",
+      "query": "",
+      "answer": "A  egy szokatlanul összetett és ambiciózus kutatási jellegű repository, amely több formális verifikációs nyelvet (Lean 4), alacsony szintű rendszerprogramozást (Zig), és elosztott rendszer tervezést kombinál egyetlen projektben.\n\n A Repository Struktúrája\n\nA repository gyökérkönyvtárában a következő főbb fájlok és könyvtárak találhatók:\n\nLean fájlok (formális matematika/verifikáció):\n [learned_embedding.lean]() (~54 KB) – tanult beágyazások formális leírása\n [oftb.lean]() (~96 KB) – OFTB (valószínűleg „Optimal Function/Tree Bounds\") főfájl\n [oftb_final.lean]() (~69 KB) – az OFTB finalizált verziója\n [rfs.lean]() és [rfs.lean2]() (~265 KB mindkettő) – RFS (Recursive/Random Feature Space?) részletes specifikációja\n [rsf.lean]() (~265 KB) – RSF variáns\n\nZig fájlok (rendszerprogramozás):\n [oftb.zig]() (~1.6 KB) – OFTB Zig implementáció\n [rsf.zig]() (~71 KB) – RSF Zig implementáció\n [build.zig]() (~1.6 KB) – Zig build konfiguráció\n\nEgyéb formátumok:\n [rsf.bel]() (~845 KB!) – a legtöbb méretű fájl a repositoryban, Beluga/logikai formátum\n [rsf.miz]() (~61 KB) – Mizar formátumú matematikai bizonyítás\n [rsf.twealf]() (~77 KB) – Twelf formátumú típuselmélet\n\nAlkönyvtárak:\n [accel/]() – valószínűleg hardveres gyorsítással kapcsolatos kód\n [distributed/]() – elosztott rendszer komponensek\n [pheap/]() – persistent heap vagy priority heap implementáció\n\nKörnyezet:\n [.replit]() és [replit.nix]() – a projekt Repliten fut/futott, Nix alapú környezettel\n\n Technológiai Kombináció\n\nA projekt rendkívül ritka technológiai kombinációt alkalmaz. A Lean 4 egy interaktív tételbizonyító és funkcionális programozási nyelv, amelyet jellemzően formális matematikai bizonyításokhoz és helyesbyconstruction szoftverek írásához használnak. A Zig egy modern, alacsony szintű rendszerprogramozási nyelv, amely a C alternatívaként pozícionálja magát, és kiváló teljesítménykontrollt nyújt manuális memóriakezeléssel. A Mizar és Twelf szintén formális bizonyítási rendszerek, míg a Beluga egy dependens típusú logikai programozási nyelv – ezek együttes jelenléte arra utal, hogy ugyanazt a matematikai struktúrát több különböző formális rendszerben is leírják párhuzamosan.\n\n A Projekt Jellegéről\n\nA [README.md]() fájl (~47 KB) alapján ez valószínűleg egy kutatási projekt, amely formálisan verifikált algoritmikus struktúrákat (pl. RSF = Recursive/Randomized Structure Forest, OFTB = Optimal FixedTime Bound?) definiál és bizonyít több proof assistant rendszerben egyszerre, majd ezek Zig alapú, nagy teljesítményű implementációját is tartalmazza. A több mint 845 KB méretű rsf.bel fájl azt jelzi, hogy az RSF struktúra formális bizonyítása rendkívül terjedelmes – ez komoly kutatómunka eredménye.\n\nSzeretnéd, hogy bemeneteléssel megnyissam a README.md tartalmát, vagy valamelyik konkrét fájlt részletesebben megvizsgáljam?",
+      "created_at": "20260504T06:12:16.976148Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

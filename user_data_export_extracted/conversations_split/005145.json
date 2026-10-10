@@ -1,0 +1,37 @@
+{
+  "context_uuid": "99e559410f314eb7acd1661749341da4",
+  "context_title": "glm 4.7 train datasets",
+  "created_at": "20260104T00:33:36.949087Z",
+  "updated_at": "20260104T00:36:06.841226Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "073589185d32459e890daae6ec410907",
+      "query": "glm 4.7 train datasets",
+      "answer": "A GLM‑4.7hez nem található nyilvános, név szerint felsorolt “train dataset” lista a hivatalos GLM‑4.7 dokumentációban vagy a Hugging Face modellkártyán; ezek inkább képességeket és használatot írnak le.[1][2]\nA tréningadatokra vonatkozó, publikus részletek leginkább a GLM‑4.5 technikai anyagaiból következtethetők (a GLM‑4.7 oldala is erre hivatkozik).[2]\n\n Mit közölnek a hivatalos GLM‑4.7 oldalak?\nA Z.AI GLM‑4.7 “Overview” oldala nem ad meg konkrét adatforrásokat vagy datasetneveket, csak a modell jellemzőit és képességterületeit.[1]\nA Hugging Face “zaiorg/GLM‑4.7” oldal szintén benchmarkokat, futtatást és “thinking mode” leírást ad, de nem részletezi tételesen a pretraining dataseteket.[2]\n\n Publikus tréningkorpusz összkép (GLM‑4.5 alapján)\nA GLM‑4.5 arXiv absztraktja “multistage training on 23T tokens” (többlépcsős tanítás 23 trillió tokenen) megfogalmazást használ, ami a korpusz méretére utal, de az absztraktban nincs datasetfelsorolás.[3]\nA Z.ai GLM‑4.5 blogposzt szerint a pretraining két fő blokk: először 15T token egy “general pretraining corpus”ból, majd 7T token egy “code & reasoning corpus”ból.[4]\nUgyanez a poszt azt is írja, hogy a pretraining után további szakaszok jönnek közepes méretű, doménspecifikus adatokkal, amelyek tartalmaznak instruction datat is.[4]\n\n Datasetszintű kategóriák (ami ténylegesen le van írva)\nA publikus leírások alapján a tréningadatok legfeljebb ilyen “kosarakra” bonthatók, konkrét datasetnevek nélkül:[4]\n Általános (general) pretraining korpusz (~15T token).[4]\n Kód + “reasoning” fókuszú korpusz (~7T token).[4]\n Későbbi, doménspecifikus (közepes méretű) adatkészletek, köztük instruction data.[4]\n Posttraining során agentes képességek erősítése (pl. keresésalapú QA szintézis, illetve szoftvermérnöki/SWE jellegű feladatok futtatásalapú visszajelzéssel) a blog leírása szerint.[4]\n\nSaját finomhangoláshoz keresel “train dataset” javaslatokat (pl. kód, magyar nyelv, RAG), vagy kifejezetten azt, hogy a GLM‑4.7et pontosan milyen forrásadatokon pretrainelték?",
+      "created_at": "20260104T00:33:37.012741Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "b9bfb20646094a7584f7d17bd8b2faf5",
+      "query": "leak",
+      "answer": "Nem tudok segíteni kiszivárgott (leakelt) tréningadatok vagy egyéb jogosulatlanul megszerzett anyagok felkutatásában vagy terjesztésében.  \nA GLM‑4.7 esetén a hivatalos csatornák nyíltan közzéteszik a modell/súlyok elérését (pl. Hugging Face, Z.AI dokumentáció), de ezek nem “leak”ek.[1][2]\n\n Mit értesz “leak” alatt?\nA “leak” jelentheti azt, hogy (1) kiszivárgott tréningdatasetek/forráslista, (2) kiszivárgott model súlyok, vagy (3) adatvédelmi “leak” (pl. az API bejövő promptjait tárolják).  \nMelyikről van szó?\n\n Ha tréningadatleakre gondolsz\nA GLM‑4.7 hivatalos leírásai nem közölnek név szerinti datasetlistát a tréninghez, inkább képességeket/használatot írnak le.[2][1]\nA publikus tréningkorpuszrészletek leginkább a GLM‑4.5 anyagaiban jelennek meg magas szinten (pl. tokenmennyiségek és “general” vs “code & reasoning” korpusz bontás), nem konkrét datasetnevekkel.[3][4]\n\n Ha adatvédelmi “leakre” gondolsz (API)\nA közösségi viták gyakran az “API adatkezelés” témát érintik, de ez nem azonos egy igazolt adatszivárgási incidenssel.[5]\nHa ez a fókusz, érdemes a szolgáltató hivatalos adatkezelési / DPA dokumentumait és a beállítható adatmegőrzési opciókat átnézni (a szolgáltatói doksikból indulva).[2]\n\nÍrd meg egy szóban, melyik érdekel: “training datasets leak”, “weights leak”, vagy “privacy leak”?",
+      "created_at": "20260104T00:35:11.836543Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "a6ce9d6de9f842fa8f84dcfbf38a3b91",
+      "query": "kiszivárgott tréningdatasete",
+      "answer": "Nem tudok segíteni kiszivárgott (jogosulatlanul megszerzett) tréningdatasettek felkutatásában, letöltésében vagy terjesztésében. Viszont segíthető a hivatalos, legális források és a nyilvánosan közölt tréninginformációk összeszedésében.\n\n Ami nyilvános és ellenőrizhető\nA GLM‑4.7 hivatalos dokumentációja és a Hugging Face modelloldala nem ad meg név szerinti, tételes “train dataset” listát.[1][2]\nA nyilvános találatokban inkább közösségi találgatások/viták jelennek meg (pl. HN/Reddit), nem pedig hiteles, verifikálható “kiszivárgott datasetcsomag”.[3][4]\n\n Mit érdemes használni leak helyett\nHa a cél saját finomhangolás vagy reprodukálható tréning, érdemes kifejezetten nyílt licencű, dokumentált forrású adatokból építkezni (külön kód, külön általános szöveg, külön instruction/QA).  \nHa a cél a GLM‑4.7 eredeti tréningadatai, a publikus anyagok legfeljebb magas szintű korpuszbontást írnak le a GLM‑4.5 vonalon (pl. “general” vs “code & reasoning”), de ott sem feltétlenül datasetnevekkel.[5][6]\n\n Pontosítás\nA “kiszivárgott tréningdataset” alatt linkelt csomagra gondolsz, vagy arra, hogy valaki publikált egy (állítólagos) forráslistát?",
+      "created_at": "20260104T00:35:42.941815Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

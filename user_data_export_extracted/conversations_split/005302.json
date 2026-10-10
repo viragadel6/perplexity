@@ -1,0 +1,64 @@
+{
+  "context_uuid": "f5343e43cba1448c8e101a967312edf8",
+  "context_title": "lovable.dev en imba programnyelv is megy?",
+  "created_at": "20251226T11:38:29.025514Z",
+  "updated_at": "20251226T11:47:52.220796Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b4040748ad82448a90e8e632b1b778ef",
+      "query": "lovable.dev en imba programnyelv is megy?",
+      "answer": "Röviden: a Lovable jelenleg főleg webes stackre (React, TypeScript, Tailwind, Supabase stb.) van optimalizálva, az Imba nincs a támogatott vagy dokumentált nyelvek között, ezért csak nagyon korlátozottan vagy egyáltalán nem fog menni vele.[1][2][3][4]\n\n Mit támogat a Lovable?\n\n Alapértelmezett frontenden React + TypeScript + Vite + Tailwind CSS‑t generál.[4][1]\n Backenden tipikusan Supabase (PostgreSQL, auth, edge functions) integrációval dolgozik.[5][1][4]\n A nyelvi fókusz „HTML/CSS/JavaScript/TypeScript + népszerű webes frameworkök (React, Node.js, Laravel stb.)”.[2][3][6]\n\n Mi a helyzet a „kevésbé mainstream” nyelvekkel?\n\n Kifejezetten említik, hogy a kevésbé elterjedt vagy „niche” stackekre gyengébb a támogatás (példa: Rust, Elixir, COBOL), tehát nem általános több‑tucatnyelvű IDE, hanem web‑app builder.[3][2]\n Az Imba sehol nem szerepel a dokumentációban vagy ismertetőkben, mint támogatott nyelv vagy elsőrangú célstack.[7][6][8]\n\n Tudsz‑e mégis Imbát használni valahogy?\n\n Elméletben meg lehet próbálni:  \n   generált React/TS kódot manuálisan átírni/portolni Imbára,  \n   vagy a Lovable‑t csak UI‑tervezésre használni, és külön Imba‑projekttel dolgozni.[8][4]\n A platform azonban nem kínál Imba‑sablont, build‑chain integrációt vagy toolingt, így ez gyakorlatilag teljesen kézi munka lenne.\n\n Összefoglaló válasz\n\n A Lovablet érdemes úgy kezelni, mint egy React/TypeScript‑központú AI app buildert, nem általános Imba‑IDE‑ként.[1][2][4]\n Ha Imbában akarsz dolgozni, jobb egy klasszikus kódeditor/IDEt választani, és a Lovable‑t legfeljebb inspirációra vagy API‑logika generálására használni, amit aztán kézzel fordítasz át.[8][4]",
+      "created_at": "20251226T11:38:29.101430Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "cb3a032987844b3aa1e8c4bddd209d60",
+      "query": "es moonbit! amugy az imba is frontend nyelv es ugysnugy js re fordul",
+      "answer": "Nem, a Lovable.dev jelenleg sem az Imbát, sem a Moonbitet nem támogatja natívan, hiába fordul mindkettő JSre (Imba frontendként, Moonbit pedig WebAssemblyn keresztül).[1][10]\n\n Miért nem működik mégis?\n\nAz Imba valóban JSre fordul, és frontendoptimalizált (tagalapú UI, gyors DOM diffing), de a Lovable React + TypeScript + Vite stackre van fixálva, saját build chainnel.[2][11][1]\nMoonbit pedig WASMfókuszú (Rustszerű, de JSnincs közvetlen fordítása), amit a Lovable web app builder nem ismer fel vagy integrál.[10][12]\n\n Alternatívák Imbára\n\n Generálj React appot Lovablelal, majd manuálisan portold Imbára (imba compilelal JSre). Ez működhet, mert mind JS output, de elveszted az AI automatizmust.[13][1]\n Használj dedikált Imba toolt (pl. imba.io playground, Webpack setup) külön, Lovablet csak ötleteléshez.[3][7]\n\n Moonbit helyzete\n\nMoonbit még niche (WASM backend/frontend), sehol sincs említve Lovable docsban vagy reviewkban – gyakorlatilag nulla esély natív támogatásra.[14][15][10]\nHa JS/WASM keverék kell, ragaszkodj Reacthez a Lovablelal, vagy válts Replit/VS Codera.[12][16]",
+      "created_at": "20251226T11:40:23.125683Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "7ab86b717136412c85ca2991a1b86e59",
+      "query": "replithez hasonlo ide ami nix es es minden nix pkgs megy? de ne ilyen alap vscode meg github spacest xd",
+      "answer": "A Replit Nixalapú (minden nixpkgs csomag elérhető Nix replekben), de ha alternatívát keresel ami hasonlóan böngészőalapú IDEszerű, teljes Nixpkgs támogatással, akkor nincs sok igazi \"plugandplay\" opció – a legtöbb VS Code/GitHub Codespacesszerű.[1][2][3]\n\n Legközelebbi alternatívák\n\n Replit saját Nix replje: Ez már Nixpowered, .replit.nixben bármi nixpkgs csomagot pullolhatsz (pl. pkgs.imba, pkgs.moonbit ha elérhető), multiplayer, deploy. Pontosan ez a \"Replit with Nix\".[4][5][1]\n Devbox Cloud: Nixalapú cloud dev envok, flake.nix/devbox.json támogatással, edge deploymenttel – Replitszerű instant setup, de Nixnative.[6]\n Nixpacks: Build/deploy tool Nixszel (Railway/Fly.io integráció), de inkább CI/CD, nem teljes IDE.[7]\n\n Miért nincs sok más?\n\nNincs dedikált \"Nixonly Replit clone\", mert a Nixpkgs hatalmas (80k+ csomag), a böngészős IDEk ritkán támogatják natívan – Replit forkolta a nixpkgset erre.[2][3][8]\nHa ragaszkodsz \"nem VS Code\"hoz, próbáld a Replit Nix repljét: új repl → Nix (beta) → replit.nixben pkgs.<bármi>.[5][1]\n\n Gyakorlati tipp Nixhez\n\n Repliten: replit.nixben allowUnfree = true; + pkgs.hello stb. – minden működik.[9][10]\n Ha kell Moonbit/Imba: Nixpkgsben keresd nix search nixpkgs imba (ha flake, akkor igen).[2]",
+      "created_at": "20251226T11:41:56.072201Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "52550084ca944eb7bb446f0aa64e4b64",
+      "query": "de a replit alapbol ilyen xd\nfhu de azt mondom hogy olysn ide ahol ugyanugy kb narmilyen nyelven dolgozhatok nixnek hala",
+      "answer": "Olyan, mint a Replit (böngészős IDE, bármilyen nyelv, mert alatta Nixpkgs van), gyakorlatilag nincs igazán kész, mainstream alternatíva most, a Replit ebben elég egyedi.[1][2][3]\n\n Ami nagyjából közelít\n\n Devbox Cloud: Nix‑alapú dev environment, ahol devbox.json/flake alapján kapsz bármilyen nyelvhez toolchaint, de az IDE része inkább „VS Code a böngészőben” jellegű, nem olyan játékos, mint Replit.[4]\n Railway + Nixpacks: Nixszel rakja össze a runtime‑ot bármilyen nyelvhez, de ez inkább deploy/build, nem interaktív, Replit‑szerű IDE.[5]\n\n Reális opciók, ha „bármi nyelv + Nix” kell\n\n Maradsz Repliten, és kihasználod, hogy a .replit.nix‑ben gyakorlatilag bármilyen nixpkgs csomagot betehetsz, így kb. „bármilyen nyelv megy”.[2][6][1]\n Vagy saját NixOS/Nix devszerver + tetszőleges web‑IDE (pl. Coder/VS Code Server/Theia), ahol a szabadságot maga a Nix adja, nem a webes IDE „márkaneve”.[7][8]\n\nMostani állapotban: ha kifejezetten Replit‑szerű UX + univerzális Nixpkgs kell, a Replit az, amit leírsz; a többinél vagy a Nix, vagy az IDE‑élmény lesz kompromisszumos.[3][2][4]",
+      "created_at": "20251226T11:43:40.512480Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "36f0343f736240adb9c9a03c878c9bc0",
+      "query": "Repliten: allowUnfree = true; ￼ben ￼",
+      "answer": "Repliten ezt a replit.nix fájlban kell beállítani, nagyjából így:[1][2]\n\nnix\n{ pkgs }:\n\n{\n  deps = [\n    pkgs.hello\n  ];\n\n  nixpkgs.config = {\n    allowUnfree = true;\n  };\n}\n\n\nLényeg:  \n A nixpkgs.config.allowUnfree = true; blokk a felső szinten legyen (ugyanott, ahol a deps), nem a deps listán belül.[2][1]",
+      "created_at": "20251226T11:45:48.352458Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "c9b43c07fb9240e787ee5a7c279f85b1",
+      "query": "de mire jo",
+      "answer": "Az allowUnfree = true; arra jó, hogy a nem teljesen nyílt forráskódú (proprietáris) Nixpkgs csomagokat is telepíthesd Repliten.[1][2]\n\n Mire kell ez pontosan?\n\n Alapértelmezett NixOS/Replit: Csak FSF jóváhagyta, teljesen szabad szoftverek mennek (pl. pkgs.hello, pkgs.python3).\n Unfree példák:\n   pkgs.zoom-us (Zoom kliens)\n   pkgs.vscode (Microsoft VS Code)\n   pkgs.slack\n   pkgs.docker (néha)\n   pkgs.nvidia-x11 (driverek)\n   Sok játék, plugin, kereskedelmi tool.\n\n Hogyan működik Repliten?\n\nnix\n{ pkgs }:\n\n{\n  nixpkgs.config = {\n    allowUnfree = true;\n  };\n\n  deps = [\n    pkgs.zoom-us    # Ez most már megy!\n    pkgs.vscode\n  ];\n}\n\n\nEnélkül hibát kapsz: \"error: Package ‘zoom-us-…’ in nixpkgs has an unfree license\".[1]\n\nÖsszefoglalva: Ha csak open source toolok kellenek, nem kell. De bármilyen \"kommersz\" cucc (VS Code, Slack, stb.) → mindig tedd be.[2][1]",
+      "created_at": "20251226T11:47:22.046423Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

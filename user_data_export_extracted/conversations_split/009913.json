@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6b6711442e494f8dab96ff4121045eae",
+  "context_title": "Alvazszamom",
+  "created_at": "20250617T11:58:50.870990Z",
+  "updated_at": "20250617T11:58:50.870990Z",
+  "mode": "COPILOT",
+  "collection_uuid": "3b299b78492746a09cff2d7784dd58ed",
+  "entries": [
+    {
+      "entry_uuid": "a355c6062c3d41f7b597e0f0674a5fe7",
+      "query": "Alvazszamom",
+      "answer": " Alvázszám információ\n\nAz Ön által megadott alvázszám: WBANX31030C177882.\n\nEz az alvázszám (VIN) a következő járműhöz tartozik:\n\n Márka: BMW\n Típus: 5 (E60)\n Évjárat: 2009\n Motor: 2.0 Dízel (Motorkód: N47 D20 A)\n Teljesítmény: 177 LE / 130 kW\n Meghajtás: Hátsókerékhajtás\n Gyártási időszak: 2007.09.–2009.12.\n\nAmennyiben további információra van szüksége az alvázszám alapján (pl. gyári felszereltség, szervizmúlt, stb.), jelezze bátran!",
+      "created_at": "20250617T11:58:51.084494Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

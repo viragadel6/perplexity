@@ -1,0 +1,19 @@
+{
+  "context_uuid": "03a1d37a5feb410facf6c64159c47c68",
+  "context_title": "minden githubrepom listazd",
+  "created_at": "20251227T06:28:43.439501Z",
+  "updated_at": "20251227T06:28:43.439501Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9b419739ca87423e922ed610f9bdc65b",
+      "query": "minden githubrepom listazd",
+      "answer": "Az alábbiakban listázom a GitHub repositoryjaidat, összesen 53 repository található a fiókodban:\n\n Nyilvános repok (46 db)\n\n   TypeScript nyelven, utoljára frissítve: 20251226\n   63.8 MB méretű, utoljára frissítve: 20251225\n   Blank Repl template, utoljára frissítve: 20251221\n   Shell nyelven, utoljára frissítve: 20251221\n   Zig nyelven, utoljára frissítve: 20251220\n   Utoljára frissítve: 20251219\n   Zig nyelven, utoljára frissítve: 20251218\n   Zig nyelven, 11.5 MB méretű, utoljára frissítve: 20251218\n   Python nyelven, utoljára frissítve: 20251208 (privát)\n   Python nyelven, , utoljára frissítve: 20251208, 1 fork\n   Zig nyelven, 51.3 MB méretű, utoljára frissítve: 20251202, 1 fork\n   HTML nyelven, utoljára frissítve: 20251201\n   Zig nyelven, utoljára frissítve: 20251125, 1 fork\n   Zig nyelven, utoljára frissítve: 20251125\n   Zig nyelven, utoljára frissítve: 20251120\n   Zig nyelven, utoljára frissítve: 20251112\n\n Privát repok (10 db)\n\n   Zig nyelven, legfrissebb (20251227)\n   Utoljára frissítve: 20251220\n   Python nyelven, 459 MB méretű, utoljára frissítve: 20251213\n   Zig nyelven, utoljára frissítve: 20251212\n   Utoljára frissítve: 20251209\n   Python nyelven, utoljára frissítve: 20251208\n   HTML nyelven, utoljára frissítve: 20251201\n\nA profilod 2025. március 4én lett létrehozva, és összesen 46 nyilvános és 10 privát repositoryt tartalmaz.",
+      "created_at": "20251227T06:28:43.507604Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

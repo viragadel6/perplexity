@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1d5e3d2d704244b095f8b8ff78ee5696",
+  "context_title": "",
+  "created_at": "20250707T14:17:46.929560Z",
+  "updated_at": "20250707T14:17:46.929560Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7494809d888c45f8b7c2d738cb2e089f",
+      "query": "",
+      "answer": "A megadott hivatkozás (JADE_Ultimate_2025_State_of_the_Art_SOTA.txt) tartalmát nem sikerült elérni, így nem tudom közvetlenül elemezni vagy összefoglalni annak részleteit. Az interneten végzett keresés sem adott eredményt a konkrét dokumentum tartalmára vagy összefoglalójára vonatkozóan.\n\nAmit a JADE Ultimate és a State of the Art (SOTA) jelentésekről általánosságban tudni lehet:\n\n A \"State of the Art\" jelentések általában egy adott technológiai, tudományos vagy iparági terület aktuális fejlettségi szintjét, vezető megoldásait, trendjeit és kulcsfontosságú szereplőit mutatják be.\n A \"JADE\" név többféle kontextusban is előfordul: lehet szoftver (például kristályszerkezetanalízishez), katonai tervező eszköz, vagy akár művészeti, illetve befektetési jelentés is[1][2][3].\n\nAmennyiben pontos tartalmi összefoglalóra vagy elemzésre van szüksége a megadott dokumentumból, kérjük:\n Ellenőrizze, hogy a link elérhetőe, vagy\n Töltse fel a dokumentumot közvetlenül, vagy\n Adjon meg részletesebb információt a dokumentum témájáról, hogy célzottabb keresést lehessen végezni.\n\nHa specifikus kérdése van a JADE Ultimate 2025 vagy bármely State of the Art jelentés témájában, szívesen segítek a rendelkezésre álló információk alapján!",
+      "created_at": "20250707T14:17:46.974786Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

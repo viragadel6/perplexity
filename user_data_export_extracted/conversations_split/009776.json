@@ -1,0 +1,19 @@
+{
+  "context_uuid": "bb4914fbe5704048808b3241b6f01352",
+  "context_title": "\n\n\nugyanezt a szallast keresem valahogy úgy hogy maximum 10000Ft legyen egy ejszaka",
+  "created_at": "20250626T15:22:36.902163Z",
+  "updated_at": "20250626T15:22:36.902163Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9d5fa9bece6e4ce98e9180e094bbd8c5",
+      "query": "\n\n\nugyanezt a szallast keresem valahogy úgy hogy maximum 10000Ft legyen egy ejszaka",
+      "answer": "",
+      "created_at": "20250626T15:22:36.927477Z",
+      "label": null,
+      "query_status": "PENDING",
+      "engine_mode": null
+    }
+  ]
+}

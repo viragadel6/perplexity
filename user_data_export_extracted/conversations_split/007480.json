@@ -1,0 +1,19 @@
+{
+  "context_uuid": "07bc185a4e4e4ca8919fe0fe35a8379d",
+  "context_title": "",
+  "created_at": "20251017T14:47:12.131277Z",
+  "updated_at": "20251017T14:47:12.131277Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2c90bdd66f684689a3a77743e11f6830",
+      "query": "",
+      "answer": "A  egy O'Reilly könyv és forráskódrepozitórium, amely a gépi tanulási rendszerek építéséről szól feature store használatával. A könyv bemutatja, hogyan lehet hatékonyan kezelni a gépi tanulási jellemzőket batch, valós idejű és nagy nyelvi modellekkel (LLMs) egyaránt. Részletes útmutatást ad a feature storeök szerepéről, az ML rendszerek felépítéséről, a feature curation, tárolás és újrahasznosítás gyakorlati módszereiről. Számos példa és tutorial is elérhető a repóban, például levegőminőség adatok feldolgozására szolgáló ML rendszer felépítése.\n\nA repó használatához Python környezetet kell létrehozni, telepíteni az adott függőségeket (mint az invoke, uv, pythondotenv), és a PyInvoke segítségével futtatni az egyes ML pipeline lépéseket (feature generálás, modellezés, inferencia). Mindez segíti a feature store alapú gépi tanulási rendszerek kidolgozását és üzemeltetését.\n\nEz a gyakorlatias forrás ideális azoknak a fejlesztőknek és kutatóknak, akik mélyreható tudást szeretnének szerezni a feature storeök gépi tanulási munkafolyamatokban való alkalmazásáról, különösen olyan rendszerek esetén, amelyek batch és valós idejű feldolgozást, valamint LLMeket (nagy nyelvi modelleket) is használnak.[2][3][10]",
+      "created_at": "20251017T14:47:12.798274Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

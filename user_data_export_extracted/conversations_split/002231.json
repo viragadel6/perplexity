@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c98b3cf20f484b1b87af81244cfc1366",
+  "context_title": "Ugyanolyan kék világítas legyen a masik képen is mast ne valtoztass 4K",
+  "created_at": "20260524T00:35:34.512281Z",
+  "updated_at": "20260524T00:36:56.556683Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "988d39bf8b1742c4a66569c16d635386",
+      "query": "Ugyanolyan kék világítas legyen a masik képen is mast ne valtoztass 4K",
+      "answer": "Sajnálom, de a feltöltött képeket nem tudom megjeleníteni vagy feldolgozni, mert mindkét kép moderációs ellenőrzésen akadt fenn (image_failed_moderation). Ez azt jelenti, hogy a rendszer nem engedte meg a képek tartalmának elemzését vagy szerkesztését.\n\nMit tehetsz?\n\n Próbáld meg újra feltölteni a képeket egy másik formátumban (pl. PNG)\n Ellenőrizd, hogy a képek nem tartalmaznake olyan tartalmat, amely automatikus szűrőket aktiválhat\n Ha a képek megfelelőek, próbálj más eszközt vagy platformot használni a szerkesztéshez\n\nHa sikerül a képeket elérhetővé tenni, szívesen segítek alkalmazni ugyanolyan kék világítás effektet a másik képre is!",
+      "created_at": "20260524T00:35:34.840879Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "53737eb613594421a63d7d0c245875a8",
+  "context_title": "velemeny?",
+  "created_at": "20250723T08:25:34.754790Z",
+  "updated_at": "20250723T08:25:34.754790Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "66f9db673b114cd5b47310e096bbf5ba",
+      "query": "velemeny?",
+      "answer": "Sajnos nem tudtam megnyitni vagy elolvasni a csatolt file1.py tartalmát. Kérlek, másold be ide a kódot vagy írd le, miről van szó, és szívesen elmondom a véleményem!",
+      "created_at": "20250723T08:25:35.764781Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

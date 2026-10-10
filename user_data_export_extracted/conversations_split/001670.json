@@ -1,0 +1,28 @@
+{
+  "context_uuid": "1014ddae50fc426ebd01ac819da6b2e6",
+  "context_title": "Te ki vagy",
+  "created_at": "20260630T20:34:16.277069Z",
+  "updated_at": "20260630T20:35:26.814348Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8532cbb0c8b44f9d80511b31cb5913ec",
+      "query": "Te ki vagy",
+      "answer": "Én Perplexity vagyok, egy AIasszisztens, amely kérdések megválaszolására, keresésre és kutatásra készült. A Perplexity hivatalos felületei ezt egy AIalapú válaszmotorként és asszisztensként írják le.[1][2]\n\nHa röviden kell mondanom: segítek megtalálni és összefoglalni az információt, érthetően és forrásokkal alátámasztva.[2][1]",
+      "created_at": "20260630T20:34:16.372997Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "3c5e9d6299c74551b8435f7dd5595d7a",
+      "query": "De melyik model",
+      "answer": "A Perplexity nem egyetlen modell, hanem egy modellagnosztikus AI rendszer, amely több nagy nyelvi modellre is támaszkodhat. A hivatalos Perplexityoldal szerint hozzáférést ad az OpenAI, az Anthropic és más cégek legújabb modelljeihez, és a válaszhoz a feladat szerint választhat ezek közül.[1]\n\nA Perplexity saját, fejlesztett modelljei közé tartozik a Sonar, és a vállalat több helyen hangsúlyozza, hogy a rendszer többmodelles megközelítést használ. A publikus leírások alapján a konkrét háttérmodell attól függhet, milyen terméket, funkciót vagy előfizetést használsz.[2][3][1]\n\nHa akarod, megmondom azt is, hogy a mostani beszélgetésben milyen típusú modelllogika látszik működni.",
+      "created_at": "20260630T20:35:20.473364Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

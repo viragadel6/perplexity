@@ -1,0 +1,19 @@
+{
+  "context_uuid": "ee9ff782a0c14404b75c415d61dccb9b",
+  "context_title": "\n\nnagyon mély kutatast vegezz es keszits egy teljes tudomanyos arxiv papert az rsf ről mint 5 gyökér architektura. mindent olvass el! mutasd be a benne levo forradalmi lehetosegeket, mint például hogy az ai fejlődés minden területére alkalmazható akár gyógyítás területén stb mindenre tovább vihető\nnem idezhetsz read me bôl",
+  "created_at": "20260428T23:13:52.243725Z",
+  "updated_at": "20260428T23:16:34.170786Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "48c3db6ad76346ed94b549c29ac668d2",
+      "query": "\n\nnagyon mély kutatast vegezz es keszits egy teljes tudomanyos arxiv papert az rsf ről mint 5 gyökér architektura. mindent olvass el! mutasd be a benne levo forradalmi lehetosegeket, mint például hogy az ai fejlődés minden területére alkalmazható akár gyógyítás területén stb mindenre tovább vihető\nnem idezhetsz read me bôl",
+      "answer": "Elkészült egy részletes, arXiv‑stílusú, magyar nyelvű tudományos cikk az RSF‑ről mint „5 gyökér” architektúráról a biteme repó forrásai alapján, amely a réteg és a modell matematikai felépítését, a formális Lean/Beluga invariánsokat, az invertálhatóságot, a GPU‑gyorsítást és az AI/gyógyászati alkalmazhatóságot is végigveszi.",
+      "created_at": "20260428T23:13:52.449566Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "94ec6988e59d438982248a3f50cd13e9",
+  "context_title": "info: Starting Helium server on 0.0.0.0:5000\r\ninfo: Helium server running on port 5000\r\nerror: curl exit code 22: curl: (22) The requested URL returned error: 429\r\n\r\nerror: chat stream failed: CurlFailed",
+  "created_at": "20260517T21:15:59.017363Z",
+  "updated_at": "20260517T21:16:57.048157Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fb52f3aa67cd4f5788ceb94cef0bc5f0",
+      "query": "info: Starting Helium server on 0.0.0.0:5000\r\ninfo: Helium server running on port 5000\r\nerror: curl exit code 22: curl: (22) The requested URL returned error: 429\r\n\r\nerror: chat stream failed: CurlFailed",
+      "answer": "A napló alapján a szervered elindul rendben, és a hiba nem a helyi Helium HTTP szerver indulásánál van, hanem a kifelé menő AIkérésnél történik.  A curl exit code 22 itt azt jelzi, hogy a curl HTTP 400 feletti választ kapott, a konkrét státusz pedig 429 Too Many Requests, vagyis túl sok kérés ment rövid idő alatt az upstream szolgáltatás felé.[1][2][3]\n\n Mi történik\n\nA kódban a chat végpont a llm.callOpenAIStreaming(...) hívással a https://api.hpc-ai.com/inference/v1 címre küld streaming kérést, és ha ez elbukik, akkor pontosan chat stream failed log keletkezik, majd CurlFailed hibát kezel a szerver.  Emiatt a naplódban látható 429 nagy valószínűséggel az AI backend válasza, nem pedig a saját 5000es portodon futó Helium szerveré.[3][1]\n\n Miért kapod a 429et\n\nA HTTP 429 szabványos jelentése az, hogy a kliens túl sok kérést küldött adott időablakban, vagy a szolgáltató oldali kapacitás elfogyott ugyanarra a modellre vagy végpontra.  A forráskódban látszik külön rate limit logika az Exa kereséshez, viszont a chat streaming AIhívás előtt nem látszik hasonló visszafogás vagy újrapróbálási mechanizmus, ezért könnyen előfordulhat, hogy párhuzamos vagy sűrű kérések beleütköznek a szolgáltatói limitbe.[4][5][1][3]\n\n Mit javíts először\n\nElsőként tegyél be exponenciális backoffos újrapróbálást 429 esetére, és ha a válasz tartalmaz Retry-After vagy rate limit fejléceket, azokat tartsd be, mert ez a tipikus szerveroldali megoldás ilyen hibára.  Másodszor csökkentsd a párhuzamos chat streamek számát, tegyél globális vagy modellenkénti kéréskorlátot, és ideiglenesen tesztelj egyetlen klienssel, hogy lásd, valóban terhelési vagy kvótahiba álle a háttérben.[6][7][8][3]\n\n Mit nézz meg a kódban\n\nÉrdemes a sikertelen AIválasz teljes státuszát, fejléceit és törzsét is naplózni, mert abból gyakran kiderül, hogy kvótatúllépés, rövid idejű burst limit vagy átmeneti szolgáltatói túlterhelés történt.  A jelenlegi kód alapján a felhasználó felé a CurlFailed egy általános hálózati hibaként jelenik meg, ezért hibakereséshez hasznosabb lenne külön kezelni a 429et, és például visszaadni egy olyan üzenetet, hogy „túl sok kérés, próbáld újra pár másodperc múlva”.[8][1][4][3]\n\n Gyakorlati diagnózis\n\nHa a hiba csak időnként jön elő, akkor ez inkább átmeneti rate limit vagy modellterhelés, míg ha minden kérésnél azonnal jelentkezik, akkor valószínűbb a fiók, kulcs, projekt vagy throughputkorlát.  A legvalószínűbb rövid diagnózis tehát ez: a Helium szervered fut, de az upstream HPC AI chat streaming végpont 429cel visszadobja a kérést, ezért omlik össze a stream CurlFailed hibával.[5][1][4][3]\n\nKüldd be a llm.zig releváns részét vagy a 429es válasz fejléceit, és megmondom, pontosan hová érdemes backoffot és limitálást tenni.",
+      "created_at": "20260517T21:15:59.147029Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

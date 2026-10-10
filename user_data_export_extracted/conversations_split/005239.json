@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a1ff170b54564350a6c7ae7e228c7cd6",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20251228T23:10:10.544911Z",
+  "updated_at": "20251228T23:10:10.544911Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2dcf6427abee48fcb856ce616da3f546",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": "Ez egy Zig programozási nyelvben írt \"SelfSimilar Relational Graph\" (önszonos relációs gráf) implementáció, amely kvantuminspirált fogalmakat kombinál gráfadatszerkezetekkel és fraktálgeometriával.[1]\n\n Fő komponensek\n\n Adatstruktúrák\n\nA program három fő építőelemet definiál:[1]\n\n Node (Csomópont): Azonosítóval, adatokkal, komplex kvantumállapottal, fázissal és metaadatokkal rendelkező csomópont\n Edge (Él): Két csomópont közötti kapcsolat minőségi jellemzőkkel (szuperpozíció, összefonódott, koherens, kollabált, fraktál)\n SelfSimilarRelationalGraph: A teljes gráfstruktúra, amely csomópontokat, éleket, topológiai hasht, fraktálmélységet és kvantumregisztert kezel\n\n Kvantuminspirált műveletek\n\nA program számos kvantumalapú funkciót implementál:[1]\n\n Kvantumkapuk: Hadamard, PauliX, PauliY, PauliZ és fáziskapuk\n Összefonódás: Két csomópont kvantumállapotainak összekapcsolása\n Mérés: Kvantumállapot kollapsálása meghatározott értékre\n Információterjedés: Adatok propagálása a gráfon keresztül megadott mélységig\n\n Fraktál jellemzők\n\nA kód fraktáldimenziószámítást tartalmaz boxcounting módszerrel, amely a gráf önszonos tulajdonságait vizsgálja.[1]\n\n Felhasználási célok\n\nEz az implementáció kvantuminspirált algoritmusok kutatására, komplex hálózatok modellezésére vagy tudásreprezentációs rendszerek építésére használható, ahol a kapcsolatok kvantumszerű viselkedést mutatnak. A teljes forráskód tartalmaz 10+ egységtesztet is, amelyek a funkcionalitás helyességét ellenőrzik.[1]",
+      "created_at": "20251228T23:10:10.644947Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

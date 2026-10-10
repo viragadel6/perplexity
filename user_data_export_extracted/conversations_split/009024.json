@@ -1,0 +1,19 @@
+{
+  "context_uuid": "099789ab32ab4a46b790c9e8078a383d",
+  "context_title": "",
+  "created_at": "20250818T00:27:05.881479Z",
+  "updated_at": "20250818T00:27:05.881479Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f0fc7aa9c3eb40f9982678c043a6b160",
+      "query": "",
+      "answer": "Nem tudom közvetlenül lekérni vagy megjeleníteni a fájl teljes tartalmát ebből a GitHub linkből, mert a távoli tartalom letöltése sikertelen volt. Ha szükséged van a fájl konkrét szövegére, kérlek töltsd fel közvetlenül, vagy másold be azt a részt, amelyre szükséged van! Szívesen segítek elemzésben, magyarázatban vagy összefoglalásban, ha biztosítod a tartalmat.",
+      "created_at": "20250818T00:27:06.266158Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

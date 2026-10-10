@@ -1,0 +1,28 @@
+{
+  "context_uuid": "f2f5548aa4fc4cdc84c6d7e174835885",
+  "context_title": "full tech stack\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250919T05:48:43.456552Z",
+  "updated_at": "20250919T05:49:59.259997Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "28e8853b76c4422495400be78b67d7eb",
+      "query": "full tech stack\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Zig v0.12\n Futhark\n Yosys\n nextpnr\n icestorm\n Lean 4\n IsabelleHOL\n Agda\n Dedukti\n Clash (Haskell)\n SpinalHDL (Scala)\n Scala\n OpenJDK\n Chapel\n Nim\n Python 3.10\n PyTorch 2.0\n torchgeometric\n scikitlearn\n numpy\n ray\n streamlit\n graphviz\n Julia\n Halide\n Terra\n Elixir\n Pony\n Unison\n Racket\n Factor\n Qiskit\n qiskitaer\n qiskitibmruntime\n qiskitibmprovider\n IonQ\n networkx\n astropy\n haskellPackages.lens",
+      "created_at": "20250919T05:48:43.579259Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e4fbfea02e9e4872b03b5ca082fa413a",
+      "query": "de ai arhetikura",
+      "answer": " Kvantumszámítási modul (Qiskit, IBM, IonQ)\n Neuromorfikus hardver (FPGA, Clash Haskell, SpinalHDL Scala)\n Temporális gráfhálózat (TGN Chapel)\n Nagydimenziós állapottér (HDS, 9216 dimenzió)\n Kaotikus biztonsági token (Lorenz attraktor)\n Natív futtatórendszer (Zig)\n GPUgyorsított kvantum korreláció (Futhark, CUDA)\n Magas szintű ML orchestration (Python, PyTorch, torchgeometric)\n Elosztott feldolgozás (Chapel, Ray)\n Formális verifikációs réteg (Lean4, IsabelleHOL, Agda, Dedukti)\n Planetáris/asztrális szinapszis modul (aspektusorb feldolgozás)\n Tokenizáló modul (vocab.json/JAIDE Tokenizer)\n Biztonsági modul (Lorenz attraktor, JSD entropia)\n Metaadatkezelés, konfigurációs rendszer (config.json)",
+      "created_at": "20250919T05:49:52.589543Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

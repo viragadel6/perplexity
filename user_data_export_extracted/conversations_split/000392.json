@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6fdd0395cb1c45bbbb9abc65bae42098",
+  "context_title": "Searching /nix/store for \"stable25_05\\|nim2\\|Nim Compiler Version\"",
+  "created_at": "20260913T17:39:59.808512Z",
+  "updated_at": "20260913T17:40:53.178137Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5944ce0240fe4cf396712e7cb64e12ec",
+      "query": "Searching /nix/store for \"stable25_05\\|nim2\\|Nim Compiler Version\"",
+      "answer": "Use ripgrep to search file contents recursively:\n\nbash\nrg -uuu -a -n 'stable-25_05|nim-2|Nim Compiler Version' /nix/store\n\n\n -uuu: includes ignored, hidden, and binary files.\n -a: treats binary files as text.\n -n: prints line numbers.\n |: regex alternation. Ripgrep skips binary files by default unless overridden [1].\n\nTo print only matching filenames:\n\nbash\nrg -uuu -a -l 'stable-25_05|nim-2|Nim Compiler Version' /nix/store\n\n\nWith GNU grep instead:\n\nbash\ngrep -RInaE 'stable-25_05|nim-2|Nim Compiler Version' /nix/store 2>/dev/null\n\n\nHere -E enables extended regular expressions, so plain | means “or”; -a forces binarylooking files to be processed as text [2].\n\nIf you meant searching storepath names, not contents:\n\nbash\nfind /nix/store -maxdepth 1 \\\n  \\( -name '*stable-25_05*' -o -name '*nim-2*' -o -name '*Nim Compiler Version*' \\)\n",
+      "created_at": "20260913T17:40:00.405241Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

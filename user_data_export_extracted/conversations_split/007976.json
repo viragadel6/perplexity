@@ -1,0 +1,19 @@
+{
+  "context_uuid": "43acd670c2b5477eb5930d4f56978697",
+  "context_title": "ez mi? magyarul!",
+  "created_at": "20251004T14:31:13.072034Z",
+  "updated_at": "20251004T14:31:13.072034Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "53a1d060b8b04f519d5bc1439ad8ae8b",
+      "query": "ez mi? magyarul!",
+      "answer": "Ez egy komplex mesterséges intelligencia projekt nevű \"JAIDE V31 KAN LLM\" (KolmogorovArnold Network Language Model). A fájl egy rendkívül összetett, több programnyelvet használó neurális hálózati rendszer forráskódját tartalmazza.[1]\n\n Főbb jellemzők\n\nArchitektúra: A rendszer egy hibrid KAN (KolmogorovArnold Network) alapú nagy nyelvi modellt (LLM) implementál, amely 9216 dimenziós vektorterekben dolgozik, 256 réteggel és 5ös rács mérettel. A modell 32 millió token hosszúságú kontextust képes kezelni.[1]\n\nTöbbnyelvű implementáció: A projekt több mint 25 programozási nyelvet használ, beleértve a Gleamet (fő nyelv), Ziget, Nimet, Crystalt, Chapelt, Juliat, Haskellt, valamint egzotikus nyelveket mint a JAI, Vale, Carbon és TileLang. Ez azt mutatja, hogy a fejlesztők különböző nyelvek specialitásait használják ki az optimális teljesítményért.[1]\n\n Technológiai összetevők\n\nNeurális komponensek: A rendszer kvantuminspirált neuronokat, Temporal Graph Network (TGN) memóriát, Hierarchical Temporal Memory (HTM) elemeket és különböző hibrid architektúrákat integrál, mint a KANRWKV, KANHyena, KANMamba2 és RetNet változatok.[1]\n\nHardver gyorsítás: CUDA és MPI támogatással rendelkezik az elosztott képzéshez, valamint FPGA bitstream generálást is tartalmaz. A Futhark nyelvet használja GPU kernelekhez.[1]\n\nFormális verifikáció: Agda, Lean, Isabelle/HOL és Clash nyelveken írt bizonyítások biztosítják a rendszer matematikai helyességét. A magyar nyelvű tanító adatokat is tartalmaz a vocab.json és training_dataset_full.json fájlokban.[1]",
+      "created_at": "20251004T14:31:13.152918Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

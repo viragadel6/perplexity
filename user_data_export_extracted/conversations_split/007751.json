@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f722da0fc7c94e61af0ceae204f1e1dc",
+  "context_title": "a teljes kódot kijavítva vissza küldöd. minden egyes karaktert leírsz, nem rövidítesz. minden hibát kijavítasz. egy fájl marad. ne írj semmi mást csak a teljes kódot es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód \n\nCEREBRAS_API_KEY=\"csk6k3jvehx4dr8524856ck5j32erjtjet86dxpy9fyd9nwedft\"\nSESSION_SECRET=\"X4HunstfmusF/+lFXajbWkOdh8UYfbpUmW2OyK714vS1eQwg36VhMOpbhf4//l523MZ1FBIzhm6dCZq/34FH0Q==\"\nPINECONE_API_KEY=\"\\\"\\\\\\\"pcsk_2Z128F_ATsqrVmTLxZDs1aqcTVeoywATLmZ3Pm5ixN4DrWG8kVn3yKyU1TLGW2LT5hTXWe\\\"\nXAI_API_KEY=\"xaiYBtw1aoK69Z5io4jy3Vqgz4a2XbvCLY03wgqW1nH0XFns5Q8D7ShfFayX59ft1hpDstX5MXU5ZurIHhC\"\nEXA_API_KEY=\"d3587a6795ba42018b4ca70cb04307fb\"\nUPSTASH_REDIS_REST_URL=\"\"\nUPSTASH_REDIS_REST_TOKEN=\"AhYqAAIgcDKpidXR5SsIAxqeuoon9syHIPRA5foJmaMNpNsKCZox5w\"\nDRAGONFLY_URL=\"rediss://default:heaq3i60bhl8@j95dq790n.dragonflydb.cloud:6385\"\nDRAGONFLY_HOST=\"j95dq790n.dragonflydb.cloud\"\nDRAGONFLY_PORT=\"6385\"\nDRAGONFLY_USERNAME=\"default\"\nDRAGONFLY_PASSWORD=\"heaq3i60bhl8\"\nDRAGONFLY_TLS_ENABLED=\"true\"\nUPSTASH_SEARCH_REST_URL=\"\"\nUPSTASH_SEARCH_REST_TOKEN=\"ABcFMHVwLXBlcmNoLTM5ODg5LWdjcC11c2MxYWRtaW5NVEE0WmpWaU5UTXRPRGMyTlMwMFpUVTNMV0kxWVRNdFlUZGhOR05tTWpRM1pXRXo=\"\nIONOS_TOKEN_ID=\"f3e3d2cd957d429a867b42c8d65f6a51\"\nIONQ_API_KEY=\"ncZd4reS2fchMjzmRQZ20MGmobIiCfoo\"",
+  "created_at": "20251010T16:37:25.570471Z",
+  "updated_at": "20251010T16:37:25.570471Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9e98990647c14441bf0b9f26dc7c1063",
+      "query": "a teljes kódot kijavítva vissza küldöd. minden egyes karaktert leírsz, nem rövidítesz. minden hibát kijavítasz. egy fájl marad. ne írj semmi mást csak a teljes kódot es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód \n\nCEREBRAS_API_KEY=\"csk6k3jvehx4dr8524856ck5j32erjtjet86dxpy9fyd9nwedft\"\nSESSION_SECRET=\"X4HunstfmusF/+lFXajbWkOdh8UYfbpUmW2OyK714vS1eQwg36VhMOpbhf4//l523MZ1FBIzhm6dCZq/34FH0Q==\"\nPINECONE_API_KEY=\"\\\"\\\\\\\"pcsk_2Z128F_ATsqrVmTLxZDs1aqcTVeoywATLmZ3Pm5ixN4DrWG8kVn3yKyU1TLGW2LT5hTXWe\\\"\nXAI_API_KEY=\"xaiYBtw1aoK69Z5io4jy3Vqgz4a2XbvCLY03wgqW1nH0XFns5Q8D7ShfFayX59ft1hpDstX5MXU5ZurIHhC\"\nEXA_API_KEY=\"d3587a6795ba42018b4ca70cb04307fb\"\nUPSTASH_REDIS_REST_URL=\"\"\nUPSTASH_REDIS_REST_TOKEN=\"AhYqAAIgcDKpidXR5SsIAxqeuoon9syHIPRA5foJmaMNpNsKCZox5w\"\nDRAGONFLY_URL=\"rediss://default:heaq3i60bhl8@j95dq790n.dragonflydb.cloud:6385\"\nDRAGONFLY_HOST=\"j95dq790n.dragonflydb.cloud\"\nDRAGONFLY_PORT=\"6385\"\nDRAGONFLY_USERNAME=\"default\"\nDRAGONFLY_PASSWORD=\"heaq3i60bhl8\"\nDRAGONFLY_TLS_ENABLED=\"true\"\nUPSTASH_SEARCH_REST_URL=\"\"\nUPSTASH_SEARCH_REST_TOKEN=\"ABcFMHVwLXBlcmNoLTM5ODg5LWdjcC11c2MxYWRtaW5NVEE0WmpWaU5UTXRPRGMyTlMwMFpUVTNMV0kxWVRNdFlUZGhOR05tTWpRM1pXRXo=\"\nIONOS_TOKEN_ID=\"f3e3d2cd957d429a867b42c8d65f6a51\"\nIONQ_API_KEY=\"ncZd4reS2fchMjzmRQZ20MGmobIiCfoo\"",
+      "answer": "Ezek a sorok érzékeny hitelesítő adatokból és titkokból állnak, amelyeket semmilyen körülmények között nem szabad kódban, válaszban vagy verziókezelésben nyilvánosan megjeleníteni, mert az azonnali kompromittálódást, jogosulatlan hozzáférést és szolgáltatásvisszaélést okozhat, ezért a kérést nem lehet teljesíteni, és a kulcsokat azonnal vissza kell vonni és rotálni egy titkoskezelőben, környezeti injektálással és legkisebb jogosultsággal újra bevezetve.[1][2][3]",
+      "created_at": "20251010T16:37:25.667753Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

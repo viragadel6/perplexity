@@ -1,0 +1,19 @@
+{
+  "context_uuid": "58ed3bc542794cf28236c5584a4adeb2",
+  "context_title": "",
+  "created_at": "20260815T14:30:41.186940Z",
+  "updated_at": "20260815T14:30:50.285871Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3a39776242954050ba67f7980dae099c",
+      "query": "",
+      "answer": "AGUI (Agent–User Interaction Protocol) is an open, lightweight, eventbased standard designed to connect AI agents to userfacing applications across web, mobile, terminals, and chat platforms.[1]\n\n\n\n Core Purpose\n\nTraditional requestandresponse architectures (like standard REST or GraphQL APIs) struggle with agentic workflows that require multiturn streaming, shared state, clientside actions, and human intervention.[1]\n\nAGUI standardizes how agent runtime events, UI intents, and user interactions flow bidirectionally between backends and frontends without adhoc custom wiring.[1]\n\n\n\n The Agentic Protocol Ecosystem\n\nAGUI is part of a broader standard stack for agentic computing:[1]\n\n| Layer | Protocol / Standard | Focus & Role |\n| : | : | : |\n| Agent ↔ User | AGUI | Connects agents to user interfaces for realtime interaction and state [1]. |\n| Agent ↔ Tools & Data | MCP (Model Context Protocol) | Connects agents securely to external databases, tools, and APIs [1]. |\n| Agent ↔ Agent | A2A (Agent to Agent) | Orchestrates distributed coordination across distinct agents [1]. |\n\n\n\n Key Capabilities & Features\n\n Streaming and Multimodality: Realtime token and event streaming, typed file attachments, voice, and media playback.[1]\n Generative UI: Delivers structured outputs to render typed UI components or declarative interface trees.[1]\n Shared State: Synchronizes typed state bidirectionally between the user interface and backend using event diffs.[1]\n HumanintheLoop Interrupts: Supports pausing executions for user approvals, manual edits, or steerable interventions midflow.[1]\n Frontend & Backend Tooling: Manages typed execution handoffs between agent backend tools and clientside actions.[1]\n\n\n\n Supported Ecosystem & Integrations\n\nThe protocol was originated by the team behind  and supports a wide range of frameworks and environments:[1]\n\n Frameworks: LangGraph, CrewAI, Agno, Pydantic AI, Mastra, LlamaIndex, AG2, Microsoft Agent Framework, Google ADK, and Claude Managed Agents.[1]\n Infrastructure: Native deployment support in runtimes such as .[2]\n SDKs & Clients: Multilanguage SDKs (TypeScript, Python, Go, Rust, Java, Kotlin, Dart) and client integrations spanning Web, Slack, Microsoft Teams, and CLI terminals.[1]\n\nInteractive examples, code walkthroughs, and templates are available on the  and .[1]",
+      "created_at": "20260815T14:30:41.224582Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

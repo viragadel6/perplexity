@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0b5b75dee84d4e2eb47669e4f264f5d9",
+  "context_title": "olyan nyilt kodu datasets kell ami teljes foldi tudast lefedi es jobb minosegu mint a gpt grok gemini stb",
+  "created_at": "20250901T04:12:50.564311Z",
+  "updated_at": "20250901T04:12:50.564311Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "45b4c80c35e74e51bbdde36ff4888b07",
+      "query": "olyan nyilt kodu datasets kell ami teljes foldi tudast lefedi es jobb minosegu mint a gpt grok gemini stb",
+      "answer": "English:\nopensource datasets that comprehensively cover world knowledge and are higher quality than GPT, Grok, Gemini training data\n\nMagyar:\nnyílt forrású adatközlési készletek, amelyek átfogóan lefedik a világ tudását és jobb minőségűek, mint a GPT, Grok, Gemini tanítóadatai",
+      "created_at": "20250901T04:12:50.742501Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "context_uuid": "62ed10dc11be483ea19be61770dacdf7",
+  "context_title": "",
+  "created_at": "20250723T22:27:01.579712Z",
+  "updated_at": "20250723T22:29:39.371032Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2b5def56a06e4ed5a6c0aecd0e970d1c",
+      "query": "",
+      "answer": "A GitHub Models egy fejlesztői eszközkészlet, amely támogatja a mesterséges intelligencia (AI) modellek fejlesztését, tesztelését és bevezetését közvetlenül a GitHub tárolókban. Lehetővé teszi AI ötletek gyors prototípus készítését, modellek összehasonlítását, promptok fejlesztését, kiértékelését és AI integrációját a fejlesztési munkafolyamatba[1][2][5][9].\n\nA GitHub Models főbb jellemzői:\n\n Modell katalógus: Széles körű AI modellek közül választhatsz és kísérletezhetsz velük ingyenesen a GitHub Model Playgroundban[3][9].  \n Prompt menedzsment: A promptokat strukturált formában (.prompt.yml fájlok) tárolhatod a tárolódban, így verziózhatók, közösen szerkeszthetők és felülvizsgálhatók, hasonlóan a kódhoz[7][9].  \n Modellek összehasonlítása: Egyidejűleg párhuzamosan kipróbálhatsz és összehasonlíthatsz több modellt ugyanazzal a bemenettel, így könnyen látod, melyik produkálja a legjobb választ [3][5][9].  \n Értékelők (evaluators): Automatikus metrikák (pl. hasonlóság, relevancia, groundedness) segítségével mérheted a modellek kimeneteinek minőségét és nyomon követheted a fejlődést[5][9].  \n Integráció a fejlesztési folyamatba: A mentett konfigurációk segítségével SDKkon és REST APIkon keresztül beépítheted az AI modelleket alkalmazásaidba vagy munkafolyamataidba[5][9].  \n Skálázhatóság és vállalati irányítás: Szervezetek számára elérhető szervezeti és vállalati szintű beállítási lehetőségek, modellek engedélyezése vagy tiltása, illetve auditálás, biztonság[6][7].\n\nA GitHub Models jelenleg „public preview” státuszban van, ami azt jelenti, hogy folyamatosan fejlesztik, és egyes funkciók változhatnak vagy korlátozottak lehetnek. Ez az eszközkészlet elsősorban tanulásra, prototípuskészítésre és koncepció bemutatására szolgál, nem pedig komplett üzemi környezethez készült[5][6].\n\nHasználata:\n\n Egyéni felhasználók esetén a GitHub tárolójuk beállításai között engedélyezhetik a GitHub Models funkciót[6][9].  \n Szervezeteknél az enterprise vagy szervezeti tulajdonosok engedélyezhetik és szabályozhatják a hozzáférést[6][9].  \n\nÖsszefoglalva, a GitHub Models egy integrált AIfejlesztői környezet a GitHubon, amely megkönnyíti az AI modellek kipróbálását, optimalizálását, verziózását, értékelését és alkalmazásba illesztését a megszokott kódfejlesztési folyamatokkal párhuzamosan[1][5][7][9].",
+      "created_at": "20250723T22:27:01.811011Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "651d905d4423490cb539545fb93fe5da",
+      "query": "az osszes aloldal linket kuld el",
+      "answer": " GitHub Models – Aloldalak listája\n\nAz alábbiakban megtalálod a GitHub Models hivatalos dokumentációjának összes elérhető aloldalát (2025. július):\n\n Főoldal:  \n  \n\n About GitHub Models (Áttekintés):  \n  \n\n Use GitHub Models (Használat):  \n  \n\n GitHub Models at scale (Nagyvállalati felhasználás/menedzsment):  \n  \n\n Responsible use of GitHub Models (Felelős használat):  \n  \n\nEzek az oldalak a fő dokumentációs kategóriák, melyekből a részletes tartalom elérhető fejlécek/könyvjelzők segítségével. A dokumentáció jelenleg viszonylag tömör, további aloldalak vagy szekciók a fent említett címek alatt találhatók meg[1].\n\nMegjegyzés: A GitHub dokumentáció gyakran dinamikus, így új szekciók vagy részletesebb különálló aloldalak a jövőben megjelenhetnek.\n\n\nAz oldalletöltések és a tartalomjegyzék alapján a fenti linkek jelentik a teljes „GitHub Models” dokumentáció struktúráját[1].",
+      "created_at": "20250723T22:27:32.694616Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "85f40f64c64143dd80743589800deb5e",
+      "query": "de a grok 3 rol es gpt 4.1rol\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Grok 3 fő tulajdonságai\n Fejlett természetes nyelvi feldolgozás és rövid, közvetlen válaszok[1].\n 1 millió tokenes kontextusablak, hosszú beszélgetések és nagy dokumentumok kezelése[1][2].\n Kiemelt érvelési képesség, lépésről lépésre történő problémamegoldás[1][2].\n Magas tudományos és műszaki teljesítmény: AIME '24, GPQA, MMLUPro, MMMU benchmarkokon kimagasló eredmények[2].\n DeepSearch intelligens kereső motor, saját gondolatmenetének megfogalmazására képes[3].\n Több verzió: Grok3 Mini (gyorsabb, költséghatékonyabb)[2].\n Képes szöveg, kép, videó feldolgozására (multimodalitás)[2].\n 2,7 billió paraméter, 12,8 billió token tanulási adathalmaz[4].\n Gyors válaszkészítés, alacsony válaszkésleltetés (átlagosan 67 ms)[4].\n Nem nyílt forráskódú[2].\n xAI Colossus szuperszámítógépklaszteren képzett modell[2].\n\n\n GPT4.1 fő tulajdonságai\n 1 millió tokenes kontextusablak, gigászi hosszúságú textusok értelmes kezelése[5].\n Több modellméret: nano, mini, full – eltérő sebesség és árazás[5].\n Jelentősen javult utasításkövetés, jobb formátum és tartalomkövetés, javult többlépéses utasítás esetén[6][5].\n 32 768 tokenes kimeneti limit[6].\n Kódolásban jelentős fejlődés, SWEbench Verified teszten 54,6%os pontszám[6].\n Fejlettebb többnyelvűség, Aider polyglot benchmarkban is jobban teljesít[6].\n Olcsóbb, mint a GPT4o (kb. 26%kal)[7].\n Stabilabb teljesítmény, hosszú beszélgetések során sem veszít kontextust[5].\n Üzleti, oktatási és technikai felhasználásokhoz optimalizált[5].\n Platformfüggetlen felhőszolgáltatás, széles körű API támogatás[8][9].",
+      "created_at": "20250723T22:28:40.792171Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "9cf59f4787c040a0bc6da9ef68d5a2bf",
+      "query": "válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Grok 3\n Grok 3 Mini\n GPT 4.1",
+      "created_at": "20250723T22:29:00.372158Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "d4d49c4d72e948888adb00265702c5c7",
+      "query": "DE A LINKEKET GITHUB MIDELEOL",
+      "answer": "   \n   \n   \n   \n   \n   \n   \n ",
+      "created_at": "20250723T22:29:35.629615Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

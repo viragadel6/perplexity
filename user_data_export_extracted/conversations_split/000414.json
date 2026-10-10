@@ -1,0 +1,37 @@
+{
+  "context_uuid": "ab7e6eb74d714165851b08b671c73543",
+  "context_title": "\nez from scartch modelv",
+  "created_at": "20260912T16:59:15.967063Z",
+  "updated_at": "20260912T17:03:43.517797Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "18947b044f034d88a878c1a85d28e2d1",
+      "query": "\nez from scartch modelv",
+      "answer": "Igen, a  egy teljesen alapoktól (from scratch) előtanított modell.[1][2]\n\nA Yandex hivatalos technikai dokumentációja és publikációja alapján a modellt nulláról tanították a saját adathalmazukon, nem pedig egy meglévő nyílt modell finomhangolása.[2][3]\n\n Főbb technikai részletek\n\n Előtanítás alapoktól: A modellt 15 billió (15T) token méretű saját adathalmazon tanították elő UL2 denoising célfüggvénnyel, a kontextusablakot pedig YaRN segítségével skálázták fel 8Król 128Kra a tanítás végén.[2]\n Architektúra: Encoderdecoder felépítésű, ritka szakértői hálózattal (MoE — Mixture of Experts) kiegészítve.[1][2]\n Paraméterszám: Összesen körülbelül 34,35–34,5 milliárd paraméterből áll, de tokenenként csupán mintegy 600 millió (0,6B) paraméter aktív.[4][1]\n Szakértők felépítése: Rétegenként 512 szakértőt tartalmaz, amelyek közül minden egyes tokennél a top8 kerül kiválasztásra.[1]\n Célterület: Kifejezetten a nagy terhelésű keresési találatokhoz (a Yandex Kereső gyors AIválaszaihoz) tervezték, ahol kritikus az alacsony késleltetés és a költséghatékony kiszolgálás.[3][2]",
+      "created_at": "20260912T16:59:16.093340Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "3e1f78dbf33449fcb7c7f8c24ac32cce",
+      "query": "es ez? ",
+      "answer": "Nem, a  ebben a formájában nem egy klasszikus, nulláról előtanított (from scratch) modell.[1][2]\n\nA modell lényege éppen az, hogy elkerülje a rendkívül erőforrásigényes \"from scratch\" tanítást: a BAAI kutatói egy EfficientScale nevű progresszív skálázási módszerrel hozták létre egy kisebb sűrű (dense) alapról kiindulva.[2]\n\n Hogyan építették fel a modellt\n\n 1. Kiindulási alap: Kezdetben egy kisebb, sűrű modellt (AquilaDense7B) tanítottak nulláról 3,6 billió tokenen.[2]\n 2. ScaleUp szakasz: A 7B modellt nem a semmiből tanították újra, hanem a súlyait felhasználva inicializáltak egy nagyobb, 16 milliárdos sűrű modellt (AquilaDense16B), majd folytatólagos előtanítást végeztek rajta további 1,2 billió tokenen.[2]\n 3. ScaleOut (MoE) szakasz: Az elkészült 16Bs modellből alakították ki a végleges MoE architektúrát (8 szakértő, egyenként 16B paraméterrel), a szakértőket a 16Bs modell súlyaival klónozva/inicializálva, és mindössze körülbelül 545 milliárd tokenen tanították tovább az összefésülést.[2]\n\nA teljes struktúra tehát egy többlépcsős tudásátviteli (knowledge transfer / upcycling) eljárás eredménye.[2]",
+      "created_at": "20260912T17:02:37.717521Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6ef3c9198e944acabde0aaa68fe1c9c5",
+      "query": "de ugy ertem hogy nem egy qwen stb finetune",
+      "answer": "Igen, ilyen értelemben teljesen független saját modellről van szó.[1][2]\n\nA BAAI/AquilaMoE nem egy külső modellből (mint a Qwen, LLaMA vagy Mistral) készült LoRA vagy SFT finomhangolás. A teljes modellcsalád a pekingi mesterséges intelligencia akadémia (BAAI) saját fejlesztése.[2][1]\n\n Eredet és származás\n\n Saját bázis: Az alapját a BAAI saját fejlesztésű, nulláról előtanított kétnyelvű modellje, az Aquila7B adta, amelyet saját kínaiangol szöveges korpuszon tanítottak.[1][2]\n Saját skálázási lánc: A kutatók ebből a 7Bs saját alapból kiindulva hozták létre a 16Bs változatot, majd abból az AquilaMoEt a súlyok klónozásával és továbbképzésével (continual pretraining).[1]\n Különbség a finomhangoláshoz képest: Ez egy valódi alapkutatási kísérlet a hatékony előtanítási módszerekre (upcycling / scaleup), nem pedig egy már meglévő nyílt súlyú modell felügyelt finomhangolása (SFT).[1]",
+      "created_at": "20260912T17:03:36.161511Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

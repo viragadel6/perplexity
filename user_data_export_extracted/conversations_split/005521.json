@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6f97a5418ffb48feb17a644fa5111988",
+  "context_title": "",
+  "created_at": "20251219T05:04:40.099039Z",
+  "updated_at": "20251219T05:04:40.099039Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "06702eafef194a6c9d5fcf7a4ae67033",
+      "query": "",
+      "answer": "A  webcímen az Internxt AI érhető el, amely egy 2025 decemberében elindított, kifejezetten adatvédelemre összpontosító mesterséges intelligencia asszisztens. A szolgáltatást a biztonságos felhőtárhelyéről ismert spanyol Internxt vállalat fejlesztette ki, azzal a céllal, hogy európai alternatívát nyújtson az olyan nagy modellekkel szemben, mint a ChatGPT.[1][2]\n\nÍme a szolgáltatás legfontosabb jellemzői:\n\n Fő funkciók és előnyök\n\n   Maximális adatvédelem: A beszélgetések végpontok közötti (endtoend) titkosítással védettek, ami azt jelenti, hogy még maga a szolgáltató (az Internxt) sem férhet hozzá az üzenetek tartalmához. A rendszer \"zeroknowledge\" (nulla ismeret) elven működik.[2][1]\n   Névtelenség: A szolgáltatás használatához nincs szükség regisztrációra, bejelentkezésre vagy személyes adatok megadására. Az oldal nem használ nyomkövető sütiket (cookiekat) és nem tárol felhasználói azonosítókat.[2]\n   Európai szuverenitás: A modellt teljes egészében európai szervereken futtatják, így megfelel a szigorú uniós adatvédelmi előírásoknak (GDPR) és az EU AI Act szabályozásnak. Ez garantálja, hogy az adatok nem hagyják el az Európai Unió területét.[3][2]\n   Biztonság: A rendszer posztkvantum titkosítást (Kyber512 algoritmus) alkalmaz, amely a jövőbeli, kvantumszámítógépek általi feltörési kísérletek ellen is védelmet ígér.[4][2]\n\n Mire használható?\nAz Internxt AI hasonló funkciókat kínál, mint más generatív AI modellek:\n   Kérdések megválaszolása és információkeresés.\n   Szövegírás és kreatív tartalomkészítés.\n   Programozási segítség és kódelemzés.\n   Adatok elemzése.\n\nA szolgáltatás jelenleg ingyenesen hozzáférhető, és többnyelvű támogatással rendelkezik. A technológiai hátterét egy nyílt forráskódú, robusztus nyelvi modell biztosítja, amelyet úgy optimalizáltak, hogy elfogulatlan és precíz válaszokat adjon.[5][2]\n\n Háttér\nAz Internxt egy 2020ban alapított, valenciai székhelyű vállalat, amelynek fő profilja a biztonságos, titkosított felhőtárhely (Internxt Drive). Az új AI szolgáltatásuk illeszkedik a cég filozófiájába, miszerint a felhasználói adatok védelme és a magánszféra tiszteletben tartása az elsődleges szempont.[6][7]",
+      "created_at": "20251219T05:04:40.252488Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

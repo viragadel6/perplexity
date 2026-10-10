@@ -1,0 +1,19 @@
+{
+  "context_uuid": "cec597dbad8949978c4715d7ead1fa18",
+  "context_title": "melyik txt fajlba van a legjobb verzio?",
+  "created_at": "20250919T01:27:52.415226Z",
+  "updated_at": "20250919T01:27:52.415226Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b55b211ec89e469c8715a7f47e1f206e",
+      "query": "melyik txt fajlba van a legjobb verzio?",
+      "answer": "A fájlok közül a „legjobb verzió” a julia22.txt, mert ugyanazokat a kritikus javításokat és optimalizálásokat tartalmazza, mint a julia2.txt, de emellett szélesebb körű, kiforrottabb modulokat és értékelő pipelineokat is integrál (Attend/memoryefficient attention skálázás és maszkolás fixek, RPE, SmoothLDDT, WeightedRigidAlign, több fizikai ellenőrzés, RDKitalapú CCD feldolgozás, OSTcompare értékelések, AF3/Chai/Boltz metrikaaggregáció), így funkcionálisan a legteljesebb és legkonzisztensebb implementációt adja [1].\n\n Mit tartalmaznak\n julia22.txt: Teljes Attention stack (Attend, Attention, memoryefficientattention) a skálázás, maszkolás és dimenziókezelés javításaival; RPE, SmoothLDDTLoss, WeightedRigidAlign, MultiChainPermutationAlignment; RDKitalapú komponenskönyvtár feldolgozás; fizikai ellenőrzések (távolsággeometria, sztereokémia, síklapúság, sztérikus ütközés); OpenStructureértékelés (LDTT, TMscore, DockQ) és AF3/Chai/Boltz metrikaösszesítés; tréning/konfigurációs struktúrák, ami egyben „productionready” csomaggá teszi [1].\n\n julia2.txt: Nagyon közeli tartalom a fentihez, ugyanazokkal a kritikus Attention fixekkel és széles eszköztárral, de kevesebb, kevésbé egységes értékelő/aggregáló rész és némi duplikáció; funkcionálisan erős, de kevésbé kompakt, mint a julia22.txt [2].\n\n julia1.txt: Elsősorban az Attention és néhány speciális komponens (RPE, SmoothLDDT, WeightedRigidAlign stb.) fókuszált javításait tartalmazza, de nem olyan teljes körű a környező pipelineokban és értékelésekben, mint a julia22.txt [3].\n\n jaded1.txt: Vegyes nyelvű (Elixir/Idris/Unison/SystemVerilog) ökoszisztéma és infrastruktúra, nem a konkrét Juliamodell „verziója”; inkább rendszer és verifikációs környezet, nem a keresett Julia implementáció legjobb változata [4].",
+      "created_at": "20250919T01:27:52.540422Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

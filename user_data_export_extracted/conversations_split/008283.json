@@ -1,0 +1,28 @@
+{
+  "context_uuid": "2ca6fbacecdd47898d6276e5e28464f5",
+  "context_title": "direkt linkeket kuld docs hoz:\ndragonfly\nupstash\nmodal\niqm\nibm quantum\nionq\n\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250924T16:25:47.231455Z",
+  "updated_at": "20250924T16:27:15.896098Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5cb1d4824e2b42e896bcc5abc157b1e8",
+      "query": "direkt linkeket kuld docs hoz:\ndragonfly\nupstash\nmodal\niqm\nibm quantum\nionq\n\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "  [1]\n  [2][3]\n  [4]\n  [5]\n  [6]\n  [7]",
+      "created_at": "20250924T16:25:47.374192Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "1cb69d50def7445b9652c3b4ef648c2f",
+      "query": "aloldalwkat is válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "  [1]\n  [2]\n  [3]\n  [4]\n  [5]\n  [5]\n  [5]\n  [5]\n  [6]\n  [7]\n  [8]\n  [9]\n  [10]\n  [11]",
+      "created_at": "20250924T16:26:49.300716Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

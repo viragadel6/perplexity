@@ -1,0 +1,19 @@
+{
+  "context_uuid": "97a6690b27d24935b7871558541bbf9a",
+  "context_title": "A LEGMAGASABB MINOSEGU TELJES FOLDI tudast tartalmazo llm train datasets A LEGMAGDABB SZINTU TISZTITOTT ami elerheto es max 1 honapos!",
+  "created_at": "20250923T02:47:54.927673Z",
+  "updated_at": "20250923T02:47:54.927673Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "ff6aa5e2c4934f6b90c2f1bea9c3b198",
+      "query": "A LEGMAGASABB MINOSEGU TELJES FOLDI tudast tartalmazo llm train datasets A LEGMAGDABB SZINTU TISZTITOTT ami elerheto es max 1 honapos!",
+      "answer": "Which are the highestquality large language model (LLM) training datasets containing the most complete and thoroughly cleaned global human knowledge that are available and are no older than one month?\n\nMelyek a legmagasabb minőségű nagy nyelvi modelleket (LLM) tanító adathalmazok, amelyek a legteljesebb és legmagasabb szinten tisztított, elérhető, legfeljebb egy hónapos globális emberi tudást tartalmazzák?",
+      "created_at": "20250923T02:47:55.238519Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

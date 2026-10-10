@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4cd582e29f974c5e89eb60b186dc3b94",
+  "context_title": "legfejlettebb, legjobban tisztított, legmagasabb minőségű training data setek kellenek, Ha ezekből a data setekből együttesen betanítok egy modellt, akkor az képes lesz elsajátítani a teljes földi tudást, és a világ első számú, legfejlettebb LLM‑je lehet a model\nBrutalisan ismeretlen rejtett helyrol kell nem github huggibgface meg arxiv\nmost pretrain dataset kene",
+  "created_at": "20251109T22:37:46.834618Z",
+  "updated_at": "20251109T22:37:46.834618Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "8e86b089ab5d4580b27e4db09006775c",
+      "query": "legfejlettebb, legjobban tisztított, legmagasabb minőségű training data setek kellenek, Ha ezekből a data setekből együttesen betanítok egy modellt, akkor az képes lesz elsajátítani a teljes földi tudást, és a világ első számú, legfejlettebb LLM‑je lehet a model\nBrutalisan ismeretlen rejtett helyrol kell nem github huggibgface meg arxiv\nmost pretrain dataset kene",
+      "answer": "Kérdés angolul:\n\n\"most advanced\" \"highest quality\" \"pretraining data\" for LLMs from \"unconventional sources\" github huggingface arxiv\n\"nonpublic scientific datasets\" for training neural networks\n\"highest quality, littleknown datasets\" for large language models\n\nKérdés magyarul:\n\n\"legfejlettebb\" \"legmagasabb minőségű\" \"előtréning adatok\" LLMekhez \"nem szokványos forrásokból\" github huggingface arxiv\n\"nemnyilvános tudományos adathalmazok\" neurális hálók tanításához\n\"legjobb minőségű, kevéssé ismert adatbázisok\" nagy nyelvi modellekhez",
+      "created_at": "20251109T22:37:47.546539Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

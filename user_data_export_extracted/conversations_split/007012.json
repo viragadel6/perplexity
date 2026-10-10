@@ -1,0 +1,37 @@
+{
+  "context_uuid": "203fddceb2b44fa282a4851a3e475222",
+  "context_title": "ez mi",
+  "created_at": "20251029T09:17:20.446665Z",
+  "updated_at": "20251029T09:19:16.905456Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4c66804eb76f4b2d93e480ad9fe61500",
+      "query": "ez mi",
+      "answer": "Ez egy Julia nyelvű keresőmotor implementáció, amely weboldalak indexelésére és keresésére szolgál HTTP APIval.[1]\n\n Fő funkciók\n\nA kód egy egyszerű, de funkcionális keresőmotort valósít meg, amely tartalmazza a következő komponenseket:[1]\n\nSearchEngine struktúra: A keresőmotor központi adatstruktúrája, amely tárolja a vektorindexet (384 dimenziós), metaadatokat, dokumentumokat és szövegelemzési korpuszt.[1]\n\nWeb crawling: A crawl() függvény HTML oldalak letöltésére és szöveges tartalom kinyerésére szolgál, eltávolítva a script és style elemeket.[1]\n\nSzövegvektorizálás: A simple_encode() függvény egy egyszerű hashalapú módszert használ szövegek numerikus vektorokká alakítására, amely szinusz függvényekkel és normalizálással dolgozik.[1]\n\nIndexelés: Az add_to_index() függvény URLeket ad hozzá az indexhez  a szöveget darabokra (chunks) bontja 1000 karakteres blokkokra 200 karakter átfedéssel, majd vektorokat generál belőlük.[1]\n\n Keresési módok\n\nNeurális keresés: Vektoros hasonlóságon alapul, a lekérdezést ugyanúgy kódolja, mint a dokumentumokat, majd koszinusz hasonlóságot számol.[1]\n\nKulcsszavas keresés: Egyszerű szószámlálásalapú keresés, amely a query szavak előfordulási gyakoriságát keresi a dokumentumokban.[1]\n\nAuto mód: Automatikusan választ a két módszer között  ha a lekérdezés több mint 4 szóból áll, neurális keresést használ, egyébként kulcsszavast.[1]\n\n HTTP API végpontok\n\nA keresőmotor REST APIt biztosít 5000es porton:[1]\n\n POST /add: URL hozzáadása az indexhez\n GET/POST /search: Keresés a lekérdezés alapján (paraméterek: q, k, type)\n GET /get_content: Tárolt tartalom lekérése URL alapján\n\nAz indexelt adatok perzisztensen tárolódnak fájlokban (faiss_index.jls, metadata.jls, doc_store.jls).[1]",
+      "created_at": "20251029T09:17:20.766540Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "25dfcde7f36d44c8bcda1243a5b38eee",
+      "query": "hogy mukodik",
+      "answer": "A keresőmotor működése három fő lépésből áll: indexelés, vektorizálás és keresés.[1]\n\n Indexelési folyamat\n\nAmikor egy URLt hozzáadsz az indexhez, a rendszer először letölti és feldolgozza a weboldalt:[1]\n\nWeb crawling: A crawl() függvény HTTP kéréssel letölti az oldalt, majd a Gumbo HTML parser segítségével kinyeri a szöveges tartalmat, eltávolítva a script és style elemeket. A szöveg normalizálva van (whitespaceek egyesítése).[1]\n\nSzöveg darabolás: A chunk_text() függvény 1000 karakteres darabokra (chunks) bontja a szöveget 200 karakter átfedéssel, hogy ne vesszenek el a határon lévő kontextusok. Az üres darabokat kiszűri.[1]\n\nTárolás: A teljes szöveg eltárolódik a doc_store dictionaryben URL kulccsal, míg a metaadatok (URL és chunk szöveg) külön lista formájában.[1]\n\n Vektorizálási mechanizmus\n\nA simple_encode() függvény egy egyszerű, de hatékony hashalapú módszert használ:[1]\n\nHash számítás: Minden szót kisbetűsítenek és hash értéket számolnak belőle.[1]\n\nVektor generálás: Egy 384 dimenziós vektort hoz létre úgy, hogy minden dimenzióhoz a szavak hash értékének és a dimenzió indexének szorzatára szinusz függvényt alkalmaz: sin(hash_val * j) minden j dimenzióra.[1]\n\nNormalizálás: A vektort normalizálja (osztja a normájával), így minden vektor egységnyi hosszúságú lesz, ami koszinusz hasonlóság számításhoz optimális.[1]\n\nA vektorok egy mátrixban (vector_index) tárolódnak, ahol minden oszlop egy chunk vektora.[1]\n\n Keresési algoritmusok\n\nNeurális keresés: A lekérdezést ugyanúgy vektorizálja, mint a dokumentumokat, majd koszinusz hasonlóságot számol: similarities = qemb' * vector_index. Az eredményeket URL szerint csoportosítja, minden URLhez a legjobb pontszámú chunkot választja, és a top 3 legjobbat adja vissza highlightsként. Ha a query URL, akkor az azonos domainről származó találatok 20%os bónuszt kapnak.[1]\n\nKulcsszavas keresés: A query szavait egyszerűen megszámolja a dokumentumokban (count(word, full_lower)), és a találatok közül azokat a mondatokat választja ki highlightsnak, amelyek tartalmazzák a keresett szavakat.[1]\n\nAuto mód: Ha a query több mint 4 szóból áll, neurális keresést használ, egyébként kulcsszavasat.[1]\n\n Perzisztencia\n\nA rendszer három fájlba menti az állapotot: faiss_index.jls (vektor index), metadata.jls (URLchunk párok), doc_store.jls (teljes szövegek). Indításkor automatikusan betölti ezeket, ha léteznek.[1]",
+      "created_at": "20251029T09:18:16.060654Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "9f40577f713d4d70b1a2d588c8bcfe51",
+      "query": "de en hogy hasznalom",
+      "answer": "A keresőmotor használatához először el kell indítanod a Julia szervert, majd HTTP kérésekkel tudsz kommunikálni vele.[1]\n\n Indítás\n\njulia\njulia file-1.jl\n\n\nEz elindítja a szervert a 0.0.0.0:5000 címen. A szerver automatikusan betölti a korábban mentett indexeket, ha léteznek (faiss_index.jls, metadata.jls, doc_store.jls).[1]\n\n URL hozzáadása az indexhez\n\nEndpoint: POST http://localhost:5000/add[1]\n\nPélda curl paranccsal:\nbash\ncurl -X POST http://localhost:5000/add \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"url\": \"https://example.com\"}'\n\n\nVálasz:\njson\n{\"status\": \"added\"}\n\n\nEz letölti az oldal tartalmát, indexeli és elmenti.[1]\n\n Keresés\n\nEndpoint: GET vagy POST http://localhost:5000/search[1]\n\nGET kéréssel (URL paraméterekkel):[1]\nbash\ncurl \"http://localhost:5000/search?q=keresési+kifejezés&k=10&type=auto\"\n\n\nPOST kéréssel (JSON bodyval):[1]\nbash\ncurl -X POST http://localhost:5000/search \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"q\": \"keresési kifejezés\", \"k\": 10, \"type\": \"neural\"}'\n\n\nParaméterek:[1]\n q: keresési lekérdezés (kötelező)\n k: eredmények száma (alapértelmezett: 10)\n type: keresési típus  \"auto\", \"neural\" vagy \"keyword\" (alapértelmezett: \"auto\")\n\nVálasz példa:\njson\n[\n  {\n    \"url\": \"https://example.com\",\n    \"score\": 0.85,\n    \"highlights\": [\"releváns szövegrészlet 1\", \"releváns szövegrészlet 2\"],\n    \"full_content\": \"teljes szöveg...\"\n  }\n]\n\n\n Tárolt tartalom lekérése\n\nEndpoint: GET http://localhost:5000/get_content[1]\n\nPélda:\nbash\ncurl \"http://localhost:5000/get_content?url=https://example.com\"\n\n\nEz visszaadja az adott URLhez tárolt teljes szöveges tartalmat.[1]\n\n Keresési módok\n\nAuto: Ha a query 4 szónál hosszabb, neurális keresést használ, egyébként kulcsszavasat.[1]\n\nNeural: Szemantikus keresés vektorok alapján, jobb hosszabb lekérdezéseknél.[1]\n\nKeyword: Egyszerű szószámlálásalapú keresés, gyorsabb rövid kulcsszavaknál.[1]",
+      "created_at": "20251029T09:18:53.906613Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

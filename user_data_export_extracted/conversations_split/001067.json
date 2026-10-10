@@ -1,0 +1,19 @@
+{
+  "context_uuid": "91b6b678024948199d6e5f7d7e1236e0",
+  "context_title": "valyu deep searchoz hogy csatlakoztasdam a repomat ezen keresztül?\n\n",
+  "created_at": "20260812T13:46:39.393843Z",
+  "updated_at": "20260812T13:51:27.527037Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b2d312eeb2d74b259f89a1b49edd8b24",
+      "query": "valyu deep searchoz hogy csatlakoztasdam a repomat ezen keresztül?\n\n",
+      "answer": "Röviden: nem, ezt a GitHub repo linket (https://github.com/probelabs/docs-mcp.git) nem tudod közvetlenül beilleszteni a \"Server URL\" mezőbe – az MCP Servers form egy élő, HTTPn futó MCP végpontot vár, nem egy repó URLt.\n\n Miért nem működik közvetlenül\n\nA probelabs/docs-mcp (más néven @buger/docs-mcp) alapból egy helyi, stdioalapú eszköz, amit npxszel indítasz el a saját gépeden vagy szerveren – nincs saját, mindig futó HTTP szervere, amit csak be lehetne linkelni. A projekt READMEje is npx -y @buger/docs-mcp@latest --gitUrl <repo-url> formában mutatja a használatát, IDEkliens configokban (command/args mezőkkel), nem egy nyilvános URLlel.[1][2]\n\nA platform.valyu.ain látott \"Custom MCP Server\" form viszont a Server URL / Name / Authentication mezőkkel egy remote, streamableHTTP MCP kliens bemenetét várja – pontosan úgy, ahogy pl. a Claude egyéni konnektorai vagy más remoteMCP integrációk is működnek: az MCP endpointnak egyetlen HTTP URLen kell POST/GET kéréseket fogadnia (jellemzően .../mcp végződéssel).[3][4]\n\n Hogyan tudod mégis becsatlakoztatni a repódat\n\n1. Hosztold a docsmcpt Smitheryn (a legegyszerűbb út)\nA docs-mcp már regisztrálva van a Smithery MCPregisztrációban @buger/docs-mcp néven, \"Remote\" (hosztolt) szerverként. Ha ezt telepíted/publikálod a saját repódra mutatva, kapsz egy nyilvános HTTP URLt (formátuma jellemzően https://server.smithery.ai/@felhasznalo/docs-mcp/mcp), amit a repódhoz szükséges konfigurációval (pl. gitUrl query paraméterként) tudsz meghívni – ezt az URLt másolhatod be a Valyu form \"Server URL\" mezőjébe.[5][6][7]\n\n2. Saját magad hosztolod streamable HTTPn\nA docs-mcp forráskódját sablonként felhasználva átalakíthatod remote HTTP MCP szerverré (pl. Cloudflare Workers, Fly.io), ahol a --gitUrl paraméter a te repódra mutat, és a szerver egy /mcp végponton válaszol – ezt az URLt adod meg a formban.[8][9]\n\n3. Nézd meg az \"Advanced Options\"t a Valyu formban\nHa a platform támogat stdio/parancs alapú indítást is (a képen látszó \"Advanced Options\" lenyíló alatt), ott esetleg meg lehet adni egy futtatandó parancsot (npx -y @buger/docs-mcp@latest --gitUrl https://github.com/sajat-repod) URL helyett – ez direktben, hosztolás nélkül is működne, de ezt csak a form kibontásával lehet megerősíteni, mert a leírásában erre nem találtam nyilvános dokumentációt.\n\nÖsszefoglalva: a \"Server URL\" mezőbe egy futó MCPszerver URLje kell, nem a GitHub repó linkje – a repódat a docsmcp segítségével csak úgy tudod becsatlakoztatni, ha előbb ezt az eszközt (Smitheryn vagy saját hosztingon) elindítod, és a kapott HTTP endpointot illeszted be.",
+      "created_at": "20260812T13:46:39.431706Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

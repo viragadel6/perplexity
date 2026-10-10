@@ -1,0 +1,19 @@
+{
+  "context_uuid": "29d9eb0757794a79adbdad50b3a25d7d",
+  "context_title": "",
+  "created_at": "20250713T14:44:04.843958Z",
+  "updated_at": "20250713T14:44:04.843958Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8bd51e34c18d4cf98726641cedb99832",
+      "query": "",
+      "answer": "A kollarsandor.com weboldal Kollár Sándorhoz köthető, aki modern, egyedi és kreatív weboldalak tervezésével és fejlesztésével foglalkozik. A honlapon kiemelt szerepet kap a Jade nevű, saját fejlesztésű Deep Discovery AI Platform, amely fenntartható üzleti modellek támogatását célozza, és mesterséges intelligencia alapú megoldásokat kínál vállalkozások számára. A szolgáltatások között megtalálható a UI/UX tervezés, SEO optimalizálás, valamint egyedi digitális fejlesztések is, amelyek mind azt szolgálják, hogy az ügyfelek online jelenléte eredményes és korszerű legyen[1][2][3][4]. Az oldal elérhetőséget is biztosít, budapesti székhellyel és kapcsolattartási adatokkal.",
+      "created_at": "20250713T14:44:04.865985Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

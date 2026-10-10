@@ -1,0 +1,19 @@
+{
+  "context_uuid": "db6e2070d0054969b6ee0e7cb5b22e40",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20251204T01:44:19.094946Z",
+  "updated_at": "20251204T01:44:19.094946Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "db94089307de4870a74f91d47d397d1f",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": "Ez egy böngészőben futó „mini IDE” (kódszerkesztő) felület teljes frontendes kódja, beépített AI‑ügynökkel, amely a Grok (x.ai) API‑ját hívja meg kódgenerálásra és feladat‑végrehajtásra. A fájl tartalmazza a teljes UI‑t (oldalsáv, tabok, szerkesztő, terminál, logok, preview) és egy JavaScript alapú vezérlőosztályt, ami az egész alkalmazás működését szervezi.[1]\n\n Mi van a fájlban?\n\n Részletes CSS‑stílusok egy sötét témájú IDE‑szerű felülethez: oldalsáv projekteknek, fájllista, tabos szerkesztő, jobb oldali panel (terminál, agent, log, preview), modális ablak az AI‑ügynök futtatásához.[1]\n JavaScript logika egy  osztályban: kezeli a megnyitott fájlokat, a tabokat, a terminált, a logokat, az AI‑panelt, valamint az eseménykezelőket (kattintás, Enter, stb.).[1]\n\n AI‑ügynök funkció\n\n Van egy  modális ablak, ahová beírod a célfeladatot (pl. „Készíts  appot autentikációval”), az app pedig létrehoz egy feladatsorozatot (követelmény‑elemzés, architektúra, környezet, kódgenerálás, tesztelés, hibajavítás, finalizálás).[1]\n Minden feladatra meghívja a  végpontot a  modellel,  (web_search, x_search, code_execution) engedélyezésével, és a válasz alapján logot ír, valamint feldolgozza a kódtömböket (egyelőre csak naplózza, hogy milyen nyelvű kód blokk érkezett).[1]\n\n Technikai minőség\n\n A kód felépítése viszonylag átlátható: egy központi osztály, külön , , ,  stb. metódusokkal, ami fejleszthető alapot ad egy valódi böngészős IDE‑hez.[1]\n A UI‑rész kidolgozott, a stílus konzisztens, jól hozza a klasszikus ‑szerű megjelenést (sötét háttér, panel‑ és tab‑struktúra, státuszok, progress bar, terminál‑szerű kinézet).[1]\n\n Gyenge pontok és kockázatok\n\n Az  a ‑ben van és közvetlenül a böngészőből hívja az API‑t, ami biztonsági szempontból problémás: az API‑kulcs kiszivároghat, ezért ez csak tesztelésre, lokális használatra elfogadható, éles rendszerben nem.[1]\n Az AI‑válaszok feldolgozása jelenleg minimális: a kódtömböket felismeri, de nem illeszti be automatikusan fájlokba, nem módosítja ténylegesen a projektstruktúrát, inkább egy demonstrációs / prototípus szintjén áll.[1]\n\n Összbenyomás\n\nEz egy jól megtervezett frontendes prototípus egy AI‑vezérelt böngészős IDE‑hez, ami UI‑ban már erős, de funkcionálisan még inkább demo: látványos workflow, logok és progress bar, de a „valódi” kódmanipuláció, fájlkezelés és biztonságos backend‑integráció hiányzik vagy nagyon kezdetleges. Ha gyakorló vagy demo célra készült, arra kifejezetten jó; ha produkciós eszközt szeretnél, akkor mindenképp kellene hozzá egy backend, biztonságos API‑kulcs‑kezelés, és mélyebb integráció az AI által generált kóddal.[1]",
+      "created_at": "20251204T01:44:19.162489Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

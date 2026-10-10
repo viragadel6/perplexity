@@ -1,0 +1,19 @@
+{
+  "context_uuid": "078586570b70472e87ce8ad38c1fe7eb",
+  "context_title": "de varj mar a jaidebe mincs is torch alapbol de minek raktad bele?",
+  "created_at": "20251014T21:37:25.866071Z",
+  "updated_at": "20251014T21:37:25.866071Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "154f28b5975640da8d535a41d17b4296",
+      "query": "de varj mar a jaidebe mincs is torch alapbol de minek raktad bele?",
+      "answer": "Sajnálom, de nincs elegendő kontextus az előző beszélgetésről, hogy pontosan válaszoljak a kérdésedre.[1][2]\n\nAz EasyOCR (JaidedAI projekt) esetében a PyTorch (torch) egy kötelező függőség, nem opcionális kiegészítés. Az EasyOCR teljes mértékben a PyTorch keretrendszerre épül, mivel minden mélytanulási műveletét PyTorchban végzi.[1]\n\n Miért szükséges a PyTorch az EasyOCRhez\n\nA PyTorch azért van benne, mert az EasyOCR két fő neurális hálózati komponenst használ:[1]\n\n CRAFT algoritmus  szövegdetektáláshoz\n CRNN modell  karakterfelismeréshez (Resnet/VGG feature extraction, LSTM sequence labeling, CTC decoding)\n\nMindkét modell PyTorchban van implementálva, ezért az EasyOCR telepítéséhez előzetesen telepíteni kell a torch és torchvision csomagokat.[1]\n\n Telepítés\n\nWindows esetén kifejezetten azt javasolják, hogy először telepítsd a PyTorchot a hivatalos oldalról (), és válaszd ki a megfelelő CUDA verziót. Ha csak CPU módban szeretnéd használni, akkor CUDA = None beállítást kell választani.[1]\n\nHa más projektre vagy konkrét kódra gondoltál, kérlek adj több részletet, hogy pontosabban tudjak segíteni.[1]",
+      "created_at": "20251014T21:37:25.934651Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

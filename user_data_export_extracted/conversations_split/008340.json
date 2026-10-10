@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8b6816f399844247b925537b755bbbb8",
+  "context_title": "quantum szamitogep api key ingyenes proba ido legerosebb gep",
+  "created_at": "20250922T00:39:06.949112Z",
+  "updated_at": "20250922T00:39:06.949112Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "6a5846c51095484a989425d68d0f9b93",
+      "query": "quantum szamitogep api key ingyenes proba ido legerosebb gep",
+      "answer": "Where to get a free API key or trial access to the most powerful quantum computers (IBM Quantum, AWS Braket, Azure Quantum, IonQ, Rigetti, DWave)? \n\nHol lehet ingyenes API kulcsot vagy próbaidőt szerezni a legerősebb kvantumszámítógépekhez (IBM Quantum, AWS Braket, Azure Quantum, IonQ, Rigetti, DWave)?",
+      "created_at": "20250922T00:39:07.190036Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "60f8632579e04877964f634ac5a76388",
+  "context_title": "\n  írd meg a végso beadvanyt vegre de az egesget olvasd at mert a vegen a sablonok azok rengeteg mindent kihagynak es hulyeseget irnak mert elotte lett megbeszelve rengeteg nagyon sulyos es komoly dolog amit felkene hasznalni a beadvanyba!",
+  "created_at": "20260325T12:27:47.461701Z",
+  "updated_at": "20260325T12:30:05.444287Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6c6073dcb7374f01a57938cedf4127f0",
+      "query": "\n  írd meg a végso beadvanyt vegre de az egesget olvasd at mert a vegen a sablonok azok rengeteg mindent kihagynak es hulyeseget irnak mert elotte lett megbeszelve rengeteg nagyon sulyos es komoly dolog amit felkene hasznalni a beadvanyba!",
+      "answer": "Sajnos nem sikerült elérni a https://github.com/kollarjade/younotamodel.git repozitóriumt  — a GitHub oldal nem volt publikusan hozzáférhető, vagy a repó privát, illetve nem létezik ilyen nyilvános repository a keresési eredmények alapján.[1][2]\n\n Mit lehet tenni?\n\nAhhoz, hogy meg tudjam írni a végső beadványt, szükségem van a repozitórium tartalmára. Kérlek, tedd az alábbiakat:\n\n1. lehetőség – Tedd publikussá a repót:\nA GitHubon menj a repository Settings → Change visibility → Public beállításra, és utána add meg újra a linket.\n\n2. lehetőség – Másold be ide a tartalmát:\nMásold be közvetlenül a chatbe a következőket:\n A korábbi megbeszélések szövegét / meetingjegyzeteket\n A meglévő beadványsablonokat / részleteket\n A projektleírást\n Bármilyen fontos anyagot, amit felhasználnánk\n\n3. lehetőség – GitHub raw fájlok:\nHa ismered a konkrét fájlok nevét a repóban (pl. README.md, beadvany.md), add meg a közvetlen raw URLt:\nhttps://raw.githubusercontent.com/kollarjade/younotamodel/main/FÁJLNÉV\n\nAmint megkapom az anyagokat, az összes korábbi megbeszélt tartalmat, komoly érveket és fontos részleteket felhasználva megírom a teljes, végleges beadványt — nem sablonszerűen, hanem a valódi, megbeszélt tartalommal!",
+      "created_at": "20260325T12:28:47.542751Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

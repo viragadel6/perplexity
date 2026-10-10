@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2918deb1e9e241029fdb006792788730",
+  "context_title": "teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű black ui design mobile application",
+  "created_at": "20260319T22:38:31.603853Z",
+  "updated_at": "20260319T22:38:57.997531Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "93ad528a0530485f88f6babf6cd01f0e",
+      "query": "teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű black ui design mobile application",
+      "answer": "Íme a legjobb, valóban underdog, kevéssé ismert fekete / sötét UI dizájnú mobilalkalmazások és dizájn referenciák, amelyek minőségükben messze felülmúlják a mainstream megoldásokat:\n\n\n\n Kino – Kamera & Filmes Eszköz\n\nA Kino (iOS) az egyik legjobban titokban tartott gem a mobilos dark UI világában.  oldalán is kiemelt helyen szerepel, mégis szinte ismeretlen a szélesebb fejlesztői közösségben . Az alkalmazás egy profi videókameraeszköz, amely teljesen fekete alapon, filmszerű esztétikával operál — minden gomb, csúszka és állapotjelző precízen komponált, mintha egy analóg filmstúdió vezérlőpultját digitalizálták volna. Az Apple Design Award körüli zajon kívül gyakorlatilag nincs mainstream figyelem rá, holott UIminőségben veri a Camera+ és ProCamera alkalmazásokat.\n\n Fey – Portfóliókövetés\n\nA Fey alkalmazás egy személyes befektetési portfólió tracker, amelynek dark UIja annyira letisztult és részletgazdag, hogy a pénzügyi appok általában lapos és generikus megjelenésével szemben valódi vizuális élményt nyújt . A dark.design oldalon „Fey Earnings\" és „Fey Finder\" névvel is szerepel, ami mutatja, hogy a fejlesztőcsapat konzisztens dizájnrendszerrel dolgozik az egész produkton át. Az animációk, a tipográfia és az adatvizualizáció harmóniája olyan szinten van, amelyet a Robinhood vagy a Revolut sem ért el.\n\n Tiempo – Időjárás Minimalizmus\n\nA Tiempo egy időjárásalkalmazás, amely radikálisan eltér a Weather Channelféle ikonos,",
+      "created_at": "20260319T22:38:31.758064Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

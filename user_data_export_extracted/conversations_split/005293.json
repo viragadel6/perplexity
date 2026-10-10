@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d25836152c354214b2a44fcc57417b34",
+  "context_title": "",
+  "created_at": "20251226T15:35:27.806156Z",
+  "updated_at": "20251226T15:35:27.806156Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "02ad6c920d0245a7bb49fbb0b60bfacc",
+      "query": "",
+      "answer": "Deepgram Voice AI offers multilingual speechtotext (STT) capabilities on AWS Marketplace. The product listing at the provided URL (prodviewpnd4oy3p2xtro) enables quick deployment with usagebased pricing and consolidated AWS billing.[1]\n\n Key Features\nDeepgram integrates with AWS services for scalable voice AI, supporting trials, POCs, and production use. It holds AWS Generative AI Competency status through a multiyear collaboration. Financing options like PNC Vendor Finance are available for eligible US customers.[1]\n\n Usage Benefits\nProcure via AWS Marketplace for easy onboarding and alignment with AWS commitments. Reviews and additional details are accessible on dedicated AWS pages. Global scale and firstclass integrations make it suitable for enterprise needs.[2][1]",
+      "created_at": "20251226T15:35:27.936535Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

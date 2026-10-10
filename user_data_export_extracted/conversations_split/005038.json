@@ -1,0 +1,28 @@
+{
+  "context_uuid": "51dfdeb60cdd429cbc7bc9bde875e034",
+  "context_title": "",
+  "created_at": "20260110T16:29:11.395230Z",
+  "updated_at": "20260110T16:30:47.533706Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "777a19598531486f8e1bb900f371f89f",
+      "query": "",
+      "answer": "A linket egy Baylis & Harding Dark Amber & Fig tusfürdőhöz küldted, ami egy illatos, borostyán és füge jellegű, inkább luxushatású tusfürdő, általában 500 mles kiszerelésben kapható. A leírások szerint gyengéden tisztít, hidratál, és bársonyosan puhává teszi a bőrt, tipikusan nőies, melegebb, édesfás illatprofilt célozva. A legtöbb webshop „vegan”/állatkísérletmentes jelleggel árulja, mindennapos használatra ajánlva felnőtteknek.[2][3][4][5]\n\nHa pontosan azt szeretnéd tudni, hogy:\n milyen az illata használat közben (mennyire édes, mennyire erős),\n mennyire szárít vagy épp ápol száraz/érzékeny bőrön,\n vagy hogy megéri‑e az árát a DMben,\n\nírd meg, hogy ezek közül mi érdekel, illetve milyen a bőrtípusod (nagyon száraz, normál, érzékeny, zsíros), és ahhoz igazítva tudok részletesebben segíteni ajánlással is.",
+      "created_at": "20260110T16:29:11.562519Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "a786576689f6447ba6c51ddea4410cfc",
+      "query": "ennek illik az illata ariana cloud parfum hoz?",
+      "answer": "Nem, a Baylis & Harding Dark Amber & Fig tusfürdő illata nem illik jól az Ariana Grande Cloud parfümhöz. A tusfürdő mély, meleg, fásorientális jegyeket hordoz – sötét ámbra (borostyán), lédús füge, cédrus –, ami elegáns, aromaterápiás, hosszan tartó, bőrön mélyen érződő illatot ad, inkább esti vagy őszi hangulathoz passzolva.[1][2][3][4][5][6]\n\n Ariana Cloud illatprofil\nAz Ariana Cloud egy édes, gourmand, krémes parfüm: nyitásban bergamott, körte, levendula; szívben kókusz, praliné, tejszínhab, vanília orchidea; alapban pézsma és fás jegyek – puha, bolyhos, nappali, vidám, édességes felhőszerű aura.[4][7][8]\n\n Összehasonlítás\n| Jellemző          | Dark Amber & Fig tusfürdő [2][6] | Ariana Cloud parfüm [4][7] |\n||||\n| Fő jegyek        | Ámbra, füge, cédrus (fás, gyümölcsösorientális) | Kókusz, vanília, praliné, tejszínhab (édes gourmand) |\n| Hangulat         | Mély, elegáns, meleg, aromás             | Puha, krémes, vidám, bolyhos       |\n| Illike?         | Nem – a fás sötétség elnyomja a Cloud könnyű édességét |                                   |\n| Layering tanács  | Kerüld együtt; jobb fás parfümhöz (pl. Tom Ford Oud Wood) | Édes rétegekhez (pl. body lotion ugyanabból) |\n\nHa mégis kipróbálnád, a tusfürdő illata erősebb maradhat bőrön (46 óra), így torzíthatja a Cloud finom rétegeit – teszteld külön zuhany után. Ajánlott alternatíva Cloud layeringhez: édes vaníliás tusfürdők, mint a Sol de Janeiro Cheirosa 62 vagy hasonló kókuszos body wash.[2][8][5]",
+      "created_at": "20260110T16:29:30.690524Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

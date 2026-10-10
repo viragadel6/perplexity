@@ -1,0 +1,28 @@
+{
+  "context_uuid": "df6f7ceb58764fccb7a40e16a9d57fbc",
+  "context_title": "translate the text to full english. do not change, edit, short, modifaction only translate. only send back the translated english :\n\negy büdös tehénszaros tanya udvara egy nagy trágyarakás mellett magyar alföldi aesthetic",
+  "created_at": "20260927T13:53:02.770702Z",
+  "updated_at": "20260927T13:53:18.704458Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fa062086481543cd8276b91d25b313b9",
+      "query": "translate the text to full english. do not change, edit, short, modifaction only translate. only send back the translated english :\n\negy büdös tehénszaros tanya udvara egy nagy trágyarakás mellett magyar alföldi aesthetic",
+      "answer": "The yard of a stinking, cowshitcovered farm next to a big manure pile, Hungarian Great Plain aesthetic",
+      "created_at": "20260927T13:53:02.801884Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "5371d94f92ea4278bc8db5e227351a85",
+      "query": "now critique your answer and fix the weak parts",
+      "answer": "My translation made the farm sound covered in cow shit, when the Hungarian describes the farmyard. “Covered” also adds more than the original says.\n\nRevised translation: A stinky, cowshitty farmyard next to a big manure pile, Hungarian Great Plain aesthetic.",
+      "created_at": "20260927T13:53:10.361349Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

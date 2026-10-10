@@ -1,0 +1,28 @@
+{
+  "context_uuid": "bb5715c104ff4490a6aa0f101abdb194",
+  "context_title": "nano banana pro nyilt forraskodu?",
+  "created_at": "20251201T00:04:06.290736Z",
+  "updated_at": "20251201T00:05:21.805394Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2a7438de6e254df8b19c1b334ccc2ad5",
+      "query": "nano banana pro nyilt forraskodu?",
+      "answer": "A Nano Banana Pro egy AI képgeneráló modell, amelyet a Google DeepMind fejlesztett ki, és nem nyílt forráskódú. Ez egy kereskedelmi szoftver szolgáltatás, amely a Gemini 3 Pro mesterséges intelligencia rendszerre épül, és fizetős APIn keresztül érhető el.[1][2][3]\n\n Mi a Nano Banana Pro?\n\nA Nano Banana Pro egy professzionális AI képgeneráló és szerkesztő eszköz, amely stúdiószínvonalú képeket készít akár 4K felbontásban is. A Google AI Studio platformon keresztül használható, és ellentétben az alapverzióval, nem rendelkezik ingyenes réteggel. A modell a Gemini 3 Pro motoron fut, amely jobb következtetési képességekkel és pontosabb utasításkövetéssel rendelkezik, mint az alapverzió Gemini 2.5 Flash motorja.[2][4][5]\n\n Banana Pi hardverek\n\nHa a Banana Pi hardver platformokra gondolsz (mint például a BPINANO), akkor azok nyílt forráskódúak. A Banana Pi egy kínai gyártó által készített egylapos számítógépek sorozata, ahol a fejlesztői dokumentumok, szoftverek és hardvertervek (beleértve a kapcsolási rajzokat is) nyíltak és mindenki számára elérhetőek. A BPINANO például egy Arduino Nano kompatibilis fejlesztői kártya ATmega328P mikroprocesszorral.[6][7][8]",
+      "created_at": "20251201T00:04:06.372257Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "d8ca991d51404c08bd32e69311fe4d19",
+      "query": "de akkor a regebbi fadzert az xd",
+      "answer": "Igen, pontosan! A Banana Pi hardverek valóban nyílt forráskódúak. A Banana Pi egy kínai (Shenzhen SINOVOIP / Guangdong BiPai Technology) fejlesztésű egylapos számítógép sorozat, amelynél a fejlesztői dokumentációk, szoftverek és hardvertervek  beleértve a kapcsolási rajzokat (schematics) is  mind nyíltak és szabadon elérhetők.[1][2]\n\n Nyílt forráskódú hardverek\n\nA Banana Pi különböző modelljei, mint például a BPIM1, BPIM2, BPIM3 stb., mind opensource hardware platformok. Ez azt jelenti, hogy a kapcsolási rajzok letölthetők és felhasználhatók, a szoftverek pedig szabad licencekkel rendelkeznek. A projekt célja, hogy a világ minden tájáról fejlesztők részt vehessenek a közösségi fejlesztésben.[3][2][1]\n\nA Banana Pi modellek többféle Linux disztribúciót támogatnak, mint például Armbian, Debian, Ubuntu, Raspbian, Arch Linux ARM, Android és még sok más operációs rendszert.[2][3]",
+      "created_at": "20251201T00:05:01.457053Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

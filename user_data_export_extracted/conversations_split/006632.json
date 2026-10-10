@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9b888e88ef09491d909c2a74a0dc7f57",
+  "context_title": "tech stacket ird le\naz arhetikura tipa neve stb ne a fajlokat meg a neveiket ird kosz",
+  "created_at": "20251106T13:19:09.153946Z",
+  "updated_at": "20251106T13:19:09.153946Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7c0919c4e9de4688bc2dda284dae646d",
+      "query": "tech stacket ird le\naz arhetikura tipa neve stb ne a fajlokat meg a neveiket ird kosz",
+      "answer": "Értem a kérdést  szeretnéd, hogy szétbontsam a tech stacket, az architektúra típusait és a fájlneveket. Íme a részletesebb elemzés:\n\n Tech Stack komponensei[1]\n\nNyelvek és fordítók:\n   fő rendszer nyelv\n   hardver leírás\n   szoftver verifikáció\n   mechanikus bizonyítások\n   típusellenőrzés\n   GPU kernel kódok\n   ZK circuitek\n   modell ellenőrzés\n   temporális logika\n\nHardware eszközök:\n   szintézis\n   FPGA helyezés és útirányítás\n   C fordító\n\nBuild rendszer:\n   projekt reprodukálhatósága\n   összeépítés\n\n Architektúra típusa[1]\n\nJAIDE v40  NonTransformer Polyglot LLM (\"RootLevel\")\n\nEz egy többnyelves rendszer, amely nem transzformátoralapú, és több különböző verifikációs és optimalizációs technikát kombináló LLMet implementál.\n\n Fájlnevek és modulok[1]\n\n| Modul | Fájl | Jellegzetes funkciók |\n||||\n| Típusok | srccoretypes.zig | Fixedpoint, Tensor, ContextWindow |\n| Memória | srccorememory.zig | Allokáció és szabadítás |\n| Tenzor műveletek | srccoretensor.zig | Algebrai operációk |\n| I/O | srccoreio.zig | Input/output kezelés |\n| SSI Indexelés | srcindexssi.zig | Keresési struktúrák |\n| Ranker | srcrankerranker.zig | Rangsorolás logika |\n| RSF Feldolgozó | srcprocessorrsf.zig | Adatfeldolgozás |\n| Tokenizátor | srctokenizermgt.zig | Token kezelés |\n| SFD Optimizáló | srcoptimizersfd.zig | Optimalizálás |\n| Kernel Interface | srcruntimekerneliface.zig | Rendszer interfész |\n| Képességek | srcruntimecapabilities.zig | Rendszer képességek |\n| IPC | srcruntimeipc.zig | Folyamatok közötti kommunikáció |\n| Ütemezés | srcruntimescheduler.zig | Feladatütemezés |",
+      "created_at": "20251106T13:19:09.332366Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

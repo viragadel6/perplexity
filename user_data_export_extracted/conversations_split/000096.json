@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a86bf88c6e084c0a982e62922bee7e1e",
+  "context_title": "  Ez mi? Magyarul értékeld! Olvasd el teljesen!",
+  "created_at": "20260927T13:22:40.887866Z",
+  "updated_at": "20260927T13:23:39.309312Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "debe305a463347628651f4c1d7873793",
+      "query": "  Ez mi? Magyarul értékeld! Olvasd el teljesen!",
+      "answer": "Átolvastam a : ez jelenleg nem kedvezményes alkalmazás és nem szoftverprojekt, hanem egyetlen, magic.spell nevű szövegfájl. A fájl cupcakKe Discounts című számának dalszövegét tartalmazza; a szám 2020. június 26án jelent meg kislemezként.[1][2]\n\n Mi van benne?\n\nA main ágban egyetlen fájl van: a 64 soros [magic.spell](). Elolvastam az egészét, nem csak a fájlnevet vagy a READMEt — README egyébként nincs. A tartalom „Fantom”mal kezdődik, majd rapverzék és ismétlődő refrén következik. A szöveg önérvényesítésről, pénzről, rivalizálásról és szexuális utalásokról szól; a „discounts” szó a refrénben fenyegető szójáték, nem valódi akció vagy kupon.[2]\n\nA repóban nem találtam programkódot, telepítési útmutatót vagy olyan fájlt, amely a .spell kiterjesztésnek külön technikai szerepet adna. Egy main ág, egy commit és nulla tag látható. Az egyetlen, „Add lyrics to magic.spell” üzenetű  a teljes fájlt hozzáadja.\n\n Értékelés\n\nHa az volt a kérdés, hogy érdemese ezt letölteni vagy futtatni valami kedvezményért: nem. A jelenlegi tartalom pusztán dalszöveg, nincs benne futtatható funkció vagy használható kedvezmény. A magic.spell név inkább játékos vagy megtévesztő fájlnév, mint a tartalom leírása.\n\nDalszövegarchívumként is gyenge a megvalósítás: nincs leírás, forrásmegjelölés vagy magyarázat arra, miért került a szöveg GitHubra. A szám beazonosítható, de a repó szerzőjének szándékát ebből nem lehet biztosan megállapítani. Rövid ítélet: egyszövegfájlos dalszövegfeltöltés, nem „discounts” projekt.",
+      "created_at": "20260927T13:22:40.945031Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

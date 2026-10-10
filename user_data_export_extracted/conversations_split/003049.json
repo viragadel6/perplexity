@@ -1,0 +1,19 @@
+{
+  "context_uuid": "3cf495496b07412b8be86658a3ce54a8",
+  "context_title": ".ai domain for free",
+  "created_at": "20260409T10:34:40.838230Z",
+  "updated_at": "20260409T10:35:05.850740Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4a40438d38be4ec18dd50c07290a57db",
+      "query": ".ai domain for free",
+      "answer": "A valódi .ai domain (Anguilla countrycode TLD) sajnos nem szerezhető be teljesen ingyen, mivel ez egy prémium domain végződés, amelynek regisztrációs díja jellemzően évi $50–$100 körül mozog. Azonban vannak lehetőségek, amelyekkel minimalizálhatod a költségeket vagy ideiglenesen ingyenesen használhatsz hasonló megoldásokat.\n\n Miért nem ingyenes a .ai domain?\n\nA .ai végződés technikailag Anguilla szigetének (egy brit tengerentúli terület) countrycode TLDje, és az anguillai hatóságok licencálják. Mivel az AIipar fellendülésével rendkívül keresett lett, az árak magasak maradnak – ez egyszerű keresletkínálat kérdése. 2009 előtt még anguillai állampolgárságot is igazolni kellett a regisztrációhoz, ma viszont bárki megvásárolhatja.[5]\n\n Lehetséges \"ingyenes\" vagy olcsó megközelítések\n\nHosting csomaggal együtt: Több tárhelyszolgáltató (pl. Hostinger, GoDaddy) éves hosting csomag mellé ingyenes domaint kínál, de ez általában .com, .net vagy hasonló végződésekre vonatkozik, nem .aira. Érdemes közvetlenül megkérdezni a szolgáltatókat, hogy aktuálisan vane .ai promóciójuk.[1][4]\n\nNeo .co.site alternatíva: Ha nem ragaszkodsz szigorúan a .ai végződéshez, a Neo szolgáltatás ingyenes .co.site domainnevet kínál, amelyet professional email fiókhoz is használhatsz. Ez nem .ai, de AIstartupok számára elfogadható alternatíva lehet az induláshoz.[5]\n\nIngyenes próbaidőszakok: Egyes regisztrátorok (pl. Neo) az első évre kedvezményes vagy ingyenes domaint adnak éves előfizetés mellé, majd az ár havi ~60 cent körülire csökken a megújításnál.[6]\n\n Hol vásárolhatsz .ai domaint a legjobb áron?\n\nHa mégis .ai végződést szeretnél, érdemes összehasonlítani a következő regisztrátorokat: Namecheap, Dynadot, GoDaddy  és Hostinger. Dynadot például AIalapú domain keresőt is kínál, amellyel kreatív névötleteket generálhatsz, mielőtt regisztrálsz.[3][7][1]\n\n Gyakorlati tanács\n\nHa projekted korai fázisban van és szeretnél spórolni, kezdd egy .co.site vagy .io domainnel, és később váltj .aira, amikor a projekt bevételt termel. A .ai domain presztízsértéke valós, de az ~$50–100/év regisztrációs díj csak akkor éri meg, ha már komolyan pozicionálod a márkádat az AIszektorban.",
+      "created_at": "20260409T10:34:40.891039Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

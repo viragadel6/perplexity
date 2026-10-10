@@ -1,0 +1,19 @@
+{
+  "context_uuid": "336ee6fdae484c7ea7ea57953c7803a2",
+  "context_title": "magyar bank online szamla nyitas par perc alatt konnyen \nvideohivas nelkul \n\nexclude: otp granit kh raiffaisen erste unicredit mhb cib",
+  "created_at": "20251111T19:52:36.103355Z",
+  "updated_at": "20251111T19:52:36.103355Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d3115873419047d0ae26bd104462de73",
+      "query": "magyar bank online szamla nyitas par perc alatt konnyen \nvideohivas nelkul \n\nexclude: otp granit kh raiffaisen erste unicredit mhb cib",
+      "answer": "Röviden: Magyarországon jelenleg a klasszikus, hazai banki licenccel működő bankok túlnyomó része videóazonosítást kér a teljesen online számlanyitáshoz, ezért videóhívás nélkül nagyon szűk (vagy nincs) valódi “pár perces” opció a felsorolt bankokon kívül sem. Ha a videóhívás teljesen kizárt, a gyakorlatban a gyors, szelfis azonosítást kínáló digitális bank/fintech megoldások jöhetnek szóba.\n\n Mit jelent a “videóhívás nélkül”?\n A legtöbb hazai bank távoli ügyfélazonosítást videóhívással oldja meg a pénzmosásellenes szabályok miatt; a “szelfis” (élő videó nélkül, csak arcfelismeréses önarcképpel) onboarding jelenleg főként digitális bankoknál elérhető.  \n NFCs eszemélyis azonosítás is létezik egyes helyeken, de sokszor ezt is kiegészítik valamilyen élő vagy irányított ellenőrzéssel, így nem garantált a teljesen videóhívásmentes folyamat.  \n\n Hazai banki opciók állapota\n A listádból kizárt nagy szereplőkön (OTP, Gránit, K&H, Raiffeisen, Erste, UniCredit, MBH, CIB) túl a megmaradó, kisebb magyar bankok többségénél jellemzően nincs valóban “pár perces”, videóhívás nélküli, teljesen digitális számlanyitás; gyakran fióki jelenlét vagy videóazonosítás kell.  \n Emiatt, ha ragaszkodsz a videóhívás nélküliséghez és a gyors, teljesen online nyitáshoz, érdemes digitális bank/fintech irányba nézni, még ha ezek nem is klasszikus magyar banki licenccel működnek.  \n\n Gyors alternatívák (videóhívás nélkül)\n Revolut: percek alatt szelfis azonosítással nyitható, magyar IBAN is elérhető; EUs (litván) banki licenc, betétvédelem a litván rendszer szerint.  \n N26: szelfis azonosítás, néhány perc alatt indul; német IBAN, német betétbiztosítás.  \n Wise: epénz intézmény, gyors szelfis onboarding; nem bank, nincs betétbiztosítás, de szabályozott elkülönített ügyfélpénzkezeléssel működik.  \n\n Mire figyelj választáskor\n IBAN előtag: szükségese mindenképp HU IBAN (pl. munkáltatói utaláshoz, közműhöz)? Revolutnál elérhető; N26nál DE IBAN.  \n Betétbiztonság: bankoknál EUs betétbiztosítás, epénz intézményeknél nincs klasszikus betétvédelem (eltérő kockázati profil).  \n Díjak és elfogadottság: havi díj, készpénzfelvét, deviza költségek, munkáltató/közmű elfogadjae az adott IBANt.  \n\n Ajánlott lépések\n Ha kulcs a HU IBAN és a videóhívás nélküli, néhány perces nyitás: nézd meg a Revolutot.  \n Ha nem feltétel a HU IBAN, de kell a gyors, szelfis onboarding: N26 jó alternatíva.  \n Kiegészítő vagy devizás megoldásként: Wise egyszerű és gyors, de nem bank, ennek megfelelően mérlegeld.  \n\nMegjegyzés: Most nem áll rendelkezésre élő, frissítő keresés, ezért a konkrét banki feltételek apró részletei idővel változhatnak. A döntés előtt érdemes a kiszemelt szolgáltató aktuális számlanyitási feltételeit és azonosítási módját közvetlenül az adott oldalon ellenőrizni.",
+      "created_at": "20251111T19:52:36.232117Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

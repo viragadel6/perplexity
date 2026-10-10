@@ -1,0 +1,19 @@
+{
+  "context_uuid": "dcbcb00927a04f038c4e3f79c7c348cc",
+  "context_title": "G De mar kuldtem hogy a coingate tobb napos onboarfot kovetel nekem erre nincs idom olyat kuldj ami par perces \n\naz nem baj hogy a hatterbe kriptot hasznal csak az a lenyeg hogy a vasarlok a honlapon forintot lassanak es azt fizessenek es normalis apple pay/kartya mint ha barmilyen atlagos oldalon egy atlagos fizetesi processzornak fizetnenek\n\nolyat kuldesz ami mindennek megfelel\n\nAz a lényeg, hogy meg akarom csinálni, hogy kártyával és Apple Payjel közvetlenül tudjanak fizetni, és valahogy azonnal megérkezzen hozzám a pénz.\nLehet bankszámlára, kártyára, kriptotárcára — bármelyik ezek közül.\n\nDe fontos szabályaim vannak:\n\n• A felhasználók közvetlenül az én oldalamon fizetnek, nem irányíthatók át sehova, és nem kell regisztrálniuk sehova.\n• Magyar forintban fizetnek.\n• Nem vagyok hajlandó egy napot sem várni a pénzemre, mint például a Stripenál, ahol 7 napos pending van, mielőtt kiutalnak.\n• Használok APIkat, de csak ha van valós trükk, hack vagy valamilyen megoldás erre.\n\nde olyan is ho jekem mint pl a vida vagy sumup hogy a fiokom belul van egy sajat bank kartyam es arrol azonnal kolthetem a be erkezo fizeteseket nem kell varnom mire kiztaljak\n\nNow payment szar mert kulso provider kell (ami viszont ugysnugy tobb napos inboard) a fiat elfogadashoz",
+  "created_at": "20251018T11:16:36.374156Z",
+  "updated_at": "20251018T11:16:36.374156Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "028b93294bb64b0886671120eb0a39e5",
+      "query": "G De mar kuldtem hogy a coingate tobb napos onboarfot kovetel nekem erre nincs idom olyat kuldj ami par perces \n\naz nem baj hogy a hatterbe kriptot hasznal csak az a lenyeg hogy a vasarlok a honlapon forintot lassanak es azt fizessenek es normalis apple pay/kartya mint ha barmilyen atlagos oldalon egy atlagos fizetesi processzornak fizetnenek\n\nolyat kuldesz ami mindennek megfelel\n\nAz a lényeg, hogy meg akarom csinálni, hogy kártyával és Apple Payjel közvetlenül tudjanak fizetni, és valahogy azonnal megérkezzen hozzám a pénz.\nLehet bankszámlára, kártyára, kriptotárcára — bármelyik ezek közül.\n\nDe fontos szabályaim vannak:\n\n• A felhasználók közvetlenül az én oldalamon fizetnek, nem irányíthatók át sehova, és nem kell regisztrálniuk sehova.\n• Magyar forintban fizetnek.\n• Nem vagyok hajlandó egy napot sem várni a pénzemre, mint például a Stripenál, ahol 7 napos pending van, mielőtt kiutalnak.\n• Használok APIkat, de csak ha van valós trükk, hack vagy valamilyen megoldás erre.\n\nde olyan is ho jekem mint pl a vida vagy sumup hogy a fiokom belul van egy sajat bank kartyam es arrol azonnal kolthetem a be erkezo fizeteseket nem kell varnom mire kiztaljak\n\nNow payment szar mert kulso provider kell (ami viszont ugysnugy tobb napos inboard) a fiat elfogadashoz",
+      "answer": "Instant settlement HUF payment gateway onsite Apple Pay and credit card acceptance, no redirect or customer registration, crypto backend, quick onboarding\n\nAzonnali elszámolású HUF fizetési kapu onsite Apple Pay és bankkártya elfogadás, regisztráció nélkül, kriptó háttérrel, gyors bekapcsolás",
+      "created_at": "20251018T11:16:36.654334Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

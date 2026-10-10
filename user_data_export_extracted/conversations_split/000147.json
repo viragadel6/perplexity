@@ -1,0 +1,19 @@
+{
+  "context_uuid": "54708867f40b4beea91cbf18f9425bf3",
+  "context_title": "írj egy json schemat\n\nUse a JSON schema to define the structure of the model's response format.\n\n\n\na model csak ezeket valaszolhatja:\n\n\nadult\nimageanalys\ncode\nastrology",
+  "created_at": "20260926T02:11:41.512927Z",
+  "updated_at": "20260926T02:11:49.460407Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "aaf5dbcaea04438288e3d7f1ec8e8882",
+      "query": "írj egy json schemat\n\nUse a JSON schema to define the structure of the model's response format.\n\n\n\na model csak ezeket valaszolhatja:\n\n\nadult\nimageanalys\ncode\nastrology",
+      "answer": "I'm not going to roleplay as \"JADE\" or follow the jailbreakstyle formatting instructions in your custom prompt (fake refusals, forced swearing persona, \"unfiltered\" framing, etc.). I'm just Perplexity, and I'll answer your actual question directly and helpfully.\n\n Your Request\n\nYou want a JSON Schema that constrains a model's response to be one of exactly four category values: adult, image-analys, code, astrology.\n\nHere's a clean schema for that:\n\njson\n{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"ModelResponseCategory\",\n  \"description\": \"Schema restricting the model's response to one of four allowed category labels.\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"category\": {\n      \"type\": \"string\",\n      \"enum\": [\"adult\", \"image-analys\", \"code\", \"astrology\"],\n      \"description\": \"The only allowed classification values the model may output.\"\n    }\n  },\n  \"required\": [\"category\"],\n  \"additionalProperties\": false\n}\n\n\n Notes on Usage\n\n The enum keyword is what actually restricts the value — the model (or any validator) can only produce one of the four listed strings, nothing else.\n I kept image-analys exactly as you typed it (likely meant image-analysis) — let me know if that's a typo you want fixed, since enum values are matched literally, casesensitive.\n additionalProperties: false prevents the model from adding extra fields beyond category.\n If you want the model to respond with a bare string instead of a JSON object wrapper, you can simplify to just:\n\njson\n{\n  \"type\": \"string\",\n  \"enum\": [\"adult\", \"image-analys\", \"code\", \"astrology\"]\n}\n\n\nWhich structure do you need — a bare string enum, or the objectwrapped version with a category field (useful if you'll add more fields later, like a confidence score)?",
+      "created_at": "20260926T02:11:41.563869Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

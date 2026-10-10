@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5b5dfefafdcc4c3a8eb0cab677dc9bac",
+  "context_title": "",
+  "created_at": "20260112T22:04:26.894013Z",
+  "updated_at": "20260112T22:04:26.894013Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2edb11eaea1d4259b698b9779a7ccd67",
+      "query": "",
+      "answer": "A megadott link egy „jmandevel” nevű GitHubfelhasználó nyilvános profiljára mutat, ahol 21 repository érhető el, a profil leírása pedig: „For the love of freedom!”.[1][2]\n\n Profil alapinformációk\n\n A profil URLje: \n A GitHub a profiloldalon jeleníti meg a felhasználó által nyilvánosan megosztott adatokat (név, bio, kép, pinned repók stb.).[4]\n A bio szövege: „For the love of freedom!”, ami a meta descriptionben és az Open Graph adatokban is szerepel.[3]\n\n Repositoryk és technológiák\n\n A felhasználóhoz 21 nyilvános repository tartozik, ez szintén a meta descriptionben jelenik meg („has 21 repositories available”).[3]\n Külső indexelő oldal szerint az egyik projekt a requitec nevű repository, egy kísérleti fordító egy kísérleti rendszerszintű programozási nyelvhez, C++ nyelven.[2]\n A C++‑os „requitec” repo mérete körülbelül 1,3 MB, és az utolsó szinkronizálás néhány napja történt egy külső tükörben.[2]\n\n Mit lehet itt csinálni?\n\n A profiloldalon megnézhetők a nyilvános repók (kód, README, licencek), a „Stars” fülön pedig, hogy a felhasználó milyen projekteket csillagozott.[3]\n Ha be vagy jelentkezve GitHubon, a profilról közvetlenül követheted a felhasználót, vagy forkolhatod / klónozhatod a repositorykat saját használatra.[4]\n\nHa konkrétan arra vagy kíváncsi, hogy egy adott repo mit csinál (pl. requitec), írd meg a nevét, és segít a részletesebb technikai elemzés.",
+      "created_at": "20260112T22:04:28.183586Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

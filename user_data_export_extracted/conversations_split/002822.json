@@ -1,0 +1,19 @@
+{
+  "context_uuid": "313141233d2249409506e488efd2172c",
+  "context_title": "ios ta olysn autonom agent mint a perplexity computer",
+  "created_at": "20260420T06:38:21.315578Z",
+  "updated_at": "20260420T06:39:03.927457Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "037778076ea749c3b5593ab95524c8bf",
+      "query": "ios ta olysn autonom agent mint a perplexity computer",
+      "answer": "Igen — iOSen vannak olyan appok, amelyek legalább részben hasonlítanak a Perplexity Computerféle autonóm agent élményhez, de jelenleg az igazán „önállóan dolgozó, több lépést végrehajtó” megoldások többsége nem natív iPhoneos teljes értékű agent, hanem inkább mobil kliens, workflowréteg vagy könnyített agentasszisztens.[1][2][3]\n Mihez hasonlítsuk\nA Perplexity Computer lényege az, hogy nem csak válaszol, hanem feladatot értelmez, részfeladatokra bontja, több modellt és eszközt használ, majd aszinkron módon végre is hajtja a munkát izolált környezetben.  Ez magasabb szint, mint egy sima chatapp, ezért iOSen azt kell keresni, ami vagy automatizál, vagy agentszerűen több lépést visz végig, vagy külső rendszerekkel együtt tud dolgozni.[1][2][3]\n Ami iPhoneon közel áll hozzá\nA találatok alapján a Manus iOSappként is megjelenik az App Store „hasonló appok” körében, és a róla szóló összehasonlítások szerint általános célú autonóm agentként pozicionálják, amely megtervez és végrehajt összetett feladatokat.  Emellett létezik egy Whistant nevű iPhoneos agentic assistant is, amelyet kifejezetten általános feladatokra, részben készüléken futó működéssel hirdetnek, és a leírása szerint a Perplexity Comet vagy Manus könnyített mobilos megfelelőjének szánják.[4][5][6]\n Ami inkább workflow, nem teljes agent\nHa neked az a fontos, hogy az iPhone eseményeiből, emlékeztetőkből, jegyzetekből vagy helyadatból automatikusan induljon kutatás vagy válaszadás, akkor a Perplexity + iOS integráció Makeen keresztül erős alternatíva lehet.  Ez nem ugyanaz, mint egy teljes autonóm agent, de a gyakorlatban sok „ügynökös” feladatot lefedhet, például automatikus információgyűjtést, értesítést, Siri Shortcutsalapú indítást és mobil workflowkat.[2]\n Fontos korlát iOSen\nA jelenlegi források alapján a Perplexity legautonómabb új megoldásai inkább felhős izolált környezetben vagy Macen működnek, nem úgy, hogy egy iPhone teljes rendszerhozzáféréssel csendben intézzen mindent a háttérben.  Vagyis ha ugyanazt a „valódi digitális munkatárs” élményt keresed, mint a Perplexity Computer, azt ma inkább Macen vagy cloud agent szolgáltatásokban kapod meg, míg iOSen jelenleg kompromisszumos, részleges megfelelőket találsz.[1][3][7][8]\n Mit érdemes választani\nHa a célod a legközelebbi „Perplexity Computerszerű” élmény iPhoneon, akkor első körben a Manus és a Whistant tűnik a legrelevánsabbnak.  Ha viszont neked fontosabb az, hogy a mobilodról indíts vagy automatizálj agentszerű feladatokat, akkor a Perplexity iOS + Make + Siri Shortcuts út lehet a hasznosabb, mert ez jobban illeszkedik a napi iPhonehasználathoz.[4][5][2][6]\n\nHa akarod, a következő üzenetben adok egy konkrét, 2026os iOS agent app toplistát 5–8 appal, és megmondom, melyik való neked attól függően, hogy kutatásra, automatizálásra vagy „AI elvégzi helyettem” típusú használatra keresel megoldást.",
+      "created_at": "20260420T06:38:21.574780Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

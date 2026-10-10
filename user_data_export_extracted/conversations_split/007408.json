@@ -1,0 +1,28 @@
+{
+  "context_uuid": "c48c4a535eeb4d89b41db31c92364139",
+  "context_title": "",
+  "created_at": "20251019T03:11:10.261939Z",
+  "updated_at": "20251019T03:11:50.332716Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f5bd342c25584d599f4ff856ee8e8bd0",
+      "query": "",
+      "answer": "A  nyilvános GitHubtárház az Anthropic által fejlesztett \"Skills\" (készségek) gyűjteménye, amelyek mappákba rendezett utasításokat, szkripteket és erőforrásokat tartalmaznak Claude AI dinamikus betanítására specifikus feladatok hatékonyabb elvégzéséhez. Ezek a készségek lehetővé teszik Claude számára, hogy ismételhető módon oldjon meg különféle feladatokat, mint például dokumentumkészítést céges arculati irányelvek alapján, adatelemzést szervezeti munkafolyamatok szerint, vagy személyes feladatok automatizálását.\n\nA tárház két fő típusú készséget tartalmaz: \n Példakészségek (creative, technical, enterprise feladatokra)\n Dokumentumkészségek (Word, PDF, Excel, PowerPoint kezelésére)\n\nMinden készség önálló mappában van egy SKILL.md fájl, ami tartalmazza az utasításokat, példákat, és használati irányelveket. A példák nyílt forráskódúak (Apache 2.0), míg a dokumentumkészségek forrásmegnyitást kapnak, de nem kifejezetten nyíltak. Ezek referenciaként szolgálnak a fejlesztőknek és megmutatják, mi minden lehetséges Claude AI képességeinek kiterjesztésére.\n\nA Skills rendszer célja Claude specializálása egyes munkakörökre, hatékonyabbá téve a specifikus feladatokat azáltal, hogy a releváns készségeket betölti csak odabent, amikor szükséges, így gyors és korszerű megoldásokat kínál. Például dokumentumokat hozhat létre, tesztelhet webalkalmazásokat, vagy készíthet belső kommunikációkat.\n\nHasználhatók Claude AI alkalmazásokban, Claude Code fejlesztői környezetben, vagy az Anthropic APIján keresztül, ahol a készségek telepíthetők és kezelhetők. A dokumentáció és oktatóanyagok is elérhetőek a készségek használatáról és fejlesztéséről.\n\nÖsszefoglalva, a  a Claude AI testreszabására szolgáló példák és eszközök gyűjteménye, amelyeket fejlesztők tanulmányozhatnak, módosíthatnak vagy saját igényeikre szabhatnak, hogy Claude jobban megfeleljen speciális munkafolyamatoknak és feladatoknak.[2][6][10]",
+      "created_at": "20251019T03:11:10.359564Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "85b8390b198d4bce9831f652bf6193c1",
+      "query": "tehat ezekkel fine tuneolni lehet?",
+      "answer": "Röviden: nem, a GitHubos Skills nem finetuning; ezek futásidőben betölthető utasítás és kódcsomagok, amelyekkel Claude viselkedését és eszközhasználatát testre szabod anélkül, hogy a modell súlyai módosulnának. A finetuning külön funkció (pl. Claude 3 Haiku finomhangolása Amazon Bedrockon), míg a Skills egy „plugin/agent” jellegű réteg.[1][2][3][4][5]\n\n Mi a Skills lényege\n A Skills mappákba szervezett leírások, scriptek és erőforrások, amelyeket Claude relevancia alapján dinamukisan betölt, hogy speciális feladatokat jobban végezzen (pl. Excelkezelés, márkairányelvek, dokumentum műveletek).[3][6]\n A használatuk olyan, mint egy hordozható munkafolyamatcsomag: „build once, use everywhere” a Claude appokban, Claude Codeban és az APIban; nem módosítják a modell paramétereit.[4][3]\n\n Mi a finetuning\n A finetuning a modell súlyainak tényleges módosítása a saját adatoddal; Anthropicnál jelenleg a Claude 3 Haiku finomhangolása érhető el Amazon Bedrockon, vállalati használatra.[2][5]\n Tipikus folyamat: jó minőségű prompt–completion párok, adatelőkészítés, hyperparaméterek és értékelés; cél a doménspecifikus teljesítmény javítása.[1][2]\n\n Mikor melyiket válaszd\n Válaszd a Skillst, ha szabályokat, eszközöket, kódot és folyamatokat akarsz becsomagolni és futásidőben alkalmazni, gyors iterációval és verziózás nélkül súlymódosítások.[3][4]\n Válaszd a finetuningot, ha mérhető teljesítményugrás kell doménfeladatokon és van saját, minőségi tanítókészleted; jelenleg Bedrockon támogatott Claude 3 Haikuhoz.[5][2]",
+      "created_at": "20251019T03:11:34.013524Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6d518fffb95c4acca2e641cd3d59c65e",
+  "context_title": "Napi ellenőrzés a GitHub legfrissebb repójáról: olvasd el a teljes kódot az első karaktertől az utolsóig, és készíts részletes listát az összes talált hibáról, csak a hibákat felsorolva, minden egyéb szöveg nélkül",
+  "created_at": "20260217T02:06:29.172444Z",
+  "updated_at": "20260217T02:07:37.966863Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "06c033124b594ae08ef17a9be1c14d3b",
+      "query": "Napi ellenőrzés a GitHub legfrissebb repójáról: olvasd el a teljes kódot az első karaktertől az utolsóig, és készíts részletes listát az összes talált hibáról, csak a hibákat felsorolva, minden egyéb szöveg nélkül",
+      "answer": " stddev függvény (578. sor): hiányzó try kulcsszó a var_t.sqrt() hívás előtt\n sort függvény (257. sor): @reduce(.Mul, reduced_shape) nem működik sliceon, ciklus szükséges\n spectralNorm függvény (590600. sorok): v.deinit() után v = av értékadás, de defer v.deinit() később doublefree okoz\n computeIndexFromFlat függvény (324334. sorok): nem használja helyesen a shape paramétert, mindig self.shape.stridest használ\n getFromFlat függvény (365379. sorok): helytelen index számítás, axis_idx mindig az utolsó dimenzióba kerül\n max, min, sum függvények: computeIndexFromFlat hibás használata miatt rossz eredmények\n pad függvény (502531. sorok): is_pad logika hiányos, nem tölti ki helyesen a padded területeket\n concat függvény (546597. sorok): bonyolult index számítás hibákat tartalmazhat nested loops miatt\n stack függvény (599645. sorok): hasonló index számítási problémák\n argmax és argmin: getFromFlat hibás implementációja miatt helytelen eredmények\n svd függvény (683699. sorok): transpose nem megfelelően hívva &.{1, 0} helyett helyes API használata szükséges\n eig függvény (661681. sorok): QR iteráció konvergencia ellenőrzése csak alsó háromszög elemeket nézi\n qr függvény (647659. sorok): Householder reflection implementáció hibás lehet\n solve függvény: nem old meg LU dekompozícióval lineáris egyenletrendszert, csak mátrixokat szoroz\n broadcast függvény (457480. sorok): offset változó használata helytelen lehet bizonyos esetekben\n conv2d függvény (430455. sorok): padded_input defer csak akkor fut le ha padding volt, de mindig hozzáfér\n ensureWritable függvény (139189. sorok): komplex mutex kezelés race conditiont okozhat\n newView és view függvények: markShared hívása után azonnal megosztott állapotba kerül, de ensureWritable később problémákat okozhat\n slice függvény (232253. sorok): new_data = self.data[offset..] helytelen slice létrehozás lehet\n cumsum függvény (381405. sorok): index iteráció sorrendje miatt nem működik helyesen nagyobb tenzoroknál\n variance függvény (570576. sorok): broadcast nem megfelelően van hívva\n unsqueeze függvény (482497. sokor): broadcast helyett új viewt kellene létrehoznia",
+      "created_at": "20260217T02:06:29.241244Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

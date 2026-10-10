@@ -1,0 +1,28 @@
+{
+  "context_uuid": "c206cb70e9744da0855585bc797dec7b",
+  "context_title": "alphafold 3 szintu masik nyilt open source underdog cutting edge github repot keresek de masmilyen tudomanyos temekba\n\nde dirket linkek repohoz\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250814T18:46:19.266040Z",
+  "updated_at": "20250814T18:48:09.512617Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "61e57c6c11fe4ec4b4aff9dfc984cf2b",
+      "query": "alphafold 3 szintu masik nyilt open source underdog cutting edge github repot keresek de masmilyen tudomanyos temekba\n\nde dirket linkek repohoz\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "  [1]\n  [2]\n  [3]\n  [4]\n  [5]\n  [6]\n  [7]",
+      "created_at": "20250814T18:46:19.363119Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "7c32ac8ba84f44f2b81b90e45640e2fe",
+      "query": "de dirket linkek repohoz",
+      "answer": "Úgy tűnik, elgépelés csúszott be: „de dirket linkek repohoz”. Ezt így értelmezem: „tudsz adni direkt linkeket egy repóhoz?” vagy „hogyan adjak/kapjak direkt linkeket egy GitHub repóban?”. Írok egy rövid, gyakorlati összefoglalót.\n\nGitHubon hasznos direkt link formátumok\n Repó főoldal: \n Adott branch gyökere: \n Adott mappa (branchcsel): \n Adott fájl (böngészőben): \n Nyers fájl (raw, pl. script letöltéshez): \n Commit oldal: \n Fájl adott commitnál: \n Diff két commit között: \n Release oldal: \n Konkrét release: \n Release asset közvetlen letöltés: \n\nGyakori példák\n Fájl megnyitása main branchen:\n  \n Ugyanaz a fájl nyers tartalomként:\n  \n Adott commit linkelése:\n  \n Két címke összehasonlítása:\n  \n\nTippek\n A „blob” nézet olvasható, a „raw” link automatizáláshoz (curl, wget) jó.\n Stabil linkhez használj commit SHAt branch helyett (nem változik).\n Privát repó „raw” linkje csak autentikációval érhető el, publikusnál szabadon működik.\n Ha GitLab/Bitbucket kell, a séma hasonló, de eltérő kulcsszavakkal (pl. „/raw/BRANCH/ELERES” GitLabon).\n\nHa megírod a konkrét felhasználó/repo/branch/fájl adatait, összeállítom a pontos direkt linkeket.",
+      "created_at": "20250814T18:47:10.612623Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a2a21421fb0a49e08c10091971a00c3c",
+  "context_title": "Exa ai search In your reply, just list the things I’m looking for one after another, without including anything else.",
+  "created_at": "20260811T06:02:17.330463Z",
+  "updated_at": "20260811T06:02:22.536255Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "767ed3dd674e41dcb2defd526cfd8478",
+      "query": "Exa ai search In your reply, just list the things I’m looking for one after another, without including anything else.",
+      "answer": "Exa AI Search API — realtime web search, deep research, and structured content for AI agents[1]",
+      "created_at": "20260811T06:02:17.545696Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

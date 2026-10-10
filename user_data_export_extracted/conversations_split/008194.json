@@ -1,0 +1,28 @@
+{
+  "context_uuid": "f8644c0f531549fa91d51a488b7e337a",
+  "context_title": "shel script replitbe ami letolti a dotdna.io honlapot fullba a webgl 3D mindenevel egyutt meg minden aloldal es nem minifikált vagy ilyesmi hanem telibe  a teljes fajlokat",
+  "created_at": "20250929T18:51:10.471666Z",
+  "updated_at": "20250929T18:57:39.550501Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "41a26ca525b345dea9281f7b018eaa4a",
+      "query": "shel script replitbe ami letolti a dotdna.io honlapot fullba a webgl 3D mindenevel egyutt meg minden aloldal es nem minifikált vagy ilyesmi hanem telibe  a teljes fajlokat",
+      "answer": "A dotdna.io teljes weboldal minden fájljának, beleértve a WebGL 3D elemeket és az összes aloldalt, shell script segítségével való letöltéséhez a legáltalánosabb, parancssorból is működő eszköz a wget, de alternatíva lehet a httrack is. A következő bash script wgettel garantálja, hogy minden kapcsolódó erőforrás (JS, CSS, 3D assetek, képek, stb.) le legyen töltve, minifikálás vagy módosítás nélkül, és az összes aloldal is helyben elérhető legyen:\n\nsh\n#!/bin/bash\nwget --mirror \\\n     --convert-links \\\n     --adjust-extension \\\n     --page-requisites \\\n     --no-parent \\\n     --execute robots=off \\\n     --wait=1 \\\n     --random-wait \\\n     https://dotdna.io/\n\n\n --mirror: Az egész weboldalt letükrözi (megegyezik: -r -N -l inf --no-remove-listing)\n --convert-links: Átírja a hivatkozásokat helyi elérésre\n --adjust-extension: Helyes kiterjesztések (html, css) hozzáadása\n --page-requisites: Minden szükséges erőforrás (kép, JS, CSS, stb.)\n --no-parent: Nem mászik fel a könyvtárstruktúrában (csak a megadott oldal és aloldalai)\n --execute robots=off: Figyelmen kívül hagyja a robots.txtt\n --wait=1 és --random-wait: Kíméli a szervert (ne legyen túl terhelő)\n\nAlternatívaként a httrack is használható egyetlen paranccsal, ami inkább kezdőknek ajánlott, vagy ha problémába ütközik a wget:\n\nsh\nhttrack \"https://dotdna.io/\" -O \"./dotdna_io\"\n\nA paraméterek automatikusan rendbe teszik a helyi linkeket és letöltik a kapcsolódó fájlokat is.\n\nMindkét megoldás letölti az összes .js, .wasm, .glb és egyéb WebGL assetet is, ha azok statikusan hivatkozottak. Fontos: Dinamikus, csak JavaScripten keresztül generált/letöltött asseteket egyik eszköz sem tudja garantáltan letölteni, mert ezek a letöltők nem hajtanak végre JavaScriptet böngészős környezetben[1][2][3].\n\n Minta használati lépések\n Másold ki a fenti scriptet letoltes.sh néven\n Tedd futtathatóvá: chmod +x letoltes.sh\n Futtasd: ./letoltes.sh\n\nA letöltött anyagok között ott lesz minden nyilvánosan elérhető állomány (nem lesz minifikált, átméretezett vagy módosított)[1][4][2][3].\n\n Megjegyzés\n Ha speciális védelmi mechanizmus van az oldalon (pl. browser fingerprinting), elképzelhető, hogy egyes assetek nem töltődnek le.\n Ha mindent tökéletesen, szkriptgenerált tartalommal együtt szeretnél, szükséged lehet böngészőautomatizálásra (pl. Selenium vagy puppeteer), de ez már túlmutat egy egyszerű shell scripten[2][1].\n\nEz a módszer a leghatékonyabb, amit szkriptből el lehet érni, kompromisszummentes letöltéshez.",
+      "created_at": "20250929T18:51:11.060020Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "ec283ebcf35046228d254deb2f3f49bc",
+      "query": "engem nem erdekel csak ird meg ami 100% hogy megcsinalja amit momdtam kommenteken ne irj csak a kodot",
+      "answer": "!/usr/bin/env bash\nset euo pipefail\n\nSITE=\"\"\nOUTDIR=\"mirror_dotdna\"\nsudo aptget update\nsudo aptget install y httrack\nmkdir p \"$OUTDIR\"\nhttrack \"$SITE\" O \"$OUTDIR\" w stayonsamedomain near extendedparsing robots=0 keeplinks update sockets=8 maxrate=0 %v!/usr/bin/env bash\nset euo pipefail\n\nSITE=\"\"\nOUTDIR=\"mirror_dotdna\"\nsudo aptget update\nsudo aptget install y httrack\nmkdir p \"$OUTDIR\"\nhttrack \"$SITE\" O \"$OUTDIR\" w stayonsamedomain near extendedparsing robots=0 keeplinks update sockets=8 maxrate=0 %v",
+      "created_at": "20250929T18:56:18.159005Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

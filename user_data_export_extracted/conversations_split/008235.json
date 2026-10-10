@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2d0a6289b39e47b29126af317851be43",
+  "context_title": "alphafold 3 database files direct link",
+  "created_at": "20250927T03:04:35.036747Z",
+  "updated_at": "20250927T03:04:35.036747Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d7dcd49fc55742d8aa3650064331cce8",
+      "query": "alphafold 3 database files direct link",
+      "answer": "Az AlphaFold 3hoz szükséges adatbázisfájlokat jelenleg nem lehet egyszerű, közvetlen linken keresztül egyben letölteni, mint egy előző generációs AlphaFoldadatbázisnál, hanem egy letöltési scripten keresztül történik a folyamat, mely a hivatalos AlphaFold 3 GitHub oldalán érhető el[1]. \n\n Letöltési lehetőség\n\n Közvetlen adatbázisfájl letöltő script:  \n  Használd ezt a parancsot a fetch_databases.sh letöltéséhez:\n  \n  wget https://raw.githubusercontent.com/google-deepmind/alphafold3/refs/heads/main/fetch_databases.sh\n  \n  Ezután a script lefuttatásával letölti automatikusan a szükséges adatbázisfájlokat a megfelelő könyvtárba:\n  \n  mkdir -p $SCRATCH/alphafold/dbs\n  bash fetch_databases.sh $SCRATCH/alphafold/dbs\n  \n  Így minden szükséges adatbázisfájl letöltődik[1].\n\n További tudnivalók\n\n Az AlphaFold 3 input és adatbáziskezelése eltér a korábbi verzióktól, részletes leírást itt találsz:  \n  .\n Ha csak az AlphaFold predikciós szerkezetek érdekelnek (nem a gépi tanításhoz szükséges teljes referencia adatbázis), az EBI FTPjéről tudod letölteni a teljes archívumokat különböző szervezetekhez (például ember, egér, stb.):  \n  ftp://ftp.ebi.ac.uk/pub/databases/alphafold[3][4].\n\nA hivatalos és friss elérési mód tehát a letöltő script, amivel automatikusan letöltheted az összes szükséges AlphaFold 3 adatbázist[1][2].",
+      "created_at": "20250927T03:04:35.161796Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

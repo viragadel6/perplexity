@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5e93d28226584ec79ac4c363490f1eac",
+  "context_title": "",
+  "created_at": "20251030T11:50:23.269755Z",
+  "updated_at": "20251030T11:50:23.269755Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e3bd83143cd341549cb2ee8de06e4393",
+      "query": "",
+      "answer": "A megadott hivatkozás a Hugging Face JQLAI/hplt2_edu_scores adatcsomagjához kapcsolódik, amely a HPLT2ből származó, 35 nyelvet lefedő, oktatási jellegű minták azonosítására szolgáló, modellannotált pontszámokat tesz közzé. Az adatcsomag célja, hogy a minőségjavító szűrés során nagyobb megtartott adatmennyiséget és jobb tanítási teljesítményt érjen el a túl agresszív redukció elkerülésével.[1]\n\n Áttekintés\nA HPLT2Eduscores a HPLT2 monolingvális webkorpusz modellannotált részhalmaza, amelyben egy mélytanuló osztályozó oktatási mintákat pontoz, Snowflake Arcticembedmv2.0 beágyazásokra építve. Az FW2 heurisztikus szűrés szolgál alapvonalnak a megtartott tokenmennyiség és a downstream teljesítmény összevetésére, miközben az annotációk lehetővé teszik a finomabb minőség–mennyiség kompromisszumot. A megközelítés 35 nyelvre terjed ki, és a részleteket a kapcsolódó tanulmány ismerteti.[1]\n\n Adatstruktúra\nMinden bejegyzés tartalmaz három minőségpontszámot a Snowflakealapú osztályozó különböző LLMjeivel: score_Gemma_Snowflake, score_Llama_Snowflake és score_Mistral_Snowflake. Azonosítók és fájlútvonalak mellett szerepel a source_filename mező, amely az eredeti HPLT2 fájlokra mutat, így visszakövethető az adateredet.[1]\n\n Példa és felhasználás\nA spanyol nyelv esetében a 0.6os küszöb alkalmazása több mint 9%kal több tokent tart meg az FW2 trainhez képest, miközben a minőségi mutatókat is felülmúlja, ami a kevésbé agresszív, mégis hatékony szűrés példája. A szerzők az ablációs kísérletekhez 2 milliárd paraméteres, LLaMAarchitektúrájú, sűrű, decoderonly modelleket használtak, ami a pontszámok gyakorlati tanítási hasznát demonstrálja.[1]\n\n Eredet és adatvédelem\nA forrásadatok a HPLT2ből származnak, amely 2012–2023 közötti webtartalmat gyűjt; a feldolgozás során törekedtek az emailek és nyilvános IPcímek anonimizálására, de PII előfordulása nem zárható ki. A HPLT v2 kiadás általánosságban kevesebb zajt és duplikációt, több egyedi dokumentumot és jobb szövegminőséget kínál, ami előnyös a szűrési pontszámok hasznosításához.[2][1]\n\n Kapcsolódó háttér\nA HPLT v2 két variánsban érhető el (deduplikált és „cleaned”), jelentős méret és minőségjavulással az előző verzióhoz képest, ami stabil alapot ad a minőségvezérelt kiválogatáshoz. A HPLT v2t a Sigma2 NIRD tárolja, a kibontási folyamat a LUMI szuperszámítógépen futott, támogatva a nagy léptékű, többnyelvű feldolgozást.[2]",
+      "created_at": "20251030T11:50:23.427842Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

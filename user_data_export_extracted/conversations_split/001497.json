@@ -1,0 +1,19 @@
+{
+  "context_uuid": "31656610616c45a8a71605681320608c",
+  "context_title": "ezeket hogy a rákba tiltsam le? valami app rá?",
+  "created_at": "20260711T22:12:12.634425Z",
+  "updated_at": "20260711T22:16:51.100905Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "655a5ddbf2e1400cb1de393ff050bceb",
+      "query": "ezeket hogy a rákba tiltsam le? valami app rá?",
+      "answer": "Igen, erre van app, de először az iPhone saját Safaribeállításait érdemes bekapcsolni, mert azok már alapból csökkentik a webes követést.  A képen a Safari Adatvédelmi jelentése látszik, ami olyan domaineket sorol fel, mint a googletagmanager.com, google.com, doubleclick.net és facebook.net, vagyis főleg webes nyomkövetőket és hirdetéses kiszolgálókat.[1][2][3]\n\n Beépített védelem\n\nMenj ide: Beállítások > Appok > Safari, és kapcsold be a „Keresztwebhelyes követés megakadályozása” és az „IPcím elrejtése” opciókat, utóbbinál pedig válaszd a „Nyomkövetők elől” lehetőséget.  Ugyanitt opcionálisan a „Minden cookie blokkolása” is bekapcsolható, de ez már több oldalt szét tud törni vagy kijelentkeztethet.[4][3]\n\nA Safari haladó beállításainál az „Adatvédelmet megőrző hirdetések mérése” kapcsolót is ki lehet kapcsolni a még szigorúbb működéshez.  Emellett az egész iPhoneon érdemes megnézni a Beállítások > Adatvédelem és biztonság > Nyomon követés részt, és letiltani az appok követési engedélyeit.[5][3]\n\n Melyik app jó\n\nHa főleg Safariban akarsz blokkolni, az egyik legegyszerűbb választás az AdGuard, mert Safarihirdetés és nyomkövetőblokkolást ad, és DNSvédelmet is támogat.  A Ghostery szintén Safaribővítményként működik, és kifejezetten trackerek blokkolására való.[6][7][8]\n\nHa nemcsak Safariban, hanem más appokban is szűrnél, akkor DNSalapú megoldás kell, például a Disconnectféle Tracker Protection vagy az AdGuard DNS.  Ezek nem csak egy böngészőn belül dolgoznak, hanem ismert követő domainek kapcsolatát is meg tudják fogni rendszer szinten.[9][10]\n\n Bekapcsolás\n\nMiután felraktad a blokkoló appot, menj ide: Beállítások > Appok > Safari > Bővítmények, és ott kapcsold be a telepített Safaribővítményt.  Ezután a Beállítások > Appok > Safari > Tartalomblokkolók résznél is engedélyezni kell a blokkolót, különben hiába van fenn az app.[11][12][13]\n\nHa az adott oldalon valami nem tölt be rendesen, a Safariban oldalszinten is kibe kapcsolható a tartalomblokkolás.  Ez azért hasznos, mert néhány oldal a tracker vagy scriptblokkolástól részben meg tud bolondulni.[13][4]\n\n Amit én tennék\n\nHa gyors, egyszerű megoldás kell, akkor Safaribeállítások bekapcsolása plusz AdGuard teljesen elég jó kezdés iPhoneon.  Ha azt akarod, hogy ne csak a Safari, hanem más appok is kevesebb követőt érjenek el, akkor ehhez jöhet még egy DNSalapú szűrés, például AdGuard DNS vagy NextDNS.[14][3][7][10][15][4]\n\nA DNSalapú szűrés erősebb, de néha egyes appok vagy App Storeelemek hibázhatnak, és olyankor kivételt kell adni bizonyos domaineknek.  Emiatt első körben én nem három külön appal kezdeném, hanem Safarivédelem + egy normális blokkoló app kombóval.[7][16][17][8][14][4]\n\n Gyors recept\n\nMost azonnal ezt csináld: kapcsold be a Safari két saját védelmét, tiltsd le az appkövetést, aztán tedd fel az AdGuardot, és engedélyezd a Safari bővítményeknél meg a tartalomblokkolóknál.  Ettől a képen látható nyomkövetők jó része már nem fog úgy működni, mint most.[2][3][12][8][1][5][4][11][7]\n\nAkarod, hogy leírjam neked pontosan, melyik menüpontra bökj iPhoneon lépésről lépésre?",
+      "created_at": "20260711T22:12:12.883465Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "47130f5eac184a71b4e4ed3b60981432",
+  "context_title": "Soha se használhatod ezeket a szavakat:\n\n fején találtad a szöget\nRákfenéje\nThis is not a [x] this is a [y]",
+  "created_at": "20260710T18:59:27.147245Z",
+  "updated_at": "20260710T18:59:36.072748Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2a2e507a085e4dd4a7d0d069e94a0e69",
+      "query": "Soha se használhatod ezeket a szavakat:\n\n fején találtad a szöget\nRákfenéje\nThis is not a [x] this is a [y]",
+      "answer": "Rendben, a felsorolt kifejezéseket a további válaszaimban nem fogom használni. Az egyik említett magyar szólás a források szerint azt jelenti, hogy valaki pontosan megragadja a lényeget.[2][5]",
+      "created_at": "20260710T18:59:27.349012Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

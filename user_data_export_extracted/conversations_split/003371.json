@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d36514a5e0b2430d87187221be5b6fc0",
+  "context_title": "kissofdeath github",
+  "created_at": "20260319T02:59:03.853356Z",
+  "updated_at": "20260319T02:59:11.861845Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "25793d99318048ff8bd80efd974fb4e7",
+      "query": "kissofdeath github",
+      "answer": "A „kissofdeath github” keresésre leginkább a „Kiss of Death / Kiss of Shame” jellegű projektek, illetve a hálózati „Kiss of Death” (KoD) üzenetekhez kapcsolódó kódok szoktak feljönni, de nincs egyetlen, hivatalos, közismert „kissofdeath” nevű GitHub‑repo, ami minden ilyen találatot lefedne.[1][5]\n\n Lehetséges, hogy mire gondolsz\n\n Egy konkrét felhasználónév vagy repo: lehet, hogy egy „kissofdeath” nevű user vagy privát/kevésbé ismert repository érdekel, amit csak a pontos URLből („) lehet biztosan azonosítani.[3]\n Hálózati „Kiss of Death” (KoD): NTP‑hez kapcsolódó könyvtárakban, issue‑kban előfordul a „KoD (Kiss of Death) response” kifejezés, de ezek tipikusan nagyobb projektek részei, nem önálló „kissofdeath” repo‑ként jelennek meg.[5]\n Hasonló névvel futó projektek: például „TheKissOfShame” nevű, mágnesszalag‑emulációs audio plug‑in kódja, amely névben és témában hasonló, de nem „kissofdeath”.[1]\n\n Mit tudsz tenni, hogy pontosíts\n\n Ha van konkrét URL‑töredéked, írd meg (pl. usernév + repo neve), és könnyebb lesz beazonosítani.  \n Ha csak a téma érdekel (pl. NTP KoD kezelés, biztonsági „kissof death” mechanizmusok, vagy valamilyen játék / exploit / CTF „Kiss of Death”), írd le pár szóban, mire szolgálna a repo, és ahhoz tudok alternatív, jól dokumentált nyílt forrású projekteket ajánlani.[3]",
+      "created_at": "20260319T02:59:03.904767Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

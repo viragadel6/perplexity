@@ -1,0 +1,19 @@
+{
+  "context_uuid": "703f3e9ba75e4fb28323f7d2fa6bd8b9",
+  "context_title": "best audio transcriber model on huggungface today @huggingface",
+  "created_at": "20260416T13:29:50.392775Z",
+  "updated_at": "20260416T13:31:00.196357Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "be95fbe08a324f54b6001fd75ffa3044",
+      "query": "best audio transcriber model on huggungface today @huggingface",
+      "answer": "A jelenleg legjobb audio átírási (ASR) modell a Hugging Faceen a , amely 2026 márciusában foglalta el az 1 helyet a Hugging Face Open ASR Leaderboardon, 5,42%os átlagos Word Error Rate (WER) értékkel .\n\n Cohere Transcribe 032026\n\nEz egy 2 milliárd paraméteres, Conformeralapú encoderdecoder architektúrájú modell, amelyet a Cohere Labs fejlesztett ki és tett nyilvánossá Apache 2.0 licensz alatt . A modell kifejezetten hangátírásra lett optimalizálva: bemenete nyers audio hullámforma (automatikusan 16 kHzre mintavételezi), kimenete szöveg . Az architektúra egy 48 rétegű FastConformer encoderből és egy 8 rétegű kauzális Transformer decoderből áll, összesen ~2 milliárd paraméterrel .\n\nA modell 14 nyelvet támogat: angol, német, francia, olasz, spanyol, portugál, görög, holland, lengyel, arab, vietnami, kínai (mandarin), japán és koreai . Az átírási sebesség is kiemelkedő: hasonló méretű konkurens ASR modellekhez képest háromszor gyorsabb a valós idejű feldolgozás (RTFx ~524) .\n\n Open ASR Leaderboard – Top modellek (2026. március)\n\n| Modell | Átlag WER (%) | Paraméterek | Licensz |\n|||||\n| Cohere Transcribe 032026 | 5.42 | 2B | Apache 2.0 |\n| Zoom Scribe v1 | 5.47 | — | Zárt |\n| IBM Granite 4.0 1B Speech | 5.52 | ~1B | Nyílt |\n| NVIDIA Canary Qwen 2.5B | 5.63 | 2.5B | CCBY4.0 |\n| Kyutai STT 2.6B | 6.40 | 2.6B | Nyílt |\n| OpenAI Whisper Large v3 | 7.44 | 1.55B | MIT |\n\n\n\n Hogyan használd Pythonban\n\nA modell natívan támogatott a transformers könyvtárban . Telepítés és gyors indítás:\n\npython\npip install transformers>=5.4.0 torch huggingface_hub soundfile librosa sentencepiece protobuf\n\n\npython\nfrom transformers import AutoProcessor, CohereAsrForConditionalGeneration\nfrom transformers.audio_utils import load_audio\n\nprocessor = AutoProcessor.from_pretrained(\"CohereLabs/cohere-transcribe-03-2026\")\nmodel = CohereAsrForConditionalGeneration.from_pretrained(\n    \"CohereLabs/cohere-transcribe-03-2026\", device_map=\"auto\"\n)\n\naudio = load_audio(\"audio.mp3\", sampling_rate=16000)\ninputs = processor(audio, sampling_rate=16000, return_tensors=\"pt\", language=\"en\")\noutputs = model.generate(**inputs, max_new_tokens=256)\ntext = processor.decode(outputs, skip_special_tokens=True)\n\n\n\n\n CPUn / Quantizálva futtatni (GGUF)\n\nHa GPU nélkül, CPUn szeretnéd futtatni, létezik egy  is, amelyet a cohere-whisper.cpp C++ runtimemal lehet futtatni . A Q4_K kvantizált változat mindössze 1,21 GB, és képes közel valós idejű feldolgozásra 8 CPU szálon .\n\n Alternatívák – Mikor válassz mást?\n\nHa 99+ nyelvet kell támogatnod, az OpenAI Whisper Large v3 (MIT licensz) még mindig a legjobb multilinguális megoldás, bár WERben elmarad a Cohere mögött . Ha streaming, ultraalacsony latenciájú alkalmazásra van szükséged (pl. élő feliratozás), a Parakeet TDT 1.1B (NVIDIA/NeMo, CCBY4.0) a legjobb választás – 2000x RTFx értékkel, bár csak angolul . Mobil vagy edgeeszközökre a Moonshine (Useful Sensors) kínálja a legkisebb memóriaigényt .",
+      "created_at": "20260416T13:29:50.478909Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

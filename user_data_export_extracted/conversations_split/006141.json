@@ -1,0 +1,46 @@
+{
+  "context_uuid": "1f8ff57831f247aeb99da981f336db98",
+  "context_title": "",
+  "created_at": "20251124T23:26:38.142625Z",
+  "updated_at": "20251124T23:28:02.820806Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d9cbc7ae9e364c438df7402bffb69ea2",
+      "query": "",
+      "answer": "A KeepIsland egy olyan segédprogram, amely lehetővé teszi, hogy a Dynamic Island folyamatosan látható legyen olyan iPhoneokon, amelyek nem támogatják azt natívan, feltéve, hogy a Dynamic Islandet már különféle módszerekkel bekapcsolták (például Dynamic Cow, Misaka X vagy Misaka26 segítségével). Az alkalmazás nem módosítja a rendszer működését, nem igényel jailbreaket, és alacsony erőforrásigényű, így a futtatása közben szinte nem befolyásolja a készülék teljesítményét. Kompatibilis iOS 16.0tól iOS 26.1ig és az iOS 26.2 béta 1 verziójáig. Telepítése TrollStore vagy más sideload eszközök (például AltStore vagy Sideloadly) segítségével történik. Előfordulhatnak ismert hibák, például a Dynamic Island megjelenítési területének módosítása más \"tweak\"ek által vagy rendszer UI hibák, melyek megoldhatók az alkalmazás újraindításával.\n\nEz az alkalmazás egy nyílt forráskódú projekt a GitHubon, ahol az alkalmazás fő funkciói és telepítési útmutatója magyarul és angolul is megtalálható .",
+      "created_at": "20251124T23:26:38.897224Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "cd19b3a3203e40e891279dd56ed2775b",
+      "query": "iphone 11en?",
+      "answer": "Igen, a KeepIsland használható iPhone 11en, feltéve, hogy már engedélyezted a Dynamic Islandet harmadik féltől származó eszközökkel (például Dynamic Cow, Misaka X vagy Misaka26 segítségével). Az iPhone 11 nem támogatja natívan a Dynamic Island funkciót, mivel az csak az iPhone 14 Pro és újabb modellekben érhető el gyárilag.[1][2]\n\n Hogyan működik iPhone 11en\n\nAz iPhone 11en először engedélyezned kell a Dynamic Islandet olyan eszközökkel, mint a Misaka X vagy Misaka26, amelyek iOS 16tól iOS 26ig működnek. Ezután a KeepIsland alkalmazás biztosítja, hogy a Dynamic Island folyamatosan látható maradjon.[3][4][2]\n\n Fontos tudnivalók\n\n Az iPhone 11en a Dynamic Island megjelenítése során előfordulhatnak vizuális problémák, például egy nagy piros sáv jelenhet meg a notch körül, amely elfedheti az időt, az ikonokat és az akkumulátor százalékot[5]\n A KeepIsland nem módosítja a rendszert és nem igényel jailbreaket, így biztonságosan használható[2]\n Az alkalmazás alacsony erőforrásigényű, így nem befolyásolja jelentősen a teljesítményt[2]",
+      "created_at": "20251124T23:27:00.582720Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f62cac47eafb46f3a5dfbf02b13e5594",
+      "query": "nem engedelyezten mert nemtom mi az h kell",
+      "answer": "Értem! A Dynamic Island engedélyezéséhez a Misaka26 nevű eszközt kell használnod. Itt van egy egyszerű, lépésrőllépésre útmutató iPhone 11re:\n\n Amit szükséged lesz\n\n Számítógép (Windows vagy Mac)\n USB kábel az iPhone csatlakoztatásához\n Internet kapcsolat[1]\n\n Telepítési lépések\n\n 1. MobileGestalt fájl mentése\n\n Töltsd le a \"Save MobileGestalt\" nevű Shortcutot (link a videó leírásában található: )\n Nyisd meg a Shortcutot és kövesd az utasításokat\n Amikor megjelenik, kattints a \"Click Here\" gombra, majd válaszd ki a fájl ikont és az \"NS String\" opciót\n Másold ki az összes megjelenő kódot és mentsd el a Fájlok alkalmazásban\n Küldd át ezt a fájlt a számítógépedre (AirDrop, email, stb.)[1]\n\n 2. Misaka26 telepítése számítógépre\n\n Töltsd le a Misaka26ot a GitHubról (\n Telepítsd iTunest is a számítógépedre, mert ez biztosítja a szükséges illesztőprogramokat[1]\n Telepítsd a Misaka26ot[1]\n\n 3. Dynamic Island engedélyezése\n\n Nyisd meg a Misaka26ot a számítógépen\n Csatlakoztasd az iPhoneodat USB kábellel\n Kattints a \"Select MobileGestalt List File\" gombra és válaszd ki az előbb mentett fájlt\n Kapcsold be a \"Dynamic Island\" opciót a megjelenő listában[3][1]\n Fontos: Ideiglenesen kapcsold ki a \"Telefon Keresése\" (Find My iPhone) funkciót a",
+      "created_at": "20251124T23:27:28.600204Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "d6ffee91f9cb4cfb898463bae209d1fa",
+      "query": "nincs gepem",
+      "answer": "Sajnos a Dynamic Island engedélyezéséhez iPhone 11en szükséges egy számítógép (Windows vagy Mac), mert a Misaka26 eszköz csak számítógépen fut. Nincs olyan módszer, amely lehetővé tenné a Dynamic Island aktiválását kizárólag az iPhoneról számítógép nélkül.[1][2]\n\n Miért kell számítógép?\n\nA Misaka26 módosítja az iPhone rendszerfájljait (konkrétan a MobileGestalt fájlt), ami olyan mély szintű változtatás, amit csak számítógépről lehet biztonságosan végrehajtani. Ez nem jailbreak, de hasonló hozzáférést igényel a rendszerhez.[1]\n\n Lehetséges megoldások\n\n Kölcsönkérés: Kérhetsz kölcsön egy számítógépet egy baráttól vagy családtagtól  a folyamat csak kb. 1015 percet vesz igénybe\n Könyvtár/iskola: Használhatsz nyilvános számítógépet, ahol telepítheted ideiglenesen a szükséges programokat\n Alternatíva: Sajnos számítógép nélkül nem tudsz Dynamic Islandet aktiválni, így a KeepIsland alkalmazást sem tudod használni[3]\n\nHa később hozzáférsz számítógéphez, szívesen segítek a pontos telepítési lépésekkel!",
+      "created_at": "20251124T23:27:51.476378Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

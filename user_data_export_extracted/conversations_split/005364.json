@@ -1,0 +1,28 @@
+{
+  "context_uuid": "9b58f8770e754f12aec07c591834b065",
+  "context_title": "magyarrol mandarin ra fordito",
+  "created_at": "20251224T05:58:22.041363Z",
+  "updated_at": "20251224T05:58:52.688088Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0d055262c30f40079b2f6096e7c52076",
+      "query": "magyarrol mandarin ra fordito",
+      "answer": "Magyarról mandarinra (kínai nyelvre) történő fordításhoz számos lehetőség közül választhatsz, attól függően, hogy milyen típusú szöveget szeretnél lefordítani és milyen pontos eredményre van szükséged.\n\n Ingyenes online fordítók\nAz azonnali, rövidebb szövegek vagy mondatok fordításához a gépi fordítók a leggyorsabbak, de pontosságuk változó lehet a mandarin nyelv tónusos jellege miatt.\n\n   Google Fordító: A legismertebb eszköz, amely hangalapú bevitelre és kamera általi fordításra is képes. Hasznos utazáshoz vagy gyors kommunikációhoz.[1]\n   Translator.eu: Kifejezetten európai nyelvekre fókuszáló felület, amely hosszabb szövegek (kb. 1000 karakterig) fordítását is támogatja.[2]\n   CapCut és Glosbe: A CapCut AIalapú megoldása a szövegkörnyezetet is figyelembe veszi, így természetesebb mondatokat alkothat, míg a Glosbe szótárként funkcionál példamondatokkal.[3][4]\n\n Mobilalkalmazások\nOkostelefonra telepíthető applikációk utazáshoz és beszélgetéshez:\n   Speak & Translate: Hang és szövegfordító, amely kifejezetten támogatja a mandarin nyelvjárást, így élő beszédben is segíthet.[6]\n   Hungarian Chinese Translator: Egyszerű, Androidra elérhető alkalmazás, amely mindkét irányba fordít.[8]\n\n Hivatalos és szakfordítás\nHa üzleti dokumentumról, jogi iratról vagy hivatalos papírokról van szó, a gépi fordítás nem elegendő a hitelességhez. Ilyen esetekben profi fordítóirodák igénybevétele javasolt, ahol anyanyelvi lektorok ellenőrzik a szöveget (pl. Gilvádi Fordítóiroda), biztosítva a kulturális és szakmai pontosságot.[5]\n\n Kiejtés és hangos felolvasás\nMivel a mandarin nyelvben a hanglejtés megváltoztatja a szavak jelentését, hasznos lehet olyan eszközt használni, amely fel is olvassa a fordítást. Az Ondoku például mesterséges intelligenciával generál természetes hangzású mandarin beszédet a lefordított szövegből.[7]",
+      "created_at": "20251224T05:58:22.142625Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "20d176a79b8e49a8841cf6eef5faadf4",
+      "query": "de igazi mandarin nem kinai",
+      "answer": "Ez egy gyakori félreértés, de valójában a mandarin is kínai nyelv – sőt, ez a legfontosabb változata. A zavart az okozhatja, hogy a \"kínai\" kifejezés egyszerre jelenti az egész nyelvcsaládot és a hivatalos nyelvet is.\n\nA helyzet tisztázása:\n\n 1. A Mandarin = A hivatalos \"Kínai\"\nAmikor a világban \"kínaiul tanulásról\" beszélünk, szinte mindig a mandarinról (más néven Putonghua vagy sztenderd kínai) van szó.\n   Hivatalos státusz: Ez Kína, Tajvan és Szingapúr hivatalos nyelve.[1]\n   Eredet: A pekingi nyelvjáráson alapuló köznyelv, amelyet a kormány azért tett kötelezővé, hogy az ország különböző pontjain élő emberek megértsék egymást.[2]\n\n 2. Miért hiszik, hogy \"nem kínai\"?\nKínában rengeteg különböző nyelvváltozat (dialektus) létezik, amelyek beszélői nem értik meg egymást. Ha valaki például a kantonit (Hongkong és DélKína nyelve) beszéli, az számára a mandarin teljesen idegen nyelvnek tűnhet hangzásban, bár az írásjelek nagyrészt közösek.[7][2]\n   Hasonlat: Olyan ez, mintha egy spanyol és egy olasz próbálna beszélgetni: mindkettő újlatin (\"kínai\") nyelv, de nem ugyanaz.\n\n 3. Összegzés: Mit válassz?\nHa fordítót keresel, a \"kínai\" és a \"mandarin\" opciók a legtöbb programban ugyanazt jelentik (a sztenderd, egyszerűsített írásjelű nyelvet).\n   Kivétel: Ha kifejezetten Hongkongba, Makaóra vagy a tengerentúli régi kínai közösségekhez (pl. San Francisco kínai negyed) szánsz szöveget, akkor a hagyományos kínai írásmódot vagy a kantoni (Cantonese) nyelvet kell keresned, nem a mandarint.[2]\n\nTehát: a mandarin az a modern, szabványosított kínai nyelv, amit a legtöbben használnak.",
+      "created_at": "20251224T05:58:41.240091Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

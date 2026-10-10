@@ -1,0 +1,28 @@
+{
+  "context_uuid": "483671f6907b4d8fa17d2b0e8fb5f6b2",
+  "context_title": "gemini 3.8 flash code execution tool image @Web  @exa  @Google Vertex AI  @Google Cloud Vision",
+  "created_at": "20260927T13:37:42.214937Z",
+  "updated_at": "20261002T05:31:43.088726Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e421bbd006b74673888d61f16bc3db75",
+      "query": "gemini 3.8 flash code execution tool image @Web  @exa  @Google Vertex AI  @Google Cloud Vision",
+      "answer": "A javasolt felépítés: Gemini 3.8 Flash legyen a Vertex AIon futó multimodális orchestrátor, Google Search groundinggal és Code Executionnel; az Exa és a Cloud Vision pedig szerveroldali kiegészítő szolgáltatás legyen.\n\nA tényleges modellazonosító gemini-3.8-flash. Képet tud elemezni és Pythonalapú Code Execution segítségével kivágni, nagyítani vagy annotálni, de képgeneráláshoz külön gemini-3.1-flash-image modell szükséges.[1][2][3]\n\nElkészítettem a teljes magyar technikai jelentést működő Pythonmintákkal, telepítési lépésekkel, OCR, Exa, Vertex AI és egyesített pipelinepéldával.[4]",
+      "created_at": "20260927T13:37:42.253953Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "01b6198b3ad8446a906b3ac86bee746f",
+      "query": "browser use bongeszoje automatikusan kezeli a chaptat meg ilyenekez nem?\n\n",
+      "answer": "Igen: a Browser Use Cloud lényege, hogy egy AIagent böngészőt vezéreljen helyetted — navigáljon, űrlapokat töltsön, oldalakról adatot szedjen ki, és például CSVbe mentse az eredményt. A bemutatott SDKpélda alapján természetes nyelvű feladatot adsz neki, például termékek összegyűjtését Amazonról.[1]\n\nA CAPTCHA viszont más kategória. A böngészőautomatizálás eljuthat egy CAPTCHAig, felismerheti, hogy emberi ellenőrzés van, és megállhat vagy kérheti, hogy te vedd át. Nem szabad arra alapozni, hogy automatikusan és megbízhatóan megkerüli vagy megoldja az ilyen védelmeket — ezek kifejezetten botok és jogosulatlan automatizálás kiszűrésére valók.\n\n Mit érdemes vele csinálni?\n\nLegális, saját vagy engedélyezett webes folyamatokban jól használható például belső adminfelületek tesztelésére, riportok letöltésére, adatbevitelre, böngészős regressziós tesztekre és jóváhagyott adatkinyerésre. A Cloud szolgáltatás Python SDKja az AsyncBrowserUse klienssel indít feladatokat, tehát backendből automatizálható.[1]\n\n CAPTCHAbarát megoldás\n\nHa az oldal CAPTCHAt dob, a normális workflow az, hogy az agent megáll, és emberi beavatkozást kér. Saját oldal esetén inkább hozz létre tesztkörnyezetet CAPTCHA nélkül, használj dedikált tesztfiókot, vagy építs hivatalos APIt az automatizált művelethez.\n\nRöviden: böngészést, kattintást és űrlapkezelést igen; CAPTCHA automatikus megkerülésére ne tervezd a rendszert.",
+      "created_at": "20261002T05:31:09.536873Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

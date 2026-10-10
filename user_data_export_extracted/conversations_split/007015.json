@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5c9067895cd6456882c253e303e62f19",
+  "context_title": "ez mi",
+  "created_at": "20251028T23:03:07.719168Z",
+  "updated_at": "20251028T23:03:07.719168Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c8f7375fa9c94506b7f9336c73856afc",
+      "query": "ez mi",
+      "answer": "Ez egy Gleam nyelvű „checkpoint” (modellállapotmentés) kezelő könyvtár forráskódja, amely mentést és visszatöltést kínál több formátumban, kiegészítve tömörítéssel, „titkosítással”, verziózással és replikációs/audit funkciókkal. A központi elemei a CheckpointConfig, CheckpointMetadata, CheckpointState típusok és a save_checkpoint / load_checkpoint függvények, de számos rész csak vázként (stub) szerepel, ezért nem productionkész.[1]\n\n Fő típusok és magfüggvények: CheckpointConfig, CheckpointMetadata, CheckpointState; mentés/visszatöltés: save_checkpoint, load_checkpoint.[1]\n Támogatott formátumok: SafeTensors, Pickle, JSON, Protobuf, MsgPack, Cap’n Proto, valamint Custom kiterjesztés.[1]\n Opcionális képességek: tömörítés, „AES” alapú titkosítás jellegű réteg, checksumellenőrzés, verziózás, inkrementális mentés, több célpontra replikálás, audit napló és értesítések.[1]\n Sok implementáció csupán helykitöltő: pl. gzip_compress/decompress azonnal visszaadja a bemenetet, az AES függvények nem valós, biztonságos titkosítást valósítanak meg, így a kód demonstratív/prototipikus jellegű.[1]\n Számos „checkpoint_with_” hook interfész van különféle MLparadigmákhoz, ajánlórendszerekhez és pénzügyi modellekhez; ezek csak héjak, amelyek felhasználó által adott függvényeket hívnak, tényleges algoritmus nélkül.[1]\n Valódi használathoz ki kell dolgozni a tényleges fájlformátumkódolást/dekódolást, a biztonságos kriptográfiát, a hibatoleráns I/Ot és a működő tömörítést/verifikációt.[1]",
+      "created_at": "20251028T23:03:07.781730Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

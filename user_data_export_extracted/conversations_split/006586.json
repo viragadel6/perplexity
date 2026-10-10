@@ -1,0 +1,28 @@
+{
+  "context_uuid": "978e89cce3764a70960579badcd672eb",
+  "context_title": "",
+  "created_at": "20251107T17:06:45.278399Z",
+  "updated_at": "20251107T17:08:39.016364Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "acd46627d86449489a53ebaee06cc79c",
+      "query": "",
+      "answer": "Az Ön által megadott URL () a HPLT 3.0 nevű, nagyméretű többnyelvű adathalmazról szóló tanulmány teljes szövegét tartalmazza, amelyet egy európai akadémiai konzorcium fejlesztett ki. Ez a cikk részletesen bemutatja az adatok gyűjtését a webarchívumokból, a feldolgozási eljárásokat (például szövegkinyerés, nyelvfelismerés, ismétlődések eltávolítása), annotációkat, statisztikákat, kézi ellenőrzéseket, valamint a többnyelvű nyelvi modellek kiértékelését és a monolingvális encoderdecoder modellek fejlesztését. A HPLT 3.0 adatbázis közel 30 billió tokenből áll, több mint 200 nyelvhez. Számos nyílt forráskódú eszközzel és mérőszámrendszerrel támogatja a nagyméretű nyelvi modellek tréningjét és értékelését.\n\nKiemeltem a dokumentumból, hogy ez az eddig nyilvánosan elérhető legnagyobb és legátfogóbb többnyelvű adatforrás az LLMek (nagyméretű nyelvi modellek) előképzéséhez. A tanulmány tartalmaz továbbá információkat a mesterséges fordítások használatáról és párhuzamos szövegek bányászatáról, valamint a különböző nyelvi modellek összehasonlító kísérleteiről.[1]\n\nHa további részletes információt szeretne erről a kutatásról vagy egy adott aspektusról (például a modellértékelésről, adatfeldolgozásról vagy etikai megfontolásokról), jelezze kérését!",
+      "created_at": "20251107T17:06:45.395257Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "31b9181aaf744c6c8688df2ec00c6c33",
+      "query": "hol erem el magat a datasetset",
+      "answer": "A HPLT 3.0 korpusz a HPLT projekt hivatalos letöltőfelületén érhető el nyilvános HTTPn, nyelvenként WDSminőségi szintek szerint shardokra bontva. Részletes letöltési útmutató és példaparancsok elérhetők a HPLT adatoldalon és a Hugging Face adatleírásában.[1][2][3]\n\n Hol érhető el\nA HPLT Monolingual Datasets 3.0 oldal ismerteti a nyelvek listáját és a fájlstruktúrát, a fájlokat a HPLT infrastruktúra szolgálja ki HTTPn. A kiadás az arXiv leírás szerint nyilvános HTTP letöltésként érhető el, összesen körülbelül 50 TB és mintegy 3000 fájl formájában.[3][4][1]\n\n Mi van a kiadásban\nA kiadás közel 198 nyelvet fed le, összesen kb. 30 billió tokennel, a nem angol rész nagyjából 13,5 billió tokent tesz ki a Gemma‑3 tokenizálással számolva. Az adatok Zstandardkompresszált JSONL formátumban vannak, WDS 5–10 szintekbe rendezve és több shardra bontva, globális deduplikációval (angol, orosz és kínai kivételével).[2][3]\n\n Letöltési tippek\nNyelvenként úgynevezett „map” fájl adja a teljes letöltési címek listáját, amely közvetlenül beolvasható eszközökbe, például wget i használatával. Tömeges letöltéshez 16–32 párhuzamos szál használata javasolt, ami kb. 250 GB/óra töltési sebességet tesz lehetővé a szerver oldali korlátok figyelembevételével. A letöltött állományok .jsonl.zst formátumúak; kinyitásukhoz zstd, feldolgozásukhoz JSONL‑kompatibilis eszközök javasoltak.[4][2][3]",
+      "created_at": "20251107T17:07:30.733563Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

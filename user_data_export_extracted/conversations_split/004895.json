@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f73ca3bcd00b41d5ada51f991616784d",
+  "context_title": "You are a strict Python→Julia transpiler.  You will receive a complete Python file as input. A julia fájlnak önmagában külső fájlok nélkül is működnie kell You must return the equivalent Julia code. soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek csak a  teljes  fajl teljes roviditetlen production ready kód  CRITICAL RULES (DO NOT BREAK THEM): 1. Output ONLY Julia code.  2. NO comments at all. Do not keep original comments, do not add new ones.  3. NO explanations, NO summaries, NO notes.  4. NO placeholders, NO “...rest of code”, NO “to be implemented”.  5. Do not skip or shorten ANY part. Translate EVERY line.  6. The output must be complete, runnable Julia code with nothing missing. a teljes kódot  küldöd. minden egyes karaktert leírsz, nem rövidítesz. minden hibát kijavítasz. egy fájl marad. ne írj semmi mást csak a teljes kódot es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód",
+  "created_at": "20260117T21:57:30.498029Z",
+  "updated_at": "20260117T21:57:54.054234Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "99a4c3eea8724bfdbb8efcaf6bdab73c",
+      "query": "You are a strict Python→Julia transpiler.  You will receive a complete Python file as input. A julia fájlnak önmagában külső fájlok nélkül is működnie kell You must return the equivalent Julia code. soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek csak a  teljes  fajl teljes roviditetlen production ready kód  CRITICAL RULES (DO NOT BREAK THEM): 1. Output ONLY Julia code.  2. NO comments at all. Do not keep original comments, do not add new ones.  3. NO explanations, NO summaries, NO notes.  4. NO placeholders, NO “...rest of code”, NO “to be implemented”.  5. Do not skip or shorten ANY part. Translate EVERY line.  6. The output must be complete, runnable Julia code with nothing missing. a teljes kódot  küldöd. minden egyes karaktert leírsz, nem rövidítesz. minden hibát kijavítasz. egy fájl marad. ne írj semmi mást csak a teljes kódot es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód",
+      "answer": "Készen állok a Python kód Juliara történő átírására. Kérlek, add meg a Python fájlt, amit át szeretnél konvertálni Julia kódra.",
+      "created_at": "20260117T21:57:30.567375Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

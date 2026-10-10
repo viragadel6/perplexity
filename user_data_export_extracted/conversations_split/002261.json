@@ -1,0 +1,37 @@
+{
+  "context_uuid": "b3b261f9b75d42cdada2840234213b81",
+  "context_title": "\nEz mi?  Magyarul ertekeld! OLVASD el line by line end to end de nekem normálisan egyben válaszolj",
+  "created_at": "20260522T04:27:50.889792Z",
+  "updated_at": "20260522T04:31:44.896679Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3c5de6caa5e44cce91b6ccfb73742b11",
+      "query": "\nEz mi?  Magyarul ertekeld! OLVASD el line by line end to end de nekem normálisan egyben válaszolj",
+      "answer": "Ez a  repository az xAI Grok AI asszisztens lokális számítógépes szerverének (MCP – Model Context Protocol szerver) bundlelt, produkciós kódja. Magyarul: ez a Grok \"computer use\" vagy \"computer tool\" backendje, ami a gépen fut és lehetővé teszi, hogy a Grok AI eszközöket (shell, böngésző, fájlrendszer, stb.) hívjon meg a helyi gépen.\n\n Mi ez pontosan?\n\nA repo neve \"dropdead\" (valószínűleg egy belső xAI fejlesztői gúnynév), de a kód önmagát \"GrokComputer server\"nek nevezi. Az index.js belépési pontjában az első dolog, amit a szerver csinál: log_default.info(\"Starting Grok-Computer server\") – tehát ez az xAI saját eszközkiszolgáló szervere, ami a Grok modell mellé telepíthető a helyi gépre . Két módban indítható: HTTP szerver módban (startServer()) vagy stdio módban (--stdio parancssori flag esetén), ami az MCP protokoll két standard kommunikációs csatornájának felel meg .\n\n A szerver architektúrája\n\nA server.js egy Express.js alapú HTTP szerveren fut, és a CORSengedélyezett originek listája rendkívül árulkodó: az engedélyezett domainek kizárólag localhost:3000 és az *.x.ai infrastruktúra domainjei (cosmos.tyler.svc.lap0-7.x.ai) . Ez azt jelenti, hogy a szerver kizárólag az xAI saját frontendjeivel (Grok webalkalmazás) és lokális fejlesztői környezettel kommunikálhat – senki más nem férhet hozzá. A szerver 127.0.0.1en hallgat, tehát kizárólag a saját gépen érhető el hálózatról .\n\n REST API végpontok\n\nA szerver rengeteg REST végpontot regisztrál, amelyek együtt egy teljes AI ügynökinfrastruktúrát alkotnak :\n\nSessionkezelés (/sessions/*): A Grok munkameneteket kezel – lehet létrehozni (/sessions/create), megsemmisíteni (/sessions/destroy) és frissíteni őket. A session létrehozáskor átadható, hogy milyen eszközök legyenek engedélyezve (enabledTools), vane vizuális képesség (hasVision), milyen shell binárist használjon, stb.\n\nToolhívás (/sessions/:sessionId/tools/call): Ez a legkritikusabb végpont – ezen keresztül hívja meg a Grok modell a lokális eszközöket (shell parancsok, böngésző, fájlműveletek). A kód traceparent (OpenTelemetry nyomkövetési) fejlécet is kezel, és méri az eszközhívás időtartamát (toolDurationMs) .\n\nFájlrendszer (/filesystem/*): Könyvtárlistázás, útvonalellenőrzés, tabcompletion (/filesystem/complete), home mappa lekérdezése – a Grok így látja a helyi fájlrendszert.\n\nSkills (/skills/*): A Grok \"skill\"eket (képességcsomagokat) tud telepíteni és eltávolítani. A készségek forrása az xai-org/skills GitHub repository, és projekt vagy globális szinten telepíthetők .\n\nWorktreekezelés (/worktrees/*): Git worktreeeket lehet létrehozni, listázni, törölni és státuszt lekérdezni – ez lehetővé teszi, hogy a Grok párhuzamosan több git branchon dolgozzon .\n\n A context.js és tools/ mappa\n\nA context.js (54KB!) és a tools/ mappa tartalmazza az összes konkrét eszköz implementációját – shell futtatás, képernyőkezelés (vision), böngészőautomatizálás, stb. A context.js méretes bundlelt fájl, ami valószínűleg az összes kontextusgyűjtési logikát tartalmazza (env info, git status, skills betöltése), amit a /sessions/:sessionId végpont aggregál és visszaküld a modellnek.\n\n Miért érdekes ez?\n\nEz lényegében az xAI belső, éles kódja, amit feltehetően kiszivárgott vagy véletlenül nyilvánosra állítottak, de lehet hogy szándékosan opensourceolták a Grok computer use feature mellé. A \"pakkoskurva\" GitHub felhasználónév és a \"dropdead\" repo név alapján valószínűleg egy tesztelési/staging környezetből vagy személyes forkból származik – nem egy hivatalos xAI release. A kód mégis profi minőségű: proper error handling, CORS biztonsági réteg, OpenTelemetry telemetria, és egy komplett MCPkompatibilis session management rendszer .",
+      "created_at": "20260522T04:27:51.117085Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "9f73e46e6f5147d2850af6bc8497ec3a",
+      "query": "en reverse engineltem meg es  szereztem meg",
+      "answer": "Szóval hogyan csináltad – az xAI Grok desktop alkalmazásból bontottad ki, vagy valamilyen más úton jutottál hozzá? Azért kérdezem, mert a kód maga meglehetősen érdekes dolgokat árul el a Grok belső működéséről.\n\nA  mappában a következő eszközök vannak bundlálva :\n\n  – shell parancsok futtatása a gépen\n  – böngésző tab vezérlés\n  – hálózati forgalom olvasása a böngészőből\n  /  /  – teljes fájlrendszerhozzáférés\n\nEz alapvetően azt jelenti, hogy amikor a Grok \"computer use\" módban fut, ezeken a REST hívásokon keresztül fér hozzá a te gépedhez – fájlokhoz, shellhez, böngészőhöz, minden. Nagyon nem mindennapi dolog, hogy ennek a forráskódja publikusan elérhető. Hogyan jutottál hozzá?",
+      "created_at": "20260522T04:31:02.709839Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "55291d640d61433195bc7dc682d4fa81",
+      "query": "iphoneon",
+      "answer": "iPhoneon reverse engineereltél egy xAI szerverkódot? Ez elég kemény – mi volt a folyamat? App Storeos Grok appból húztad ki az IPAt, vagy valami más módon jutottál hozzá?",
+      "created_at": "20260522T04:31:37.898747Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

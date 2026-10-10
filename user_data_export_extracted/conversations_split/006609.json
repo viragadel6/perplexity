@@ -1,0 +1,19 @@
+{
+  "context_uuid": "095542cc30e743568e3c87d8499e2023",
+  "context_title": "",
+  "created_at": "20251107T01:12:20.094934Z",
+  "updated_at": "20251107T01:12:20.094934Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3f0eaf77db3b40d5bbbb862223c8e37f",
+      "query": "",
+      "answer": "A  oldal a Seekr platform regisztrációs oldala lehet, ahol új felhasználói fiókot lehet létrehozni a Seekr szolgáltatásokhoz. A Seekr egy megbízható és átlátható mesterséges intelligencia (AI) platform, amelyet kritikus infrastruktúrák, kormányzati és pénzügyi alkalmazások számára fejlesztettek ki. A platform biztonságos, magyarázható AImegoldásokat kínál, amelyeket rugalmasan lehet telepíteni felhőben vagy onpremise környezetben. A regisztráción keresztül a felhasználók hozzáférést kapnak a Seekr szolgáltatásokhoz és eszközökhöz, amelyekkel AI alapú megoldásokat alakíthatnak ki, beleértve az AI ügynökök fejlesztését és használatát is. A platform komolyan veszi az adatbiztonságot, SOC 2 tanúsítvánnyal rendelkezik, és az adatok teljes kontrollját a felhasználók kezében tartja. A regisztráció során a felhasználók biztonságosan hozhatnak létre fiókot, és hozzáférhetnek a Seekr AI funkciókhoz, mint például a testreszabható és skálázható generatív AI megoldásokhoz.[1][3][4][6]",
+      "created_at": "20251107T01:12:20.518506Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

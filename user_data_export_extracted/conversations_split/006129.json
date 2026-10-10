@@ -1,0 +1,19 @@
+{
+  "context_uuid": "af796fbf64f2494a86a58ee74b96f9a9",
+  "context_title": "\n\n\nEz melyik model lehet majd",
+  "created_at": "20251125T08:07:54.907379Z",
+  "updated_at": "20251125T08:07:54.907379Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5963c54b84b44f938db3a0cf2e011e1b",
+      "query": "\n\n\nEz melyik model lehet majd",
+      "answer": "A BertNebulon Alpha egy újonnan megjelent \"lopakodó modell\" (stealth model), amelyet az OpenRouter platformon keresztül 2024. november 24én bocsátottak közre, hogy a közösség visszajelzéseit gyűjtsék.[1][2][3]\n\n Modell jellemzői\n\nEz egy általános célú multimodális AI modell, amely képes szöveg és kép bemenet feldolgozására, és szöveges kimenetet generál. A modell fő erősségei a megbízhatóság, a hosszú kontextus megértése és az adaptív logika. 256,000 token kontextushosszal rendelkezik, és jelenleg ingyenesen elérhető ($0/M input és output tokenért).[2][3][1]\n\n Célzott felhasználási területek\n\nA BertNebulon Alpha professzionális asszisztensek építésére, kereséskiterjesztett rendszerekhez (RAG), tudományos feladatokhoz és komplex ügynökalapú munkafolyamatokhoz lett optimalizálva. Versenyképes kódolási teljesítményt nyújt, és stabil, kiszámítható viselkedést mutat különböző feladattípusok esetén.[3][2]\n\n Spekulációk a modell eredetéről\n\nA közösségben vegyes vélemények alakultak ki arról, hogy melyik cég áll a modell mögött. Egyesek szerint DeepSeekre emlékeztet, mások Mistral modellre tippelnek a minimális cenzúra és gyors válaszidők miatt. Fontos megjegyezni, hogy a szolgáltató minden interakciót naplóz (promptokat és válaszokat) a modell továbbfejlesztése érdekében.[4][5][2]",
+      "created_at": "20251125T08:07:55.108959Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b94eb852adc843a0a8b68acc4893407d",
+  "context_title": "huggung face acc token t replit secrezsbe .env formaba megirod\n\n\n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",
+  "created_at": "20251104T04:12:58.401150Z",
+  "updated_at": "20251104T04:12:58.401150Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "472ae369cc97404dba474b0411c83f3f",
+      "query": "huggung face acc token t replit secrezsbe .env formaba megirod\n\n\n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",
+      "answer": "Íme a kész .env bejegyzés Replithez, biztonságosan, a megfelelő kulcsnévvel:\n\nHF_TOKEN=\"hf_…\"\n\nHa inkább a régebbi elnevezést használnád, ez is működik:\n\nHUGGING_FACE_HUB_TOKEN=\"hf_…\"\n\nCsak cseréld a hf_… részt a saját tokenedre, és ne tedd nyilvános kódba.\n\n Replit Secretsben\n Nyisd meg a bal oldali Secrets eszközt.\n Új Secret:\n   Key: HF_TOKEN\n   Value: a saját hf_… tokened\n Alternatíva:\n   Key: HUGGING_FACE_HUB_TOKEN\n   Value: a saját hf_… tokened\n\n .env formában (helyben szerkesztve)\n Ha a Secrets nézetben elérhető az “Edit as .env”, add hozzá:\n   HF_TOKEN=\"hf_…\"\n   vagy HUGGING_FACE_HUB_TOKEN=\"hf_…\"\n\n Használat Pythonban\n A legtöbb Hugging Facees könyvtár automatikusan felveszi a tokent az environmentből, külön login nélkül is.\n Példa közvetlen használatra:\npython\nimport os\nfrom huggingface_hub import HfApi\n\n# Ellenőrzés – a token az env-ből jön (HF_TOKEN vagy HUGGING_FACE_HUB_TOKEN)\napi = HfApi()\nprint(api.whoami())  # siker esetén a profilodat adja vissza\n\n Modellek betöltése (privát/gated repo esetén):\npython\nfrom transformers import AutoTokenizer, AutoModelForCausalLM\n\ntok = AutoTokenizer.from_pretrained(\"szervezet/model\", use_auth_token=True)\nmdl = AutoModelForCausalLM.from_pretrained(\"szervezet/model\", use_auth_token=True)\n\nMegjegyzés: újabb verziókban a háttér a HF_TOKENből olvas, a use_auth_token=True kompatibilitási célból szerepel.\n\n Használat Node.js/Transformers.js esetén\n A folyamat környezetében legyen beállítva:\n   HF_TOKEN=hf_…\n Példa futtatáskor:\n   HF_TOKEN=hf_… node app.js\n A könyvtár automatikusan Authorization fejléccel hívja a Hubot, ha a HF_TOKEN elérhető.\n\n Tippek\n Előnyben a HF_TOKEN kulcsnév; a HUGGING_FACE_HUB_TOKEN továbbra is támogatott, de kevésbé egységes.\n Soha ne írd be a tokent közvetlenül a forráskódba, és ne committold .envt publikus repoba.\n Frontendből ne használd közvetlenül a tokent; proxyn vagy szerveroldali híváson keresztül férj hozzá a Hubhoz.",
+      "created_at": "20251104T04:12:58.593855Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5bb15672afe0476683bd41fb69e61fe3",
+  "context_title": "ice spice dalaba a deli szo mit jelent",
+  "created_at": "20251110T03:55:56.106128Z",
+  "updated_at": "20251110T03:55:56.106128Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7c32b66f4ba643c2a52269bd49138278",
+      "query": "ice spice dalaba a deli szo mit jelent",
+      "answer": "Röviden: Ice Spice dalának címében a  az amerikai / típusú szendvicsesközért rövidítése, vagyis „delikátesz”/sarki kisbolt értelemben áll. A klipet is egy New Yorki ban forgatták, így a cím közvetlenül a helyszínhez és a környék kultúrájához kapcsolódik.[5][7][8]\n\n Mit jelent?\nAz angolban a  a  rövidülése, ami tipikusan szendvicseket, salátákat és hideg pultos ételeket árusító kis élelmiszerbolt vagy delikátesz, New Yorkban pedig gyakran a  elnevezéssel egyenértékű a hétköznapi beszédben. Ezért a cím szó szerint a „delikátesz/sarki bolt” jelentést hordozza, nem pedig egy külön szlengkifejezést a szó teljesen új értelmében.[8][5]\n\n A dal kontextusa\nA “Deli” 2023as kislemez és videó, ahol Ice Spice egy zsúfolt ban táncol és pózol, tehát a bolt mint ikonikus New Yorki közeg a vizuális és tematikus keretet adja a számnak. A szöveg és a refrén a „baddie” imidzset, a magabiztosságot és a bulihangulatot hangsúlyozza (például „She a baddie, she showin’ her panty” / „She shake it like jelly”), ami illeszkedik a klip pörgős, helyi hangulatához. Ennek megfelelően a  cím egyszerre szó szerinti helymegjelölés és a New Yorki utcaiközért kultúrára utaló keret a dalhoz.[2][6][7][8]",
+      "created_at": "20251110T03:55:56.197669Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

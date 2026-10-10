@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b9619a0459cd468fa6c9e0573d2e3f5a",
+  "context_title": "Shell script egy soros ami teljes alphafold 3 repot klonozza es minden python fajlt txt kiterjesztesure atír és fo mappaba kiszedi a fajlokat es atnezevi oket sorrendbe hogy 1 2 3 es igy tovabb . ami nem python fajl azokat egyszeruen torli",
+  "created_at": "20251007T16:40:37.703370Z",
+  "updated_at": "20251007T16:40:37.703370Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "733c723fc3cc4b35928de7255a7a7ec5",
+      "query": "Shell script egy soros ami teljes alphafold 3 repot klonozza es minden python fajlt txt kiterjesztesure atír és fo mappaba kiszedi a fajlokat es atnezevi oket sorrendbe hogy 1 2 3 es igy tovabb . ami nem python fajl azokat egyszeruen torli",
+      "answer": "Íme egy egy soros Bash parancs, amely klónozza a hivatalos AlphaFold 3 GitHub repót, az összes Python fájlt .txt kiterjesztésre menti a repó gyökerébe sorszámozva 1.txt, 2.txt, … formában, és minden nem .txt fájlt töröl.[1]\n\nbash\ngit clone https://github.com/google-deepmind/alphafold3.git && cd alphafold3 && i=1 && while IFS= read -r -d '' f; do cp \"$f\" \"$i.txt\"; i=$((i+1)); done < <(find . -type f -name '*.py' -print0 | sort -z) && find . -type f ! -name '*.txt' -delete && find . -mindepth 1 -type d -empty -delete\n\n\nFigyelem: a parancs destruktív, a repóban a végén csak a sorszámozott .txt fájlok maradnak; futtatás Linuxon/Bashsel javasolt az AlphaFold 3 hivatalos repójának klónozása után.[1]",
+      "created_at": "20251007T16:40:38.089724Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

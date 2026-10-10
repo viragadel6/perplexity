@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d52aa13658f84f2ab7b31b3d4452a34a",
+  "context_title": "",
+  "created_at": "20260711T00:15:32.236991Z",
+  "updated_at": "20260711T00:15:42.531134Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "669d216817a940819ab1ed23fbe29c28",
+      "query": "",
+      "answer": "A megadott link egy robotikai világmodellt, a GigaWorld1et jelöli, ami nyílt forráskódú keretrendszer robot policyk (irányítási stratégiák) szimulációs kiértékelésére.[1][3][5][6]\n\n Mi ez a projekt?\n\nA GigaWorld1 egy „world model” keretrendszer, amit kifejezetten arra terveztek, hogy robotok vezérlő policyit nagy léptékben, olcsón és következetesen lehessen virtuális környezetben tesztelni, nem pedig minden egyes kísérletnél valós roboton.  A projekt mögött a GigaAI csapat áll, és a teljes stack nyíltan elérhető: kód GitHubon, modellek Hugging Faceen, adatkészletek és benchmark leaderboard külön Hugging Face oldalakon.[5][6]\n\n Fő komponensek és ökoszisztéma\n\nA GigaWorld1 nem egy magányos modell, hanem egy komplett ökoszisztéma: tréning/inferencia kód, checkpoint konverzió, adatelőkészítés és kiértékelési eszközök.  A korábbi GigaWorld0 munka alapján építkezik, ahol már kidolgoztak egy VisionLanguageAction (VLA) világmodell keretrendszert videógenerálással és 3Ds fizikai konzisztenciával; ebben szerepel a GigaWorld0Video és GigaWorld03D komponens.  A GigaWorld1ben ezt a vonalat viszik tovább, de fókuszáltan a policy evaluationra – tehát kifejezetten arra, hogy különböző robotirányítási algoritmusokat összehasonlíts és mérj egy egységes virtuális világban.[2][6][5]\n\n Modellek, adatok, benchmark\n\nA Hugging Face model oldalon az opengigaai több modelljét listázzák, köztük a GigaWorld1et, amely 2026 elején frissült.  A GigaWorld1hez dedikált adatkészlet is tartozik (CVPR2026WorldModelTrackDataset), és egy publikus benchmark/leaderboard, ahol a közösség eredményei láthatók a világmodellalapú kiértékelési feladatokon.  Emellett van egy külön „Toydata” csomag is, ami példafájlokat és kisméretű robotvideódatát tartalmaz teszteléshez, imagetovideo inference pipelineokhoz, és a tréning workflow kipróbálásához.  Ez a toydata Apache 2.0 licenc alatt érhető el, így szabadon használható, módosítható és integrálható saját kutatási kódba.[3][4][5]\n\n Hogyan lehet elkezdeni használni?\n\nA Hugging Face repoban és a GitHubon részletes használati útmutatók vannak arra, hogyan futtasd a GigaWorld1et könyvtárakkal, inference szolgáltatókkal, notebookokkal és lokális alkalmazásokkal.  A Toydata leírás példát ad a mappastruktúrára (infer_assets, toy_datapipeline_dataset, toy_train_dataset) és arra, hogyan kell megadni az elérési utakat a fő GigaWorld1 szkripteknek, hogy ellenőrizd az inferenceet, vizualizációt és tréninget kisméretű adaton.  A papír (GigaWorld1: A Roadmap to Build World Models for Robot Policy Evaluation) összefoglalja a design döntéseket, és egy gyakorlati „roadmapet” ad arra, hogyan építs skalázható világmodellt robot policyk kiértékeléséhez.[4][7][8][9][10][5]\n\nMire szeretnéd használni a GigaWorld1et: kutatási célú robot policy kiértékelésre, gyakorlati ipari robotszimulációra, vagy inkább world modellel kapcsolatos általános tanulásra?",
+      "created_at": "20260711T00:15:32.581174Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

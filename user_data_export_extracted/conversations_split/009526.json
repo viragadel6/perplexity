@@ -1,0 +1,28 @@
+{
+  "context_uuid": "d440f874884c447e980a6fb15df50f09",
+  "context_title": "atvetelkor bruttot vagy nettot kell fizetnem?",
+  "created_at": "20250714T10:47:41.654287Z",
+  "updated_at": "20250714T10:48:13.300705Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ea9682ea185f4fb1bd0f61c38785c857",
+      "query": "atvetelkor bruttot vagy nettot kell fizetnem?",
+      "answer": "Átvételkor mindig a bruttó összeget kell fizetned, tehát jelen esetben 49 999 Ftot. A nettó összeg az áfa nélküli ár, de a végösszeg mindig bruttóban van megadva a vásárlónak.",
+      "created_at": "20250714T10:47:41.772376Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "089657a3c6ae476eb3c0f3693f23f928",
+      "query": "es ha egyeni vallakozo vagyok?pomt hasznalt gepjarmu kereskedo xd",
+      "answer": "Egyéni vállalkozóként is a bruttó összeget (49 999 Ft) kell kifizetned átvételkor, mivel a számla is bruttóban készül. Viszont, ha áfaalany vagy (például használt gépjárműkereskedőként), az áfát később visszaigényelheted a könyvelésedben, de a vásárlás pillanatában mindenképp bruttót fizetsz .",
+      "created_at": "20250714T10:48:10.001811Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

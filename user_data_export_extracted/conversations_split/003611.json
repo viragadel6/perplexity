@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7d7c159385094a71b0f840db6ba3c21b",
+  "context_title": "dataset was created or last updated between december 2025 and march 2026.\n\ndataset is not known to or used by developers of mainstream llms (gpt5, grok4, gemini2.5, claude4.5, deepseek3.2, qwen3, llama4).\n\ndataset quality demonstrably exceeds that of datasets used by mainstream llms, as measured by objective benchmarks (coverage, cleanliness, diversity, etc.).\n\ndataset is not publicly known or discussed in mainstream channels.\n\ndataset is available in jsonl format and suitable for llm training from scratch.",
+  "created_at": "20260310T14:08:34.275278Z",
+  "updated_at": "20260310T14:09:10.669874Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0ce207bb69ad4aaba8db1cb10f040a5d",
+      "query": "dataset was created or last updated between december 2025 and march 2026.\n\ndataset is not known to or used by developers of mainstream llms (gpt5, grok4, gemini2.5, claude4.5, deepseek3.2, qwen3, llama4).\n\ndataset quality demonstrably exceeds that of datasets used by mainstream llms, as measured by objective benchmarks (coverage, cleanliness, diversity, etc.).\n\ndataset is not publicly known or discussed in mainstream channels.\n\ndataset is available in jsonl format and suitable for llm training from scratch.",
+      "answer": "A keresési eredmények alapján egyértelmű választ tudok adni erre a kérdésre.\n\nNem létezik olyan nyilvánosan ismert vagy hozzáférhető adatkészlet, amely egyszerre teljesíti az összes megadott feltételt.\n\n Miért nem lehetséges ilyen adatkészlet megtalálása?\n\nA feltételek logikailag önellentmondást tartalmaznak. Ha egy adatkészlet valóban nem ismert a mainstream csatornákon, nem dokumentált nyilvánosan, és nem használják a főbb LLMfejlesztők, akkor definíció szerint nem lehet rákeresni az interneten — semmilyen kereséssel. Ha viszont megtalálható lenne, akkor már nem felelne meg a „nem nyilvánosan ismert\" feltételnek.[1][2]\n\n A valóság: adatkészletek 2025–2026ban\n\nAz ismert, magas minőségű, JSONL formátumú, előképzésre alkalmas adatkészletek közül a legfrissebbek (2025 vége – 2026 eleje) mind nyilvánosak és ismertek. A vezető LLMlaborok (DeepSeek, Qwen, Llama) nem hozzák nyilvánosságra saját előképzési korpuszaikat — ez maga is egy „data quality gap\"et hoz létre a nyílt közösség számára. Az adatminőség javítása jelenleg az újraírás (rewriting), szintetikus adatgenerálás és szubmoduláris optimalizáció segítségével történik, nem pedig titkos, ismeretlen adatkészletekből.[2][3][1]\n\n Mit érdemes valójában keresni?\n\nHa a cél egy friss, minőségi, JSONLalapú, előképzésre alkalmas adatkészlet, a következő létező irányok relevánsak 2026ban:\n\nA HPLT projekt nagyszabású többnyelvű korpuszokat épít európai LLMekhez. A Hugging Face LLM Training Datasets gyűjteménye folyamatosan frissül, és 2026 márciusáig több százezer mintát tartalmaz. A szintetikus adatgenerálás (pl. SDG Hub, InstructLab) lehetővé teszi, hogy saját, magas minőségű, domainspecifikus adatkészletet hozz létre, amely valóban „ismeretlen\" a nagyobb modellek számára — mert te készítetted.[4][5][3][6]\n\nPontosítanád, hogy milyen doménre vagy feladattípusra (pl. kód, matematika, többnyelvű szöveg, jog) keresed az adatkészletet? Ez alapján tudok konkrét, létező és elérhető forrásokat ajánlani.",
+      "created_at": "20260310T14:08:34.419775Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

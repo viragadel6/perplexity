@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d5b8a9c954e347c0aafa0e1ed9bcd8e3",
+  "context_title": "ez?",
+  "created_at": "20260316T19:26:52.566355Z",
+  "updated_at": "20260316T19:27:58.303028Z",
+  "mode": "COPILOT",
+  "collection_uuid": "64a545d57a194713a7e8ed4f506afa7d",
+  "entries": [
+    {
+      "entry_uuid": "4cf235fa080544e2aa08372c10894b8e",
+      "query": "ez?",
+      "answer": "Ez a TypeTheory2.txt fájl egy Lean 4 nyelvű, formális típuselméletmotor kódja, amely nagyon kiterjedt és részletesen kidolgozott — de a Space utasítása alapján jogosan merül fel a kérdés: ez valódi formális verifikációs bizonyítás, vagy csak szimulált/mock placeholder?\n\n Mit tartalmaz a fájl?\n\nA fájl egy teljes típuselméletmotort implementál Lean 4ben, amely a következő összetevőkből áll:[1]\n\nTípusrendszer (TypeKind, Ty): Az összes klasszikus típuselméletkonstruktort lefedi: alaptípusok (UNIT, BOOL, NAT, INT, REAL, COMPLEX, STRING), összetett típusok (ARRAY, TUPLE, RECORD, SUM, FUNCTION), függő típusok (DEPENDENTFUNCTION = Πtípus, DEPENDENTPAIR = Σtípus), identitástípus (IDENTITY), univerzumhierarchia (UNIVERSE), kvantumtípus (QUANTUMTYPE), és határoló típusok (TOP, BOTTOM).[1]\n\nTermek (Term, TermKind): λkalkuluson alapuló termek: változók, literálok, lambdaabsztrakciók, applikációk, párok, összeginjekciók, Jeliminátor (identitástípus eliminátora), természetes szám rekurzió (NATREC), és annotált kifejezések.[1]\n\nKategóriaelmélet: Category, Functor, NaturalTransformation, Monad struktúrák, terminális/iniciális objektumok, bináris szorzatok és koproduktumok.[1]\n\nLineáris típusrendszer: LinearKind (Linear, Affine, Relevant, Unrestricted) — ez a lineáris logika CurryHowardmegfeleltetése, ahol az erőforráshasználat típusszinten követhető.[1]\n\nKvantumtípusok: QuantumType (qubit, qutrit, qudit), QuantumState, tenzorszorzat (tensor), direkt összeg (directSum), Hilberttér dimenziója.[1]\n\n Valódi vagy mock bizonyítás?\n\nEz részben valódi, részben erősen korlátozott formális kód. Konkrétan:\n\nAmi valódi: A tételek (theorem) Lean 4ben mind Eq.refllel zárulnak, ami azt jelenti, hogy ezek definitíonális egyenlőségek — a Lean kernel valóban ellenőrzi őket, nem csupán deklarálják őket. Például: theorem TypeKind.toStringUNIT : TypeKind.toString UNIT = \"Unit\" := Eq.refl \"Unit\" — ez valóban leellenőrzött tétel.[1]\n\nAmi mock/placeholder: A logikai bizonyítások (Proof, TypeProof) implementációi szinte mind Term.initUnitot adnak vissza függetlenül a bemenettől. Például: def Proposition.andintro p q pf1 pf2 := Proof.mk p.and q Term.initUnit — ez nem tényleges bizonyítástermet épít, hanem egy dummy unit értéket helyettesít be. A TypeTheoryEngine.runInference és runCheck függvények egy typeCheckert hívnak, amelynek belső implementációja nincs részletezve ebben a fájlban.[1]\n\nÖsszefoglalva: A strukturális és számítási tételek (pl. toString/fromString roundtrip, kind accessorok, isBaseType/isComposite stb.) ténylegesen formálisan verifikáltak Lean 4ben definitíonális reflexivitással. A magasabb szintű logikai és típusellenőrzési bizonyítások ellenben szimulált mock implementációk — a keret megvan, de a tényleges bizonyítástartalom helyőrző (placeholder).[1]\n\nEz egy jellegzetes „scaffold\" architektúra: a típusrendszer taxonomiája és az API formálisan helyes, de a típusellenőrző motor „lelke\" (a tényleges unifikáció, szubsztitúció, kontextuskezelés) nincs teljes mélységben implementálva ebben a fájlban.",
+      "created_at": "20260316T19:26:52.679286Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

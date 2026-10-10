@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b2cce494b5a34ea18c2549e729ec9f19",
+  "context_title": "olyan ai app vagy barmi amin iphone shortcutsolat tudok generalni szoveges promptbol",
+  "created_at": "20250707T14:54:24.342867Z",
+  "updated_at": "20250707T14:54:24.342867Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ae99e9c4612045d4b3186eeacae53c22",
+      "query": "olyan ai app vagy barmi amin iphone shortcutsolat tudok generalni szoveges promptbol",
+      "answer": "Az iPhoneon többféle módon tudsz AIalapú shortcutokat generálni szöveges promptból:\n\n Apple saját AI Shortcuts (2025től): Az Apple 2025ben bemutatta az új, AIval felturbózott Parancsok (Shortcuts) appot, amely képes közvetlenül Apple Intelligencet (az Apple saját LLMje) használni. Így már natívan is létrehozhatsz AIalapú shortcutokat, például szövegösszefoglalást, képgenerálást vagy akár ChatGPT integrációt is, mindezt szöveges promptból indítva. Ezek a funkciók iOS 18tól érhetők el, és tesztelhetők[6].\n\n AI Actions for Shortcuts app: Ez egy ingyenes alkalmazás az App Storeban, amely extra AIfunkciókat tesz elérhetővé a Shortcuts alkalmazásban. Saját OpenAI API kulcsot kell hozzáadnod, és utána tetszőleges prompttal AIműveleteket futtathatsz shortcutból[5].\n\n BuildShip, ChatGPT + Jellycuts, egyéb AI generátorok: Léteznek online eszközök és közösségi projektek, amelyek képesek szöveges prompt alapján shortcutokat generálni, például BuildShip vagy különféle AI Shortcut Generatorok. Ezek általában egyedi workflowkat vagy shortcut kódokat állítanak elő, amit aztán be tudsz importálni a Parancsok appba[3][4][7].\n\n Shortcuts app natív prompt funkciók: Ha csak egyszerű szöveges promptokat (kérdéseket, inputokat) szeretnél shortcutban használni, az iOS Parancsok appban az „Ask for Input” vagy „Show Alert” akciókat is beállíthatod, hogy futás közben kérjen be szöveget[1].\n\nÖsszefoglalva:  \nHa AIt akarsz shortcutból prompttal vezérelni iPhoneon, az iOS 18tól natívan támogatott, de már most is használhatsz olyan appokat, mint az AI Actions for Shortcuts, vagy külső AI generátorokat, amelyek szöveges promptból shortcutot készítenek.",
+      "created_at": "20250707T14:54:24.375768Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

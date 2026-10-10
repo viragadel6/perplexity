@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2d63b45deb6f44ed8a0050d6aa780d3a",
+  "context_title": "Ez mi?  Magyarul ertekeld! OLVASD el line by line end to end de nekem normálisan egyben válaszolj! Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+  "created_at": "20260905T14:11:24.408723Z",
+  "updated_at": "20260905T14:11:25.795202Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "85458e88ecca4d18b90875b910530ca2",
+      "query": "Ez mi?  Magyarul ertekeld! OLVASD el line by line end to end de nekem normálisan egyben válaszolj! Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+      "answer": "",
+      "created_at": "20260905T14:11:24.441490Z",
+      "label": null,
+      "query_status": "FAILED",
+      "engine_mode": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "bbab161b3c70496a84858b023db20a36",
+  "context_title": "",
+  "created_at": "20251119T03:53:52.175692Z",
+  "updated_at": "20251119T03:53:52.175692Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c44a68342b334307a8d8f9b2a5333a26",
+      "query": "",
+      "answer": "A megadott link egy Hugging Face‑en tárolt adat­készlet (dataset) URL‑je, amely egy GJ98/vi-dataset nevű repositoryra mutat a Hugging Face Datasets felületén. Konkrétan ezt a repo‑t a válaszban nem lehet részletesen elemezni, de általánosan ugyanúgy használható, mint bármely más Hugging Face‑es adat­készlet.[1][2]\n\n Mi ez a link?\n\nA https://huggingface.co/datasets/... formátumú linkek a Hugging Face Datasets platformon található publikus (vagy adott esetben privát) adat­készletek oldalaira mutatnak. Ezek az oldalak tipikusan tartalmaznak egy adatlapot (dataset card), leírással, mezők magyarázatával, felhasználási példákkal és licenc‑információkkal. A GJ98/vi-dataset névben a GJ98 a felhasználó vagy szervezet neve, a vi-dataset pedig az adott adat­készlet azonosítója.[2][1]\n\n Mit érdemes az oldalon megnézni?\n\nHa a linket böngészőben megnyitod, a Hugging Face dataset‑oldalán általában látsz egy leírási részt (README / Dataset card), amely ismerteti az adatok forrását, formátumát és a javasolt felhasználási módokat. Az oldalon szokott lenni fájllista (például .jsonl, .csv, vagy tömörített archívumok), illetve sok dataset esetén egy „viewer”, ahol böngészőben is meg lehet nézni néhány sort a mintákból. A licenc mező megmutatja, milyen feltételek mellett használhatod, ami fontos publikáció vagy kereskedelmi felhasználás előtt.[1][2]\n\n Hogyan töltsd be Pythonból?\n\nA Hugging Face datasets csomaggal általában így lehet betölteni egy ott tárolt adat­készletet:[2]\n\npython\nfrom datasets import load_dataset\n\ndataset = load_dataset(\"GJ98/vi-dataset\")\n\n\nEz a hívás a név alapján letölti az adatokat, és train, test vagy más spliteket ad vissza, ha az adott repo ilyeneket definiál. Ugyanilyen módon töltik be például a dokumentációs célú m-ric/huggingface_doc adat­készletet is, csak a névben a megfelelő azonosítót kell megadni.[2]\n\n Ha nem működik a betöltés\n\nHa a load_dataset(\"GJ98/vi-dataset\") hívás hibát ad (például „Not found” vagy jogosultsági hiba), akkor előfordulhat, hogy az adat­készlet privát, átnevezték, vagy törölték, amit az adott repo oldalán a böngészőben is látni fogsz. Ilyenkor érdemes a Hugging Face Datasets főlistájában vagy a felhasználó (GJ98) profilján keresni alternatív vagy frissített névvel.[1]\n\n Mit tehetsz most?\n\n Nyisd meg a linket böngészőben, és nézd meg a leírást, a fájlokat és a licencet az oldalon.[1][2]\n Ha Pythonból használnád, próbáld ki a fenti load_dataset(\"GJ98/vi-dataset\") hívást, és ellenőrizd, milyen splitek és mezők érhetők el.[2]\n Ha pontosan szeretnél segítséget (például mező‑nevek, modell‑tanítási példa, preprocesszálás), másold ide az oldal leírásának vagy a minta‑soroknak a releváns részét, és ahhoz illeszkedő kódot/folyamatot lehet összeállítani.[2]",
+      "created_at": "20251119T03:53:52.353181Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

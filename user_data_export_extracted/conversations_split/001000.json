@@ -1,0 +1,19 @@
+{
+  "context_uuid": "393d0b4ed7e945db960ee4bc4764b8e0",
+  "context_title": "Change the snowflake to mango",
+  "created_at": "20260816T06:56:20.049422Z",
+  "updated_at": "20260816T06:58:01.457018Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "beeacaab7caa47d299bf3e4fb7ddfc0b",
+      "query": "Change the snowflake to mango",
+      "answer": "Media generated: 'Ismétlődő pixel art mangó minta'",
+      "created_at": "20260816T06:56:20.278639Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

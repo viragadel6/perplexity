@@ -1,0 +1,28 @@
+{
+  "context_uuid": "0bd646cb68cf41d7a6bfbf7b9f6cb86e",
+  "context_title": "jina api docs\nsend me all link",
+  "created_at": "20250719T23:44:23.558819Z",
+  "updated_at": "20250719T23:46:51.253281Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8d8c487015534be8a91917b584d6383e",
+      "query": "jina api docs\nsend me all link",
+      "answer": "Itt találod a Jina API dokumentációhoz és kapcsolódó oldalakhoz vezető legfontosabb linkeket:\n\n Reader API főoldal és dokumentáció:  \n  \n Reader API Airbyte connector részletes leírás:  \n  \n Jina Reader API GitHub (open source projekt):  \n  \n Jina AI hivatalos oldal (API lehetőségek, publikációk, fejlesztői funkciók):  \n  \n n8n Jina AI node dokumentáció (integrációs útmutató):  \n  \n Jina embeddings dokumentáció a Qdrant oldalán:  \n  \n Jina Reader API workflow példa Pipedreamen:  \n  \n GitHub – Jina API embedding plugin:  \n  \n\nA Reader APIt legegyszerűbben az alábbi módon használhatod:\n\n Egy weboldal szövegének kinyeréséhez:  \n  \n Webes kereséshez (top 5 találat LLMelőfeldolgozott szöveggel):  \n  \n\nAz APIhoz a többségében nem szükséges API kulcs, de bizonyos fejlettebb vagy nagyobb mennyiségű használat esetén az oldalon keresztül lehet igényelni kulcsot is[2][1].\n\nHa részletes API paraméterek, példák vagy integráció érdekel, főleg a  oldalon találsz minden információt, illetve a GitHubon elérhető a forráskód dokumentációval[2][3][4].",
+      "created_at": "20250719T23:44:23.667447Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "0b75ea3f05424ad7b648d5400e252392",
+      "query": "válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " \n \n \n \n \n \n \n \n \n ",
+      "created_at": "20250719T23:45:28.797129Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

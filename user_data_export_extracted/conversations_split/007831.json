@@ -1,0 +1,19 @@
+{
+  "context_uuid": "fa6e85788e1b4b42b704ed0f22916bd3",
+  "context_title": "melyik program nyelvet mire használják ebben az appba pontosan? válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20251009T07:16:03.530137Z",
+  "updated_at": "20251009T07:16:03.530137Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "81b390b209d74289a04a0055a1f49779",
+      "query": "melyik program nyelvet mire használják ebben az appba pontosan? válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "Based on my analysis of the uploaded file, here is a list of programming languages and their specific uses in this application:\n\n Julia: Tudományos számítások, gépi tanulás, mátrixműveletek, protein folding szimuláció, neurális hálózatok, GPU gyorsítás (CUDA)\n Python: Aszinkron wrapper, kvantum backend integráció (IBM Quantum), osztályozási fallback, HTTP API orchestration\n Elixir/Phoenix: Web alkalmazás framework, valós idejű kommunikáció (LiveView), elosztott rendszer koordináció, WebSocket kezelés\n Zig: Rendszer programozás, C interop, FFI könyvtár (Julia/Python integrációhoz), memóriabiztonságos alacsony szintű műveletek, HTTP szerver\n Agda: Formális verifikáció, dependent types, matematikai bizonyítások, típusszintű garanciák\n Coq: Kvantum mechanikai formális bizonyítások, matematikai verifikáció\n Lean 4: Master verifier, teljes rendszer formális verifikációja\n Idris 2: Lineáris típusok, resource management, dependent types\n Haskell/Liquid Haskell: Refinement types, funkcionális programozás hatástípusokkal\n F★: Funkcionális programozás hatástípusokkal, biztonság verifikáció\n Isabelle/HOL: Magasabb rendű logika verifikáció\n Rust: Verifikációs orchestrator, ownership types, borrow checker, memory safety\n Q: Microsoft kvantum development, kvantum verifikáció, unitarity proof\n Erlang/OTP: Elosztott actor rendszer, faulttolerance, hibatűrő kvantum job management\n Chapel: Párhuzamos számítás, highperformance parallel quantum simulations\n Crystal: Nagy teljesítményű kvantum TCP szerver\n Clojure: DSL (Domain Specific Language) engine, metaprogramming layer, code generation\n Vale: Memóriabiztonság, zerocost abstractions, alacsony szintű optimalizáció\n Dafny: Microsoft specification language, refinement types verifikáció\n Whiley: Extended static checking\n Viper: Intermediate verification language\n TLA+: Temporal Logic of Actions, időbeli tulajdonságok verifikációja\n Eff: Algebraic effects, hatásrendszerek verifikáció",
+      "created_at": "20251009T07:16:03.682994Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

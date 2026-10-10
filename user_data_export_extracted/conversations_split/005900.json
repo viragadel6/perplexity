@@ -1,0 +1,19 @@
+{
+  "context_uuid": "af0b11b85da341278844683df066a6a3",
+  "context_title": "2025 december 1 utan megjelenteket küldj csak! What is the most advanced truly opensource LLM (with full code released, not just weights or training data) as of December 7, 2025? Please exclude mainstream opensource models like GLM 4.6, Kimi K2, DeepSeek 3.2, Qwen 3, Llama/Ring 1T, OLMo, MiniMax, and Hugging Face models. Fully opensource LLMs released December 2025 excluding excluded models. De ne ilyen llama mistral qwen deepseek gemma finom habgolasokat mar",
+  "created_at": "20251207T13:18:30.716101Z",
+  "updated_at": "20251207T13:18:30.716101Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "98f54a43c2424a31ae881e179351e328",
+      "query": "2025 december 1 utan megjelenteket küldj csak! What is the most advanced truly opensource LLM (with full code released, not just weights or training data) as of December 7, 2025? Please exclude mainstream opensource models like GLM 4.6, Kimi K2, DeepSeek 3.2, Qwen 3, Llama/Ring 1T, OLMo, MiniMax, and Hugging Face models. Fully opensource LLMs released December 2025 excluding excluded models. De ne ilyen llama mistral qwen deepseek gemma finom habgolasokat mar",
+      "answer": "English:\nFully opensource LLM models released after December 1, 2025 with complete source code (not just weights) excluding GLM, Kimi, DeepSeek, Qwen, Llama, Ring, OLMo, MiniMax, Hugging Face, Mistral, Gemma finetunes\n\nMagyar:\nTeljesen nyílt forráskódú LLM modellek 2025 december 1 után kiadva teljes forráskóddal (nem csak súlyokkal) kizárva GLM, Kimi, DeepSeek, Qwen, Llama, Ring, OLMo, MiniMax, Hugging Face, Mistral, Gemma finomhangolásokat",
+      "created_at": "20251207T13:18:31.168259Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "context_uuid": "9c02b5d858ec4bc09b1fd7013c7f7726",
+  "context_title": "Perrie program nyelv",
+  "created_at": "20251018T12:08:08.555281Z",
+  "updated_at": "20251018T12:09:59.482529Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6b6f1c25b8a74c59ba2e0ee5676b3bf3",
+      "query": "Perrie program nyelv",
+      "answer": "A \"Perrie\" programnyelv valószínűleg a Perl programozási nyelvre utal. A Perl egy általános célú, magas szintű, interpretált, dinamikus programozási nyelv, melyet Larry Wall hozott létre 1987ben. A Perl stílusában és funkcionalitásában sokat merít a C, sed, awk és sh nyelvekből. Kiemelkedően jó szöveg és adatfájl feldolgozó képességekkel rendelkezik, és széles körben használják rendszeradminisztrációban, hálózati programozásban, webfejlesztésben (CGI), valamint pénzügyi és bioinformatikai alkalmazásokban is. A Perl dinamikus, moduláris nyelv, amely támogatja az objektumorientált programozást is, így rugalmas és hatékony eszköz programozók számára. A nyelv szintaxisa tömör, és nagyon jól kezeli a reguláris kifejezéseket, ami megkönnyíti összetett szövegfeldolgozási feladatok elvégzését. A Perl interpreter ingyenes, szabad szoftverként elérhető több operációs rendszerre, köztük Linuxra és Windowsra is.[1][2][3]",
+      "created_at": "20251018T12:08:08.620141Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "a4ed84f108a942e2bf3da9dc2f4a95aa",
+      "query": "Nem perl hanem a perrie",
+      "answer": "A \"Perrie\" programnyelvvel kapcsolatban jelenleg nincs elérhető, hivatalos vagy széles körben ismert információ magyar vagy nemzetközi forrásokban, sőt, a szakirodalom sem említi ilyen nevű programnyelvet. Lehetséges, hogy elírás történt, vagy egy kevéssé ismert, specifikus fejlesztői projektet keresel, amely még nem terjedt el, vagy csak szűk körben használt. Az ismert nyelvek között (mint például Perl) sem használnak \"Perrie\" elnevezést, és a keresett tartalomhoz legközelebb eső találatok kizárólag Perlhez kapcsolhatók.\n\nHa további információval szolgálsz a \"Perrie\" nyelv, projekt vagy fejlesztői környezet kapcsán (például fejlesztője, célja, alkalmazásterülete), akkor könnyebb lenne célzottan segíteni. Jelenleg viszont nincs releváns vagy hivatalos információ \"Perrie\" néven ismert programnyelvről sem magyar, sem angol nyelvű technológiai forrásokban.[1][2][3]",
+      "created_at": "20251018T12:08:43.430857Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "5c03fba3269b4b9cb63b7ce8d7c0b61e",
+      "query": "Valami olyat keress a programozasba lehet az formalis verifikacio barmi tenyleg fe perrie legyen a neve",
+      "answer": "Valószínűleg a “Perrie” alatt valójában a Petrihálók (angolul Petri nets) értendők, amelyek Carl Adam Petri után kapták a nevüket és alapvető eszközt jelentenek a formális verifikációban.[1]\n\n Petrihálók  \nA Petriháló diszkrét elosztott rendszerek matematikai ábrázolása, helyekből (places), átmenetekből (transitions) és irányított élekből álló páros gráf, amelyben a helyeken elhelyezett tokenek a rendszer aktuális állapotát jelzik.[1]\nA tranzíciók akkor “tüzelnek”, ha bemeneti helyeiken elegendő token található; a tüzelés során tokenek vándorolnak a helyek között, így modellezve az események és párhuzamos folyamatok dinamikáját.[2]\nMivel a Petrihálóknak pontos, formális végrehajtási szemantikája van, jól használhatók a rendszer viselkedésének matematikai analízisére és bizonyítására.[2]\n\n Formális verifikációban  \nA formális verifikáció célja egy rendszer helyességének (a specifikációnak megfelelő működésének) matematikai módszerekkel történő igazolása vagy cáfolása.[3]\nA Petrihálók alkalmazásával lehetőség nyílik az egyidejű és párhuzamos események elméleti vizsgálatára, állapottérgenerálásra és döntési problémák megoldására, így nagymértékben hozzájárulnak a szoftver és rendszerverifikáció pontosságához.[2]",
+      "created_at": "20251018T12:09:07.743226Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4fe676c6824c48309743a4c8ab10fb8d",
+  "context_title": "",
+  "created_at": "20251024T00:47:14.637712Z",
+  "updated_at": "20251024T00:47:14.637712Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "80301eafff6a48fd9925f374886e2c8a",
+      "query": "",
+      "answer": "Az Agent Development Kit (ADK) egy nyílt forráskódú, Pythonalapú keretrendszer, amellyel fejlett, többszerszámos (toolalapú) és akár többügynökös (multiagent) AIrendszerek fejleszthetők és üzemeltethetők Googleökoszisztémán belül és azon kívül is.[1][2]\n\n Fő képességek\n Gazdag, bővíthető eszközkészlet: előre elkészített Googleeszközök, saját Pythonfüggvények vagy OpenAPIspecifikációk is integrálhatók.[2][1]\n Kódközpontú fejlesztés: az ügynökök, eszközök, munkafolyamatok teljesen Pythonban definiálhatók a jobb verzió és tesztkezelés érdekében.[1][2]\n Több ügynök támogatás: hierarchikus vagy kooperáló ügynökcsoportok építhetők (például “koordinátor + végrehajtó” minta).[2][1]\n HITL („humanintheloop”) eszközjóváhagyási folyamat, amellyel a kritikus hívások emberi megerősítést igényelhetnek.[1][2]\n Bárhol futtatható: konténeresen Cloud Runra, vagy skálázható Vertex AI Agent Enginere is telepíthető.[2][1]\n\n Telepítés\n1. Stabil kiadás:  \n   pip install google-adk[1][2]\n2. Fejlesztői főág (legfrissebb commitok):  \n   pip install git+https://github.com/google/adk-python.git@main[2][1]\n\n Gyors példa\npython\nfrom google.adk.agents import Agent\nfrom google.adk.tools import google_search\n\nroot_agent = Agent(\n    name=\"search_assistant\",\n    model=\"gemini-2.5-flash\",\n    instruction=\"Segíts hasznos válaszokkal, szükség esetén web-kereséssel.\",\n    description=\"Web-kereső asszisztens\",\n    tools=[google_search]\n)\n\nEz egy együgynökös, Googlekeresésre képes asszisztenst hoz létre.[1]\n\n Ökoszisztéma és közösség\n Hivatalos minták: google/adk-samples repóban találhatók teljes projektpéldák.[7]\n Dokumentáció: részletes útmutatók a adk-docs oldalakon érhetők el.[3]\n Aktív közösség: 13,9 k GitHubcsillag, 2,1 k fork és 150+ közreműködő (2025. októberi adatok).[1]\n\n Mikor érdemes használni?\n Ha több eszközt (pl. keresés, számítás, adatbázis) kell kombinálni egy LLMmel.  \n Ha szükség van skálázható, több lépéses vagy több ügynökös munkafolyamatokra.  \n Ha Googleszolgáltatásokkal (Vertex AI, Cloud Run) szeretnél szorosan integrálni.[2][1]\n\n Összegzés\nAz ADK egy érett, aktív projekt, amellyel gyorsan létrehozhatók és produkcióba állíthatók komplex, többeszközös AIügynökök, miközben teljes kontroll marad a fejlesztők kezében Pythonkódszinten.[2][1]",
+      "created_at": "20251024T00:47:14.897097Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

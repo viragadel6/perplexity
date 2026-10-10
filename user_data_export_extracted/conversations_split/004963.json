@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f0c550d2d6c740a7bb4c4a8c144b80b9",
+  "context_title": "grok heavy verifier network ami a branchek közti „vitát” irányítja?",
+  "created_at": "20260114T08:05:14.583078Z",
+  "updated_at": "20260114T08:05:14.583078Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "49bb0af584af4958a6bc111011118d77",
+      "query": "grok heavy verifier network ami a branchek közti „vitát” irányítja?",
+      "answer": "Az eredmények alapján úgy tűnik, hogy a keresési találatok a \"grokking\" gépi tanulási jelenségre és az XAI (Explainable AI) technológiákra utalnak, nem pedig az xAI cég által fejlesztett Grok AI modelljére. Keresek konkrétabban az xAI Grok mesterséges intelligenciájára vonatkozó technikai információkat.",
+      "created_at": "20260114T08:05:14.642829Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

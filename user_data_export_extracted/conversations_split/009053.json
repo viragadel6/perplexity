@@ -1,0 +1,19 @@
+{
+  "context_uuid": "80b129a78f59412ab01345673a361249",
+  "context_title": "How to run grok 4 offline on iphone",
+  "created_at": "20250815T22:02:57.968918Z",
+  "updated_at": "20250815T22:02:57.968918Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "eec552f211d042fdbb81684d41273360",
+      "query": "How to run grok 4 offline on iphone",
+      "answer": " Rövid válasz\nRöviden: jelenleg nem tudható vagy nem lehetséges “Grok 4”et teljesen offline futtatni iPhoneon. A Grok (xAI) egy felhőalapú, szerveroldali nagy nyelvi modell, amelyhez hálózati kapcsolat kell; az iOSes Grok app és az X (Twitter) integráció is online működésre épül.\n\n Miért nem megy offline iPhoneon?\n A Grok 4 egy nagyméretű felhőmodell, melynek számítási igénye messze meghaladja egy iPhone helyi erőforrásait; a válaszokat távoli szerverek számolják ki.\n Az iOSes kliens alkalmazás csak egy “frontend”: a kéréseket a felhőbe küldi, majd megjeleníti a választ.\n A fejlesztő (xAI) jelenleg nem ad ki iOSre olyan, eszközön futó (ondevice) Grok 4 modellt vagy Core MLcsomagot, amely offline futna.\n\n Mit lehet helyette tenni?\n Ha a cél a Grok 4 használata iPhoneon: telepíthető a Grok app az App Storeból, vagy használható az X alkalmazáson belül – mindkettőhöz internetkapcsolat szükséges.\n Ha kifejezetten offline megoldás kell iPhonera:\n   On‑device, kisebb nyílt modellek iOSre portolt változatai (Core ML/MLX/ggml alapúak) léteznek, de ezek nem Grok 4, és minőségben/funkciókban gyengébbek lehetnek.\n   Példák: Mistral/LLamaalapú, kvantált modellek, amelyeket egyes iOSappok lokálisan futtatnak; cserébe nagyobb letöltés, akkuterhelés, és korlátozott teljesítmény.\n Ha a cél az adatvédelem és részleges offline működés: használható hibrid megközelítés (alap kérdések helyben, összetett feladatok felhőben), de Grok 4 esetén továbbra is online hívások kellenek.\n\n Összefoglaló javaslat\n Ha ragaszkodsz a Grok 4hez: számolj azzal, hogy szükséges lesz internetkapcsolat (Wi‑Fi vagy mobilnet).\n Ha a legfontosabb elvárás az offline működés iPhoneon: nézz meg on‑device LLMappokat, amelyek támogatnak kvantált nyílt modelleket; ezekkel közel offline élmény érhető el, de nem Grok 4 szinten.\n Ha szeretnél, szívesen ajánlok iOS‑appokat és modelleket, amelyek jól működnek offline magyar nyelvi feladatokra.",
+      "created_at": "20250815T22:02:58.082647Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

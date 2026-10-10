@@ -1,0 +1,28 @@
+{
+  "context_uuid": "2b51f071e7c04d1cb393630f72e5d840",
+  "context_title": "little mix sotme mikor jott ki",
+  "created_at": "20260528T12:38:52.837632Z",
+  "updated_at": "20260528T12:40:06.700386Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9b1806a8c733417f94a0ca6b3d84c67c",
+      "query": "little mix sotme mikor jott ki",
+      "answer": "Úgy tűnik, a kérdésedben a „sotme\" rövidítés nem egyértelmű — valószínűleg egy konkrét Little Mix dalra, albumra vagy kislemezre gondolsz, de a pontos cím nem derül ki egyértelműen.\n\n Little Mix megjelenési időpontjai\n\nA Little Mix brit lányegyüttes 2011ben alakult a brit X Factor 8. szériájában, ahol Perrie Edwards, Jade Thirlwall, LeighAnne Pinnock és Jesy Nelson kerültek össze. Ők az első és egyetlen lánycsapat, aki megnyerte az eredeti brit X Factort.[1][3]\n\n Főbb albumok megjelenési dátumai\n\n| Album | Megjelenés éve |\n|||\n| DNA | 2012 |\n| Salute | 2013 |\n| Get Weird | 2015 |\n| Glory Days | 2016 |\n| LM5 | 2018 |\n| Confetti | 2020 |\n| Between Us (válogatás) | 2021 |\n\nA csapat 2022ben szünetet tartott, a tagok azóta szólókarrierjüket folytatják. A banda összesen több mint 50 millió lemezt adott el világszerte.[6][11]\n\nPontosítanád, melyik dalra vagy albumra gondoltál? (pl. „Shout Out to My Ex\", „Wings\", „Black Magic\" stb.)",
+      "created_at": "20260528T12:38:53.208654Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "47bef557a1c14ef8a73c6865cd744072",
+      "query": "shout out to my ex xd",
+      "answer": "A Shout Out to My Ex című Little Mixdal 2016. október 16án jelent meg kislemezként. A zenei videója 2016. október 21én látott napvilágot az Egyesült Királyságban.[1][2]\n\nHa akarod, megírom azt is, melyik albumon szerepel és hányadik volt a brit listán.",
+      "created_at": "20260528T12:39:59.800726Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

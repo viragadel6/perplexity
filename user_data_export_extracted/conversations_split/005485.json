@@ -1,0 +1,37 @@
+{
+  "context_uuid": "36492085e5ea43038c90adda9a65ac20",
+  "context_title": "ez tuti valami nagyob olcdo v ingyenes llm apit hasznal meg exa ai apit xd\n\n",
+  "created_at": "20251220T18:08:43.284332Z",
+  "updated_at": "20251220T18:15:40.965302Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a85dc90ddf0447fb863fe08f5bc01360",
+      "query": "ez tuti valami nagyob olcdo v ingyenes llm apit hasznal meg exa ai apit xd\n\n",
+      "answer": "Valószínűleg nem Exa AIt használ, hanem külső LLMpartnereket: a The Browser Company adatvédelmi tájékoztatója szerint az AIfunkciókhoz OpenAIt és bizonyos esetekben Anthropicot is bevonnak.  Exa AIról (mint konkrét beszállítóról) a publikus Arc/Arc Search privacy policy nem tesz említést. \n\n Mit árul el a privacy policy\n Az Arc Max egyes funkcióinál a személyes adatokat „either or both” szolgáltatókhoz küldik: OpenAI és Anthropic.   \n A “Browse for Me” funkcióhoz a beírt parancs/szöveg (command bar) tartalma és a keresési találatok tartalma megosztásra kerül az OpenAIjal, hogy AIgenerált összefoglalót adjon.   \n A dokumentum azt is leírja, hogy bizonyos funkciók „thirdparty APIs”okat használnak, és ilyenkor a böngésző közvetlenül a harmadik félhez csatlakozik (az adott adat „nem megy át” az Arc szerverein). \n\n Exa AI API: mennyire valószínű?\nA publikus Arc privacy policy konkrétan OpenAIt (és Arc Max esetén Anthropicot) nevez meg, Exa AIt nem.  Ettől még technikailag használhatnának Exat valahol a háttérben, de erre nyilvános, elsődleges forrásból származó megerősítést nem találtam a hivatalos policy szövegében. \n\n Mit jelent ez gyakorlatban\nA “Browse for Me” lényegében úgy működik, hogy a keresési inputod + találati tartalom kimegy egy külső LLM szolgáltatóhoz (OpenAI), és abból kapsz egy összefoglaló oldalt.  A “Call Arc” pedig egy AIalapú, hangos Q&A élményként van pozicionálva (telefonhívásgesztussal), ami gyors válaszokat ad szóban.[1]\n\n Ha biztosra akarsz menni\n Nézd meg az appban, hogy az AI funkciók (Browse for Me / Ask on Page / stb.) kikapcsolhatóke, és kapcsold ki érzékeny témákra.  \n Ha technikai oldalról ellenőriznéd, iOSen proxyval (pl. mitmproxy + saját CA tanúsítvány) lehet hálózati hívásokat figyelni — bár sok app TLS pinninggel ezt blokkolja.  \n Mondd meg, melyik funkcióra gondolsz pontosan (Browse for Me, Pinch to Summarize, Call Arc, Ask on Page), és annak alapján célzottabban meg lehet nézni, milyen adat megy ki és hova.",
+      "created_at": "20251220T18:08:43.343296Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f50e83a6dd1e4137ab83808c2c773cb1",
+      "query": "ertem en de a keresehez irtam az exa ai t",
+      "answer": "A kereséshez (azaz a releváns linkek megtalálásához) az Arc Search valószínűleg nem az Exa AIt használja elsődlegesen, bár a tipped logikus, mivel az Exa pont erre való (AIoptimalizált keresés).\n\nA rendelkezésre álló információk alapján a technológiai háttér a következőképpen néz ki:\n\n 1. Keresési index (\"A keresés\")\nBár az Exa AI (korábban Metaphor) valóban egy \"kereső API AIoknak\", az Arc Search működése másra épül:\n   Hagyományos motorok: A \"Browse for Me\" funkció a felhasználó által beállított (vagy alapértelmezett) keresőmotor (pl. Google, Bing) találati listáját használja fel. A rendszer lekéri a top találatokat, és ezek tartalmát olvassa be.[1][2][3]\n   Miért nem Exa? Az Exa AI erőssége a szemantikus keresés (pl. \"keress nekem egy vicces blogposztot a Reactről\"), míg az Arc célja, hogy a felhasználó általános, mindennapi kereséseit (pl. \"Budapest időjárás\", \"iPhone 16 ár\") szolgálja ki, amire a Google/Bing indexe még mindig frissebb és teljesebb. Nincs hivatalos nyoma annak, hogy az Arc az Exa APIt integrálta volna.[4]\n\n 2. LLM (\"A szöveggenerálás\")\nEbben igazad volt, valóban nagy szolgáltatókat használnak:\n   OpenAI: A hivatalos adatvédelmi tájékoztató és technikai elemzések is megerősítik, hogy az összegzésekhez és a válaszok generálásához az OpenAI modelljeit (pl. GPT4o vagy mini) használják.[5]\n   Anthropic: Bizonyos esetekben (pl. Arc Max funkciók asztali környezetben) az Anthropic (Claude) modelljeit is igénybe veszik. \n\n Összegzés: A te tipped vs. a valóság\n| Funkció | Te tipped (Exa + Olcsó LLM) | Valószínűsíthető valóság |\n| : | : | : |\n| Keresés (Linkek) | Exa AI | Google / Bing (Scraping vagy API) |\n| Szöveg (Válasz) | Valami olcsó/ingyenes LLM | OpenAI (GPT széria) és Anthropic |\n\nA \"Browse for Me\" lényege tehát inkább az \"ügynök\" (agent) működés: a böngésző helyetted kattint rá a Google első 6 találatára, elolvassa őket, és az OpenAIjal megíratja az összefoglalót. Ezért tűnik olyan gyorsnak és hatékonynak, de az adatokat a hagyományos webes keresőkből nyeri.",
+      "created_at": "20251220T18:11:28.301371Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "2701e3683ac747179ab77e8c0afaf3ca",
+      "query": "de ezt a google sima keresoje is megcsinalja xd",
+      "answer": "Igen, a Google sima keresője is tud hasonlót: az AI Overviews AIgenerált összefoglalót ad a találati oldal tetején, forráslinkekkel.  Az Arc “Browse for Me” inkább ugyanezt az élményt csinálja meg egy böngészőn belüli, külön “összefoglaló oldallá” formázva, plusz zajcsökkentéssel.[1][2][3][4]\n\n Mi a hasonlóság?\nA Google AI Overviews egy organikus SERP elem, ami AIösszefoglalót ad a kérdésre, és linkeket is mellékel forrásként.  Az Arc “Browse for Me” szintén több webforrásból szintetizált, linkelt kivonatot készít a keresésedre.[2][5][3][4]\n\n Miért érződik mégis másnak?\nAz Arc Search kifejezetten “adfree, distractionfree” böngészésre van pozicionálva, always‑on reklám/tracker/GDPR popup blokkosítással, ami sokszor tisztább olvasási élményt ad, mint a klasszikus keresőoldal.  A Google oldalán viszont az AI Overviews környezetében (és a keresőoldalon) továbbra is jelen van a hirdetési ökoszisztéma, és dokumentáltan megjelenhetnek hirdetések az AI Overviews körül / kapcsán is.[6][7][8][1]\n\n Mikor “ugyanaz”, mikor jobb az Arc?\nHa csak egy gyors, általános választ akarsz, a Google AI Overviews sokszor tényleg “megcsinálja” ugyanazt a lényegi lépést (összefoglal + linkel).  Az Arc akkor tud kényelmesebb lenni, ha a böngészés közben is szeretnél AIt: például az aktuális oldal gyors összefoglalása (“Pinch to Summarize”) és a keresésből generált, olvasható “összegző oldal” együtt ad egy folyamatosabb workflowt.[5][3][4][2]\n\nHa megírod, hogy nálad pontosan melyik usecase (pl. “termék összehasonlítás”, “hírek”, “howto”), rá lehet nézni, melyik ad ténylegesen jobb találati minőséget ugyanarra a kérdésre.",
+      "created_at": "20251220T18:15:14.961278Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

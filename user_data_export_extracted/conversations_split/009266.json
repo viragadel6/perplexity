@@ -1,0 +1,19 @@
+{
+  "context_uuid": "58dbedddb8964c8dbf4b4bbfe416feee",
+  "context_title": "",
+  "created_at": "20250731T21:18:43.240214Z",
+  "updated_at": "20250731T21:18:43.240214Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bac368ba501749ab824ea03607879bf9",
+      "query": "",
+      "answer": "Nem sikerült elérni vagy beolvasni a  oldal tartalmát, így a repository pontos leírása, célja, READMEje vagy egyéb technikai információja jelenleg nem áll rendelkezésre. A hivatalos GitHub keresés és a kapcsolódó internetes találatok sem tartalmaznak érdemi információt erről a konkrét projektről—nincs említés, dokumentáció vagy publikus leírás sem magyar, sem angol nyelvű oldalakon a “kurvavagyok/jade” repository kapcsán.\n\nHa konkrétan az adott projekt szöveges tartalmára, dokumentációjára vagy kódjára vagy kíváncsi, érdemes közvetlenül a repository tulajdonosától információt kérni, vagy megnézni a repository főoldalát GitHubon, ha az közvetlenül elérhető az Ön számára (például bejelentkezve). Ha bármilyen konkrétabb kérdése van egy fájlra vagy funkcióra vonatkozóan, azt igyekszem segíteni, ha megosztja velem az adott tartalmat vagy kérdést.",
+      "created_at": "20250731T21:18:43.469445Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

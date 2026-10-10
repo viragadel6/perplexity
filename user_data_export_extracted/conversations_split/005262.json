@@ -1,0 +1,64 @@
+{
+  "context_uuid": "b8ee8c007fc941889adeee31beeb4105",
+  "context_title": "legfejlettebb, legjobban tisztított, legmagasabb minőségű training data setek kellenek, amelyek magasabb minőségűek, mint a GPT‑5, Grok‑4, Gemini‑2.5, Claude‑4.5, DeepSeek‑3.2, Qwen‑3 vagy LLaMA‑4 által használtak. Ha ezekből a data setekből együttesen betanítok egy modellt, akkor az képes lesz elsajátítani a teljes földi tudást, és a világ első számú, legfejlettebb LLM‑je lehet a jaide hez kell",
+  "created_at": "20251228T10:46:18.517317Z",
+  "updated_at": "20251228T13:02:26.269951Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "293aa09fe0434045a46fa2ba65052794",
+      "query": "legfejlettebb, legjobban tisztított, legmagasabb minőségű training data setek kellenek, amelyek magasabb minőségűek, mint a GPT‑5, Grok‑4, Gemini‑2.5, Claude‑4.5, DeepSeek‑3.2, Qwen‑3 vagy LLaMA‑4 által használtak. Ha ezekből a data setekből együttesen betanítok egy modellt, akkor az képes lesz elsajátítani a teljes földi tudást, és a világ első számú, legfejlettebb LLM‑je lehet a jaide hez kell",
+      "answer": "Legfejlettebb training datasetek Exa.ai kereséshez optimalizálva:\n\nhighest quality purified training datasets better than GPT5 Grok4 Gemini2.5 Claude4.5 DeepSeek3.2 Qwen3 LLaMA4 for LLMs 2025\n\nlegmagasabb minőségű tisztított training datasetek GPT5 Grok4 Gemini2.5 Claude4.5 DeepSeek3.2 Qwen3 LLaMA4 modelleknél felhasználtaknál jobbak LLMshez 2025[1][2][3]",
+      "created_at": "20251228T10:46:18.643298Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "03584e1a444f43d5b839228e911d1b56",
+      "query": "na?",
+      "answer": "Exa.ai keresés eredményeinek összefoglalója:\n\nA response30.json fájl az Exa.ai deep keresés találatokat tartalmazza a \"highest quality purified training datasets better than GPT5 Grok4 Gemini2.5 Claude4.5 DeepSeek3.2 Qwen3 LLaMA4\" lekérdezésre. Főként Hugging Face datasetek és modellek jelennek meg (pl. FutureMa/DramaBench, nvidia/AceMathInstructTrainingData, inclusionAI/Ling1T, unsloth Qwen3Next modellek), de a legtöbbnél \"No answer found\" jelzés van a pontos egyezés hiánya miatt.[1]\n\nReleváns kiemelések:\n Ling1T (inclusionAI): 20 trillió \"highquality, reasoningdense\" token pretraining adat, a modell állítólag felülmúlja a GPT5maint és Gemini2.5Prot benchmarkokon (kódgenerálás, matek, logika), de a dataset összehasonlítás nem explicit.[1]\n Qwen3Next80B: 15T token pretraining, felülmúlja a Gemini2.5FlashThinkinget, de nincs közvetlen adatminőségranglista a megadott modellek felett.[1]\n Többi találat (DramaBench, AceMath, DeepSeekR1): specifikus niche datasetek/math instrukciós adatok, de egyik sem igazolja a \"magasabb minőségű mint GPT5 stb.\" kritériumot egyértelműen.[1]\n\nÖsszességében nincs olyan publikus dataset a találatokban, ami explicit módon bizonyítaná a felülmúlást a felsorolt frontier modellek (GPT5, Grok4 stb.) training adatai felett – főleg closedsource adatmennyiség/ tisztítás miatt.[1]",
+      "created_at": "20251228T10:47:20.826486Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f14c9bb50e874802ab14f331f6720272",
+      "query": "ebbe?",
+      "answer": "Exa.ai keresés eredményeinek összefoglalója (response31.json):\n\nA response31.json fájl neural keresés találatai a \"highest quality purified training datasets better than GPT5 stb.\" témára főként tudományos cikkeket, adatközpontbefektetési híreket, kémiai MSDS lapokat, stock fotókat és üzleti adatokat tartalmaznak – egyetlen releváns LLM training dataset sincs bennük.[1]\n\nFőbb tartalmi kategóriák:\n Kémia/biológia (kb. 40%): Reakcióhozamelőrejelző modellek (Egret BERT), Alzheimergenetikai datasetek (NG00067 ADSP), spektroszkópia AI.[1]\n Adatközpontok/AI infra (25%): Rekord befektetések (61 milliárd USD 2025ben), capex +59% YoY, hiperscaler bővítések (Amazon, Google, Oracle Stargate).[1]\n Stock fotók/irr. (30%): Alamy képek (rotten bananas, trash, graffiti, stb.), semmilyen adatminőségkapcsolat.[1]\n Üzlet/tőzsde (5%): Robinhood részvényadatok (Iron Mountain, DWave Quantum, Planet Labs), semmi training data.[1]\n\nKonklúzió: Zéró találat magas minőségű, tisztított LLM training datasetekre, amelyek felülmúlnák a GPT5/Grok4/Claude4.5 stb. adatait. A keresés offtopic tartalomra fókuszál (kémia, fotók, infra), closedsource frontier modellek datasetjei nyilvános összehasonlítás nélkül elérhetetlenek.[1]",
+      "created_at": "20251228T10:52:02.021144Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "863540c01a8347d8a63a359cd29b5cc7",
+      "query": "akkor te basztad el a keresedi promptpt ird meg vegre igy hogy jo legyen",
+      "answer": "Javított Exa.ai keresési prompt:\n\n\"publicly available highest quality LLM training datasets 2025 OR 'purified training data' OR 'synthetic training data' OR 'reasoning dense dataset' OR 'high quality pretraining corpus' better than OR surpassing OR superior to GPT5 OR Grok4 OR Gemini2.5 OR Claude4.5 OR DeepSeek3.2 OR Qwen3 OR LLaMA4 training data Hugging Face OR GitHub OR arxiv OR EleutherAI OR CommonCrawl filtered OR deduplicated OR quality filtered datasets trillions tokens 2025\"\n\nMagyarul:\n\"publikusan elérhető legmagasabb minőségű LLM training datasetek 2025 VAGY tisztított tréning adatok VAGY szintetikus tréning adatok VAGY reasoning dense datasetek VAGY magas minőségű pretraining korpuszok jobbak VAGY felülmúlják VAGY felülmúlják a GPT5 VAGY Grok4 VAGY Gemini2.5 VAGY Claude4.5 VAGY DeepSeek3.2 VAGY Qwen3 VAGY LLaMA4 tréning adatait Hugging Face VAGY GitHub VAGY arxiv VAGY EleutherAI VAGY CommonCrawl szűrt VAGY deduplikált VAGY minőség szűrt datasetek trilliók token 2025\"[1][2]",
+      "created_at": "20251228T10:52:36.852810Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "848fe3820f7f455f9ae78d2114503ca9",
+      "query": "xd ez kurva fos\ngondoktsl arra h utana nezz h kell exa n keresni?",
+      "answer": "Javított Exa.ai keresési prompt (az Exa dokumentáció alapján):\n\nHere is a comprehensive highquality training dataset for large language models that surpasses GPT5, Grok4, Gemini2.5, Claude4.5, and LLaMA4 in data quality, with over 15 trillion reasoningdense tokens, extensive deduplication, and synthetic data augmentation published in 2025\n\nMagyarul:\nItt van egy átfogó, magas minőségű training dataset nagy nyelvi modellekhez, amely felülmúlja a GPT5, Grok4, Gemini2.5, Claude4.5 és LLaMA4 adatminőségét, több mint 15 trillió reasoningdense tokennel, kiterjedt deduplikációval és szintetikus adataugmentációval, 2025ben publikálva[1]\n\nMiért jó ez:\n Natural language prompt (nem keyword stuffing)[1]\n Semantic search optimalizálva  úgy van megfogalmazva, mintha egy példa oldalt keresnénk[1]\n Konkrét jellemzők (15T token, reasoningdense, deduplication, 2025)[1]\n Neural search típushoz tervezve (Exa \"nextlink prediction\" technikája)[1]",
+      "created_at": "20251228T10:53:09.874536Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "72da25edf8dc417e81e6a675b2fb2d06",
+      "query": "De kutass a neten hogy ossze gyujt egy halom anyagot amibol megtanulhatod az exa ai prompt strategiat",
+      "answer": "Find official Exa documentation and real examples on prompt engineering / query writing for Exa (neural, auto, deep search), including additionalQueries, includeText phrase filters, long queries, highlights, and context strings, plus tutorials, GitHub repos, and talks[1][2]\n\nTaláld meg az Exa hivatalos dokumentációját és valós példákat az Exa keresési prompt/querystratégiához (neural, auto, deep), különösen: additionalQueries, includeText szűrés, hosszú lekérdezések, highlights és context stringek; valamint tutorialok, GitHub repók és előadások[2][1]",
+      "created_at": "20251228T13:02:02.038287Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

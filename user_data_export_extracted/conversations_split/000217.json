@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6dbd17e2a36b4e8e9f8ac98d6cd86eeb",
+  "context_title": "Btk. 190. § (2) bekezdés b) pont",
+  "created_at": "20260922T02:55:48.910629Z",
+  "updated_at": "20260922T02:59:30.434834Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b5054d1319dd43ea88ac35845e806b2a",
+      "query": "Btk. 190. § (2) bekezdés b) pont",
+      "answer": "A Btk. 190. § (2) bekezdés b) pontja az emberrablás minősített esetét jelöli: eszerint a büntetés öt évtől tizenöt évig terjedő szabadságvesztés, ha az emberrablást bűnszövetségben követik el.[1][2]\n\n Szöveg\n\nA 190. § a Büntető Törvénykönyvben az emberrablásról szól.[3][1]\nA (2) bekezdés b) pontjának szövege így jelenik meg: „A büntetés öt évtől tizenöt évig terjedő szabadságvesztés, ha az emberrablást … b) bűnszövetségben … követik el.”[2][1]\n\n Jelentése\n\nEz tehát nem önálló bűncselekménynevet ad meg, hanem az emberrablás súlyosabban büntetendő, minősített alakzatát rögzíti.[1][2]\nRöviden: ha a Btk. 190. § szerinti emberrablás bűnszövetségben valósul meg, akkor az alapesetnél magasabb büntetési tétel alkalmazandó, mégpedig öt évtől tizenöt évig terjedő szabadságvesztés.[2][1]\n\n Forrás\n\nA hatályos szöveg megtalálható a  és a .[4][5]\n\nSzeretnéd, hogy a teljes 190. §t is leírjam és közérthetően, pontról pontra elmagyarázzam?",
+      "created_at": "20260922T02:55:49.279405Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "context_uuid": "b93a82922a6449b48c32fd04ff89913d",
+  "context_title": "Find highly underrated, ultra highquality, fully cleaned LLM pretraining datasets (nonWikipedia/Reddit), ideally more computeefficient than Cerebras SlimPajama, obscure even among developers, and sufficient to train GPT5level models or cover nearcomplete world knowle\nJust send me the doenload links nothing else",
+  "created_at": "20250903T19:27:07.456478Z",
+  "updated_at": "20250904T14:57:45.169614Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6b40e216c0844fb692c6e050a7b95e91",
+      "query": "Find highly underrated, ultra highquality, fully cleaned LLM pretraining datasets (nonWikipedia/Reddit), ideally more computeefficient than Cerebras SlimPajama, obscure even among developers, and sufficient to train GPT5level models or cover nearcomplete world knowle\nJust send me the doenload links nothing else",
+      "answer": " [1]\n [1]\n [1]\n [2]\n [3][4]\n [5]\n [6]\n [7]\n [7]\n [1]\n [7]\n [8]\n [2]\n [9]\n [7]\n [7]\n [7]\n [1]",
+      "created_at": "20250903T19:27:07.626793Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e97712ad99a34d999d2cd89b02264322",
+      "query": "Only the highest quality,not eikipedia and reddit",
+      "answer": " [1][2]\n [3]\n [3]\n [4][5]\n [6][7]\n [8]\n [2]",
+      "created_at": "20250903T19:27:51.889316Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "3b448c5417c044bfaf893fefe695edbc",
+      "query": "Nem hugging face",
+      "answer": "Csak közvetlen letöltési linkek (nem Hugging Face), magas minőség, Wikipedia/Reddit kizárva:\n\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [2]\n  [3]",
+      "created_at": "20250903T19:28:19.338502Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "c473213bb8fb4db5b02b24e6510f8904",
+      "query": "De mint mondtam legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb technológiák amik legfeljebb 3 hónapja léteznek teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell",
+      "answer": "Legfrissebb (≤3 hónapos), alig ismert, erőforráshatékony, „fromscratch” pretrén adatforrások és pipelineok – NEM Hugging Face linkek:\n\n  [1][2]\n  [1][2]\n  [3]\n  [3]\n  [4]",
+      "created_at": "20250904T14:57:32.341065Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

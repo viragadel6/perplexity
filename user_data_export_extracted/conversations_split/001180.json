@@ -1,0 +1,19 @@
+{
+  "context_uuid": "88e13ade3055442fb0f83a06ec24ea3d",
+  "context_title": "Search for the police action involving Sándor Kollár on March 12, 2025, at 24/E Bakay Nándor Street in Szeged, Hungary. National Bureau of Investigation (NNI) and Counter Terrorism Centre (TEK)",
+  "created_at": "20260806T03:52:40.717309Z",
+  "updated_at": "20260806T03:52:55.399595Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0e44b0eb4cd24c9aa53346c12966e04e",
+      "query": "Search for the police action involving Sándor Kollár on March 12, 2025, at 24/E Bakay Nándor Street in Szeged, Hungary. National Bureau of Investigation (NNI) and Counter Terrorism Centre (TEK)",
+      "answer": "Nem találtam megbízható, nyilvános forrást, amely megerősítené az általad említett 2025. március 12i rendőrségi akciót Sándor Kollár ügyében a szegedi Bakay Nándor utca 24/E címen. A keresés során inkább csak a címre és a TEK/NNI általános működésére vonatkozó találatok jöttek elő, de nem erre az esetre.[1][2][3]\n\n Mi volt ellenőrizhető\n\nA Bakay Nándor utca 24. Szegeden egy ismert üzleti/irodai címhez kapcsolódik, nem pedig egy azonosítható rendőrségi helyszínhez.[2][3]\nA TEK Magyarország speciális, országos hatáskörű terrorelhárító és taktikai egysége, az NNI pedig súlyos és szervezett bűnügyekkel foglalkozó nyomozó szerv.[4][1]\nA keresési eredmények között nem volt olyan közlemény vagy híradás, amely a megadott névhez, dátumhoz és címhez egyszerre kapcsolódott volna.[5][6][7]\n\n Következtetés\n\nA jelenleg elérhető nyilvános információk alapján ezt az eseményt nem tudom hitelesen megerősíteni.[6][7][5]\nHa megadod az ügy másik azonosítóját, például cikkcímet, sajtóközleményrészletet vagy rendőrségi hivatkozást, pontosabban össze tudom rakni, miről volt szó.",
+      "created_at": "20260806T03:52:41.148915Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

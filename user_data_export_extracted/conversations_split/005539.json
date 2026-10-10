@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a8a6496872434a1986aa1cb31756c1d2",
+  "context_title": "AspectJ\nCObjDump\nClojure\nCppObjDump\nDObjDump\nEcere Projects\nEdje Data Collection\nEJS\nGlimmer JS\nJinja\nImageJ Macro\nJ\nJai\nJanet\nJAR Manifest\nJasmin",
+  "created_at": "20251218T23:46:25.744929Z",
+  "updated_at": "20251218T23:46:25.744929Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "20bec443ffa34a049d54e2f666255b38",
+      "query": "AspectJ\nCObjDump\nClojure\nCppObjDump\nDObjDump\nEcere Projects\nEdje Data Collection\nEJS\nGlimmer JS\nJinja\nImageJ Macro\nJ\nJai\nJanet\nJAR Manifest\nJasmin",
+      "answer": "A megadott lista különböző programozási nyelveket, keretrendszereket, fájlformátumokat és eszközöket tartalmaz, amelyek a szoftverfejlesztés különböző területeihez kapcsolódnak. Az alábbiakban a legfontosabb kategóriák szerint csoportosítva látható az elemek rövid leírása.[1][2]\n\n Programozási nyelvek\nEzek a nyelvek az általános célú rendszerszoftverektől a speciális matematikai alkalmazásokig terjednek:\n Clojure: A Lisp nyelv egy modern, dinamikus és funkcionális változata, amely a Java virtuális gépen (JVM) fut.[1]\n J: Egy rendkívül tömör, tömborientált programozási nyelv, amely elsősorban matematikai és statisztikai számításokra alkalmas.[3][4]\n Jai: Jonathan Blow által fejlesztett modern rendszerszintű programozási nyelv, amelyet kifejezetten játékfejlesztésre és nagy teljesítményű alkalmazásokhoz terveztek.[2][1]\n Janet: Egy könnyűsúlyú, funkcionális és imperatív nyelv (szintén Lispszerű), amely kiválóan alkalmas szkriptelésre vagy C/C++ alkalmazásokba való beágyazásra.[5][6]\n AspectJ: A Java nyelv egy aspektusorientált (AOP) kiterjesztése, amely lehetővé teszi a keresztirányú aggályok (pl. naplózás, biztonság) elkülönített kezelését.[7][8]\n\n Sablonkezelők és Web\nA modern webfejlesztésben használt technológiák, amelyek segítik a dinamikus tartalom előállítását:\n EJS (Embedded JavaScript): Egy népszerű sablonmotor, amely lehetővé teszi tiszta JavaScript kód beágyazását a HTML sablonokba.[9][10]\n Jinja: Egy széles körben használt Pythonalapú sablonkezelő, amelynek szintaxisa inspirálta többek között a Node.jses Nunjucksot is.[11][9]\n Glimmer JS: Egy gyors DOMrenderelő motor, amely az Ember.js keretrendszer alapját is képezi, és virtuális gép alapú architektúrát használ a teljesítmény növelésére.[12]\n\n Alacsony szintű eszközök\nA bináris fájlok elemzésére és az alacsony szintű kód generálására szolgáló technológiák:\n ObjDump (C, Cpp, D): Az objdump egy parancssori eszköz, amely objektumfájlok tartalmát (pl. gépi kód, szimbólumtáblák) jeleníti meg olvasható formában. A listában szereplő előtagok (C, Cpp, D) valószínűleg a C, C++ vagy D nyelven írt forráskódhoz kapcsolódó dumpfájlokra utalnak.[13][14][15]\n Jasmin: Egy assembler a Java virtuális géphez (JVM), amely ASCII formátumú leírásokból készít bináris Java .class fájlokat.[16][17]\n\n Egyéb speciális technológiák\n Ecere Projects: Az Ecere SDK egy nyílt forráskódú, platformfüggetlen eszközkészlet GUIk és 2D/3D grafikai alkalmazások fejlesztéséhez.[18][19]\n Edje Data Collection (EDC): Az Enlightenment Foundation Libraries (EFL) része, egy leíró nyelv a felhasználói felületek vizuális megjelenésének (méret, szín, animációk) definiálására.[20][21]\n ImageJ Macro: Az ImageJ képfeldolgozó szoftver saját szkriptnyelve, amellyel automatizálhatóak a parancsok és egyedi algoritmusok hozhatóak létre.[22][23]\n JAR Manifest: A Java archívumfájlok (JAR) része, amely metaadatokat tartalmaz a fájl tartalmáról, például a fő osztály (MainClass) nevét vagy a függőségeket.",
+      "created_at": "20251218T23:46:25.829657Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

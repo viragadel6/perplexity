@@ -1,0 +1,19 @@
+{
+  "context_uuid": "015c038eef684950a5fa8eb98b03b24c",
+  "context_title": "fizetési megoldást keresek, amelyet közvetlenül a saját oldalamon tudok beágyazni (nincs átirányítás és a vevőnek semmire sem kell regisztrálnia), a vásárlók HUFban látnak és fizetnek Apple Payjel vagy bankkártyával, a háttérben akár mehet kripto is, de a checkout teljesen “átlagos” marad, a befolyó pénz azonnal és várakozás nélkül a rendelkezésemre áll és azonnal költhető a saját (merchant) kártyámmal/számlámról/kripto‑kártyáról\naz onboarding pár perc legyen (nem napok, nem külső fiat‑provideres kerülőút), és APIval is megoldható, ha van valódi, működő “hack” az azonnali elszámolásra.",
+  "created_at": "20251109T03:27:39.097825Z",
+  "updated_at": "20251109T03:27:39.097825Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "28ab8f7edd7845b68d0d3af19fc61d17",
+      "query": "fizetési megoldást keresek, amelyet közvetlenül a saját oldalamon tudok beágyazni (nincs átirányítás és a vevőnek semmire sem kell regisztrálnia), a vásárlók HUFban látnak és fizetnek Apple Payjel vagy bankkártyával, a háttérben akár mehet kripto is, de a checkout teljesen “átlagos” marad, a befolyó pénz azonnal és várakozás nélkül a rendelkezésemre áll és azonnal költhető a saját (merchant) kártyámmal/számlámról/kripto‑kártyáról\naz onboarding pár perc legyen (nem napok, nem külső fiat‑provideres kerülőút), és APIval is megoldható, ha van valódi, működő “hack” az azonnali elszámolásra.",
+      "answer": "embedded payment gateway no redirect HUF Apple Pay instant crypto settlement merchant card fast onboarding API\nbeágyazható fizetési kapu átirányítás nélkül HUF Apple Pay azonnali kripto elszámolás kereskedői kártya gyors onboarding API",
+      "created_at": "20251109T03:27:39.429149Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

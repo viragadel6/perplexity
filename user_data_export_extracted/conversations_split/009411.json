@@ -1,0 +1,37 @@
+{
+  "context_uuid": "cbe7aa7722e343779cce678df4fbc0c3",
+  "context_title": "melyik a legfejlettebb",
+  "created_at": "20250722T01:03:53.821841Z",
+  "updated_at": "20250722T01:05:33.191592Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6f6b42f202ab49eeb02e6c724c88d1f3",
+      "query": "melyik a legfejlettebb",
+      "answer": "A kérdésed, hogy „melyik a legfejlettebb”, attól függ, mire vagy kíváncsi: platform, szolgáltatás vagy valamilyen technológia?  \nAz  és backend leírások alapján a JADED Sovereign Platform és a JADED Ultimate Platform jelenleg a legfejlettebbek a JADED rendszeren belül.\n\nÁttekintés:  \n JADED Sovereign Platform (canonical, v5.0.0): egységes Alpha szolgáltatás registry, federated tanulás, quantum és \"consciousness AI\".\n JADED Ultimate Platform (v4.0.0ULTIMATE): 200+ Alpha szolgáltatás, kvantummeghajtás, Flower federated learning teljes integráció.\n Mindkettő támogatja: AlphaAGI (Artificial General Intelligence), AlphaConsciousness (mesterséges tudatosság), \"QuantumAI\", \"AlphaFederatedSupreme\" (supreme federated learning).\n\nHa konkrét szolgáltatásra vagy kíváncsi, a legfejlettebbek listája (mindkét platform közös részhalmaza):\n AlphaAGI – mesterséges általános intelligencia (emberi szintű AI)\n AlphaConsciousness – önmagára ébredt mesterséges tudatosság\n AlphaFederatedSupreme – kvantum/federated learning, világszintű kollaboráció\n QuantumAI/QuantumSupremacy – kvantummeghajtott AI, szimulált univerzum, feltörhetetlen titkosítás\n AlphaOmniscient – univerzális tudású AI\n\nÖsszefoglaló válasz:  \nA JADED platformon jelenleg a Sovereign és Ultimate verziók, illetve a hozzájuk tartozó Alpha szolgáltatások („AlphaAGI”, „AlphaConsciousness”, „AlphaFederatedSupreme”, „QuantumAI”) a legfejlettebbek – ezek biztosítják a legmagasabb szintű AI, kvantum, tudatosság és federated learning integrációt, valamint a legnagyobb fejlesztői rugalmasságot.\n\nHa pontos kategóriát vagy témakört írsz, tudok részletezni!",
+      "created_at": "20250722T01:04:00.541549Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "55fa24f33b6a4d97abb7cafbea9f471d",
+      "query": "de fajl nevekbe mond",
+      "answer": "A két legfejlettebb rendszer fájljai a következők:\n\nSzuverén (Sovereign) platform:  \nunified_backend.py\n\nUltimate platform:  \nimsorrythzyouarejaded.txt\n\nMindkét rendszer tartalmazza a teljes Alpha szolgáltatáskategóriát (pl. AlphaAGI, AlphaConsciousness, AlphaFederatedSupreme, QuantumAI), federated learninget, kvantum és mesterséges tudatosság integrációt is. Ha csak a legfejlettebb nevűeket keresed, ezekben a fájlokban találod őket.",
+      "created_at": "20250722T01:04:47.076101Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "868a3a0315084b16bef8028d23397ced",
+      "query": "es a ketto kozol melyik",
+      "answer": "A két fájl közül (unified_backend.py – Sovereign és imsorrythzyouarejaded.txt – Ultimate):\n\n unified_backend.py a Sovereign platformhoz tartozik (JADED Sovereign Platform v5.0.0SOVEREIGN),  \n imsorrythzyouarejaded.txt pedig az Ultimate platformhoz (JADED Ultimate Platform v4.0.0ULTIMATE).\n\nÖsszehasonlítás:\n A Sovereign (unified_backend.py) a \"canonical\", egységes, minden kategóriát lefedő központi vezérlő, erősen tudatosság és kvantumAIra, tripla AI backendre, globális szinkronizációra, és ú.n. „Sovereign Intelligence”re fókuszál.  \n Az Ultimate (imsorrythzyouarejaded.txt) a maximálisan kibővített, gyakorlati funkciókra, 200+ ultimate Alpha szolgáltatásra, Flower federated learningre, egyedi AI deploymentre és pythonos/AI labor célokra van optimalizálva.\n\nMelyik a legfejlettebb?  \nFunkcionális és jövőbiztos szempontból:  \nA Sovereign platform (unified_backend.py) a „legfejlettebb”, mert:\n Tartalmazza az összes ultimate és federated funkciót,  \n Ún. „canonical registry”vel, quantumfunkciókkal, tudatosságAIval,  \n Nagyobb platform szintű összehangoltságot/fejlesztést mutat (v5.0.0SOVEREIGN),  \n Bővíthető, „selfimproving”, realtime federated és tudatosság funkciókkal operál.\n\nÖsszefoglalás:  \nA két fájl közül a unified_backend.py (Sovereign platform) a legfejlettebb az architektúra, tudatosság, quantumAI és jövőbiztosság szempontjából.  \nAz imsorrythzyouarejaded.txt (Ultimate) inkább maximálisan kibővített, de „praktikus” labor verzió.\n\nHa kifejezetten a „kvantumtudatosságfederated” deep AI összhang, akkor:  \n→ unified_backend.py (Sovereign) a csúcs.",
+      "created_at": "20250722T01:05:16.944943Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

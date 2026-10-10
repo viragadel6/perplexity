@@ -1,0 +1,28 @@
+{
+  "context_uuid": "6ac6b07614a748acaa46d7d09b6de698",
+  "context_title": "exa ai features?\n\n\nRead it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "created_at": "20260812T03:31:01.877237Z",
+  "updated_at": "20260812T03:35:25.547652Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1712a603a9d8416c951d904faad11c11",
+      "query": "exa ai features?\n\n\nRead it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "answer": "A websets és webhook fokozatait a keresés bővítése",
+      "created_at": "20260812T03:31:01.927178Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "fc7411b256ef4f0c8e4203efe37438b0",
+      "query": "?",
+      "answer": "A Websets exportosztály nézete előtt",
+      "created_at": "20260812T03:32:49.336433Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

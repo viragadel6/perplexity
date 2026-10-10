@@ -1,0 +1,19 @@
+{
+  "context_uuid": "bc88d75f4701425b8092e7d97f3a1fbb",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20260131T01:48:45.768183Z",
+  "updated_at": "20260131T01:49:30.333711Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "23a522206f144709b3585d67f3eea438",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": "Most végzek kutatásokat a projektben található technológiákról és koncepciókról, hogy részletes értékelést adhassak.",
+      "created_at": "20260131T01:48:45.902686Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

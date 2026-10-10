@@ -1,0 +1,19 @@
+{
+  "context_uuid": "23128768b0844a17be645e89877a5aea",
+  "context_title": "ez mi",
+  "created_at": "20251128T01:24:34.526386Z",
+  "updated_at": "20251128T01:24:34.526386Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "32d9d39e02bc4b43b1d83668c2ad0746",
+      "query": "ez mi",
+      "answer": "Ez egy tömörített (minified) JavaScript fájl, ami az Axios HTTP kliens könyvtárat tartalmazza. Az Axios egy népszerű JavaScript library, amelyet HTTP kérések küldésére használnak böngészőkben és Node.js környezetben.[1]\n\n Főbb jellemzők\n\nA fájl tartalmazza az Axios teljes funkcionalitását, beleértve:\n\n HTTP kérések: GET, POST, PUT, DELETE, PATCH metódusok támogatása\n XMLHttpRequest kezelés: böngésző alapú HTTP kommunikáció\n Interceptorok: request és response interceptorok kérések előfeldolgozásához\n Cancel token: kérések megszakításának lehetősége\n Hibakezelés: fejlett hibafelismerés és kezelés\n Timeout beállítások: időkorlátok konfigurálása\n\n Technikai részletek\n\nA kód minifikált formátumban van, ami azt jelenti, hogy minden felesleges szóköz, sortörés és komment el lett távolítva a fájlméret csökkentése érdekében. A fájl egy bundled verziót tartalmaz, ahol az összes modul egyetlen fájlba van összefűzve, és tartalmaz egy Sentry debug IDt is a hibakereséshez.[1]",
+      "created_at": "20251128T01:24:34.715337Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

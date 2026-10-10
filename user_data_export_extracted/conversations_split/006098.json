@@ -1,0 +1,28 @@
+{
+  "context_uuid": "111e3dd30ecc4aaeaceebe430314311f",
+  "context_title": "",
+  "created_at": "20251127T01:43:39.670091Z",
+  "updated_at": "20251127T01:44:42.367304Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e61c0f3fb89f437fb132e8788ada05a8",
+      "query": "",
+      "answer": "A MINT1T egy nyílt forráskódú, multimodális, egymásba ágyazott (interleaved) adattömeg, amely 1 trillió szövegtokensből és 3,4 milliárd képből áll. Ez az eddig ismert nagy nyílt forráskódú multimodális adatkészletek tízszeres nagyságrendjét jelenti. A MINT1T egyedisége abban rejlik, hogy nem csak HTML dokumentumokat, hanem PDFeket és ArXiv tanulmányokat is tartalmaz, így sokkal változatosabb és kiterjedtebb az adatforrásai köre.\n\nAz adatkészlet összeállítása jelentős mérnöki kihívás volt, különös tekintettel arra, hogy a szövegek és képek eredeti sorrendjét meg kellett őrizni az interleaved formátumban. A MINT1T így támogatja a korszerű nagy nyelvi és multimodális modellek (LMM) hatékony betanítását, és versenyképes teljesítményt nyújt az előző vezető adatkészletekkel szemben, mint például az OBELICS.\n\nRöviden, a MINT1T egy hatalmas, változatos multimodális adatgyűjtemény, amely segíti a mesterséges intelligencia fejlődését a multimodális nyelvi modellek terén a nagyméretű adatbázisok nyílt elérhetősége révén.[2][3]",
+      "created_at": "20251127T01:43:39.893357Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2d29d9e586284b3cba99c8a0e2b02ea6",
+      "query": "es hol elerheto az a dataset",
+      "answer": "A MINT1T adatkészlet hivatalosan a Hugging Face platformon érhető el. Mivel ez egy hatalmas, 1 billió tokent tartalmazó adatbázis, az \"mlfoundations\" gyűjteményében több részletre bontva (HTML, PDF, ArXiv) található meg.\n\nAz eléréshez a következő linkeket használhatod:\n   Hivatalos Hugging Face gyűjtemény: [1]\n   GitHub kód: A feldolgozáshoz és használathoz szükséges kód elérhető a GitHubon: .[2][3]\n\nFontos megjegyzés:\nA PDF és egyéb részhalmazok elérése korlátozott lehet (pl. \"restricted\" státuszú), ami azt jelenti, hogy be kell jelentkezned a Hugging Face fiókodba, és el kell fogadnod a felhasználási feltételeket az adatok letöltése előtt. Az adatok több \"shard\"ban (darabban) tölthetők le a CommonCrawl különböző időpontjai (snapshotjai) alapján.[4][5][2]",
+      "created_at": "20251127T01:44:28.792065Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

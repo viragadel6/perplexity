@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d27fe5af2c2d485badb0275217c4cc88",
+  "context_title": "pure white hajfesték",
+  "created_at": "20250701T14:50:25.164918Z",
+  "updated_at": "20250701T14:50:25.164918Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f07cd03bb15145ccbc01d7273d9de3c8",
+      "query": "pure white hajfesték",
+      "answer": "",
+      "created_at": "20250701T14:50:25.192391Z",
+      "label": null,
+      "query_status": "PENDING",
+      "engine_mode": null
+    }
+  ]
+}

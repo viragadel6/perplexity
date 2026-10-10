@@ -1,0 +1,19 @@
+{
+  "context_uuid": "00ae255c031a4d33b2b06550815c9fa1",
+  "context_title": "bd exa paralell",
+  "created_at": "20260530T12:35:22.210205Z",
+  "updated_at": "20260531T03:32:08.340735Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "624715121e744fb6a2c26e0cbbe7166b",
+      "query": "bd exa paralell",
+      "answer": "A csatolt fájlod tartalmát alaposan átnéztem. A kérdésed — „bd exa paralell\" — arra vonatkozik, hogyan használható párhuzamosan (parallel) a Bright Data (BD) és az Exa connector/eszköz egy rendszerben. Íme a részletes kifejtés:\n\n\n\n BD + Exa párhuzamos használata\n\nEz a beállítás azt jelenti, hogy ugyanabban az AImunkamenetben (pl. MCP/Claudealapú rendszerben) egyszerre hívod meg a Bright Data webscraping eszközeit és az Exa szemantikus keresőjét — ahelyett, hogy sorban (szeriálisan) várnál minden válaszra. \n\n\n\n Miért érdemes párhuzamosítani?\n\nA két eszköz különböző erősségekkel rendelkezik. Az Exa természetes nyelvű, szemantikailag rangsorolt keresési eredményeket ad vissza — ideális, ha egy témáról a legrelevansabb oldalakat kell megtalálni. A Bright Data viszont konkrét URLeket képes feloldani, botvédelmen átmenni, és strukturált adatot (Amazon, LinkedIn, Zillow stb.) kinyerni.  Ha sorban futtatnád őket, az egyik várakozási ideje a másikra rakódna; párhuzamos futtatásnál mindkét kérés egyszerre indul el, és az eredmény gyorsabban áll össze. \n\n\n\n Hogyan néz ki a párhuzamos hívás?\n\nAz MCPeszközkörnyezetben (pl. Claude Desktop, Cursor, saját agent) a párhuzamos eszközhívás úgy működik, hogy egyetlen AIfordulatban több tool_use blokkot adsz meg egyszerre. Például:\n\n\n[Tool call 1 - Exa]  →  web_search_exa(\"React vs Vue performance 2025\")\n[Tool call 2 - BD]   →  scrape_as_markdown(\"https://konkret-oldal.com/adat\")\n\n\nMindkettő egyszerre fut, és az AI a két választ együtt dolgozza fel. \n\n\n\n Tipikus párhuzamos munkafolyamat\n\nA legtipikusabb pattern a következő három lépéses pipeline:\n\n1. Felfedezés (Exa) — az Exa web_search_exa vagy web_search_advanced_exa eszközzel megtalálod a releváns URLeket egy témára. \n\n2. Párhuzamos scraping (Bright Data) — a kapott URLlistát egyszerre, scrape_batchcsel vagy scrape_as_markdownnal dolgozod fel a BDn keresztül — ez különösen hasznos, ha botvédett oldalakhoz (pl. Amazon, LinkedIn) kell hozzáférni, amelyeket az Exa önmagában nem tud feloldani. \n\n3. Összesítés — az AI a két forrásból kapott adatot egységes válasszá olvasztja össze. \n\n\n\n Mikor válaszd melyiket?\n\n| Feladat | Javasolt eszköz |\n|||\n| Témakeresés, releváns oldalak felderítése | Exa (web_search_exa) |\n| Konkrét, ismert URL tartalmának kinyerése | BD (scrape_as_markdown) |\n| Strukturált adat (Amazon, LinkedIn, Zillow) | BD (web_data_*) |\n| Botvédett oldal | BD (Scraping Browser) |\n| Dátum/domainszűrős keresés | Exa (web_search_advanced_exa) |\n| Párhuzamos többURL scraping | BD (scrape_batch) |\n\n\n\n Gyakorlati példa: egyidejű BD + Exa hívás\n\nHa például piackutatást csinálsz egy termékre, az optimális hívássor:\n\n\nPárhuzamosan:\n  ├── Exa: \"best noise cancelling headphones 2025 review\"\n  └── BD:  web_data_amazon_product_search(\"noise cancelling headphones\")\n\n\nAz Exa hozza a szerkesztői véleményeket és blogokat, a BD az Amazon élő árakat és értékeléseket — együtt teljes képet adnak, és a kettő párhuzamos futása felezi a várakozási időt. \n\n\n\n Fontos technikai megjegyzés\n\nAz search_engine_batch BDeszközzel egyetlen hívásban akár 10 keresőlekérdezést futtathatsz párhuzamosan Google/Bing/Yandex felületeken.  Az Exa oldalán az additionalQueries paraméter teszi lehetővé, hogy egy web_search_advanced_exa hívás több lekérdezési variációt is lefedjen egyszerre.  A kettő kombinálása maximalizálja a lefedettséget minimális latenciával.",
+      "created_at": "20260530T12:35:22.536153Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

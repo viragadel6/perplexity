@@ -1,0 +1,19 @@
+{
+  "context_uuid": "08fdf1a2fdfe4dab8ca3f512a96bc3f9",
+  "context_title": "",
+  "created_at": "20251229T22:04:30.784030Z",
+  "updated_at": "20251229T22:04:30.784030Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d1b057dc309345d184c3d568ff672c36",
+      "query": "",
+      "answer": "A megadott link egy külső JavaScriptfájlra mutat (https://um.subformer.com/script.js), amelyet tipikusan weboldalak ágyaznak be például mérésre, trackingre vagy A/B tesztelésre. Mivel jelenleg nem tudom letölteni vagy megnyitni a konkrét fájl tartalmát, nem tudom pontosan megmondani, hogy mit csinál ez a konkrét script.\n\n Mit jelent egy ilyen URL?\n\n A subformer.com egy saját domain, amely valószínűleg egy adott szolgáltatóhoz vagy céghez tartozó scriptet szolgál ki, például analitika, felhasználói viselkedéskövetés vagy reklám céljából.[1]\n Az um. aldomain gyakran „user metrics”, „user manager” vagy hasonló funkciókra utalhat, de ez csak általános iparági gyakorlatból levont következtetés, nem kifejezetten ehhez a domainhez kötött információ.[1]\n\n Mire figyelj biztonsági szempontból?\n\n Ha ezt a scriptet egy általad üzemeltetett oldal akarja betölteni, csak akkor engedd, ha megbízol a szolgáltatóban, és van vele szerződésed vagy dokumentációd róla.[1]\n Böngészőből közvetlenül megnyitni egy ilyen .js fájlt általában nem veszélyes, mert csak a forrást látod, de futtatni (beágyazni saját oldaladba) már kockázatos, ha nem tudod, mit tartalmaz.[1]\n\n Hogyan tudod megnézni, mit csinál?\n\n Nyisd meg a linket egy böngészőben: a legtöbb esetben a JavaScript forráskód szövegesen látszik, így ellenőrizheted, milyen domainekre küld adatokat, használe tracking pixeleket, cookiekat stb.  \n Használhatsz böngésző fejlesztői eszközöket (Network/Net fül) egy olyan oldalon, ahol ez a script már be van ágyazva, hogy lásd, milyen kéréseket indít és milyen adatokat küld.  \n\nHa leírod, hogy hol találkoztál ezzel a linkkel (milyen oldal, milyen kontextus), vagy bemásolod a script tartalmát, szövegesen el tudom magyarázni, pontosan mit csinál.",
+      "created_at": "20251229T22:04:31.664110Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

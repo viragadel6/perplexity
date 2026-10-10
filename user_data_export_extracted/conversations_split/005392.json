@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8fd47a1b94594de3834b1d7a15b515cc",
+  "context_title": "orpheus tts model",
+  "created_at": "20251223T05:03:19.911107Z",
+  "updated_at": "20251223T05:03:19.911107Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ab6a4601881e48eaa69be48284a666af",
+      "query": "orpheus tts model",
+      "answer": "Az Orpheus TTS egy nyílt forráskódú, modern texttospeech (TTS) rendszer, ami Llama3B alapokra épül, és kifejezetten emberszerű, érzelmileg kifejező beszéd generálására készült.[1]\n\n Mi ez pontosan?\n Az Orpheus TTS egy “SpeechLLM” jellegű TTS megoldás, vagyis egy nagy nyelvi modell (Llama3B) “backbone”jára építve állít elő beszédet.[1]\n A projekt célja, hogy LLMek “emergens” képességeit kihasználva természetes intonációt, ritmust és érzelmi árnyalatokat adjon a szintetizált hanghoz.[1]\n A GitHub repó szerint SOTA opensource TTSként pozicionálják, és kiemelik a valós idejű (streaming) felhasználási lehetőséget is.[1]\n\n Fő képességek\n Emberszerű beszéd (intonáció, érzelem, ritmus).[1]\n Zeroshot voice cloning (hangutánzás finomhangolás nélkül).[1]\n Egyszerű “tag”ekkel irányítható érzelmek/hanghatások (pl. <laugh>, <sigh>, <yawn>).[1]\n Alacsony késleltetésű streaming: kb. ~200 ms körüli streaming latencyt említenek (optimális beállításokkal még lejjebb is vihető).[1]\n\n Milyen modellek vannak?\n Két angol modellcsaládot említenek: egy “finetuned prod” modellt általános TTSre, és egy “pretrained” bázismodellt (100k+ óra angol beszédadaton tanítva).[1]\n Ezen felül van egy többnyelvű modellcsalád is “research preview” jelleggel.[1]\n\n Gyors indulás (lokális/fejlesztői)\n A repó alapján Pythonból az orpheus-speech csomaggal és OrpheusModel használatával lehet streaming módon WAVot generálni (24 kHz mintavételezéssel a példában).[1]\n Hangszerepek/voiceok: angolnál több név is támogatott (pl. “tara”, “leah”, “jess”, “leo”, stb.), és a csomag intézi a prompt formázását.[1]\n\nMilyen célra kellene (pl. magyar narráció, voiceover, valós idejű asszisztens), és milyen gépen futtatnád (GPU vane)?",
+      "created_at": "20251223T05:03:20.000585Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

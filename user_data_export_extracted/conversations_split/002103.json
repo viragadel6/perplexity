@@ -1,0 +1,28 @@
+{
+  "context_uuid": "3ccc411806a8492599201d7ddee6655f",
+  "context_title": "",
+  "created_at": "20260601T10:07:19.968369Z",
+  "updated_at": "20260602T14:54:52.379985Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c6166fc083df4a1a8fdfa23adfd8703d",
+      "query": "",
+      "answer": "A megadott link a Hugging Faceen található 0xSero/Trinity337B modellkártyára mutat, amely egy nagyon nagy, szöveggenerálásra szolgáló nyelvi modell (337B paraméterrel), a Trinity modellcsalád részeként, 0xSero fiók alatt közzétéve.[1][2][3]\n Mi ez a modell?\nA Trinity337B egy text generation típusú modell, vagyis elsősorban természetes nyelvű szöveg előállítására használható (chat, completion, instrukció‑követés, kreatív írás stb.). A projekt a Trinity névre hallgató modellek gyűjteményének része, ahol több variáns (például kvantált verziók) is elérhető ugyanehhez az architektúrához.[1][2][3]\n Trinity család és MoE kontextus\nA Trinity modellcsaládhoz kapcsolódóan a szakmai híroldalak egy sparse Mixture‑of‑Experts (MoE) architektúrájú, nagyon nagy Trinity‑Large előnézeti modellt említenek, amely közel 398B paramétert tartalmaz, de tokenenként csak kb. 13B aktív paramétert használ. Ez arra utal, hogy a Trinity‑337B is egy hasonlóan nagyméretű, korszerű, valószínűleg MoE‑jellegű LLM‑család része, amelyet kifejezetten nagy teljesítményű szöveggenerálási feladatokra szántak.[1][3][4]\n Elérés és használat (általános kép)\nA Hugging Facees modelloldalon általában útmutatók találhatók arra, hogyan lehet a modellt különböző könyvtárakkal, inference szolgáltatókkal, notebookokkal és lokális alkalmazásokkal használni. A Trinity‑337B oldalán is ilyen, „get started” jellegű linkek és instrukciók szerepelnek, amelyek segítenek a felhasználónak a gyors integrációban a saját környezetébe.[2]\n\nMilyen célra szeretnéd pontosan használni ezt a modellt (pl. lokális inferencia, kutatás, benchmark, vagy alkalmazásba integrálás)?",
+      "created_at": "20260601T10:07:20.277807Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "545f6c30cfb34ddb8e3ba804e1d7ff17",
+      "query": "foundation vagy finomhangolt",
+      "answer": "A Trinity337B pontosan meghatározható a Trinity modellek Arcee AI által kiadott dokumentációja alapján.\n\n Foundation modell vagy finomhangolt?\n\nA Trinity modellcsalád mindkét típust tartalmazza, és a 337Bes verzió valószínűleg a nagy alapmodell (TrinityLargeBase) egyik közzétett változata. Az Arcee AI három változatban adta ki a modellt:[1]\n\nA TrinityLargeBase egy igazi frontier szintű foundation (alap) modell — 17 billió tokenen előtanított teljes pretraining checkpoint, amelybe minimális instrukciós adat lett beépítve.  A TrueBase változat még radikálisabb: ez 10T tokenes pretraining checkpoint, abszolút nulla instrukciós adattal és learning rate annealing nélkül — tehát ez a leginkább \"nyers\" alapmodell.[1]\n\nA TrinityLargePreview ezzel szemben egy könnyedén posttrained, chatready változat, vagyis lightly finomhangolt instrukciókövető modell, nem reasoningalapú, hanem inkább instruct modell. Ez kiváló kreatív írásra, roleplayre, chatre és valós idejű hangalapú asszisztenciára.[1]\n\n A 337Bes szám eredete\n\nA TrinityLarge névlegesen 400B paraméteres sparse MixtureofExperts (MoE) architektúra, 256 experttel és tokenenként 4 aktív experttel, ami tokenenként ~13B aktív paramétert jelent.  A HuggingFaceen megjelenő 337Bes méret valószínűleg a tényleges teljes paraméterszámot tükrözi (a névleges 400Btól eltérhet az architektúra pontos megvalósítása miatt), míg a W4A16 kvantált változat mindössze 46Bre csökken memóriahasználat szempontjából.[2][1]\n\nTehát: ha a 0xSero/Trinity-337B a Base checkpointra épül, akkor foundation modell — ha a Preview változatra, akkor lightly finomhangolt instruct modell. A HuggingFacees modellkártyán a pontos típus (base vs. instruct) ellenőrizhető a metaadatokban.",
+      "created_at": "20260602T14:54:29.075986Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "3c290de1a7de48d8ab352de405d5d2f0",
+  "context_title": "Ocr",
+  "created_at": "20260722T04:04:35.393419Z",
+  "updated_at": "20260722T04:04:43.175535Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "06efcb5938d246a6b526916250a10e27",
+      "query": "Ocr",
+      "answer": "I can extract the visible text from your screenshot manually. The attached image appears to contain this text:[1]\n\n Extracted text\n\n“On the image with short hair  \nEdit my hair to the same as the other pictures  \nUltra realistic 4k”[1]\n\n“Adjusting the hair to match the other images while maintaining an ultrarealistic 4K style”[1]\n\n“GENERÁLÁS”[1]\n\n“Ultra realistic 4K edit: short hair image updated to match longer slickedback white hairstyle from reference.”[1]\n\n“Kérdezz utána...”[1]\n\nThere are also small interface labels/icons visible, including a partially shown “Folyamatban...” near the middleleft area.[1]\n\n Notes\n\nBecause this is a screenshot, a few parts are slightly small or partially cut off, so this is a besteffort OCR transcription rather than pixelperfect machine OCR.[1]\n\nIf you want, I can also format it as:\n1. raw plain text,\n2. exact line breaks,\n3. Hungarian translation, or\n4. a cleaned prompt version.",
+      "created_at": "20260722T04:04:35.610016Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

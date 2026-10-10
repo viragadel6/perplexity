@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b692df22028a48a1b1c5da860387deca",
+  "context_title": "Kép\n",
+  "created_at": "20250930T08:34:08.667421Z",
+  "updated_at": "20250930T08:34:08.667421Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fc83729a93d4402a84dd16ee215680ba",
+      "query": "Kép\n",
+      "answer": "A \"文小言\" alkalmazás egy többfunkciós AI platform, amely írás, keresés, képfelismerés, AI grafikakészítés és videóalkotás lehetőségeit kínálja felhasználóinak[1]. A szolgáltatója a Beijing Baidu Netcom Science & Technology Co.,Ltd.\n\n Alkalmazás fő funkciói\n\n Szövegírás: cikkek, jelentések szerkesztése, összefoglalók készítése[1].\n Kép és hangalapú felismerés, fordítás, szövegkinyerés[1].\n AI grafikakészítés: kreatív rajzok, poszterek, stílusportrék generálása leírás alapján[1].\n AI videószerkesztés: statikus képekből animált rövid videók készítése[1].\n Közösségi interakció: kapcsolattartás AI rajongókkal, közösségi tartalommegosztás[1].\n Széles körű digitális asszisztens kínálat (pl. tanulás, munkavégzés, szórakozás)[1].\n\n Adatvédelem és gyűjtött adatok\n\n Önhöz társított: elérhetőségi adat, felhasználói tartalom, azonosítók, diagnosztika, egyéb adatok[1].\n Nem társított: földrajzi helyzet, tartalom, használati adatok, diagnosztika[1].\n\n Egyéb információk\n\n Fejlesztő címe: Beijing Baidu Campus, No. 10, Shangdi 10th St, Haidian, Kína[1].\n Méret: 313,9 MB[1].\n Kompatibilitás: iOS/iPadOS 13+, macOS 11+ (M1 vagy újabb), visionOS 1.0+[1].\n Nyelv: angol[1].\n Ár: ingyenes, de inapp vásárlások elérhetők[1].\n Korhatár: 17+[1].\n App Store link: .\n\nEz az alkalmazás kifejezetten hasznos azok számára, akik hatékony, kreatív AIalapú eszközöket keresnek szövegíráshoz, multimédiás tartalmak előállításához, vagy információkereséshez[1].",
+      "created_at": "20250930T08:34:09.449655Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

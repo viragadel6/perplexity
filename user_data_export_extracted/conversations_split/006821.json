@@ -1,0 +1,19 @@
+{
+  "context_uuid": "3317bc10abca4ec98b60906a5a820fae",
+  "context_title": "",
+  "created_at": "20251101T19:22:20.225483Z",
+  "updated_at": "20251101T19:22:20.225483Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c2dadbb574e0456280033a32088a8b0b",
+      "query": "",
+      "answer": "A  oldal az LLMek számára ad útmutatót, hogyan érjék el a Stripe dokumentációjának egyszerű, sima szöveges változatait, és az emerging “/llms.txt” szabványnak megfelelő információkat tartalmaz erről a hozzáférési módszerről.[1][2]\n\n Mit tartalmaz\n Leírást arról, hogy a Stripe a dokumentáció minden oldalához elérhetővé tesz egy plain text/Markdown verziót az URL végére tett „.md” kiterjesztéssel, például: \n Útmutatást LLMeknek és ügynököknek, hogy a HTML helyett a sima szövegű oldalak használata ajánlott a kevesebb formázási zaj, a rejtett/tabsávos tartalmak megjelenítése és a jobb struktúra miatt.[1]\n Hivatkozást arra, hogy a Stripe dokumentáció fejlécében külön “LLM? Read llms.txt” jelzés is megjelenik, amely az LLMek támogatását hangsúlyozza.[2]\n\n Hogyan használd\n Az adott Stripedokoldal teljes, gépbarát változatát kapod meg az URL végére „.md” hozzáadásával, így könnyebb bemásolni vagy feldolgozni LLMmel (például beilleszteni promptba), ahelyett, hogy a webes HTMLt kaparnád.[1]\n Az LLMek és eszközeik a /llms.txt alapján tudják programozottan felismerni, hogy a Stripe támogatja a plain text endpontokat a dokumentációhoz.[1]\n\n Kapcsolódó oldal\n “Build on Stripe with LLMs” összefoglalja az LLMekkel történő fejlesztési legjobb gyakorlatokat, és megemlíti a /llms.txt szerepét és a .md végződés használatát a doksikhoz.[1]\n A Stripe fő dokumentációs nyitóoldala szintén kiemeli, hogy elérhető az llms.txt, ami jelzi az LLMbarát hozzáállást a teljes docs felülethez.[2]",
+      "created_at": "20251101T19:22:20.481257Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

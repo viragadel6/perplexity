@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d143171030c247c98f1fc73eb52744d6",
+  "context_title": "",
+  "created_at": "20260415T13:28:25.584625Z",
+  "updated_at": "20260415T13:28:39.193373Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "496887af103048f783495fec647ac142",
+      "query": "",
+      "answer": "Sajnos nem sikerült betölteni a megadott PDF fájlt. A https://kstek.replit.app/1.pdf URLről a tartalom nem volt elérhető számomra – a lekérés sikertelen volt.[1]\n\n Lehetséges okok\n\nA PDF nem töltődött be, aminek több oka is lehet. Előfordulhat, hogy a Replit alkalmazás jelenleg nem fut, hiszen az ingyenes Replit projektek alvó módba kerülnek, ha nem használják őket. Lehetséges az is, hogy a fájl nem publikusan elérhető, vagy az URL elírást tartalmaz.\n\n Mit tehetsz?\n\nPróbáld meg közvetlenül megnyitni a linket a böngésződben, hogy ellenőrizd, elérhetőe a fájl. Ha igen, töltsd le és töltsd fel ide közvetlenül, így meg tudom vizsgálni a tartalmát. Alternatívaként másold be a PDF szövegét, vagy jelezd, milyen témájú dokumentumról van szó, hogy segíthessek.",
+      "created_at": "20260415T13:28:26.587264Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

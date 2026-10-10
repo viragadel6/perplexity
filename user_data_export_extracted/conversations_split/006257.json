@@ -1,0 +1,19 @@
+{
+  "context_uuid": "3f7c6de06ddd4ea8a6b19a989e5d9b10",
+  "context_title": "",
+  "created_at": "20251120T08:50:54.387013Z",
+  "updated_at": "20251120T08:50:54.387013Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1f5b84abb1364a7b8c37d2bcdfb2ae65",
+      "query": "",
+      "answer": "ClimaCoupler.jl egy nyílt forráskódú Julia programkönyvtár, amelynek célja, hogy összekapcsolja a különböző földi rendszermodelleket (pl. légkör, óceán, szárazföld). Lehetővé teszi a komponensmodellek közötti időlépésvezérlést és a határfelületi információk rugalmas átvitelét, mint például energia, víz, momentum és tracer fluxusok cseréjét. A rendszer modularitása lehetővé teszi, hogy különálló modelleket könnyen integráljunk egy teljes földi rendszer szimulációba. Fontos szerepe van az energia és vízmegmaradás biztosításában, hogy a modellek összhangban és fizikailag következetesen működjenek. Jelenleg szekvenciális időlépést támogat, vagyis a komponensmodellek egymás után lépnek előre az időben, de a párhuzamos időlépés fejlesztése is tervben van. A Julia nyelv használatával hatékony számítási teljesítményt ér el, különösen GPUalapú futtatások esetén, és a többdiszpatch funkciók segítségével könnyen bővíthető és testreszabható. Az eszközt kliens csomagként lehet használni, amely áthidalja a légkör, szárazföld és óceán modelleket, támogatja az AMIP és más kísérleteket, és biztosítja az eredmények konzerválását és szinkronizálását.[1][2][3][5][6]",
+      "created_at": "20251120T08:50:55.307300Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

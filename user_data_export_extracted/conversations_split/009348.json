@@ -1,0 +1,19 @@
+{
+  "context_uuid": "781f7bfcf4fe48df8ec51cbe24fee27a",
+  "context_title": "ez mennyire ertekes? (nem nyilvanos elerheto kodol)",
+  "created_at": "20250724T07:00:13.303499Z",
+  "updated_at": "20250724T07:00:13.303499Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "cbf6f8d9eb2748e7bd422998ea48b565",
+      "query": "ez mennyire ertekes? (nem nyilvanos elerheto kodol)",
+      "answer": "Sajnálom, de a csatolt fájlt nem tudtam megnyitni, így nem látom, milyen kódról van szó. Kérlek, másold be a kódrészletet vagy pontosabban írd le, miről van szó – így tudok segíteni az értékét (piaci érték, fejlesztői szempontból, stb.) megítélni!",
+      "created_at": "20250724T07:00:15.087467Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "43620d5391764a689feab9eff76f0034",
+  "context_title": "",
+  "created_at": "20251120T10:12:35.601772Z",
+  "updated_at": "20251120T10:12:35.601772Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a48204eee86048aa9658c0165d1e4080",
+      "query": "",
+      "answer": "A \"ComfyUIFlashVSR_Ultra_Fast\" egy valós idejű videó felbontásnövelő (superresolution) eszköz, amely két célra optimalizált: alacsony VRAMmal rendelkező eszközökön is hatékonyan fut, és képes a videók felbontását simán, minimális képességromlással növelni. A szoftver diffúziós technológiát használ a videók minőségének javítására, lehetővé téve simább lejátszást és jobb vizuális élményt.\n\nFőbb jellemzők:\n Valós idejű videó felbontás növelés (SuperResolution)\n Alacsony késleltetés, gyors feldolgozás\n Több platform támogatás: Windows, macOS, Linux\n Felhasználóbarát kezelőfelület\n Optimalizált memóriahasználat még hosszabb videók feldolgozásánál is (bár ezt részletesebben a fejlesztői verziók támogatják)\n\nTelepítési követelmények között szerepel legalább 8 GB RAM, dedikált GPU legalább 4 GB VRAMmal, és stabil internetkapcsolat a streaminghez.\n\nA projekt jelenleg GitHubon érhető el, viszont még nincsenek hivatalos kiadások (releaseek), így telepítéshez és használathoz a legfrissebb forráskód letöltése szükséges. A projekt célja a FlashVSR modell optimalizálása, hogy gördülékenyen fusson \"low VRAM\" eszközökön, miközben minimálisra csökkenti a felbontásnövelés okozta torzulásokat.\n\nHasználati tapasztalatok alapján jelentős minőségjavulást észleltek a hagyományos video felskálázókhoz képest, különösen a részletek jobb megőrzése és a részletvesztés csökkenése terén. Vannak kísérleti verziók hosszabb videók hatékonyabb feldolgozására is, amelyek további RAM és VRAM legyen az alapja.\n\nÖsszességében a ComfyUIFlashVSR_Ultra_Fast egy ígéretes, nyílt forráskódú megoldás a valós idejű videófelbontás növelésére, különösen olyan felhasználók számára, akik kevésbé erős grafikus hardverrel rendelkeznek, és fontos számukra a gyors, de jó minőségű video streaming élmény.[1][2][3][5][6]",
+      "created_at": "20251120T10:12:36.325761Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

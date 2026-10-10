@@ -1,0 +1,19 @@
+{
+  "context_uuid": "cc66fa3b356c4920b847becb4beb31e6",
+  "context_title": "mi van benne",
+  "created_at": "20250826T14:14:05.247097Z",
+  "updated_at": "20250826T14:14:05.247097Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fcae2a30dae64f779e4ea3659b75b347",
+      "query": "mi van benne",
+      "answer": "Röviden: Az attached “response9.json” egy nagy, összegyűjtött találati/összefoglaló válasz JSON, amely főleg asztrológiai naptároldalak (astrosofa, prokerala, Cafe Astrology, Wikipedia/Astrodienst) napi aspektusait és definícióit foglalja össze linkekkel, dátumokkal, kivonatokkal és metaadatokkal. [1][2][3][4]\n\n Mi ez a fájl\n Egy APIszerű JSON “válasz” struktúra, amelyben van egy “context” rész hosszú, egymás után fűzött kivonatokkal, és egy “results” tömb strukturált találatokkal (id, title, url, publishedDate, summary, image, favicon). [1][3]\n\n Mi a tartalma\n “Context”: számos naphoz tartozó asztrológiai aspektusösszefoglaló (példák: 2003–2009 és 2024–2025 közötti dátumok), konkrét időpontokkal (pl. Hold trigonok, kvadrátok, oppozíciók, jegyváltások), valamint rövid értelmezésekkel (hangulat, kapcsolatok, üzlet, kreativitás stb.). [1][5]\n “Results”: ugyanazokat a cikkeket strukturáltan listázza (cím, URL, dátum, összefoglaló), főként az astrosofa.com napi “aspects & transits” oldalairól, kiegészítve prokerala.com aspektuslistákkal és Astrodienst/Wikipedia aspektusdefiníciókkal. [1][3]\n\n Milyen forrástípusok szerepelnek\n Napi/mundán asztrológiai naptárbejegyzések (astrosofa: napi Holdaspektusok, jegyváltások, napfelkelte/nyugta, Holdfázisok). [1]\n Táblás aspektuslisták (prokerala: havi/napi bolygóaspektus időpontokkal és fokhelyzetekkel). [2]\n Fogalmi cikkek az aspektusokról (Astrodienst Astrowiki: sextile, square, opposition; Wikipedia: astrological aspect). [3]\n\n Mire jó ez\n Gyors áttekintés adott napok (régebbi és jövőbeli) aspektusairól és azok rövid jelentéseiről, hivatkozásokkal az eredeti oldalakra az elmélyüléshez. [1][5]\n Asztrológiai aspektusok definícióinak kéznélléte (pl. sextile 60°, square 90°, opposition 180°, stb.). [3]\n\n Technikai jelleg\n Tipikus “JSON response” mintázat: fejlécek/meta + hosszú “context” szöveg + “results” tömb sok rekorddal; ez a felépítés alkalmas további feldolgozásra, szűrésre vagy megjelenítésre. [1][3]",
+      "created_at": "20250826T14:14:06.135802Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

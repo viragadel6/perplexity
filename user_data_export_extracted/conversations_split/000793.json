@@ -1,0 +1,19 @@
+{
+  "context_uuid": "87deb49f34754f1f87440b3a64ea3867",
+  "context_title": "Translate the text to full hungarian. do not change, edit, short, modifaction only translate. only send back the translated hungarian\n: פשק ית קיומא דבר נשא מן סטרא דחילא.",
+  "created_at": "20260827T13:06:27.867968Z",
+  "updated_at": "20260827T13:06:29.287487Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "444c29594cf6498e82e081f9f7f290f5",
+      "query": "Translate the text to full hungarian. do not change, edit, short, modifaction only translate. only send back the translated hungarian\n: פשק ית קיומא דבר נשא מן סטרא דחילא.",
+      "answer": "Az ember fennmaradásának ügye a félelem oldaláról.",
+      "created_at": "20260827T13:06:28.039267Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

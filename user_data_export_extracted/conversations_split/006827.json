@@ -1,0 +1,19 @@
+{
+  "context_uuid": "56e41467d55944539f5240982532116e",
+  "context_title": "az összes jelenleg hatályos magyar törvények egy helyen mind",
+  "created_at": "20251101T17:34:15.247976Z",
+  "updated_at": "20251101T17:34:15.247976Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "47df001f11b94129ab39a1d6e828d666",
+      "query": "az összes jelenleg hatályos magyar törvények egy helyen mind",
+      "answer": "English:\nall current Hungarian laws in one place site: njt.hu OR site: magyarkozlony.hu OR site: net.jogtar.hu \"hatályos jogszabályok\" OR \"Electronic collection of legislation in force\" OR \"Nemzeti Jogszabálytár\" latest updates\n\nMagyar:\naz összes jelenleg hatályos magyar jogszabály egy helyen site: njt.hu VAGY site: magyarkozlony.hu VAGY site: net.jogtar.hu \"hatályos jogszabályok\" VAGY \"Nemzeti Jogszabálytár\" legfrissebb frissítések[1][2][3]",
+      "created_at": "20251101T17:34:15.581031Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

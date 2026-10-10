@@ -1,0 +1,28 @@
+{
+  "context_uuid": "c4a50748440a47acbd0eca0dfa1a06e6",
+  "context_title": "modal docs b200 minden docs direkt link",
+  "created_at": "20251231T17:35:21.840773Z",
+  "updated_at": "20251231T17:36:11.667671Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e184a8c814f34ba6847ca7408a2b9aed",
+      "query": "modal docs b200 minden docs direkt link",
+      "answer": "Itt vannak a Modalon a B200hoz kapcsolódó (B200t említő / B200hoz hasznos) legfontosabb direkt doksi linkek.[1][2][3][4][5]\n\n Direkt linkek (B200)\n| Link | Mit találsz rajta |\n|||\n|  | GPU használat Modalon + a támogatott GPU típusok listája (köztük B200), és példa gpu=\"B200\" / gpu=\"B200:8\" beállításra. [1] |\n|  | A gpu= paraméter „shortcode”/string használata (pl. H100, T4:4), és a kapcsolódó régi (deprecated) API. [2] |\n|  | vLLMes OpenAIkompatibilis LLM inference példa; megemlíti a Blackwell B200at mint FP8hoz is releváns architektúrát. [3] |\n|  | vLLM + „Ministral 3” szerverless inference példa; hivatkozik a B200ra a Hopper (H100/H200) mellett. [5] |\n|  | OpenAI gptoss futtatása vLLMmel (kvantálás/formátumok és serving fókusz). [4] |\n\n Extra (nem Modal Docs, de hasznos)\n GPU Glossary (Modal):  (B200t is említő fogalmi oldalakkal).[6][7]\n\nHa küldesz 12 kulcsszót (pl. „training”, „notebook”, „cluster”, „vLLM”), adok egy szűkebb, csak azt a témát lefedő linklistát is.",
+      "created_at": "20251231T17:35:21.898399Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f155f03513244c199d1447d89b6954ce",
+      "query": "válaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "       ",
+      "created_at": "20251231T17:36:01.601540Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

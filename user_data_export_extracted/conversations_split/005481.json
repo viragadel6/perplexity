@@ -1,0 +1,46 @@
+{
+  "context_uuid": "c5f9c87da0a24079a025cff80c8dec5e",
+  "context_title": "olyan oldalt kuldj amire feltoltok videot es szerzek direkt linket amit elkuldok grok nak es ugy megtudja nezni a videot de ilyen anonim no sign up stb",
+  "created_at": "20251221T05:39:07.576804Z",
+  "updated_at": "20251221T05:46:58.808840Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "aacb52f054a2405cb54a4a4747adbafb",
+      "query": "olyan oldalt kuldj amire feltoltok videot es szerzek direkt linket amit elkuldok grok nak es ugy megtudja nezni a videot de ilyen anonim no sign up stb",
+      "answer": "Ezek közül a legegyszerűbb “anonim, regisztráció nélküli, direkt linkes” megoldás általában a Catbox vagy egy Pomfklón (pl. pomf.lain.la), mert feltöltés után közvetlen fájlURLt adnak.[1][2]\n\n Ajánlott oldalak\n| Szolgáltató | Regisztráció nélkül? | Direkt link típusa | Korlát / megőrzés | Megjegyzés |\n||||||\n| Catbox (catbox.moe) [1] | Igen (feltöltéshez) [1] | Közvetlen, statikus link (hotlinkelhető) [2] | Max ~200 MB fájl; “Forever” megőrzés [2][1] | Nem módosítja a fájlt és nem szedi le a metaadatokat (1:1 másolat) [1] |\n| Pomf.lain.la (pomf.lain.la) [2] | Igen (feltöltéshez) [3] | Közvetlen, statikus link [2] | Max ~1 GB; “indefinitely unless found to be illegal” jellegű megőrzés [2][3] | Pomfklón, egyszerű “feltölt–link” működés [4] |\n| Pixeldrain (pixeldrain.com) [5] | Van anon feltöltési mód (klienseken/APIn át) [5][6] | Megosztható URL (pl. /u/… linkek) [5] | Korlátok a használt módtól/tervtől függhetnek [5] | Ha biztosan “egy kattintás weben” kell, a Catbox/Pomf általában egyszerűbb [2][3] |\n\n Hogyan küldd el Groknak\n Feltöltés után a közvetlen fájlURLt küldd (ne egy galéria/preview oldalt), és nyisd meg inkognitóban is tesztként.[2]\n Catboxnál tipikusan a “files.catbox.moe/…” jellegű link lesz a jó (ez közvetlenül a fájlra mutat).[2]\n Ha a Grok nem éri el, próbáld meg a linket olyan formában küldeni, hogy a videó letölthető/megnyitható legyen böngészőben is.[2]\n\n Fontos korlátok (anonimitás)\n Ezek a szolgáltatások alapvetően publikus linkmegosztásra valók; Catbox például kifejezetten “Forever” megőrzést ír, tehát ami kikerül, az hosszú távon ott maradhat.[1]\n Catbox nem távolít el metaadatot és nem “tisztítja” a fájlt, tehát ami a videóban benne van (pl. készülékinformáció), az is fent marad.[1]\n Ne tölts fel érzékeny/személyes tartalmat, és tartsd be a tiltott tartalmakra vonatkozó szabályokat (Catboxnál ezek részletesen le vannak írva).[1]\n\nMekkora a videó (MB/GB), és kelle, hogy biztosan streamelhető legyen, vagy elég, ha letölthető/megnyitható linkről?",
+      "created_at": "20251221T05:39:07.681560Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "87320d3613d04a83b4a4553e33dba2e2",
+      "query": " ez pl nem mukodik",
+      "answer": "Ez a Streamablelink több okból “nem működhet”: a videó lehet törölve/tiltva, vagy a feltöltő olyan adatvédelmi beállítást tett rá, ami nem engedi másoknak a megtekintést.  Ha cél az, hogy Grok biztosan elérje, a Streamable gyakran kevésbé kiszámítható, mint egy sima direkt fájlhost.[1][2]\n\n Miért nem megy?\n Ha a videó “Only Me” (csak a feltöltő), akkor más nem fogja látni a link birtokában sem.[1]\n Ha “Password Protected”, akkor jelszó nélkül nem fog lejátszani.[1]\n Streamablenél léteznek fejlettebb adatvédelmi korlátozások is (kinek és hol elérhető), ami szintén okozhat “nem megy” jelenséget.[3]\n\n Mit tehetsz Streamablelel?\n Ha te töltötted fel: állítsd a videó privacyjét “Link only”ra (aki ismeri a linket, nézheti), és kapcsold ki a jelszót/“Only Me”t.[1]\n Ha nem te töltötted fel: kérd meg a feltöltőt, hogy tegye “Link only”ra, vagy adjon olyan megosztást, ami nem korlátozott.[1]\n Ha a Groknak kifejezetten direkt MP4 kell: Streamablenél ez sokszor CDNes mp4 URL (nem a sima streamable.com/… oldal), és nem mindig stabil megoldás.[4]\n\n Biztosabb (anonim) alternatíva\n Catbox (catbox.moe): reg nélkül feltölthető, és jellemzően közvetlen, hotlinkelhető fájlURLt ad, amit más is meg tud nyitni.[2][5]\n Catboxnál érdemes figyelni a méretkorlátra (kb. 200 MB) és arra, hogy nem “tisztítja” a fájlt (metaadatok megmaradhatnak).[5][2]\n\nMilyen hibát ír ki pontosan a Streamable az omxlor linkre (pl. “unavailable”, “private”, jelszót kér, fekete kép), és te töltötted fel vagy csak kaptad?",
+      "created_at": "20251221T05:42:12.910144Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "dfb86b8a89c04d4ea0b23600c2337bbc",
+      "query": "",
+      "answer": "A ?src=player-page-share csak egy megosztási/forrás jellegű query paraméter, ettől a link elérhetősége nem lesz “nyilvánosabb”, tehát ha a videó privát/törölt/korlátozott, ugyanúgy nem fog menni.  Emiatt Grok (vagy bármelyik külső néző) ugyanazokba a korlátokba fog belefutni, mint egy sima böngésző.[1][2]\n\n Miért nem fog menni így sem?\n Ha a videó privacy beállítása “Only me” vagy jelszavas, akkor a link birtokában sem nézhető meg másoknak.[2]\n Ha a videót levették/törölték vagy valamilyen hozzáférési korlátozás van beállítva, a megosztási link paraméterei nem oldják fel.[3][2]\n\n Mit használj helyette (Grokhoz)\n Ha az a cél, hogy Grok biztosan meg tudja nyitni: töltsd fel direkt fájlhostra, ami közvetlen MP4 URLt ad (pl. Catbox), mert ott tényleg egy letölthető/megnyitható fájllinket küldesz, nem egy lejátszóoldalt.[4][5]\n Catboxnál számolj azzal, hogy kb. 200 MB a limit, és nem szedi ki a metaadatokat (amit feltöltesz, az úgy marad).[5][4]\n\nMeg tudod írni, hogy neked böngészőben megnyílike ez a Streamablelink (inkognitóban is), vagy már ott is “unavailable/private” jellegű?",
+      "created_at": "20251221T05:43:12.077024Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f072fd73f18641448de4d59262ed5573",
+      "query": "",
+      "answer": "Ez a files.catbox.moe/...mp4 formátumú URL közvetlen Catboxfájllink, tehát pont olyan, amit egy külső nézőnek (pl. Grok) el lehet küldeni lejátszásra/letöltésre.  Innen most nem tudom leellenőrizni, hogy a konkrét fájl ténylegesen elérhetőe (nálam a lekérés hibára futott), ezért érdemes gyorsan tesztelni böngészőben.[1]\n\n Így küldd el Groknak\n Küldd el neki ezt a linket pontosan így, paraméterek nélkül: https://files.catbox.moe/cj3u93.mp4 (ez direkt fájlra mutat, nem lejátszóoldalra).[1]\n Ha a cél az, hogy biztosan hozzáférjen, olyan környezetben is nyisd meg (inkognitó/privát mód), ahol nincs belépés/cookie, és nézd meg, hogy elindule vagy letöltődike.  \n\n Gyors hibakeresés\n Ha nálad sem nyílik meg inkognitóban, akkor a link hibás, a fájl törölve lett, vagy valamilyen hálózati tiltás van (ilyenkor Grok sem fogja elérni).  \n Ha nálad megnyílik, de Groknál nem, másik hostot érdemes próbálni (lásd lent).  \n\n Catbox korlátok\n A Catboxnál jellemzően kb. 200 MB a fájlméretlimit, és a szolgáltatás “Forever” jellegű megőrzést említ (ami feltöltésre kerülhet, hosszabb távon is fent maradhat).[2][1]\n A Catbox nem “tisztítja” a fájlt (nem távolít el metaadatokat), vagyis amit feltöltesz, az változtatás nélkül kerül tárolásra.[2]\n\nHa megírod, Grok pontosan mit válaszol erre a linkre (pl. nem éri el / nem tudja lejátszani / letölti, de nem tudja elemezni), ahhoz tudok adni célzottabb megoldást (pl. másik host vagy más fájlformátum).",
+      "created_at": "20251221T05:46:04.057235Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

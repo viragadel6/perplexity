@@ -1,0 +1,19 @@
+{
+  "context_uuid": "085b7fad27554f1fa451502fe91fd5df",
+  "context_title": "replitbe .env formaba ird meg válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül. \n\nGCP\nuscentral1 (Iowa)\n50 GB\nEXTREME\n\nActive\n\nConnecting to the Data Store\nYou can connect to the data store using any Redis client. Below is an example using the Redis CLI. You can find more examples for popular client libraries in our documentation.\n$> rediscli u rediss://default:ykcpgyrnhc9m@ib0plvoqk.dragonflydb.cloud:6385\nSet value\nib0plvoqk.dragonflydb.cloud:6385> set greeting hello\nGet value\nib0plvoqk.dragonflydb.cloud:6385> get greeting\n\nConnection Details\nURL\nib0plvoqk.dragonflydb.cloud\nPORT\n6385\nKEY\nykcpgyrnhc9m\nCONNECTION URI\nrediss://default:ykcpgyrnhc9m@ib0plvoqk.dragonflydb.cloud:6385\nSecurity",
+  "created_at": "20251025T08:33:07.734174Z",
+  "updated_at": "20251025T08:33:07.734174Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8536d5e9ff634c5eae9ccab483ffa8b0",
+      "query": "replitbe .env formaba ird meg válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül. \n\nGCP\nuscentral1 (Iowa)\n50 GB\nEXTREME\n\nActive\n\nConnecting to the Data Store\nYou can connect to the data store using any Redis client. Below is an example using the Redis CLI. You can find more examples for popular client libraries in our documentation.\n$> rediscli u rediss://default:ykcpgyrnhc9m@ib0plvoqk.dragonflydb.cloud:6385\nSet value\nib0plvoqk.dragonflydb.cloud:6385> set greeting hello\nGet value\nib0plvoqk.dragonflydb.cloud:6385> get greeting\n\nConnection Details\nURL\nib0plvoqk.dragonflydb.cloud\nPORT\n6385\nKEY\nykcpgyrnhc9m\nCONNECTION URI\nrediss://default:ykcpgyrnhc9m@ib0plvoqk.dragonflydb.cloud:6385\nSecurity",
+      "answer": "CLOUD_PROVIDER=GCP\nCLOUD_REGION=uscentral1\nCLOUD_REGION_LOCATION=Iowa\nDATASTORE_CAPACITY_GB=50\nDATASTORE_TIER=EXTREME\nDATASTORE_STATUS=Active\nREDIS_HOST=ib0plvoqk.dragonflydb.cloud\nREDIS_PORT=6385\nREDIS_USERNAME=default\nREDIS_PASSWORD=ykcpgyrnhc9m\nREDIS_URL=rediss://default:ykcpgyrnhc9m@ib0plvoqk.dragonflydb.cloud:6385\nREDIS_TLS=true",
+      "created_at": "20251025T08:33:07.824780Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

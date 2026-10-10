@@ -1,0 +1,19 @@
+{
+  "context_uuid": "88dfda73d3d2492f926f398bf121cb1f",
+  "context_title": "ezek: dependencies = [\n    \"aiohttp>=3.12.15\",\n    \"cerebrascloudsdk>=1.50.0\",\n    \"fastapi>=0.116.1\",\n    \"httpx>=0.28.1\",\n    \"numpy>=2.3.2\",\n    \"pandas>=2.3.2\",\n    \"pydantic>=2.11.7\",\n    \"uvicorn>=0.35.0\",\nhelyett  brutalisan ismeretlen python modulok max  6 hpnapja jelentek meg es brutalis gyorsulast eredmenyeznek es sokkl kisebb helyett foglalnak es brutal brutal teljesitmenyve erobe gyorsasagba fejlettsefbe",
+  "created_at": "20250909T14:59:47.124616Z",
+  "updated_at": "20250909T14:59:47.124616Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "39092b31bbf6488caa4ed1f1fb08d791",
+      "query": "ezek: dependencies = [\n    \"aiohttp>=3.12.15\",\n    \"cerebrascloudsdk>=1.50.0\",\n    \"fastapi>=0.116.1\",\n    \"httpx>=0.28.1\",\n    \"numpy>=2.3.2\",\n    \"pandas>=2.3.2\",\n    \"pydantic>=2.11.7\",\n    \"uvicorn>=0.35.0\",\nhelyett  brutalisan ismeretlen python modulok max  6 hpnapja jelentek meg es brutalis gyorsulast eredmenyeznek es sokkl kisebb helyett foglalnak es brutal brutal teljesitmenyve erobe gyorsasagba fejlettsefbe",
+      "answer": "English:  \nWhich extremely new and currently littleknown Python libraries (released within the last 6 months) can deliver radical performance improvements, drastically reduce memory usage, and provide groundbreaking speed and efficiency as alternatives to these dependencies:  \n aiohttp  \n cerebrascloudsdk  \n fastapi  \n httpx  \n numpy  \n pandas  \n pydantic  \n uvicorn  \n\nHungarian:  \nMely rendkívül új és jelenleg szinte ismeretlen Python könyvtárak (amelyek legfeljebb 6 hónapja jelentek meg) képesek radikális teljesítményjavulást nyújtani, drasztikusan csökkenteni a memóriahasználatot, és áttörő sebességet és hatékonyságot biztosítani az alábbi függőségek alternatívájaként:  \n aiohttp  \n cerebrascloudsdk  \n fastapi  \n httpx  \n numpy  \n pandas  \n pydantic  \n uvicorn",
+      "created_at": "20250909T14:59:47.380220Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7d085aaa35064bbbb6a271ee1ac1c589",
+  "context_title": "  Nyilvan az egesz megvan",
+  "created_at": "20260715T19:55:59.754791Z",
+  "updated_at": "20260715T19:56:09.072998Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "eee1233997874cfdb705927eef6bbdc4",
+      "query": "  Nyilvan az egesz megvan",
+      "answer": "A megadott GitHublinket nem tudtam megnyitni vagy hitelesen azonosítani: a keresés nem adott találatot a cupcakke/sick repóra, a közvetlen GitHuboldal lekérése pedig sikertelen volt.[1]\n\nKüldd el kérlek a repository tényleges webes URLjét (például https://github.com/felhasznalo/repo), vagy másold be ide a README.md tartalmát / a hibát, amire gondolsz. A git@GitHub forma önmagában nem szabványos klónozási cím; SSHn általában így néz ki: git@github.com:felhasznalo/repo.git.",
+      "created_at": "20260715T19:56:00.074470Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

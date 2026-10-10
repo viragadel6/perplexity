@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b92a26eb65214959b6de751b43db5c88",
+  "context_title": "  Ez mi?  Magyarul ertekeld! OLVASD el line by line end to end de nekem normálisan egyben válaszolj! Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+  "created_at": "20260807T23:03:32.304531Z",
+  "updated_at": "20260807T23:06:03.584291Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d779f9088b8d4f93b5b5ac71225bdff1",
+      "query": "  Ez mi?  Magyarul ertekeld! OLVASD el line by line end to end de nekem normálisan egyben válaszolj! Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+      "answer": " Mi ez a repó?\n\nA  egy Zig nyelven írt, nagyon ambiciózus, egyszemélyes/kis léptékű kutatási projekt, ami egy elosztott gépi tanulási / inferencia rendszert épít fel a nulláról – tehát nem egy egyszerű \"git\" parancssori eszköz, hanem egy komplett AIinfrastruktúra kísérlet. A repót 2026. augusztus 5én hozták létre, és két nappal később, augusztus 7én már aktívan fejlesztették – jelenleg nincs csillagja, forkja, és egy nyitott issueja van, ami arra utal, hogy friss, nem publikus figyelmet kapó, magánprojekt.[1]\n\n Mit tartalmaz a kódbázis\n\nA mappastruktúra alapján a rendszer több nagy modulra épül:\n\n| Mappa | Feltételezett funkció |\n|||\n| src/core | Alaptípusok, tenzorkezelés (tensor.zig), memóriamenedzsment, modell I/O, tanult embeddingek |\n| src/api | Egy nagy (~92 KB) inference_server.zig – az inferenciaszolgáltatás APIrétege |\n| src/distributed | Elosztott tréning Futhark GPUkernelekkel, NCCLbindingok, GPUkoordinátor, Modal.com GPU integráció |\n| src/core_relational | A legnagyobb és legfurcsább mappa: kvantumszámítási (quantum_hardware.zig, ibm_quantum.zig), formális verifikáció, zeroknowledge bizonyítások (zk_verification.zig, security_proofs.zig), típusteória, \"kaotikus\" mag és \"reasoning orchestrator\" |\n| src/tokenizer, src/ranker, src/processor, src/optimizer, src/verification, src/zk | Tokenizálás, rangsorolás, optimalizáló, verifikációs és ZKmodulok |\n| src/index | Egy ssi.zig nevű, ~30 KBos indexelő modul |\n\nEz alapján a projekt egy saját AI/inferencia motort próbál építeni Zigben, GPUgyorsítással, elosztott tréninggel, és – meglepő módon – kvantumszámítási és zeroknowledge/formálisverifikációs rétegekkel megspékelve.[2]\n\n Fontos korlátozás\n\nA GitHubconnector jelenleg csak a fájlok metaadatait (méret, elérési út, SHA) adta vissza, a tényleges kódtartalmat nem sikerült beolvasnom – a fetch_url is elutasította a raw.githubusercontent.com linkeket. Így a fájlok pontos tartalmát, kommentjeit vagy logikáját nem tudom sorpontosan elemezni, csak a struktúra és a fájlnevek alapján tudok következtetni a projekt céljára.[3]\n\n Összefoglaló értékelés\n\nEz egy nagyon nagyra törő, kísérleti \"saját AIstack\" projekt: elosztott GPUtréning, egyedi tenzorkönyvtár, inferenciaszerver, tokenizáló/ranker pipeline, plusz egzotikus extrák (kvantumhardverintegráció, ZKbizonyítékok, formális verifikáció). A fájlnevek (\"chaos_core\", \"reasoning_orchestrator\", \"surprise_memory\") és a repó frissessége (napok óta fejlesztik) arra utalnak, hogy egy aktívan, gyorsan iterált, feltehetően AIvel segített fejlesztésű, még korai fázisú, nem produkciós rendszerről van szó – nem egy egyszerű, közismert \"git\" klón, hanem egy egyedi MLinfrastruktúra kísérlet Zig nyelven.",
+      "created_at": "20260807T23:03:32.334028Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "41f88a9803c4451da971b0a099a38f30",
+  "context_title": "anchor browser",
+  "created_at": "20260812T10:15:23.360694Z",
+  "updated_at": "20260812T10:15:31.413111Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c7db3f8d914c4829ad29e293122da3bc",
+      "query": "anchor browser",
+      "answer": "Anchor Browser is a cloudhosted browser automation platform for AI agents. It lets agents use websites much like a person would—navigating pages, filling forms, maintaining authenticated sessions, and extracting information—especially for workflows where there is no usable API.[1]\n\n How it works\n\nYou describe a web task in natural language or integrate through its SDK/MCP tooling. Anchor then runs managed Chromium browser instances, using deterministic automation where possible and AIdriven interaction when needed.[1]\n\n Typical uses\n\n Automating internal or thirdparty web portals without APIs\n Collecting data from web interfaces\n Completing repetitive browserbased operational workflows\n Handling authenticated, cookiedependent browser sessions\n Exposing browser tasks as callable automation endpoints[2][1]\n\n Positioning\n\nIt is aimed at productionscale browseragent infrastructure rather than a normal enduser web browser. Compared with conventional browserautomation services, Anchor emphasizes an AInative “perform web task” abstraction, while still supporting lowerlevel remote browser control via Chrome DevTools Protocol.[2]",
+      "created_at": "20260812T10:15:23.414386Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

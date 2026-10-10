@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9c06197218a24ef4bd18732693c69320",
+  "context_title": "ez mi",
+  "created_at": "20251030T01:20:41.334979Z",
+  "updated_at": "20251030T01:20:41.334979Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "617bebcd17654701a6fe3c17b545ef56",
+      "query": "ez mi",
+      "answer": "Ez egy AlphaFold 3 implementáció Julia nyelven írt kódbázisa. A projekt fő jellemzői:[1]\n\n Funkció\n\nEz a kód egy fehérjestruktúraelőrejelző rendszer, amely az AlphaFold 3 algoritmus Julia nyelvű implementációja. A rendszer képes:[1]\n\n Fehérjék, nukleinsavak (DNS/RNS) és ligandumok 3D szerkezetének előrejelzésére\n Biomolekuláris kölcsönhatások modellezésére\n Atomi szintű koordináták és konfidenciaértékek generálására[1]\n\n Fő komponensek\n\nA projekt több mint 130 Julia fájlt tartalmaz a következő funkcionális területekkel :[1]\n\n Neurális hálózati architektúra: Mamba, Mamba2, figyelemmechanizmusok, transzformerek\n Fehérje adatfeldolgozás: MSA (multiple sequence alignment), sablonkezelés, molekuláris tulajdonságok\n Geometriai műveletek: Koordinátatranszformációk, merevtestműveletek, illesztési algoritmusok\n Diffúziós modellezés: Struktúraminták generálása diffúziós folyamatokkal\n Konfidenciaértékelés: pLDDT metrikák, távolságelőrejelzések[1]\n\n Technológiai stack\n\n Nyelv: Julia\n Gépi tanulás: JAXszerű operációk, neurális hálózati modulok\n Kémiai adatok: mmCIF fájlformátum kezelés, kémiai komponens adatbázisok\n Számítási eszközök: CUDA támogatás GPUgyorsításhoz[1]",
+      "created_at": "20251030T01:20:41.404203Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

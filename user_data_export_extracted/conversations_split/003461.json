@@ -1,0 +1,28 @@
+{
+  "context_uuid": "4434e2b23deb432e864ea3d862993d0b",
+  "context_title": "ez mi",
+  "created_at": "20260315T22:44:01.661763Z",
+  "updated_at": "20260315T22:45:09.850820Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a2184a528ce74ad489adbd46e5723b63",
+      "query": "ez mi",
+      "answer": "Ez a két Python szkript egy LLM jailbreak/robustness kutatási keretrendszer része — konkrétan nagy nyelvi modellek (LLMek) biztonsági tesztelésére szolgál, ahol előre elkészített „támadó promptokat\" futtatnak végig különböző modelleken, és rögzítik a válaszokat.\n\n Mi az attack_api.py?\n\nEz a szkript a Google Gemini APIt hívja meg. Beolvas egy JSON fájlt, amelynek minden bejegyzése tartalmaz egy \"prompt\" mezőt — ezek tipikusan jailbreak kísérletek (pl. az AutoDAN benchmarkból, ami egy ismert adversarial promptadathalmaz). Minden promptot elküld a Gemini 2.0 Flash vagy Gemini 2.0 Flash Thinking modellnek, majd a kapott választ (Target_LLM_response) és opcionálisan a gondolkodási folyamatot (Target_LLM_response_thinking) visszaírja a JSONba. Minden egyes feldolgozott sor után azonnal menti a fájlt, hogy hálózati hiba esetén se vesszen el adat.[1]\n\n Mi az attack.py?\n\nEz a szkript a lokálisan futó Qwen modelleket célozza meg. Támogatja a Qwen 1.7B, 4B és 8B nyílt súlyú modelleket, és PyTorchot (torch) használ a GPUkezeléshez — megadható, hogy melyik GPUn fusson (pl. --gpu 0,1 több kártyás futtatáshoz). A --think kapcsolóval engedélyezhető a modell láncolatos gondolkodási módja, amelynek eredménye szintén mentésre kerül.[2]\n\n Hogyan illeszkednek össze?\n\n| Tulajdonság | attack_api.py | attack.py |\n||||\n| Célmodell | Gemini 2.0 Flash / Thinking (API) | Qwen 1.7B / 4B / 8B (lokális) |\n| Futtatási környezet | Felhő API | Helyi GPU (CUDA) |\n| Thinking mód | Csak Thinking modellnél | --think flaggel |\n| GPUkezelés | Nem szükséges | --gpu argumentum |\n\nA szkriptek valószínűleg egy nagyobb redteaming / safety evaluation projekt részei, ahol az a cél, hogy megmérjék: adott jailbreak promptokra hogyan reagálnak különböző modellek — ez legitim akadémiai biztonsági kutatás területe.[1][2]",
+      "created_at": "20260315T22:44:02.062830Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "d97e276d53ce4a3fb48d568493b19c07",
+      "query": "milyen json fajlbol olvassa ki az nincs a repoba",
+      "answer": "A szkriptek a --json parancssori argumentummal megadott JSON fájlból olvasnak, de a fájl tartalmának struktúrájára és eredetére a kódból következtetni lehet.\n\n Honnan jön a JSON?\n\nA kódban explicit hivatkozás van az AutoDAN JBB (JailBreakBench) adathalmazra  — az attack_api.py fejléckommentjében ez áll:[1]\n\n\npython attack_api.py --json ./JBB/AutoDAN/AutoDAN_JBB.json\n\n\nEz a JailBreakBench (JBB) projekt egy nyilvánosan elérhető benchmarkadathalmaza, amelyet LLM biztonsági kutatáshoz használnak. Az AutoDAN egy automatizált jailbreak promptgeneráló módszer, amelynek eredményeit ebben a JSONban tárolják.[1]\n\n Milyen struktúrát vár a JSON?\n\nA kód alapján a JSON egy lista, ahol minden elem egy objektum, és kötelezően tartalmaznia kell egy \"prompt\" mezőt. A feldolgozás után a szkript hozzáadja a következő mezőket:[2]\n\n| Mező | Tartalom |\n|||\n| \"prompt\" | Az eredeti jailbreak prompt (bemeneti adat) |\n| \"Target_LLM_response\" | A modell válasza |\n| \"Target_LLM_response_thinking\" | A gondolkodási folyamat (ha elérhető) |\n\n Hogyan szerezhető be?\n\nA JailBreakBench adathalmazok a  repóból tölthetők le. Az AutoDAN_JBB.json fájl valószínűleg a jailbreakbench Python csomagon keresztül is elérhető, vagy közvetlenül a HuggingFace Datasets platformon.[1]",
+      "created_at": "20260315T22:44:54.918547Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

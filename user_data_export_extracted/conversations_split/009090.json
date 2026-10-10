@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2c1d787a05bc4b33875df04190344860",
+  "context_title": "",
+  "created_at": "20250812T19:44:40.227404Z",
+  "updated_at": "20250812T19:44:40.227404Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "aea58967f6c2454a83f827a2e8726799",
+      "query": "",
+      "answer": "Az „Oil & Gas RFP/Contract Analyzer (Streamlit)” egy Streamlitalapú nyílt forráskódú eszköz, amelyet olaj és gázipari RFP (ajánlatkérési felhívás) dokumentumok automatikus elemzésére fejlesztettek ki. \n\n Főbb funkciók\n Dokumentumfeltöltés: PDF vagy TXT formátumú RFPk fogadása (mintadokumentum is tartozik hozzá).\n Kulcsdátumok kivonása: Automatizált azonosítás olyan dátumokra, mint a pályázat beadási, előminősítési vagy helyszíni bejárás időpontja.\n Kompliencia ellenőrzés: Figyeli a HSE (egészség, biztonság és környezetvédelem), QA/QC (minőségbiztosítás/ellenőrzés), tanúsítványok, helyi tartalom és egyéb megfelelőségi elemek jelenlétét.\n Teljesítendő anyagok detektálása: Megkeresi, milyen dokumentumokat/deliverableeket vár el a kiíró fél.\n KPI dashboard: Grafikus áttekintő felület compliance százalékkal, megtalált/kihagyott elemek és kulcsdátumok számlálójával.\n Compliance mátrix letöltése: Eredmények CSVfájlban exportálhatók.\n\n Gyorsindítás (telepítés)\n1. Python virtuális környezet létrehozása.\n2. Függőségek telepítése:\n   \n   pip install -r requirements.txt\n   \n3. Streamlit applikáció indítása:\n   \n   streamlit run app.py\n   \n4. Használható fejlesztői, illetve a Streamlit Community Cloudon keresztüli telepítéssel is[1].\n\n Rövid értékelés\nEz a megoldás segít automatizálni az időigényes RFPdokumentumelemzést az olaj és gáziparban, csökkentve az emberi hibalehetőséget, gyorsítva a pályázati felkészülést, illetve növelve a megfelelőségi és teljesítési arányokat.\n\nA projekthez minta RFP is tartozik; a kód letölthető és szabadon bővíthető, módosítható. \n\nHa szeretnéd használni vagy továbbfejleszteni, célszerű a dokumentált „Quickstart” lépéseit követni, illetve be is vonható olaj és gázipari folyamatok egyedi igényeinek megfelelően[1].\n\n\n> Ez a válasz a hivatalos GitHub repository rövid összefoglalóját tartalmazza, a kiemelt funkciók és üzembe helyezés alapján.",
+      "created_at": "20250812T19:44:41.493407Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

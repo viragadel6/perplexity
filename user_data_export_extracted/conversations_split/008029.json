@@ -1,0 +1,37 @@
+{
+  "context_uuid": "5b66f84e419e4cc285304f406a5f2bb5",
+  "context_title": "irj ehhez shell scriptet egy sorosat ami nem szarakodik hanem 100% hogy felepit MINDENT amire szukseg van a futtatashoz legyen —force mod meg ilyenek",
+  "created_at": "20251003T08:25:29.017799Z",
+  "updated_at": "20251003T08:30:07.674688Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "72e505af4d0848748fb80f1b8ce78903",
+      "query": "irj ehhez shell scriptet egy sorosat ami nem szarakodik hanem 100% hogy felepit MINDENT amire szukseg van a futtatashoz legyen —force mod meg ilyenek",
+      "answer": "Az alábbi egyetlen soros shellparancs automatikusan telepíti a Juliafüggőségeket, újratelepíti a szükséges Pythoncsomagokat “–force” módban, beállítja a környezeti változókat a runjulia.sh alapján, és elindítja a main.jl futtatását.[1]\n\nbash\nbash -lc 'set -e; julia -e \"using Pkg; Pkg.instantiate(); Pkg.build();\" && pip install --upgrade --force-reinstall numpy pandas scipy scikit-learn e3nn qiskit aqme pyscf rdkit-pypi CDPL && export PYTHON=$(which python3) LD_LIBRARY_PATH=\"/nix/store/vnvdzw4182wb2ifzi0cczhv80yfnpx1q-python3-3.12.11-lib/homerunner.julia/conda3x86_64/lib:$LD_LIBRARY_PATH\" && exec julia main.jl'\n",
+      "created_at": "20251003T08:25:29.194286Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "4304f2bfd65446c380a42c2df1badb23",
+      "query": "javitod",
+      "answer": "Az alábbi egy soros parancs javítja az rdkitpypi hibáját azzal, hogy a Julia által kezelt Condakörnyezetben telepíti a RDKit csomagot, illetve –force módban frissíti a többi Pythonfüggőséget, majd beállítja a környezeti változókat és elindítja a main.jlt.[1]\n\nbash\nbash -lc '\n  set -e &&\n  julia -e \"\n    using Pkg; Pkg.instantiate(); Pkg.build();\n    using Conda; Conda.add(\\\"rdkit\\\");\n  \" &&\n  pip install --upgrade --force-reinstall numpy pandas scipy scikit-learn e3nn qiskit aqme pyscf CDPL &&\n  export PYTHON=$(which python3) &&\n  export LD_LIBRARY_PATH=\\\"/nix/store/vnvdzw4182wb2ifzi0cczhv80yfnpx1q-python3-3.12.11-lib/homerunner.julia/conda3x86_64/lib:\\$LD_LIBRARY_PATH\\\" &&\n  exec julia main.jl\n'\n",
+      "created_at": "20251003T08:27:53.788028Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "8e09a6412ba54e01ad2c97c0963ef226",
+      "query": "megintfos",
+      "answer": "Az RDKit csomag neve a PyPIn már rdkit, nem rdkitpypi.[1]\nAz alábbi egy soros parancs telepíti a Juliafüggőségeket, erőszakos módon frissíti a Pythoncsomagokat (beleértve az rdkitet), és elindítja a main.jlt.[1]\n\nbash\nbash -lc '\n  set -e &&\n  julia -e \"using Pkg; Pkg.instantiate(); Pkg.build()\" &&\n  pip install --upgrade --force-reinstall rdkit numpy pandas scipy scikit-learn e3nn qiskit aqme pyscf CDPL &&\n  export PYTHON=$(which python3) &&\n  exec julia main.jl\n'\n",
+      "created_at": "20251003T08:29:11.292016Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

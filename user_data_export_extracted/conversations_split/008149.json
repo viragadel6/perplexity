@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9207acc557bf4672a464bb59c06f3a8f",
+  "context_title": "készíts magyar nyelven pythonra egy full dokumentaciot ami az osszes oldalt funkciot stb tartalmazza de csak a lenyeget\negy darab letoltheto txt fajlba",
+  "created_at": "20251001T05:35:40.773706Z",
+  "updated_at": "20251001T05:35:40.773706Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d0a329cc0c77455f8dda503897a553ba",
+      "query": "készíts magyar nyelven pythonra egy full dokumentaciot ami az osszes oldalt funkciot stb tartalmazza de csak a lenyeget\negy darab letoltheto txt fajlba",
+      "answer": "Elkészítettem egy teljes körű magyar nyelvű Python dokumentációt a Cerebras Inference APIhoz, amely egyetlen letölthető TXT fájlban tartalmazza az összes lényeges információt[1][2][3][4][5][6][7].\n\n A dokumentáció tartalma\n\nA cerebras_python_dokumentacio.txt fájl 10 fő fejezetet tartalmaz, több mint 15 000 karakterben:\nFőbb témák:\n Bevezetés, telepítés és API kulcs konfiguráció\n Elérhető modellek részletes leírása (gptoss120b, llama, qwen családok)\n Chat Completions és Completions API végpontok használata\n Tool Use (eszközhasználat) egyszerű és többlépéses példákkal\n Streaming, strukturált outputok generálása\n Teljes hibakezelési útmutató (retry, timeout, rate limit)\n OpenAI kompatibilitási réteg és különbségek\n Ágensek (agents) áttekintése\n Best practices és biztonsági megfontolások\n Gyors referencia kártya a leggyakoribb műveletekhez\n\nTechnikai részletek:\n Minden API endpoint paraméterekkel és példákkal\n Hibakódok és exception típusok\n Rate limit headerek magyarázata\n Multiturn tool calling implementáció\n Timeout és retry konfigurációk\n\nA dokumentáció tömör, de átfogó  csak a lényeges információkat tartalmazza kód példákkal, így gyorsan használhatóvá válik bármilyen Python projekthez a Cerebras APIval[1][4][7].",
+      "created_at": "20251001T05:35:40.924890Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

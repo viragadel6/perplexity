@@ -1,0 +1,19 @@
+{
+  "context_uuid": "060b7f3937a04f3ebe7050e20b19a5b8",
+  "context_title": "Apart from gpt and gemini, which AI has a deepsearch function?\n(Which is really deepsearch and writes a meaningful answer, unlike grok, which actually writes a simple answer based on internet searches.)",
+  "created_at": "20251207T16:42:49.547578Z",
+  "updated_at": "20251207T16:42:49.547578Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "2f11778d5f9a42bbb68672ec13da7c64",
+      "query": "Apart from gpt and gemini, which AI has a deepsearch function?\n(Which is really deepsearch and writes a meaningful answer, unlike grok, which actually writes a simple answer based on internet searches.)",
+      "answer": "AI tools with autonomous “deep research” / “deep search” modes that perform multistep web browsing and synthesis into long, expertlevel answers, excluding GPT and Google Gemini  \n\nMely AI eszközök rendelkeznek olyan autonóm „deep research” / „deep search” móddal, amelyek több lépésben böngészik a webet, sok forrást átnéznek, és hosszú, szakértői szintű összefoglalót írnak (a GPTt és a Google Geminit leszámítva)?",
+      "created_at": "20251207T16:42:49.732156Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6c90be17d1f5465c87bcd288b8935757",
+  "context_title": "generate zip /home",
+  "created_at": "20260610T12:42:00.077799Z",
+  "updated_at": "20260610T12:42:39.801072Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e82d7e2068c24e9d8965b1bf175899e3",
+      "query": "generate zip /home",
+      "answer": "Úgy tűnik, a generate zip /home parancs egy Linux/Unix rendszeren a /home könyvtár ZIPbe tömörítésére vonatkozó kérés. Íme, hogyan teheted meg ezt különböző módszerekkel:\n\n A /home könyvtár ZIPbe tömörítése\n\nA leggyakoribb és legegyszerűbb módszer a terminálban a zip parancs használata. A következő paranccsal tömörítheted az egész /home könyvtárat:[5]\n\nbash\nzip -r home_backup.zip /home\n\n\nA -r kapcsoló rekurzívan dolgozza fel az összes almappát és fájlt. Az eredményként kapott home_backup.zip fájl az aktuális munkakönyvtárba kerül.\n\n Alternatív módszerek\n\nHa jelszóval szeretnéd védeni az archívumot, a zip parancsnak van erre beépített opciója:[5]\n\nbash\nzip -r -e home_backup.zip /home\n\n\nA -e kapcsoló után a rendszer bekéri a jelszót interaktívan.\n\n7Zip esetén (ha telepítve van) a parancs a következő:[5]\n\nbash\n7z a home_backup.zip /home\n\n\n Tömörítés tar segítségével\n\nLinux rendszereken sokszor célszerűbb a tar formátum használata, mert megőrzi a fájljogosultságokat és a szimbolikus hivatkozásokat is. A ZIP ezeket nem mindig kezeli tökéletesen:[5]\n\nbash\ntar -czvf home_backup.tar.gz /home\n\n\nEz egy gziptömörített tar archívumot hoz létre, ami általában jobb tömörítési arányt is nyújt.\n\n Fontos megjegyzés jogosultságokról\n\nA /home könyvtár általában más felhasználók mappáit is tartalmazza, ezért az archiváláshoz root jogosultság szükséges lehet. Futtasd a parancsot sudoval, ha szükséges:[5]\n\nbash\nsudo zip -r home_backup.zip /home\n",
+      "created_at": "20260610T12:42:00.357849Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

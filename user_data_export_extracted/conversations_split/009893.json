@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9b2ba6e7950f4eed9f6c8e2248794f9c",
+  "context_title": "Ezek a felnik vannak a kocsimon és 245 / 35 R 19es gumik vannak rajta￼Járművem:  BMW 5 (E60) 2009 2.0 Dízel Rendszám: RFA324 Alvázszám: WBANX31030C177882 Kategória: Személygépjármű Márka: BMW Típus: 5 (E60)Évjárat: 2009 Cm3 / Üzemanyag: 2.0  Dízel Motorkód: N47 D20 A  Kiválasztott variánsok:  Variáns: 01 Szelepek száma: 16 Teljesítmény: 177 LE / 130 kW Teljes: 5 (E60) 520 d Meghajtás: Hátsókerékhajtás Gyártási idő: 2007.09.2009.12",
+  "created_at": "20250618T15:07:42.987566Z",
+  "updated_at": "20250618T15:07:42.987566Z",
+  "mode": "COPILOT",
+  "collection_uuid": "3b299b78492746a09cff2d7784dd58ed",
+  "entries": [
+    {
+      "entry_uuid": "586eca1871704634baef896dd652ae1e",
+      "query": "Ezek a felnik vannak a kocsimon és 245 / 35 R 19es gumik vannak rajta￼Járművem:  BMW 5 (E60) 2009 2.0 Dízel Rendszám: RFA324 Alvázszám: WBANX31030C177882 Kategória: Személygépjármű Márka: BMW Típus: 5 (E60)Évjárat: 2009 Cm3 / Üzemanyag: 2.0  Dízel Motorkód: N47 D20 A  Kiválasztott variánsok:  Variáns: 01 Szelepek száma: 16 Teljesítmény: 177 LE / 130 kW Teljes: 5 (E60) 520 d Meghajtás: Hátsókerékhajtás Gyártási idő: 2007.09.2009.12",
+      "answer": " A telepített felnik és gumik áttekintése a BMW E60 520d (2009)\n\n 1. Felni azonosítása  \nAz Ön gépjárművén 19 colos, kettősküllős (DoubleSpoke Style 172) gyári BMW felnik találhatók, amelyek partszáma 36 11 8 036 948 [1]. Ezek az alábbi fő jellemzőkkel bírnak:\n Méret: 8,5J×19″, ET 18 (első tengely) és 9,5J×19″, ET 32 (hátsó tengely) [2].\n Középnyílás: 72,5 mm; csavaros rögzítés: 5×120, menet: M12×1,5 [3].\n\n 2. Gumiabroncsméret  \nA felnikre felszerelt gumiabroncs mérete: 245/35 R19. Ez a méret az alábbiakon alapuló gyári ajánlásnak felel meg a 5ös sorozat (E60/E61) esetében [3][4]:\n Szélesség: 245 mm  \n Oldalarány: 35 %  \n Átmérő: 19 col\n\n 3. Kompatibilitás és futásteljesítmény  \nA 245/35 R19es gumi a Style 172 felni megfelelő mérete, kompatibilis a hátsókerékhajtású 520dvel, és 93 Y vagy 95 Y („W” osztály) sebességindexű abroncsokként is elérhető [2].\n\n 4. Szabályozott paraméterek  \n Gépjárműkategória: személygépjármű  \n Gyártási időszak: 2007.09–2009.12  \n Motorkód: N47 D20 A, teljesítmény 130 kW (177 LE)  \n Hátsókerékhajtás: OEM ETértékekkel biztosított lengéscsillapítói és futóműgeometriai beállítás [2].\n\n 5. Ajánlott karbantartás  \n1. Felni ellenőrzés: minden szezonváltáskor vizsgálja felni peremét korrózió, repedés vagy deformáció szempontjából [1].  \n2. Gumiabroncs ellenőrzés: futófelületi kopáskimaratok, egyenletes kopás és légnyomásellenőrzés (2,2–2,5 bar, a BMW előírásai szerint) [2].\n\n 6. Összefoglaló  \nA felnik és gumik pontos paraméterei (19″ Style 172 felni, 245/35 R19 gumi) gyári BMWalkatrészek, amelyek megfelelnek a 2009es E60 520d műszaki előírásainak és garantálják a biztonságos, kényelmes üzemeltetést [1][3][2].",
+      "created_at": "20250618T15:07:43.173496Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

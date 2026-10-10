@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8860cdfd2f854604836457e29f4295b3",
+  "context_title": "írd meg wzt .env formába replitbe",
+  "created_at": "20251002T01:36:40.301132Z",
+  "updated_at": "20251002T01:36:40.301132Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9807cad6cbe044be93b4d37a4f4d3e74",
+      "query": "írd meg wzt .env formába replitbe",
+      "answer": "Az alábbiakban látható, hogyan kell kitölteni egy .env fájlt Replit projektben a képen látható Hasura adatok alapján.\n\n\nHASURA_GRAPHQL_API_URL=https://advanced-bluejay-97.hasura.app/v1/graphql\nHASURA_GRAPHQL_ADMIN_SECRET=*****\nHASURA_CLOUD_PROJECT_ID=4b8ee161-07e6-4cc5-a452-adcbaf5aca3c\nHASURA_CLOUD_REGION=us-west-2\nHASURA_CLOUD_IP=54.176.149.52\n\nA HASURA_GRAPHQL_ADMIN_SECRET értékét a képen található Admin Secret mezőből kell bemásolni, de az biztonsági okokból el van rejtve a képen, ezért azt helyesen kell kitölteni (az adott felületen található jelszóval helyettesítsd) [1].",
+      "created_at": "20251002T01:36:40.457765Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

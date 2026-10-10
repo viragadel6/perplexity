@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2e4626ab43714d52bba7d063f9ccf7ac",
+  "context_title": "ha a claude mythos 10T akkor mekkora kejet a gemini 3.1 pro?",
+  "created_at": "20260813T04:58:47.052535Z",
+  "updated_at": "20260813T05:00:44.685669Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6fc62521972442dbbf639c607676e137",
+      "query": "ha a claude mythos 10T akkor mekkora kejet a gemini 3.1 pro?",
+      "answer": "A Google hivatalosan nem hozta nyilvánosságra a Gemini 3.1 Pro pontos paraméterszámát, így nincs róla hivatalos adat, szemben az Anthropic által megerősített 10 billió (10T) paraméteres Claude Mythos 5tel.[13][21]\n\nUgyanakkor az iparági elemzések és becslések alapján a Gemini 3.1 Pro méretéről a következőket lehet tudni:[1]\n Teljes paraméterszám: A becslések szerint a modell mérete meghaladja az 1 billiót (1T).\n Aktív paraméterek: Mivel a Gemini 3.1 Pro egy úgynevezett ritka szakértői keverék (Sparse MixtureofExperts, MoE) architektúrára épül, egyegy adott feladat vagy token feldolgozása során nem használja az összes paraméterét. A becslések szerint tokenenként körülbelül 5080 milliárd (5080B) paramétert aktivál.\n\nÖsszességében tehát a Gemini 3.1 Pro a becslések szerint nagyjából az egytizede lehet a Claude Mythos 10Ts méretének, de a hatékonyságát az MoE felépítés és az akár 1 millió tokenes kontextusablak adja.[15][24]",
+      "created_at": "20260813T04:58:47.097150Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

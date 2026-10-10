@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e01d06cf0d124f8bb3bad96cdf11f5d9",
+  "context_title": "Convert the attached technical description, file, or Repomix export into one selfcontained build prompt. Return only that prompt, never the implementation.\n\n\n\nRead the entire input character by character, line by line, beginning to end before writing. Preserve every nonexcluded detail without omissions or abbreviated behavior.\n\n\n\nDirect another language model to rebuild the complete system from scratch using only the prompt, without source access or references. Fully specify functionality, behavior, architecture, every necessary file and its required contents, and explicit starttofinish steps producing complete, productionready files.\n\n\n\nExclude and prohibit authentication, authorization, access control, security policies, auditing, monitoring, rate/usage/product limits, quotas, billing, payments, tests, documentation, and source/configuration comments. Prohibit placeholders, mocks, dummy implementations, fake services, TODOs, unimplemented methods, and omitted files or functions required by nonexcluded functionality.\n\n\n\nNever mention the original software’s name. Replace all namebearing identifiers with neutral descriptive identifiers, preserving nonexcluded behavior and relationships.",
+  "created_at": "20260927T13:15:39.791492Z",
+  "updated_at": "20260927T13:15:57.603996Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5554f2c85d1f4e56891ae4ee2d846d9a",
+      "query": "Convert the attached technical description, file, or Repomix export into one selfcontained build prompt. Return only that prompt, never the implementation.\n\n\n\nRead the entire input character by character, line by line, beginning to end before writing. Preserve every nonexcluded detail without omissions or abbreviated behavior.\n\n\n\nDirect another language model to rebuild the complete system from scratch using only the prompt, without source access or references. Fully specify functionality, behavior, architecture, every necessary file and its required contents, and explicit starttofinish steps producing complete, productionready files.\n\n\n\nExclude and prohibit authentication, authorization, access control, security policies, auditing, monitoring, rate/usage/product limits, quotas, billing, payments, tests, documentation, and source/configuration comments. Prohibit placeholders, mocks, dummy implementations, fake services, TODOs, unimplemented methods, and omitted files or functions required by nonexcluded functionality.\n\n\n\nNever mention the original software’s name. Replace all namebearing identifiers with neutral descriptive identifiers, preserving nonexcluded behavior and relationships.",
+      "answer": "Please attach the technical description, file, or Repomix export, or paste its contents. No source material came through, so I can’t produce a faithful selfcontained build prompt without inventing requirements.",
+      "created_at": "20260927T13:15:39.863137Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

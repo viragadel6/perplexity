@@ -1,0 +1,28 @@
+{
+  "context_uuid": "4f0b1c65df0542e3ab32a11cf95430a5",
+  "context_title": "Official documentation about the exact type of vehicle: BMW 520d (E60, 2009, N47D20A/D20C, automatic, 177 hp, 2.0 l diesel, rearwheel drive",
+  "created_at": "20250625T20:33:37.780774Z",
+  "updated_at": "20250625T21:27:10.060776Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3b78690e29b94433b05c721443dbaa03",
+      "query": "Official documentation about the exact type of vehicle: BMW 520d (E60, 2009, N47D20A/D20C, automatic, 177 hp, 2.0 l diesel, rearwheel drive",
+      "answer": " Hivatalos műszaki dokumentáció a 2009es BMW 520d (E60 LCI, N47D20A/C, automata, 177 LE, 2,0 l dízel, hátsókerékhajtás) típushoz\n\n 1. „Specifications. The new BMW 5 Series Sedan. 520d, 525d, 530d.” (11/2009) – BMW prospektus[1]\nA BMW hivatalos, 2009 novemberében kiadott prospektusa részletesen ismerteti az E60 LCI 520d modell műszaki adatait:\n\n– Motor: soros négyhengeres turbódízel N47D20, lökettérfogat 1 995 cm³, maximális teljesítmény 130 kW (177 LE) @ 4 000 1/min, nyomaték 350 Nm @ 1 750–3 000 1/min.  \n– Sebességváltó: hatfokozatú Steptronic automata; első fokozat áttétele 4,714, hatodik 0,667, végáttétel 2,471.  \n– Gyorsulás, végsebesség: 0–100 km/h 8,1 s; 4. sebességfokozatban 80–120 km/h 6,9 s; max. 227 km/h.  \n– Fogyasztás, emisszió (EU mérés): városi 8,1 l/100 km; országúti 5,1 l/100 km; vegyes 6,2 l/100 km; CO₂kibocsátás 137 g/km.  \n– BMW EfficientDynamics: Brake Energy Regeneration, Auto Start Stop, fékenergiavisszanyerés, „váltójelző” stb.[1].\n\n 2. „Technische Daten BMW 5er Touring. 520d Special Edition” (08/2009) – BMW Media Information (német)[2]\nA 2009 szeptembertől érvényes, gyári médiainformációs adatlap a Touring kivitelű 520d Special Editionre vonatkozó karosszéria, tömeg és kapacitásadatokat tartalmazza:\n\n– Karosszéria: ötajtós ötüléses kombi (Touring).  \n– Méretek (mm): hosszúság 4 843; szélesség 1 846; magasság 1 491; tengelytáv 2 886.  \n– Üres tömeg (DIN/EU): 1 600 / 1 675 kg (ECU: 1 620 / 1 695 kg).  \n– Teljes megengedett tömeg: 2 200 kg (ECU: 2 220 kg).  \n– Csomagtér térfogata: 500–1 650 l.  \n– Üzemanyagtartály: 70 l.  \n– Végáttétel, fék, futómű és egyéb műszaki részletek szintén szerepelnek az adatlap 12 oldalán[2].\n\nA fenti hivatalos dokumentumok biztosítják a 2009es BMW 520d E60 LCI modell teljes körű, gyári műszaki leírását és jellemzőit.",
+      "created_at": "20250625T20:33:37.803917Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "232bf52577fd47b199f85adf9541dbac",
+      "query": "de a direkt linkeket",
+      "answer": "A keresett, 2009es BMW 520d (E60 LCI, N47D20A/D20C motor, automata váltó, 177 LE, 2,0 l dízel, hátsókerékhajtás) hivatalos műszaki dokumentációjának közvetlen, nyilvánosan elérhető linkjei a BMW gyári oldalán vagy hivatalos prospektusokban nem állnak rendelkezésre közvetlenül ingyenesen. Azonban az alábbi forrásokból lehet hivatalos, részletes technikai adatokat és kezelési útmutatókat beszerezni:\n\n BMW E60 komplett műszaki kézikönyv (angol nyelvű, hivatalos BMW technikai kézikönyv, részletes műszaki adatokat tartalmaz):  \n  \n\n Magyar nyelvű BMW E60 kezelési útmutató (520dre is vonatkozó, részletes használati és műszaki információkkal):  \n  \n\n Használtautó katalógus BMW 520d (20082010) műszaki adatokkal:  \n  \n\n BMW 5ös sorozat általános ismertető (történet, motorváltozatok, műszaki adatok):  \n  \n\nEzek a dokumentumok és források tartalmazzák a kért 2009es BMW 520d E60 LCI modell pontos műszaki adatait, motor típusát (N47D20A/D20C), teljesítményét (177 LE), váltó típusát (automata), hajtásmódját (hátsókerékhajtás) és egyéb fontos jellemzőket.\n\nHa a BMW hivatalos, gyári prospektusára vagy szerviz kézikönyvére van szükség, azt általában a BMW márkaszervizekben vagy hivatalos BMW TechInfo rendszeren keresztül lehet beszerezni, amelyhez regisztráció és jogosultság szükséges.\n\nÖsszefoglalva, a legközelebb álló hivatalos dokumentumok elérhetők a fenti linkeken, amelyekből a pontos műszaki adatok és kezelési információk megismerhetők.  \n\nHa konkrétabb hivatalos forrást vagy linket keres, akkor a BMW TechInfo rendszer (gyári szervizadatbázis) az egyetlen hiteles és teljes körű forrás, de az nem ingyenes és nem nyilvános.\n\nFontos linkek a keresett BMW 520d E60 LCI típus műszaki dokumentációjához:\n\n BMW E60 komplett műszaki kézikönyv (angol):  \n  \n\n Magyar nyelvű kezelési útmutató (E60, 520d):  \n  \n\n Használtautó katalógus BMW 520d (20082010):  \n  \n\n BMW 5ös sorozat összefoglaló (magyar Wikipédia):  \n  ",
+      "created_at": "20250625T21:26:46.044046Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

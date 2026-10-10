@@ -1,0 +1,28 @@
+{
+  "context_uuid": "cb3f3e49d5124009a6b4be809dbe0d90",
+  "context_title": "legfejlettebb ma elerheto model api val ami nem transformers\n\nAz a lenyeg hogy integralom replitbe egy appba es az lesz a feladata hogy feltoltott dokumentumokat teljesen atnezzen ezert kell ugye olyan modell ami nem transformersz es valoban atnezi az osszes karaktert nem csak ugy nagyjából",
+  "created_at": "20251021T17:40:03.580507Z",
+  "updated_at": "20251021T17:46:28.340545Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "6ba26099a18548efaa0a6ac28c1fd175",
+      "query": "legfejlettebb ma elerheto model api val ami nem transformers\n\nAz a lenyeg hogy integralom replitbe egy appba es az lesz a feladata hogy feltoltott dokumentumokat teljesen atnezzen ezert kell ugye olyan modell ami nem transformersz es valoban atnezi az osszes karaktert nem csak ugy nagyjából",
+      "answer": "Based on my research, here are the most advanced nontransformer model APIs available for your Replit integration:\n\n RWKV Language Model API\n\nA nontransformer, RNNbased language model that processes text characterbycharacter and reviews documents completely. RWKV combines the advantages of RNNs with transformerlike parallelizable training.[1][2][3]\n\n Mamba (State Space Model)\n\nMamba is a selective structured state space model architecture that's completely attentionfree and designed for efficient longsequence processing. Unlike transformers which use attention mechanisms, Mamba uses state space models to process sequences linearly.[4][1]\n\n API Access Options\n\n RWKV API Services\n RWKV Runner: GUI with OpenAIcompatible API for PC[3][5]\n Ai00 Server: Fullfeatured inference API server with Vulkan support, compatible with most GPUs (NVIDIA, AMD, Intel)[2][6]\n OpenRouter: Provides API access to RWKV v5 World 3B model[7]\n\n Mamba API Services\n Codestral Mamba: Available through Mistral API or local installation[8]\n Various providers listed on LLM API comparison sites[9]\n\n Key Advantages for Document Processing\n\nThe RWKV model is particularly suitable for your use case because:[6][2]\n Processes all characters sequentially without truncation\n Uses linear time complexity (O(n)) instead of quadratic like transformers\n Supports long context windows (4K128K tokens)\n Available with quantization (INT8/NF4) for efficient deployment\n OpenAIcompatible API format for easy integration\n\n\n\nEnglish:\nMost advanced nontransformer model API available that processes documents characterbycharacter without approximation\n\nMagyar:\nLegfejlettebb nemtransformer modell API amely karakter szinten dolgozza fel a dokumentumokat közelítés nélkül",
+      "created_at": "20251021T17:40:03.820878Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "a5804e13cd514cac9e7693e5a7ef7722",
+      "query": "Most advanced nontransformer model API available that processes documents characterbycharacter without approximation",
+      "answer": "English:\nMost advanced nontransformer model API available that processes documents characterbycharacter without approximation\n\nMagyar:\nLegfejlettebb nemtransformer modell API amely karakter szinten dolgozza fel a dokumentumokat közelítés nélkül",
+      "created_at": "20251021T17:46:24.713021Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "98f7b4101350449190ea5c9db157c54f",
+  "context_title": "Egy soros replit shell kodot irj hogy klonozta le ezt a repot majd egyen py fajlba blendelje egybe az egesz repo tartalmat \n\n",
+  "created_at": "20250806T16:00:01.443338Z",
+  "updated_at": "20250806T19:55:32.352359Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "31f2923da44947ddaec366ba8d56d26e",
+      "query": "Egy soros replit shell kodot irj hogy klonozta le ezt a repot majd egyen py fajlba blendelje egybe az egesz repo tartalmat \n\n",
+      "answer": "Íme az egy soros replit shell parancs, ami letölti a teljes repot, majd az összes .py fájlt egyetlen py fájlba blendeli:\n\nsh\ngit clone https://github.com/google-deepmind/alphagenome.git && find alphagenome -name '*.py' -type f -exec cat {} + > alphagenome_egybefuzve.py\n\n\nEz először klónozza a repót, utána megtalál minden Python forrásfájlt, és egymás után az alphagenome_egybefuzve.py nevű fájlba fűzi őket.",
+      "created_at": "20250806T16:00:02.547184Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "c9ad5a439c4140528d21bfda53031ced",
+      "query": "az legyen a fajlnev hogy dinnye.py",
+      "answer": "Természetesen! Itt van a módosított egy soros shell parancs, ami dinnye.py névre menti az összefűzött fájlt:\n\nsh\ngit clone https://github.com/google-deepmind/alphagenome.git && find alphagenome -name '*.py' -type f -exec cat {} + > dinnye.py\n\n\nEz a parancs ugyanúgy végzi el a műveletet, csak most dinnye.py lesz a végső fájlnév.",
+      "created_at": "20250806T19:55:30.024084Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

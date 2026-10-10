@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0db1a05aba8d4e3c823c230078415ad9",
+  "context_title": "ez mi",
+  "created_at": "20251028T15:45:33.033325Z",
+  "updated_at": "20251028T15:45:33.033325Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3daf0e9e2c244c1ab75bff35961f3493",
+      "query": "ez mi",
+      "answer": "Ez egy Replit konfigurációs fájl, amely egy Python 3.11 fejlesztői környezet beállításait tartalmazza. A fájl JSON formátumú, és meghatározza, hogyan fusson és működjön a Python projekt a Replit platformon.[1]\n\n Főbb komponensek\n\nBelépési pont: A projekt belépési pontja a main.py fájl, ami az alapértelmezett indítófájl.[1]\n\nFuttatási környezet: Python 3.11.13 verzió van beállítva, amely shell parancsként futtatja a Python szkripteket.[1]\n\nFejlesztői eszközök: A konfiguráció tartalmazza a debugpy debuggert (1.8.14 verzió) a hibakereséshez, valamint a pyrightextended (2.0.13 verzió) nyelvi szervert a kódkiegészítéshez és típusellenőrzéshez.[1]\n\nCsomagkezelés: A Python csomagkezelő (UPM) engedélyezett, amely támogatja a csomagok keresését és az importok automatikus felismerését.[1]\n\nFormázás: A kódformázáshoz a pyrightextended és a .replit LSP formázók állnak rendelkezésre.[1]\n\nEz a konfigurációs fájl tehát egy teljes Python fejlesztői környezetet definiál a Replit online kódszerkesztő platformon, minden szükséges eszközzel a kódoláshoz, hibakereséshez és csomagkezeléshez.[1]",
+      "created_at": "20251028T15:45:33.112604Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

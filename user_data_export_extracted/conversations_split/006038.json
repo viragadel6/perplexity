@@ -1,0 +1,19 @@
+{
+  "context_uuid": "907d95a7760e4d8499ba4ef2fc659eab",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20251130T18:29:20.366442Z",
+  "updated_at": "20251130T18:29:20.366442Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d9d9ddf2c9e84715ac9be7759ef7517f",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": "Ez egy Zig programozási nyelvű formális verifikációs keretrendszer. A fájl egy fejlett matematikai bizonyító és ellenőrző rendszert valósít meg, amely gráfstruktúrák helyességét vizsgálja.[1]\n\n Fő komponensek\n\n Formális Verifikációs Motor\nA rendszer magját a FormalVerificationEngine alkotja, amely három fő alrendszert integrál:[1]\n Invariáns regiszter  9 beépített invariáns ellenőrzése (kapcsolódás, koherencia, kvantumállapot, memóriabiztonság stb.)\n Hoarelogika verifikátor  Program helyességi bizonyítások {P} C {Q} formában\n Tétel bizonyító  Automatikus tétel bizonyítás rezolúcióval és visszafelé láncolással\n\n Invariáns típusok\nA rendszer priorizált invariánsokat ellenőriz:[1]\n Memóriabiztonság (prioritás: 10)\n Típusbiztonság (prioritás: 9)  \n Gráfkapcsolódás (prioritás: 8)\n Koherencia  kvantumállapot normája ≤ 1\n Fraktáldimenzió  0 és 3 közötti érték\n Összefonódás (entanglement) élek validálása\n\n Predikátum logika\nGazdag logikai rendszert tartalmaz:[1]\n 18 propozíció típus (atomi, negáció, konjunkció, implikáció, kvantorok, temporális logika)\n 26 bizonyítási szabály (modus ponens, indukció, Hoareszabályok)\n Unifikációs és rezolúciós algoritmusok\n Bizonyítási fa építés\n\n Gyakorlati alkalmazás\nA rendszer kvantuminspirált gráf adatstruktúrákat ellenőriz, amelyek csomópontoknak komplex kvantumállapotai vannak, és az élek különböző minőségűek lehetnek (koherens, összefonódott, fraktál típusú).[1]\n\n Értékelés\n\nEz egy kutatási szintű implementáció, amely ötvözi a formális módszereket (Hoarelogika, rezolúció) a kvantumfizikainspirált számítástechnikával. A kód jól strukturált, típusbiztonságos és 97,000+ karakter hosszúságával rendkívül részletes. A 40+ unit teszt demonstrálja a rendszer használatát.[1]",
+      "created_at": "20251130T18:29:20.482575Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

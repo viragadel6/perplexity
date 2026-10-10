@@ -1,0 +1,28 @@
+{
+  "context_uuid": "7dab6f3e28bb467ea7a0d9191fc96610",
+  "context_title": "exa search osszes szuroje válaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20260116T23:32:01.338367Z",
+  "updated_at": "20260116T23:34:03.981903Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "aaeadc0c9ffe4c3cb4122aad7c7bde96",
+      "query": "exa search osszes szuroje válaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "Exa Search API szűrők és paraméterek:\n\n type\n num_results\n includeDomains\n excludeDomains\n startCrawlDate\n endCrawlDate\n startPublishedDate\n endPublishedDate\n includeText\n excludeText\n category\n livecrawl\n useAutoprompt\n additional_queries\n text\n highlights\n context\n query\n url (similarity searchhöz)\n cursor (lapozáshoz)",
+      "created_at": "20260116T23:32:01.424154Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f8e726211f2045f68b9756b7cc776f45",
+      "query": "de pontosan pl osszes type stb válaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "type értékek:\n auto\n neural\n fast\n deep\n\ncategory értékek:\n company\n research paper\n news\n github\n tweet\n personal site\n pdf\n financial report\n people\n linkedin profile\n\nlivecrawl értékek:\n never\n fallback\n always\n preferred\n auto\n\nsearch paraméterek:\n query\n additional_queries\n num_results\n include_domains\n exclude_domains\n start_crawl_date\n end_crawl_date\n start_published_date\n end_published_date\n type\n category\n include_text\n exclude_text\n context\n exclude_source_domain\n\nfind_similar paraméterek:\n url\n num_results\n include_domains\n exclude_domains\n start_crawl_date\n end_crawl_date\n start_published_date\n end_published_date\n exclude_source_domain\n category\n context\n\ncontents paraméterek:\n ids\n text\n highlights\n summary\n context\n livecrawl\n livecrawlTimeout\n subpages\n subpageTarget\n extras\n\nextras paraméterek:\n links\n imageLinks\n\ntext opciók:\n True / False\n maxCharacters\n\nhighlights opciók:\n True / False\n query\n numSentences\n highlightsPerUrl\n\nsummary opciók:\n True / False\n query\n schema\n\ncontext opciók:\n True / False\n maxCharacters\n\nanswer paraméterek:\n query\n text\n stream\n\nresearch paraméterek:\n instructions\n model\n output_schema\n infer_schema\n\nresearch model értékek:\n exaresearch\n exaresearchpro\n\nresearch task status értékek:\n running\n completed\n failed\n\nlist_tasks paraméterek:\n cursor\n limit\n\nerror tag értékek:\n CRAWL_NOT_FOUND\n CRAWL_TIMEOUT\n CRAWL_LIVECRAWL_TIMEOUT\n SOURCE_NOT_AVAILABLE\n CRAWL_UNKNOWN_ERROR\n\nHTTP status kódok:\n 404\n 408\n 403\n 500",
+      "created_at": "20260116T23:33:30.504728Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

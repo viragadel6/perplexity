@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2eb622a3345f46d4af2cbd0c1d2effb4",
+  "context_title": "AEAAQWVhQXBpS2V5LXdhdm0xcWl3LWF0LTkyMjEyMDM1NzEwODpDdVNKVDFKYTZ1Rk9pTXB3azlOMlhHYi80bnhaUkZOakJ6THZvTjdoTG94aXV2Rm5TYm45SjROTW1Rdz0=",
+  "created_at": "20260515T02:03:51.620507Z",
+  "updated_at": "20260515T02:03:59.263092Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "dd99fec61ebf4aa9b64e4fbae894fb10",
+      "query": "AEAAQWVhQXBpS2V5LXdhdm0xcWl3LWF0LTkyMjEyMDM1NzEwODpDdVNKVDFKYTZ1Rk9pTXB3azlOMlhHYi80bnhaUkZOakJ6THZvTjdoTG94aXV2Rm5TYm45SjROTW1Rdz0=",
+      "answer": "A megadott szöveg nem ad elég egyértelmű kontextust ahhoz, hogy biztonságosan azonosítsam, mire utal. A legvalószínűbb, hogy valamilyen kódolt vagy tokenizált azonosító, de ebből önmagában nem lehet megbízhatóan megmondani a jelentését.[1][2]\n\n Mit látok benne\n\nAz érték formája erősen hasonlít egy Base64szerű karakterláncra, és tartalmaz egy olyan részt is, amely kulcsra vagy kriptográfiai tokenre emlékeztet. Az ilyen azonosítók gyakran rendszerszintű címkék, APIkulcsok, seedek, vagy valamely szolgáltatás belső referenciái, de ezt ebből a bemenetből nem lehet hitelesen eldönteni.[3][2]\n\n Biztonsági szempont\n\nHa ez tényleges titok, kulcs vagy hozzáférési token, akkor nem érdemes nyilvánosan megosztani, mert visszaélésre alkalmas lehet. Ha akarod, meg tudom nézni, hogy ez Base64dekódolással értelmes szöveget ade, vagy segíthetek azonosítani, milyen rendszerből származhat.",
+      "created_at": "20260515T02:03:51.833900Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

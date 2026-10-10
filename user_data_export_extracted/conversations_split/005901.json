@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d9e13cf1344446b0b2ac937410de5319",
+  "context_title": "Melyik ma 2025 devember 7en a legfeljettebb nyílt forráskódú (a kódok kellenek a súlyok vagy a train data nem érdekel) llm? Légyszíves ne csak az olyan main stream open source modeleket kutasd mint a glm 4.6 kimi k2 deepseek 3.2 qwen 3 lint/ring 1T  Olmo mimimax stb hugging faces szarokat",
+  "created_at": "20251207T13:01:55.130759Z",
+  "updated_at": "20251207T13:01:55.130759Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "e14d6588ed19434eba6a36069de1b1d6",
+      "query": "Melyik ma 2025 devember 7en a legfeljettebb nyílt forráskódú (a kódok kellenek a súlyok vagy a train data nem érdekel) llm? Légyszíves ne csak az olyan main stream open source modeleket kutasd mint a glm 4.6 kimi k2 deepseek 3.2 qwen 3 lint/ring 1T  Olmo mimimax stb hugging faces szarokat",
+      "answer": "Based on the Space instructions, I need to format the search query for exa.ai in both English and Hungarian:\n\nWhat is the most advanced truly opensource LLM (with full code released, not just weights or training data) as of December 7, 2025? Please exclude mainstream opensource models like GLM 4.6, Kimi K2, DeepSeek 3.2, Qwen 3, Llama/Ring 1T, OLMo, MiniMax, and Hugging Face models.\n\nMelyik a legfejlettebb valóban nyílt forráskódú LLM (teljes kóddal kiadva, nem csak súlyokkal vagy tréning adatokkal) 2025. december 7én? Kérlek zárj ki olyan mainstream nyílt forráskódú modelleket, mint a GLM 4.6, Kimi K2, DeepSeek 3.2, Qwen 3, Llama/Ring 1T, OLMo, MiniMax és Hugging Face modellek.",
+      "created_at": "20251207T13:01:55.321429Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

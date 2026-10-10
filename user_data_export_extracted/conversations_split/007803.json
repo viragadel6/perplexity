@@ -1,0 +1,19 @@
+{
+  "context_uuid": "98e10d55f66d45eb9b1fc24ae08d2ccf",
+  "context_title": "",
+  "created_at": "20251009T22:02:59.097250Z",
+  "updated_at": "20251009T22:02:59.097250Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f8a6647c6ff04c7ba46ae4db9f0a1c30",
+      "query": "",
+      "answer": "A \"2FAI/TitanAtom\" modell a Hugging Face oldalon egy szatirikus, tréfás alapú mesterséges intelligencia modell, amely azt állítja, hogy 487,9 trillió paraméterrel rendelkezik. A modell neve és paraméterszáma túlzó, inkább egy játék a nagyságrenddel, nem pedig egy valódi, működő nagy paraméterű modell. A TitanAtom egy alapvető mikroarchitektúra modell, amely a skálázás, a metaadatinnováció és a tenzorszintaxis újragondolásával kísérletezik. A paraméterei inkább szemléltetőek, mint valós működő paraméterek, és a modell használata főként filozófiai és elméleti laborokban ajánlott.\n\nFőbb jellemzők:\n 487,912 milliárd paraméter az állítás szerint, de ez ténylegesen nem valós paraméter.\n Egyedi \"QuantumIndexed Attention\" (QIA) és \"Fragmented Tensor Reconstruction\" (FTR) technikákat alkalmaz (elméleti, nem feltétlenül praktikus).\n Tréfás benchmark eredményeket mutat, például szimbolikus pontszámokat.\n A modell fájl mérete és betöltési módja egyedi, de a paraméterek valójában nem léteznek valódi súlyként.\n Licenc szerint kísérleti, elméleti és ironikus felhasználásra ajánlott.\n\nÖsszességében a TitanAtom modell nem egy működő nagyméretű AI, hanem egy ironikus koncepció a mesterséges intelligencia paraméterszámának és architektúrájának túlzó bemutatására, és nem egy valódi alkalmazható AI eszköz.[1][2]",
+      "created_at": "20251009T22:02:59.285556Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

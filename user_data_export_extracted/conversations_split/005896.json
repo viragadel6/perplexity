@@ -1,0 +1,19 @@
+{
+  "context_uuid": "fb389d5401fe4646a13b08286ca29598",
+  "context_title": "grúz nyelv neve angolul",
+  "created_at": "20251207T15:58:06.811130Z",
+  "updated_at": "20251207T15:58:06.811130Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1ef1ff37d0b94fa1adf78f541f0cb3be",
+      "query": "grúz nyelv neve angolul",
+      "answer": "A grúz nyelv neve angolul Georgian vagy teljes formában Georgian language.[1][5]\n\n Az elnevezésről\n\nA  angol elnevezés ugyanabból az etimológiai gyökérből származik, mint a sok európai nyelvben használatos  nevek. Ezek mind a középperzsa  névből erednek, amely az újperzsa  alakon keresztül a szír nyelvbe  formában került át, majd onnan terjedt el a görögben  néven.[3]\n\n A helyi elnevezés\n\nFontos megjegyezni, hogy maguk a grúzok nyelvüket  () néven nevezik, amely a kartvél nyelvcsoportba tartozik. Az országot pedig  () néven hívják. A magyar nyelvben használt \"Grúzia\" elnevezés nem orosz, hanem perzsatörök közvetítéssel került a nyelvünkbe.[2][5][7]",
+      "created_at": "20251207T15:58:06.919455Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

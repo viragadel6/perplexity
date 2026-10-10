@@ -1,0 +1,19 @@
+{
+  "context_uuid": "13668571d7eb4b0ebb4a34a83070a04d",
+  "context_title": "",
+  "created_at": "20250809T16:38:01.796921Z",
+  "updated_at": "20250809T16:38:01.796921Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6609c58e0583404fbcf2a3b5e10360e3",
+      "query": "",
+      "answer": "A TSommariva/HTTY_NeuMeta GitHubprojekt egy modernebb mélytanuló hálózatgenerálási paradigmát, az ún. Neural Metamorphosist (NeuMeta) valósítja meg[1]. Ez a megközelítés az Implicit Neural Representation (INR) elvén alapul, amely lehetővé teszi olyan súlymanifold tanulását, amivel különböző szélességű és mélységű hálózatok közvetlenül generálhatók – akár olyan konfigurációk is, amelyeket a rendszer korábban nem látott.\n\n Főbb jellemzők:\n\n Teljes hálózat metamorfózis: Az eredeti NeuMeta kidolgozása csak a modell utolsó rétegein működött jól, de ebben a projektben egy strukturált, blokkalapú tréninggel és új inicializációsstratégiával bővítették, ami ténylegesen az egész hálózaton, jelentős pontosságvesztés nélkül működik.\n Súlymanifold tanulás: Az INR segítségével folyamatos súlytereket tár fel, így bármilyen kívánt méretű hálózat (pl. különböző hidden_dim értékek) mondhatni „on demand” előállítható.\n Súlysimítás és permutáció: Az előtrénelt, kiinduló súlykészletet egy simító (permutation/smoothing) eljárással alakítja át – ez kód szinten a smooth/permute.py fájlban található.\n Incrementális blokkos tréning & normálás: A tréning során blokkos, fokozatos növelést alkalmaznak és külön stratégiákat fejlesztettek a batch normalization rétegek kiváltására, ami kulcs a stabil morfinghoz.\n\n Használat lépései:\n\n1. Környezeti függőségek telepítése:  \n   bash\n   conda env create -f environment.yml\n   \n2. Előtrénelt checkpoint elkészítése: Szükséges egy előre betanított modell checkpoint (kiindulási pont).\n3. Súlysímítás:  \n   A smooth/permute.py scripttel simított súlyokat kell előállítani, ami a rétegek permutációjával biztosítja a súlyok folytonosságát.\n4. INR hálózat betanítása:  \n   Például CIFAR10 és resnet20 esetén:  \n   bash\n   PYTHONOPATH=\"$PWD\" python neumeta/train_cifar10.py --config <CONFIG_PATH>\n   \n5. Célmodell súlymintavétel:  \n   Az INR betanítása után tetszőleges architektúra (azonos családon belül, például rejtett rétegdimenziók széles skálája) súlyait közvetlenül ki lehet mintázni az INRből és kiértékelni.\n\n Kódkönyvtár felépítése:\n\n| Könyvtár/fájl         | Leírás                                   |\n|||\n| config/               | Kísérleti konfigurációk                  |\n| models/               | NeuMeta modellek definíciói              |\n| prune/                | Pruning és optimalizációs scriptek       |\n| similarity/           | Súlyhasonlóság elemző eszközök          |\n| utils/                | Általános segédscriptek                  |\n| hypermodel.py         | INR Hypernetwork NeuMetahoz             |\n| smoothing.py          | Simított súlytranzíciók implementációja  |\n| environment.yml       | Conda környezeti leíró                   |\n\nA projekt elsősorban Pythonban íródott, és teljesen nyílt forráskódú, további információk, példákkal együtt, a GitHuboldalon találhatók meg.\n\nEz a fejlett, metamorf neurális hálózatfejlesztési módszer különösen hasznos, ahol a modellek gyors, rugalmas átméretezése/létrehozása szükséges, minimális pontosságcsökkenéssel, például edgeeszközökön vagy adaptív AI rendszerekben[1].",
+      "created_at": "20250809T16:38:02.450795Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

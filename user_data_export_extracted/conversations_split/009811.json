@@ -1,0 +1,28 @@
+{
+  "context_uuid": "318f6c4b2371423997d8093f30d39364",
+  "context_title": "keresem azt az egy kep tomorito appot iphonera ami az egyedi olyan hogy valami csoda szeruen kiemelkedoen jobban tomorit mint a tobbi tomorito app minosegvesztes nelkul",
+  "created_at": "20250624T10:45:14.817690Z",
+  "updated_at": "20250624T10:46:27.108595Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b54a756e645c49f4b2cd29c9dacfe6a6",
+      "query": "keresem azt az egy kep tomorito appot iphonera ami az egyedi olyan hogy valami csoda szeruen kiemelkedoen jobban tomorit mint a tobbi tomorito app minosegvesztes nelkul",
+      "answer": "Az általad keresett, „csodaszámba menő” képtömörítő app iPhonera, amely valóban kiemelkedően jól tömörít minőségveszteség nélkül, jelenleg a következő alternatívák közül kerülhet ki, de fontos tudni: a tömörítés minősége és mértéke mindig függ a forráskép típusától (JPEG, HEIC, RAW stb.) és a használt algoritmustól. Teljesen veszteségmentes, de mégis drasztikus méretcsökkenést ígérő app nincs, de vannak kiemelkedően jók, amelyek közel járnak ehhez.\n\n Legkiemelkedőbb iPhone képtömörítő appok\n\n1. JPEG XL Toolbox for iOS\n Ez az app a legújabb JPEG XL formátumot használja, amely jelenleg az egyik leghatékonyabb veszteségmentes és vizuálisan veszteségmentes tömörítést kínálja fényképeknél, különösen ProRAW (DNG) képeknél.\n Képes akár a ProRAW képeket is tömöríteni úgy, hogy a fájlméret akár a felére csökken, miközben minden metaadat, 16 bites színmélység és HDRinformáció is megmarad. A vizuális különbség még erős nagyításnál vagy utólagos szerkesztésnél is alig észrevehető[1][2].\n A legfrissebb verzió már teljesen veszteségmentes tömörítési módot is kínál ProRAWhoz, így valóban minőségromlás nélkül csökkenthető a fájlméret[1][2].\n\n2. Zero Loss Compress (TestFlight/hamarosan App Storeban)\n Ez az app általános képekhez (JPEG, HEIC, stb.) kínál veszteségmentes tömörítést, kb. 20%os méretcsökkenéssel, miközben a minőség és a metaadatok is megmaradnak.\n Bár nem „csodafegyver”, de a jelenlegi technológiák között a veszteségmentes tömörítésben ez a 20% már nagyon jónak számít[3].\n\n3. Compress Photos & Pictures (New Marketing Lab, Inc.)\n Ez az app szintén nagyon jó minőségű tömörítést kínál, főleg JPEG és HEIC képeknél, és a felhasználók szerint az algoritmusa „top kategóriás”, azaz alig észrevehető a minőségromlás, miközben jelentős méretcsökkenést ér el[4].\n Manuálisan kell kiválasztani a képeket, így a felhasználó teljes kontrollt kap.\n\n Formátumok összehasonlítása\n\n| Formátum      | Veszteségmentes tömörítés | Tömörítés hatékonysága | Metaadatok megőrzése | iOS támogatás |\n||::|::|::|::|\n| JPEG XL       | Igen                     | Nagyon jó              | Igen                 | Részben (appon belül) |\n| HEIC          | Részben                  | Jó                     | Igen                 | Teljes        |\n| JPEG          | Korlátozott              | Közepes                | Igen                 | Teljes        |\n\n Összegzés\n\nJelenleg, ha tényleg a legmodernebb, veszteségmentes, de mégis jelentős tömörítést keresel iPhonera, akkor a JPEG XL Toolbox a legígéretesebb választás, főleg RAW/ProRAW képeknél, de általános képekhez a Zero Loss Compress vagy a Compress Photos & Pictures appokat is érdemes kipróbálni[4][1][2][3].\n\nHa valóban „csodás” tömörítést keresel, ami minden más appot felülmúl, az a jelenlegi technológiai korlátok miatt kompromisszumokkal járhat, de a JPEG XL formátum és a hozzá tartozó appok most a legközelebb állnak ehhez az elváráshoz.",
+      "created_at": "20250624T10:45:14.867381Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "70d51d57d19d40dab04852841a4f4732",
+      "query": "keresem azt az egy kep tomorito appot iphonera ami az egyedi olyan hogy valami csoda szeruen kiemelkedoen jobban tomorit mint a tobbi tomorito app minosegvesztes nelkul",
+      "answer": "Az iPhonera jelenleg elérhető, valóban kiemelkedően hatékony, minőségveszteség nélküli képtömörítő app, amelyet a közösség is „csodaszerűnek” tart, a JPEG XL Toolbox for iOS. Ez az alkalmazás különösen a ProRAW (DNG) képek esetén tud akár 50%os veszteségmentes méretcsökkentést, miközben minden metaadat, 16 bites színmélység és HDRinformáció megmarad, és a képminőség teljesen változatlan marad még utólagos szerkesztésnél is[1][2].\n\nA JPEG XL Toolbox legújabb verziója (0.3.1) már támogatja a teljesen veszteségmentes tömörítést ProRAW DNG fájlokra, így a fájlméret akár a felére csökken, de a kép minősége, szerkeszthetősége és minden technikai információja változatlan marad[2]. A felhasználók szerint ez jelenleg a legjobb megoldás iOSen, ha tényleg kompromisszummentes tömörítést keresel.\n\nMás, általánosabb képtömörítő appok (pl. ImageOptim, Optimage) főként Macre érhetők el, vagy nem kínálnak ilyen mértékű veszteségmentes tömörítést iPhoneon[3][4]. Ha tehát az „egyedi, csodaszerű” appot keresed iPhonera, amely tényleg kiemelkedően tömörít minőségveszteség nélkül, akkor a JPEG XL Toolbox for iOS a válasz[1][2].",
+      "created_at": "20250624T10:46:13.523224Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

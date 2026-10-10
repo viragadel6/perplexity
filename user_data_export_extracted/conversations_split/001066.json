@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2172e3b6728543d2be6734bdde047d31",
+  "context_title": "",
+  "created_at": "20260812T14:28:20.175020Z",
+  "updated_at": "20260812T14:28:33.288635Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fe06bc11a1f14929a0b63bc2bf37051f",
+      "query": "",
+      "answer": " What app.honcho.dev Is\n\nThe URL  is the login and dashboard portal for Honcho, a memory infrastructure platform for building stateful AI agents. It offers signin via Google, GitHub, email/password, or magic link, and a \"Create Account\" option for new users.[1]\n\n What Honcho Does\n\nHoncho is an opensource memory library (with a managed cloud service) designed to help AI agents build and maintain persistent, evolving understanding of \"peers\" — users, other agents, groups, projects, and ideas — over time. Rather than resetting context every session, it lets developers store messages and events, then have Honcho reason on them in the background so agents can query peer representations, session context, search results, or naturallanguage insights from any LLM or framework. The project's tagline positions it for use cases like AI companions where \"relationships deepen, not reset\".[2][3][4]\n\n Getting Started on the Platform\n\nWhen you sign up at app.honcho.dev, you're prompted to join (or create) an organization, which receives its own dedicated Honcho instance plus $100 in free credits. From there, the dashboard exposes:[3][5]\n\n API Keys page — generate keys needed to call the Honcho API[5]\n API Playground (app.honcho.dev/playground) — test queries and explore endpoints inbrowser without writing code[6]\n Webhooks page — configure realtime event notifications (message delivery, session updates, peer state changes) via HTTP POST[6]\n Members page — manage organization/team access and admin permissions[6]\n\n Pricing and SelfHosting\n\nThe managed service charges for ingestion (storing + background \"Neuromancer\" reasoning) at $2.00 per million tokens, offers an unlimited, ~200ms context() call for retrieving curated state, and tiered query pricing ($0.001/query for basic conclusions, up to $0.50/query for deeper ones). If you'd rather not use the hosted service, Honcho is opensource (github.com/plasticlabs/honcho) and can be selfhosted via Docker or manually with PostgreSQL + pgvector, pointing the Python/TypeScript SDKs at your own localhost:8000 instance instead of api.honcho.dev.[4][7][3]",
+      "created_at": "20260812T14:28:20.277680Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c6f4b6f1ddba492dac0dbbbdde0e00e2",
+  "context_title": "curl X GET \\\n     \"\" ez jo minosegu pretrainhez?",
+  "created_at": "20260808T09:04:29.279921Z",
+  "updated_at": "20260808T09:04:59.977561Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "48d0a5929e164d7baf7bc87e8a633581",
+      "query": "curl X GET \\\n     \"\" ez jo minosegu pretrainhez?",
+      "answer": "A BrunoNDev/oasst1 valószínűleg csak egy tükrözött/feltöltött másolata az eredeti OpenAssistant/oasst1 adathalmaznak – ez alapján lehet megítélni a minőségét és a felhasználhatóságát.[1]\n\n Mi ez az adathalmaz valójában\n\nAz OASST1 egy emberek által generált és annotált beszélgetéskorpusz: 161 443 üzenet, 35 nyelven, 461 292 minőségi értékeléssel, több mint 10 000 teljesen kiértékelt beszélgetési fával. Ez egy önkéntes crowdsourcing projekt eredménye (13 500+ résztvevő), tehát a tartalom minősége viszonylag magas és emberi felügyelet alatt áll.[2][1]\n\n Alkalmase pretrainhez?\n\nNem igazán ez a rendeltetése. Néhány ok:\n\n Méret: 161 ezer üzenet (néhány tízszáz millió token nagyságrendben sem biztos, hogy eléri) eltörpül a valódi pretraining korpuszok mellett, amelyek jellemzően több milliárd–billió tokenből állnak.[3][4]\n Formátum: Az adat dialógusfa struktúrájú (kérdésválasz párok, role: prompter/assistant), nem folyamatos, természetes szöveg – ez pontosan az instrukciófinomhangoláshoz (SFT) és RLHFhez lett tervezve, nem alap nyelvmodell pretrainhez.[5][1]\n Sokféleség hiánya: A jó minőségű pretraining adatnak széles forrásskálán kell átívelnie (hírek, enciklopédiák, kód, tudományos szövegek stb.), míg az OASST1 kizárólag chatstílusú párbeszédeket tartalmaz.[4]\n\n Mire jó valójában\n\n Instrukciókövetés finomhangolására (SFT): ez a tényleges célja, ehhez kiváló minőségű, mert emberi rangsorolás (rank) és minőségi metaadatok (review_count, review_result, detoxify pontszámok) is tartoznak hozzá.[1]\n RLHF/preferenciatanításhoz: a rank mező alapján közvetlenül használható válaszpreferenciák tanítására.\n Kontinuális pretraining kiegészítőjeként, kis arányban, ha a cél a beszélgetési/asszisztensstílus megerősítése egy már előtanított modellben – de önmagában, alappretraininghez nem elegendő és nem is arra való.\n\nHa kifejezetten pretrainhez keresel adatot, inkább nagy, folyó szövegű korpuszokat érdemes nézni (pl. FineWeb, C4, RedPajama), az OASST1et pedig a finomhangolási fázisban érdemes bevetni.[6][3]",
+      "created_at": "20260808T09:04:29.390124Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

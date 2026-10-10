@@ -1,0 +1,73 @@
+{
+  "context_uuid": "f9fece7e32ea4153b9cc34556d475722",
+  "context_title": "sorold fel az osszes llm arhetikural mint pl transformersz ssm tgn gcn",
+  "created_at": "20250925T21:48:36.004318Z",
+  "updated_at": "20250926T05:37:41.667582Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "562f6064172445799456e618a85dfe42",
+      "query": "sorold fel az osszes llm arhetikural mint pl transformersz ssm tgn gcn",
+      "answer": " Főbb LLMarchitektúrák áttekintése\n\nAz alábbiakban a legfontosabb, nyelvi modellekben (LLM – Large Language Model) alkalmazott hálózati architektúrákat soroljuk fel, rendszerezve őket szerkezeti elvük és főbb jellemzőik szerint.\n\n 1. Hagyományos szekvenciális modellek  \n Rekurzív neurális hálózat (RNN)  \n Hosszú rövid távú memória (LSTM)  \n Gru (Gated Recurrent Unit, GRU)  \n Kvázikonvolúciós RNN (QRNN)  \n\n 2. Figyelemalapú (Attention) modellek  \n Transformer (Vaswani et al., 2017)  \n TransformerXL – szegmentált hosszú távú függőségek  \n Compressive Transformer – régi állapotok tömörítése  \n Reformer – lokális figyelem és LSHalapú sparsity  \n Linformer – alacsony rangú figyelmi mátrix  \n Performer – véges kerneldetektálás (FAVOR⁺)  \n Longformer – ablakos + globális sparsity  \n BigBird – véletlenszerű + blokkszerű figyelem  \n Routing Transformer – klusteralapú routing  \n Sparse Transformer – csökkentett figyelmi gráf  \n Funnel Transformer – lejjebb irányuló mintavétel  \n\n 3. Állapottér (StateSpace) modellek  \n S4 (Structured State Space Sequence)  \n SSM (State Space Models) általánosan  \n S5 – továbbfejlesztett S4 variáns  \n\n 4. Grafalapú architektúrák  \n GCN (Graph Convolutional Network)  \n GAT (Graph Attention Network)  \n Graph Transformer – gráf + önfigyelem  \n TGN (Temporal Graph Networks) – időfüggő gráffolyamatok  \n Graphormer – transformer a gráfok felett  \n\n 5. Konvolúciós szekvenciamodellek  \n ConvS2S (Convolutional Seq2Seq)  \n ByteNet  \n SliceNet  \n\n 6. Memóriakiterjesztett modellek  \n Memory Networks  \n Differentiable Neural Computer (DNC)  \n Neural Turing Machine (NTM)  \n\n 7. Hibrid és speciális változatok  \n Mixture of Experts (MoE) – sparselyactivated rétegek  \n Retro (Retrievalaugmented Transformer)  \n Prefixtuning / Adaptertuning – paraméterhatékony finomhangolás  \n\n\n\nEz a lista tartalmazza a legszélesebb körben használt és kutatott LLMarchitektúrákat, összefoglalva a főbb kategóriákat és példákat.",
+      "created_at": "20250925T21:48:36.133505Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "c80c021c882e4862b121d6afc58005e2",
+      "query": "azokat kuld amik az utolso harom honapba jelentek meg",
+      "answer": " Az elmúlt három hónapban (2025. június 26. – szeptember 26.) megjelent LLMarchitektúrák\n\nAz elmúlt negyedév során nem jelentek meg teljesen új, eddig soha nem látott LLMarchitektúrák: a legtöbb publikáció és termék–frissítés a meglévő Transformervonal továbbfejlesztéseire és finomhangolásaira (pl. kontextusablaknövelés, sparsitymódszerek) összpontosított.  \n\nEgyetlen jelentősebb új modellmegjelentés, amely ennél is inkább egy továbbfejlesztett Transformervariáns, a következő:  \n\n Gemini 2.5 Pro (Google DeepMind)  \n  – Kiadás: 2025 június  \n  – Újdonság: 1 millió tokent befogadó kontextusablak, multimodális képességek, továbbfejlesztett „MixtureofExperts” sparsity rétegek  \n\nÖsszefoglalva, a hivatalos irodalomban az elmúlt három hónapban nem jelent meg új elméleti LLMarchitektúra; a hangsúly a meglévők optimalizálásán, skálázásán és agentrendszerekbe való integrálásán volt.",
+      "created_at": "20250925T21:49:48.579333Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "9e7b8ddab29740029d11cc8a7d760b32",
+      "query": "llm arhetikural amik nem transformersz ssm tgn gcn",
+      "answer": " LLMarchitektúrák (kivéve Transformer, SSM, TGN, GCN)\n\nAz alábbiak olyan jelentős nyelvi modellarchitektúrák, amelyek nem alapulnak Transformeren, StateSpace Modelen, Temporal Graph Networkön vagy Graph Convolutional Networkön.\n\n 1. Rekurrens neurális hálózatok (RNN)\nKlasszikus sorozatmodellek, amelyek rekurzív állapotfrissítéssel dolgoznak.\n LSTM (Long ShortTerm Memory) és GRU (Gated Recurrent Unit) architektúrák a hosszútávú függőségek tanulására specializált változatokkal [1][2].\n\n 2. Konvolúciós szekvenciaszekvencia modellek (CNNSeq2Seq)\nÖsszefüggő ngram információt konvolúciós rétegek révén kezelnek, párhuzamosan gyorsabb feldolgozással.\n Gehring et al. által bevezetett CNNalapú fordítóhálózatok, ahol a figyelem (attention) helyett többszintű konvolúciós blokkok állítják elő a kimenetet [1][2].\n\n 3. Szakértők keveréke (Mixture of Experts, MoE)\nTöbb alhálózat (“szakértő”) közül dinamikusan választ, így nagy paraméterszám mellett is megőrizhető az inferenciahatékonyság.\n Switch Transformer, GLaM, Mixtral és egyéb MoEmodellek, melyeknél a routingmechanizmus dönti el, mely szakértő(ke)t hívjuk meg [3][4].\n\n 4. Lekérdezéskiegészített generatív modellek (RetrievalAugmented Generation, RAG)\nA generálás során külső tudásbázisokból keres be kontextust, és azokat beépítve állítja elő a kimenetet.\n Facebook RAG, RetrievalEnhanced Transformer, de más architektúrák esetén is alkalmazható elv [4].\n\n 5. Memóriakiterjesztett hálózatok\nKülső memóriaegységekhez (memóriatábla, táblalátogató struktúrák) kapcsolódó modellek.\n Neural Turing Machine, Differentiable Neural Computer: tanulható címzéssel, be és kimeneti memóriahozzáféréssel [1].\n\n 6. Előremenő (feedforward) nyelvi modellek\nAdatsablonos vagy rekurzív logika nélküli, többrétegű perceptronokkal működő modellek.\n Korai NNLMek, ahol fixablakos ngramokból becsülték a következő szó valószínűségét [1].\n\n 7. Efficiens figyelemmentes modellek\nOlyan új ötletek, amelyek teljesen elhagyják a figyelemmechanizmust.\n Perceiverszerű építmények, ahol teljesen feedforward vagy, explicit figyelem nélküli, de projekciós rétegekkel becsülik a korrelációkat [2].\n\nEzek az architektúrák mind másmás kompromisszumot kínálnak a tanulási hatékonyság, párhuzamosság, hosszútávú függőségek kezelése és skálázhatóság között.",
+      "created_at": "20250925T21:50:58.095898Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "35997f252e9d413195516cb996310f5e",
+      "query": "mindet kerem \nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Rekurrens neurális hálózat (RNN)  \n Hosszú rövid távú memória (LSTM)  \n Gated Recurrent Unit (GRU)  \n Kvázikonvolúciós RNN (QRNN)  \n Konvolúciós szekvencia–szekvencia modellek (ConvS2S)  \n ByteNet  \n SliceNet  \n Mixture of Experts (MoE)  \n Memóriahálózat (Memory Networks)  \n Neural Turing Machine (NTM)  \n Differentiable Neural Computer (DNC)  \n Feedforward nyelvi modellek (MLPalapú NNLM)  \n Perceiverszerű, figyelemmentes feedforward modellek",
+      "created_at": "20250925T21:51:35.934154Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "dc7a17fb91ef471892956df08f1ffd3a",
+      "query": "llm arhetikural amik nem transformersz ssm tgn gcn \nmindet kerem \nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül. \nde amibol meg egy llm sem keszult",
+      "answer": " Hosszú rövid távú memória (LSTM)  \n Gated Recurrent Unit (GRU)  \n Kvázikonvolúciós RNN (QRNN)  \n Konvolúciós szekvencia–szekvencia modellek (ConvS2S)  \n ByteNet  \n SliceNet",
+      "created_at": "20250925T21:52:57.509146Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "79ebe266594641a3b6dd20236e19c34d",
+      "query": "de az archetikura neve válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " CNN  \n ResNet  \n DenseNet  \n VGG  \n AlexNet  \n Inception  \n Boltzmann Machine  \n Radial Basis Function Network  \n Hopfield Network  \n Autoencoder  \n Variational Autoencoder  \n Generative Adversarial Network  \n Echo State Network  \n Liquid State Machine  \n SelfOrganizing Map  \n Capsule Network  \n Neural Turing Machine  \n Differentiable Neural Computer  \n Reservoir Computing  \n Spiking Neural Network",
+      "created_at": "20250925T21:54:09.418865Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "256b454d9ac34ff981202e12dc255196",
+      "query": "de amikbol llm keszitheto Rootlevel LLM, amelynek saját architektúrája, futtatókörnyezete, hardvere, tokenizálója, optimalizálója, tanítóadatfeldolgozó pipelineja, telepítési rendszere van",
+      "answer": " GPT (OpenAI)  \n PaLM (Google)  \n LLaMA (Meta)  \n Claude (Anthropic)  \n Mistral (Mistral AI)  \n Gemma (Google)  \n Falcon (TII)  \n Bloom (BigScience)  \n Mistral Mixer (Mistral AI)  \n UL2 (Google)",
+      "created_at": "20250925T21:54:45.159033Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

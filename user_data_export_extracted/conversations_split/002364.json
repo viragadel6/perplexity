@@ -1,0 +1,19 @@
+{
+  "context_uuid": "68c3861ef21f48dbaf44b0b1379d2f5b",
+  "context_title": "Keresd meg vannak e free trialjaim vagy promo codeok ilyesmik amikkel full full ingyen kapok dolgokat mint api k meg ilyesmi",
+  "created_at": "20260516T23:34:39.157061Z",
+  "updated_at": "20260516T23:35:33.613957Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b9a27e7fc99046159e47041fa42f7490",
+      "query": "Keresd meg vannak e free trialjaim vagy promo codeok ilyesmik amikkel full full ingyen kapok dolgokat mint api k meg ilyesmi",
+      "answer": "Sajnos nem tudok hozzáférni az emailjeidhez, mert nincs Gmailhitelesítés beállítva a fiókodhoz . Enélkül nem tudom megkeresni az esetleges free trial ajánlatokat, promo kódokat vagy ingyenes APIhozzáféréseket az inboxodban.\n\n Mit tehetsz helyette?\n\nA legjobb megoldás, ha saját magad keresel rá az emailjeidben a következő kulcsszavakra. Ezeket érdemes a Gmail keresőbe beírni:\n\nMagyar kifejezések: ingyenes, próbaidő, kupon, promóció\n\nAngol kifejezések: free trial, promo code, redeem, complimentary, activate, coupon, API key, free access, trial expires, claim your\n\n Hol érdemes körülnézni manuálisan?\n\nA legtöbb ilyen ajánlat ezekből a forrásokból szokott érkezni: onboarding emailek SaaSszolgáltatásoktól (pl. OpenAI, Anthropic, Vercel, Supabase), GitHub Education Pack (ha van diák emailcímed, rengeteg ingyenes eszközt ad), Product Hunt launch emailek, developer newsletterek (pl. daily.dev, TLDR), valamint konferenciák/hackathonok után szoktak küldeni API krediteket.\n\n Ingyenes APIk és trialok, amiket érdemes megnézni (2026)\n\nHa most keresel ingyenes API hozzáférést, ezek a legjobb aktív lehetőségek:\n\n| Szolgáltatás | Ingyenes keret | Megjegyzés |\n||||\n| Google AI Studio (Gemini) | Ingyenes tier | Nincs kártyaszám szükséges |\n| Groq API | Ingyenes szint | Nagyon gyors LLM inference |\n| Mistral AI | Ingyenes API tier | Erős EUs modell |\n| Hugging Face Inference API | Free tier | Sok modell elérhető |\n| Cloudflare Workers AI | 10k kérés/nap ingyen | Edge AI |\n| Cohere | Ingyenes trial API | NLP feladatokhoz |\n| Vercel | Free hobby tier | Frontend + serverless |\n| Supabase | Free tier (2 projekt) | Backend + DB |\n| GitHub Copilot | 30 napos trial | Ha még nem próbáltad |\n\nHa meg tudod adni, hogy milyen típusú eszközre vagy kíváncsi (pl. LLM API, cloud hosting, adatbázis, valami más), pontosabb ajánlatokat tudok adni!",
+      "created_at": "20260516T23:34:39.231589Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

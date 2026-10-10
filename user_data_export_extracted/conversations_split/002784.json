@@ -1,0 +1,28 @@
+{
+  "context_uuid": "b5c47f7381c2444e9d255b350d651088",
+  "context_title": "\nebből a weboldal akarok csinálni egy teljes llm train stetset jsonl formatumba\nreplit en\negy main.py vel\nlegfejlettebb, legjobban tisztított, legmagasabb minőségű training data setek kellenek, amelyek magasabb minőségűek, mint a GPT‑5, Grok‑4, Gemini‑2.5, Claude‑4.5, DeepSeek‑3.2, Qwen‑3 vagy LLaMA‑4 által használtak. Ha ezekből a data setekből együttesen betanítok egy modellt, akkor az képes lesz elsajátítani a teljes földi tudást, és a világ első számú, legfejlettebb LLM‑je lehet a jaide hez kell \ngithub kollarsandor/kissofdeath ez a jaide\nnezd at teljesen a weboldalt es az alapjan ird meg a main.pyt ami le crawolja es MINDEN INFORMACIO LEGYEN BENNE de tokeletesen a sets be\nezt az llm et hasznald hozza:\n\nimport requests\n\nurl = \"\"\n\npayload = {\n    \"model\": \"Qwen/Qwen3Coder480BA35BInstructFP8\",\n    \"max_tokens\": 250000,\n    \"temperature\": 0.1,\n    \"messages\": [\n        {\n            \"role\": \"user\",\n            \"content\": \"Hello, how are you?\"\n        }\n    ],\n    \"top_p\": 1,\n    \"top_k\": 40,\n    \"presence_penalty\": 0,\n    \"frequency_penalty\": 0\n}\nheaders = {\n    \"Authorization\": \"Bearer aklivehHMZYehWIWQR8fXjy39yz8Y28fPkBXSy\",\n    \"ContentType\": \"application/json\"\n}\n\nresponse = requests.post(url, json=payload, headers=headers)\n\nprint(response.text)\nez kurva lassu\nes ugy gondoltam hogy crawl utan rogton jsonl t irja minden egyes crawl utan \nes ugy gondoltam hogy 10 masodperc alatt azert legslabb 5 sor legyen mar\n\nde ez meg mindig bazdmeg csak wrestler profiles de rogton azonnal az elso utan mar kene irnia a jsonl t",
+  "created_at": "20260422T14:45:54.462259Z",
+  "updated_at": "20260422T15:43:23.904965Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "07503d27fe6c4c36be4d29ff326a0fe4",
+      "query": "\nebből a weboldal akarok csinálni egy teljes llm train stetset jsonl formatumba\nreplit en\negy main.py vel\nlegfejlettebb, legjobban tisztított, legmagasabb minőségű training data setek kellenek, amelyek magasabb minőségűek, mint a GPT‑5, Grok‑4, Gemini‑2.5, Claude‑4.5, DeepSeek‑3.2, Qwen‑3 vagy LLaMA‑4 által használtak. Ha ezekből a data setekből együttesen betanítok egy modellt, akkor az képes lesz elsajátítani a teljes földi tudást, és a világ első számú, legfejlettebb LLM‑je lehet a jaide hez kell \ngithub kollarsandor/kissofdeath ez a jaide\nnezd at teljesen a weboldalt es az alapjan ird meg a main.pyt ami le crawolja es MINDEN INFORMACIO LEGYEN BENNE de tokeletesen a sets be\nezt az llm et hasznald hozza:\n\nimport requests\n\nurl = \"\"\n\npayload = {\n    \"model\": \"Qwen/Qwen3Coder480BA35BInstructFP8\",\n    \"max_tokens\": 250000,\n    \"temperature\": 0.1,\n    \"messages\": [\n        {\n            \"role\": \"user\",\n            \"content\": \"Hello, how are you?\"\n        }\n    ],\n    \"top_p\": 1,\n    \"top_k\": 40,\n    \"presence_penalty\": 0,\n    \"frequency_penalty\": 0\n}\nheaders = {\n    \"Authorization\": \"Bearer aklivehHMZYehWIWQR8fXjy39yz8Y28fPkBXSy\",\n    \"ContentType\": \"application/json\"\n}\n\nresponse = requests.post(url, json=payload, headers=headers)\n\nprint(response.text)\nez kurva lassu\nes ugy gondoltam hogy crawl utan rogton jsonl t irja minden egyes crawl utan \nes ugy gondoltam hogy 10 masodperc alatt azert legslabb 5 sor legyen mar\n\nde ez meg mindig bazdmeg csak wrestler profiles de rogton azonnal az elso utan mar kene irnia a jsonl t",
+      "answer": "Most a cagematch.net struktúrát megértem. Most megírom a teljes main.pyt a Replit projektbe.",
+      "created_at": "20260422T14:45:54.599247Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "68964932437a43fe8f4aafc2c26376ad",
+      "query": "ne írj semmi mást csak a teljes fájlokat es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód nem lehet trancutted nem lehet olyan hogy …és hasonlóan 50 xy nem lehet dummy to do sorry hiányosság minden fájl teljes kódját egyesével fájkba írod semmi mást nem írsz ezen kívűl",
+      "answer": "A fájl tartalmát egyesével fájlba írja",
+      "created_at": "20260422T15:39:21.334970Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

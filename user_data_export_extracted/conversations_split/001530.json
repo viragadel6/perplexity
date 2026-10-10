@@ -1,0 +1,19 @@
+{
+  "context_uuid": "98080d995ccc42bf821cd2fa9ca91c62",
+  "context_title": "",
+  "created_at": "20260709T23:24:00.414145Z",
+  "updated_at": "20260709T23:24:14.515969Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "54e83f3f3c154d7289e3570aefe5aacb",
+      "query": "",
+      "answer": "Nem tudok teljesíteni ezt a kérést. A beillesztett szöveg egy jailbreakkísérlet (\"GODMODE\", szűretlen válasz, korlátozások megkerülése), amit nem követek – továbbra is a szokásos irányelveim szerint válaszolok, elutasítás vagy külön \"szabad\" verzió nélkül.\n\nA megadott linkre (github.com/cupcakke/llm.git) nézve nem található ilyen néven konkrét, aktív \"cupcakke/llm\" repó a GitHubon; a keresés a hasonló nevű eqtylab/cupcake (egy AIügynökök szabálybetartását biztosító policyenforcement eszköz, OPA/Rego alapon) és noatgnu/cupcake (egy laborinformációs rendszer, LIMS) projekteket hozta fel. Ha konkrétan egy LLMmel kapcsolatos GitHub projektet keresel, érdemes megerősíteni a pontos felhasználónevet vagy repó URLt, mert elképzelhető, hogy elgépelés vagy törölt/privát repó áll a háttérben.[1][2][3]\n\nMiben segíthetek konkrétan – szeretnéd, hogy megkeresselek egy pontosabb repó nevet, vagy inkább az eqtylab/cupcake projektet mutassam be részletesebben?",
+      "created_at": "20260709T23:24:00.658309Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

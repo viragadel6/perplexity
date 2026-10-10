@@ -1,0 +1,19 @@
+{
+  "context_uuid": "49200f031b984f11871b7dd49acd2137",
+  "context_title": "Ez mi?  Magyarul ertekeld ",
+  "created_at": "20260112T06:47:52.456141Z",
+  "updated_at": "20260112T06:47:52.456141Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "104d80e3e7b4443fa2038fb1c4019532",
+      "query": "Ez mi?  Magyarul ertekeld ",
+      "answer": "Igen, sajnálattal kell közölnöm, hogy az https://github.com/kollarjade/selfsaboteur.git repository nem elérhető vagy nem létezik a megadott URLen.\n\n Kutatási Összefoglalás\n\n Mit próbáltam ki:\n\n1. Közvetlen URLlekérés  Nem volt elérhető tartalom\n2. Kulcsszavak alapú keresés  \"kollarjade\", \"selfsaboteur\", \"kollarjade github\", \"selfsaboteur python\"  nem a keresett repositoryt adtak vissza\n3. GitHub adatbázisok kutatása  Többféle variációval kerestem\n4. Fejlesztő profil keresése  A \"kollarjade\" usernamere nem találtam aktív GitHub profilt a relevancia keretein belül\n\n Mit találtam helyette:\n\nAz általános \"saboteur\" keresésekből más érdekes projektekre bukkanok:\n\n tomakehurst/saboteur  Hálózati hibákat szimulál (resilience testing eszköz)\n nickylogan/saboteur  A Saboteur kártyajáték Java implementációja\n abustany/saboteur  GitHub merge bot\n Protestware és selfsabotage témák  Számos referencia a fejlesztők által szándékosan sabotált nyílt forráskódú projektekről\n\n Lehetséges Okok a NemHozzáférhetőségre:\n\n1. Archivált Repository  A fejlesztő letiltotta vagy archiválta\n2. Privát Repository  Csak bejelentkezéssel elérhető\n3. Törölt Repository  Már nem létezik GitHubon\n4. Typo a URLben  Lehetséges, hogy más az aktuális username vagy repo név\n5. Nem Publikus  Soha nem volt nyilvánosan elérhető\n\n Javaslat:\n\nHa van több információd a repositoryról (pl. a projekt célja, technológiája, vagy más hivatkozás), szívesen végzek mélyebb kutatást. Alternatívaként, ha ismered az aktuális URLt vagy a fejlesztő valódi GitHub usernamejét, azt szívesen lekérjem és elemzem.",
+      "created_at": "20260112T06:47:52.635253Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

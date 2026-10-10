@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7fa7824a3881472dbabe6700cc82377d",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20260213T20:55:34.598101Z",
+  "updated_at": "20260213T20:56:49.826965Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fa88f6be26c34e2493513dfe0b5c8d05",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": "A négy ZIP egy összetett, többnyelvű (szoftver + hardver + formális verifikáció) projektcsomagnak tűnik, „JAIDE v40” jelöléssel és LLM/inferencia, verifikációs és FPGA/ASIC build pipeline elemekkel.   \nRöviden: ez inkább egy kutatási/prototípus jellegű „AI rendszer + bizonyítás/ellenőrzés + hardveres gyorsítás” repó szelete, nem egy átlagos app. \n\n Mit tartalmaznak a ZIPek\n file4.zip: a fő kódbázisnak látszik, src/ alatt rengeteg Zig fájllal (pl. src/api/inference_server.zig, src/core/tensor.zig), és mellette komoly verifikációs/„proof” infrastruktúra több eszközzel/nyelvvel (Agda .agda, Lean .lean, Isabelle .thy, TLA+ .tla, Promela .pml, Viper .vpr).   \n file3.zip: egy kicsi, célzott verifikációs csomag Cryptol + SAW köré szervezve (quantum_graph.cry, verify.saw, letöltős futtató script).   \n file2.zip: hardveres mappastruktúra ASIC/FPGA irányba (hw/asic/*.tcl, hw/fpga/top_level.v, constraint fájlok), plusz Zig fuzz tesztek (fuzz_memory.zig, fuzz_tensor.zig).   \n file1.zip: build/automation scriptek (verifikáció futtatás, profiling, és egy FPGA szintézis pipeline), a script explicit említi: „JAIDE v40 FPGA Synthesis Pipeline”, célként iCE40HX8K boardot, és Clash HDL → Verilog lépést. \n\n Mire való (valószínű célkép)\nA struktúra alapján egyszerre célozza: (1) egy Zigben írt „inference server” és core tensor/memória réteg elkészítését, (2) bizonyos komponensek formális verifikálását több prover/toolchain segítségével, (3) hardveres gyorsítást vagy legalábbis hardverkompatibilis RTL/flow fenntartását (FPGA/ASIC).   \nA nsir_core/quantum_graph.cry és a src/core_relational/ibm_quantum.zig jellegű fájlnevek arra utalnak, hogy van benne „quantum/graph” vonal is, valószínűleg modellezési vagy ellenőrzési célból. \n\n Értékelés (magyarul, őszintén)\nErősség, hogy ritkán látni egy csomagban ennyire „teljes spektrumot”: Zig core, fuzzing, FPGA/ASIC flow, és több, egymástól független formális verifikációs ökoszisztéma egy helyen.   \nGyengeség/riszk, hogy csomagolás szempontból jelen formában „reposzeletnek” hat: nem látszik a gyökérben README/licenc/build leírás (legalábbis a listázott elemekben nem bukkant fel), így kívülállónak nehéz reprodukálni és megérteni a belépési pontot.   \nTovábbi kockázat, hogy a file-4.zip tartalmaz .pyc fájlokat is, ami általában build artifact; ez verziókezelésben és terjesztésben kerülendő (zajos, platformfüggő, és félrevihet). \n\n Mit kérdezzek tőled a pontosításhoz\n1) Te készítetted ezeket, vagy kaptad valakitől, és azt kell megmondani, hogy „biztonságose / legite”?  \n2) A „Magyarul értékeld” alatt inkább technikai minősítést (architektúra, maintainability) kérsz, vagy „mi ez a csomag és mit csinál” jellegű azonosítást?",
+      "created_at": "20260213T20:55:34.680865Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

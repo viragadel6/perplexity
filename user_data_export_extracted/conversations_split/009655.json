@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7bd5d548a8e643888b6d86c4263fe7e1",
+  "context_title": "",
+  "created_at": "20250707T14:19:38.169980Z",
+  "updated_at": "20250707T14:19:38.169980Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f6214c45541b40ff968a0f6db4722014",
+      "query": "",
+      "answer": "A  URL egy is.gd rövidített link. Az is.gd egy ingyenes URLrövidítő szolgáltatás, amely hosszú webcímeket rövid, könnyen megosztható formátumra alakít át[12][17]. Az ilyen linkek mögött bármilyen internetes oldal lehet, mivel a szolgáltatás bárki számára elérhető.\n\nFontos tudni:\n Az is.gd linkek célja általában az, hogy egyszerűbbé tegyék a hosszú webcímek megosztását, például SMSben, közösségi médián vagy nyomtatott anyagokon[12].\n A rövidített linkek nem árulják el előre, hogy pontosan hova vezetnek, ezért mindig érdemes óvatosnak lenni, különösen, ha ismeretlen forrásból származnak[9].\n Az is.gd szolgáltatás nem tárol előnézetet vagy tartalmat, kizárólag átirányít a megadott céloldalra.\n\nHa statisztikát szeretnél látni erről a linkről, az is.gd oldalon lehetőség van a linkhez tartozó statisztikák megtekintésére, ha a link készítője ezt engedélyezte[11].\n\nFigyelem: Mivel a rövidített linkek bárhová vezethetnek, mindig körültekintően kattints rájuk, főleg, ha nem megbízható forrásból származnak[9].",
+      "created_at": "20250707T14:19:38.291103Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

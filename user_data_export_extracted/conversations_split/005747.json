@@ -1,0 +1,19 @@
+{
+  "context_uuid": "013fd8c553c049a383e296f614f00cc0",
+  "context_title": "",
+  "created_at": "20251212T10:51:23.816026Z",
+  "updated_at": "20251212T10:51:23.816026Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7b8b2fe616494f1ebd2fccb2d5493671",
+      "query": "",
+      "answer": "A nixoshardware egy NixOSmodulgyűjtemény, ami géptípusokra és hardverkülönlegességekre ad kész profilokat (pl. laptopok, SBCk, „common” CPU/GPU beállítások), és ezeket importstal lehet bekapcsolni. \n\n Mi található benne\nA repo célja, hogy „hardware quirks” jellegű NixOS beállításokat adjon újrahasznosítható profilok formájában, eszköz/modelspecifikus útvonalakkal és közös (pl. CPU/GPU) modulokkal.   \nFlakeként kiexportálja a profilokat nixosModules.<név> alatt, és a támogatott modulnevek listája a flake.nixben van felsorolva. \n\n Használat csatornával (nemflake)\nA README szerint felvehető külön Nix csatornaként (a GitHub master tarball URLjével), majd a megfelelő profilt be kell tenni a rendszer imports listájába (például egy ThinkPadprofil útvonalával).   \nIlyenkor a frissítések a csatorna frissítésekor érkeznek meg, és a profil tipikusan a gép hardware-configuration.nixe mellé kerül az importsba. \n\n Használat flakekel\nFlake esetén a README egy tipikus mintát ír le: inputsba felveszed a NixOS/nixos-hardwaret, majd a host modules listájába beteszed a megfelelő nixos-hardware.nixosModules.<modulnév> elemet.   \nA konkrét modulnevek (pl. sok Dell/Lenovo/Framework stb.) a flake.nixben vannak felsorolva, és néhány régi kimenet „deprecated” figyelmeztetéssel van jelölve. \n\n Aktuális állapot (issuek)\nA GitHub Issues oldalon jelenleg 158 nyitott és 224 lezárt issue látszik.[1]\nA legutóbbi nyitott tételek között szerepel például Razer Blade támogatás kérése, Lenovo Legion Pro 5 16IRX9 támogatás kérése, illetve ASUS Zephyrus G16 2025 (GU605CR) backlight/hang problémák.[1]\n\nHa megírod a pontos géptípust (pl. ThinkPad T480, Framework 13 AMD 7040, stb.) és hogy flakeet használsze, meg tudom mondani, melyik konkrét imports útvonal / nixosModules.* illik hozzá.",
+      "created_at": "20251212T10:51:24.560885Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

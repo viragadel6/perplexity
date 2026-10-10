@@ -1,0 +1,19 @@
+{
+  "context_uuid": "cf77e8c1a62d4e2bb1c5e4755a81d73f",
+  "context_title": "",
+  "created_at": "20250707T16:06:01.088703Z",
+  "updated_at": "20250707T16:06:01.088703Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d302b3bcfbd2465498a3247dfd32cf2d",
+      "query": "",
+      "answer": " examcpserver – Áttekintés\n\nA examcpserver egy Model Context Protocol (MCP) szerver, amely lehetővé teszi AI asszisztensek – például Claude – számára, hogy valós idejű webes kereséseket hajtsanak végre az Exa AI Search API segítségével. Ez a megoldás biztonságos és kontrollált módon biztosít hozzáférést a legfrissebb webes információkhoz[1].\n\n Főbb funkciók\n\n Webes keresés: Valós idejű webes keresések optimalizált eredményekkel és tartalomkinyeréssel.\n Tudományos cikk kereső: Kifejezetten tudományos publikációk keresésére.\n Céges információgyűjtés: Cégek weboldalainak feltérképezése részletes információk gyűjtésére.\n URL tartalomkinyerés: Bármely adott URL tartalmának kinyerése (cikk, PDF, weboldal stb.).\n Versenytárskereső: Hasonló termékeket vagy szolgáltatásokat kínáló cégek azonosítása.\n LinkedIn keresés: Cégek és személyek keresése LinkedInen keresztül.\n Wikipedia keresés: Strukturált tudás kinyerése a Wikipédiáról.\n GitHub keresés: Valós idejű keresés GitHubon (repok, issuek, fiókok).\n\n Telepítés és használat\n\n 1. Távoli Exa MCP használata\n\nHasználható közvetlenül a távoli Exa MCP szerverrel:\n\n\nhttps://mcp.exa.ai/mcp?exaApiKey=your-exa-api-key\n\nAz your-exa-api-key helyére az Exa irányítópulton generált saját API kulcsot kell beilleszteni.\n\n 2. Claude Desktop konfiguráció\n\nA Claude Desktop konfigurációs fájlban (claude_desktop_config.json) az alábbi blokkot kell hozzáadni:\n\njson\n{\n  \"mcpServers\": {\n    \"exa\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-remote\",\n        \"https://mcp.exa.ai/mcp?exaApiKey=your-exa-api-key\"\n      ]\n    }\n  }\n}\n\n\n 3. Helyi telepítés\n\nGlobális telepítés npmmel:\n\nnpm install -g exa-mcp-server\n\n\nFuttatás npxszel:\n\nnpx exa-mcp-server\n\nSpecifikus eszközök engedélyezése:\n\nnpx exa-mcp-server --tools=web_search_exa,research_paper_search\n\n\n 4. Eszközök kiválasztása\n\nA --tools paraméterrel szabályozható, hogy mely funkciók legyenek aktívak. Több eszköz esetén vesszővel elválasztva kell felsorolni azokat.\n\n 5. Konfigurációs fájl szerkesztése\n\n macOS:  \n  \n  code ~/Library/Application\\ Support/Claude/claude_desktop_config.json\n  \n Windows:  \n  \n  code %APPDATA%\\Claude\\claude_desktop_config.json\n  \n\n 6. Újraindítás\n\nA változtatások érvényesítéséhez a Claude Desktop teljes újraindítása szükséges.\n\n Hibakeresés\n\n Ellenőrizze az npm linket és a konfigurációs fájl szintaxisát.\n Győződjön meg róla, hogy az EXA_API_KEY helyes és nincs körülötte felesleges karakter.\n Indítsa újra teljesen a Claude Desktopot, ha kapcsolatproblémák merülnek fel[1].\n\n További információk\n\n Licenc: MIT\n Fő nyelvek: TypeScript, JavaScript, Dockerfile\n GitHub statisztikák: ~1.7k csillag, 14 figyelő, 150 fork[1].\n\nAz examcpserver egy fejlett, bővíthető eszköz, amely jelentősen kibővíti az AI asszisztensek valós idejű információhoz való hozzáférését, különösen webes keresések és tartalomkinyerés terén[1].",
+      "created_at": "20250707T16:06:01.112350Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

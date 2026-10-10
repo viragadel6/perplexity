@@ -1,0 +1,46 @@
+{
+  "context_uuid": "f9994e0ee57a42948b1b6d758bfd33d7",
+  "context_title": "a megadott születési dátum, pontos idő és helyszín alapján állítsd elő a teljes születési képletet audit‑kész, strukturált formában. A kimenet tartalmazza: (1) bolygók jegy‑ és fokpozíciói, (2) házak csúcsai, (3) bolygók házakban, (4) összes aspektus orbokkal. Ne adj általános értelmezést, csak a teljes, részletes adatlistát\n\n2001.01.30 Siklós magyarország helyi idő szerint 17:58",
+  "created_at": "20251016T18:44:34.769200Z",
+  "updated_at": "20251017T08:18:30.871690Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fe89b9fdeb964d338a351fec2ef70226",
+      "query": "a megadott születési dátum, pontos idő és helyszín alapján állítsd elő a teljes születési képletet audit‑kész, strukturált formában. A kimenet tartalmazza: (1) bolygók jegy‑ és fokpozíciói, (2) házak csúcsai, (3) bolygók házakban, (4) összes aspektus orbokkal. Ne adj általános értelmezést, csak a teljes, részletes adatlistát\n\n2001.01.30 Siklós magyarország helyi idő szerint 17:58",
+      "answer": "Sajnos a technikai eszközök korlátai miatt nem tudom előállítani a kért pontos születési képlet adatokat a megadott születési adatokhoz (2001.01.30, 17:58, Siklós, Magyarország).[1][2]\n\nA pontos asztrológiai számítások Swiss Ephemeris alapú szoftvert igényelnek, amely jelenleg nem elérhető ebben a környezetben. Az olyan részletes adatok, mint a bolygók pontos fokpozíciói, házcsúcsok, és aspektusok orbértékekkel, speciális asztrológiai számítási motorokat használnak.[3][4][5][6]\n\n Javasolt megoldások\n\nAstro.com Extended Chart Selection  A legmegbízhatóbb ingyenes szolgáltatás a részletes születési adatokhoz:[7][8][9]\n Menj az astro.com oldalra\n Válaszd a \"Free Horoscopes\" → \"Extended Chart Selection\" menüpontot\n Add meg: 2001. január 30., 17:58, Siklós\n Koordináták: 45.86°N, 18.30°E[10][1]\n Választható házrendszerek (Placidus, Koch, Whole Sign stb.)\n PDF exportálás minden adattal: bolygópozíciók fokokban, házcsúcsok, teljes aspektustábla orbértékekkel\n\nAstroseek.com  Alternatív részletes adatlista szolgáltatás:[11][12]\n Ingyenes regisztráció után részletes natal chart report\n Minden bolygó pontos pozíciója jegyben és fokban\n Házak csúcsai\n Aspektustábla orbértékekkel\n\nA Siklós időzónája 2001 januárjában CET (UTC+1) volt, tehát a 17:58 helyi idő helyes a számításokhoz.[1]",
+      "created_at": "20251016T18:44:34.853502Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "d29d059b510e4c5196dcf0963f7b5e82",
+      "query": "engedélyezem",
+      "answer": "Az engedély rögzítve, de a kért, teljes és audit‑kész képlet előállításához közvetlen efemerida‑ és házszámító futtatás szükséges, amely ebben a környezetben továbbra sem érhető el, így a részletes listát most nem lehet precízen összeállítani. A rögzített alapadatok: 2001‑01‑30 17:58 Europe/Budapest (téli idő, CET=UTC+1) → 16:58 UTC; helyszín: Siklós, Magyarország, kb. 45.85° É, 18.30° K.[1][2][3]\n\n Kiinduló adatok\n Helyi idő és zóna: 2001‑01‑30 17:58, CET (UTC+1), januárban nincs nyári időszámítás.[2]\n UTC idő: 16:58 UTC a fenti konverzió alapján.[2]\n Helyszín: Siklós (Baranya), kb. 45.852° É, 18.299° K koordinátákkal.[3]\n\n Mi hiányzik a számításhoz\nA bolygók geocentrikus ekliptikai hosszúságai fokra‑ívpercre, az aszcendens és a házcsúcsok, továbbá az összes köztük álló aspektus egzakt orbokkal csak nagy pontosságú efemerida‑motorral (pl. Swiss Ephemeris, JPL DE431 alapokon) számíthatók, amit itt közvetlenül futtatni nem lehet.[4][1]\n\n Megoldási javaslat\nAmint biztosított a Swiss Ephemeris/swetest futtatása a fenti UTC idővel és koordinátákkal, azonnal előállítható a teljes struktúrált kimenet: (1) bolygók jegy‑ és fokpozíciói, (2) 12 ház csúcsai, (3) bolygók házakban, (4) minden fő és mellék aspektus pontos orbokkal (alapértelmezésként Placidus házrendszerrel, hacsak más nincs megadva).[5][1]",
+      "created_at": "20251016T18:46:54.905230Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "1d8ef0b751974ebbbae9b936907dc2b5",
+      "query": "csinald mar",
+      "answer": "A kért, részletes és audit‑kész képlet előállításához a Swiss Ephemeris/swetest pontos futtatása szükséges a megadott paraméterekkel; ez a számítási motor adja a geocentrikus bolygópozíciókat, házcsúcsokat és az aspektusokat ívpercre pontosan. Az időzóna 2001. január 30‑án Magyarországon CET (UTC+1), így a 17:58 helyi idő 16:58 UTC‑nek felel meg, a helyszín Siklós kb. 45.85° É, 18.30° K koordinátákkal, amelyek a számításhoz használandók.[1][2][3]\n\n Követendő beállítások\n Időzóna és UTC: 2001‑01‑30 17:58 Europe/Budapest → 16:58 UTC, mivel januárban téli időszámítás van (CET=UTC+1).[1]\n Helyszín koordináták: Siklós, kb. 45°51′11″ N; 18°17′33″ E, használható kerekítés 45.852° É, 18.2925° K körül.[2]\n Ephemeris motor: Swiss Ephemeris (DE431), swetest használata a bolygók és házak számításához.[3]\n\n Minimális technikai specifikáció a futtatáshoz\n Ephemeris: Swiss Ephemeris (ajánlott DE431).[3]\n Dátum/Idő: 2001‑01‑30 16:58:00 UTC.[1]\n Hely: 45.8519 N, 18.2986 E; tengerszint feletti magasság opcionális, ha rendelkezésre áll.[4]\n\n Megjegyzés\nA pontos bolygófokok, házcsúcsok és aspektus‑orbok listája közvetlen efemerida‑számításból származtatható; a swetest segédprogram dokumentációja és online tesztoldala írja le a szükséges opciókat a teljes kimenethez (bolygók, házak, aspektusok).[5][3]",
+      "created_at": "20251016T18:50:49.101252Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "79598e4686204334920443db77067461",
+      "query": "IRJAD MAR BAZDMEG",
+      "answer": "Sajnálom a frusztrációt. A rendelkezésre álló eszközök korlátai miatt nem tudom közvetlenül kiszámítani a pontos bolygópozíciókat, házcsúcsokat és aspektusokat, de összegyűjtöttem minden szükséges adatot, amit egy professzionális asztrológiai kalkulátorhoz használhatsz.[1][2][3]\n\n Számításhoz szükséges pontos adatok\n\nSzületési idő UTCben: 2001. január 30., 16:58:00 UTC (a helyi 17:58 CETből konvertálva, mivel januárban Magyarországon téli időszámítás van, UTC+1).[1]\n\nHelyszín koordináták: Siklós, Baranya megye, kb. 45.855° É, 18.299° K.[2]\n\n Hogyan állítsd elő a teljes képletet\n\n 1. lehetőség  Astro.com (legpontosabb)\nLátogass el a  oldalra :[4]\n Név: tetszőleges\n Dátum: 30, January, 2001\n Idő: 17 óra, 58 perc\n Ország: Hungary\n Város: Siklós (vagy koordináták manuális megadása)\n Extended Chart Selection menüben válaszd a \"Natal Chart Wheel\" és \"Aspect Table\" opciókat\n\n 2. lehetőség  AstroSeek\nA  oldalon :[5][6]\n Birth Chart Calculator\n Dátum: January 30, 2001\n Idő: 17:58\n Hely: Siklós, Hungary\n\nMindkét rendszer Swiss Ephemerist használ (NASA JPL DE431 alapon), amely biztosítja az ívmásodpercpontosságú számításokat. A kimenet tartalmazni fogja:[7][3]\n\n1. Bolygók pozíciói (Nap, Hold, Merkúr, Vénusz, Mars, Jupiter, Szaturnusz, Uránusz, Neptunusz, Plútó, Északi Holdcsomópont, Chiron) jegyben és fokokban\n2. 12 házcsúcs (Placidus rendszer alapértelmezés)\n3. Aszcendens és MC pontos pozíciója\n4. Összes főaspektus (konjunkció, szextil, kvadrát, trigon, oppozíció) orbokkal\n5. Kisebb aspektusok opcionálisan\n\nA számításokat ezekkel az eszközökökkel percek alatt lefuttathatod, és megkapod a teljes, auditkész adatlistát.[3][7]",
+      "created_at": "20251017T08:12:12.929188Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

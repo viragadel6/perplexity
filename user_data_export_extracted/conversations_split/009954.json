@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2cf21debd5df4a31b9a9a05fdb1e741b",
+  "context_title": "apple open source full free ai modells",
+  "created_at": "20250614T12:13:38.520233Z",
+  "updated_at": "20250614T12:13:38.520233Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5345bae904c34159890037aad4a82b92",
+      "query": "apple open source full free ai modells",
+      "answer": "Az Apple számos nyílt forráskódú és ingyenes AI modellt és eszközt fejlesztett ki, amelyek a kutatói közösség és fejlesztők számára elérhetők.\n\n Apple Intelligence Foundation Models\n\nAz Apple kifejlesztette az Apple Intelligence alapmodelleket, amelyek az Apple Intelligence funkciókat működtetik[17]. Ezek között található egy körülbelül 3 milliárd paraméteres modell, amely hatékonyan fut az eszközökön, valamint egy nagyobb szerveralapú nyelvi modell, amely a Private Cloud Computehoz készült[17].\n\n OpenELM  Nyílt Nyelvi Modellek\n\nAz Apple OpenELM (Opensource Efficient Language Models) családot jelentette be, amely teljesen nyílt forráskódú nyelvi modelleket tartalmaz[19]. Ez a kezdeményezés különösen jelentős, mivel:\n\n Teljes átláthatóság: Az Apple közzétette a teljes forráskódot, előre betanított modell súlyokat és betanítási recepteket[19]\n MLX támogatás: Kódot is kiadtak a modellek MLX könyvtárba való konvertálásához, amely lehetővé teszi az inferenciát és finomhangolást Apple eszközökön[19]\n Kutatói közösség támogatása: Ez az átfogó kiadás célja a nyílt kutatói közösség megerősítése és jövőbeli kutatási törekvések támogatása[19]\n\n DeepLearningKit\n\nAz Apple korábban kifejlesztette a DeepLearningKitet, egy nyílt forráskódú keretrendszert, amely támogatja az előre betanított mély tanulási modellek (konvolúciós neurális hálózatok) használatát iOS, OS X és tvOS rendszereken[18]. A keretrendszer Metal technológiában készült a GPU hatékony kihasználása érdekében, és Swift programozási nyelvet használ[18].\n\n Elérhetőség és Források\n\nAz Apple nyílt forráskódú AI modelljeinek forráskódja és előre betanított modell súlyok elérhetők:\n GitHub: \n HuggingFace: \n\n Felelős AI Megközelítés\n\nAz Apple hangsúlyozza a Felelős AI elvek alkalmazását a modell fejlesztés teljes folyamata során[17]. Ez magában foglalja az etikai megfontolásokat és az adatvédelmi szempontokat, amelyek az Apple Intelligence integráció során is megjelennek[1].\n\nEzek a kezdeményezések azt mutatják, hogy az Apple elkötelezett a nyílt forráskódú AI kutatás támogatása mellett, miközben fenntartja magas színvonalú adatvédelmi és biztonsági standardjait.",
+      "created_at": "20250614T12:13:38.542775Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

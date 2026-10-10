@@ -1,0 +1,19 @@
+{
+  "context_uuid": "bc096876e33649e2995ef2ec4e162d34",
+  "context_title": "Modal.com on 8 darab b200 gpu mennyi egy orara arba?",
+  "created_at": "20260620T03:35:24.757869Z",
+  "updated_at": "20260620T03:35:45.601832Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0ec63a6713f144ddaa4b28ed0be30929",
+      "query": "Modal.com on 8 darab b200 gpu mennyi egy orara arba?",
+      "answer": "A Modal.comon 8 darab B200 GPU óránként $50/óra kerül.\n\n Az ár kiszámítása\n\nA Modal.com B200as GPUnként $6,25/óra áron kínálja serverless modellben. Mivel 8 GPUt szeretnél egyszerre futtatni, az összesített költség:[1][2]\n\n8 × $6,25 = $50,00/óra\n\nA Modal perszekundum számlázást alkalmaz, tehát nem kell egész órákat fizetni — csak a ténylegesen felhasznált időért fizetsz. Ez különösen hasznos rövid, bursty munkaterhelések esetén.[3]\n\n Mit kapsz ezért az árért?\n\nEgy 8×B200as konfiguráció óriási számítási kapacitást jelent. Minden egyes B200 chip 180 GB GPU RAMmal és 8 TB/s memóriasávszélességgel rendelkezik, így 8 GPU esetén összesen 1,44 TB GPU memória és 64 TB/s aggregált sávszélesség áll rendelkezésre. A Modal akár 128 B200at is támogat egyetlen konfigurációban, 3200 Gbps InfiniBand hálózattal.[4][1]\n\n Piaci összehasonlítás\n\nA Modal $6,25/GPU/óra ára a serverless kategóriában versenyképes, bár más platformok (pl. Lambda Labs ondemand: $3,79/óra, vagy Verda: $2,14/óra) olcsóbbak lehetnek, de azok jellemzően hosszabb lekötési időt vagy kevesebb rugalmasságot igényelnek. Ha csak alkalmi, rövid futásokra van szükséged, a Modal perszekundum elszámolása előnyösebb lehet a fix óradíjas megoldásoknál.[5][6]\n\n| Konfiguráció | Ár/óra |\n|||\n| 1× B200 (Modal) | $6,25 |\n| 8× B200 (Modal) | $50,00 |\n| 8× B200 (RunPod) | ~$47,84 |\n| 8× B200 (Lambda Labs ondemand) | ~$53,52 |\n| 8× B200 (CoreWeave) | ~$68,80 |\n\nAz árak 2026 júniusában érvényesek.[6][5]",
+      "created_at": "20260620T03:35:25.022595Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

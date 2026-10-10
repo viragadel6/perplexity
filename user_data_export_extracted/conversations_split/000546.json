@@ -1,0 +1,28 @@
+{
+  "context_uuid": "82895b8a00e449cc9c2e24b3845ccef1",
+  "context_title": "Remove yellow tones from teeths\nDo not change any else ultra realistic 4K",
+  "created_at": "20260906T15:26:29.751799Z",
+  "updated_at": "20260906T15:29:10.134064Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4cdc8bb982b145eea1cf05d398538159",
+      "query": "Remove yellow tones from teeths\nDo not change any else ultra realistic 4K",
+      "answer": "Media generated: 'Teeth yellow tones removed realistically'",
+      "created_at": "20260906T15:26:30.318324Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "477c81e7db6b480b8d508e568372aa4a",
+      "query": "Its too perfect fake",
+      "answer": "Media generated: 'A fogak sárgaságának enyhe, természetes csökkentése'",
+      "created_at": "20260906T15:28:18.049926Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "context_uuid": "13e02ee39cf44821a47357833bdfe881",
+  "context_title": "",
+  "created_at": "20251012T10:50:38.740788Z",
+  "updated_at": "20251012T11:03:48.750647Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e079ea445885435a979c5442ffd46433",
+      "query": "",
+      "answer": "A Kwaipilot/KATDev72BExp egy nyílt forráskódú, 72 milliárd paraméteres mesterséges intelligencia modell, amely szoftvermérnöki feladatokra specializálódott. A modell a SWEBench Verified teszten 74,6%os pontosságot ér el, ha a SWEagent keretrendszerével értékelik. Ez az RL (megerősítéses tanulás) alapú KATCoder modell kísérleti változata, mely technikai innovációkat tár fel a nagyszabású RL tréningekben, mint például az attention kernel újraírása és a prefix pályák hatékony kezelése. A modellt ingyenesen kipróbálhatja a StreamLake platformon is.\n\nFőbb jellemzők:\n 72 milliárd paraméteres nyílt forráskódú modell\n Számos technikai újítás RL tréninghez, például az előzetes pályák megosztási technikája\n Kimagasló pontosság a szoftvermérnöki feladatokban (74,6% SWEBench)\n Közvetlen elérhetőség a StreamLake platformon ingyenesen\n Kódolási feladatokban a Sonnet 4.5 modell után második legjobb helyezettként említik\n\nEmellett többféle kvantálási változata is elérhető, amelyek kisebb méretben és változó minőségben futtathatók különböző hardvereken, például ARM és AVX architektúrákon is.\n\nEz a modell különösen alkalmas fejlesztők és kutatók számára, akik mélyebb betekintést szeretnének nyerni a megerősítéses tanulás és a nagyméretű nyelvi modellek integrációjának technikai részleteibe.[2][6][7][8]",
+      "created_at": "20251012T10:50:38.867141Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e7f648fe95f84b0096110956415bec76",
+      "query": "vs grok 4 vs claude 4.5",
+      "answer": "A KATDev72BExp egy nyílt forráskódú, 72 milliárd paraméteres modell, amely 74,6%os pontosságot ért el a SWEBench Verified teszten, míg a Claude Sonnet 4.5 77,2%ot (82% párhuzamos számítással), a Grok 4 pedig a LiveCodeBenchen 79,4%os eredményt produkált.[1][2][3]\n\n Teljesítmény összehasonlítás\n\n| Modell | SWEBench Verified | LiveCodeBench | GPQA Diamond | Kontextus ablak | Típus |\n|||||||\n| KATDev72BExp | 74,6% |  |  | Nem megadott | Nyílt forráskódú |\n| Claude Sonnet 4.5 | 77,2% (82% párhuzamosan) |  | 83,4% | 200K token | Zárt forráskódú |\n| Grok 4 | ~75% | 79,4% | 88% | 256K token | Zárt forráskódú |\n\n Árazás\n\nA Claude Sonnet 4.5 ≤200K token esetén 3 USD/millió input token és 15 USD/millió output token áron érhető el, amely >200K token felett 6 USD, illetve 22,5 USDra emelkedik. A Grok 4 3 USD/millió input token és 15 USD/millió output token áron kezd, de 128K token felett megduplázódik. A KATDev72BExp nyílt forráskódú, így helyben futtatható további költségek nélkül.[2][3][1]\n\n Gyakorlati használat\n\nValós tesztekben a Claude Opus 4 (hasonló a Sonnet 4.5höz) és a Grok 4 között minimális különbség mutatkozott kódolási feladatokban, bár Claude némileg jobb volt a dizájn implementációban. A Grok 4 kiváló eszközhasználati pontossággal rendelkezik (99%), míg Claude 30+ órás komplex feladatok kezelésére képes.[1][2]\n\n Összegzés\n\nA Claude Sonnet 4.5 a legjobb választás hosszú távú, komplex kódolási projektekhez és ügynöki munkafolyamatokhoz. A Grok 4 kiemelkedik az érvelési benchmarkokban és gyorsabb válaszidővel rendelkezik, de a kódolásban nem mutat jelentős előnyt Claudedal szemben. A KATDev72BExp pedig a legerősebb nyílt forráskódú alternatíva, amely helyben futtatható és kiváló kutatási célokra.[4][3][2][1]",
+      "created_at": "20251012T10:50:51.008383Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "9560edffb68a4a21b8f2f020944ea79c",
+      "query": "",
+      "answer": "A FathomSearch4B egy nyílt forráskódú, 4 milliárd paraméteres DeepSearch modell, amelyet a Qwen34B alapján fejlesztettek ki hosszú távú, élő webes keresésre és bizonyítékalapú kutatásra optimalizálva.[1][2][3]\n\n Teljesítmény\n\nA modell 90%os pontosságot ér el a SimpleQA teszten, 64,8%ot a FRAMESen és 50%ot a WebWalker benchmarkon, ami a nyílt forráskódú kategóriában a legjobb eredmények közé tartozik. Általános érvelési feladatokban is kimagasló: 60,1% a GPQADiamondon és 70% az AIME25ön.[3][1]\n\n Technikai innováció\n\nA FathomDeepResearch két modellből áll: a FathomSearch4B keresésre, és a FathomSynthesizer4B jelentéskészítésre. A tréning három fő újítást tartalmaz:[2][1]\n\n DuetQA: ~5000 mintás adathalmaz többágenses önellenőrzéssel, amely kizárólag élő webes keresésre épít\n RAPO (RewardAware Policy Optimization): a GRPO kiterjesztése, amely stabilizálja a többlépcsős megerősítéses tanulást\n Irányítható lépésszintű jutalom: amely 20+ eszközhívást tesz lehetővé kontrollált módon\n\n Összehasonlítás zárt modellekkel\n\nA DeepResearchBench teszten a FathomDeepResearch 45,47%os RACE pontszámot ért el, megelőzve a Claude3.7Sonnet w/Search (40,67%), a Grok Deeper Search (40,24%) és a GPT4oSearchPreview (35,10%) modelleket a nyílt forráskódú kategóriában. A nyílt modellekkel összehasonlítva felülmúlja a DoubaoDeepResearcht (44,34%) és a LangChain OpenDeepResearcht (43,44%) is.[1][3]\n\n Gyakorlati előnyök\n\nA modell teljesen nyílt forráskódú MIT licenc alatt, helyben futtatható, és tartalmazza a teljes tréning receptet, adathalmazokat és eszközöket is. A rendszer képes strukturált, hivatkozásokban gazdag jelentések készítésére a \"planthenwrite\" protokoll alapján, amely először felbontja a kérdést, majd összegyűjti a bizonyítékokat, végül pedig szintetizálja a végső jelentést.[3][1]",
+      "created_at": "20251012T10:52:43.540428Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "560b63d3434040f9b2ca56f61de1f6e3",
+      "query": "melyik a legeslegfejlettebb modell aminek elerheto a trening datasetje barki szamara",
+      "answer": "A legfejlettebb modell, amelynek teljes tréning adathalmaza bárkinek elérhető, az OLMo 2 32B (Allen Institute for AI). Ez az első teljesen nyílt modell, amely felülmúlta a GPT3.5 Turbo és GPT4o mini teljesítményét.[1][2]\n\n Miért különleges az OLMo 2?\n\nAz OLMo 2 teljesen nyílt modell, ami azt jelenti, hogy nemcsak a modellsúlyok, hanem minden egyéb komponens is publikusan elérhető :[3][1]\n\n Teljes tréning adathalmaz (Dolma dataset, ~3.9 trillió token)\n Tréning kód (nyílt forráskódú)\n Minden közbenső checkpoint (legalább 1000 lépésenként mentve)\n Értékelési suite és teljes tréning logok\n Pretraining, midtraining és posttraining adatok mind elérhetők\n\n Alternatívák részleges nyitottsággal\n\n| Modell | Méret | Adat nyilvánosság | Teljesítmény szint |\n|||||\n| OLMo 2 32B | 32B | Teljes (100%) | GPT3.5 Turbo felett |\n| Falcon 180B | 180B | Részleges (600B/5T token) | Magas, de nem teljes |\n| LLaMA 1 | 65B | Teljes (100%) | Régebbi, GPT3 szint |\n| LLaMA 3.x | 405B | Nincs (0%) | SOTA, de zárt adat |\n\n Miért fontos a teljes nyitottság?\n\nA legtöbb \"nyílt forráskódú\" modell (Llama 3, Gemma, Mistral) csak a modellsúlyokat teszi elérhetővé, de a tréning adatok zártak maradnak. Az OLMo projekt ezt a hiányosságot orvosolja azzal, hogy minden komponenst nyílttá tesz, lehetővé téve a teljes reprodukálhatóságot, biaselemzést és tudományos kutatást.[4][5][3]\n\nAz OLMo 2 7B és 13B változatok is elérhetők kisebb hardverigényekkel, szintén teljes adatkészlettel.[6]",
+      "created_at": "20251012T10:54:38.747634Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "bd0d33af858f485b8175d091f3d1acb4",
+      "query": "de ugy nezd mar baszki hogy 2025.10.12 e van kit erdekel gpt 3.5 amikor mar gpt 5 van",
+      "answer": "Jogos, nincs olyan modell 2025 októberében, ami egyszerre SOTA teljesítményű (GPT5, Claude 4.5, Grok 4 szintű) és teljesen nyílt tréning adatokkal rendelkezik.[1][2]\n\n A valóság\n\nAz OLMo 2 32B továbbra is a legteljesen nyílt modell (100%ban nyílt tréning adat, kód, checkpointok), de csak GPT3.5 Turbo és GPT4omini szintet éri el. Az OLMo 2 család legújabb változatai (2025 áprilismájus):[3][4][1]\n\n OLMo 2 1B: legyőzi a Gemma 3 1Bt és Llama 3.2 1Bt benchmarkokban[5][6]\n OLMo 2 7B/13B: 5 trillió tokenen tréningezve, jobb mint sok hasonló méretű modell[7][4]\n OLMo 2 32B: az első teljesen nyílt, ami megverte a GPT3.5öt[8][1]\n\n Miért nincs SOTA nyílt adat?\n\nA SOTA közeli modellek (DeepSeek R1, Qwen 2.5 72B, Llama 3.3 70B) NEM teszik nyílvánosssá a teljes tréning adatokat :[9][2]\n\n DeepSeek R1 (671B): SOTA közeli érvelés, de az adatok titkosak[10][9]\n Qwen 2.5 (72B): 18 trillió token, de nem teljes mértékben publikus[2][11]\n Llama 3.x: csak modellsúlyok, adatok zártak[12]\n\n Gyakorlati választás 2025ben\n\nHa teljesen nyílt kell (adat + kód + súlyok): OLMo 2 32B, de ne várj SOTAt. Ha SOTA teljesítmény kell: zárt modellek (GPT5, Claude 4.5) vagy részben nyílt modellek (DeepSeek R1, Qwen 2.5) tréning adatok nélkül.[13][1][10][2]",
+      "created_at": "20251012T10:56:02.875703Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "dd704fd309614cfaabd517307e36a239",
+      "query": "meg jo jogy mar van qwen 3 meg llama 4 meg deepseek 3.2 \nolyanokat kuldj amik max egy hete jelentek meg",
+      "answer": "Maximum egy hete (október 512, 2025) megjelent modellek:\n\n KATDev72BExp\n\nMegjelenés: október 910, 2025[1][2]\n\nEz az egyetlen jelentős nyílt forráskódú modell az elmúlt héten. A Kuaishou 72 milliárd paraméteres kódolási modellje 74,6%ot ér el a SWEBench Verified teszten, ami a nyílt forráskódú modellek között az első helyezett. Apache 2.0 licenc alatt elérhető.[3][4][1]\n\nDE: A tréning adathalmaz NEM publikus  csak a modellsúlyok és a tréning kód leírása elérhető.[5][1]\n\n Gemini 2.5 Computer Use\n\nMegjelenés: október 6, 2025[6]\n\nGoogle új modellje böngésző és mobil feladatokra, zárt forráskódú, csak APIn keresztül elérhető.[6]\n\n A brutális valóság\n\nAz elmúlt héten egyetlen olyan modell sem jelent meg, aminek teljes tréning adathalmaza publikus lenne. Minden új modell:[7][1][6]\n\n Vagy zárt forráskódú (Gemini, GPT5, Claude 4.5)\n Vagy csak a súlyok publikusak, az adatok nem (KATDev72BExp)\n\nAz utolsó teljesen nyílt (adat+súlyok) modell továbbra is az OLMo 2 (2024 decembere / 2025 március), ami nem friss. A mai világban a fejlett modellek alkotói nem osztják meg a tréning adatokat versenyhelyzet miatt.[8][9][10][11]",
+      "created_at": "20251012T10:57:26.199656Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "04018ec1ebf04f0c824ad84495bc7efd",
+      "query": "de nekem csak a trening data sets kell",
+      "answer": "Rendben, csak tréning dataseteket sorolva — fókusz a friss, nagy, jogilag használható, LLM‑releváns készletekre.\n\n Nagy, nyílt pre‑training korpuszok\n NVIDIA Llama‑Nemotron Post‑Training Dataset v1/v2: 25M minta több doménből (instruálás, kód, számolás, tudomány), kifejezetten LLM post‑traininghez; v2 is elérhető. Cél: nyílt modellek finomhangolása és alignálása.[1][2][3]\n EleutherAI licencelt + nyílt domain korpusz: a legnagyobb legálisan rendezett gyűjtemények egyike LLM pre‑traininghez, 2025 nyári megjelenéssel/announccal.[4]\n Long‑horizon Refined Common Crawl variánsok: új, 2025‑ös módszertanokkal tisztított és szűrt CC‑alapú korpuszok LLM pre‑trainingre optimalizálva.[5]\n Adatgyűjtés és minőségirányítás 2025 trendek: átfogó összefoglaló a 2024–2025‑ös best practice‑ekről (többlépcsős szűrés, tox filterek, adatdokumentáció, verziózás).[6]\n\n Specializált post‑training/alignálás készletek\n Nemotron Post‑Training Dataset v1/v2: 25M magas minőségű instrukciós és szakmai példák; a közösség számára szabad felhasználásra a nyílt modellek javításához.[2][3][1]\n Kurált LLM post‑training listák és eszközök: folyamatosan karbantartott gyűjtemény SFT/RLHF/Distill korpuszokról és pipeline‑okról (benchmarkokhoz, kódhoz, matematika, dialógus).[7]\n\n Megjegyzések a kéréshez\n A fenti készletek mind 2025‑ös frissítésűek; a Nemotron v1 bejelentése 2025.07., a v2 2025.08., a Refined CC irány 2025.10. heti publikációkban is megjelenik; EleutherAI nagy korpusz bejelentés 2025.06..[1][2][4][5]\n Ha kifejezetten az elmúlt 7 napból kell: a Refined Common Crawl‑jellegű új módszer‑ és korpuszpublikáció megjelenése október 9. körül, illetve ipari cikkek az adatcsökkentés és aktív tanulás új eljárásairól (nem konkrét korpusz, de releváns adatkihozatal).[8][9][10][5]\n\nHa cél pre‑training (alapmodell): érdemes kombinálni nagy CC‑alapú tisztított korpuszt (Refined CC), licencelt könyv/enciklopédia/QA részekkel, majd post‑traininghez a Nemotron v2‑t és válogatott kód/math készleteket a  anyag szerint.[7][2][5]",
+      "created_at": "20251012T10:58:25.656363Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "db0ced76492e45bebb045a6c6acdb2d1",
+      "query": "a legfejlettebb legjobban tisztított LEGMAGASABB minőségű training data sets kell ami magasabb minőségű mint gpt 5/grok 4/ gemini 2.5/ claude 4.5/ deepseek 3.2/ qwen 3/ llama 4 és úgy hogy a data setsekből együttesen egy modellt betanítok akkor az teljes földi tudást megtanulja es a vilag elsoszamu legfejlettebb llm je legyen",
+      "answer": "Sajnálom, de amit kérsz, az fizikailag lehetetlen és nem létezik. Magyarázom miért:\n\n A brutális igazság\n\nNincs olyan publikus training dataset, ami \"jobb\" lenne, mint amit a GPT5, Claude 4.5, Grok 4, Gemini 2.5 használ, mert :[1][2]\n\n Ezek a cégek ZÁRT adatokat használnak, amiket évekig gyűjtenek és kuratálnak\n Ha létezne egy publikus dataset, ami \"jobb\", akkor ők is azt használnák\n A SOTA modellek versenyelőnye pont az, hogy exkluzív adataik vannak\n Több billió dollárt költenek adatkuratálásra, cleaningre és szűrésre\n\n Miért lehetetlen a kérésed?\n\nHa lennének olyan publikus datasetek, amikkel \"megelőznéd\" a GPT5öt:\n\n1. OpenAI, Google, Anthropic már használná azokat (több száz data scientistjük van, akik folyamatosan keresik a legjobb adatokat)\n2. Minden egyetem és startup már tréningelt volna velük\n3. Már lennének nyílt modellek, amik verik a GPT5öt\n\n A legjobb publikus adatok (de nem SOTA)\n\nLegnagyobb nyílt korpuszok 2025ben:\n\n Dolma 3.0 (OLMo 2 adatai): ~5 trillió token, tisztított Common Crawl + könyvek + kód[2]\n RefinedWeb (Falcon): 600B token (teljes corpus 5T, csak részben publikus)[3]\n NVIDIA Nemotron PostTraining v2: 25M minta posttraining adatra[4]\n EleutherAI licencelt corpus: 2025 júniusi megjelenés, licencelve és tisztítva[5]\n\nDe ezekkel tréningelve maximum OLMo 2 / Falcon szintű modellt tudsz csinálni, ami GPT3.5 szint körül van, NEM GPT5.[1][2]\n\n A szomorú valóság\n\nA SOTA modellek titka NEM a publikus adatokban van, hanem :[6][1]\n\n Privát adatszerződések (könyvkiadók, hírügynökségek)\n Szintetikus adat generálás (saját modellekkel generált minőségi adat)\n Emberi feedback (RLHF millió dolláros költségekkel)\n Adatkuratálás knowhow (cleaning pipelineok évekig fejlesztve)\n\nNem tudsz publikus adatokkal SOTA modellt tréningelni 2025ben.[2][6][1]",
+      "created_at": "20251012T11:02:09.171020Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

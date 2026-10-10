@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4e16ce36efce4d298dbe849d21ce28ff",
+  "context_title": "",
+  "created_at": "20251222T14:59:34.894598Z",
+  "updated_at": "20251222T14:59:34.894598Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4cbafe2c9a744e6c8694819e655b6b4d",
+      "query": "",
+      "answer": "Ez a GitHub repository (GasGrop5MMC/FleroExodusMovementWalletApiSourcePaymentGeteway) nagy valószínűséggel kártékony (malicious) szoftvert tartalmaz, és része egy összehangolt csalási kampánynak.\n\nSzigorúan azt javaslom, hogy NE töltsd le, NE futtasd a benne lévő kódot, és NE add meg a privát kulcsaidat vagy jelszavaidat!\n\nAz alábbiakban részletezem az elemzés eredményét és a gyanús jeleket:\n\n Gyanús jelek és figyelmeztetések (Red Flags)\n\nA repozitórium számos olyan jellemzővel rendelkezik, amelyek a GitHubon terjedő malwarekampányokra (pl. \"stealer\" vagy \"drainer\" vírusok) jellemzőek:\n\n   Helyesírási hibák a névben: A repozitórium nevében szereplő \"Geteway\" szó (a helyes Gateway helyett) tipikus jele a sietve létrehozott, automatizált csaló oldalaknak. A professzionális fejlesztők és cégek (mint az Exodus) nem követnek el ilyen hibát a hivatalos termékeik nevében.[1]\n   Gyanús fióknév: A felhasználónév (GasGrop5MMC) véletlenszerűen generáltnak tűnik, ami jellemző az eldobható \"bot\" fiókokra, amelyeket a tiltás után azonnal lecserélnek. Hasonló elnevezésű fiókokat (pl. GasGroupMM) már korábban is jelentettek malware terjesztése miatt.[2]\n   Hivatalos kapcsolat hiánya: Az Exodus egy zárt forráskódú pénztárca, amelynek bár van hivatalos fejlesztői dokumentációja és SDKja, a forráskódját vagy \"Payment Gateway\" megoldását sosem teszi közzé ismeretlen felhasználók alatt a GitHubon. A hivatalos Exodus anyagok mindig az exodus-movement vagy ahhoz hasonló, ellenőrzött szervezetek alatt találhatók, illetve a hivatalos  oldalon.[3][4]\n   Ismert csalási minta: A keresési találatok több, szinte azonos nevű repozitóriumot mutatnak (pl. \"Vexor Exodus\", \"Quota Exodus\", \"Flero Exodus\"), amelyek mind ugyanazt a leírást használják. Ez egy széles körű malwareterjesztési kampányra utal, ahol a csalók népszerű kulcsszavakkal (API, Wallet, Source) próbálják rávenni a fejlesztőket a fertőzött kód letöltésére.[5][6]\n\n Mit csinálhat ez a kód?\n\nA hasonló GitHubcsalások általában a következőket rejtik:\n1.  Info Stealerek (Adatlopók): A kód futtatásakor titokban átkutatja a számítógépedet jelszavak, böngészési előzmények és kriptotárcafájlok (pl. wallet.dat) után, majd elküldi azokat a támadónak.[7][8]\n2.  Wallet Drainerek: Ha csatlakoztatod a tárcádat vagy megadod a \"seed phrase\"t (biztonsági szavakat), a program azonnal kiüríti a számládat.\n3.  Hátsó kapuk (Backdoors): Távoli hozzáférést biztosíthat a gépedhez további vírusok telepítésére.\n\n Biztonságos alternatíva\n\nHa Exodus integrációt szeretnél fejleszteni, kizárólag a hivatalos forrásokat használd:\n   Exodus Hivatalos Dokumentáció:  – Itt találod a valódi SDKkat és API leírásokat.[3]\n   Exodus GitHub: Keress rá a hivatalos Exodus Movement szervezetre, amely hitelesített (Verified) jelzéssel rendelkezik.\n\nÖsszegzés: A csatolt és linkelt repozitórium veszélyes. Töröld a letöltött fájlokat, és kerüld el a felhasználó többi munkáját is.",
+      "created_at": "20251222T14:59:37.587013Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

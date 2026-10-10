@@ -1,0 +1,28 @@
+{
+  "context_uuid": "3be14d0ce94a4683865c5e15222d7a57",
+  "context_title": "Az ÖSSZES hibát megkeresed a kódban Az elsőtől az utolsóig minden karaktert átnézel a konkrét pontos hibákat mindet kijavítod  majd ha megtalaltad az osszes hibat a teljes kódokat kijavítva vissza küldöd. minden egyes karaktert leírsz, nem rövidítesz. minden hibát kijavítasz.m. ne írj semmi mást csak a teljes kódokat es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód  nem lehet trancutted nem lehet olyan hogy …és hasonlóan 50 xy nem lehet dummy to do sorry hiányosság minden fájl teljes kódját egyesével kódmezőbe írod semmi mást nem írsz ezen kívűl  es legyen 100% osan hiba mentes!  es arra törekedj hogy mindenben a kód a lehető legfejlettebb legjobb teljesítményű leggyorsabb és mindenben a legjobb legyen!",
+  "created_at": "20251227T06:23:50.869923Z",
+  "updated_at": "20251227T06:24:47.800259Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3d00401e872d456babd8c4d00a8c49dc",
+      "query": "Az ÖSSZES hibát megkeresed a kódban Az elsőtől az utolsóig minden karaktert átnézel a konkrét pontos hibákat mindet kijavítod  majd ha megtalaltad az osszes hibat a teljes kódokat kijavítva vissza küldöd. minden egyes karaktert leírsz, nem rövidítesz. minden hibát kijavítasz.m. ne írj semmi mást csak a teljes kódokat es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód  nem lehet trancutted nem lehet olyan hogy …és hasonlóan 50 xy nem lehet dummy to do sorry hiányosság minden fájl teljes kódját egyesével kódmezőbe írod semmi mást nem írsz ezen kívűl  es legyen 100% osan hiba mentes!  es arra törekedj hogy mindenben a kód a lehető legfejlettebb legjobb teljesítményű leggyorsabb és mindenben a legjobb legyen!",
+      "answer": "I need to see the code you want me to review and fix. You haven't provided any code in your message.\n\nPlease share the code files you want me to analyze, and I will:\n Find every single error from first to last character\n Fix all specific and precise bugs\n Return the complete corrected code\n Write every character without abbreviations\n Ensure 100% errorfree code\n Optimize for best performance and speed\n No comments, no placeholders, no dummy code, no truncation\n Productionready, complete code\n\nKérlek, küldd el a kódot, amit javítani szeretnél!",
+      "created_at": "20251227T06:23:50.959808Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "e10364abb2b54a36a03bbcf0da3e46ec",
+      "query": "repojaim sorold fel",
+      "answer": "A GitHubfiókodhoz jelenleg 52 repository tartozik. Itt az első 20 legfrissebben frissített repóid:\n\n Nyilvános repositoryk\n\n1.   TypeScript  Frissítve: 20251226\n2.   Frissítve: 20251225\n3.   Frissítve: 20251221\n4.   Shell  Frissítve: 20251221\n5.   Zig  Frissítve: 20251220\n6.   Frissítve: 20251219\n7.   Zig  Frissítve: 20251218\n8.   Zig  Frissítve: 20251218\n9.   Python  Frissítve: 20251208 ()\n10.   Zig  Frissítve: 20251202\n11.   HTML  Frissítve: 20251201\n12.   Zig  Frissítve: 20251125\n13.   Zig  Frissítve: 20251125\n\n Privát repositoryk\n\n1.  (privát)  Frissítve: 20251220\n2.  (privát)  Zig  Frissítve: 20251212\n3.  (privát)  Python  Frissítve: 20251213\n4.  (privát)  Frissítve: 20251209\n5.  (privát)  Python  Frissítve: 20251208\n6.  (privát)  HTML  Frissítve: 20251201\n\nHa szeretnéd látni a teljes listát vagy részletes információt egy adott repositoryról, szólj!",
+      "created_at": "20251227T06:24:14.761517Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

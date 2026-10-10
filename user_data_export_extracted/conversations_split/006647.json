@@ -1,0 +1,19 @@
+{
+  "context_uuid": "95d1025568ba4ff9aeed9a43cf7f91dc",
+  "context_title": "",
+  "created_at": "20251105T16:08:19.776633Z",
+  "updated_at": "20251105T16:08:19.776633Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4f2cde17dfff46f0a19e08255f5744e3",
+      "query": "",
+      "answer": "A kért termékről jelenleg nem érhetők el közvetlen, friss adatok a megadott forrásból. Sajnálom, de nem tudok hiteles, naprakész részleteket adni a termék összetevőiről vagy elérhetőségéről ebből a fájlformátumú linkből közvetlenül. \n\nHa szeretnéd, segíthetek így:\n Összegyűjteni a legáltalános információkat a Catrice Under Eye Brightener folyékony korrigátor 010 Light Rose árnyalatról alapján elérhető többféle forrásból (pl. dm.hu, Rossmann, egyéb online boltok) és összevetni azokat.\n Megmagyarázom, mire érdemes figyelni szem alatti korrektoroknál (fedés, hidratálás, tartósság, összetevők, allergén szempontok).\n Segíthetek egy rövid útmutatót készíteni a vásárláshoz, például hogyan válaszd ki a megfelelő árnyalatot és textúrát.\n\nKérlek, jelezd, melyik opciónak szeretnél utána járni, vagy ha van más kapcsolódó kérdésed a termékkel kapcsolatban.",
+      "created_at": "20251105T16:08:19.932843Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

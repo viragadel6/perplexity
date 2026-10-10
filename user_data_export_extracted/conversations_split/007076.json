@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5f47136e12134e858cea0970daf5a613",
+  "context_title": "olyan arhetikura kat keresek amik max 1 hónaposak és még egy darab llm ben sem volt soha!",
+  "created_at": "20251027T22:41:58.307553Z",
+  "updated_at": "20251027T22:41:58.307553Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "644bcf44beb84fbb9e33736f463b0c8d",
+      "query": "olyan arhetikura kat keresek amik max 1 hónaposak és még egy darab llm ben sem volt soha!",
+      "answer": "Értem a kérdésed! Az exa.ai kereső motorhoz optimalizált keresési prompt:\n\nAngol verzió:\nrecent architecture patterns that haven't been featured in LLMs, published within last month, novel architectural approaches\n\nMagyar verzió:\nolyan új architekturális megoldások amelyek nem voltak még LLMben, utolsó egy hónapban megjelent, novel építészeti megközelítések\n\n\n\nAmikor elkészítesz egy JSON fájlt az exa.ai keresési eredményeivel és elküldesz nekem, akkor összefoglalom magyarán érthető módon, hogy milyen architekturális megoldásokat találtunk meg, amelyek megfelelnek az elvárásaidnak.",
+      "created_at": "20251027T22:41:58.725464Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "context_uuid": "140cb69426c34eccb2928450c189787c",
+  "context_title": "Ocr",
+  "created_at": "20260702T14:43:03.947970Z",
+  "updated_at": "20260702T14:44:34.500248Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2daff26708ca433ca3a68284561b1f08",
+      "query": "Ocr",
+      "answer": "A képen több sorban Replit CDN CSS fájlokra mutató URLek látszanak. Az első néhány olvasható sor ezekből áll: https://cdn.replit.com/_next/static/chunks/0cjzo_xh.tz~0.css, https://cdn.replit.com/_next/static/chunks/0.t-c0igfbbvz.css, https://cdn.replit.com/_next/static/chunks/0-6x.8b~x6_k2.css, https://cdn.replit.com/_next/static/chunks/0cm2z0671a2z2.css, https://cdn.replit.com/_next/static/chunks/0isws2xaoochf.css.[1]\n\nA látható lista további elemei még: https://cdn.replit.com/_next/static/chunks/05z~kr7qb0ddj.css, https://cdn.replit.com/_next/static/chunks/0fza_pb2~29b.css, https://cdn.replit.com/_next/static/chunks/0gmzbkgol6ftu.css, https://cdn.replit.com/_next/static/chunks/0y823oaoxe8vj.css, https://cdn.replit.com/_next/static/chunks/0vpzl.i6nxeq.css, https://cdn.replit.com/_next/static/chunks/05r2lt203zr5z.css, https://cdn.replit.com/_next/static/chunks/0gb1fx0li5qhm.css, https://cdn.replit.com/_next/static/chunks/0opj1fpaz4310.css, https://cdn.replit.com/_next/static/chunks/0x_v8swhc3mqs.css, https://cdn.replit.com/_next/static/chunks/05i4jui~n1lrw.css, https://cdn.replit.com/_next/static/chunks/0tnwv354f82ue.css, https://cdn.replit.com/_next/static/chunks/0w0yntbwsm_n..css, https://cdn.replit.com/_next/static/chunks/1103irpi_3e5h.css, https://cdn.replit.com/_next/static/chunks/0gjx16hoi8zt0.css, https://cdn.replit.com/_next/static/chunks/0wsZph.ghcjfb.css, https://cdn.replit.com/_next/static/chunks/0pwbaufaf3~bu.css, https://cdn.replit.com/_next/static/chunks/0iz58g8_o0dwp.css, https://cdn.replit.com/_next/static/chunks/0fi0f9xcfyp99.css.[1]\n\nHa szeretnéd, a teljes képet is ki tudom írni soronként, vagy megpróbálhatom egy tisztább OCRrel újra kiolvasni.",
+      "created_at": "20260702T14:43:04.172676Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "485c9a383c3e48e38f29283a7c16b2fd",
+      "query": "Az osszes linket In your reply, just list the things I’m looking for one after another, without including anything else.",
+      "answer": "  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n",
+      "created_at": "20260702T14:43:35.679464Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "3fed348ca08c443cb11be62c721a6b92",
+      "query": "  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n",
+      "answer": "  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n",
+      "created_at": "20260702T14:44:26.822781Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

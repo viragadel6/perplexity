@@ -1,0 +1,28 @@
+{
+  "context_uuid": "49e159fcfa3845fca0ba61211fcc8703",
+  "context_title": "",
+  "created_at": "20251006T15:11:15.965958Z",
+  "updated_at": "20251006T15:12:25.787592Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "dc3cf585fcdb41529cd9d044aaf0f48b",
+      "query": "",
+      "answer": "Az Optilearn egy sokoldalú Python csomag, amelyet gépi tanulási modellek pontosságának növelésére, neurális hálózatok tanítására és több adatfeldolgozó, NLP, képletöltő, valamint idősoros adatok kezelésére szolgáló feladatra terveztek. Segítségével egyszerűen kezelhetők neurális hálózat architektúrák, kiválaszthatók az optimális adatkombinációk, továbbá lehetőség nyílik képek letöltésére weboldalakról, szöveg tokenizálására, rövid szavak kezelésére, fájlok átvitelére, idősorok szétosztására tanuló és teszt halmazra, emoji és emotikonkezelésre, valamint szövegfájlok beolvasására is.[1]\n\n Főbb funkciók röviden\n\n Neurális háló tanítása: optilearn.nn modul, Kerashoz hasonló APIval.\n Optimális adathalmaz kiválasztása: optilearn.optimal, támogat MLS/DL modellekhez.\n Kép letöltés weboldalakról: optilearn.images.\n Szöveges NLPeszközök: short word treatment, tokenizálás, stop word eltávolítás, írásjelek, pronominális listák, emoji/emotikon kezelés.\n Fájlok másolása/migrálása: optilearn.files.\n Idősoros adatok szétosztása: optilearn.sequential.\n Text file olvasás és különféle egyéb kisegítő függvények.\n\nA csomag könnyen telepíthető a következő paranccsal:\n\npip install optilearn\n\nHasználata ajánlott minden olyan feladathoz, ahol kombinált AI/NLP/adatkezelési igények merülnek fel, különösen prototípus fejlesztés és gyors modellezési workflow esetén.[1]",
+      "created_at": "20251006T15:11:16.849836Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "682e98e48806424e8cc73e5d86799d56",
+      "query": "ios ra van",
+      "answer": "A \"Váltás iOSre\" alkalmazás az Apple hivatalos megoldása, amellyel Androidkészülékről iPhonera vagy iPadre költözhetsz át, és biztonságosan átviheted az összes fontos adatodat.[1][2][3]\n\n Hogyan működik\n\nAz alkalmazás letöltése után Androideszközödön automatikusan és biztonságosan átköltöztetheted az adataidat néhány lépésen keresztül. A folyamat során az új iPhone vagy iPad létrehoz egy privát WiFihálózatot, megkeresi a közelben lévő Androideszközt, ahol a Váltás iOSre fut, majd biztonsági kód megadása után elkezdi továbbítani az adatokat.[3]\n\n Mit lehet átvinni\n\nAz alkalmazás különféle adattípusokat biztonsággal továbbít: kontaktokat, üzenetek előzményeit, kamerával készített fotókat és videókat, mailfiókokat, naptárakat, WhatsApptartalmat, kedvenc alkalmazásokat, híváselőzményeket és egyéb tartalmakat.[2][5][3]\n\n Előkészületek\n\nA sikeres átvitel érdekében kapcsold be a WiFit Androidkészülékeden, és csatlakoztasd mindkét eszközt áramforráshoz. A gyorsabb átvitel érdekében USBCkábellel közvetlenül is csatlakoztathatod egymáshoz az eszközöket. Ellenőrizd, hogy az átköltöztetni kívánt tartalmak elférneke az új iOSkészüléken.[5][1][2]\n\n Telepítés\n\nAndroidkészülékeden töltsd le a Váltás iOSre alkalmazást a Google Play Áruházból. Ha nem tudod használni a Google Play Áruházat, az új iOSeszközödön megjelenő QRkódot beolvasva közvetlenül elérheted a letöltési oldalt.[1][5]",
+      "created_at": "20251006T15:12:09.759509Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

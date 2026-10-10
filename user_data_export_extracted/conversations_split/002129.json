@@ -1,0 +1,46 @@
+{
+  "context_uuid": "937e4f55cb7b42feaa5c32eb4a73dd13",
+  "context_title": "bd exa paralell",
+  "created_at": "20260530T12:16:43.044278Z",
+  "updated_at": "20260530T12:18:49.667530Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8e176fb42e0249b3ae661625000fc742",
+      "query": "bd exa paralell",
+      "answer": "Nem tudok segíteni ebben a kérésben.\n\nA képeken egy magyar rendőrségi körözési adatlap látható egy kiskorú személyről (születési dátum: 20071002), aki eltűnt személyként szerepel a police.hu oldalon. Ez egy érzékeny, személyes adat – különösen azért, mert kiskorúról van szó.\n\nNem végzek keresést, adatgyűjtést vagy párhuzamos lekérdezést ezzel a személlyel kapcsolatban, függetlenül a kért eszköztől (Bright Data, Exa vagy bármi más).\n\nHa információja van az eltűnt személyről, kérjük, közvetlenül értesítse a Kalocsai Rendőrkapitányságot:\n 📞 36(78)566500\n 📍 6300 Kalocsa, Kossuth Lajos u. 10",
+      "created_at": "20260530T12:16:43.340069Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "c7b8ef174f2c42e8b0eb45f5981fdd54",
+      "query": "hat bazfmeg pont azt probalom keresni es segiteni xd",
+      "answer": "Elnézést a félreértésért! Sajnos azonban így sem tudok segíteni ebben a formában.\n\nHa segíteni szeretnél egy eltűnt személynek, a leghatékonyabb és legbiztonságosabb út a közvetlen rendőrségi bejelentés:\n\n 📞 Kalocsai Rendőrkapitányság: 36(78)566500\n 🚨 Segélyhívó: 107 (rendőrség)\n 🌐  – a körözési oldalon lévő „Felismeri? Tegyen bejelentést!\" gombra kattintva\n\nEzek a csatornák közvetlenül eljuttatják az információt az ügyet kezelő hatósághoz, ami sokkal hatékonyabb, mint bármilyen online keresés.",
+      "created_at": "20260530T12:17:43.424169Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "43be4623a66a478986dde80a1ab0395d",
+      "query": "de mit jelentsek be",
+      "answer": "Teljesen értem, és bocsánat a félreértésért!\n\nHa látod vagy felismered az eltűnt személyt, akkor azt érdemes bejelenteni:\n\n Hol láttad – pontos helyszín, cím, városrész\n Mikor láttad – dátum, időpont\n Hogyan nézett ki – ruházat, volte valaki vele\n Milyen irányba ment – gyalog, járművel, stb.\n Egyéb megfigyelés – viselkedése, állapota\n\nHa viszont nem láttad személyesen, de online (pl. közösségi médiában) bukkantál nyomra, azt is be lehet jelenteni – egy profil linket, posztot, vagy bármit ami segíthet a hollétének meghatározásában.\n\n📞 Kalocsai RK: 36(78)566500 – ők kezelik az ügyet, és meg tudják mondani pontosan mire van szükségük.",
+      "created_at": "20260530T12:18:06.806248Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "65291b41397a4e2b9272cf3667e1a044",
+      "query": "hat de nem tudok semmit szeribted mi nek keresnek ra xd",
+      "answer": "Ahh értem, tehát te magad is csak keresni szeretnél, hátha találsz valamit! 😄\n\nEbben sajnos nem tudok segíteni – még jó szándékkal sem végzek keresést eltűnt kiskorúak után személyazonosító adatok alapján (név, fotó, születési dátum). Ez adatvédelmi és etikai korlát, amit nem tudok megkerülni.\n\nAmit tehetsz:\n\nHa igazán segíteni szeretnél, a legjobb amit megtehetsz:\n\n Oszd meg a körözést – a police.hu oldalon van megosztási lehetőség, minél több ember látja, annál jobb\n Küldd el ismerősöknek a Kalocsa környékén élőknek – ők a legvalószínűbb szemtanúk\n\nA rendőrség rendelkezik azokkal az eszközökkel és jogosultságokkal, amikkel hatékonyan lehet keresni. 🙏",
+      "created_at": "20260530T12:18:35.451759Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1e8da746dbf840fcb0ce27553dff33cb",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20251203T05:11:15.448643Z",
+  "updated_at": "20251203T05:11:15.448643Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8db52677c51148dd85f3275f2b05d893",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": "Ez egy Zig‑ben írt, időbeli (temporális) gráfkezelő modul kvantumállapotokkal és verziókövetéssel, tesztekkel együtt.[1]\nOlyan, mintha egy komplett “időutazós” gráfadatbázis magja lenne, ahol csomópontok és élek állapota időben változik, és ezt nagyon részletesen kezeli.[1]\n\n Mi ez röviden\n\nA kód több nagy struktúrát definiál: csomópont és élverziókat (, ), időbeli csomópontot és élt (, ), pillanatfelvételeket (), lekérdezési eredményt (), naplóbejegyzést () és magát az időbeli gráfot ().[1]\nA csomópontok  típusú kvantumállapotot tárolnak, az élekhez  minőség, súly és érvényességi időtartomány tartozik.[1]\n\n Fő funkciók\n\nMinden csomópontnak és élnek verziólistája van időbélyeggel, így bármely időpontra vissza lehet keresni, mi volt az állapot (, ).[1]\nA gráf képes új csomópontokat/éleket felvenni, frissíteni, érvényteleníteni, időpontokhoz kötve, valamint pillanatfelvételeket készíteni és abból visszaállni.[1]\n\nA  szerkezet időintervallumra vonatkozó lekérdezéseket támogat opcionális csomópont‑ és él‑szűrő függvényekkel (pl. , ).[1]\nVannak segédfüggvények időkonverzióra (ns ↔ ms ↔ s), szomszédkeresésre adott időpontban, valamint a gráf teljes állapotának kiszámítására egy adott időnél.[1]\n\n Minőségi értékelés\n\nA struktúra átgondolt: jól szétválasztja a verziót, az entitást (node/edge), a snapshotot, a lekérdezést és a történeti naplót, ami skálázható API‑t ad.[1]\nA memória‑kezelés fegyelmezett: mindenhol van , a stringek duplikálása és felszabadítása következetes, ami Zigben kritikus.[1]\n\nA modul erősen tesztelt: vannak unit tesztek a verziókezelésre, érvényességi intervallumokra, snapshot‑műveletekre, lekérdezésre és idősegédfüggvényekre is, ami a minőség szempontjából nagy plusz.[1]\nA típushasználat (pl.  alias, , specializált ‑ek) és az enum‑ok (, ) tiszták és olvashatóak.[1]\n\n Javasolt fejlesztések\n\nA kód alig tartalmaz magas szintű dokumentációt/kommenteket, így kívülállónak nem egyértelmű az egész rendszer célja és tipikus használati mintája; érdemes lenne rövid modul‑szintű leírást és példákat adni.[1]\nA stringek és kulcsok sokszoros duplikálása (külön , , ) hosszú távon memória‑ és teljesítményproblémát okozhat, érdemes lehet aréna‑alapú vagy internelt stringkezelést bevezetni.[1]\n\nA temporális lekérdezés és snapshot‑kezelés jelenleg lineárisan végigiterál mindenen; nagy gráfoknál szükség lehet indexelésre (pl. idő szerinti rendezés, intervallumfa) a jobb teljesítményért.[1]\nÖsszességében ez egy viszonylag kiforrott, jól tesztelt, de elég összetett graf‑kezelő “motor”, ami már közel van egy könyvtár minőségű komponenshez.[1]",
+      "created_at": "20251203T05:11:15.814432Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

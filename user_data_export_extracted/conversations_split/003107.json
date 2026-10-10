@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e61e1507d71d475d96c80b6d55f49c5b",
+  "context_title": "Architecture‑wise, RSF constitutes a fully independent, root‑level design: it discards attention/MLP/LayerNorm and builds exclusively on affine coupling and deterministic scatter, with machine‑checked invertibility and O(1) backprop. Whether it will function as a paradigm shift in the LLM era depends on future large‑scale adoption and empirical benchmarks, but its architectural novelty as a clean, formally verified invertible flow‑based core is already a fact",
+  "created_at": "20260405T23:18:37.617474Z",
+  "updated_at": "20260405T23:20:26.196787Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4c3228a1f77c4f6e90a6d3ba869b6ee3",
+      "query": "Architecture‑wise, RSF constitutes a fully independent, root‑level design: it discards attention/MLP/LayerNorm and builds exclusively on affine coupling and deterministic scatter, with machine‑checked invertibility and O(1) backprop. Whether it will function as a paradigm shift in the LLM era depends on future large‑scale adoption and empirical benchmarks, but its architectural novelty as a clean, formally verified invertible flow‑based core is already a fact",
+      "answer": "A megadott leírás egy olyan újszerű, elméleti vagy kísérleti neurális hálózati architektúrát (RSF) vázol fel, amely radikálisan szakít a nagy nyelvi modellek (LLM) hagyományos Transformeralapú felépítésével. Bár a nyílt tudományos adatbázisokban jelenleg nem azonosítható széles körben publikált, pontosan ilyen specifikációjú \"RSF\" nevű modell, a szövegben említett koncepciók valós és létező gépi tanulási mechanizmusokra épülnek.\n Hagyományos komponensek elhagyása\nA jelenlegi LLMek architektúrája alapvetően az Attention (figyelem) mechanizmusra, az MLP (többrétegű perceptron) rétegekre és a LayerNorm normalizációra épül. Az Attention modul felelős a tokenek közötti kommunikációért, az MLP a tokenek egyedi feldolgozását végzi, míg a LayerNorm az aktivációk stabilitását biztosítja a mély hálózatokban. Az RSF megközelítés ezen elemek elvetésével egy teljesen új paradigmát hoz létre, amely a megszokott paraméterezett információkeverést és normalizációt alternatív matematikai műveletekkel helyettesíti.[1][2]\n Affin csatolás és szórás\nAz architektúra magját az affin csatolás (affine coupling) adja, amely a normalizáló áramlások (normalizing flows) területéről ismert, szigorúan invertálható technika. A folyamat során a bemeneti tenzorokat felosztják, majd az egyik részüket egy olyan affin transzformációnak vetik alá, amelyet a hálózat másik része határoz meg. A determinisztikus szórás (deterministic scatter) az Attention mechanizmus helyettesítésére szolgálhat, amely a szekvencia elemei közötti információáramlást egy előre kiszámítható, rögzített algoritmus alapján végzi el.[3][4]\n Memóriahatékony visszaterjesztés\nA hagyományos hibavisszaterjesztés (backpropagation) során a hálózat minden köztes aktivációs értékét a memóriában kell tárolni a gradiensek kiszámításához, ami a paraméterszám növekedésével óriási memóriaterhelést jelent. Az RSF formálisan verifikált invertálhatósága azonban lehetővé teszi, hogy a kimeneti értékekből bármikor pontosan vissza lehessen állítani a korábbi bemeneti állapotokat. Ennek köszönhetően a betanítás során az aktivációkat nem kell elmenteni, így a hálózat mélységére vonatkozóan O(1) memóriakomplexitású visszaterjesztés érhető el, ami drasztikusan csökkenti a gigantikus modellek hardveres követelményeit.[5][4]\n\nMeg tudná mondani, hogy pontosan melyik publikációból vagy kutatási projektből származik ez az RSF architektúrára vonatkozó leírás?",
+      "created_at": "20260405T23:18:37.904469Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

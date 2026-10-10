@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2d852f2954c94d3995a44816b7eddabc",
+  "context_title": "Oktober 2 ig hany nap van",
+  "created_at": "20260922T18:33:10.128664Z",
+  "updated_at": "20260922T18:33:24.101171Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ab59beebd82748458de148b5be4679c3",
+      "query": "Oktober 2 ig hany nap van",
+      "answer": "2026. szeptember 22től október 2ig 10 nap van hátra, mert szeptember 30 napos hónap.[1]\n\nHa a mai napot is beleszámolod, akkor ez 11 naptári napnak tekinthető.[1]",
+      "created_at": "20260922T18:33:10.351204Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

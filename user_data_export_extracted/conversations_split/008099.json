@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4ceea6f7adaf45078b3fbd0ac48805a1",
+  "context_title": "rangsorold is",
+  "created_at": "20251002T03:19:14.729224Z",
+  "updated_at": "20251002T03:19:14.729224Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "75ffcca2bae54019a61ee3038df98c24",
+      "query": "rangsorold is",
+      "answer": "A két fájl közül a „jaidemadebykollrsndor3.txt” a legjobb választás, ezt követi a „jaide19.1.txt”.  \n\n Rangsor\n\n Legjobb: „jaidemadebykollrsndor3.txt” – teljes mértékben saját fejlesztésű KANarchitektúra, 0ról építve, nem használ transzformereket, saját tokenizálót, optimalizálót és inference pipelinet valósít meg, tartalmaz formális verifikációt és hardverleírást, valamint több mint 20 programnyelvű implementációt [1].  \n Második: „jaide19.1.txt” – fejlett funkciókat kínál (MoE, hosszú kontextus, spekulatív dekódolás), de külső könyvtárakra (HuggingFace transformers) támaszkodik, nem teljesen saját architektúra, és hiányoznak a formális verifikációs elemek és hardware leírások [2].",
+      "created_at": "20251002T03:19:14.862885Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

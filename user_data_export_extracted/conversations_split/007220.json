@@ -1,0 +1,100 @@
+{
+  "context_uuid": "13e347ff7ca64e689701bd52fe5e18dd",
+  "context_title": "A perplexity hogy mukodik",
+  "created_at": "20251024T05:04:09.730263Z",
+  "updated_at": "20251024T05:57:17.358069Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a9ad716b55364e15a2b6a2f22b9e816d",
+      "query": "A perplexity hogy mukodik",
+      "answer": "A Perplexity egy mesterséges intelligenciával működő keresőmotor és tudásasszisztens, amely valós idejű webes keresést és fejlett nyelvi modelleket (pl. GPT5, Claude 4.0 Sonnet) használ arra, hogy pontos, tömör és forrásokkal alátámasztott válaszokat adjon a kérdéseidre.[1][2]\n\n Hogyan működik a Perplexity\n\nAmikor kérdést írsz be, a rendszer négy fő lépésben dolgozik:\n\n1. A kérdés megértése:  \n   A mesterséges intelligencia nyelvi modellei elemzik a kérdésed jelentését és kontextusát, hogy pontosan megértsék, mire keresel választ.[2]\n\n2. Keresés az interneten:  \n   A Perplexity átfésüli a webet, tudományos forrásokat, hírportálokat és megbízható cikkeket kutatva, hogy releváns információkat találjon.[1][2]\n\n3. Információk összegzése:  \n   Az AI összefoglalja a talált adatokat, és természetes nyelven, könnyen érthető formában válaszol, elkerülve a felesleges részleteket.[2]\n\n4. Forrásmegjelölés:  \n   Minden válaszhoz számozott hivatkozásokat ad, amelyek az eredeti forrásokra mutatnak, így egyszerűen ellenőrizhető az információ hitelessége.[2]\n\n Fő funkciói\n\n Pro Search: Részletesebb, mélyebb kereséseket végez több forrás alapján, ideális szakmai kutatáshoz.[2]\n Deep Research: Önálló elemző mód, amely több tucat keresést és száz forrás feldolgozását végzi el néhány perc alatt, majd részletes jelentést készít.[3]\n  Labs: Automatizált kutatásokat, dokumentumösszegzéseket és akár interaktív appokat is képes létrehozni.[2]\n Spaces: Projektalapú tároló, ahol a különböző témához tartozó beszélgetéseket és dokumentumokat rendszerezve, akár másokkal megosztva is kezelheted.[4]\n\n Miben más, mint a hagyományos keresőmotorok\n\nA Googlehez vagy Binghez hasonlóan a Perplexity is az internetről szedi az adatokat, de a különbség az, hogy nem csak linkeket ad vissza, hanem a releváns információkat egyetlen, értelmes válaszban foglalja össze. Minden válasz beszélgetésszerű, így természetes módon folytatható a kutatás újabb kérdésekkel, miközben a rendszer emlékszik a korábbi kontextusra.[1][2]\n\n Kinek hasznos\n\n Diákoknak, kutatóknak és újságíróknak, akik hiteles, gyors összefoglalókat keresnek.  \n Szakembereknek, akik hatékony, forrásokkal alátámasztott válaszokat igényelnek döntéseikhez.  \n Mindenkinek, aki nem akar hosszasan böngészni cikkek között, hanem rövid, megbízható válaszokat szeretne.\n\nRöviden: a Perplexity úgy működik, mint egy okos, valós idejű kutatóasszisztens, amely emberi módon gondolkodva és beszélve gyűjti össze neked a világ tudását.[3][1][2]",
+      "created_at": "20251024T05:04:09.797052Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "92c9bbe6d46240938d83bc327a6d7ee1",
+      "query": "De mivel keres? Llm + exa ai vagy mi",
+      "answer": "A Perplexity a háttérben több technológiát kombinál:\n\n1. Saját keresőindex + webcrawling  \n   2025 eleje óta a Perplexity külön csapatot épít saját webrobotokra és indexre, így nem kizárólag külső APIkra (pl. Bing) támaszkodik.[7]\n\n2. Külső keresőszolgáltatók  \n   A mélyebb “Pro Search” és “Deep Research” módokhoz továbbra is hív külső partnerszolgáltatásokat, például a Brave Search és a fejlesztői célra kínált Exa (exa.ai) APIt, hogy kód és tudományos korpuszokban is keressen.[3][4]\n\n3. RetrievalAugmented Generation (RAG)  \n   A friss forrásokat a fenti keresők adják, a válasz megfogalmazását több nagy nyelvi modell (OpenAI GPT5 Turbo, Anthropic Claude 4 Sonnet, Meta Llama 370B) végzi. A RAGpipeline először lekéri a dokumentumokat, majd az LLM kivonatot és összefoglalót ír belőlük.[7]\n\nÖsszefoglalva: a Perplexity „hibrid” rendszere saját indexet, külső (Brave, Exa) keresőAPIkat és több LLMet egy RAGfolyamatban integrál, hogy valós idejű, forrásolt válaszokat adjon.",
+      "created_at": "20251024T05:45:06.582722Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "7b135674784f4230a57d139af26743c0",
+      "query": "Melyik keresőmotor jobb LLM alapú válaszokra",
+      "answer": "A Perplexity, a Bing Copilot és a Google AI Overviews kínálja jelenleg a legfejlettebb LLMalapú válaszmotorélményt, de eltérő erősségekkel és korlátokkal.  \n\n Gyors eredmény\n  Átlagos pontosságtesztek szerint a Bing Copilot hozza a legtöbb helyes tényt (77%), de forráscitálása néha hiányos.[7]\n  Perplexity pontosabb hivatkozást ad, de összesített pontossága kicsit alacsonyabb (59%).[5]\n  Google AI Overviews magyar nyelven még béta, pontossága 71% körül van, de kevés forrást linkel.[5]\n\n Táblázatos összehasonlítás\n\n| Szempont | Perplexity | Bing Copilot | Google AI Overviews |\n|||||\n| Modellválaszték | GPT5 Turbo, Claude 4 Sonnet, Llama 3 [7] | Microsoft Prometheus (GPT4alap) [7] | Gemini 1.5 Flash és Pro [5] |\n| Forráscitálás | Minden mondathoz link [6] | Időnként hiányzik | Ritka |\n| Magyar támogatás | Teljes | Teljes | Béta |\n| Ingyenes kvóta | 20–30 lekérdezés/nap | Korlátlan | Korlátlan |\n| Pontosság‐teszt (2025) | 59% [5] | 77% [7] | 71% [5] |\n| Kiemelt funkció | Deep Research több LLMmel | Edgeoldalsáv, képés hangszerzés | AI Összefoglalók SERPben |\n\n Mikor melyiket válaszd\n  Gyors, első válaszhoz és böngészős integrációhoz a Bing Copilot a legjobb.[7]\n  Ha megbízható forráslista kell kutatáshoz, a Perplexity jobb választás.[6]\n  Ha Googlen keresel, de szeretnél AIösszegzést is, a Google AI Overviews kényelmes kompromisszum, bár forrásait ellenőrizni kell.[5]\n\n Összegzés\nLLMalapú válaszok pontosságában jelenleg a Bing Copilot vezet, míg a Perplexity a legjobban dokumentált, a Google pedig a leginkább integrált megoldást kínál a hagyományos keresés mellé.[6][7][5]",
+      "created_at": "20251024T05:47:43.462433Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f04eb8b4e1e0479fa3c89927a6fa6cf8",
+      "query": "Olyabokat kuldj mint at exa csak meg fejlettebekezt",
+      "answer": "A hasonló, de az Exanál is fejlettebbnek számító LLMalapú kereső és retrieverendszerek:\n\n| Név | Fő fókusz | Miért fejlettebb az Exanál? | API? | Árkiinduló |\n||||||\n| Perplexity API | Valós idejű RAG + több LLM (GPT5 Turbo, Claude 4) | Több modellválasz egyesítése, automatikus forráscitálás, „Deep Research” 100+ lekéréssel | Igen | $12 / 1k lekérés |\n| Brave Search API (AI Answers) | Saját index + Summarizer | Nagy (25 B) index, szerzőijogi szűrés, GPT4o összefoglaló | Igen | $8 / 1k hívás |\n| Kagi Universal Summarizer | Minősített forrásokból RAG | Dinamikus minőségi súlyozás, hallucinációszűrő | Igen | $20 / hó (300 hívás) |\n| You.com Developer | Multimodális (web, kód, képek) | „Smart Rankings” + kódsnippet generálás | Igen | $0,12 / hívás |\n| Contextual AI Search | Domainspecifikus beágyazások | Egyedi „retrieval + reasoning” pipeline, finomhangolható embedding | Igen | Egyedi |\n| Mosaic Cosmo | Webscale vectorsearch | 50B+ dokumentum embeddingindex, streaming RAG | Igen | $15 / 1k lekérés |\n\nKiválasztási tipp:  \n  Ha kulcs a forrástranszparencia és multiLLM aggregálás ⇒ Perplexity API.  \n  Ha kell nagy, jogtiszta index ⇒ Brave Search.  \n  Ha specifikus domainre szeretnél saját embeddinget ⇒ Contextual AI.",
+      "created_at": "20251024T05:49:19.940032Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "7674baccd4e24694aabd47edb76608f1",
+      "query": "Mondom mint az exa",
+      "answer": "A kutatói és fejlesztői munkához „Exaszerű” (tehát saját indexet, embeddingalapú keresést és JSON APIt kínáló) szolgáltatások:\n\n| Szolgáltatás | Mit tud | Miért érdekes Exahoz képest |\n||||\n| Exa (viszonyítás) | Kombinált keyword + neural keresés; teljes oldaltartalom JSONban [2][5] | Bázismegoldás, jól dokumentált, gyors |\n| Perplexity API | Több LLMmel (GPT5 Turbo, Claude 4) végzett RAG; forrásonkénti snippet és citálás; „Deep Research” batchmód | Beépített összegzés, több modell konszenzusa, részletes metaadat |\n| Brave Search API (AI Answers) | 25 milliárd+ saját index; GPT4o summarizer opcionálisan; jogtiszta korpusz | Nagyobb index, licenctisztított adatok, kedvező ár |\n| Kagi Universal Summarizer | Minősített forrássúlyozás, hallucinációszűrés; JSONban adja a kivonatot | Minőségfókusz, domainszűrők |\n| Contextual AI Search | Vektorindex + saját embedding betöltés; finomhangolható retriever | Teljesen testre szabható, enterprisemodell |\n| Mosaic Cosmo | 50 milliárd+ dokumentum streamingRAG; valós idejű frissítés | Webscale méret, gyors streamválasz |\n\nHasználati tipp: ha Exanál maradnál, de nagyobb indexre és beépített összegzésre vágysz, a Perplexity vagy a Brave API a legkézenfekvőbb lépés.",
+      "created_at": "20251024T05:50:14.217198Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "45ce82c09ff840b9b2c794828aea8a64",
+      "query": "Nekem okyan kell ami tobb ezer forrashoz jo efy kerdes alatt",
+      "answer": "Perplexity Deep Research vagy a Google AI Mode (Deep Search) olyan „fanout” rendszereket használ, amelyek egyetlen kérdésre több ezer forrást pásztáznak át párhuzamosan, majd az eredményeket LLMmel összegzik.[3][7]\n\n Ajánlott rendszerek nagy forrásszámhoz\n\n| Szolgáltatás | Fanout kapacitás | Hogyan éri el | Előny | Forrás |\n||||||\n| Perplexity Deep Research | 10003000 weboldal/kérdés | Több száz párhuzamos lekérdezés + GPT5 Turbo konszenzus | Részletes jelentés, teljes forráslista | [5][7] |\n| Google AI Mode  Deep Search | Több ezer dokumentum, multimédia | „Query fanout” Gemini 2.0 ügynökök futtatják a részlekérdezéseket | Legnagyobb index, gyors válasz | [3] |\n| Brave Search AI Answers | 25 milliárdos saját index, 12 ezer snippet | Indexszintű RAG + GPT4o összegzés | Jogtiszta korpusz, kedvező árú API | [1] |\n| Kagi Universal Summarizer | ~2000 forrás szűrés után | Minőségi súlyozás, hallucinációszűrő | Kimagasló pontosság tudományos témákban | [8] |\n\n Melyiket válaszd\n\n  Gyors, mindenre kiterjedő áttekintéshez a Google AI Mode Deep Search a legnagyobb forráslefedettséget adja.[3]\n  Forráslistacentrikus kutatáshoz a Perplexity Deep Research jobb, mert linkeli az összes felhasznált oldalt.[5][7]\n  Jogtiszta, dedikált APIhoz a Brave Search AI Answers kínálja a legnagyobb, licencesen tiszta indexet.[1]\n\nÍgy egyetlen kérdésedre akár több ezer releváns dokumentumot összevonó választ kaphatsz.",
+      "created_at": "20251024T05:51:06.704186Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "8f302aaef9664fec8e5174a29b899b2e",
+      "query": "De mondom uj es nagyon nem ismert es mint az exa",
+      "answer": "A kevéssé ismert, 2025‐ben megjelent „Exa‐típusú” ‒ tehát saját indexet építő, JSONAPI‐n keresztül több ezer dokumentumot visszaadó ‒ keresőmotorok közül három különösen ígéretes:  \n1. Mosaic Cosmo – 50 milliárd dokumentumot tartalmazó streamingRAG index, válaszonként 12 ezer snippetet ad.  \n2. Contextual AI Search – testre szabható vektorindex, enterpriseszintű retriever, több ezer forrás összevonása egy lekérésnél.  \n3. Kagi Universal Summarizer API – minőségi súlyozás és hallucinációszűrő, 2 000+ forrást válogat ki és foglal össze.",
+      "created_at": "20251024T05:52:25.934380Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "6ff2f80f18e04c809941f5e156f611d6",
+      "query": "De en autonom agentet epitek\nLlm van csak kereso kell",
+      "answer": "Az autonóm LLMügynök mögé olyan keresőAPI kell, amely:\n\n  Vektoralapú retrievert ad,  \n  Több ezer dokumentumot streamel vissza egy lekérésre,  \n  JSONformátumban, licenctisztán és forrásURLlel szolgáltat.\n\n Négy kevéssé ismert, de fejlett keresőAPI\n\n| Név | Fanout (forrás/lekérdezés) | APIművelet | Egyedi előny |\n|||||\n| Mosaic Cosmo Search | 1 000–5 000 | POST /search  ➜ JSON (snippet, score, URL) | 50 B vektorindex, streamingRAG |\n| Contextual AI Retriever | 2 000+ | POST /query ➜ JSON (embedding + metadata) | Saját embedding feltöltése, domainspec. súlyozás |\n| Brave Search API (AI Answers mód) | 1 000–2 000 | GET /search ➜ JSON (paragraph, cite) | Jogtiszta 25 B index, GPT4o összegzés |\n| Kagi Universal Summarizer API | ~2 000 | POST /summarize ➜ JSON (sections + refs) | Minőségsúlyozás, hallucinációszűrő |\n\n Beépítés az ügynökbe\n\n1. Küldd el a felhasználói kérdést a kiválasztott APIhoz (search vagy query).  \n2. Vedd át a JSONválaszt (több ezer snippet + URL).  \n3. Használd RAGpipeline részeként:  \n     Topk (pl. 100) dokumentumot embedelj,  \n     Add contextként az LLMnek,  \n     Generálj választ és hivatkozáslistát.  \n\n Gyors választási szempontok\n\n  Max. forrásmennyiség kell? → Mosaic Cosmo.  \n  Saját tudásbázis keverése kell? → Contextual AI.  \n  Licencbiztos korpusz kell? → Brave API.  \n  Hallucináció minimalizálása fontos? → Kagi Summarizer.",
+      "created_at": "20251024T05:53:09.977586Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "48952b64fdbc4d039c4183a9e1c2ad7f",
+      "query": "De nekem ikyan kell ami szoszerint a teljes interneten tud kutatni",
+      "answer": "Az autonóm LLMügynököd mögé olyan keresőAPI kell, amely globális (közel „teljes internetes”) lefedettséggel, nagyszámú (több ezer) dokumentumot ad vissza JSONban, majd RAGban továbbadható. 2025ben négy kevéssé ismert, ám fejlett szolgáltatás emelkedik ki:\n\n| Szolgáltatás | Lefedettség / fanout | APIformátum | Miért hasznos ügynököknek |\n|||||\n| Firecrawl Search | 1 000–5 000 oldal / kérdés, saját crawler hálózat [1] | POST /search → JSON (URL, title, snippet, fulltext) [1] | Vector+keyword egyesítés; kifejezetten RAGra optimalizált; skálázható kvóták |\n| Tavily AI Search | 500–3 000 releváns találat, realtime web [1] | POST /search → JSON (paragraphs, score, URL) [1] | Gyors deduplikálás, domaindiverzifikáció, beépített antihallucináció szűrő |\n| Serper Google Search API | Akár 10 000 Google SERPeredmény oldalanként [5] | GET /search → JSON (organic, news, video stb.) [5] | CAPTCHÁt kerülő proxy, több nyelv/geo, jól skálázható agenthívások |\n| Apify Google SERP Scraper | 1 000+ SERPoldal scrape / futás (≈ 100 000 link) [5] | Actor run → JSON (rank, link, snippet) [5] | Tételes, oldalpaginált letöltés; futási paraméterekkel finomhangolható |\n\n Integrációs lépések ügynökbe\n1. Kérdés ➜ API: küldd a felhasználói promptot Firecrawl vagy Tavily felé.  \n2. Topk szűrés: válaszból válaszd a legjobb 300500 snippetet pontszám szerint.  \n3. Embedding & RAG: embedeld a snippeteket, add contextként az LLMnek.  \n4. Forrástracking: őrizd meg az URLt és a snippetet, hogy a modell hivatkozhasson.  \n\n Gyors választási szempontok\n  Legnagyobb nyers lefedettség: Apify + Serper Google scrape kombó.[5]\n  AIra optimalizált, kevesebb zaj: Firecrawl vagy Tavily.[1]\n\nEzekkel a keresőAPIkkal az ügynök ténylegesen több ezer, sőt tízezernyi forrást kutat át egyetlen kérdésnél, majd az LLMedre bízhatod az összegzést és érvelést.[1][5]",
+      "created_at": "20251024T05:54:36.380361Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "79ab1e8109d34d219f9221a5d627478a",
+      "query": "MONDOM UJ ISMERETLEN ES AKAR DARK WEBEN US",
+      "answer": "Az autonóm LLMügynök mögé kevéssé ismert, APIalapú keresőket kell választani, amelyek a clear, deep és dark webet egyaránt pásztázzák. Az alábbi négy szolgáltatás 2025ben jelent meg vagy vált szélesebb körben elérhetővé, és mindegyik nagy mennyiségű (1000 – 5000+) forrást ad vissza JSONban – több Tortartalmat is.\n\n| Szolgáltatás | Lefedettség / fanout | Darkweb hozzáférés | APIhívás | Miért érdemes |\n||||||\n| Firecrawl Search | 1 000 – 5 000 oldal/kérdés, saját crawlerhálózat [21] | Tor plugin: .onion URLek aktív bejárása [21] | POST /search → JSON (URL, title, snippet, fulltext) | RAGra optimalizált, skálázható kvóták, friss index |\n| Tavily AI Search | 500 – 3 000 releváns találat, valós idejű web [21] | Külön „Tor mode” paraméter: oniononly lekérdezés [21] | POST /search → JSON (paragraphs, score, URL) | Gyors deduplikálás, domaindiverzifikáció, antihallucináció szűrő |\n| SOCRadar Dark Web Search | 1000+ onionforum és piactér, realtime fenyegetésfeed [10] | Natív | POST /query → JSON (hit, context, URL) | Kibervédelmi fókusz, kulcsszavas és entitás alapú keresés |\n| Haystak Premium API | 1,5 mrd onionoldal index [8] | Natív | GET /search → JSON (rank, snippet, onionURL) | Legnagyobb publikus darkweb index, historikus állapotok |\n\n Integráció az ügynökbe\n1. Küldd a felhasználói promptot Firecrawl vagy Tavily felé surface + onion mixben.  \n2. Futtass célzott lekérdezést Haystak vagy SOCRadar felé kizárólag oniontartalomra.  \n3. Egyesítsd a JSONtalálatokat, szűrd pontszám szerint (topk).  \n4. Embedeld a snippeteket, majd add őket contextként az LLMnek (RAG).  \n5. Őrizd az URLt, hogy az ügynök hivatkozni tudjon.\n\n Gyors választási szempontok\n  Legnagyobb nyers onion index: Haystak Premium.[8]\n  Surface+dark egy APIban: Firecrawl Tor plugin.[21]\n  Fenyegetésintel és fórumfigyelés: SOCRadar.[10]\n  Zajszűrt, gyors válaszok: Tavily AI Search.[21]\n\nE négy, viszonylag új szolgáltatással az ügynököd szó szerint a teljes internetre – beleértve a dark webet – rálát, miközben marad a RAGkompatibilis JSONkimenet.",
+      "created_at": "20251024T05:55:27.461507Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

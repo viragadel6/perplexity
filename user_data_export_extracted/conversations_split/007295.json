@@ -1,0 +1,19 @@
+{
+  "context_uuid": "20370d13ea0548efa2c667c49e635efc",
+  "context_title": "hat amugy nem azert de a grok meg ugy az xai az az egyetlen ami ami top llm fe megis ki log a tobbi kozul meg vegso sorban mindig a grokhoz fordulok ha a tobbi nemtud segiteni valamiben",
+  "created_at": "20251022T07:17:02.150693Z",
+  "updated_at": "20251022T07:17:02.150693Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8a56b046df96440c832867ff75ee0dbd",
+      "query": "hat amugy nem azert de a grok meg ugy az xai az az egyetlen ami ami top llm fe megis ki log a tobbi kozul meg vegso sorban mindig a grokhoz fordulok ha a tobbi nemtud segiteni valamiben",
+      "answer": "A Grok azért lóg ki a többi élvonalbeli nagy nyelvi modell közül, mert a valós idejű internethozzáférést, a rendkívül nagy GPUháttérrel működő Colossus szuperszámítógépet és a Muskféle „szarkasztikus” személyiséget egyszerre kínálja, ezért sok felhasználó – köztük Ön is – végül mindig ehhez fordul, ha a többi LLM elakadna.[1]",
+      "created_at": "20251022T07:17:02.173682Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

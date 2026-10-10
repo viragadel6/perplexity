@@ -1,0 +1,19 @@
+{
+  "context_uuid": "713bce66b61e49268323f9c49ce2d2d4",
+  "context_title": "",
+  "created_at": "20250710T02:59:25.411179Z",
+  "updated_at": "20250710T02:59:25.411179Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "519007fca2414a68a411a9ebe7220f5a",
+      "query": "",
+      "answer": "A  oldalhoz kapcsolódóan a keresési eredmények alapján nincs közvetlen, hivatalos információ vagy leírás. Az elérhető találatok között nem szerepel \"ChatJade\" nevű alkalmazás vagy projekt sem a Replit hivatalos oldalán, sem a dokumentációban, sem a közösségi példák között.\n\nAmi biztosan tudható:\n\n Replit egy online fejlesztői platform, ahol bármilyen programozási nyelven lehet alkalmazásokat, weboldalakat, chatbotokat és más projekteket létrehozni, akár kódolás nélkül is, természetes nyelvi utasításokkal a Replit Agent segítségével[1][2][3][6].\n A platformon számos chatbot példa és sablon elérhető, például valós idejű chat appok (pl. Replyte)[4], illetve AIalapú chatbotok, melyek OpenAI, LangChain vagy más technológiákat használnak[8][9].\n Ha egy konkrét chatbotot (például ChatJade) keresel, amely a Repliten fut, akkor valószínűleg egy egyedi, közösségi vagy magánprojekt lehet, amelyet valaki a Replit platformján fejlesztett ki. Ezekhez általában a projekt URLjén keresztül lehet hozzáférni, de hivatalos leírás vagy támogatás nem feltétlenül tartozik hozzá.\n\nÖsszefoglalva: a keresett  oldal nem szerepel a hivatalos Replit dokumentációban vagy példák között, így valószínűleg egy egyedi, Repliten készült projekt, amelyhez csak a megadott linken keresztül lehet hozzáférni. Ha többet szeretnél megtudni róla, érdemes közvetlenül az oldal készítőjétől vagy a projekt leírásából információt keresni.",
+      "created_at": "20250710T02:59:25.431549Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

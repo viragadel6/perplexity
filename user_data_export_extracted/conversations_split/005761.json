@@ -1,0 +1,37 @@
+{
+  "context_uuid": "f1be29336b084d7a85b00e6175e536ca",
+  "context_title": "iden meddig van kormanyablak??",
+  "created_at": "20251212T02:44:36.244366Z",
+  "updated_at": "20251212T02:46:51.032727Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3960e822958e48dfb2dbc3a3daa200d2",
+      "query": "iden meddig van kormanyablak??",
+      "answer": "A Kormányablak nyitvatartása helyszínenként eltér, ezért a “meddig van nyitva” kérdésre a biztos válaszhoz kell a város/cím.  Sok Kormányablakban pénteken (ma) jellemzően 8:00–14:00 a rend, de ez irodánként változhat.[1][2]\n\n Ma (péntek) meddig van nyitva?\nSok budapesti és vidéki Kormányablak pénteki napokon 8:00–14:00ig tart nyitva (ez az általános minta több hivatalnál).  Ettől eltérés lehet, illetve időnként “rendkívüli nyitvatartás” is megjelenhet az adott irodánál.[2][1]\n\n Ünnepi/év végi rend 2025ben\nAz ünnepnapok és munkanapáthelyezések miatt 2025. december 24. és január 5. között több helyen korlátozottabb az ügyintézés.  Az év végi leállás munkanapjain, 2025. december 29–31én országosan 22 kijelölt kormányablak fogad ügyfeleket 8:00–12:00 között.[3][4]\n\n Hogyan nézd meg a pontos zárást?\nA leggyorsabb: a hivatalos “Kormányablakkeresőben” rákeresel a településre/címre, és ott látod az adott iroda napi nyitvatartását és az esetleges rendkívüli időpontokat is.[1]\n\nÍrd meg, melyik városban (vagy melyik Kormányablak címen) mennél, és megmondom konkrétan, hogy ma meddig van nyitva.[1]",
+      "created_at": "20251212T02:44:36.356167Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "e665486bed05427da00661758545b6de",
+      "query": "de karacsony miatt kerdem",
+      "answer": "Karácsony környékén (2025ben) 12.24től 01.05ig a Kormányablakokban általában korlátozott az ügyintézés, és sok helyen zárva is lesz.[1][2]\n\n Mikor van biztosan nyitva?\n 2025.12.13. (szombat): egységesen 8:00–12:00 között nyitva tartanak a kormányablakok (ez a 12.24i pihenőnap ledolgozása).[1]\n 2025.12.29–12.31.: az év végi leállás munkanapjain országszerte 22 kijelölt kormányablak + a Központi Kormányablak fogad ügyfeleket 8:00–12:00 között (halaszthatatlan ügyekre).[2][1]\n\n Mit jelent ez a gyakorlatban?\n2025.12.24. és 2026.01.05. között a kormányablakok/kormányhivatalok szolgáltatásai az ünnepnapok és munkanapáthelyezések miatt korlátozottan érhetők el, ezért a legtöbb ügyet érdemes még 12.23ig elintézni.  A 12.29–12.31i időszakban nem minden iroda van nyitva, csak a kijelöltek, ezért előre ellenőrizni kell, melyik az a 22 helyszín (vármegyénként eltérhet).[2][1]\n\n Írd meg, hol intéznéd\nMelyik város/kerület (vagy melyik Kormányablak címe)? Megnézem, hogy a te környékeden melyik kijelölt iroda lesz nyitva 12.29–12.31. között, és pontosan meddig.[1][2]",
+      "created_at": "20251212T02:45:13.237504Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "c20932090ecb42a995fd0a99a658da4e",
+      "query": "tehat utolso nsp amikor nyitva",
+      "answer": "Az ünnepek előtt az “utolsó normál” ügyintézési nap országosan jellemzően 2025. december 23. (kedd), mert 12.24–01.05. között korlátozott lesz a személyes ügyintézés.[1][2]\n\n Utolsó napok, amikor még be tudsz menni\n 2025.12.23. (kedd): érdemes erre tekinteni az utolsó “biztos” napnak, amikor még a szokásos rend szerint sok helyen lehet ügyet intézni.[1]\n 2025.12.13. (szombat): rendkívüli ügyfélfogadás, egységesen 8:00–12:00 (a 12.24i pihenőnap ledolgozása miatt).[3][1]\n\n Ha december 23 után mennél\n 2025.12.24–2026.01.05.: általánosságban korlátozott az ügyintézés (sok hely zárva vagy szűkített rendben működik).[2][1]\n 2025.12.29–12.31.: csak 22 kijelölt kormányablak és a Központi Kormányablak tart nyitva 8:00–12:00 között (halaszthatatlan ügyekre).[2][1]\n\nHa megírod a települést (vagy a kiszemelt kormányablak címét), megmondom, hogy a te környékeden melyik kijelölt iroda lesz nyitva 12.29–12.31. között, és pontosan meddig.[3][2]",
+      "created_at": "20251212T02:46:40.088369Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

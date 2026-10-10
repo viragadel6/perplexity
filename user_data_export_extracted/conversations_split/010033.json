@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b3d6541884be417f87d3cc9094dad146",
+  "context_title": "olyan opensource ai modelleket kuldj CSAK amik JOBB teljesitmenyuek mint a Topaz Labs ai modelljei. Upscale, Denosie, Restore modellek kellenek. legyneek full ingyenesek es konnyen integralhatoak repliten python nyelvu appba",
+  "created_at": "20250610T17:31:44.884730Z",
+  "updated_at": "20250610T17:31:44.884730Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6ffe483a68c143f68daa4288949dda39",
+      "query": "olyan opensource ai modelleket kuldj CSAK amik JOBB teljesitmenyuek mint a Topaz Labs ai modelljei. Upscale, Denosie, Restore modellek kellenek. legyneek full ingyenesek es konnyen integralhatoak repliten python nyelvu appba",
+      "answer": "",
+      "created_at": "20250610T17:31:44.947280Z",
+      "label": null,
+      "query_status": "PENDING",
+      "engine_mode": null
+    }
+  ]
+}

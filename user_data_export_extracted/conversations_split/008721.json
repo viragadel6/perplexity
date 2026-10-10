@@ -1,0 +1,46 @@
+{
+  "context_uuid": "df5b99bb69ca479d9d01f9d23fc970a9",
+  "context_title": "exa ai doc links all \nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250903T19:50:09.404100Z",
+  "updated_at": "20250907T04:50:56.241418Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0c7615bfe2034ceb847b74d1e9e5f24c",
+      "query": "exa ai doc links all \nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  (főoldal, docs linkekkel) [2]\n  (LangChain integrációs útmutató) [3]\n  (LlamaIndex integrációs oldal) [4]\n  (CrewAI integráció) [5]\n  (VectorShift node) [6]\n  (MCP docs szerver Exahoz) [7]",
+      "created_at": "20250903T19:50:09.563581Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "5de0c229133b455bbf65d9daff49d9a1",
+      "query": "cerebras gpt oss 120b docs links all\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "  [1]\n  [2]\n  [3]\n  [4]\n  [5]\n  [6]\n  [7]\n  [8]\n  [9]\n  [10]",
+      "created_at": "20250903T19:53:25.320352Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6ed6b0ebdaa94b2ead7ce8e288426bf8",
+      "query": "gemini 2.5 pro linkek",
+      "answer": "  [1]\n  [2]\n  [3]\n  [4]\n  [5]\n  [6]\n  [7]\n  [8]\n  [9]\n  [10]\n  [11]\n  [12]\n  [13]\n  [14]\n  [15]\n  [16]\n  [17]\n  [18]\n  [19]",
+      "created_at": "20250907T04:46:07.171968Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6b2b5358879a4cb484b6202e9542a609",
+      "query": "xai grok 4 linkek",
+      "answer": "  [1]\n  [2]\n  [3]\n  [4]\n  [5]\n  [6]\n  [7]\n  [8]\n  [9]\n  [10]\n  [11]\n  [12]\n  [13]\n  [14]\n  [15]\n  [16]\n  [17]\n  [18]\n  [19]",
+      "created_at": "20250907T04:49:03.642150Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

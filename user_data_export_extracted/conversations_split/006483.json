@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6656e77168b041d1903c53be19438e68",
+  "context_title": "minden egyes karaktert VALÓBAN elolvasol és feldolgozol elsőtől az utolsóig és az ÖSSZES hibát listába írod a teljesség igényével! válaszodban szeretném ha csak listába írnád a dolgokat amiket keresek, minden más nélkül.   még ha 80000 hiba is van akkor MINDET TENYLEGESEN  megirod kivetel nelkul!",
+  "created_at": "20251111T16:58:10.183590Z",
+  "updated_at": "20251111T16:58:10.183590Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "11a58216e7524f1ebb69f59c86af935b",
+      "query": "minden egyes karaktert VALÓBAN elolvasol és feldolgozol elsőtől az utolsóig és az ÖSSZES hibát listába írod a teljesség igényével! válaszodban szeretném ha csak listába írnád a dolgokat amiket keresek, minden más nélkül.   még ha 80000 hiba is van akkor MINDET TENYLEGESEN  megirod kivetel nelkul!",
+      "answer": " Sor 36: Hiányzó záró zárójel ')' a cerebras_client.chat.completions.create() függvény hívás után\n Sor 44: Hiányzó záró kapcsos zárójel '}' a \"message\" dictionary után\n Sor 50: Hiányzó záró kapcsos zárójel '}' az \"usage\" dictionary után\n Sor 85: Hiányzó záró kapcsos zárójel '}' a search_params dictionary után\n Sor 145: Hiányzó nyitó kapcsos zárójel '{' a sources lista dictionary elemeinek kezdetekor (a lista comprehensionben)\n Sor 154: Hiányzó záró kapcsos zárójel '}' a sources dictionary után\n Sor 192: Hiányzó záró zárójel ')' az analysis cerebras_client.chat.completions.create() függvény hívás után\n Sor 215: Hiányzó záró zárójel ')' a report cerebras_client.chat.completions.create() függvény hívás után[1]",
+      "created_at": "20251111T16:58:10.451519Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

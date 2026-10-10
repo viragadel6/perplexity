@@ -1,0 +1,19 @@
+{
+  "context_uuid": "db453c1307904b0b9577cb7c7c5904df",
+  "context_title": "best open weight llm model today",
+  "created_at": "20260702T13:55:35.884590Z",
+  "updated_at": "20260702T13:56:43.999522Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a7930a91f2f946a3ad120bdc93443849",
+      "query": "best open weight llm model today",
+      "answer": "The best openweight LLM today depends on what you mean by “best,” but the strongest allaround answer from current public rankings is GLM5.2, which appears at the top of a live opensource leaderboard with a Quality Index of 51.1.[1]\n\n Best overall\nIf you want a single pick for broad capability, GLM5.2 is the most defensible “best openweight model today” from the ranking I found, and it is also described as the strongest codingoriented model on that page.[1]\n\n Strong alternatives\nFor longcontext, agentic, or codingheavy work, Kimi K2.6 is presented by recent coverage as one of the strongest openweight options, especially for longhorizon coding and autonomous workflows.[2][3]\n\nIf you care more about general benchmark prestige and largescale capability, Llama 4 Maverick, DeepSeek V4, and Qwen3 235B are also repeatedly mentioned among the top openweight models in recent 2026 roundups.[4][5][6][7]\n\n Practical choice\nFor most users, the real answer is not just “which model is best,” but “which model fits my hardware and task.” A toptier model like GLM5.2 or Kimi K2.6 may be excellent on paper, while a smaller model can be better if you need something you can actually run locally.[5][8]\n\n Recommendation\nFor a simple oneline recommendation: GLM5.2 for best overall quality, Kimi K2.6 for coding/agentic work, and Qwen3 or Llama 4 if you want a widely discussed alternative ecosystem.[7][4][2][5]",
+      "created_at": "20260702T13:55:36.042932Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

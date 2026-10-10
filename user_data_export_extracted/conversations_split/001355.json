@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b1770f1b832f4034b19a3f2735d9c7a2",
+  "context_title": "ocr",
+  "created_at": "20260722T22:38:16.443983Z",
+  "updated_at": "20260722T22:38:20.827610Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6e06d0c851c546b89b79c3c71fdb698c",
+      "query": "ocr",
+      "answer": "Sándor Kollár  \n@mart y92ff2a53  \nmarty92ff2a53@eltripservice.com  \n\nJoin Replit Core  \nUsage  \n\nPROFILE  \nEdit Profile  \n\nTHEME  \nTheme  Dark  \n\nNOTIFICATIONS  \nNotifications  \n\nSUPPORT  \nHelp  \nDocs  \n\nOTHER  \nAbout  \nManage Account  \nLog Out",
+      "created_at": "20260722T22:38:16.689934Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

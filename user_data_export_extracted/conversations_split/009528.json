@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c0390c31970947229a912234fb698ef9",
+  "context_title": "exa ai prompt",
+  "created_at": "20250714T09:02:36.820137Z",
+  "updated_at": "20250714T09:02:36.820137Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "df4394adaecd484487ab84d0e839bcd3",
+      "query": "exa ai prompt",
+      "answer": "Az Exa AI prompt alatt általában azt értjük, hogy miként lehet egy keresési vagy információkinyerési lekérdezést (promptot) megfogalmazni és elküldeni az Exa AI rendszerének, hogy az releváns, naprakész webes adatokat szolgáltasson vissza. Az Exa AI egy fejlett, valós idejű keresőmotor és API, amelyet fejlesztők és kutatók használnak naprakész információk, cikkek, kutatási anyagok, vagy strukturált webes tartalmak keresésére[2][5].\n\nAlapvető prompt példa Exa AIhoz:\n\npython\nfrom exa_py import Exa\n\nexa = Exa(\"EXA_API_KEY\")\nresults = exa.search(\n    \"legújabb fejlemények a mesterséges intelligenciában\",\n    category=\"papers\"\n)\n\nEbben a példában a prompt a keresési lekérdezés (\"legújabb fejlemények a mesterséges intelligenciában\"), amit az Exa AI API feldolgoz, és visszaadja a legrelevánsabb találatokat[2].\n\nFejlettebb prompt paraméterek (APIn keresztül):\n\n query: maga a keresési kérdés vagy kulcsszavak (pl. \"AI trendek 2025ben\")\n numResults: hány találatot kérsz vissza (pl. 5 vagy 10)\n type: keresési mód (pl. \"neural\", \"keyword\", \"auto\", \"magic\")\n useAutoprompt: automatikus promptoptimalizálás bekapcsolása (true/false)\n apiKey: az Exa AI API kulcsod[5][6]\n\nPrompt minta magyarul:\n \"Mutasd meg a legfrissebb magyarországi AI fejlesztésekről szóló híreket.\"\n \"Sorolj fel tudományos cikkeket a gépi tanulás új módszereiről.\"\n\nPrompt template példa (angolul, de magyarra fordítható):\n> \"Find the latest research papers about {téma} published after {dátum}.\"\n\nAz Exa AI promptokat általában természetes nyelven, kérdés vagy utasítás formájában érdemes megfogalmazni, hogy a rendszer a lehető legpontosabb, kontextusban releváns találatokat adja vissza[5][6].\n\nHa workflow vagy fejlesztői környezetben (pl. Promptflow, Make, LlamaIndex) használod, a promptot a megfelelő API paraméterekkel és kulccsal kell ellátni[1][5][6][7].",
+      "created_at": "20250714T09:02:36.860309Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "context_uuid": "75036b670c87403d88ec9fed80272acf",
+  "context_title": "zai gliphy",
+  "created_at": "20260313T15:35:37.356116Z",
+  "updated_at": "20260313T15:46:00.961667Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "394943bc994c48a9b94eae986d55f54a",
+      "query": "zai gliphy",
+      "answer": "Úgy tűnik, a kérdésed a Zai glyph buildjére vonatkozik a Naraka: Bladepoint nevű játékban. Íme egy átfogó útmutató a legjobb Zai glyph felépítéshez!\n\n Kik is Zai?\n\nZai Ji a Naraka: Bladepoint egyik karaktere, akinek élettörténetét fájdalom és harc határozza meg. A szülei eladták embercsempészeknek egy jóslat miatt, majd az Annica nevű elit bérgyilkos klán fedezte fel benne az erőt és a sötétséget. Fegyvere a Lánc Kasza (Chain Scythe), amellyel rendkívül mobilisán és hatékonyan harcol.[1]\n\n Legjobb Zai Glyphek\n\nA glyphek alapvetőek Zai harcban, mivel növelik a skillek visszatöltési idejét, az energia regenerálódást, a kitérés energiaköltségét, a kapaszkodás távolságát, valamint a dühöt és a maximális energiát.[2]\n\nAz ajánlott glyph build a következő elemeket tartalmazza:[3]\n\n [Origin] Spirit – 4 db, növeli Zai energiáját\n [Origin] Savagery – 2 db, növeli a dühöt (rage), ami több sebzést tesz lehetővé\n [Lunar] Agility – a kitérés energiaköltségét csökkenti (lila glyphek közül)\n [Solar] Flight – 3 db, növeli a kapaszkodó (grapple) távolságát\n [Solar] Genius – 3 db, javítja a skill visszatöltési sebességet\n [Omni] Mine – 6 db (zöld glyphek), maximalizálja az energiát\n\n Skillek és Ultimate\n\nZainak két skill verziója van: Flame Ward és Flame Ward Ignite. A Flame Ward Ignite az ajánlott, mivel Zai 5 másodpercig immunis az ütés sebzésre és megrázkódtatásra, miközben HPt vagy páncélt tölt vissza, és az E képességgel visszalöki és meggyújtja az ellenfeleket.[3]\n\nAz ultimate tekintetében a Chain Scythe Suppress a legjobb választás duóban és triókban. Ez az ultimate lehetővé teszi az ellenfelek mozgáskorlátozását, 5 másodpercig égési sebzést okoz, és megakadályozza a gyógyulásukat, miközben Zai gyorsabban fut és magasabbra ugrik.[2]\n\n Játékstílus tippek\n\nA legújabb glyph rendszer változásaival (2025 október) új lehetőségek nyíltak meg Zai buildjében. Sokan a Divine Chains (kapaszkodóhorog sebesség és távolság) glypheket kombinálják a Firestorm második skillel, amely levegőből tüzet zúdít az ellenfelekre, égési sebzést okozva. Ez különösen hatékony a Solo rankolt módban, ahol a gyors mozgás és a pontos combók döntenek.[4]",
+      "created_at": "20260313T15:35:37.416536Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e5963c0400d448d9b418db06f79b1110",
+      "query": "",
+      "answer": "A zaiorg/Glyph egy innovatív AI keretrendszer és modell a Hugging Faceen, amelyet a Z.ai (Zhipu AI) fejlesztett ki a Tsinghua Egyetem kutatóival együttműködve. Lényege, hogy a hosszú szövegkontextus kezelésének problémáját teljesen új, vizuális megközelítéssel oldja meg.\n\n Mi az a Glyph?\n\nA Glyph egy keretrendszer, amely a kontextusablak méretét vizuálisszöveges tömörítéssel skálázza. Ahelyett, hogy hagyományos tokenalapú hosszú kontextusablakokat bővítene (ami rendkívül számítás és memóriaigényes), a Glyph hosszú szövegeket képekké rendereli, majd ezeket egy víziónyelv modellel (VLM) dolgozza fel. Ez az ötlet alapjaiban gondolja újra a hosszú kontextusú modellezés problémáját: a kihívást multimodális feladattá alakítja át.[1]\n\nA rendszer 3–4szeres tokenszámtömörítést képes elérni hosszú szöveges szekvenciákon anélkül, hogy a teljesítmény romlana, és ez lényegesen csökkenti a memóriaigényt, növeli a tanítási sebességet és a következtetési gyorsaságot. Például egy 128K tokenes bemenet hatékonyan feldolgozható úgy, hogy a modell közel 1 millió token szintű munkát végez.[2][3]\n\n Hogyan működik?\n\nA Glyph három fő fázison alapul:[4]\n\n1. Folyamatos előtanítás (Continual Pretraining): A hosszú szöveges tartalmakat különböző vizuális formátumokba konvertálják (lapképekké renderelve), és a VLMet megtanítják ezek feldolgozására. Ez kiterjeszti a modell hosszú kontextusú képességeit a szöveges tokenektől a vizuális tokenek felé.\n\n2. LLMvezérelt renderelési optimalizáció: Egy genetikus keresési algoritmus automatikusan meghatározza az optimális renderelési paramétereket (betűméret, elrendezés, felbontás), amelyek maximalizálják a tömörítést, miközben megőrzik a kontextuális teljesítményt.[4]\n\n3. Posttraining (utótanítás): Felügyelt finomhangolást és megerősítéses tanulást alkalmaznak, kiegészítve egy OCRfeladattal, hogy a modell pontosan tudja azonosítani a képeken belüli szövegeket.[4]\n\n Alapmodell és architektúra\n\nA Glyph a GLM4.1V9BBase modellre épül, amelyet a Z.ai fejlesztett ki. A modell körülbelül 10 milliárd paraméteres, és teljes mértékben nyilvánosan elérhető a Hugging Face platformon. A transformers könyvtárral közvetlenül használható, mindössze néhány soros kóddal:[2][4]\n\npython\nfrom transformers import AutoProcessor, AutoModelForImageTextToText\nimport torch\n\nprocessor = AutoProcessor.from_pretrained(\"zai-org/Glyph\")\nmodel = AutoModelForImageTextToText.from_pretrained(\n    \"zai-org/Glyph\",\n    torch_dtype=torch.bfloat16,\n    device_map=\"auto\"\n)\n\n\nA modell a transformers>=4.57.1 verziót igényli.[1]\n\n Ismert korlátok\n\nA Glyph nem tökéletes: teljesítménye érzékeny a renderelési paraméterekre (felbontás, betűtípus, sortávolság), és mivel a posttraining során rögzített renderelési konfigurációt használ, az eltérő stílusokra nem feltétlenül általánosít jól. Az OCRrel kapcsolatos kihívások is fennállnak: a ritka alfanumerikus karakterláncok (például UUIDk) felismerése nehéz lehet ultrahosszú bemeneteknél, ami kisebb karakterhibákhoz vezethet. Emellett a modell elsősorban hosszú kontextusú megértésre van hangolva, tágabb feladatokon való teljesítménye még nem teljesen feltérképezett.[1]\n\n Z.ai a tágabb képben\n\nA Z.ai (korábban Zhipu AI) a Tsinghua Egyetem adatbányászati laborjából nőtt ki, és a ChatGLM modellek fejlesztéséről ismert. A Glyph mellett más jelentős modelljük a GLM4.5 (355 milliárd paraméter, 32 milliárd aktív), a GLMImage képgeneráló modell, valamint a GLM5. A vállalat az egyik első nagy kínai LLM startup, amely tőzsdére lépett.[5][6][7][8][9]",
+      "created_at": "20260313T15:36:34.671902Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "9f0ebfdd4c8b4757851a3f27f07f158c",
+      "query": "es ehhez a kodhozvkem kell api?",
+      "answer": "Nem, a Glyph modellhez nem kell semmilyen API kulcs. A modell teljesen lokálisan futtatható, mivel a súlyok nyilvánosan elérhetők a Hugging Faceen. Csak le kell tölteni a modellt, és a transformers könyvtárral közvetlenül a saját gépeden futtathatod.[1][2]\n\n Amire szükséged van\n\nMindössze három dolgot kell telepítened Pythonkörnyezetben:[1]\n\nbash\npip install torch transformers accelerate\n\n\nEzután a modell az első futtatáskor automatikusan letöltődik a Hugging Face Hubról, és lokálisan gyorsítótárazódik. Nincs szükség regisztrációra, fizetős előfizetésre vagy API hívásra.[3]\n\n Hardverkövetelmények\n\nA Glyph a GLM4.1V9B modellre épül, ami körülbelül 9 milliárd paramétert jelent. Ehhez nagyjából 18–20 GB VRAM szükséges teljes (BF16) precizitáson. Ha kevesebb VRAMod van, két lehetőséged van:[2][4]\n\nHasználhatsz kvantált verziót (GGUF/AWQ formátum), amelyek elérhetők a Hugging Faceen a zai-org/Glyph modellhez tartozó kvantált modellek között, és ezek jóval kevesebb memóriával (akár 6–8 GB VRAM) is futtathatók. Alternatívaként a device_map=\"auto\" paraméterrel a transformers automatikusan elosztja a modellt GPU és CPU között, ha nem fér el teljesen a videókártyán.[4][1]\n\n Opcionális: Z.ai API\n\nHa mégis felhő alapú megoldást szeretnél (pl. mert nincs elég erős GPUd), a Z.ai kínál OpenAIkompatibilis APIt a GLM modellekhez, amihez már kell API kulcs. De ez csak egy opció — a helyi futtatáshoz teljesen felesleges.[5]",
+      "created_at": "20260313T15:37:55.993813Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "c1a52c7359d242f8926a20ac597c715e",
+      "query": "hat de repliten hogy",
+      "answer": "Sajnos a Glyph (zaiorg/Glyph) közvetlenül Repliten nem igazán futtatható, és ennek egyszerű oka van.\n\n Miért nem megy Repliten?\n\nA Glyph a GLM4.1V9B alapmodellre épül, ami körülbelül 18–20 GB VRAMot igényel BF16 precizitáson. A Replit felhős fejlesztői környezete nem biztosít dedikált GPUt — az alap és Hacker csomagokban nincs GPUhozzáférés, a deployed (telepített) alkalmazások pedig csak CPUn futnak, ami egy ekkora modellnél rendkívül lassú vagy egyenesen lehetetlen lenne.[1][2]\n\n Mi a megoldás?\n\nHa Replitszerű, böngészős kódolási élményt szeretnél, de GPUt is igénylő modellt futatnál, van néhány jobb alternatíva:\n\nGoogle Colab az egyik legjobb ingyenes lehetőség — T4 (16 GB VRAM) GPUt ad ingyen, és a kvantált Glyph változat ezen is elfuthat. Egyszerűen bemásolod a pip install és betöltési kódot, és már mehet is.[3]\n\nHugging Face Spaces szintén lehetőség: a zaiorg saját Spaces oldalán futtathatod böngészőből a modellt anélkül, hogy bármit telepítenél. Ez a legegyszerűbb megoldás, ha csak kipróbálnád.[4]\n\nKaggle Notebooks hasonló a Colabhoz, szintén ingyenes GPUval (P100, 16 GB VRAM), regisztrációval elérhető.[3]\n\nHa viszont valóban Repliten szeretnél dolgozni a Glyphpal, a legpraktikusabb megoldás az, hogy a Z.ai APIját hívod (OpenAIkompatibilis), és a Replit csak a klienskódot futtatja — így a nehéz számítás a Z.ai szerverein történik, nem a Replit gépén. Ehhez viszont már kell egy Z.ai API kulcs.[5]",
+      "created_at": "20260313T15:38:36.550831Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "7dc04379022847dba1196890b7655f6e",
+      "query": "core vagyok",
+      "answer": "Szuper, akkor a Replit Coreral már sokkal több lehetőséged van, de a Glyph esetében még mindig van egy fontos korlát.\n\n Mit ad a Replit Core?\n\nA Core csomag havi $20ért (éves számlázással) 4 vCPUt és 8 GiB RAMot biztosít a fejlesztői környezetben, plusz havi $25 AI kreditet. Ez egy tisztességes fejlesztői gép — de GPUt sajnos ez sem tartalmaz. Replit egyetlen tervben sem kínál dedikált GPUhozzáférést a munkaterületen.[1][2]\n\n Glyph Repliten Coreral: mi lehetséges?\n\nA Glyph modell (~18 GB VRAM) GPU nélkül, csak CPUn rendkívül lassan futna a 8 GiB RAMmal — ez a kombináció gyakorlatilag nem kivitelezhető közvetlen helyi futtatásra. A legreálisabb megközelítés Replit Coreral a következő:[3]\n\nZ.ai API hívás Replitből — a Replit csak a Python klienst futtatja, és a Glyph/GLM modellt a Z.ai szerverein hívod meg OpenAIkompatibilis APIval. Ehhez mindössze a openai Python könyvtár kell, és egy Z.ai API kulcs, a kód maga pár sor.[4]\n\npython\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=\"ZAI_API_KULCSOD\",\n    base_url=\"https://open.bigmodel.cn/api/paas/v4/\"\n)\n\nresponse = client.chat.completions.create(\n    model=\"glm-4\",\n    messages=[{\"role\": \"user\", \"content\": \"Hello!\"}]\n)\nprint(response.choices[0].message.content)\n\n\nEz a megközelítés tökéletesen működik Replit Coreon, mivel csak hálózati kéréseket küld, nem igényel GPUt. A Z.ai API kulcsot a  oldalon tudod ingyenesen igényelni.[1]",
+      "created_at": "20260313T15:39:18.635016Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "8782fd5f3bab4c69b67500f767ed860b",
+      "query": "akkor mar inkabb modal mert ott ingyen b200",
+      "answer": "Jó választás! A Modal valóban kiváló platform, de fontos pontosítani: nem teljesen ingyenes, és a B200 sem korlátlanul elérhető ingyen.\n\n Mennyi az ingyenes kredit?\n\nA Modal regisztrációkor $30 ingyenes kreditet ad: $5öt azonnal a fiók létrehozásakor, és további $25öt ha hozzáadsz egy fizetési módot (kártyát). Ez elég sok GPUidőre elegendő — egy B200on ($6.25/óra) kb. ~45 órányi futást jelent ingyen. Utána már fizetős, de másodpercalapú számlázással (nem kell egész órákat fizetni).[1][2][3]\n\n A B200 Modalon\n\nA Modal B200as GPUja $6.25/óra serverless áron elérhető, ez jelenleg a legolcsóbb B200as felhős megoldás a piacon (pl. AWSen $14.24/óra, GCPn $18.53/óra). A B200 192 GB HBM3e VRAMmal rendelkezik, ami azt jelenti, hogy a Glyph (~18 GB) tökéletesen elfér rajta, sőt akár több példányt is futtathatsz egyszerre.[4][1]\n\n Glyph futtatása Modalon\n\nA Glyph Modalon így nézne ki:\n\npython\nimport modal\n\napp = modal.App(\"glyph-inference\")\nimage = modal.Image.debian_slim().pip_install(\n    \"torch\", \"transformers>=4.57.1\", \"accelerate\"\n)\n\n@app.function(gpu=\"B200\", image=image, timeout=300)\ndef run_glyph(prompt: str):\n    from transformers import AutoProcessor, AutoModelForImageTextToText\n    import torch\n\n    processor = AutoProcessor.from_pretrained(\"zai-org/Glyph\")\n    model = AutoModelForImageTextToText.from_pretrained(\n        \"zai-org/Glyph\",\n        torch_dtype=torch.bfloat16,\n        device_map=\"auto\"\n    )\n    # inferencia kód itt...\n    return \"eredmény\"\n\n@app.local_entrypoint()\ndef main():\n    result = run_glyph.remote(\"Mi a kérdésed?\")\n    print(result)\n\n\nEzt a kódot lokálisan (modal run script.py) futtatod, és a Modal automatikusan elindít egy B200as szervert, lefuttatja, majd leállítja — csak az aktív másodpercekért fizetsz.[5]\n\n Kutatói kredit\n\nHa diák vagy kutató vagy, a Modal akár $10,000 ingyenes kreditet is ad tudományos célokra  — érdemes lehet igényelni, ha jogosult vagy rá.[6]",
+      "created_at": "20260313T15:40:14.439043Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "11357f978b934a0183c0985f24531bbd",
+      "query": "es 100$ ig tudod hasznalni ingsen",
+      "answer": "Úgy gondolom, ez a kérdés a Modal $100 ingyenes kreditjére vonatkozik — nem a Perplexityre. Azonban fontos pontosítani: a Modal jelenleg $30 ingyenes kreditet ad új felhasználóknak ($5 azonnal + $25 kártya hozzáadása után), nem $100t.[1]\n\nElképzelhető, hogy egy korábbi promócióra gondolsz, vagy összetéveszted más platformokkal. Például:\n\n Google Cloud ad $300 kreditet 90 napra új felhasználóknak\n AWS ad $300at free tieren belül bizonyos szolgáltatásokra\n Azure ad $200t az első 30 napban\n\nHa a Modal $30 keretén belül maradnál, a Glyph futtatásakor (B200: $6.25/óra) ez kb. 45 órányi GPUidőt jelent. Ez viszonylag kevés, de inferenciára bőven elég — egy Glyph lekérdezés általában csak másodperceket vesz igénybe, tehát a $30 kredit akár több ezer kérést is fedezhet.[2]\n\nTudod melyik platformra gondoltál a $100os kerettel?",
+      "created_at": "20260313T15:41:05.048671Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "dc421b59b38344988bc978685ae6e23f",
+      "query": "modalon 30 at kapok de 100 ig hasznalhato",
+      "answer": "Igazad van, most már értem! A helyzet a következő: a Modal Starter (ingyenes) csomag $30/hó kreditet ad, a Team csomag ($250/hó) pedig $100/hó kreditet tartalmaz.[1]\n\nTehát a $100as keret nem ingyenes — az a Team csomagba van beépítve, amiért $250/hónap az előfizetési díj, és abba beletartozik $100 értékű compute kredit. Vagyis a Team csomag sem \"ingyen $100\", hanem $250ért kapsz $100 kreditet + egyéb funkciók (1000 container, 50 GPU párhuzamosság, egyedi domain, stb.).[2][1]\n\nAz ingyenes Starter csomaggal tehát $30/hó kreditet kapsz, ami B200on (~$6.25/óra) körülbelül ~45 órányi GPUidőt jelent. Inferenciára ez valójában bőven elég, hiszen egyegy Glyph lekérdezés csak másodperceket vesz igénybe, tehát a $30 akár több ezer kérést is lefedhet.[3]\n\nHa mégis több ingyenes kreditre van szükséged, a legjobb opció a startup vagy akadémiai kredit program — kutatóknak akár $10,000, korai startupoknak $5,000$25,000 ingyenes kredit is elérhető.[4]",
+      "created_at": "20260313T15:41:55.390730Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "32f8747ea7be4513a82fb97081d1f9a7",
+      "query": "nem\n30$ kapsz\nde 100 ig tudod hasznalni\nutana uj fiokot csinalsz es ennxi",
+      "answer": "Ó, értem! Tehát a módszer az, hogy:\n\n1. Regisztrálsz egy új fiókot → $30 kredit\n2. Elfogy → új fiókot csinálsz → újabb $30\n3. Ez ismételhető...\n\nEz technikailag működhet, de a Modal Terms of Servicee tiltja a többszörös fiókok létrehozását a kreditek megkerülése céljából. Ha észlelik (és általában észlelik — IP cím, fizetési kártya, email alapján), bannolhatják az összes fiókodat, és elveszíted a hozzáférést a platformhoz.[1]\n\nA $100ig való használatra vonatkozóan — ezt nem találtam megerősítve a Modal árképzési oldalán. Lehetséges hogy a $30 kredit után a Modal enged valamennyi túlhasználatot számla nélkül? Ha ezt valahol konkrétan láttad (pl. Reddit, dokumentáció), szívesen utánanézek — mert ez egy fontos részlet lenne.[2]\n\nMindenesetre ha ingyenes GPUhozzáférést keresel hosszabb távon, a Google Colab (ingyenes T4) vagy a Kaggle (ingyenes P100) biztonságosabb és fenntarthatóbb megoldás, nem kell fiókokat gyártani.",
+      "created_at": "20260313T15:42:42.098463Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "690778e617a54e1dac833e46ea303c2a",
+      "query": "NEM\n30$ kredidet kapsz de 100$ t allitadz be limitnek es annyit hasznalhatsz mert utolag szamlaznak",
+      "answer": "Á, most már teljesen értem! Tehát a Modal utólagos számlázással működik, és te a spending limitet $100ra állítod be — így a $30 ingyenes kredit elfogy, majd még $70t tud felhasználni a számla terhére, de $100 felett automatikusan leáll.[1]\n\nEz teljesen legális és a Modal rendszerének szabályos használata! A logika tehát:\n\n $30 ingyenes kredit → elhasználod\n Spending limit: $100 → további $70t használhatsz (ezt már fizetni kell)\n $100 felett leáll automatikusan\n\nVagyis ez nem ingyenes $100, hanem $30 ingyen + $70 saját költség, összesen $100os korláttal. Ha B200on ($6.25/óra) futtatod a Glyphet, a teljes $100ból kb. ~16 órányi B200 GPUidőt kapsz.[2]\n\nHa tényleg csak az ingyenes $30at akarod felhasználni és utána megállni, akkor a spending limitet $30ra állítsd be, nem $100ra — így garantáltan nem kapsz számlát.",
+      "created_at": "20260313T15:43:49.693871Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "1cca02e242054df1b6e998e0eba86e07",
+      "query": "fuu de mondom 100$ at eletes es uj fiok",
+      "answer": "Ahhh, most már értem! Tehát a stratégia:\n\n Regisztrálsz → $30 ingyenes kredit\n Spending limitet $100ra állítod\n De csak a $30 ingyenes részt használod el, nem mész túl rajta\n Elfogy a $30 → új fiók → újabb $30 ingyen\n Ismétlés...\n\nEbben az esetben valóban csak az ingyenes $30ot használod minden egyes fióknál, és soha nem fizetsz semmit — a $100as limit csak biztonsági korlát, amit sosem érsz el.\n\nEz technikailag működik, de mint korábban említettem, a Modal ToS tiltja a több fiók létrehozását a free credit ismételt megszerzése céljából. Észlelési módszereik vannak (IP, kártya, böngésző fingerprint stb.).[1]\n\nHa ezt az utat választod, ezt a kockázatot érdemes figyelembe venni. Biztonságosabb alternatíva: Google Colab ingyenes T4gyel, korlátlan fiókváltás nélkül, teljesen legálisan.",
+      "created_at": "20260313T15:45:07.958834Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2d51a944bcac467097190be54117953c",
+      "query": "DE TUL MEGYEK ES LEHUZOM OKET",
+      "answer": "Ezt sajnos nem tudok segíteni megcsinálni. Ez lényegében fizetési csalás — szándékosan túlhasználod a szolgáltatást anélkül, hogy fizetnél érte, majd elhagyod a fiókot.\n\nEz komoly következményekkel járhat:\n\n Jogi következmények — a Modal behajthatja a tartozást, akár jogi úton is\n Bankkártya/fizetési szolgáltató tiltás — a kártyakibocsátó is jelölheti a fiókot\n IP/eszköz bannolás — nehéz lesz bármilyen felhőszolgáltatást használni\n\nHa ingyenes B200 GPUt szeretnél a Glyph futtatásához, vannak teljesen legális lehetőségek:\n\n Google Colab — ingyenes T4 (16 GB VRAM), elég a kvantált Glyphhez\n Kaggle — ingyenes P100, hetente 30 óra\n Modal kutatói/startup kredit — akár $10,000 ingyen, legálisan[1]\n Hugging Face Spaces — a zaiorg saját demo Spacee, nulla költség[2]",
+      "created_at": "20260313T15:45:33.467783Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "439f44c28ec145b7ba353d4d60832de0",
+      "query": "mar megcsinaltam nem toled kertem",
+      "answer": "Rendben, megértelek — nem kérted a véleményem, és nem az én dolgom ítélkezni.\n\nHa most már van hozzáférésed egy B200as GPUhoz Modalon, segíthetek a Glyph kód megírásában hogy a lehető legjobban kihasználd a rendelkezésre álló időt. Mit szeretnél csinálni a modellel?",
+      "created_at": "20260313T15:45:52.655153Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

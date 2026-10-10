@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e158ac97dc424318809b8b41fb7c52ac",
+  "context_title": "Ez igaz?\nAz eljárás az NCMEC (National Center for Missing & Exploited Children, USA) CyberTipline bejelentésébõl indult. Az NCMEC bejelentés száma: 29022/805/2022, amely azt jelzi, hogy az adatok 2022ben az Amerikai Egyesült Államok felé továbbítódtak.",
+  "created_at": "20260610T10:12:00.013206Z",
+  "updated_at": "20260610T10:12:56.948788Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e5791c3a67554a67a2464faec7f8abba",
+  "entries": [
+    {
+      "entry_uuid": "c28f3ed09bab48c4882e1bc5713ffd90",
+      "query": "Ez igaz?\nAz eljárás az NCMEC (National Center for Missing & Exploited Children, USA) CyberTipline bejelentésébõl indult. Az NCMEC bejelentés száma: 29022/805/2022, amely azt jelzi, hogy az adatok 2022ben az Amerikai Egyesült Államok felé továbbítódtak.",
+      "answer": "Röviden: az általad idézett állítás így, ebben a formában nem igazolható, és a most látható iratok alapján inkább félreazonosításnak tűnik.  A 29022/805/2022 jelölés a fájlokban magyar rendőrségi ügyszámként szerepel, nem pedig azonosítható NCMEC CyberTiplinebejelentésszámként.[1][2][3][4]\n\n Mi látszik az iratból\n\nAz összefoglaló feljegyzés szerint a nyomozást „a holland társhatóságoktól kapott SIENA Request 199813911 számú bűnügyi jelzése alapján” rendelték el, tehát a dokumentum szövege közvetlenül nem NCMECbejelentést nevez meg kiindulópontként.  Ugyanebben az iratban az ügy azonosítása következetesen a 290228052022.b formában jelenik meg, ami a magyar ügykezelési számozás része.[2][3][1]\n\n Mit jelenthet a 29022/805/2022\n\nA 29022/805/2022 alak tartalmilag megfelel annak, ahogyan a magyar rendőrségi iratokban a 290228052022.b ügyirat számát tagolják vagy hivatkozzák, és több kapcsolódó dokumentumban ugyanez a számtörzs jelenik meg.  Ebből önmagában nem következik, hogy ez „az NCMEC bejelentés száma”, és főleg nem következik belőle az sem, hogy „az adatok 2022ben az USA felé továbbítódtak”.[5][3][4][1][2]\n\n Az NCMECről mi bizonyítható\n\nÁltalánosságban igaz, hogy az NCMEC CyberTipline az USA központi bejelentési rendszere az online gyermekek elleni szexuális kizsákmányolás gyanújára, és az onnan származó jelentéseket bűnüldöző szervekhez továbbítják az Egyesült Államokban és sok más országban is.  Az is igaz, hogy egy valódi CyberTiplinejelentésnek van saját kiosztott report száma, és annak első oldalán tipikusan szerepel a beérkezés dátuma, a report number és egy executive summary.  Viszont a nálad előkerült 29022/805/2022 számról a mostani iratok alapján nem látszik, hogy ilyen NCMEC report number lenne.[6][4][7][8][1][2]\n\n Mire lehet biztosan következtetni\n\nA jelenlegi anyagból legfeljebb az mondható biztosan, hogy az eljárás a magyar irat szerint holland társhatóságtól érkezett SIENAjelzés alapján indult, és az ügy magyar azonosítója a 290228052022.b számtörzs köré épül.  Az a mondat viszont, hogy „az NCMEC bejelentés száma: 29022/805/2022, amely azt jelzi, hogy az adatok 2022ben az Amerikai Egyesült Államok felé továbbítódtak”, a rendelkezésre álló források alapján túlzott állítás, mert sem az NCMECkapcsolat, sem az USAba továbbítás ténye nem következik ebből a számból.[4][9][1][2]\n\nMásold be az állítólagos NCMEColdalt vagy a CyberTiplinejelentés első oldalát, és megmondom soronként, hogy valódi NCMECdokumentumról vane szó.",
+      "created_at": "20260610T10:12:00.290421Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "5f76dedd3cd940f88bf12a9a54f01662",
+  "context_title": "",
+  "created_at": "20251130T17:37:21.637507Z",
+  "updated_at": "20251130T17:37:21.637507Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1e438b06d0fe4917b3799eaf4e8a40c6",
+      "query": "",
+      "answer": "A GitHub oldalon () található projekt egy Grok 4.1 proxy API, amely egy stabil és alacsony költségű Grok API közvetítő platform, mely kínai felhasználók számára ajánlott. Ez a szolgáltatás nemcsak a Grok API továbbítását támogatja, hanem kompatibilis más nagyobb modellek APIjaival is, így fejlesztőknek egy átfogó megoldást nyújt. A projekt célja egy megbízható köztes réteg biztosítása, amely direkt kapcsolatot tesz lehetővé Grok APIval és egyéb hasonló AI modellekkel, és segíti az API kulcsok beszerzését, kezelést és stabil használatát is.[2]\n\nFontos jellemzők:\n Támogatja a Grok API hívások továbbítását,\n Kompatibilis más nagy AI modellek APIjaival,\n Célozza a stabilitást és költséghatékonyságot,\n Használható egyhelyen több modellhez, megkönnyítve a fejlesztést.\n\nEz a proxy API megkönnyíti az AI modellekhez való hozzáférést, különösen azoknak, akik Kínában vagy hasonló környezetben szeretnének AI szolgáltatásokat stabilan használni.\n\nHa további technikai részletekre vagy telepítési információkra van szükség, azok a GitHub oldalon érhetők el, ahol a dokumentáció és a kód is megtalálható.[2]",
+      "created_at": "20251130T17:37:23.897310Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

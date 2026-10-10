@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2d71c1d240c544cfb5245ef5db1c0ff2",
+  "context_title": "repository provides full source code for a large language model (llm)\n\nmodel is open source and code is publicly accessible (not just binaries or apis)\n\nrepository was first published or made public on or after december 24, 2025",
+  "created_at": "20260124T20:29:02.427973Z",
+  "updated_at": "20260124T20:30:33.932429Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a00316f9a75b465eaacbebf2828bb6aa",
+      "query": "repository provides full source code for a large language model (llm)\n\nmodel is open source and code is publicly accessible (not just binaries or apis)\n\nrepository was first published or made public on or after december 24, 2025",
+      "answer": " Opensource nagy nyelvi modellek teljes forráskóddal (2025. december 24. után)\n\nA 2025. december 24e után publikált, teljes forráskódot biztosító opensource nagy nyelvi modellek közül több jelentős kiadás is megfelel a feltételeidnek.[1][2][3][4]\n\n GLM4.7 – Z.ai kódoló és ágensmodell\n\nA GLM4.7 a Z.ai (korábban Zhipu AI) legújabb nyílt forráskódú nagy nyelvi modellje, amelyet 2025. december 2226. között adtak ki hivatalosan. Ez a modell kifejezetten valós szoftverfejlesztési és produkciós felhasználásra lett optimalizálva, hosszú futású feladatvégrehajtással, stabil eszközhívással és többlépéses következtetési képességekkel.[3][1]\n\n Főbb jellemzők\n\nArchitektúra és teljesítmény: A GLM4.7 jelentős fejlődést mutat elődeihez képest kódgenerálásban, komplex következtetésben és ágens végrehajtásban. A benchmark eredmények alapján 67,5öt ért el a BrowseCompon és 87,4et a τ²Benchen, ami új csúcsot jelent a nyílt forráskódú rendszerek között. Kódolásfókuszú értékelésekben, beleértve az SWEbench Verifiedet (73,8%, +5,8% növekedés) és a LiveCodeBench v6ot, az összteljesítménye megközelíti a Claude Sonnet 4.5ét.[2][1]\n\nFejlesztési optimalizáció: A modellt kifejezetten úgy hangolták, hogy működjön modern kódolóágens eszközökkel, mint a Claude Code, Cline, Roo Code és Kilo Code. A GLM4.7 támogatja a \"gondolkodás az akció előtt\" módot, ami jelentős fejlődést hoz összetett feladatokban ezekben a mainstream ágens keretrendszerekben.[2][3]\n\nKontextus ablak: A kontextus ablak 128K tokenről 200K tokenre bővült, lehetővé téve komplexebb ágensfeladatok kezelését.[2]\n\nGondolkodási módok: A GLM4.7 tovább fejleszti az Interleaved Thinking funkciót (amit a GLM4.5 vezetett be) és bevezeti a Preserved Thinking és Turnlevel Thinking módokat. Azáltal, hogy gondolkodik akciók között és konzisztens marad több körön át, stabilabbá és kontrolláltabbá teszi a komplex feladatokat.[2]\n\nUI generálás: A GLM4.7 nagy lépést tesz előre a felhasználói felület minőségének javításában, tisztább és modernebb weboldalakat hoz létre, és jobb kinézetű diasorokat generál pontosabb elrendezéssel.[2]\n\n Elérhetőség és licenc\n\nA modell MIT licenc alatt elérhető, ami teljes kereskedelmi fel",
+      "created_at": "20260124T20:29:02.530639Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

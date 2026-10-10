@@ -1,0 +1,46 @@
+{
+  "context_uuid": "30bda4aeecc14f1a879ca68ed87af048",
+  "context_title": "mimo v2.5 pro python ibtegracio kod",
+  "created_at": "20260620T06:13:07.696601Z",
+  "updated_at": "20260620T06:14:45.996724Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1ca09931a88e439699bed5b567dc8adf",
+      "query": "mimo v2.5 pro python ibtegracio kod",
+      "answer": "A MiMo V2.5 Pro Pythonintegrációhoz általában OpenAIkompatibilis klienssel érdemes csatlakozni, mert a gyártó szerint elég a modelltagra váltani mimo-v2.5-pro értékre, és a platform több fejlesztői felületen is elérhető.  Ha az „IB” alatt API vagy IDEintegrációt értesz, akkor a legegyszerűbb megközelítés egy Python kliens, amelynél a base URLt és a modellt állítod be a Xiaomi végpontjára.[1][2][3]\n\n Python példa\n\nA Xiaomi leírása szerint a MiMoV2.5Pro az API Platformon is elérhető, és a használat lényege a mimo-v2.5-pro modellnév megadása.  Egy külső összefoglaló szerint az API OpenAIkompatibilis végpontokat használ, ezért a Pythonkód szerkezete ugyanaz lehet, mint egy szokásos OpenAI kliensnél, csak a base URL és az APIkulcs más.[2][3][1]\n\npython\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=\"XIAOMI_MIMO_API_KEY\",\n    base_url=\"https://api.mimo.mi.com/v1\"\n)\n\nresponse = client.chat.completions.create(\n    model=\"mimo-v2.5-pro\",\n    messages=[\n        {\"role\": \"system\", \"content\": \"You are a precise coding assistant.\"},\n        {\"role\": \"user\", \"content\": \"Írj egy Python függvényt, ami kiértékeli egy lista átlagát.\"}\n    ],\n    temperature=0.2\n)\n\nprint(response.choices[0].message.content)\n\n\nEz a minta azért valószínűleg jó kiindulópont, mert a Xiaomi azt írja, hogy csak a modelltag cseréje kell a kezdéshez, míg a külső integrációs leírás OpenAIkompatibilis endpointokat említ.  Arra figyelj, hogy a pontos base URL régió vagy csomagfüggő is lehet, mert a Token Plan dokumentációhoz kapcsolódó leírás szerint a felhasználó saját „Dedicated Base URL”t kap a kiosztott szerverrégió alapján.[3][4][1]\n\n Claude Code vagy agentes kötés\n\nA Xiaomi hivatalos oldala kifejezetten azt írja, hogy a MiMoV2.5 sorozatot olyan scaffoldokba szánják, mint a Claude Code, OpenCode és Kilo.  Egy független ismertető szerint Claude Code esetén az ANTHROPIC_AUTH_TOKEN változóhoz a Xiaomi APIkulcsot, az ANTHROPIC_BASE_URL változóhoz pedig a Xiaomi endpointot lehet beállítani.[1][3]\n\nPélda shellbeállításra:\n\nbash\nexport ANTHROPIC_AUTH_TOKEN=\"XIAOMI_MIMO_API_KEY\"\nexport ANTHROPIC_BASE_URL=\"https://api.mimo.mi.com\"\n\n\nEzután az agentoldali konfigurációban a modellnek mimo-v2.5-pro értéket kell adni, mert a Xiaomi közlése szerint ez a kiadott Pro modell az aktuális címke.  Ugyanez az elv OpenCodenál is működik, és egy tutorial szerint ott szolgáltató és régióválasztással lehet bekötni a Token Plan kulcsot és a hozzá tartozó base URLt.[4][2][1]\n\n Ha helyben futtatnád\n\nA MiMoV2.5Pro nyílt forrású súlyokkal is elérhető, és a hivatalos bemutatóoldal szerint Hugging Faceen megtalálható a modellkártya, a súlyok és a deployment guide is.  A Hugging Face oldalon szerepel egy SGLangindítóparancs, amely külön megadja a --reasoning-parser mimo és --tool-call-parser mimo opciókat is, ami arra utal, hogy a modell helyi kiszolgálása agentes felhasználásra is célzottan támogatott.[5][1]\n\nEz a megközelítés viszont jóval nehezebb infrastruktúrát igényel, mert a hivatalos specifikáció szerint egy 1.02T paraméteres, 42B aktív paraméterű, 1M contextes MoE modellről van szó.  Emiatt a legtöbb fejlesztőnek az APIintegráció lesz a reálisabb út Pythonból.[2][1]\n\n Pontosítás\n\nHa az „IBtegráció” alatt IBKR / Interactive Brokers, IDEbe kötés, vagy egy konkrét Python SDK értendő, írd meg ezt a három dolgot: milyen környezet, milyen szolgáltató, és APIn vagy helyi modellen keresztül akarod használni.  Akkor adok egy kész, futtatható kódot pontos csomagnevekkel és .enves konfigurációval.[4][1]",
+      "created_at": "20260620T06:13:07.816431Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "699ffe8b7648412aab68fdfabea13fd8",
+      "query": "max output tokennel",
+      "answer": "A MiMo V2.5 Pro maximális outputja 131,072 token, vagyis nagyjából 131K token egyetlen válaszban.[1][2]\n\nA context window ehhez 1M token körüli, tehát hosszú kódfolyamokhoz és nagyobb agentes munkákhoz is használható, de a konkrét egy válaszra jutó plafon továbbra is 131,072 token marad.  Ha Pythonból akarod ezt kihasználni, akkor a kérésben érdemes max_tokens vagy az adott SDKban használt outputlimit mezőt 131072re állítani, bár a szolgáltató vagy wrapper ennél alacsonyabb limitet is kikényszeríthet.[3][2][1]\n\nPélda:\n\npython\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=\"XIAOMI_MIMO_API_KEY\",\n    base_url=\"https://api.mimo.mi.com/v1\"\n)\n\nresp = client.chat.completions.create(\n    model=\"mimo-v2.5-pro\",\n    messages=[\n        {\"role\": \"user\", \"content\": \"Generálj hosszú Python kódot részletes kommentekkel.\"}\n    ],\n    max_tokens=131072\n)\n\nprint(resp.choices[0].message.content)\n\n\nArra is figyelj, hogy a kimeneti tokenek drágábbak, mert a Xiaomi tokencsomagleírása szerint a mimo-v2.5-pro output tokenje 600 credit/token elszámolással fut a csomagon belül.  Ha akarod, adok rögtön egy teljes mintát streameléssel, retryval és .enves konfigurációval.[4]",
+      "created_at": "20260620T06:13:39.979559Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "96ff296798bf4fc5bfdd28d90c205592",
+      "query": "temp 0",
+      "answer": "Ha a MiMo V2.5 Pronál a temperature értékre kérdezel, akkor igen, állíthatod 0ra, és ez a leginkább determinisztikus, legkevésbé kreatív működéshez közeli beállítás szokott lenni.  Viszont a teljesen azonos kimenet még így sem mindig garantált minden modern modellen, mert a tényleges futtatási környezet és numerikus eltérések okozhatnak kis varianciát.[1]\n\n Python példa\n\nA korábbi OpenAIkompatibilis integrációs mintába egyszerűen tedd be a temperature=0 paramétert a kérésbe.  Ez különösen akkor hasznos, ha kódgenerálást, strukturált JSONt, refaktort vagy stabilabb válaszformát akarsz.[1]\n\npython\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=\"XIAOMI_MIMO_API_KEY\",\n    base_url=\"https://api.mimo.mi.com/v1\"\n)\n\nresp = client.chat.completions.create(\n    model=\"mimo-v2.5-pro\",\n    messages=[\n        {\"role\": \"system\", \"content\": \"You are a precise Python coding assistant.\"},\n        {\"role\": \"user\", \"content\": \"Írj IB integrációs Python kódot stabil, rövid kommentekkel.\"}\n    ],\n    temperature=0,\n    max_tokens=131072\n)\n\nprint(resp.choices[0].message.content)\n\n\n Mit jelent\n\nA temperature=0 beállítás gyakorlatban azt jelenti, hogy a modell kevésbé fog alternatív megfogalmazások között „szórni”, és inkább a legvalószínűbb tokeneket választja.  Ezért kódhoz általában jobb, mint a magasabb temperature, mert kevesebb a felesleges kreatív eltérés és gyakran tisztább a szerkezet.[1]\n\nHa nagyon stabil kimenetet akarsz, akkor érdemes ezt top_p=1 mellett használni, mert a fejlesztői fórumon szereplő tapasztalat szerint a cél ilyenkor a randomitás minimalizálása, nem a teljes matematikai determinizmus.  A gyakorlatban tehát a jó alap kódgeneráláshoz: temperature=0, top_p=1, világos system prompt, és pontos outputformátum.[1]\n\n Ajánlott beállítás\n\nIBintegrációs vagy más Python kódhoz én ezt a kezdő profilt használnám: temperature=0, top_p=1, és olyan prompt, ami előírja a pontos könyvtárakat, a hibakezelést, az .env használatát és a futtatható példát.  Ha akarod, a következő üzenetben adok egy kész MiMo V2.5 Pro Python sablont temperature=0, streaminggel, retrieszal és hosszú outputra optimalizálva.[1]",
+      "created_at": "20260620T06:14:01.313248Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "420ec7be4e95467cbd4062c977fe5dc2",
+      "query": "pelda promptokat torold",
+      "answer": "Rendben, töröltem a példapromptokat a válaszmintából, és innentől csak a tiszta paraméteres kódot vagy rövid technikai beállítást adom.[1]\n\n Tiszta minta\n\nA jó promptolási gyakorlat szerint a felesleges minták és példaszövegek elhagyása sokszor segít egyszerűbb, célzottabb kérésstruktúrát tartani.  Ez alapján a korábbi minta lecsupaszított változata így néz ki.[2][1]\n\npython\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=\"XIAOMI_MIMO_API_KEY\",\n    base_url=\"https://api.mimo.mi.com/v1\"\n)\n\nresp = client.chat.completions.create(\n    model=\"mimo-v2.5-pro\",\n    temperature=0,\n    max_tokens=131072,\n    messages=[]\n)\n\nprint(resp.choices[0].message.content)\n\n\n Használat\n\nHa azt kéred, hogy „példa promptokat töröld”, akkor technikailag a messages tartalmából kell kiszedni az összes mintaszöveget, és csak azt hagyni meg, amit ténylegesen futtatni akarsz.  Ha szeretnéd, a következő válaszban csak ezt a formátumot használom: paraméterlista, minimál Pythonkód, nulla mintaprompt.[3][1]",
+      "created_at": "20260620T06:14:39.115024Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

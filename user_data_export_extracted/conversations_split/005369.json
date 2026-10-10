@@ -1,0 +1,19 @@
+{
+  "context_uuid": "39ab320a43c146b187252c938d786a2e",
+  "context_title": "",
+  "created_at": "20251223T22:12:35.740318Z",
+  "updated_at": "20251223T22:12:35.740318Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "496b629f1d854be5aa0ca4b7ec004295",
+      "query": "",
+      "answer": "A megadott link egy VAST Data blogbejegyzésre mutat, amely a VAST AI OS és az NVIDIA Dynamo integrációjáról, illetve a skálázható, optimalizált inferenciáról szól.[2]\n\nJelenleg nincs közvetlen hozzáférés a konkrét oldal tartalmához, ezért nem tudok részletes, pontokra bontott összefoglalót adni a cikk belső szövegéről.  Ha általános technikai magyarázatra, vagy a VAST–NVIDIA együttműködés hátterére és fogalmi tisztázásra van szükség (pl. KV cache tiering, GPU Memory Wall, Time‑to‑First‑Token csökkentése), meg tudom magyarázni ezeket a témákat a jelenleg elérhető információk alapján, illetve segíthetek kérdésalapon feldolgozni a cikket.[1][2]",
+      "created_at": "20251223T22:12:37.510456Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "cb984026cc0f467abcd8da9c9822708d",
+  "context_title": "\n\nhogy integraljam pythonba?",
+  "created_at": "20251027T12:37:36.181583Z",
+  "updated_at": "20251027T12:37:36.181583Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fa11533ce6b04a59aa96542b3b706206",
+      "query": "\n\nhogy integraljam pythonba?",
+      "answer": "A Vercel AI model (például az általad megadott gpt-5-pro) integrálása Pythonba általában az Vercel AI SDK vagy HTTP APIhívások segítségével történik. Bár a konkrét linked nem nyilvános, az általános módszer így néz ki:\n\n 1. Telepítsd a szükséges csomagokat\nA legegyszerűbb megoldás a requests vagy az httpx csomag használata:\nbash\npip install requests\n\n\n 2. Küldj lekérdezést a modellhez\nHa a Vercel projektednek van végpontja (például https://your-app.vercel.app/api/chat), akkor így tudod elérni Pythonból:\n\npython\nimport requests\n\nurl = \"https://your-app.vercel.app/api/chat\"\nheaders = {\"Content-Type\": \"application/json\"}\ndata = {\n    \"model\": \"gpt-5-pro\",\n    \"messages\": [\n        {\"role\": \"system\", \"content\": \"You are a helpful AI assistant.\"},\n        {\"role\": \"user\", \"content\": \"Szia! Írj nekem egy Python kódot, ami számolja a Fibonacci-sorozatot.\"}\n    ]\n}\n\nresponse = requests.post(url, json=data, headers=headers)\nprint(response.json())\n\n\n 3. Ha Vercel AI SDKt akarsz használni\nVercel hivatalos integrációja JavaScript/TypeScript környezetben működik, de Pythonból az API végpont hívása a legjobb megoldás.\n\n 4. Saját Vercel API készítése\nHa te hoztad létre a modellt a Vercel AI felületén, hozz létre egy api/chat routeot a projektedben (Next.js például):\n\njavascript\nimport { streamText } from \"ai\";\nimport OpenAI from \"openai\";\n\nconst client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });\n\nexport async function POST(req) {\n  const { messages } = await req.json();\n  const result = await streamText({\n    model: \"gpt-5-pro\",\n    messages,\n  });\n  return result.toAIStreamResponse();\n}\n\n\nÍgy a Python kliens a fenti APIt tudja meghívni.\n\n\n\nHa megmutatod, hogy a Vercelprojektedben milyen APIvégpont jött létre, tudok adni kész Python integrációt konkrét URLlel és hitelesítési módszerrel.",
+      "created_at": "20251027T12:37:37.354825Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

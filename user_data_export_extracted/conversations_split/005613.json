@@ -1,0 +1,19 @@
+{
+  "context_uuid": "3a6b343acae844e3b4695a3be2798324",
+  "context_title": "",
+  "created_at": "20251217T05:48:11.581913Z",
+  "updated_at": "20251217T05:48:11.581913Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "039d735380594c5e9106ec35b3c88e38",
+      "query": "",
+      "answer": "Ez a link a SuperAGI GitHub repójára mutat, ami egy nyílt forráskódú, autonóm AI agent keretrendszer fejlesztőknek.[2]\n\n Mi ez a repó?\n\nA SuperAGI egy fejlesztőközpontú (devfirst) keretrendszer, amellyel autonóm AI ügynököket lehet építeni, futtatni és menedzselni különböző üzleti és technikai feladatokra.  Több ügynök párhuzamos futtatását, eszközkészletek (toolkits) integrálását és folyamatos tanulást/memóriát is támogat.[2]\n\n Fő funkciók\n\n Autonóm AI agentek létrehozása, skálázása és deployolása (pl. üzleti folyamatok automatizálására).[2]\n Grafikus webes felület, action console, teljesítménytelemetria és többféle vektor adatbázis támogatása (pl. Pinecone, stb.).[2]\n Agent memóriakezelés, workflowk (ReActalapú lépések), és bővíthető toolkitek külső rendszerekhez (GitHub, Google Search, Jira, stb.).[3][2]\n\n Telepítés röviden\n\n Cloud: fel tudsz iratkozni a SuperAGI Cloudra, GitHubfiókkal bejelentkezni, majd az APIkulcsot beállítani a Model Providers résznél.[2]\n Lokálisan: git clone https://github.com/TransformerOptimus/SuperAGI.git, majd Dockerrel docker compose -f docker-compose.yaml up --build, és a böngészőben http://localhost:3000.[2]\n DigitalOcean: egykattintásos deploy sablonnal futtatható.[2]\n\n Kapcsolódó projekteket\n\n SuperAGITools: közösségi toolkitek gyűjteménye, amelyeket a SuperAGI marketplaceben lehet használni.[4]\n SuperAGIDocs: hivatalos dokumentáció (superagi.com/docs).[5]\n Python és Node.jskliensek az APIk kényelmes használatához saját alkalmazásokból.[6][3]\n\nHa leírod, mire szeretnéd használni (pl. saját agent, belső üzleti folyamat, integrációk), szívesen segít a konkrét lépésekben vagy példaarchitektúrában.",
+      "created_at": "20251217T05:48:12.225764Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

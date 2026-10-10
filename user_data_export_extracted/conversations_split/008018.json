@@ -1,0 +1,163 @@
+{
+  "context_uuid": "a371631b894f4a6d88751cb96b40a6c1",
+  "context_title": "Reolit agent 3 osszes képessége",
+  "created_at": "20251003T12:37:42.463086Z",
+  "updated_at": "20251004T03:54:21.513680Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c1fcbc83dcf24769ab923b55b332a0ec",
+      "query": "Reolit agent 3 osszes képessége",
+      "answer": "A Replit Agent 3 egy forradalmian autonóm AIfejlesztő eszköz, amely akár 200 percig képes megszakítás nélkül dolgozni, beépített teszteléssel és hibaelhárítással, valamint képes új ügynököket és automatizmusokat létrehozni. Emellett támogatja a Figmaintegrációt és a Visual Editor használatát, biztonságos összeköttetéseket kínál külső szolgáltatásokkal, és nagy teljesítményű AImodelleket alkalmaz a komplex projektekhez.[2][4][5]\n\n Autonómia és Önszabályozás  \nAgent 3 Max Autonomy (beta) módban akár 200 percig megszakítás nélkül fut, így teljes fejlesztési ciklusokat is képes önállóan végrehajtani. A hosszított munkamenetek során összetett, többlépéses feladatlistákat tervez és valósít meg, miközben folyamatosan ellenőrzi saját előrehaladását. Az önfelügyeleti képesség révén önállóan hoz döntéseket és hajt végre módosításokat felhasználói beavatkozás nélkül.[2]\n\n Tesztelés és Hibaelhárítás  \nAgent 3 beépített tesztelő keretrendszere révén valódi böngészőben periódikusan ellenőrzi az alkalmazás működését. Ha hibát talál, automatikusan javítja a kódban, majd részletes összefoglalót készít a végrehajtott tesztekről. A selfhealing tesztkeretrendszer lehetővé teszi, hogy az Agent saját maga detektálja és kijavítsa a kódhibákat manuális beavatkozás nélkül.[4][2]\n\n Ügynök és Automatizmusgenerálás  \nAgent 3 első alkalommal képes más AIügynököket és munkafolyamatautomatizmusokat létrehozni természetes nyelvű utasítások alapján. A felhasználók így például Telegram botokat, Slackügynököket vagy időzített emlékeztetőket hozhatnak létre anélkül, hogy kódolniuk kellene. Az adminisztrációs felületen közvetlenül tesztelhetők és konfigurálhatók ezek az automatizmusok.[4]\n\n Integrációk és Vizuális Szerkesztés  \nAgent 3 támogatja a Figmatervek importálását és a beépített Visual Editorral történő egykattintásos grafikus testreszabást. Emellett biztonságos összeköttetést kínál adatbázisokkal, hitelesítési rendszerekkel, Stripe fizetési megoldással és OpenAI APIkkal. Ez lehetővé teszi, hogy a fejlesztők könnyedén építsenek be külső szolgáltatásokat és adatforrásokat projektjeikbe.[5]\n\n AImodellek és Teljesítmény  \nAgent 3 kiterjesztett elemzési képességekkel és nagy teljesítményű AImodellekkel dolgozik, hogy összetett projektekhez is elegendő számítási erőforrást biztosítson. A 10szer nagyobb autonómia és a megnövelt hatékonyság forradalmi előrelépést jelent a korábbi verzióhoz képest.[5][4]\n\n Költséghatékonyság  \nA díjszabás a tényleges futásidő és erőforrásfelhasználás alapján történik: a tervezési fázis ingyenes, a megvalósítás csak jóváhagyás után kerül díjszámlázásra. Ez átlátható és rugalmas költségkezelést tesz lehetővé a vállalkozások számára.[5]",
+      "created_at": "20251003T12:37:42.529552Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "2de188e6c5e94c79bde25ad984f74366",
+      "query": "Milyen lenne egy tokeletes replit agent 4?",
+      "answer": "Egy tökéletes Replit Agent 4 a jelenlegi Agent 3 autonómiáját és önjavító képességeit fejlesztené tovább egy megbízhatóbb, skálázhatóbb és átláthatóbb rendszerbe, amely verifikálhatóan végigvisz teljes fejlesztési ciklusokat, több ügynököt képes összehangoltan irányítani, és kiszámítható költség és kockázatkezelést biztosít. Az új generáció az Agent 3 200 perces önálló futására, böngészős self‑healing tesztelésére és ügynökkészítő képességére építve tenné még robusztusabbá az autonómiát, a minőségbiztosítást és az integrációs ökoszisztémát.[1][2]\n\n Teljesebb autonómia  \nAz Agent 4 a 200 perces Max Autonomy munkameneteket rugalmas újraindítással, megszakítás utáni folytatással és determinisztikus reprodukálhatósággal egészítené ki, hogy a hosszú, többlépéses feladatlisták stabilan és visszakövethetően fussanak végig. A nagyobb önfelügyelet átlátható terv/állapotnézetet, élő haladási mérföldköveket és beavatkozási pontokat adna a felhasználó szerepének finomhangolásához, amely már az Agent 3ban is a delegáló jelleg felé mozdult el.[2][1]\n\n Megbízhatóság és tesztelés  \nA böngészős, interaktív tesztelésre építve az Agent 4 bővített hibafeltárást, lefedettségi célokat és regressziós védelemre képes ellenőrzéseket vezetne be, hogy a self‑healing ciklusok szisztematikusan megelőzzék a visszacsúszásokat. A minőségjavítás a “3× gyorsabb és 10× költséghatékonyabb” tesztrendszer következő szintje lenne, kiterjesztve a kritikus áramlatok (auth, űrlapok, APIk) automatikus guardrailjeit.[1][2]\n\n Multi‑ügynök orkesztráció  \nAz Agent 3 ügynök és automatizmusgenerálására építve az Agent 4 szerepkörökkel, megosztott memóriával és konfliktuskezeléssel működő “ügynökcsapatokat” koordinálna, amelyek Slack/Telegram botokat, időzített feladatokat és rendszerintegrációkat is együtt valósítanak meg. A cél, hogy ne csak ügynököket hozzon létre, hanem képes legyen azok munkáját projektcélokra hangoltan ütemezni és értékelni.[2][1]\n\n Biztonság és kockázatkezelés  \nA hitelesítési és titokkezelési folyamatok egyszerűsített, UI‑alapú csatlakozását az Agent 4 finomhangolt jogosultsági szintekkel és auditálható döntési naplóval egészítené ki, csökkentve a hibás automatikus döntések kockázatát. Közösségi visszajelzések alapján hangsúlyosabb lenne a biztonságos architektúra és a humán kódreview támogatása, mivel a túlzott bizalom továbbra is kockázatokat hordozhat.[1][2]\n\n Integrációk és csatlakozók  \nA “több integráció és trigger‑alapú automatizmus” ígért irányát felgyorsítaná a szélesebb SaaS‑, adatbázis‑ és vállalati eszköztár felé, a Notion/Linear/SharePoint‑szerű kapcsolatokhoz hasonló gördülékeny jogosítási élménnyel. Az Agent 4 célja a “kiválaszt és összeköt” típusú áramlás minimalizált kézi API‑kulcs‑kezeléssel és egységesített connector‑élettartamkezeléssel.[1]\n\n Fejlesztői élmény és kontroll  \nA jelenlegi app‑készítési folyamatot és módválasztást az Agent 4 mélyebb “terv → implementáció → ellenőrzés” körrel, részletesebb Checkpoint‑pillanatképekkel és visszagörgetéssel egészítené ki, amit már most is támogat az ellenőrizhető állapotmentés koncepciója. A haladó kapcsolók (Extended Thinking, High Power) egy finomhangolt “budget‑ és időkeret” panelbe olvadnának, hogy a futás minősége és költsége transzparensen legyen szabályozható.[2][1]\n\n Költségek és átláthatóság  \nAz Agent 3 erőfeszítés‑alapú díjazásán és vegyes közösségi fogadtatásán túl az Agent 4 célja az előre jelezhető költségplafon, a checkpoint‑alapú költségeloszlás és a futási riportok egységesítése lenne. Ez a hosszú önálló futások és a bonyolult automatizmusok mellett is kiszámíthatóbb pénzügyi kontrollt adna.[2]\n\n Mobil és felügyelet  \nAz Agent 3 élő webes és telefonos projektkövetésére építve az Agent 4 részletes push‑értesítéseket, kritikus döntési kapuknál jóváhagyási kérelmeket és menet közbeni hibaelhárítási javaslatokat biztosítana. Ezzel az autonóm futások emberi felügyelete célzottabb és kevésbé megszakító jellegű lenne.[1]\n\nRöviden: a tökéletes Agent 4 az Agent 3 mérföldköveit – 200 perces autonóm futás, önjavító böngészős tesztelés, ügynökkészítés – emelné platformszintű megbízhatósággá, csapat‑szintű orkesztrációvá és üzletileg is előre tervezhető működéssé. Ez a fejlesztői delegálás új szintjét valósítaná meg, miközben a minőség, a biztonság és a költségkontroll minden lépésben elsőrendű maradna.[2][1]",
+      "created_at": "20251003T12:39:42.783476Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "36e67ff36cd842eabc1be50289207377",
+      "query": "Es most pontosan milyen modelleket hasznal az agent 3v",
+      "answer": "Az Agent 3v a Replit új Dynamic Intelligence keretrendszerén belül három, különböző teljesítményű modell között vált automatikusan a feladat komplexitása alapján.[1][2]\n\n Alapértelmezett modell  \nAz alapértelmezett modell egy gyors, költséghatékony nagy nyelvi modell, amely egyszerűbb kódgenerálási és szövegfeldolgozási feladatokat lát el.[1]\n\n Extended Thinking modell  \nAz Extended Thinking üzemmód mélyebb, többlépéses érvelést és összetett logikai műveleteket tesz lehetővé egy, a standardnál nagyobb kapacitású Sonnetalapú konfigurációval.[1]\n\n HighPower modell  \nA HighPower üzemmódot a legkomplexebb feladatokhoz Anthropic Claude Sonnet 4.0 hajtja, biztosítva a legnagyobb számítási teljesítményt és pontosságot.[2]",
+      "created_at": "20251003T12:40:37.502285Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "7ec627c8afaa4323aa160272ab526f49",
+      "query": "Es milyen profram nyelven keszult a replit agent?",
+      "answer": "A Replit Agent 3 backendjét elsősorban Pythonban fejlesztették, mivel a platform AIfolyamatai és integrációi a Replit Pythonalapú infrastruktúrájára épülnek.[1]",
+      "created_at": "20251003T12:59:30.361739Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "ce6e81060789491ba83dcb5739079fdb",
+      "query": "Es hogy kell eljepzelni hol fejlesztettek hol van a replit ahent maga mint fajl",
+      "answer": "A Replit Agent 3 nem a felhasználói projekt mappájában található fájlként fut, hanem Replit privát, felhőalapú környezetében szolgáltatásként üzemel.[1]\n\n Zárt forráskódú backend  \nA teljes Agentkód Python alapú mikroszolgáltatásokból áll, amelyeket a Replit saját, zárt forráskódú monorepójában tárolnak és Kubernetesalapú klaszterekben futtatnak.[2]\n\n Felhasználói oldali integráció  \nA fejlesztői felületen az Agent a Replit IDE bal oldali sávjában érhető el, nem jön létre hozzá külön “agent.py” vagy hasonló fájl a projektben.[1]\n\n Konfigurációs fájlok  \nA projekt gyökerében található  \n– .replit és  \n– replit.nix  \nfájlok határozzák meg, hogyan kommunikál az Agent a kódbázissal és a futtatókörnyezettel.[1]",
+      "created_at": "20251003T13:03:48.330867Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "39af85e8a59d4ca1bc216a8cf4fba544",
+      "query": "Azt tudom de akkor honnan tudod h python stb ha zart forraskodu\nEs api cal hivjak a modelleket meg vagy hogy?",
+      "answer": "Azt, hogy a Replit Agent 3 backendje Python alapú, a Replit hivatalos blogján és dokumentációjában megfogalmazott implementációs irányelvekből lehet következtetni. A “AI Coding is Better with Python” című blogbejegyzés kimondja, hogy az Agent mind JavaScriptet, mind Pythont használ, és kifejezetten optimalizált környezetet biztosít Pythonalapú szolgáltatások futtatására.[1]\n\nA modellek hívását az Agent egy belső AIapigatewayen keresztül végzi, amely a legjobb elérhető LLMmotorok (OpenAI GPT4, Anthropic Claude Sonnet stb.) RESTszerű HTTP APIhívásain alapul. Minden prompt vagy kódgenerálási kéréskor az Agent a megfelelő modellt kiválasztja, és HTTPS POST kérelmet küld a kiválasztott szolgáltatás végpontjára, majd a választ beépíti a munkafolyamatba.[2][3]",
+      "created_at": "20251003T13:04:53.932615Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f637f593d6dd4409957c978d7444c6d0",
+      "query": "Azt hittem a legalabb modell a sonnet 4 xd akkor milyen bena modell a tobbi ha azt a legjobb",
+      "answer": "A Replit Agent 3v három, egymástól teljesítményben és költségben is különböző modell között vált:\n\n Az alap (standard) mód a gyors és költséghatékony OpenAI GPT3.5Turbo modellt használja egyszerűbb kódgenerálási és szövegfeldolgozási feladatokra.[1]\n Az Extended Thinking módban a mélyebb, többlépéses gondolkodáshoz Claude 3.5 Sonnet (népies nevén “Opus”) vagy Claude 3.7 Sonnet kerül alkalmazásra, amely jobb logikai következtetésre és részletesebb elemzésre képes.[2][3]\n A High Power üzemmódban Anthropic Claude Sonnet 4.0 a legnagyobb számítási teljesítményt és pontosságot nyújtja a legkomplexebb, nagy kontextusú feladatokhoz.[4]",
+      "created_at": "20251003T13:06:09.241325Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "39ff8839018c499d9c1ee2cf59eb960d",
+      "query": "Oke en epiteni akarok egy sokkal jobbat sonnet 4.5 es grok 4 fast es cerebras qwen 3 480 b coder es exa ai val",
+      "answer": "Egy ilyen “szuperagent” architektúrája egy dinamikus intelligenciavezérlő rétegből, és négy specializált modellből állna a feladat típusától függően.\n\n Architektúra áttekintés  \nAz ügynök egy központi orchestrátormodullal indítja a kérést, ami a feladat jellemzői alapján kiválasztja a legmegfelelőbb modellt, majd egy APIgatewayen keresztül hívja azt.[1]\n\n Claude Sonnet 4.5 – komplex érvelés  \nA legnagyobb számítási teljesítmény és pontosság igénye esetén Claude Sonnet 4.5öt használná, amely 200 000 tokenes kontextusablakkal és hosszan tartó, összetett gondolkodásra optimalizált architektúrával bír.[1]\n\n Grok 4 Fast – azonnali kódgenerálás  \nRövid, egyszerű kódrészletekhez és interaktív debuggoláshoz Grok 4 Fast szolgáltatná a válaszokat millimásodpercek alatt, így nem törné meg a fejlesztői folyamatot a várakozás.[2]\n\n Qwen 3Coder 480B – agentikus kódolás  \nTöbblépéses, ügynökvezérelt kódgenerálási és repositoryszintű elemzési feladatokra a Qwen 3Coder480BA35BInstruct modell futna, amely 256 000 tokenes kontextussal és 35 milliárd aktív paraméterrel dolgozik.[3]\n\n Exa AI – valós idejű grounding  \nA külső tudásbázisokból, dokumentumokból vagy weboldalakról történő információkinyeréshez Exa APIt használna, amely garantálja a naprakész és megbízható forrásokat a válaszok alátámasztásához.[4]\n\n Működési folyamat  \n A felhasználói kérés metaadatait elemző orchestrátor kiválasztja a modellt.  \n HTTPS POST hívással küldi el a promptot a megfelelő végpontra.  \n A visszaérkező választ normalizálja, esetleges függvényhívásokat vagy adatlekérdezéseket végez (pl. Exa).  \n Az aggregate eredményt szöveges vagy kódformátumban adja vissza.",
+      "created_at": "20251003T13:07:18.423351Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "752228e681fc412ea6caac0845bc9999",
+      "query": "Pont h a grok 4 fast az lenne a 2 millas kontextus miatt, a cerebras a sebesseg miatt a claude meg mert elvileg legjobb most a foldon bar amugy huggingfacen tobb llm is telibe veri xd",
+      "answer": "A modellek kiválasztása mindig kompromisszum a teljesítmény, a kontextushossz és a válaszidő között.   \n\n Grok 4 Fast  \nGrok 4 Fast két változatban érhető el (reasoning és nonreasoning), és mindkettő 2 000 000 tokenes kontextusablakkal dolgozik, ami forradalmi előrelépés a hosszú dokumentumok vagy többórás átírások kezelésében.[1]\nEz a modell kimagaslóan tokenhatékony, és akár 40%kal kevesebb tokenfelhasználással éri el a Grok 4 szintű benchmarkteljesítményt.[2]\n\n Cerebras Qwen 3Coder 480B  \nA Cerebras infrastruktúráján futó Qwen3235B (illetve 480B kódoló változata) valós idejű teljesítményt kínál: akár 1 500–2 400 token/másodperc sebességgel, így a komplex logikai és kódgenerálási feladatok válaszideje alig másodpercekben mérhető.[3]\nEz a Wafer Scale Engine megoldás lerövidíti a reasoning modellek többperces késleltetését alig fél másodpercre.[3]\n\n Claude Sonnet 4.5  \nClaude Sonnet 4.5 APIn keresztül akár 1 000 000 tokenes kontextusablakot kínál, beépített kontextusmenedzsmenttel és memóriaeszközzel a hosszabb beszélgetések és kódprojektek folyamatos követéséhez.[4]\nAnthropic szerint ez a jelenleg elérhető legnagyobb pontosságú, hosszútávú gondolkodásra optimalizált modell.[5]\n\n Nyílt forrású modellek a HuggingFaceen  \nSzámos finomhangolt, kisebb modell (például a Mistral7B Instruct adapterek) specifikus feladatokon – mint például kérdésválasz vagy kódolás – akár a GPT4 szintjét is meghaladhatja, ráadásul egyetlen GPUn is kiszolgálható.[6]\nEzek a modellek költséghatékony alternatívát jelentenek, ha testreszabott, taskspecifikus megoldásra van szükség.[6]",
+      "created_at": "20251003T13:09:13.326615Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "945c0b45f39f4c1f94bc6886f233ba7f",
+      "query": "Olyanokra gondoltam   peldaul",
+      "answer": "A Ring1Tpreview egy mozaikus szakértő (MoE) architektúrára épülő, közel 1 000 milliárd paraméteres alapnyelvi modell, amelyet 20 000 000 000 000 tokenen előtréningeltek, majd RLVRrel (reinforcement learning via reasoning) finomhangoltak a mély gondolkodásért.[1]\nA modell 92,6os AIME 2025, 84,5ös HMMT 2025 és 78,3as LiveCodeBench v6 pontszámokat ért el pusztán természetes nyelvű érveléssel, valamint egyben megoldotta az IMO 2025 harmadik feladatát egy próbálkozásból.[1]\n\n Gyorsstart használat  \nA Transformers könyvtárral Pythonból így integrálható:  \npython\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\nmodel_name = \"inclusionAI/Ring-1T-preview\"\nmodel = AutoModelForCausalLM.from_pretrained(\n    model_name, dtype=\"auto\", device_map=\"auto\", trust_remote_code=True\n)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\n\nmessages = [\n  {\"role\": \"system\", \"content\": \"You are Ling, an assistant created by inclusionAI\"},\n  {\"role\": \"user\", \"content\": \"Adj egy rövid bevezetőt a nagy nyelvi modellekhez.\"}\n]\ntext = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)\ninputs = tokenizer([text], return_tensors=\"pt\").to(model.device)\noutputs = model.generate(**inputs, max_new_tokens=8192)\nresponse = tokenizer.decode(outputs[0], skip_special_tokens=True)\n\nEz a kód automatikusan kezeli a MoErétegek betöltését és a GPUkiosztást, így Ring1Tpreview könnyedén beilleszthető bármely AIügynök architektúrába.[1]",
+      "created_at": "20251003T13:12:19.194737Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "ef42edc8479c4b90a33f2905e82be4ed",
+      "query": "Mennyivel fejlettebb mint gpt 5 stb top llm ek",
+      "answer": "Ring1Tpreview rendkívül versenyképes, de a GPT5 jelenleg 2–6 százalékponttal is megelőzi matematikai és kódolási mérőszámokban.  \n\n|Benchmarks|Ring1Tpreview|GPT5 (high)|  \n||||  \n|AIME 2025 pontosság|92,6% [1]|94,6% [2]|  \n|HMMT 2025 pontosság|84,5% [1]|> 90% [3]|  \n|LiveCodeBench v6 pontosság|78,3% [1]|~ 85–90%+ [4]|  \n\nÖsszességében a Ring1Tpreview igen erős, de a GPT5 minden fő benchmarkon (AIME, HMMT, kódolási tesztek) 2–6 százalékponttal vagy nagyobb mértékben felülkerekedik rajta.[2][1]",
+      "created_at": "20251003T13:24:12.241052Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "2f5abc37d04b465090d4511db09d12b6",
+      "query": "Jo de valos eredmenyek alapjan nem benchmark",
+      "answer": "Valós használat során a Ring1Tpreview és a GPT5 különböző erősségeket mutatnak, így a „melyik a jobb” kérdés feloldása feladat és környezetfüggő.\n\n Ring1Tpreview közvetlen alkalmazásban  \nA Ring1Tpreviewt többügynökös AWorld keretrendszerbe integrálva az IMO 2025 matematikai feladatai közül a 3. feladatot egyetlen próbálkozásból megoldotta, és további négy feladat esetén egyetlen körben részben helyes eredményt adott.[1]\n\n GPT5 üzleti és tudásmunka feladatok  \nA GDPval valós munkahelyi feladatokon (44 szakma, 220 feladat) végzett vakértékelésben a GPT5 eredményeit az iparági szakértők gyakran egyenértékűnek vagy jobbnak ítélték, miközben a modellek átlagosan 100× gyorsabban és költséghatékonyabban teljesítették a feladatokat, mint az emberek.[2]\n\n Fejlesztői termelékenység valós környezetben  \nEgy randomizált, kontrollált próba (RCT) szerint tapasztalt opensource fejlesztők 19%kal tovább dolgoztak, amikor AIeszközöket (például GPT5 Codexet) használtak saját kódreposztóik kezelésére, jelezvén, hogy a tanulási és beállítási időt a valós környezetben számításba kell venni.[3]\n\n Multimodális, valós médiumfeladatok  \nRoboflow kvalitatív tesztjeiben GPT5 a dokumentumértelmezésben és OCRben 10/10, hibadetektálásban 12/15, objektumszámlálásban 4/10 feladatot teljesített helyesen, ami bemutatja a multimodális képességek korlátait és előnyeit a terepen.[4]",
+      "created_at": "20251003T13:25:15.529560Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "b9dc111efe75408e9f26832b4568429f",
+      "query": "Jo es a ring modellt hogy epitem sajat appba",
+      "answer": "A Ring1Tpreview modell saját alkalmazásba a Hugging Face Transformers könyvtár segítségével illeszthető be.[1]\n\nTelepítés és függőségek  \nElőször telepíteni kell a szükséges csomagokat:  \nbash  \npip install transformers accelerate torch  \n\nEz biztosítja a modell és a tokenizer betöltéséhez, valamint a GPUkiosztáshoz szükséges környezetet.[1]\n\nModell és tokenizer betöltése  \npython  \nfrom transformers import AutoModelForCausalLM, AutoTokenizer  \n\nmodel_name = \"inclusionAI/Ring-1T-preview\"  \nmodel = AutoModelForCausalLM.from_pretrained(  \n    model_name, dtype=\"auto\", device_map=\"auto\", trust_remote_code=True  \n)  \ntokenizer = AutoTokenizer.from_pretrained(model_name)  \n\nEz automatikusan kezeli a MoErétegek és a GPUkiosztás betöltését.[1]\n\nPrompt generálás és válasz lekérése  \npython  \nmessages = [  \n  {\"role\": \"system\", \"content\": \"You are Ling, an assistant created by inclusionAI\"},  \n  {\"role\": \"user\", \"content\": \"Írj egy rövid bevezetőt a nagy nyelvi modellekhez.\"}  \n]  \ntext = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)  \ninputs = tokenizer([text], return_tensors=\"pt\").to(model.device)  \noutputs = model.generate(**inputs, max_new_tokens=8192)  \nresponse = tokenizer.decode(outputs[0], skip_special_tokens=True)  \nprint(response)  \n\nEz a kód elindítja a generálást és kiírja a modell válaszát.[1]",
+      "created_at": "20251003T13:28:27.148309Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "43d4d3ea57054cfd9577cbd495f06180",
+      "query": "Csak 8000 a max tooken? Xd",
+      "answer": "A max_new_tokens=8192 csak a válaszként generálható tokenek számát korlátozza, nem a modell teljes kontextusablakát.[1]\nA Ring1Tpreview RING Attention architektúrája révén akár 1 000 000 tokenes kontextusablakot is kezelni tud, így hosszú dokumentumokat vagy chatelőzményeket egyben vihet át a modell.[2]\nAz APIhívásban a max_length (vagy max_new_tokens) értékét tetszés szerint növelni lehet addig, amíg az összeadott bemeneti és kimeneti tokenek száma nem lépi túl az 1 000 000 tokent.[2]",
+      "created_at": "20251003T13:29:14.094550Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "8c9937251d174ed89a5cf260f32b7381",
+      "query": "Akkor alllithatom mondjuk akar 700000 ra is?",
+      "answer": "Igen, beállítható a generálás maximális kimeneti token­száma 700 000re is, amennyiben a bemeneti és kimeneti tokenek összege nem haladja meg az 1 000 000 tokenes kontextusablakot.[1]\n\nA max_new_tokens=700000 paraméterrel indított hívás során a modell a teljes kontextusablak keretein belül hoz létre válaszokat, így akár hosszú dokumentumokat is folyamatosan feldolgozhat.[1]\n\nA kódba egyszerűen így építhető be:  \npython\noutputs = model.generate(**inputs, max_new_tokens=700000)\n\nÍgy a Ring Attention architektúra 1 M token támogatása mellett is biztonságosan kérhető meg 700 000 új token generálása.[1]",
+      "created_at": "20251003T13:30:07.574451Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "30cf66bb5a534e11b0c467ec26bca85a",
+      "query": "Es akkor nem is kell hozza api kulcs meg semmi?",
+      "answer": "Nem szükséges OpenAI vagy AnthropicAPIkulcs; a Hugging Face „from_pretrained” hívás lokálisan tölti be a public Ring1Tpreview modellt, APIkulcs vagy hitelesítés nélkül.[1][2]\nHa a modell privát vagy gated, futtatni kell a  \nbash  \nhuggingface-cli login  \n\nparancsot, ami elmenti az access tokent ~/.huggingfaceben, majd a token=True (vagy régebbi verziókban use_auth_token=True) paraméterrel engedélyezni az autentikációt.[1]",
+      "created_at": "20251003T13:31:05.268244Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "57819d03746b4e9dba63634359c3482d",
+      "query": "De azt kerdeztem hogy barmilyen api kulcs kell e",
+      "answer": "Ha a Ring1Tpreview publikus modellen elérhető, nincs szükség semmilyen APIkulcsra a from_pretrained híváshoz.[1]\nHa azonban a modell gated vagy privát, akkor a Hugging Face CLIbe való bejelentkezéssel (huggingface-cli login) generált access tokenre van szükség, amit a trust_remote_code=True mellett token=True (illetve régebbi verziókban use_auth_token=True) paraméterrel adunk át.[2]",
+      "created_at": "20251003T13:32:01.289423Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "context_uuid": "35ee360bbe154b86bb4ddfe6583d5369",
+  "context_title": "Zig el egyenloen gyors nyelvek In your reply, just list the things I’m looking for one after another, without including anything else.",
+  "created_at": "20260918T17:27:13.858391Z",
+  "updated_at": "20260918T17:28:41.001998Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6713de7fa111484993a26f11923bcd22",
+      "query": "Zig el egyenloen gyors nyelvek In your reply, just list the things I’m looking for one after another, without including anything else.",
+      "answer": "Rust[1][2][3]\n\nC[2][4]\n\nC++[5][4]",
+      "created_at": "20260918T17:27:14.069262Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "d2e3ce2e80f74a0c8269ed1320a5c090",
+      "query": "Es meg az a D betus",
+      "answer": "D[1][2]",
+      "created_at": "20260918T17:27:41.006458Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "5b055722c1e643d78e4792742ef55c2e",
+      "query": "Nem a sima d",
+      "answer": "Dlang[1][2][3]",
+      "created_at": "20260918T17:27:54.391412Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "3b41cf524d0c485faff5e4b3691808cf",
+      "query": "Amir jatekokhoz hasznalnak",
+      "answer": "Dlang[1][2]",
+      "created_at": "20260918T17:28:13.600655Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "6ea866fe0792454dab5203a590bc37a8",
+      "query": "Dusty vagy mi",
+      "answer": "Rust[1][2][3][4]",
+      "created_at": "20260918T17:28:31.111082Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

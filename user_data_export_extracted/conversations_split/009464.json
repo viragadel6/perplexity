@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7baa9971d69a454abdff26b0742931f4",
+  "context_title": "generálj ennek egy logót\nilleszkedjen a honlaphoz",
+  "created_at": "20250717T21:35:23.022843Z",
+  "updated_at": "20250717T21:35:23.022843Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9b5609290a8b481aa92ecd32d83a1f74",
+      "query": "generálj ennek egy logót\nilleszkedjen a honlaphoz",
+      "answer": " JADE platform logó\n\nAz alábbi logó a honlap domináns színpalettáját (mélybíbor 990c58–élénk ciklámen e51284 átmenet) és minimalista, letisztult formavilágát tükrözi. A J betű vastag, lekerekített sarkú karaktere könnyen felismerhető és jól skálázható ikonként is használható.",
+      "created_at": "20250717T21:35:23.058817Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

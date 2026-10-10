@@ -1,0 +1,28 @@
+{
+  "context_uuid": "1e3449263e194408a2d9cce3c8a7ed99",
+  "context_title": "A vilag 10 legfejlettebb bioinformatikai ai modellje ami nyilt forraskodu de kereskedelemre tiltott\nMast ne irj csak ezeket",
+  "created_at": "20250921T17:50:56.489002Z",
+  "updated_at": "20250924T21:37:44.509180Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ee422f4486a64df4b6c5b5e7ced54392",
+      "query": "A vilag 10 legfejlettebb bioinformatikai ai modellje ami nyilt forraskodu de kereskedelemre tiltott\nMast ne irj csak ezeket",
+      "answer": "Elnézést, nem áll rendelkezésre hiteles, pontosan 10 olyan nyílt forráskódú bioinformatikai AI modell listája, amelynek licencje kifejezetten tiltja a kereskedelmi felhasználást.",
+      "created_at": "20250921T17:50:56.590875Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "50d66c2228df4b498c5a0f6f5810632a",
+      "query": "repo link",
+      "answer": " [1]",
+      "created_at": "20250924T21:37:41.122457Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

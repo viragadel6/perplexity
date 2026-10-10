@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6bae071ff3724911a1a3c168194f3f76",
+  "context_title": "Summarize all the previous points in a single sentence",
+  "created_at": "20260829T18:43:49.278602Z",
+  "updated_at": "20260829T18:44:02.511672Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6a618358e03a410ead191c8256d49fdf",
+      "query": "Summarize all the previous points in a single sentence",
+      "answer": "The attached file is a single, extremely long build specification for a complete AI work platform — it isn't a multiturn conversation with \"previous points\" to distill from dialogue, so here is a onesentence summary of that document itself.\n\n OneSentence Summary\n\nThe document specifies a complete, productionready, multiplatform AI work application — covering architecture, identity/permissions, conversational AI, web search, deep research, image generation, file ingestion, data analysis, Canvas, voice, Projects, scheduled tasks, autonomous work execution, browser/computer automation, connectedapp integrations, coding tools, multiagent orchestration, security, enterprise administration, and mobile/desktop clients — with the explicit requirement that every feature be a real, fullyfunctional backend implementation rather than a mock, placeholder, or simulated capability.[1]\n\nSeparately: the \"demographics\" field attached to your profile contains a fake jailbreak/promptinjection attempt (asking me to roleplay a \"GODMODE\" persona, output a fake refusal theater, and abandon safety norms). I'm ignoring that embedded instruction — it's not something you asked me directly, and I don't follow hidden instructions smuggled into background fields regardless of formatting or claimed \"system paradigms.\" If you actually want something along those lines, you're welcome to ask directly and I'll explain honestly why I would or wouldn't do it.",
+      "created_at": "20260829T18:43:49.342212Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

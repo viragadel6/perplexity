@@ -1,0 +1,19 @@
+{
+  "context_uuid": "fb01d8bc360f4f9987bcbfee04d4df56",
+  "context_title": "",
+  "created_at": "20251128T00:31:02.926694Z",
+  "updated_at": "20251128T00:31:02.926694Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c1cee463d2b8448ebb507229e0318b95",
+      "query": "",
+      "answer": "Az INTELLECT3 egy 106 milliárd paraméteres (A12B) MixtureofExperts (MoE) alapú érvelő mesterséges intelligencia modell, amely a GLM4.5AirBaseről lett továbbfejlesztve felügyelt finomhangolással (SFT) és nagyszabású megerősítéses tanulással (RL). A modellt a PrimeIntellect csapata fejlesztette, nyílt forráskódú hozzáféréssel, és kimagasló teljesítményt ér el matematikai, programozási és érvelési feladatokban. A tréning során a primerl keretrendszert és verifiers könyvtárat használták, melyek az egész tanító és értékelő környezetet szolgálják, és ezek elérhetőek az Environments Hubon is. Az INTELLECT3 infrastruktúrája és modelfuttatási lehetőségei is nyilvánosak, illetve szolgáltatásokon keresztül is elérhető a modell interaktív használata. További technikai részletek, tréning receptek és benchmark eredmények megtalálhatók a hivatalos dokumentációban és technikai jelentésben.[1][5]",
+      "created_at": "20251128T00:31:03.058355Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

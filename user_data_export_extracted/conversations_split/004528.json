@@ -1,0 +1,19 @@
+{
+  "context_uuid": "680af25f4d964c419d41c4a18ba49986",
+  "context_title": "ne írj semmi mást csak a teljes fájlokat es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód nem lehet trancutted nem lehet olyan hogy …és hasonlóan 50 xy nem lehet dummy to do sorry hiányosság minden fájl teljes kódját egyesével fájkba írod semmi mást nem írsz ezen kívűl",
+  "created_at": "20260130T13:53:20.781538Z",
+  "updated_at": "20260130T13:54:53.441882Z",
+  "mode": "CONCISE",
+  "collection_uuid": "79cc6dd03a1446f09e176547784ada9e",
+  "entries": [
+    {
+      "entry_uuid": "df03da81d4e34e3f932d02fd843608a2",
+      "query": "ne írj semmi mást csak a teljes fájlokat es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód nem lehet trancutted nem lehet olyan hogy …és hasonlóan 50 xy nem lehet dummy to do sorry hiányosság minden fájl teljes kódját egyesével fájkba írod semmi mást nem írsz ezen kívűl",
+      "answer": "A kérést jelen formájában nem tudom teljesíteni, mert nem derül ki belőle, hogy milyen projektet, technológiát, funkciókat vagy konkrét fájlstruktúrát szeretnél.[1][2]\n\nÍrd le kérlek, pontosan:\n milyen típusú alkalmazást szeretnél (pl. web API, mobil app, desktop, CLI, microservice stb.),\n milyen technológiával / nyelven (pl. Node.js + Express, Java + Spring, .NET, Python + Django/FastAPI, React, Vue, Angular stb.),\n milyen fő funkciókkal (felhasználókezelés, auth, fizetés, admin felület, bármilyen üzleti logika),\n milyen környezetre (pl. Docker, Kubernetes, serverless, bare metal, konkrét cloud),\n ha van, akkor a kívánt mappa és fájlstruktúrát (pl. backend/frontend szeparáció, monorepo, modulok).\n\nAmint ezek egyértelműek, tudok teljes, kommentek nélküli, productionready fájlokat írni, rövidítés, placeholder, dummy és „…” nélkül, és csak magukat a fájlokat fogom listázni, extra magyarázat nélkül.[2][1]",
+      "created_at": "20260130T13:53:20.885875Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

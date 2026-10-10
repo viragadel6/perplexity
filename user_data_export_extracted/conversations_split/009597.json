@@ -1,0 +1,19 @@
+{
+  "context_uuid": "3197bedd8e3b42fbbeac84d9e68bb849",
+  "context_title": "Kép\n",
+  "created_at": "20250710T08:13:51.993844Z",
+  "updated_at": "20250710T08:13:51.993844Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "71e2ce6f794c49dea37d0082bd665f01",
+      "query": "Kép\n",
+      "answer": " ShortWeb alkalmazás – Képernyőfotók\n\nAz Apple App Store magyar oldalán a ShortWeb alkalmazásnál a „Képernyőfotók” szekció található, ahol az app felületéről készült képek tekinthetők meg. Ezek a képek bemutatják az alkalmazás fő funkcióit és kezelőfelületét, például:\n\n Weboldalműveletek rögzítése és automatizálása\n Parancsikonokból indítható háttérben futó automatizmusok\n Weboldal elemeinek tartalmának lekérése\n\nA képernyőfotók megtekintéséhez látogass el az alábbi oldalra, majd görgess le a „Képernyőfotók” részhez:\n\n [1]\n\nA képernyőfotók segítenek gyorsan áttekinteni, hogyan néz ki az alkalmazás, és milyen lehetőségeket kínál a webes automatizálás terén.\n\n További információk\n\n Az alkalmazás fejlesztője: Develobile S.p.A.\n Kategória: Fejlesztőeszközök\n Kompatibilis: iPhone, iPad, iPod touch, Mac (Apple M1 vagy újabb), Apple Vision\n Nyelv: angol\n Ár: Ingyenes, appon belüli vásárlásokkal\n Adatvédelem: Az alkalmazás nem gyűjt adatokat a felhasználókról[1].\n\nA képernyőfotók az App Store oldalán mindig naprakészek, így ott találod a legfrissebb vizuális információkat az alkalmazásról.\n\n[1] ",
+      "created_at": "20250710T08:13:52.044554Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

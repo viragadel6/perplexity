@@ -1,0 +1,28 @@
+{
+  "context_uuid": "7f2634bf65c24b4181d430d6131ebc2d",
+  "context_title": "hogy mentsem el replit secretsbe? Dragonfly\nNAME\nDragonfly\nPROVIDER\nGCP\nREGION\neuropewest3 (Frankfurt)\nCLUSTER MODE\nEmulated (Single Shard)\nPLAN\n50 GB(Extreme)\nVERSION\nv1.33.1\nConnection Details\nURL\nj95dq790n.dragonflydb.cloud\nPORT\n6385\nKEY\nheaq3i60bhl8\nCONNECTION URI\nrediss://default:heaq3i60bhl8@j95dq790n.dragonflydb.cloud:6385\nSecurity\nENDPOINT\nPublic\nTLS\nPasskey\nDurability & High Availability\nEVICTION POLICY\nNo Eviction\nMASTER ZONE\neuropewest3a",
+  "created_at": "20250919T15:08:12.866309Z",
+  "updated_at": "20250919T15:09:17.662658Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e27c9fef49c345bb83f6a75f4febc9df",
+      "query": "hogy mentsem el replit secretsbe? Dragonfly\nNAME\nDragonfly\nPROVIDER\nGCP\nREGION\neuropewest3 (Frankfurt)\nCLUSTER MODE\nEmulated (Single Shard)\nPLAN\n50 GB(Extreme)\nVERSION\nv1.33.1\nConnection Details\nURL\nj95dq790n.dragonflydb.cloud\nPORT\n6385\nKEY\nheaq3i60bhl8\nCONNECTION URI\nrediss://default:heaq3i60bhl8@j95dq790n.dragonflydb.cloud:6385\nSecurity\nENDPOINT\nPublic\nTLS\nPasskey\nDurability & High Availability\nEVICTION POLICY\nNo Eviction\nMASTER ZONE\neuropewest3a",
+      "answer": "A Dragonfly adatbázis kapcsolati adatokat és jelszavakat a Repliten a Secrets funkcióval lehet elmenteni, hogy biztonságosan használhatók legyenek a kódban környezeti változóként, és ne kerüljenek nyilvánosságra vagy verziókövetésbe [1][2][3].\n\n Lépések Replit Secrets beállításához\n\n Nyisd meg a projektedet Replitben, majd bal oldalon a „Tools” vagy „All tools” menüben keresd meg a „Secrets” lehetőséget [1][2].\n Kattints a „Add new secret” vagy „New Secret” gombra [2][3].\n Add meg a Key mezőbe a változónak választott nevet (pl. „DRAGONFLY_URI”, „DRAGONFLY_HOST”, „DRAGONFLY_PORT”, „DRAGONFLY_KEY”) [1][2].\n A Value mezőbe másold be az érzékeny adatot, például a Dragonfly kapcsolat URIt vagy a jelszót („rediss://default:heaq3i60bhl8@j95dq790n.dragonflydb.cloud:6385”) [1].\n Kattints az „Add Secret” gombra [1][2].\n\n Példák a változónevekre és értékekre\n\n| Key                | Value                                            |\n|||\n| DRAGONFLY_URI      | rediss://default:heaq3i60bhl8@j95dq790n.dragonflydb.cloud:6385 [1] |\n| DRAGONFLY_HOST     | j95dq790n.dragonflydb.cloud [1]             |\n| DRAGONFLY_PORT     | 6385 [1]                                    |\n| DRAGONFLY_KEY      | heaq3i60bhl8 [1]                            |\n\nA titkok innentől környezeti változóként érhetők el a kódodban, például Pythonban így:\npython\nimport os\nprint(os.getenv(\"DRAGONFLY_URI\"))\n\n\n\n Miért előnyös?\n A titkok titkosítva, biztonságosan lesznek tárolva.\n Nem fognak nyilvánosságra kerülni, ha a kódot bárki látja, vagy verziókövetésbe kerül [1][2].\n\nEz a módszer minden érzékeny adat mentésére alkalmas, például APIkulcsok, jelszavak, URIk esetén is [1][2][3].",
+      "created_at": "20250919T15:08:13.085452Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f810626e201340e9872f7dcda087acd8",
+      "query": "jo ezt .env formaba ird le",
+      "answer": "Az alábbi .env formátumot hasznos lehet helyben fejlesztéshez vagy olyan környezetekben, ahol engedélyezett a .env használata; Replitben viszont a Secrets UI tárolja ugyanezeket a kulcsokat környezeti változóként.\n\n\nDRAGONFLY_URI=rediss://default:heaq3i60bhl8@j95dq790n.dragonflydb.cloud:6385\nDRAGONFLY_HOST=j95dq790n.dragonflydb.cloud\nDRAGONFLY_PORT=6385\nDRAGONFLY_USERNAME=default\nDRAGONFLY_PASSWORD=heaq3i60bhl8\nDRAGONFLY_TLS_ENABLED=true\n\n\nHasználat nyelvek szerint:\n Node.js: process.env.DRAGONFLY_URI\n Python: os.getenv(\"DRAGONFLY_URI\")\n Go: os.Getenv(\"DRAGONFLY_URI\")\n\nMegjegyzés: Publikus végpont és TLS Passkey esetén a rediss protokoll helyes (TLS feletti Redis), ezért a kliensben TLSt engedélyezni kell, vagy egyszerűen a teljes URIt használni.",
+      "created_at": "20250919T15:08:38.422648Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

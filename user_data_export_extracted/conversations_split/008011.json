@@ -1,0 +1,46 @@
+{
+  "context_uuid": "504e51317c2745a892e8e12a1f7444f7",
+  "context_title": "amazon bendrock claude 4.5 docs",
+  "created_at": "20251003T19:05:46.659110Z",
+  "updated_at": "20251003T19:15:47.251838Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a2acb3d22af04fbb9eda8589cd2a0736",
+      "query": "amazon bendrock claude 4.5 docs",
+      "answer": "A legjobb kiindulópont az Amazon Bedrock és Claude 4.5 (Claude Sonnet 4.5) dokumentációihoz az AWS hivatalos Bedrock oldalai és az Anthropic Claude Bedrock útmutatója, amelyek tartalmazzák a modellek azonosítóit, régió és APIinformációkat, valamint kódpéldákat.[1][2][3][4]\n\n Fő hivatkozások\n AWS bejelentés és áttekintés: Claude Sonnet 4.5 elérhető a Bedrockban, képességek, használati esetek, régiók és “global crossregion inference” megjegyzések.[5][6][7]\n Anthropic Claude Bedrock API útmutató: modellek listázása, üzenetküldéses hívások, példa model ID és régióbeállítások.[1]\n AWS Bedrock Claude models szekció: paraméterek, üzenet API vs. completion API, PDF feldolgozás és hivatkozások, XML tagek használata.[3]\n\n Modell elérhetőség és képességek\n Claude Sonnet 4.5 az Anthropic hibrid megközelítésű, ügynökalapú és kódolási feladatokhoz optimalizált csúcsteljesítményű modellje, amely a Bedrockon érhető el, több régióban, globális lekérdezési opcióval is.[6][2]\n A modell erős a komplex ügynöki folyamatokban, hosszú távú feladatokban, kódgenerálásban és refaktorálásban, továbbfejlesztett eszközhasználattal és memóriakezeléssel; az AWS blog erről részletes példákat közöl.[5][6]\n Anthropic",
+      "created_at": "20251003T19:05:46.757964Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e6986c7dfab644bcae31e6d210250adc",
+      "query": "de a direkt linket kuld",
+      "answer": "Íme a közvetlen, releváns dokumentációs linkek Claude 4.5 (Sonnet 4.5) használatához Amazon Bedrockon.[1][2][3][4]\n\n Anthropic Claude a Bedrockban – modelloldal és áttekintés: \n AWS Bedrock: Anthropic Claude modellek (paraméterek, request/response, kódpéldák): \n Anthropic: Claude on Amazon Bedrock API guide (model ID példa, Python/TS hívás): \n AWS bejelentés/útmutató Sonnet 4.5 Bedrockban: ",
+      "created_at": "20251003T19:06:07.224459Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "92d34b6123d44bf28f6e9fe15f844e1d",
+      "query": "de ahol a konkret kodok vannak",
+      "answer": "Íme a kódpéldákat tartalmazó, közvetlen dokumentációs oldalak Claude használatához Bedrockon.[1][2][3][4][5]\n\n Bedrock Claude Messages API – paraméterek és kódpéldák: \n Kódpéldák gyűjteménye (Python, streaming, multimodális): \n InvokeModel példa Anthropic Claudehoz: \n Converse API példák Anthropic Claudehoz: \n Anthropic: Claude on Amazon Bedrock – Python és TypeScript mintahívások: ",
+      "created_at": "20251003T19:09:50.934757Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "7a00eb32f2f04156a665f1ef24fef012",
+      "query": "fhu se csak azt kuld ahol az van hogy kell integralni pythonba",
+      "answer": "Íme a konkrét Python integrációs példákat tartalmazó, közvetlen oldalak Claude használatához Amazon Bedrockon.[1][2][3][4]\n\n AWS Code Library – Bedrock Runtime példák Pythonhoz (converse, converse_stream, dokumentumfeldolgozás, teljes kód): \n Converse API Python példa Anthropic Claudehoz (üzenetküldés, streaming): \n InvokeModel API Python példa Anthropic Claudehoz: \n Anthropic: Claude on Amazon Bedrock – Boto3 minta (modellek listázása, hívások Pythonban): ",
+      "created_at": "20251003T19:15:35.635976Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

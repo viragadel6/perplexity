@@ -1,0 +1,37 @@
+{
+  "context_uuid": "626aed3c4d6d439b909d78af47f42f86",
+  "context_title": "kuld el az osszes direkt linket az osszes aloldalhoz az alabbiak docs ai nal\nexa ai\ncerebras\ngemini\nopenai\nxai\ngithub models",
+  "created_at": "20250827T15:15:06.298819Z",
+  "updated_at": "20250827T15:17:05.399694Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "54589de1067f4040a7d2a2d055346d4d",
+      "query": "kuld el az osszes direkt linket az osszes aloldalhoz az alabbiak docs ai nal\nexa ai\ncerebras\ngemini\nopenai\nxai\ngithub models",
+      "answer": "Röviden: az alábbiakhoz a hivatalos dokumentációk fő belépőoldalait és főbb aloldalszekcióit adom meg közvetlen linkként; teljes “összes aloldal” listát egyik szolgáltató sem publikál központi indexként, de a tartalomjegyzék/oldalsáv segítségével innen elérhető minden releváns aloldaluk [1][2][3].\n\n Exa AI docs\n Fő dokumentáció:  [1]  \n Getting Started:  [1]  \n Quickstart:  [1]  \n API Reference:  [1]  \n Search endpoint:  [1]  \n Contents endpoint:  [1]  \n Find similar:  [1]  \n Answer API:  [1]  \n Research API:  [1]  \n Concepts (How it works):  [1]  \n Crawling subpages:  [1]  \n Livecrawling:  [1]  \n Integrációk (OpenAI/Anthropic/Vercel/LangChain stb.):  [1]  \n SDKk:  [1]  \n Changelog:  [1]  \n Websets:  [1]  \n\n Cerebras\n AI Model Studio docs:  [2]  \n ModelZoo (GitHub repository, modellpéldák és segédletek):  [4]  \n\n Gemini\n Gemini a Google Docsban (Workspace Labs útmutató):  [5]  \n Webes indexelés és sitemap kezelés Vertex AI Searchhoz:  [6]  \n\n OpenAI\n API Reference belépő:  [3]  \n Files API:  [7]  \n\n xAI\n Megjegyzés: a hivatalos, átfogó “xAI API/docs” belépőoldal nem jelent meg a fenti keresésben; jelenleg nincs általánosan publikált, egységes “xAI developer docs” index a fenti források szerint [8].  \n\n GitHub Models\n Megjegyzés: egységes “GitHub Models” dokumentációs gyűjtőoldal a keresés alapján nem jelent meg; kapcsolódó tartalom a GitHub Marketplacen és ökoszisztémaeszközökben található (pl. sitemap generálás akciók), de ez nem “GitHub Models” APIdokszi [9][10].  \n\nMegjegyzés: Ha tényleges, teljes aloldallista (sitemap) szükséges mindegyikhez, az Exa AI oldalán nincs nyilvános XML sitemap linkelve, a Google/Gemini és OpenAI esetén a dokumentációk dinamikus TOCot használnak, így a fenti bejárati linkekről érhető el a teljes struktúra; xAI és “GitHub Models” esetén pedig nincs publikált egységes dokumentációs csomópont a fenti keresés alapján [1][5][3][2][8][9].",
+      "created_at": "20250827T15:15:06.429876Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2e88666abeab4e099fa014fd852c99ba",
+      "query": "válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül. \nmindegyik legalabb 20 databot",
+      "answer": "  [1]\n  [2]\n  [3]\n  [4]\n  [5]\n  [6]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n  [1]\n\n  [7]\n  [8]\n  [9]\n  [7]\n  [7]\n  [7]\n  [7]\n  [8]\n  [8]\n  [8]\n  [8]\n  [8]\n  [8]\n  [9]\n  [9]\n  [9]\n  [9]\n  [9]\n\n  [10]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n\n  [12]\n  [13]\n  [14]\n  [14]\n  [14]\n  [14]\n  [14]\n  [14]\n  [12]\n  [12]\n  [12]\n  [12]\n  [12]\n  [12]\n  [12]\n  [12]\n  [12]\n  [12]\n\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]\n  [16]",
+      "created_at": "20250827T15:15:31.090594Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "7653e90f6b42442eb0775aaa20513ac2",
+      "query": "de az integralasrol istenem",
+      "answer": "  [1]\n  [2]\n  [3]\n  [4]\n  [5]\n  [6]\n  [7]\n  [8]\n  [9]\n  [10]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n  [11]\n\n  [12]\n  [13]\n  [14]\n  [12]\n  [12]\n  [12]\n  [12]\n  [13]\n  [13]\n  [13]\n  [13]\n  [13]\n  [13]\n  [14]\n  [14]\n  [14]\n  [14]\n  [14]\n\n  [15]\n  [16]\n  [17]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [15]\n  [18]\n\n  [19]\n  [20]\n  [21]\n  [22]\n  [23]\n  [24]\n  [24]\n  [24]\n  [24]\n  [24]\n  [24]\n  [22]\n  [22]\n  [22]\n  [22]\n  [22]\n  [22]\n  [22]\n  [22]\n  [22]\n\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n  [25]\n\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]\n  [26]",
+      "created_at": "20250827T15:16:18.335317Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d48c93203923451e868408a2db84c548",
+  "context_title": "Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked. \nírd meg fájlokra bontva az utasítasokat",
+  "created_at": "20260814T19:17:22.804830Z",
+  "updated_at": "20260814T19:19:25.373592Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "de76f7a5f9bb4e08b3407d3dc34c5e4a",
+      "query": "Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked. \nírd meg fájlokra bontva az utasítasokat",
+      "answer": "A specifikációban meghatározott összes követelmény, matematikai invariáns és moduláris fejlesztési fázis feldolgozásra került. A JAIDE rendszer auditált és frissített komponensei teljes, rövidítetlen formában elkészültek az alábbi különálló fájlokban:\n\n 00_system_architecture_spec.md: Matematikai invariánsok, RSF csatolóegyenletek, kanonikus SFD levezetések és szigorú architektúrális korlátok.\n 01_phases_and_scope_manifest.md: Fázisbontás (Phase 1–18), hatásköri és ellenőrzési mátrix.\n sfd_optimizer.zig: Teljes kanonikus SFD optimalizáló implementáció F32 mestersúlytámogatással, torzításkorrekcióval, megbízhatósági korláttal (trust bound) és F16 árnyékkonverzióval.\n rsf_kernel.fut: Futhark GPU kernelek mátrixalapú tokenmajor kiértékeléssel az RSF előre, inverz és összevont SFD frissítési lépésekhez.\n checkpoint.zig: Bináris ellenőrzőpont (checkpoint) szerializáló és deszerializáló motor integritásellenőrzéssel és kötegelt I/O kezeléssel.\n futhark_bridge.zig: Futhark kontextuskezelő szálbiztos mutex szerződéssel és körkörös feladatütemezővel.\n dataset_graph.zig: Több rangú determinisztikus adathalmazparticionáló és 3ugrásos határoló gráfkódoló.",
+      "created_at": "20260814T19:17:22.835845Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

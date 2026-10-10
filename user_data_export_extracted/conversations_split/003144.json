@@ -1,0 +1,55 @@
+{
+  "context_uuid": "4ad08d05b56c4e1b888bde26b12a4c10",
+  "context_title": "SZNYR adatlapom hol kerhetem le",
+  "created_at": "20260403T00:16:50.103581Z",
+  "updated_at": "20260403T03:20:43.150873Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a987ca11a94f4c67afcc3cd89b1486c0",
+      "query": "SZNYR adatlapom hol kerhetem le",
+      "answer": "Az SZNYR (Szabálysértési Nyilvántartási Rendszer) adatlapod lekérésének módja attól függ, hogy te magánszemélyként szeretnéd lekérni a saját adataidat, vagy hatósági/intézményi hozzáférésről van szó.\n\n Ha magánszemélyként kéred le\n\nHa a saját szabálysértési nyilvántartási adataidat szeretnéd megismerni, szabálysértési hatósági bizonyítványt kell igényelned. Ez az a hivatalos irat, amely tartalmazza, hogy szerepelsze a nyilvántartásban. A kérelmet az illetékes járási hivatal okmányirodáján személyesen, vagy ügyfélkapun keresztül elektronikusan nyújthatod be.[1]\n\n Hozzáférés 2026 februárjától\n\n2026. február 28tól az SZNYR rendszerbe – mind a lekérdezéshez, mind a karbantartáshoz – az új belépési felület a kormany.hu oldalon keresztül érhető el. Ez azt jelenti, hogy a korábbi nyilvantarto.hus elérési útvonalon keresztüli belépés már nem az elsődleges módszer, hanem a kormányzati portálon keresztül kell navigálni.[2]\n\n Ha intézményi/hatósági felhasználó vagy\n\nHa hatóságként, szervként (pl. rendőrség, önkormányzat) szeretnél hozzáférést az SZNYR rendszerhez, ehhez jogosultságigénylő lapot kell benyújtani. A kérelmet elektronikusan kell kitölteni, majd kinyomtatni, a vezető által aláírni, lepecsételtetni, majd beszkennelve beküldeni. Első alkalommal „ÚJ FELHASZNÁLÓ\" opciót kell választani az igénylőlapon, ha még nincs meglévő SZNYRfelhasználónév.[3]\n\n Fontos tudnivalók\n\nA szabálysértési hatósági bizonyítványhoz szükséges kérelem és az igénylőlap formanyomtatványa letölthető a kormany.hu dokumentumtárából. Az aktuális elérési link és formanyomtatványok a  oldalon találhatóak.[4]\n\nPontosabb segítséghez: magánszemélyként vagy intézményi felhasználóként szeretnéd az adatlapot lekérni?",
+      "created_at": "20260403T00:16:50.343756Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "fc93ebb4521947a8904b1c8ece28390f",
+      "query": "Magánszemélyként a saját adataimat szeretném",
+      "answer": "Magánszemélyként az SZNYRben tárolt saját adataidat szabálysértési hatósági bizonyítvány kérelmezésével tudod lekérni, ami teljesen ingyenes.[1]\n\n Mi ez a bizonyítvány?\n\nA szabálysértési hatósági bizonyítvány egy hivatalos irat, amelyet a Belügyminisztérium Bűnügyi Nyilvántartó Hatósága állít ki. Ez a dokumentum a szabálysértési nyilvántartási rendszerben rólad kezelt adatok alapján készül el, és fontos tudni, hogy bűnügyi adatokat nem tartalmaz – csak szabálysértési előzményeket. A kiállítása illetékmentes, tehát semmibe nem kerül.[1]\n\n Hogyan kérheted le?\n\nHáromféleképpen nyújthatod be a kérelmet:[1]\n\n1. Személyesen – A kérelmet beadhatod a szabálysértési nyilvántartó szervnél, amelynek címe: Belügyminisztérium Bűnügyi Nyilvántartó Hatóság, 1097 Budapest, Vaskapu utca 30/A.[1]\n\n2. Postai úton – A kérelmet levélben is beküldhetod ugyanerre a hatóságra: 1476 Budapest 100., Pf. 278.[1]\n\n3. Kormányablakon keresztül – Ha nem akarsz Budapestre utazni, bármelyik Kormányablaknál (pl. Kiskunhalason is) leadhatod a kérelmet továbbítás céljából. Ez a leglényegesebb lehetőség számodra![1]\n\n Mit kell tartalmaznia a kérelemnek?\n\nA kérelemhez szükséges formanyomtatvány letölthető a kormany.hu oldalról. A kérelemnek kötelezően tartalmaznia kell:[2][1]\n\n A saját adataidat (név, születési adatok, anyja neve)\n A hatósági bizonyítvány címzettjének pontos megnevezését és belföldi postázási címét (ha valahova kell benyújtani, pl. munkáltatónak, vagy ha magadnak kéred, akkor a saját lakcímed)\n Nyilatkozatot arról, hogy milyen célból kéred a bizonyítványt (pl. munkáltató kérésére, saját tájékozódás stb.)\n\n Mire számíts?\n\nA kész hatósági bizonyítványt kizárólag papír alapon, magyar nyelven állítják ki, és a kérelmező által megadott belföldi kézbesítési címre postázzák. Elektronikusan tehát nem kapod meg a dokumentumot, de a kérelmet le tudod adni Kormányablakon keresztül is, ami Kiskunhalason a legkényelmesebb megoldás.[1]",
+      "created_at": "20260403T03:17:49.666442Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "a56cc955388d41788e66143b95c60489",
+      "query": "De olyat nem lehet h instant le kerem es kapom? Xd ez bagyon gagyi",
+      "answer": "Sajnos az igazság az, hogy nem lehet instant módon lekérni – és igen, ez tényleg elég elavult rendszer. 😅\n\n Miért nincs azonnali online lekérdezés?\n\nAz SZNYR kifejezetten egy hatósági belső rendszer, amelyhez magánszemélyeknek közvetlen online hozzáférésük nincs. Más nyilvántartásoknál (pl. ingatlannyilvántartásnál vagy közlekedési büntetőpontnál) már működik az azonnali online lekérdezés Ügyfélkapun keresztül, de a szabálysértési hatósági bizonyítványnál ez még nem érhető el magánszemélyeknek – a bizonyítvány postán érkezik meg.[1][2][3]\n\n Ami azért gyorsabb lehet\n\nHa sürgős, a Kormányablakon személyesen leadott kérelem némileg felgyorsíthatja a folyamatot, bár a végeredményt így is postán küldik. A kiskunhalasi Kormányablak erre a célra is megfelel. Emellett figyelemmel kísérheted a magyarorszag.hu oldalt és a DÁP (Digitális Állampolgár) appot  – az állami digitális szolgáltatások körét folyamatosan bővítik, és könnyen lehet, hogy hamarosan ez is bekerül az azonnali online ügyintézési lehetőségek közé.[2][4]\n\nSzóval sajnos egyelőre ez a rendszer tényleg ennyire \"gagyi\" – de a büntetőpontok legalább már azonnal nézhetők online! 😄[2]",
+      "created_at": "20260403T03:18:28.670541Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "d7565f756a5144e98dbeb4b337322b28",
+      "query": "Akkor honna a rakbol tudjam hohy el vagyok e meg tiltva a vezetestol",
+      "answer": "Na, ezt igen, azonnal le tudod kérni online! 🎉 Ez az egyik legjobban megcsinált digitális közigazgatási szolgáltatás Magyarországon.\n\n Büntetőpontlekérdezés Ügyfélkapun\n\n2022. május óta ingyenesen, azonnal, online lekérdezheted a büntetőpontjaidat a magyarorszag.hu oldalon. Azonnal megjelenik az aktuális pontszámod, az egyes pontok elévülési ideje, és természetesen ha 0 a pontod, akkor is látod, hogy nincs aktív tiltásod.[1][2]\n\n Hogyan csináld?\n\nMenj a magyarorszag.hu oldalra, jelentkezz be Ügyfélkapuval (vagy DÁP apppal, eSzemélyivel), majd keresd meg a „Tájékoztatás közúti közlekedési előéleti pontokról\" elnevezésű ügytípust. Ez a Közigazgatás, Jog → Adatkezelés, adatszolgáltatás menüpont alatt található. Pár kattintás és máris látod az adataidat.[1]\n\n A tiltás logikája\n\nHa a pontjaid elérik a 18at, a nyilvántartó automatikusan értesíti az illetékes járási hivatalt, amely 8 napon belül visszavonja a jogosítványodat. Ha tehát az online lekérdezésnél 18 alattt vagy, vezethetsz – ha meg nincs aktív határozatod a visszavonásról, szabad vagy. Azt is látod, hogy az egyes pontok mikor évülnek el (maximum 3 éven belül).[3][4][1]\n\nSzóval ez az egy dolog tényleg instant és kényelmes – ellentétben az SZNYRrel! 😄[1]",
+      "created_at": "20260403T03:18:55.899157Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "61b09131e5c14b5a84690199c6cd4adc",
+      "query": "De nekem az volt h el voltam tiltba mert kivont autot vezettem par honapra de mar nemtom mikor jar le a tiltas",
+      "answer": "Ez egy kicsit bonyolultabb helyzet, mert a kivont autó vezetéséért kapott eltiltás szabálysértési eljárásban keletkezett, nem büntetőügyben. Íme, hogyan tudhatod meg a pontos lejáratot:\n\n Leggyorsabb megoldás: Okmányiroda / Kormányablak\n\nA legbiztosabb és leggyorsabb módja, hogy személyesen bemész a kiskunhalasi Kormányablakba, és megkéred, hogy nézzék meg a járművezetői nyilvántartásban az eltiltásod státuszát és lejárati dátumát. Ez pár perc alatt megvan, és ott helyben megmondják a pontos dátumot.[1]\n\n Online lehetőség: magyarorszag.hu\n\nA korábban említett büntetőpontlekérdező felületen (magyarorszag.hu → „Tájékoztatás közúti közlekedési előéleti pontokról\") szabálysértési eltiltás esetén is megjelenhet az aktív eltiltás státusza, mivel ez is a közlekedési nyilvántartásban szerepel. Ügyfélkapus bejelentkezéssel érdemes megnézni – ha szerencséd van, ott is látható.[2]\n\n Hogyan számolódik az eltiltás?\n\nA szabálysértési eljárásban kiszabott eltiltásnál az eltiltás kezdő időpontja az a nap, amikor a rendőr helyszínen elvette a jogosítványodat, vagy amikor leadtad a hatóságnak. A határozatban megjelölt hónapokat ettől a naptól kell számolni, tehát ha emlékszel, mikor vették el a jogsit, abból már ki tudod számolni.[3][1]\n\n Ha bizonytalan vagy\n\nHa semmiképp nem emlékszel a pontos dátumra, és az online lekérdezés sem mutatja, egyszerűen hívd fel a 112t vagy a helyi rendőrkapitányságot – ők is le tudják kérdezni az eltiltás státuszát a neveddel és személyes adataiddal. Alternatívaként a határozatot, amit az eljáráskor kaptál, előásd, mert azon szerepel a kiszabott eltiltás időtartama és a kezdő dátum.[4]",
+      "created_at": "20260403T03:19:45.820672Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

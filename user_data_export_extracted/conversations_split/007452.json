@@ -1,0 +1,28 @@
+{
+  "context_uuid": "334c84afc13146afbcaf12ae12560c39",
+  "context_title": "coinbase docs direkt link\nbackendbr epitem be hogy frontenden apple pay el es kartyaval tudjanak fizetnu atiranyitas nelkul es forintba irja ki az osszeget\nehhez minden szukseges docsot kuldj mert replit agent nek kell",
+  "created_at": "20251018T11:07:20.980499Z",
+  "updated_at": "20251018T11:34:12.405129Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b6d224185d2f459ba68e53609b25cbe6",
+      "query": "coinbase docs direkt link\nbackendbr epitem be hogy frontenden apple pay el es kartyaval tudjanak fizetnu atiranyitas nelkul es forintba irja ki az osszeget\nehhez minden szukseges docsot kuldj mert replit agent nek kell",
+      "answer": "A legfontosabb Coinbase dokumentációs linkek, amelyekre szükséged van, hogy backendből lehívva frontend fizetési felületet csinálj Apple Payjel és kártyás fizetéssel, forintban kiírt összeggel, átirányítás nélkül:\n\n Dokumentációs források\n\n  – Coinbase Commerce API általános dokumentációja, itt találsz címet, endpointokat, példákat[1]\n  – Apple Pay direkt integráció dokumentáció, ahol az Onramp APIt részletezik, beleértve Apple Payt[2]\n  – REST API bevezetés és példák, charge endpoint, konfiguráció stb.[3]\n  – Coinbase Onramp fizetési megoldás, kártyás és Apple Pay opciókkal, saját merchant flowval[4]\n  – USDC → HUF konverzió aktuális árfolyammal, hogy frontend oldalon helyes összeget mutass[5]\n\n Fejlesztési segédlet\n\nAz említett dokumentációkon keresztül:\n Backendben Commerce APIval egyedi charget készítesz, amely akár HUFban is árazható (bár a valós fizetés USDCben történik, fontos a helyes konverzió)[1][3]\n Apple Pay/kártyás fizetési flowt az Onramp API doksiban tudod integrálni: ez lehetővé teszi a webes frontendbe történő beágyazást, átirányítás nélkül[2][4]\n Az USDCHUF átváltást a Coinbase converter oldalán lekérdezhető árfolyammal teheted dinamikussá, így a frontendben mindig korrekt összeget látnak a magyar felhasználók[5]\n\nEz a setup közvetlen checkoutot engedélyez Apple Payjel, kártyával, amerikai rendszerből forintban kiírt összegekkel, átirányítás nélkül. A fenti linkek minden szükséges API leírást, példát és konfigurációt tartalmaznak.",
+      "created_at": "20251018T11:07:21.083271Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "c3588fd91d354792ba8ad8134bfdef8f",
+      "query": "haskell be integralom \nes direkt linkeket kertem",
+      "answer": "Alább megtalálod a Haskellalapú integrációhoz szükséges közvetlen dokumentációs linkeket:\n\n  – Általános Coinbase Commerce API dokumentáció, HTTP/JSON hívásokhoz használható endpointokkal[1]\n  – REST API bevezető és példák a charge endpoint használatához[2]\n  – Onramp API részletei Apple Pay és kártyás fizetési folyamatok beágyazásához átirányítás nélkül[3]\n  – Haskell csomag a Coinbase Pro APIhoz, amit hitelesítésre és HTTP kliensként kiindulópontnak használhatsz[4]\n  – Régebbi Haskell könyvtár a Coinbase Exchangehez, mint alap a Commerce API hívásokhoz[5]",
+      "created_at": "20251018T11:08:10.060521Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

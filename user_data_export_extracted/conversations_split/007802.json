@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d2ab109643c44f8db2340c164f66dcc3",
+  "context_title": "",
+  "created_at": "20251009T22:04:43.018318Z",
+  "updated_at": "20251009T22:04:43.018318Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a4baa118cf2f4141bda734f320ec20cc",
+      "query": "",
+      "answer": "A RepleteAI/Kronos703B egy nagy méretű nyelvi modell, amely a Kronos titán nevéről kapta a nevét a mérete miatt. Ez a modell úgy készült, hogy különböző nagyméretű nyelvi modellek (LLMek) rétegeit konkatenálták egymáshoz egy \"passthrough\" nevű módszerrel, így ritka paraméterszámokat képes előállítani, például 9 milliárdot úgy, hogy két 7 milliárdos modellt egyesítenek. A közösségben ezeket gyakran \"frankenmerge\" vagy \"Frankenstein modellek\" néven emlegetik. A modell futtatásához 64 GB RAM és egy Ryzen 5 5600 processzor elegendő, GPU nem feltétlenül szükséges.\n\nA modell futtatásához a Hugging Face transformers könyvtárat és PyTorchot kell használni, és az inferencia egy chat sablon alapján működik, amely hasonló a Mistral instruct modellek chat sablonjához. A modellt jellemzően CUDAtámogatással GPUn futtatják, de képes CPUn is működni.\n\nA fejlesztésben több közreműködő is részt vett, például Abacaj biztosította a finomhangolt súlyokat, míg a scriptet egy nyilvános GitHub linken lehet elérni. A modell még nem elég aktív a serverless Inference APIba való telepítéshez, de dedikált végpontokon elérhető lehet.\n\nÖsszefoglalva, a Kronos703B egy \"frankenmerge\" típusú, nagy kapacitású, nyílt forráskódú nagy nyelvi modell, amelyet rétegek összevonásával hoztak létre különböző modellekből, és elsősorban kutatási vagy fejlesztési célokra alkalmas.[2][3]",
+      "created_at": "20251009T22:04:43.291449Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

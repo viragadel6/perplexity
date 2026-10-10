@@ -1,0 +1,19 @@
+{
+  "context_uuid": "bfe22d6296224209a6943cfdfa670765",
+  "context_title": "webscarper ai search api key free trial tor / dark webbbongeszesre pybe integralhato",
+  "created_at": "20251026T15:35:35.810846Z",
+  "updated_at": "20251026T15:35:35.810846Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "17ae7686317f4fa496650b566815fdbd",
+      "query": "webscarper ai search api key free trial tor / dark webbbongeszesre pybe integralhato",
+      "answer": "Ha Torhálózaton vagy dark weben történő böngészéshez és scrapinghez keresel integrálható, AIalapú vagy Pythonkompatibilis APIt, több megoldás is elérhető legális és fejlesztői célokra.\n\n 1. Web scraping API kulcsok és ingyenes próbák\n WebScrapingAPI: 7 napos teljes funkcionalitású ingyenes próbát kínál, amely után havi 1000 APIhit marad az ingyenes csomagban. A feliratkozás után kapsz egy egyedi api_key kulcsot, amit Pythonból a requests könyvtárral lehet használni, pl.  \n  https://api.webscrapingapi.com/v1?api_key=<YOUR_API_KEY>&url=<TARGET_URL>.[1]\n Bright Data Web Scraper API: AIalapú scraping megoldás, amelyhez szintén jár próbaverzió. Nem igényel proxyszervert és jól skálázható.[2][3]\n Oxylabs AI Scraper: Szintén biztosít ingyenes próbát, fejlett antibot megoldásokkal és automatikus sessionkezeléssel.[4]\n ScraperAPI és ScrapingBee: Letisztult REST API, amely JSONoutputot ad és támogat Python SDKt, mindkettő elérhető ingyenes próbával 1000+ lekérésig.[5][6]\n\n 2. Tor és dark web scraping integráció Pythonban\n darkwebscraper (Python csomag): Telepíthető pip install dark-web-scraper.  \n  Használható .onion oldalak link és képszkennelésére:\n  python\n  from dark_web_scraper import find_onion_links\n  find_onion_links(\"http://example.onion\")\n  \n  Az eredmények result.txt fájlba kerülnek. Oktatási célra készült, nem ösztönöz illegális használatra.[7]\n ScrapingAnt útmutató Torral: A stem könyvtárral lehet Tor vezérlést és IProtációt megvalósítani:\n  python\n  from stem import Signal\n  from stem.control import Controller\n  def renew_tor_ip():\n      with Controller.from_port(port=9051) as controller:\n          controller.authenticate()\n          controller.signal(Signal.NEWNYM)\n  \n  A requestset SOCKS5 proxyn keresztül kell konfigurálni:  \n  session.proxies = {'http': 'socks5h://localhost:9050', 'https': 'socks5h://localhost:9050'}.[8]\n CyberScraper 2077: GitHubprojekt, amely támogatja a .onion domain scrapinget a Torhálózaton keresztül, beleértve az antibot és CAPTCHAmegkerülő APIkat is.[9]\n Apify Darkweb Scraper API: Távoli elérést biztosít a dark web adatextrakcióhoz programozható APIn keresztül.[10]\n\n 3. Összehasonlító táblázat\n\n| Név | Ingyenes próba | Python integráció | Tor/Dark web támogatás | Megjegyzés |\n||||||\n| WebScrapingAPI | Igen (7 nap) [1] | Igen | Nem | Közönséges webre |\n| Oxylabs AI API | Igen [4] | Igen | Nem | AIalapú |\n| darkwebscraper | Teljesen ingyenes [7] | Igen | Igen | Dark webre optimalizált |\n| CyberScraper 2077 | Ingyenes [9] | Igen | Igen | Fejlődés alatt |\n| Apify Darkweb Scraper | Regisztráció után [10] | Igen | Igen | Felhőalapú |\n| Bright Data Web Scraper | Igen [2] | Igen | Nem | Magas megbízhatóság |\n\nEgy kombinált megoldás Toron keresztüli scrapingre: használd a dark-web-scraper vagy CyberScraper 2077 csomagot, és ha AIs adatfeldolgozás is szükséges, kösd össze például a WebScrapingAPI vagy ScrapingBee REST APIjával.",
+      "created_at": "20251026T15:35:35.998368Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

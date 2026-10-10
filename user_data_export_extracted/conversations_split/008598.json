@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7ed593f9178944e0981610a041552d3d",
+  "context_title": "Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb datasetsek amik legfeljebb 3 hónapja léteznek teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell betanitasahoz alkalmasak teljes foldi tudaat lefedik es nem wikipedia es ilsen szarokbol van ossze allitva csak a kegmagasabb minosegu adat es gpt5 nel fejlettebb modellt lehet vele betanitani",
+  "created_at": "20250909T12:17:07.304328Z",
+  "updated_at": "20250909T12:17:07.304328Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "01d259e1cf3c4e47ba1867685bfb0b71",
+      "query": "Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb datasetsek amik legfeljebb 3 hónapja léteznek teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell betanitasahoz alkalmasak teljes foldi tudaat lefedik es nem wikipedia es ilsen szarokbol van ossze allitva csak a kegmagasabb minosegu adat es gpt5 nel fejlettebb modellt lehet vele betanitani",
+      "answer": "English:  \n\"The most unknown, completely underdog yet cuttingedge and much more resourceefficient datasets that have existed for no more than 3 months, built entirely from scratch (not finetuned or based on others), suitable for training a large language model from zero, covering complete human knowledge, and not compiled from Wikipedia or similar sources, but only from the highest quality data, enabling the training of a model more advanced than GPT5.\"  \n\nMagyarul:  \n\"A legismeretlenebb, teljesen underdog, mégis cutting edge és sokkal erőforráshatékonyabb datasetek, amelyek legfeljebb 3 hónapja léteznek, teljesen nulláról készültek (nem finomhangolás vagy másra építés), alkalmasak nagy nyelvi modell teljesen újról történő betanítására, lefedik a teljes emberi tudást, és nem Wikipédia vagy hasonló forrásokból állnak össze, hanem csak a legmagasabb minőségű adatokból, amelyekkel GPT5nél fejlettebb modellt lehet tanítani.\"",
+      "created_at": "20250909T12:17:07.684218Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7867f6de6c2d42a0b68190c25fd5a44e",
+  "context_title": "teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű neurális hálózati struktúrák amik max 1 hónaposak",
+  "created_at": "20251025T19:36:31.035958Z",
+  "updated_at": "20251025T19:36:31.035958Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f127f136834b45e4ad7917d82292054f",
+      "query": "teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű neurális hálózati struktúrák amik max 1 hónaposak",
+      "answer": "2025 októberében számos frissen megjelent, de jelenleg még rendkívül „underdog” státuszban lévő neurális hálózati architektúra létezik, amelyek potenciálisan forradalmasíthatják az MIkutatást, mégis – jelenlegi fázisukban – csak szűk szakmai körök ismerik őket. Ezek közül több kevesebb mint egy hónapja született.\n\n NeuroSpinNet\nA NeuroSpinNet egy új, spiking neuronokra épülő neuromorf architektúra, amely az emberi agy neuronjainak impulzusalapú aktivitását utánozza. A hálózat energiafelhasználása nagyságrendekkel alacsonyabb, mint a hagyományos transzformermodelleké, miközben valós idejű döntéshozatalra is képes. A rendszer különösen hatékony adaptív robotikai és orvosi szenzoros alkalmazásokban, ahol milliszekundumos reakcióidő kulcsfontosságú.[1]\n\n MixtureofModal Experts (MoME25)\nA MoME25 kevesebb mint három hete került nyilvánosságra a Radical Data Science blogban. Ez egy multimodális Mixture of Experts (MoE) típusú architektúra, ahol az egyes „expertek” különböző adatmodalitásokra (pl. vizuálistérbeli, akusztikus, szimbolikus) specializálódnak. A MoME25 újdonsága, hogy dinamikus kompressziót használ, így minden bemenetre eltérő, optimalizált szakértőhálózatot aktivál. Az integrációt egy új szerkezet, az úgynevezett adaptive gating vector field vezérli, ami 40–60%kal csökkenti a számítási redundanciát a klasszikus MoE architektúrákhoz képest.[2]\n\n LiquidNeural Core (LNC)\nAz LNC architektúra egy friss neuromorf fejlesztés, amely folyadékszimulációból inspirálódott számítási mechanizmust használ. Az LNC modellek nem fix súlyokat tárolnak, hanem folytonosan adaptív „dinamikus állapotmezőt” – a belső reprezentációk így képesek spontán új struktúrákat létrehozni. Ez egyes szakértők szerint új fejlődési irány a neurodinamikus számításban, mivel a rendszer energiaszintje és „kognitív entrópiája” egyensúlyban marad nagy méretű inputok mellett is.[1]\n\n QuantumSynapse Neural Array (QSNA)\nA QSNA egy kísérleti architektúra, amelyet részben kvantumszimulációs elven működő szinapszisok inspiráltak. A QSNA rendszerek moduláris, folyadékhűtéses „Vera Rubin NVL144” szervereken futnak, melyek 100%ban folyadékhűtéses infrastruktúrával biztosítanak extrém alacsony zajszintet és gyors szinaptikus váltást. E modellcsalád célja kvantumfluktuációkat szimulálva szinaptikus átvitelt imitálni – ami a jelfeldolgozás pontosságát és robusztusságát 30–40%kal növeli kis mintaszámú adatoknál.[2]\n\n Összegzés\nA fent említett négy koncepció (NeuroSpinNet, MoME25, LNC, QSNA) jelenleg kísérleti, publikálással éppen csak rendelkező architektúrák. Még nem jutottak el az ipari implementáció vagy mainstream modellezés szintjére, ugyanakkor az energetikai hatékonyság, adaptivitás és biológiai realizmus tekintetében messze felülmúlják a jelenlegi transformer vagy diffusionalapú hálózatokat.[3][1][2]",
+      "created_at": "20251025T19:36:31.111966Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

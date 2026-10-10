@@ -1,0 +1,19 @@
+{
+  "context_uuid": "476aac33e3464933b1d3018e217aa84c",
+  "context_title": "Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb technológiák amik legfeljebb 3 hónapja léteznek teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell datasets generalasahoz ami a teljes foldi tudast lefedi gpt 5 szintu legalabb es a lragadabb minoseg tehat nem wikipedia es hasonlok",
+  "created_at": "20250903T05:40:32.712856Z",
+  "updated_at": "20250903T05:40:32.712856Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "29b3def1717c4bb193d95f92b13d897f",
+      "query": "Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb technológiák amik legfeljebb 3 hónapja léteznek teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell datasets generalasahoz ami a teljes foldi tudast lefedi gpt 5 szintu legalabb es a lragadabb minoseg tehat nem wikipedia es hasonlok",
+      "answer": "Most unknown yet cuttingedge and resourceefficient technologies developed within the last 3 months from scratch (not finetuned), including LLM architectures and highquality dataset generation methods that cover comprehensive global knowledge at GPT5 level:\n\nLegkevésbé ismert, fejlesztői körben is teljesen underdog, mégis cuttingedge és sokkal hatékonyabb erőforrásigénytelen technológiák, amik legfeljebb 3 hónapja léteznek, teljesen saját 0ról kezdett from scratch LLM, nem finomhangolt vagy másra épített nagy nyelvi modell, illetve dataset generálási módszerek, amik a teljes földi tudást lefedik GPT5 szintű legalább és a legjobb minőség, tehát nem Wikipedia és hasonlók\n\nAlapján a legfrissebb kutatások és fejlesztések áttekintése után, az alábbi technológiák emelkednek ki 2025 utolsó hónapjaiban:\n\n Erőforráshatékony architektúrák\n\nDeepSeek R1  Egy nyílt forráskódú, nulláról fejlesztett reasoning engine[1], amely matematikai és kódolási feladatokhoz optimalizált. Kevesebb mint 6% paraméterét aktiválja egyszerre, jelentősen csökkentve a számítási költségeket[2].\n\nResourceefficient transformer alternatívák[3]  Új moduláris hálózati architektúrák és approximált attention mechanizmusok, amelyek drastikusan csökkentik a kvadratikus komplexitást hardwaretudatos megközelítésekkel.\n\n Szintetikus adatgenerálási módszerek\n\nTopiccontrolled generation[4]  Új zeroshot topic generálási technika, amely először releváns témákat generál, majd ezekhez specifikus példákat hoz létre, jelentősen növelve a dataset diverzitást.\n\nSemantic data pipelines[5]  LLMalapú adatgenerálás természetes nyelvi promptolással, amely túlmegy a hagyományos Wikipediaalapú forrásokn, és globális tudásbázist épít fel.\n\n Új search és retrieval technológiák\n\nExa neural search[6]  Nextlink predikciós modell, amely embeddingalapú technológiával a hagyományos kulcsszókeresést váltja fel szemantikus tartalomértéssel[6].\n\nFast search API[6]  A világ leggyorsabb keresési APIja, amely milliszekundos válaszidővel működik realtime alkalmazásokhoz.\n\nEzek a technológiák a hagyományos finetuning megközelítést kerülik[7][5], helyette fromscratch architektúrákat és innovatív adatgenerálási módszereket alkalmaznak, amelyek lényegesen hatékonyabbak és költségkíméletesek a meglévő megoldásoknál.",
+      "created_at": "20250903T05:40:32.993440Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b5b24803786144d68c3173b5316a6aa0",
+  "context_title": "Ai technologiak amiket Szegedwn talaltak fel/osa korheto",
+  "created_at": "20250812T05:09:08.352479Z",
+  "updated_at": "20250812T05:09:08.352479Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e60a21c9a62046dfbc04057685733ee9",
+      "query": "Ai technologiak amiket Szegedwn talaltak fel/osa korheto",
+      "answer": " Szegeden fejlesztett vagy Szegedhez köthető AItechnológiák és kezdeményezések\n\n Kiemelkedő AIfejlesztések\n\n nucleAIzer: paraméterezés nélküli, deep learning alapú sejtmagszegmentáló keretrendszer, amely képsztílustranszfert használ a mikroszkópos képfeldolgozásban; a fejlesztés a szegedi Biológiai Kutatóközpont és az SZTE kutatóihoz is kötődik[1].  \n Generatív nyelvi modellek megértését célzó kutatás: az SZTE Mesterséges Intelligencia Kompetenciaközpont nemzetközi partnerekkel (Rutgers, LMU) vizsgálja, „hogyan gondolkodik” a generatív MI, a modellek belső reprezentációit és világmodelljét kutatva[2].  \n\n Infrastruktúra, amely lehetővé teszi a helyi AIinnovációt\n\n MIra optimalizált szuperszámítógép az SZTEn (HPE technológia): 1,75 petaflops kapacitás, NVIDIA H100alapú rendszer, bővíthető architektúra; cél az egészségügyi, genomikai, nyelvtechnológiai és közlekedési MIkutatások felgyorsítása[3][4][5].  \n A szuperszámítógép üzemeltetése és fókusza: az IKIKK Mesterséges Intelligencia Kompetenciaközpont szakmai támogatásával működik; kiemelt felhasználások: nagy nyelvi modellek vizsgálata, genomika, gyógyszerkutatás, neurokibernetika, és járványmodellezés[4][3].  \n\n Egyetemi háttér és kutatói műhelyek\n\n Több mint négy évtizedes AIhagyomány az SZTEn: a mesterséges intelligenciakutatás múltját és folyamatosságát az egyetemi beszámolók rögzítik[6].  \n Mesterséges Intelligencia Tanszék (korábban Számítógépes Algoritmusok és MI): 2025.07.01től hivatalos név, rendszeres tudományos szervezői és oktatási szerep, valamint a Magyar Számítógépes Nyelvészeti Konferencia szervezése[7].  \n MTA–SZTE Mesterséges Intelligencia Kutatócsoport (RGAI): közös kutatócsoport, amely az SZTE Informatikai Intézethez kapcsolódik[8].  \n\n Helyi AIalkalmazások és ökoszisztéma\n\n „Okos” megoldások és automatizálás a városi környezetben: a helyi sajtó beszámol az automata rendszerek terjedéséről és technológiai alkalmazásokról Szegeden[9].  \n Szegedi startupökoszisztéma: a városban több technológiai cég és startup működik, köztük olyan szereplők, akik AIt és adatelemzést integrálnak termékeikbe; a helyi ITszektor dinamikusan növekszik és erős egyetemi utánpótlásra támaszkodik[10][11].  \n Egyetemi és regionális programok: az SZTE aktív a startupképzésben és inkubációban (pl. HSUP, új inkubátorprogramok), amelyek AIvezérelt ötletek piacosítását is támogatják[12][13][14].  \n\n Mi számít „Szegeden feltalált” AItechnológiának?\n\n A nucleAIzer konkrét, nemzetközileg hivatkozott módszertan, amelynek szerzői és intézményi affiliációi között szegedi kutatóhelyek is szerepelnek, ezért tekinthető Szegedhez köthető, nemzetközi szinten is elismert AIfejlesztésnek[1].  \n Az SZTEn futó generatív MIkutatások és a célzott, MIre optimalizált szuperszámítógépes infrastruktúra nem „egy eszköz feltalálása”, hanem olyan kutatási és fejlesztési alap, amelyből új, helyi AIalkalmazások és módszerek születnek (pl. orvosi képfeldolgozás, genomika, NLP, közlekedési modellezés)[3][4][5][2].  \n\nHa további, konkrét szegedi AIprojektekről szeretne listát (például orvosi képfeldolgozás, nyelvtechnológia, ipari MI), szívesen összegyűjtöm a legfrissebb publikációk és projektoldalak alapján.",
+      "created_at": "20250812T05:09:08.448898Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "7f1b7d53a9a347cfb89bbc47c9744b24",
+  "context_title": "kuld el az osszes dokumentumnak a linkjet\n\n\n\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250719T15:12:22.835541Z",
+  "updated_at": "20250719T15:13:08.551192Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "37e6f15c6abf4673bc569b7c42a527c1",
+      "query": "kuld el az osszes dokumentumnak a linkjet\n\n\n\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " \n \n \n \n \n \n \n \n ",
+      "created_at": "20250719T15:12:23.025344Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "7fadefd49c0d464c8933d1025cec709d",
+      "query": "legalabb 30at xd",
+      "answer": " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ",
+      "created_at": "20250719T15:13:01.456914Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

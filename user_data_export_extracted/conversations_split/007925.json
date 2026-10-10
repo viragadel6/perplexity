@@ -1,0 +1,19 @@
+{
+  "context_uuid": "bc112e52c90a44138cfa633851e8b1b5",
+  "context_title": "",
+  "created_at": "20251006T15:14:18.562524Z",
+  "updated_at": "20251006T15:14:18.562524Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2822d330ed744be482807597fd37a109",
+      "query": "",
+      "answer": "A megadott link a WISDEM (WindPlant Integrated System Design & Engineering Model) PyPIoldalára mutat, ahol a csomag leírása, dokumentációja és telepítési lehetőségei érhetők el Pythonhoz, többek között pip/conda telepítéssel és fejlesztői módú forrásból építéssel is.[1]\n\n Mi a WISDEM\nA WISDEM egy nyílt forrású, OpenMDAOalapú modulcsalád, amellyel a szélturbinák és szélerőművek költségét, teljesítményét és pénzügyi mutatóit lehet integráltan értékelni és optimalizálni, több mint egy évtizede aktívan karbantartott ökoszisztémaként. A dokumentáció online elérhető, beleértve a modulok részletes leírását és első lépéseket, YAMLalapú bemeneti fájlstruktúrával (geometria, modellezési opciók, analízis opciók).[2][3][4][5][1]\n\n Fő modulok és függőségek\nA magmodulok közé tartozik a TowerSE, RotorSE, DrivetrainSE, Plant_FinanceSE, valamint a BOS modellek (LandBOSSE/ORBIT), és olyan segédcsomagokra támaszkodnak, mint a CCBlade, Airfoil Preppy, MoorPy, pyFrame3DD stb.; a pyFrame3DD külön PyPIcsomagként is elérhető. A condaforge csatornán a wisdem csomag elérhető binárisként, ami megkönnyíti a platformközi telepítést és a fordítói függőségek kezelését.[6][7][8][1]\n\n Telepítés röviden\n Könyvtárként: pip install wisdem vagy conda install wisdem javasolt, különösen Windows alatt conda ajánlott a fordítóeszközök miatt.[9]\n Fejlesztői/forrásból: klónozás után conda környezet létrehozása az environment.yml alapján, majd editable install; Mac/Linux alatt petsc4py és mpi4py, Macen gfortran (ha nincs Homebrew/MacPorts), Windowson m2w64toolchain és libpython szükséges, végül pip install nodeps e . v.[9][2]\n Környezet létrehozásának tipikus lépései: conda config add channels condaforge; git clone ; conda env create name wisdemenv f environment.yml; conda activate wisdemenv.[2][9]\n\n Dokumentáció és első lépések\nA Read the Docs oldalon elérhetők az első lépések (YAML fájlok betöltése, példák futtatása), a moduldokumentáció és a tesztfuttatás menete; a test_all.py a gyökér test könyvtárból futtatható. A WISDEM/WEIS bemeneti struktúra három YAMLt használ: turbina definíció, modellezési opciók, analízis opciók; a Task 37 windIO ontológiát követi.[3][4][10][9]\n\n Hasznos hivatkozások a telepítéshez\n PyPI oldal: verzió, leírás és gyors pip telepítés elérhető.[1]\n Hivatalos telepítési útmutató: részletes conda környezetlépésekkel és platformspecifikus jegyzetekkel.[9]\n GitHub repo: alternatív/naprakész utasítások és fejlesztői install parancsok, beleértve a konkrét csomagverzió példákat (pl. petsc4py).[2]\n\nHa cél a gyors kipróbálás és nem szükséges a forrás módosítása, a conda install wisdem a legegyszerűbb; ha példákat, kódot is szeretne módosítani, a repo klónozása és az editable install javasolt a környezeti előkészítéssel.[9][2]",
+      "created_at": "20251006T15:14:19.473111Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

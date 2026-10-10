@@ -1,0 +1,46 @@
+{
+  "context_uuid": "5ac088faf33f4e7eb1c0d665eacd6975",
+  "context_title": "kuld vissza gyartonkent csak a legujabb verzioval a listat válaszodban szeretném ha csak egy más mellé listába írnád a dolgokat amiket keresek, minden más nélkül. \n\nGPT,Claude,Gemini,LLaMA,Phi,Grok,DBRX,CommandR,Falcon,BLOOM,MegatronTuring NLG,T5,Luminous,Mixtral,Gemma,Nemotron,StableLM,OpenELM,CerebrasGPT,FugakuLLM,Granite,Amazon Nova,Pixtral,Qwen,DeepSeek,Ernie,Yi,GLM,InternLM,PanGu,MiniMax",
+  "created_at": "20251007T04:16:03.480746Z",
+  "updated_at": "20251007T04:23:44.269953Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3068e2f3430d42a7a7f4ef513b139012",
+      "query": "kuld vissza gyartonkent csak a legujabb verzioval a listat válaszodban szeretném ha csak egy más mellé listába írnád a dolgokat amiket keresek, minden más nélkül. \n\nGPT,Claude,Gemini,LLaMA,Phi,Grok,DBRX,CommandR,Falcon,BLOOM,MegatronTuring NLG,T5,Luminous,Mixtral,Gemma,Nemotron,StableLM,OpenELM,CerebrasGPT,FugakuLLM,Granite,Amazon Nova,Pixtral,Qwen,DeepSeek,Ernie,Yi,GLM,InternLM,PanGu,MiniMax",
+      "answer": "| Modell | Legújabb Verzió |\n| : | : |\n| GPT | GPT5 [1][2][3][4][5] |\n| Claude | Claude Sonnet 4.5 [6][7] |\n| Gemini | Gemini 2.5 Flash / FlashLite [8][9] |\n| LLaMA | Llama 4 [10][11][12] |\n| Phi | Phi4 [13][14] |\n| Grok | Grok 4 Fast [15] |\n| DBRX | DBRX [16][17] |\n| CommandR | Command R+ 1.5 [18][19] |\n| Falcon | Falcon 4.1.0 [20] |\n| BLOOM | BLOOM (176B paraméteres modell) [21][22] |\n| MegatronTuring NLG | MTNLG 530B [23][24] |\n| T5 | A T5 egy modellcsalád; a T5v1.1 egy jelentős verzió [25][26] |\n| Luminous | Luminous v12.2.13 [27] |\n| Mixtral | Mixtral 8x7B [28][29] |\n| Gemma | Gemma 3 [30][31] |",
+      "created_at": "20251007T04:16:03.554513Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "80300328c6984492a0ac0ed498298bf4",
+      "query": "válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "   GPT: GPT5[1][4][6]\n   Claude: Claude Sonnet 4.5\n   Gemini: Gemini 2.5 Pro[3][1]\n   LLaMA: Llama 4\n   Phi: Phi4\n   Grok: Grok 4 Fast\n   DBRX: DBRX\n   CommandR: Command R+ 1.5\n   Falcon: Falcon 4.1.0\n   BLOOM: BLOOM (176B paraméteres modell)\n   MegatronTuring NLG: MTNLG 530B\n   T5: T5v1.1\n   Luminous: Luminous v12.2.13\n   Mixtral: Mixtral 8x7B\n   Gemma: Gemma 3\n   DeepSeek: DeepSeek V3.1[8][1]",
+      "created_at": "20251007T04:20:03.914113Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "009271316edc40179ea8ea7055b8ee73",
+      "query": "GPT 5 \nClaude 4.5 sonnet \nGemini 2.5 pro\nLLaMA 4 maverick\nGrok 4 fast\n,Phi,DBRX,CommandR,Falcon,BLOOM,MegatronTuring NLG,T5,Luminous,Mixtral,Gemma,Nemotron,StableLM,OpenELMFugakuLLM,Granite,Amazon Nova,Pixtral,Qwen,DeepSeek,Ernie,Yi,GLM,InternLM,PanGu,MiniMax\n\nmindegyikez",
+      "answer": "   GPT5[1]\n   Claude Sonnet 4.5\n   Gemini 2.5 Pro\n   LLaMA 4 Maverick\n   Grok 4 Fast\n   Phi4 sorozat (mini, multimodális, reasoning)[2][3][4]\n   DBRX[5]\n   Command R+ 1.5[6]\n   Falcon 4.1.0[7]\n   BLOOM (176B paraméteres modell)[8]\n   MegatronTuring NLG (MTNLG 530B)[9]\n   T5 (modellcsalád, pl. T5v1.1)[10]\n   Luminous (A verziószám nem egyértelmű a keresési eredmények alapján)\n   Mixtral 8x7B[11]\n   Gemma 3[12]\n   Nemotron család (pl. Llama3.1NemotronUltra253Bv1)[13][14]\n   Stable LM 2 sorozat (pl. 12B modell)[15]\n   OpenELM család (270M, 450M, 1.1B, és 3B paraméteres változatok)[16][17]\n   FugakuLLM (13B paraméteres japán modell)[18][19]\n   Granite 4.0 sorozat[20][21]\n   Amazon Nova család (Micro, Lite, Pro, Premier, Act, Sonic)[22][23]\n   Pixtral Large 25.02[24][25]\n   Qwen3 sorozat (pl. Qwen3Omni)[26][27]\n   DeepSeekV3.2Exp[28][29][30]\n   Ernie 5[31]\n   Yi (A verziószám nem egyértelmű a keresési eredmények alapján)\n   GLM4.6[32][33][34]\n   InternLM3 (pl. InternLM38BInstruct)[35]\n   Pangu 5.5[36]\n   MiniMax 4.0.0 (Alkalmazás verzió)[37]",
+      "created_at": "20251007T04:22:00.396264Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f04f9ef0aaa14944ae5f05e77f6f2b40",
+      "query": "válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "   GPT5[5][8]\n   Claude Sonnet 4.5\n   Gemini 2.5 Pro[7][5]\n   LLaMA 4 Maverick\n   Grok 4 Fast\n   Phi4\n   DBRX\n   Command R+ 1.5\n   Falcon 4.1.0\n   BLOOM\n   MegatronTuring NLG\n   T5\n   Luminous\n   Mixtral\n   Gemma 3\n   Nemotron\n   StableLM 2\n   OpenELM\n   FugakuLLM\n   Granite 4.0\n   Amazon Nova\n   Pixtral Large 25.02\n   Qwen3\n   DeepSeek V3.1[11][5]\n   Ernie 5\n   Yi\n   GLM4.6\n   InternLM3\n   PanGu 5.5\n   MiniMax 4.0.0",
+      "created_at": "20251007T04:23:15.945183Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c927d919eee84245a2aa4df3eb285067",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20251204T16:08:42.855748Z",
+  "updated_at": "20251204T16:08:42.855748Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "101ef46ce4de42a682f330a801cce7b3",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": "Ez egy Python forráskód fájl, amely egy Transformer neurális hálózat modell implementációját tartalmazza. A kód az OLMo (Open Language Model) projekt része, amely egy nagy nyelvi modell (LLM) megvalósítása PyTorch használatával.[1]\n\n Fő komponensek\n\nA fájl három fő Transformer osztályt definiál:[1]\n\n Transformer: Egy \"Llamastílusú\" alap transformer implementáció\n NormalizedTransformer: Egy nGPT (normalizált transformer) változat\n MoETransformer: MixtureofExperts (szakértők keveréke) transformer változat\n\n Főbb jellemzők\n\nA kód fejlett gépi tanulási technikákat támogat:[1]\n\n Elosztott képzés: Pipeline párhuzamosítás (PP), tenzor párhuzamosítás (TP), adatpárhuzamosítás (FSDP, DDP)\n Optimalizációk: Float8 precíziós képzés, aktivációs ellenőrzőpontok, gradient checkpointing\n Kontextus párhuzamosítás: Ring attention load balancing több GPUn\n Torch compile: Dinamikus fordítás támogatás a jobb teljesítményért\n\n Funkciók\n\nA modell képes:[1]\n\n Token beágyazások (embeddings) kezelésére\n Több transformer blokkból álló rétegek létrehozására\n LM head (nyelvi modell fej) kezelésére a szóelőrejelzéshez\n Súlyok inicializálására különböző módszerekkel\n Veszteségfüggvény számítására címkékkel\n\nEz egy professzionálisan megírt, productionready kód, amely nagy nyelvi modellek képzésére és futtatására szolgál elosztott számítási környezetben.",
+      "created_at": "20251204T16:08:42.952115Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

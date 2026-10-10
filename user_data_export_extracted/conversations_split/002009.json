@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1522511bdf0d44729d32fd5efb37a268",
+  "context_title": "I'm looking for a website that compiles the latest offers and promotions for free trials of AI tools that are normally paid, such as Claude, GPT, etc.",
+  "created_at": "20260607T15:38:28.261232Z",
+  "updated_at": "20260607T15:38:52.791820Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "65d1b263e34e477382445d58bc9a6ff2",
+      "query": "I'm looking for a website that compiles the latest offers and promotions for free trials of AI tools that are normally paid, such as Claude, GPT, etc.",
+      "answer": "Sajnos nincs egyetlen dedikált, folyamatosan frissített aggregátor webhely, amely kizárólag prémium AI eszközök (mint a Claude, ChatGPT, Gemini, stb.) ingyenes próbaverziós ajánlatait gyűjtené össze egy helyen. Azonban több jó lehetőség is létezik erre a célra.\n\n Legjobb gyűjtőoldalak és források\n\nAz  jelenleg a legjobb közelítés ahhoz, amit keresel – ez egy rendszeresen frissített katalógus, amely kifejezetten az ingyenesen kipróbálható AI eszközöket listázza kategóriák szerint (chatbotok, képgenerátorok, kódolási segédek stb.). Az oldal 2026ra is frissített tartalmat kínál, és szűrni lehet eszköztípus, valamint \"free trial\" státusz alapján.[1]\n\nA  és a  szintén rendszeres frissítésekkel tartja karban a legjobb ingyenes AI eszközök listáját – ezek megbízható, szerkesztett gyűjtemények, amelyeket techszakértők ellenőriznek.[2][3]\n\n A főbb AI eszközök jelenlegi ingyenes hozzáférése\n\nA legismertebb modellek mindegyike kínál valamilyen szintű ingyenes hozzáférést. A ChatGPT ingyenesen elérhető korlátozott GPT4o hozzáféréssel, a Claude szintén ingyenes szinten elérhető napi korlátokkal (jelenleg Claude 4 Sonnet), a Gemini és a Perplexity (ami épp ezt a választ is adja neked) szintén rendelkeznek ingyenes tierrel.[4][5]\n\n Ha mindent egyben akarsz\n\nHa az a célod, hogy egyetlen előfizetéssel több prémium modellt is elérj, az i10x.ai platform ingyenes tierrel rendelkezik, és havi ~8 dollártól kínál hozzáférést a ChatGPT, Claude, Gemini és Perplexity modellekhez egyszerre. Ez nem ingyenes próba, de messze a leggazdaságosabb megoldás, ha több eszközt szeretnél egyszerre kipróbálni.[6]\n\n Közösségi nyomon követés\n\nA Reddit közösségek – különösen az r/artificial, r/ChatGPT és r/LocalLLaMA – szubik rendkívül aktívak az ilyen típusú ajánlatok megosztásában: ha valamelyik prémium AI eszköznél ingyenes trial jelenik meg, ott általában az első néhány órán belül megjelenik egy poszt. Ez a legreaktívabb módszer az ideiglenes, limitált idejű ajánlatok követésére.[7]",
+      "created_at": "20260607T15:38:28.490269Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "7d61de42d8334346998e6d881eedecd3",
+  "context_title": "ird le a technologiai stacket",
+  "created_at": "20250829T14:35:49.099041Z",
+  "updated_at": "20250829T14:36:41.441735Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1e72d804ea0a4cfd84c36d99ca89c4a4",
+      "query": "ird le a technologiai stacket",
+      "answer": "A JAIDE V21 rendszer technológiai stackje egy rendkívül fejlett, többnyelvű, elosztott mesterséges intelligencia architektúrán alapul, amely számos modern programozási nyelvet, GPUgyorsítást, matematikai keretrendszert és saját fejlesztésű, speciálisan kiegészített alkotóelemeket integrál[1].\n\n Főbb programozási nyelvek és környezetek\n\n Zig: A fő gyors végrehajtási motor (system entry point, memória és erőforráskezelés, PFR Core indítása, konfig/teszt és JIT integráció)[1].\n Python: Orkesztrációs “bridge”, amely összeköti a Zig kódot a Julia, Elixir és Prolog alrendszerekkel; emellett felel a profilingért, naplózásért és általános pipelinemenedzsmentért[1].\n Julia: Fő numerikus/mátrix műveleti mag (Liquid SSM Core), CUDAs GPUgyorsítással; nagy méretű SSMek, kvantálás, sparsification, és matmulmentes feldolgozás[1].\n Elixir: Elosztott memóriamanager, advanced keyvalue/cache manager, ZeROoffload és matrix memory; az egész skálázható, faulttoleráns elosztott infrastruktúra alapja[1].\n Prolog: Formalizált, logikaineuroszimbolikus érvelési motor (reasoning), Prologon keresztül történik a bizonyítási útvonalak, szabályinferenciák és logikai lekérdezések kezelése[1].\n\n Kulcs technológiák és komponensek\n\n PFR Core (Polyglott Futásidejű Környezet): Zig alapú, minden fő komponenshez interfészt biztosít natív algoritmusokhoz/memóriamanipulációhoz; támogatja a BitNet kvantálást, pertoken sparsifikációt és GPUgyorsítást (Futhark/SYCL és CUDA)[1].\n Liquid SSM (State Space Model) architektúra: Juliakód vezérelte, mátrixmemóriát használó, matmulmentes, sparsified, kvantált neurális modellek, magyar és angol támogatással; kombinált SSM + Diffusion + szerkezeti kompresszió[1].\n Hibrid inference pipeline: Sparsifikáció, mátrixmemória update, rulebased expert routing, state compression, diffusionLLM és multimodális routing egyesítve, több backend között szétosztva, közös Python bridge segítségével[1].\n Elosztott memória és cachekezelés: Elixir (GenServer) vezérlésű memóriakezelő, ZeROOffload, prediktív allokáció, perréteg 2D cache, v21 mátrix memóriával helyettesítve a tipikus attentionKV cachet[1].\n Neuroszimbolikus reasoning: Prologbázisú szabályalapú és neurális indexelés (fact store, proof logika kezelése), ruledriven deciderrel kiegészítve[1].\n\n Tipikus futtatási és profilozó környezet\n\n GPU/CPU hybrid: CUDA, Futhark (SYCL); GPUgyorsítás a numerikus számításokhoz, Zig vezérelt kernelindítás.\n Distribúció: Julia/Elixir nodeokon keresztül automatikus terheléselosztás és faulttolerancia.\n Profilozás: Komplett mérési adatok (p95/p99 memória, IO minták) Pythonból és Juliaból kiolvashatók[1].\n\n Egyedi v21 fejlesztések\n\n Pertoken sparsifikáció, BitNet 4bit quantization\n d×d mátrixalapú state memory (RWKV/xLSTM stílusban)\n Diffusion hybrid generációs lánc\n Ruledriven expert router (formális invariancia, SMT)\n Neurosymbolic fact store, openworld kezelés\n Custom AdaFactor optimizáció\n Profiling és metrikák gyűjtése összes komponensből[1].\n\n\n\n Összefoglaló Stacktábla\n\n| Réteg/Modul         | Nyelv/Tech          | Funkció                                                  |\n||||\n| Zig (entry, runtime)| Zig                 | Rendszerindítás, PFR core, JIT, natív GPU/CPU          |\n| Orchestration       | Python              | Koordináció, naplózás, bridge (Julia/Elixir/Prolog)     |\n| Numerikus mag       | Julia, CUDA         | Mátrixműveletek, SSM, quantification, GPU pipeline      |\n| Elosztott kezelés   | Elixir (GenServer)  | Memória, cache, state sync, fault tolerance             |\n| Szimbolikus motor   | Prolog              | Logikai lekérdezés, bizonyítás, neuroszimbolikus routing|\n| Profiling           | Python, Julia       | p95/p99 memory, IO minták, metrikák gyűjtése            |\n\nMindezek együttesen adják a JAIDE V21 egyedülálló, skálázható, poliglot, magyarul is optimalizált AI stackjét[1].",
+      "created_at": "20250829T14:35:49.788458Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "4e139052354f41c9987c312c53ab3ee0",
+      "query": "válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Zig  \n Python  \n Julia  \n CUDA  \n Futhark  \n SYCL  \n Elixir  \n Prolog  \n Chapel  \n BitNet kvantálás (4 bit)  \n MatMulfree SSM  \n Sparsifikáció  \n d×d mátrix memória  \n Neuroszimbolikus retrieval  \n IOaware chain  \n SSM lowrank update  \n State compression  \n Diffusion LLM hybrid  \n Ruledriven decider  \n Portable IR  \n Custom optimizer (AdaFactor variáns)  \n Data synthesis  \n Fact store  \n IntraSSM multichannel  \n Profiling (p95/p99 memory, IO minták)  \n ZeROOffload  \n VLCache  \n 2D layerwise cache manager  \n RWKV/xLSTMlike matrix update  \n Expert router  \n Logical reasoning engine (SMT/Rosette, proof store)",
+      "created_at": "20250829T14:36:27.316477Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

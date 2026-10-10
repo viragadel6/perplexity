@@ -1,0 +1,28 @@
+{
+  "context_uuid": "67d58abd08ed4a27b384bccd153e8152",
+  "context_title": ".env\n\nmodal token set tokenid akbFSERG0Ge5XTs2Xdl24DM3 tokensecret asisBEGBD7xLp9CMuIyF5lvV",
+  "created_at": "20260528T07:58:13.238776Z",
+  "updated_at": "20260528T07:58:45.452639Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7cb068f9d6324c8a970269f242463b0a",
+      "query": ".env\n\nmodal token set tokenid akbFSERG0Ge5XTs2Xdl24DM3 tokensecret asisBEGBD7xLp9CMuIyF5lvV",
+      "answer": "⚠️ Biztonsági figyelmeztetés – Kompromittált hitelesítő adatok\n\nAz üzeneted valós, éles Modal API hitelesítő adatokat tartalmaz. Ez egy kritikus biztonsági incidens, és azonnal cselekedned kell.\n\n Mit kell most azonnal tenned\n\nAzonnal vond vissza ezeket a tokeneket! Az általad megosztott adatok (ak-bFSERG0Ge5XTs2Xdl24DM3 / as-isBEGBD7xLp9CMuIyF5lvV) most nyilvánosan láthatók ebben a csevegésben, és potenciálisan naplózásra kerültek.[1]\n\nLépj be a , és töröld/invalidáld ezeket az azonosítókat azonnal.[2]\n\n Miért veszélyes ez\n\nA Modal API tokenek teljes hozzáférést biztosítanak a munkaterületedhez – beleértve az alkalmazások telepítését, futtatását és a titkos adatok (Secrets) kezelését. Ha egy illetéktelen személy megszerzi ezeket, tetszőleges kódot futtathat a nevedben, ami komoly biztonsági és pénzügyi következményekkel járhat.[3][2]\n\n Helyes módszer a jövőben\n\nA tokeneket soha ne add meg csevegőfelületeken, kódbázisban vagy verziókezelőben (pl. Git). A biztonságos konfiguráció módjai:[1]\n\nA .modal.toml fájlban tárold őket lokálisan (ezt a modal token set parancs automatikusan írja), vagy használj környezeti változókat (MODAL_TOKEN_ID és MODAL_TOKEN_SECRET) a CI/CD rendszer beépített titkosított tárolójában.[2]",
+      "created_at": "20260528T07:58:13.508956Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "bd5e0b0801684eeda22c343a634dc93b",
+      "query": ".env be ird meg",
+      "answer": "Az .env fájlba ezt írd be, soronként változóként:\n\nenv\nMODAL_TOKEN_ID=ak-bFSERG0Ge5XTs2Xdl24DM3\nMODAL_TOKEN_SECRET=as-isBEGBD7xLp9CMuIyF5lvV\n\n\nA Modal dokumentáció szerint a token ID és token secret környezeti változókból is beolvasható, és ezek neve MODAL_TOKEN_ID illetve MODAL_TOKEN_SECRET.[1][2][3]\nMivel ezek bizalmas adatok, érdemes a .env fájlt a verziókezelésből kizárni, például .gitignoreba tenni.",
+      "created_at": "20260528T07:58:39.949386Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

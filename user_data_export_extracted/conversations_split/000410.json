@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8d62d96a6c87442fa087bf2c0e856cc1",
+  "context_title": "[nix]\npackages = [\"vlang\"]\n\n\n\n\n@GitHub\n",
+  "created_at": "20260912T18:26:56.402083Z",
+  "updated_at": "20260912T18:26:59.075085Z",
+  "mode": "COPILOT",
+  "collection_uuid": "dd89b627d2a24c64993e4a84d51e7774",
+  "entries": [
+    {
+      "entry_uuid": "411fb220c2d94354915c5371c8fcc563",
+      "query": "[nix]\npackages = [\"vlang\"]\n\n\n\n\n@GitHub\n",
+      "answer": "toml\nrun = \"v run main.v\"\nentrypoint = \"main.v\"\n\n[nix]\nchannel = \"stable-24_05\"\n\n[agent]\nexpertMode = true\n\n\nnix\n{ pkgs }: {\n  deps = [\n    pkgs.vlang\n    pkgs.git\n    pkgs.gcc\n    pkgs.gnumake\n  ];\n}\n",
+      "created_at": "20260912T18:26:56.513336Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "45c40d6f17374ab2b177d17b06a282c8",
+  "context_title": "full technologiai stackt\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250830T06:34:59.939471Z",
+  "updated_at": "20250830T08:45:32.224171Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9c2d4cc04c4542b0a86724efb6282c4c",
+      "query": "full technologiai stackt\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " BlitzFuthark GPU kernels\n LLVM JIT (MINSYCL)\n Chapel (distributed training)\n Luminal IR\n AntaresSubgraph (CUDA)\n QLiteNet (lightweight networking)\n DiagPulseSSM (diagnostic pulsed SSM)\n NanoNIF (Elixir integration)\n PlogZero (Prolog engine)\n Tooless Interpreter (Python)\n Pyoxidizer2 (Python binary execution)\n 2bit BitNet quantization\n Neurosymbolic retrieval\n Ruledriven decider (Rosette/SMT logic)\n Distributed KV cache (Elixir, NanoNIF)\n Julia (LiquidSSM, expert router)\n CUDA (GPU acceleration)\n SparseArrays/State compression (Julia, Python, Zig)\n Advanced profiling (DiagPulseSSM)\n Ultraadvanced Polyglot LLM integration rendszer[1]",
+      "created_at": "20250830T06:35:00.827800Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "38d35b2b63444ff1a2b9722a8bea87c6",
+      "query": "modell meretek?",
+      "answer": " Kontextushossz: 2 000 000 token  \n Rétegek száma: 64  \n Dmodell (rejtett dimenzió): 2048  \n Fejek száma: 32 vagy 64 (modulban: 32, rétegtopológiában: 64)  \n Szókincs méret: 100 000  \n RetNet réteg: 32  \n Mamba réteg: 32  \n Szakértők száma: 64  \n Kvantálási bitszám: 2 bit  \n Memória: 128 GB dedikált (fő konfigurációban)  \n Maximális párhuzamos szálak: 64  \n Mátrix állapotméret (Julia modullal): 2048 × 2048 elem/reteg  \n Kv T műveleti frissítések: 2048 × 2048 mátrix/lépés  \n Tömörítési arány (állapot): 0.4  \n Sparsifikációs denzitás: 0.2",
+      "created_at": "20250830T08:45:25.357338Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

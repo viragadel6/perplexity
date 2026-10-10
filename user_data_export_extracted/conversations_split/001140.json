@@ -1,0 +1,19 @@
+{
+  "context_uuid": "bcb73e31c64c447eb1d13bffb7c205c2",
+  "context_title": "kell a repo ba:\n\nCUDA 12.8.1\nUbuntu 24.04 (base image nvidia/cuda:12.8.1develubuntu24.04)\nPython 3.11\nZig 0.14.1 (zigx86_64linux0.14.1)\nFuthark 0.26.4 (futhark0.26.4linuxx86_64)",
+  "created_at": "20260808T07:12:22.307984Z",
+  "updated_at": "20260808T07:12:40.751855Z",
+  "mode": "COPILOT",
+  "collection_uuid": "dd89b627d2a24c64993e4a84d51e7774",
+  "entries": [
+    {
+      "entry_uuid": "233a91e137b5412d985ddc7c6cf4b689",
+      "query": "kell a repo ba:\n\nCUDA 12.8.1\nUbuntu 24.04 (base image nvidia/cuda:12.8.1develubuntu24.04)\nPython 3.11\nZig 0.14.1 (zigx86_64linux0.14.1)\nFuthark 0.26.4 (futhark0.26.4linuxx86_64)",
+      "answer": "Dockerfileotlet létrehozza",
+      "created_at": "20260808T07:12:22.409737Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

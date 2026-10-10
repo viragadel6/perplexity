@@ -1,0 +1,19 @@
+{
+  "context_uuid": "088a1f06c23242b7884f26860e0df923",
+  "context_title": "kwaipilot/katcoderv2.5dev vsv",
+  "created_at": "20260819T07:01:43.644649Z",
+  "updated_at": "20260819T07:01:54.624319Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "103fe60a64a2491b9f13941c0580462c",
+      "query": "kwaipilot/katcoderv2.5dev vsv",
+      "answer": "kwaipilot/kat-coder-v2.5-dev is an openweight, MixtureofExperts (MoE) coding foundation model released by Kwaipilot (Kuaishou's AI team) optimized specifically for agentic software engineering and tooluse workflows.[1][2][3]\n\n\n\n Key Overview and Architecture\n\n Base Architecture: MixtureofExperts built on top of Qwen3.6-35B-A3B.[2]\n Parameter Count: 35 billion total parameters with 3B actively routed per token.[1][2]\n Modality: Textonly; the open weights exclude multimodal and visual encoders.[2][1]\n Context Length: Up to 262,144 tokens (256K context window).[4][2]\n License: Apache 2.0 (openweight, permissive for commercial applications).[2]\n\n\n\n Strengths and Training Highlights\n\n Agentic Repository Coding: Posttrained with largescale supervised finetuning (SFT) and reinforcement learning (RL) in executable repository environments to handle issue localization, multifile code modifications, and autonomous bug fixing.[3][4][2]\n High Benchmark Performance: Achieves stateoftheart results for its parameter class on benchmarks like SWEbench Verified (~69.40%).[3]\n Mitigated Pathological Behaviors: RL training reduced singleturn repetition and drastically reduced tool label syntax errors (from 9.34% to 0.28%).[5]\n Flexible Reasoning: Supports dual modes, providing extended chainofthought reasoning traces as well as direct output modes.[3]\n\n\n\n Deployment and Ecosystem Support\n\n Inference Engines: Supported outofthebox by Hugging Face Transformers, vLLM, SGLang, and KTransformers.[1][2]\n Local Quantization: Quantized GGUF formats (via bartowski) allow local execution using llama.cpp, Ollama, LM Studio, and Jan AI.[6][7]\n Agent Frameworks: Compatible with developer agent toolchains such as Claude Code, OpenHands, and Kilo Code.[8][9][4]",
+      "created_at": "20260819T07:01:43.681715Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "1ca0c179aa0442669e2e85cd5ce7824b",
+  "context_title": "Technologiak amikkel egy teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell magadabb mint 10 millip konktextzs ablakot elerhetunk",
+  "created_at": "20250829T02:39:28.477535Z",
+  "updated_at": "20250829T02:42:35.144870Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "f5fc5980bf2447b48c4f08780632227e",
+      "query": "Technologiak amikkel egy teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell magadabb mint 10 millip konktextzs ablakot elerhetunk",
+      "answer": "Technologies to reach a fully fromscratch LLM with a context window beyond 10 million tokens: efficient attention variants (Ring Attention), state space models (Mamba, S4 family, Hyena Hierarchy), recurrent/linearattention hybrids (RWKV), scalable positional encodings (relative/rotary with length extrapolation), curriculum training with progressively longer sequences, memory/KVcache sharding across GPUs, activation checkpointing and reversible layers, sparse/slidingwindow/global token selection, longconvolution kernels, and optimized training pipelines demonstrated in millionlength works (e.g., LWM with RingAttention). [1][2][3][4][5][6][7]\n\nTechnológiák egy teljesen nulláról épített, nem finomhangolt vagy másra épülő LLM 10+ millió tokenes kontextusablakához: hatékony attention variánsok (Ring Attention), állapottér modellek (Mamba, S4 család, Hyena Hierarchy), rekurzív/lineárisattention hibridek (RWKV), skálázható pozicionális kódolások (relatív/rotary hosszextrapolációval), tanterves tréning fokozatosan növelt szekvenciahosszal, memória/KVcache sharding több GPU között, aktivációcheckpointing és visszafordítható rétegek, ritkított/csúszóablak/globális token kiválasztás, hosszú konvolúciós magok, valamint optimalizált tréningpipelineok milliós hosszúságú munkákban (pl. LWM RingAttentionnel). [1][2][3][4][5][6][7]",
+      "created_at": "20250829T02:39:28.703926Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f2d62cc2fd4642f4a4b16e39a2399934",
+      "query": "Technologies for building a fromscratch LLM (not finetuned or based on others) capable of >10 million token context window",
+      "answer": "Technologies to build a fromscratch LLM with a context window over 10 million tokens include combining communicationefficient attention parallelism (e.g., Ring Attention) with subquadratic longsequence backbones (e.g., Hyena and Mamba), plus training/inference systems that shard KV/memory across many devices and train with progressively longer sequences. [1][2][3][4][5][6][7][8][9]\n\nTechnológiák egy teljesen nulláról épített LLMhez, amely 10+ millió tokenes kontextusablakot kezel, magukban foglalják a kommunikációhatékony attention párhuzamosítást (például a Ring Attentiont) szubkvadratikus hosszúszekvenciás gerincekkel (például a Hyena és a Mamba), valamint olyan tréning/inferencia rendszereket, amelyek a KV/memóriát több eszköz között shardingolják és fokozatosan növekvő szekvenciahosszakkal tanítanak. [1][2][3][4][5][6][7][8][9]",
+      "created_at": "20250829T02:42:24.321098Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

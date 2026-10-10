@@ -1,0 +1,28 @@
+{
+  "context_uuid": "dfde415f593940e8af191f76750d26a9",
+  "context_title": "hol van a bujtos",
+  "created_at": "20260816T12:36:45.079419Z",
+  "updated_at": "20260816T12:37:17.611515Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a3281a83bbb3499294edbb2fb4c5c5ca",
+      "query": "hol van a bujtos",
+      "answer": "A Bujtos (hivatalos nevén Bujtosi Városliget és Bujtositavak) Nyíregyházán található, a belváros közvetlen szomszédságában .\n\n Elhelyezkedés és megközelítés\nA park és tórendszer Nyíregyháza keletidélkeleti részén, a belváros és az Örökösföld városrész között terül el . \n\n Cím: 4400 Nyíregyháza, Belső körút környéke \n Gyalogosan mindössze néhány perces sétával elérhető a nyíregyházi belvárosból .\n Autóval vagy tömegközlekedéssel Sóstógyógyfürdő irányából körülbelül 10 percnyi utazásra fekszik .\n\n Jellemzők és funkciók\nA terület Nyíregyháza egyik legfontosabb zöldövezete és szabadidős központja .\n\n Öt mesterséges tóból álló tórendszer található itt, összesen mintegy 11,5 hektáros vízfelülettel .\n Rekortán futópályák, sétányok, szabadtéri sportpályák és játszóterek várják a látogatókat .\n A tavak kedvelt horgászhelynek számítanak, de fürdésre nem alkalmasak .",
+      "created_at": "20260816T12:36:45.111385Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2270a8de83ad40e99e7c0bec9aa0865c",
+      "query": "ott tenyleg vannak nagy dungok",
+      "answer": "A nyíregyházi Bujtosi Városliget és a tavak környéke egy rendezett, fásfüves közpark, így az ott előforduló rovarok és állatok megegyeznek a tipikus hazai vízparti parkok élővilágával .\n\n Természeti környezet és rovarvilág\nA park virágos rétei, fái és vizes élőhelyei miatt a melegebb tavaszi és nyári hónapokban természetes módon megjelennek a beporzó rovarok :\n\n Dongók és poszméhek: a virágos zöldterületeken gyakran látni nagyobb termetű poszméheket, dongókat, amelyek a növényzet beporzását végzik .\n Szúnyogok és egyéb vízparti rovarok: a tórendszer közelsége miatt a nyári estéken intenzívebb lehet a szúnyogtevékenység .\n\n Biztonság és használhatóság\nA park nem számít kifejezetten darázs vagy dongófészekkel teli veszélyes területnek; Nyíregyháza egyik legnépszerűbb és legsűrűbben látogatott családi, sport és pihenőövezete .",
+      "created_at": "20260816T12:37:07.755881Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

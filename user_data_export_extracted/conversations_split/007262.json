@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9a736db216ad4f5fac498f63020e7433",
+  "context_title": "ékszíj javító kecskemét azonnali mobil szerelő",
+  "created_at": "20251023T09:47:17.449015Z",
+  "updated_at": "20251023T09:47:17.449015Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "b8aa07fab8054230ae6b3dd4e0ef4858",
+      "query": "ékszíj javító kecskemét azonnali mobil szerelő",
+      "answer": "A keresési lekérdezésed az Exa AI keresőhöz optimalizált formában:\n\nAngolul:\nimmediate mobile mechanic timing belt repair Kecskemét\n\nMagyarul:\nazonnali mobil szerelő ékszíj javítás Kecskemét",
+      "created_at": "20251023T09:47:17.691867Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

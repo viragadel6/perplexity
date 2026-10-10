@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7c7f79fedb474816a568844d1453b81e",
+  "context_title": "\"reversible scatter flow\"@Akadémiai@Hugging Face @Google Vertex AI @exa @paralell",
+  "created_at": "20260820T10:08:20.966413Z",
+  "updated_at": "20260820T10:09:33.334554Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "527e4c7c42c140d8a117c8b4e01ab1ef",
+      "query": "\"reversible scatter flow\"@Akadémiai@Hugging Face @Google Vertex AI @exa @paralell",
+      "answer": "Based on my comprehensive searches across web sources, academic literature, Hugging Face repositories, and the available connectors, there is no established paper, model, or concept specifically called \"reversible scatter flow\" in machine learning or scientific literature as of my searches.\n\n What the Searches Revealed\n\n Related Concepts Found\n\n| Concept | Description | Key References |\n||||\n| Reversible Normalizing Flows | Bijective flows with exact invertibility (RealNVP, Glow, MAF, IAF, NICE) | [Exa search results][1], [Paralell results] |\n| PseudoReversible Normalizing Flows | Relaxed invertibility for SDEs with soft reversibility constraints | [SIAM paper][paralell1], [Yang et al.][1] |\n| Reversible Residual Networks (RevNets) | Memoryefficient reversible architectures for backprop without storing activations | [Gomez et al. 2017][paralell3], [Graph Normalizing Flows][paralell3] |\n| Graph Normalizing Flows (GNFs) | Normalizing flows using reversible graph neural networks (GRevNets) | [Liu et al. 2019][paralell3] |\n| Conditional Normalizing Flows for Scattering | Physicsinformed cRealNVP for gassurface scattering kernels (VLEO satellites) | [arXiv:2606.31928][1] |\n| Scatterometry with Normalizing Flows | Inverse problems in scatterometry solved via generalized normalizing flows | [PaulLyonel/Gen_norm_flow][1] |\n\n Specific Searches Performed\n ✅ Web search (Exa, standard search) for exact phrase \"reversible scatter flow\"\n ✅ Hugging Face Hub repository search\n ✅ Paralell web search for ML/normalizing flow context\n ✅ Searches combining with \"Akadémiai\" (Hungarian academic publisher)\n ✅ Searches for \"scatter flow\" in normalizing flow literature\n\n Most Likely Interpretations\n\nGiven your mention of specific connectors (@Akadémiai, @Hugging Face, @Google Vertex AI, @exa, @paralell), you might be looking for:\n\n1. A paper published by Akadémiai Kiadó on reversible flows applied to scattering problems\n2. A Hugging Face model/repo implementing reversible flows for scattering/inverse problems  \n3. A Google Vertex AI pipeline for reversible normalizing flows\n4. An Exa/Paralell search query you want refined\n\n Recommendations\n\nIf you have a more specific context (e.g., paper title, author name, application domain like physics/optics/particle scattering, or a specific GitHub repo), I can:\n Search that specific paper/repo on Hugging Face\n Look up Akadémiai Kiadó publications on this topic\n Check if there's a Vertex AI notebook/pipeline for reversible flows\n Refine Exa/Paralell searches with additional keywords\n\nCould you clarify which specific aspect you're investigating? For example:\n A particular paper you're trying to locate?\n An implementation you want to reproduce?\n A specific scattering application (optical, particle, neutron, etc.)?",
+      "created_at": "20260820T10:08:21.004783Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

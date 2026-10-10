@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c5169e5211cd4cf8a405389223a1f3c4",
+  "context_title": "Inngest mire jo",
+  "created_at": "20251002T01:39:46.077512Z",
+  "updated_at": "20251002T01:39:46.077512Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "86a22623a9d04a88a29ea71284175518",
+      "query": "Inngest mire jo",
+      "answer": "Az Inngest egy fejlesztőknek szánt platform, amely tartós (durable) függvényeket (functions) biztosít a sorok (queues), állapotkezelés (state management) és ütemezés (scheduling) helyettesítésére. Lehetővé teszi megbízható, hibatűrő, párhuzamosan futó, és akár külső inputra váró kódok gyors fejlesztését anélkül, hogy az infrastruktúrával kellene foglalkozniuk. Ezáltal gyorsítja és egyszerűsíti a háttérfeladatok, eseményvezérelt munkafolyamatok és AIalapú automatizációk készítését.\n\nFőbb jellemzői:\n Tartós végrehajtás hibakezeléssel és automatikus újrapróbálkozással\n Párhuzamos futtatás, eseménykezelés és időzített feladatok támogatása\n Könnyű integráció bármilyen keretrendszerbe vagy önálló használat\n Beépített naplózás, hibakövetés és helyi fejlesztési környezet\n Ágakhoz (branch) külön tesztkörnyezetek létrehozása\n\nHasználati területek:\n Háttérfeladatok futtatása\n Ütemezett feladatok (cronjobs)\n AIalapú munkafolyamatok és agent rendszerek\n Több esemény egyesítése és feldolgozása\n Fejlesztés infrastruktúra kezelés nélkül\n\nÖsszességében az Inngest egy modern, rugalmas, szerver nélküli (serverless) megoldás, ami jelentősen gyorsítja és megkönnyíti az összetett eseményvezérelt alkalmazások fejlesztését és üzemeltetését [1][2][3].",
+      "created_at": "20251002T01:39:46.225165Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "8690819adeab426ab10acaaffb28a789",
+  "context_title": "A legfrissebb, fejlesztői körökben is teljesen ismeretlen, mégis élvonalbeli és kiemelkedően hatékony, erőforrástakarékos technológiák érdekelnek, amelyek legfeljebb egy hónapja léteznek. Olyan teljesen saját, nulláról épített (fromscratch) nagy nyelvi modellek (Rootlevel LLMek), amelyek nem finomhangoltak, nem más modellekre épülnek, és rendelkeznek saját architektúrával, futtatókörnyezettel, hardverrel, tokenizálóval, optimalizálóval, tanítóadatfeldolgozó pipelinenal, telepítési rendszerrel, valamint formális biztonsági bizonyítással. Csak olyan technológiákat írj, amelyek még egyetlen LLMben sem szerepelnek",
+  "created_at": "20251011T04:02:53.295871Z",
+  "updated_at": "20251011T04:06:36.532590Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "cbb4b3c6e7ad48cb92770fadc2bf9d36",
+      "query": "A legfrissebb, fejlesztői körökben is teljesen ismeretlen, mégis élvonalbeli és kiemelkedően hatékony, erőforrástakarékos technológiák érdekelnek, amelyek legfeljebb egy hónapja léteznek. Olyan teljesen saját, nulláról épített (fromscratch) nagy nyelvi modellek (Rootlevel LLMek), amelyek nem finomhangoltak, nem más modellekre épülnek, és rendelkeznek saját architektúrával, futtatókörnyezettel, hardverrel, tokenizálóval, optimalizálóval, tanítóadatfeldolgozó pipelinenal, telepítési rendszerrel, valamint formális biztonsági bizonyítással. Csak olyan technológiákat írj, amelyek még egyetlen LLMben sem szerepelnek",
+      "answer": "Angol:\nFind recently published papers (September-October 2025) on root-level, from-scratch large language models that are highly resource-efficient, feature a completely novel architecture, proprietary hardware, custom tokenizer, and have undergone formal security verification.\n\nMagyar:\nKeressen frissen publikált (2025. szeptember-október) tanulmányokat olyan, nulláról épített (from-scratch) nagy nyelvi modellekről, amelyek rendkívül erőforrás-hatékonyak, teljesen új architektúrával, saját hardverrel, egyedi tokenizálóval rendelkeznek és formális biztonsági bizonyításon estek át.",
+      "created_at": "20251011T04:02:53.505644Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "a93713c5e46c4cb29f0a90b23afd8655",
+      "query": "neeem\nannak az epitesehez",
+      "answer": "Based on the Exa.ai documentation, here's how to construct an optimized query for finding breakthrough, undertheradar, resourceefficient fromscratch LLM technologies:\n\nEnglish query:\nbrandnew undertheradar fromscratch (rootlevel) large language model, not finetuned and not derived; original architecture; custom runtime; bespoke hardware/accelerator; own tokenizer; own optimizer; endtoend training data processing pipeline; deployment system; formal safety verification/proof (Coq/Isabelle/Lean/TLA+); resourceefficient; exclude OpenAI, Google, Meta, Anthropic, Microsoft, xAI, Mistral, DeepSeek, Cohere; sources arXiv, GitHub, technical blog, preprint, published last 30 days\n\nMagyar lekérdezés:\nvadonatúj, radar alatti, teljesen fromscratch (rootlevel) nagy nyelvi modell, nem finomhangolt és nem származtatott; eredeti architektúra; egyedi futtatókörnyezet; saját hardver/gyorsító; saját tokenizáló; saját optimalizáló; végponttól végpontig tanítóadatfeldolgozó pipeline; telepítési rendszer; formális biztonsági verifikáció/bizonyítás (Coq/Isabelle/Lean/TLA+); erőforráshatékony; kizárva: OpenAI, Google, Meta, Anthropic, Microsoft, xAI, Mistral, DeepSeek, Cohere; források: arXiv, GitHub, technikai blog, preprint, utolsó 30 napban közzétéve",
+      "created_at": "20251011T04:06:17.710302Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d9dcf90daecd4f688799f4ee458fab71",
+  "context_title": "a sima gpt 5.3 instant is cerebrason fut vagy csak a codex?",
+  "created_at": "20260304T15:54:46.045186Z",
+  "updated_at": "20260304T15:55:43.243417Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "537cf8d4800c41c3940ce9fc56496326",
+      "query": "a sima gpt 5.3 instant is cerebrason fut vagy csak a codex?",
+      "answer": " Jelenleg csak a CodexSpark fut Cerebrason\n\nRövid válasz: a sima GPT5.3 Instant nem fut Cerebrason, azt OpenAI továbbra is a hagyományos GPUalapú infrastruktúráján (elsősorban Nvidia) szolgálja ki.  A Cerebrasintegráció jelenleg kizárólag a GPT5.3CodexSpark modellre vonatkozik, amely 2026. február 11én debütált.[1][2][3]\n\n Mi a CodexSpark különlegessége?\n\nA GPT5.3CodexSpark a GPT5.3Codex egy kisebb, kifejezetten alacsony késleltetésre optimalizált változata, amelyet az OpenAI együtt fejlesztett a Cerebrással interaktív fejlesztési munkamenetekhez. A modell a Cerebras harmadik generációs Wafer Scale Engine (WSC3) lapkáján fut – egy vacsóratányér méretű szilíciumlapkán, amelyen több százezer AImag és hatalmas onchip memória található, így az adatok nem kell hogy \"ingázzanak\" a processzorok között. Ez teszi lehetővé, hogy a modell másodpercenként több mint 1000 tokent generáljon – körülbelül 15szer gyorsabban, mint az alap GPT5.3Codex GPUn.[4][3][5][6]\n\n GPT5.3 Instant: más célra, más hardveren\n\nA GPT5.3 Instant egy teljesen különálló modell, amelyet az OpenAI 2026. március 2án adott ki mint a GPT5 sorozat legújabb általános célú csevegőmodelljét. Ez a modell a GPT5.2 Instant utódja, és főleg a webes keresési eredmények jobb kontextualizálásában, az indokolatlan visszautasítások csökkentésében és a hallucinációk minimalizálásában jelent előrelépést. Az OpenAI dokumentációja és a Cerebras blogjai sehol sem említik, hogy ez a modell Cerebrashardveren futna – ez jelenleg kizárólag GPUalapú infrastruktúrán üzemel.[2][7][8]\n\n Mi vár még ránk 2026ban?\n\nAz OpenAI és a Cerebras januárban aláírt egy több évre szóló, 750 megawattnyi Cerebras waferscale rendszerre vonatkozó megállapodást, amely 2028ig fokozatosan kerül üzembe. A Cerebras maga is jelezte, hogy \"2026 folyamán a legnagyobb frontier modellekre is kiterjesztik az ultragyors inferenciát\". Vagyis az a forgatókönyv, hogy a GPT5.3 Instant vagy annak utódai Cerebrason fussanak, nem kizárt – csak egyelőre még nem valósult meg. A GPUk OpenAInál betöltött szerepe nem szűnik meg, a Cerebras inkább kiegészíti a meglévő infrastruktúrát azoknál a feladatoknál, ahol kritikus az extrém alacsony késleltetés.[9][10][8]\n\n| Modell | Megjelenés | Fut Cerebrason? | Sebesség | Fő célterület |\n||||||\n| GPT5.3CodexSpark | 2026. febr. 11. | ✅ Igen (WSC3) | >1000 token/s [4] | Interaktív kódolás |\n| GPT5.3 Instant | 2026. márc. 2. | ❌ Nem | Standard GPU | Általános chat [2] |",
+      "created_at": "20260304T15:54:46.246248Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "13efb835decd4dfaa55a9d624e3cf0e0",
+  "context_title": "?",
+  "created_at": "20251003T07:48:01.227197Z",
+  "updated_at": "20251003T07:48:01.227197Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "455a1c23de134bd5960f0af083d1552b",
+      "query": "?",
+      "answer": "Az előző feltöltött fájlok két külön rendszert tartalmaznak részletesen:\n\n1. JAIDE V29 LLM (Large Language Model) komplett fejlesztési környezet és metaprogamozási kódjai több nyelven, beleértve Gleam, Nim, Crystal, Julia, Elixir, Rust, Chapel, és másokat, amely a teljes forráskódját lefedve mutatja be egy 100%ban nulláról épített, nem transformers alapú, saját architektúrájú és futtatású mesterséges intelligenciát. Ez a rendszer kifejezetten a GPT5, Grok4 és hasonló LLMek fölé pozícionálja magát a legfejlettebb architektúrával, formális verifikációkkal, kvantumszámítással, kvantálással, optimalizálással és szofisztikált tokenizálással.\n\n2. JADE Ultimate Security Platform 40X, egy erősen ipari, nagyvállalati szintű, többnyelvű backend és frontend készlet, amely a legújabb AI modelleket (beleértve a GPT5 Turbo, Google Gemini 2.5 Pro, Anthropic Claude 3.5 Sonnet, Cerebras ultrafast modelleket stb.) használja a sebezhetőség elemzésekhez és biztonsági funkciókhoz. Ez a platform fejlett postkvantum kriptográfiát alkalmaz (pl. Kyber1024, Dilithium5), többfajú titkosítást, formalizált hitelesítési mechanizmust (JWT), API kulcs menedzsmentet, skálázható kubernetes alapú architektúrát, és teljesítmény monitoringot. Központi komponense az advanced AI konszenzus motor több modell párhuzamos elemzésével és statisztikai összevetésével.\n\nA JAIDE V29 LLM fájl a mesterséges intelligenciát magát, annak meta, runtime, tokenizáló, kvantum, memória, optimalizációs és tanító komponenseit tartalmazza teljes részletességgel több programozási nyelven. A halaso.txt a JADE Ultimate biztonsági platform teljes backend és frontend forrását, illetve működési logikáját, konfigurációit és AI összehangoló motorját tartalmazza.\n\nKérem, hogy pontosítsa, milyen konkrét kérdés, téma vagy elemzés érdekli e két komplex projekttel kapcsolatban, esetleg szívesen segítek kiválasztani a legjobb LLM forráskódot a jaide30.txt fájlból, vagy részletezem a JADE Ultimate biztonsági platform működését, esetleg valami konkrét technikai megvalósítás érdekel vagy összehasonlítást szeretne?",
+      "created_at": "20251003T07:48:01.563368Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

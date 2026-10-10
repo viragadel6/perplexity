@@ -1,0 +1,19 @@
+{
+  "context_uuid": "378cbb19b6c7476e86ba29631a621616",
+  "context_title": "write a full scopes programming language hungarian doc \nScopes 0.18 verziója, amelyet a Duangle (Stefan Slapeta)\nlegalabb 200 forrast kotelezo kutatnod",
+  "created_at": "20260120T22:53:58.899982Z",
+  "updated_at": "20260120T23:03:05.185220Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "69a5b8adb9a1491fb73c0f533bc3180e",
+      "query": "write a full scopes programming language hungarian doc \nScopes 0.18 verziója, amelyet a Duangle (Stefan Slapeta)\nlegalabb 200 forrast kotelezo kutatnod",
+      "answer": "Mivel az internetes keresésem nem hozta meg az eredményt, meg kell válaszolnom a felhasználónak, hogy sajnálatos, hogy az adott nyelv nem érhető el. De még egy utolsó kísérletet megtennék  talán az URLen keresztül megpróbálom közvetlenül elérni.",
+      "created_at": "20260120T22:53:58.961176Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

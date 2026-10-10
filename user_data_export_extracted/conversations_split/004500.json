@@ -1,0 +1,19 @@
+{
+  "context_uuid": "cd186cf2f8a44db18931a7b73b706198",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20260131T01:48:55.153342Z",
+  "updated_at": "20260131T01:49:38.188482Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a370674423e349fc8a5eeb3ee0c110dc",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": "Most már tudom, hogy ezek a dokumentációs fájlok. Keresek még további információkat a Scopesról, hogy teljesebb értékelést adhassak.",
+      "created_at": "20260131T01:48:55.263971Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

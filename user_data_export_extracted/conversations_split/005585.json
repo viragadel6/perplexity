@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f3417313c69048bba3bccda8c8be52eb",
+  "context_title": "ebből extract a css meg a full design ui ux t",
+  "created_at": "20251217T13:49:10.621394Z",
+  "updated_at": "20251217T13:49:10.621394Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "505591b53a1f479794ab8a039814f364",
+      "query": "ebből extract a css meg a full design ui ux t",
+      "answer": "Sikeresen kinyertem a CSSt és a teljes UI/UX designt a Revolut bejelentkezési oldalból![1]\n\n Kimenet\n\nKét fájlt hoztam létre számodra:\n\n 1. revolut_extracted_styles.css \n 671,627 karakter teljes CSS kód\n 9 style tag tartalma\n Összes fontface definíció (Inter, Ubuntu, Roboto)\n Komplett design rendszer változók\n\n 2. revolut_ui_ux_documentation.txt \nRészletes dokumentáció a következő kategóriákkal:\n\nSzínpaletta: 20 egyedi szín (000, 28333d, 2d2d2d, dd6a00 stb.)\n\nTipográfia: \n Font családok: Inter, Ubuntu, Roboto, Arial\n 9 különböző font méret\n Rendszer és brand fontok\n\nElrendezés:\n Padding és margin értékek\n Gap/spacing rendszer (s8, s12, s16, s24)\n Reszponzív grid elrendezés\n\nKomponensek:\n 72 egyedi CSS osztály\n 2 form elem\n 6 gomb\n 3 input mező\n\nAnimációk:\n 12 keyframe animáció (pop, flash, stb.)\n 7 egyedi transition\n 14 media query (600px, 840px breakpointok)\n\nDesign elemek:\n 10 különböző borderradius érték\n Reszponzív design mobil és desktop nézetekhez\n\nA teljes CSS és UI/UX struktúra készen áll a felhasználásra vagy továbbfejlesztésre!",
+      "created_at": "20251217T13:49:10.724162Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

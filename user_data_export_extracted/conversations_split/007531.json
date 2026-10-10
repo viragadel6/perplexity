@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d78b63f632194caab230de030815a45d",
+  "context_title": "ez mi",
+  "created_at": "20251016T15:23:20.086924Z",
+  "updated_at": "20251016T15:23:20.086924Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e593d7ca9ee94a78b47e2492ea2d7014",
+      "query": "ez mi",
+      "answer": "Ez egy Replit/Nix alapú, többnyelvű AI/neuromorf projekt futtatókörnyezete és buildkonfigurációja, amely “JAIDE V33 Hybrid HTMVSAHRRSDM TGN KAN LLM” néven szerepel, és egyszerre szoftveres (GPU, elosztott rendszerek) és hardveres (Verilog/FPGA) komponenseket épít, ellenőriz és futtat különféle fordítók és formális verifikációs eszközök láncolatával.[1]\n\n Mi van benne?\n  és : Replit projektbeállítások, Nix csomagfüggőségek hosszú listája (pl. , , , , , , , , , , , , , , , , , , , , , , , , , , , továbbá FPGA és formális eszközök).[1]\n : Nix flake, amely csomaggá és fejlesztői shellé drótozza a környezetet; a build lépésben  fut, az  pedig binárisokat és adatfájlokat (pl. , , , ) másol a kimenetbe.[1]\n : Komplett build pipeline: Haskell/Clashból Verilog generálás, Scala/SpinalHDL modul,  +  +  FPGA bitstreamhez,  GPU könyvtár fordítás,  elosztott futtató,  dinamikus könyvtár, majd formális/verifikációs lépések (, , , , , , , , /, , ).[1]\n : Rendszerkonfiguráció, amely a modell nevét (), naplózást és a támogatott nyelvkészletet sorolja fel (sok egzotikus nyelvvel és eszközzel).[1]\n\n Mire való?\n Többnyelvű AI/LLM kutatási/fejlesztési projekt, amely hibrid neurális és memóriamodelleket, grafneurális és kernelalapú komponenseket, valamint neuromorf/FPGA célgenerálást ötvöz egyetlen futtatható buildfolyamatban.[1]\n Az   parancsa egy hosszú csővezetéket indít: tokenizáló, tenzorműveletek, generátorok, neurális és kvantum modulok, elosztott tréning (), formális bizonyítások és hardvergenerálás futnak egymás után.[1]\n\n Hogyan futtatható?\n Replitben a projekt megnyitásakor a   sor automatikusan végigfuttatja a lépéseket, feltéve, hogy a  által deklarált függőségek elérhetők.[1]\n Nix flake segítségével lokálisan:  a fejlesztői shellhez, majd  vagy a flake  e, amely ugyanazt a pipelinet hajtja végre és a  könyvtárba írja a kimeneteket.[1]\n\n Figyelmeztetések\n A toolchain nagyon nehéz: FPGA/EDA eszközök, GPU fordítók, formális bizonyító rendszerek és sok fordító szükséges; részleges hiány esetén a pipeline megállhat.[1]\n A  hivatkozik olyan adatfájlokra, amelyeket helyben kell biztosítani (, , ); ezek hiánya install hiba lehet.[1]\n\n Röviden\n Egy komplex, Nixszel definiált kutatási LLM/neuromorf infrastruktúra, amely szoftveres és hardveres komponenseket épít és formálisan ellenőriz; Replitben és lokálisan is futtatható, ha a függőségek teljesíthetők.[1]",
+      "created_at": "20251016T15:23:20.217577Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

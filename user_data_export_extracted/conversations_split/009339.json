@@ -1,0 +1,28 @@
+{
+  "context_uuid": "0c3149c71614437c97462db34c615ba9",
+  "context_title": "Ezekrol mindegyikrol kuld el az eredeti dokumentacios direkt linket:\n\n1. Adaptive Tokenization\n2. TensorRTLLM 2.0\n3. Compressed Checkpointing\n4. RealTime Streaming APIs\n5. Decentralized Learning with Blockchain (DLB)\n6. Prompt Optimization Networks (PON)\n7. Dynamic Positional Encoding (DPE)\n8. PagedAttention V2 and Efficient Attention Mechanisms\n9. Reactive Streams\n10. Model Distillation\n11. EndtoEnd Neural Compression\n12. SMPC (Secure MultiParty Computation)\n13. DeepSpeedFastGen\n14. Prompt Compression Networks (PCN)\n15. ALiBi (Attention with Linear Biases)\n16. MultiQuery Attention 2.0 or Performa\n17. Dynamic Neural Fields or Modular Neural Networks",
+  "created_at": "20250725T13:56:44.272911Z",
+  "updated_at": "20250725T14:04:36.007490Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "173c8c0f19944076ba6f63ec632094c6",
+      "query": "Ezekrol mindegyikrol kuld el az eredeti dokumentacios direkt linket:\n\n1. Adaptive Tokenization\n2. TensorRTLLM 2.0\n3. Compressed Checkpointing\n4. RealTime Streaming APIs\n5. Decentralized Learning with Blockchain (DLB)\n6. Prompt Optimization Networks (PON)\n7. Dynamic Positional Encoding (DPE)\n8. PagedAttention V2 and Efficient Attention Mechanisms\n9. Reactive Streams\n10. Model Distillation\n11. EndtoEnd Neural Compression\n12. SMPC (Secure MultiParty Computation)\n13. DeepSpeedFastGen\n14. Prompt Compression Networks (PCN)\n15. ALiBi (Attention with Linear Biases)\n16. MultiQuery Attention 2.0 or Performa\n17. Dynamic Neural Fields or Modular Neural Networks",
+      "answer": " Eredeti Dokumentációs Linkek\n\n 1. Adaptive Tokenization\n [1]\n [2]  \n [3]\n\n 2. TensorRTLLM 2.0\n [4]\n [5]\n [6]\n\n 3. Compressed Checkpointing\n [7]\n [8]\n [9]\n\n 4. RealTime Streaming APIs\n [10]\n [11]\n [12]\n\n 5. Decentralized Learning with Blockchain (DLB)\n [13]\n [14]\n [15]\n\n 6. Prompt Optimization Networks (PON)\n [16]\n [17]\n [18]\n\n 7. Dynamic Positional Encoding (DPE)\n [19]\n [20]\n [21]\n\n 8. PagedAttention V2 és Hatékony Attention Mechanizmusok\n [22]\n [23]\n [24]\n\n 9. Reactive Streams\n [25]\n [26]\n [27]\n\n 10. Model Distillation\n [28]\n [29]\n [30]\n\n 11. EndtoEnd Neural Compression\n [31]\n [32]\n [33]\n\n 12. SMPC (Secure MultiParty Computation)\n [34]\n [35]\n [36]\n\n 13. DeepSpeedFastGen\n [37]\n [38]\n [39]\n\n 14. Prompt Compression Networks (PCN)\n [40]\n [41]\n [42]\n\n 15. ALiBi (Attention with Linear Biases)\n \n\n 16. MultiQuery Attention 2.0 vagy Performa\n \n \n\n 17. Dynamic Neural Fields vagy Moduláris Neurális Hálók\n \n \n\nMegjegyzés:  \nVan, ahol hivatalos projektdokumentáció nem érhető el, de a lista minden eleméhez az elsődleges szakmai hivatkozást vagy leírást, valamint tipikus használati vagy bevezető oldalt, kutatást szerepeltetek.\n  \nHa pontosabb, implementációspecifikus vagy tutorial leírást szeretnél valamelyikhez, jelezd külön!",
+      "created_at": "20250725T13:56:44.426571Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "23723c691df04ba8b539ef0fc4a22b7e",
+      "query": "De az integralasrol es csak listazd",
+      "answer": " Integráció az AI és neurális hálózatok területén – Kulcsfontosságú források listája\n\n Fixed Integral Neural Networks  \n  Megközelítés, amely a kalkulus alaptételére támaszkodva képes egy függvény integrálját explicit módon kifejezni neurális hálózatokban. Lehetővé teszi olyan problémák pontos megoldását, ahol például integrálási vagy pozitivitási feltételek vannak a hálózatra vonatkozóan[1].\n\n Neurális hálózatok integrálhatósága  \n  Részletes tanulmány arról, hogyan lehet például ReLU neurális hálózatokat részekre bontva integrálni, valamint módszerek az ezekben előforduló ugrások kezelésére[2].\n\n Integral Neural Networks  \n  Egy új neurális hálózati architektúra, ahol a súlyok és szűrők folytonos, integrált reprezentációval kerülnek felhasználásra. Ez lehetőséget teremt diszkrét és folytonos modellek közötti átjárásra, valamint hardverfüggetlen, rugalmas implementációkra[3].\n\n Differenciálegyenletek és integrálás  \n  A klasszikus matematikai alapok, azon belül is a parciális és közönséges differenciálegyenletek integrálásának elmélete, amelyek az alkalmazott hálózatok (például physicsinformed neural networks) matematikai alapjait is jelentik[4].\n\n Integrálás differenciálegyenleteken keresztül a neurális hálózatokban  \n  Áttekintés a differenciálegyenletek (ODE, PDE) és azok integrációjának neurális hálózatokba való beépítéséről, különösen elméleti oldalról (például: Neural ODEk, PINNek)[5].\n\nMegjegyzés: A felsorolt források elsősorban a matematikai integrálás explicit vagy architekturális alkalmazásait mutatják be a neurális hálózatokban, illetve a kapcsolódó AIterületeken.",
+      "created_at": "20250725T14:04:22.964641Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

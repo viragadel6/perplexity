@@ -1,0 +1,28 @@
+{
+  "context_uuid": "062f46925d3847c78c57397a7559e13c",
+  "context_title": "jade plastic box musicvideo image prompt very long detailed ",
+  "created_at": "20260106T15:37:37.566744Z",
+  "updated_at": "20260106T15:44:42.734694Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8df2c3697c75480ba2f2ec7f5af6b65a",
+      "query": "jade plastic box musicvideo image prompt very long detailed ",
+      "answer": "Media generated: 'Kép a JADE \"Plastic Box\" zenei videó stílusában, üvegdobozba zárt nő művészeti galéria beállításban'",
+      "created_at": "20260106T15:37:37.604856Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f63f6b52a6834c358205794a0a58afc2",
+      "query": "Modify the description prompt by changing only the character to a white‑haired boy. Keep everything else exactly the same as before, and describe every facial detail as thoroughly as possible. The clothing should remain the same style, but adapted into a male version. Optimize the prompt specifically for Gemini 3 Image aka Nano Banana Pro—check the model architecture requirements to achieve the most ultra‑realistic, state‑of‑the‑art quality.",
+      "answer": "Media generated: 'Ultrarészletes férfi karakter a JADE \"Plastic Box\" stílusában, fehér hajú fiú üvegdobozban művészeti galéria beállításban'",
+      "created_at": "20260106T15:39:58.661174Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

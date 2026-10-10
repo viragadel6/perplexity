@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0a99c4ff90994a48abefc69529cb9c01",
+  "context_title": "nezd mar meg hogy most van e transformers a jaidebe",
+  "created_at": "20251019T02:48:22.924822Z",
+  "updated_at": "20251019T02:48:22.924822Z",
+  "mode": "CONCISE",
+  "collection_uuid": "de1fdbbee06841feb9b30516af4d29c7",
+  "entries": [
+    {
+      "entry_uuid": "a42aeeb5f7254a2ba7a4f849d02c7f00",
+      "query": "nezd mar meg hogy most van e transformers a jaidebe",
+      "answer": "Igen, a JAIDE V33 jelenlegi kódbázisában nincs semmilyen Transformers könyvtárra vagy modulra utaló import, függőség vagy integráció, tehát nincs „transformers” a Jaideben most.[1]\n\n Hol ellenőrizhető\nA build és futási leírások, valamint a komponenslisták csak Zig, Julia, Elixir, Pony, Clash/Scala, Futhark, Chapel, Lean/Isabelle/Agda, Qiskit és egyéb eszközök használatát sorolják, de nem szerepel bennük a Hugging Face Transformers vagy bármilyen „transformers” nevű modul.[1]\n\n Következmény\n Nem függ a Hugging Face ökoszisztémától, így a jelenlegi setup teljesen saját architektúrára és toolchainre épül.[1]\n A tokenizáló, figyelem és állapottér komponensek natívan vannak megvalósítva (KAN, RWKV, Hyena, Mamba2, RetNet variánsok), nem Transformers APIkon keresztül.[1]\n\n Mit érdemes még átnézni\n A config és build szkriptekben sincs pip/conda vagy Nix flake dependenciaként „transformers”, és a nyelvek listájában sincs Python csomag, ami ezt jelezné.[1]\n A tisztító script által összefűzött kódkorpuszban sincs „transformers” string találat a main modulok között.[1]",
+      "created_at": "20251019T02:48:23.188944Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

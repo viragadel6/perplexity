@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a1d81ade94ea4354b6221adb815cccec",
+  "context_title": "\nez az eredeti!@GitHub",
+  "created_at": "20260929T01:01:02.893629Z",
+  "updated_at": "20260929T01:01:20.578660Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a8853988a35e481180b48dd96d1951d2",
+      "query": "\nez az eredeti!@GitHub",
+      "answer": "Igen, ezt a repót veszem alapul: . A GitHub szerint ez a Simpleyyt fiók saját, nem forkként jelölt repója; a README az AI Manus nyílt forrású projektjeként mutatja be. Ez önmagában nem jelenti azt, hogy a különálló Manus szolgáltatás hivatalos forráskódja.[1]",
+      "created_at": "20260929T01:01:02.923773Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

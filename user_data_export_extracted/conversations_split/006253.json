@@ -1,0 +1,19 @@
+{
+  "context_uuid": "697dca0b729648b79534eeeed8b2724c",
+  "context_title": "",
+  "created_at": "20251120T09:02:03.016939Z",
+  "updated_at": "20251120T09:02:03.016939Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8a980c6384fb4bee93f5979219021cdd",
+      "query": "",
+      "answer": "Az adott webes eredmények alapján a verl (Volcano Engine Reinforcement Learning for LLMs) egy rugalmas és hatékony erősítéses tanulási könyvtár nagy nyelvi modellek (LLMs) tréningjéhez. A ByteDance Seed csapata indította, és nyílt forráskódú, így könnyen integrálható különböző infrastruktúrákkal, például Hugging Face modellekkel, Megatron, vLLM, SGLang, stb. Kiemelkedően gyors, támogatja az államvezető szerver és a több GPUs disztribúciós tanulást, illetve többféle RL algoritmust, mint például PPO, GRPO, DAPO és másokat.[2][3][4]\n\nFő jellemzők és képességek:\n\n Támogatás a modern mélytanulási eszközökkel, mint FSDP, FSDP2, MegatronLM az optimális tréning érdekében.\n Széles körű összeegyeztethetőség a Hugging Face Transformers és Modelscope modellekhez.\n Különféle RL algoritmusok (PPO, DAPO, GRPO stb.) alkalmazása, beleértve a többmodulos és többfordulós tanulási lehetőségeket.\n Nagy modellek skálázása – akár 671 milliárd paraméteres modellekhez és több száz GPUhoz is.\n Számos eszköz az infrastruktúrán belüli hatékony erőforráselosztáshoz és teljesítményoptimalizációhoz.\n\nHasználat és fejlesztés:\n\nA dokumentációk részletes lépéseket tartalmaznak a telepítéshez, a gyors indításhoz, a programozási utasításokhoz és versenyképes alapalgoritmusok reprodukálásához. Ezen túlmenően a fejlesztők és kutatók kihasználhatják a különböző bővítési lehetőségeket, mint a többfordulós bonyolult szimulációk, eszközök integrációja, és testreszabottRLhez kapcsolódó kód kifejlesztése.[4][6][2]\n\nZáró megjegyzés:\n\nA verl egyedi jellemzője, hogy támogatja a multimodális modelleket, a többfordulós tanulást és a szerszámok használatát, így különösen alkalmas fejlett kutatási és ipari alkalmazásokra, ahol az erőforrásoptimális működés és a skálázhatóság kulcsfontosságú.[3][2]\n\nHa szeretnéd, részletesebben is összefoglalhatom a telepítési lépéseket vagy az algoritmusokat, melyeket támogat a könyvtár.",
+      "created_at": "20251120T09:02:03.959824Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

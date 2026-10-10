@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b54427ee324a4d27a6091aa1bfa677ff",
+  "context_title": "keresd meg azt hogy szerbiaban apatinban lattak a fekete parduc ot",
+  "created_at": "20251019T20:09:22.694676Z",
+  "updated_at": "20251019T20:09:22.694676Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "7481bab566074c5e905c30335b11bb90",
+      "query": "keresd meg azt hogy szerbiaban apatinban lattak a fekete parduc ot",
+      "answer": "English:\nBlack panther sighting Apatin Serbia 2022 November authorities confirmed forestry company warning dangerous predator fields spotted\n\nMagyar:\nFekete párduc észlelés Apatin Szerbia 2022 november hatóságok megerősítették erdészeti vállalat figyelmeztetés veszélyes ragadozó mezőkön észlelve",
+      "created_at": "20251019T20:09:23.003929Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

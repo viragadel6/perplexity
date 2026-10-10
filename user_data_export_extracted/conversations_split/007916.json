@@ -1,0 +1,46 @@
+{
+  "context_uuid": "d7e4390e06b946c28bce67f33e7453e2",
+  "context_title": "kuld vissza gyartonkent csak a legfejlettebb verzioval a listat válaszodban szeretném ha csak egy más mellé listába írnád a dolgokat amiket keresek, minden más nélkül. \n\nGPT,Claude,Gemini,LLaMA,Phi,Grok,DBRX,CommandR,Falcon,BLOOM,MegatronTuring NLG,T5,Luminous,Mixtral,Gemma,Nemotron,StableLM,OpenELM,CerebrasGPT,FugakuLLM,Granite,Amazon Nova,Pixtral,Qwen,DeepSeek,Ernie,Yi,GLM,InternLM,PanGu,MiniMax",
+  "created_at": "20251007T04:11:39.456180Z",
+  "updated_at": "20251007T04:15:23.108165Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "488e6992b2474ee5a98472fd3449182e",
+      "query": "kuld vissza gyartonkent csak a legfejlettebb verzioval a listat válaszodban szeretném ha csak egy más mellé listába írnád a dolgokat amiket keresek, minden más nélkül. \n\nGPT,Claude,Gemini,LLaMA,Phi,Grok,DBRX,CommandR,Falcon,BLOOM,MegatronTuring NLG,T5,Luminous,Mixtral,Gemma,Nemotron,StableLM,OpenELM,CerebrasGPT,FugakuLLM,Granite,Amazon Nova,Pixtral,Qwen,DeepSeek,Ernie,Yi,GLM,InternLM,PanGu,MiniMax",
+      "answer": "GPT5[1][2]\nClaude 4 Opus[2][1]\nGemini 2.5 Pro[1][2]\nLLaMA 4 Scout[3][2]\nPhi4[4][5]\nGrok 4[6][4]\nDBRX Instruct[7][4]\nCommandR[8][7]\nFalcon[7][8]\nBLOOM[8][7]\nMegatronTuring NLG 530B[9][10]\nFlanT5 XXL[11][12]\nLuminousSupreme[13][14]\nMixtral Large[15][16]\nGemma 3[17][18]\nNemotron Nano 9B V2[4][8]\nStableLMAlpha7Bv2[19]\nOpenELM[7][8]\nCerebrasGPT 13B[20][21]\nFugakuLLM13B[22][23]\nGranite 4.0[4]\nAmazon Nova Premier[6][4]\nPixtral Large[16][15]\nQwen 3[24][17]\nDeepSeek R1[18][1]\nErnie[25]\nYi[25]\nGLM4.5V[25]\nInternLM 2.5[26][27]\nPanGu[25]\nMiniMax M1[4]",
+      "created_at": "20251007T04:11:39.569417Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "415cb3912aba4ad6b2deb3ba25fbf4e0",
+      "query": "ez helytelen",
+      "answer": "GPTo3[1][2]\nClaude Sonnet 4.5[3][4]\nGemini 2.5 Flash[5][6]\nLLaMA 3.3 70B[7][8]\nPhi4[9]\nGrok 4[10]\nDBRX Instruct[11]\nCommand R+ 082024[12][13]\nFalcon 180B[14]\nBLOOM 176B[14]\nMegatronTuring NLG 530B[15]\nFlanT5 XXL[16]\nLuminousSupreme[17]\nMixtral 8x22B[18][19]\nGemma 3 27B[20]\nLlama 3.3 Nemotron 70B[21][22]\nStableLM 2[23]\nOpenELM[14]\nCerebrasGPT 13B[24]\nFugakuLLM 13B[25]\nGranite 3.1[26][27]\nAmazon Nova Premier[11]\nPixtral Large[28]\nQwen2.5Max[29][30]\nDeepSeekV3.2Exp[31][32]\nErnie Bot 4.5[33]\nYiLightning[34][35]\nGLM4[33]\nInternLM 2.5[36]\nPanGuα[33]\nMiniMax[11]",
+      "created_at": "20251007T04:12:20.864929Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "0ad0f348553f4bc4a376dbaa0f6260ef",
+      "query": "de alapbol gan deepseek 3.2 glm 4.6  qwen 3 max",
+      "answer": "Érthető. Az alábbiak a gyártónkénti „legfejlettebb” jelölések, a kért háromra igazítva, röviden és csak egymás mellé írva:\n\nDeepSeekV3.2Exp[1][2]\nGLM4.6[3][4]\nQwen3Max[5][6]",
+      "created_at": "20251007T04:13:10.452159Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "ca5a760997944166bc04cb1758229a21",
+      "query": "jo akk mindegyikbol az igazit",
+      "answer": "GPTo3[1][2]\nClaude Sonnet 4.5[3][4]\nGemini 2.5 Pro[5][6]\nLLaMA 3.3 70B[7][8]\nPhi4[9]\nGrok 4[9]\nDBRX Instruct[9]\nCommand R+[10][11]\nFalcon 180B[12]\nBLOOM 176B[12]\nMegatronTuring NLG 530B[13]\nFlanT5 XXL[14]\nLuminousSupreme[15][16]\nMixtral 8x22B[17]\nGemma 3 27B[18]\nNemotron Llama3.3 70B[19][20]\nStableLM 2[12]\nOpenELM[21]\nCerebrasGPT 13B[22]\nFugakuLLM 13B[23]\nGranite 3.1[24][25]\nAmazon Nova Premier[12]\nPixtral Large[26]\nQwen3Max[27][28]\nDeepSeekV3.2Exp[29][30]\nErnie Bot 4.0[12]\nYiLightning[31][32]\nGLM4.6[33][34]\nInternLM 2.5[35]\nPanGuΣ[12]\nMiniMax M1[12]",
+      "created_at": "20251007T04:15:12.599557Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "47f75123fbcc48688c389fe682ea25a7",
+  "context_title": "Carefully analyze all my reference photos from every angle before generating the image, and prioritize maximum likeness and realism over style changes or enhancements\nand than generate a natural, realistic, frontfacing portrait of me, showing my entire head, full hair and neck, with my face clearly visible and welllit. Use the photos I uploaded from multiple angles strictly as reference and preserve my real facial features and hairstyle as accurately as possible, without changing my face shape, hairline, eye color or other distinctive details. The result should look like a normal, unedited photo of me, in neutral lighting, with a simple, clean background, so that I can be seen clearly and naturally.",
+  "created_at": "20251210T02:08:15.343706Z",
+  "updated_at": "20251210T02:08:15.343706Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "614f734638f549bf87dfae004e1360e5",
+      "query": "Carefully analyze all my reference photos from every angle before generating the image, and prioritize maximum likeness and realism over style changes or enhancements\nand than generate a natural, realistic, frontfacing portrait of me, showing my entire head, full hair and neck, with my face clearly visible and welllit. Use the photos I uploaded from multiple angles strictly as reference and preserve my real facial features and hairstyle as accurately as possible, without changing my face shape, hairline, eye color or other distinctive details. The result should look like a normal, unedited photo of me, in neutral lighting, with a simple, clean background, so that I can be seen clearly and naturally.",
+      "answer": "Media generated: 'Realista, frontális portré egy fiatal férfiról platinaszőke hajjal semleges háttérrel.'",
+      "created_at": "20251210T02:08:15.801688Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

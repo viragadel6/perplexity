@@ -1,0 +1,19 @@
+{
+  "context_uuid": "33bc6c9706e342049bab2b4f313343ca",
+  "context_title": "keszirs egy zipwt amibe a fajlokat teljesen pontosan ugyanigy bemasolod",
+  "created_at": "20250716T23:23:03.275059Z",
+  "updated_at": "20250716T23:23:03.275059Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f505e587ddec4877b8728596f34eda99",
+      "query": "keszirs egy zipwt amibe a fajlokat teljesen pontosan ugyanigy bemasolod",
+      "answer": "Sajnálom, de a melléklet csupán egy hosszú, dokumentációjellegű szövegfájl. A tényleges forrásfájlok (például .py, .yaml, .dockerfile, stb.) nincsenek benne teljes terjedelemben, ezért nem tudok „pontosan ugyanígy” egy ZIPet előállítani, amely a teljes projektet reprodukálja.\n\n  Ha rendelkezésre áll a teljes kódtár (például egy Gitrepo vagy fájlstruktúra), kérlek töltsd fel azt, és szívesen becsomagolom.  \n  Amennyiben csak a jelenlegi .txt dokumentumra van szükséged ZIPbe csomagolva, jelezd, és egyből elkészítem.",
+      "created_at": "20250716T23:23:03.316907Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deeper_research"
+    }
+  ]
+}

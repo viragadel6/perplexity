@@ -1,0 +1,28 @@
+{
+  "context_uuid": "e9e6fa6f9878405c871b8a6b6eb3df4a",
+  "context_title": "exa ai prompt guide online direct link",
+  "created_at": "20250828T18:48:34.227401Z",
+  "updated_at": "20250828T18:51:37.531649Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1d4bfd6ff02046faadc2fb737a6ae17e",
+      "query": "exa ai prompt guide online direct link",
+      "answer": "Az Exa AI online prompt útmutatója az Exa dokumentációban, a Writing Assistant példán belüli “Exa prompting and query style” részben található, és külön szöveges nézetben is elérhető (llmsfull.txt) a gyors olvashatóság miatt [1][2]. Ezek a források lépésről lépésre mutatják be a lekérdezés‑formázást és a promptolási mintákat Exa‑val [2].\n\n Közvetlen elérés\n Navigáció: Dokumentáció kezdőlap → Examples → Writing Assistant → “Exa prompting and query style” szakasz, ahol a folytatásos prompt‑minta és a keresési beállítások (neural, highlights) részletesen szerepelnek [1][2].  \n Alternatíva: a teljes tartalom egyben olvasható, kereshető szövegként a “llmsfull.txt” nézetben ugyanebből a témából [2].  \n\n Mit tartalmaz\n Gyakorlati minta arra, hogyan egészítse ki a lekérdezést egy folytatásos utótaggal, és hogyan hívja az exa.searchAndContents‑et neural módban rövid kiemelésekkel a releváns találatokhoz [2].  \n Részletes rendszerprompt Claude‑hoz (stílus, hivatkozási formátum, “csak folytatás” viselkedés) mintákkal, hogy a kimenet tömör és idézetelt legyen [2].  \n\n Kapcsolódó oldalak\n Quickstart: API‑kulcs, SDK‑telepítés és az első Exa keresés futtatása, ha a prompt‑mintákat helyben is tesztelni kell [3].  \n Dokumentációs nyitólap: API Playground, Examples, Integrations és a fő fogalmi útmutatók (Search, Contents, Answer, Research) áttekintése [1].",
+      "created_at": "20250828T18:48:34.333456Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "a605051a019c4197a8587966016ad06c",
+      "query": "direkt link",
+      "answer": "Íme a kért direkt link az Exa prompt útmutató szöveges nézetéhez:  [1].",
+      "created_at": "20250828T18:50:38.887928Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

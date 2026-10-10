@@ -1,0 +1,19 @@
+{
+  "context_uuid": "17cae75553f247b9ac2e5cb8003a885e",
+  "context_title": "A kutyak ejszakaj v nappali allatok",
+  "created_at": "20251021T04:28:09.197690Z",
+  "updated_at": "20251021T04:28:09.197690Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "511099096dbc4aea86b419cb256b310a",
+      "query": "A kutyak ejszakaj v nappali allatok",
+      "answer": "A kutyák alapvetően nem éjszakai állatok: a háziasított kutyák többnyire nappal aktívak, éjjel pedig alszanak, vagyis tipikusan „diurnális” mintázatot követnek és az emberek napirendjéhez igazodnak. Ugyanakkor sok kutyánál erős alkonyati–hajnali (krepszukuláris) aktivitási csúcs figyelhető meg, és napközben is többször szundítanak, mivel polifázisos alvók.[1][2][3]\n\n Nappali vagy éjszakai?\n Családi kutyák többsége nappal aktív és éjjel alszik, gazdájuk életmódjához igazítva a ciklusukat.[1]\n Tudományos megfigyelések szerint a házikutya cirkadián ritmusa diurnális: a csúcstevékenység világosban, a pihenés túlnyomórészt éjszaka zajlik.[2]\n\n Alkonyati csúcsok\n Sok forrás leírja, hogy a kutyák alkonyatkor és hajnalban a legélénkebbek (krepszukuláris hajlam), ami részben farkaseredetű sajátosság.[4]\n A vadon vagy kóbor környezetben a kutyák inkább krepszukuláris mintázatot mutathatnak, míg a háziasítás a nappali aktivitást erősítette.[5]\n\n Alvásmintázat\n A kutyák polifázisos alvók: éjjel alszanak a legtöbbet, de nappal is több rövid alvásszakaszt iktatnak be.[2]\n Az aktívabb napok után mélyebb és rendezettebb az éjszakai alvás, több NREM/REM szakasszal, ami a másnapi viselkedésre is kihat.[3]",
+      "created_at": "20251021T04:28:09.274176Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

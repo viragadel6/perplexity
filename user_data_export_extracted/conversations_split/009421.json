@@ -1,0 +1,37 @@
+{
+  "context_uuid": "2412655ca6dc46b3960afbdf7c7afa65",
+  "context_title": "",
+  "created_at": "20250721T16:17:30.614638Z",
+  "updated_at": "20250721T16:18:21.502095Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ce65847246a040a3a25efad5514560b0",
+      "query": "",
+      "answer": " Clouding.io API Rate Limit információk\n\nJelenleg nem található publikus, részletes dokumentáció vagy hivatalos webes forrás a Clouding.io API pontos lekérdezési korlátairól (rate limit) az elérhető online források között. \n\n Általános tudnivalók az API rate limitről\n\n Az APIk általánosságban limitálják, hogy egy felhasználó vagy alkalmazás mennyi lekérdezést küldhet adott időintervallumon belül (pl. másodperc, perc vagy óra).\n Gyakori válasz a limit túllépésekor a 429 Too Many",
+      "created_at": "20250721T16:17:30.632021Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "907762044dca4bc6b6281a21830659cc",
+      "query": "repliten secretbe hogy mentsem az api kulcsot",
+      "answer": "Így tudod elmenteni az API kulcsot „secret”be a Repliten:\n\n1. A bal oldalon kattints a 🔒 Secrets (vagy esetleg \"Environment variables\") ikonra.\n2. Írd be a kulcs nevét (például: API_KEY) a Key mezőbe.\n3. Írd be az értéket (az API kulcsodat) a Value mezőbe.\n4. Kattints az Add new secret gombra.\n\nA Python kódban így tudod elérni:\n\npython\nimport os\n\napi_key = os.environ[\"API_KEY\"]\n\n\nEzzel biztonságosan tárolod a kulcsot, és nem kerül bele a publikus kódba.",
+      "created_at": "20250721T16:17:56.981319Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "120252a39a7f4fc78b10ef55a19fc54c",
+      "query": "jo de ennek az oldalnak az api kulcsat",
+      "answer": "Ha a Clouding.io API kulcsáról van szó, és azt szeretnéd titkosként tárolni a Repliten:\n\n1. Keresd meg (vagy generáld) az API kulcsot a Clouding.io fiókodban – ezt általában a Clouding.io felhasználói felületén, a profilodnál, vagy API beállításoknál találod (pl. „API Keys” menüpont).\n2. Másold ki az API kulcsot.\n3. Repliten a bal oldali sávban kattints a Secrets (🔒 ikon) menüpontra.\n4. A Key mezőbe írj mondjuk CLOUDING_API_KEYt.\n5. Az Value mezőbe illeszd be a Clouding.io API kulcsodat.\n6. Nyomd meg az Add new secret gombot.\n\nA kódban így éred el, például Pythonban:\n\npython\nimport os\n\nclouding_api_key = os.environ[\"CLOUDING_API_KEY\"]\n\n\nEzután ezt a változót használd az API hívásoknál, amikor hitelesítened kell magad a Clouding.io APIval.  \nFigyelj arra, hogy a kulcs soha ne kerüljön be a forráskódodba vagy publikus helyre!",
+      "created_at": "20250721T16:18:18.203468Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

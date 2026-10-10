@@ -1,0 +1,19 @@
+{
+  "context_uuid": "24f3184e30714a9c805d35f2bb43cc05",
+  "context_title": "",
+  "created_at": "20251026T15:15:38.593738Z",
+  "updated_at": "20251026T15:15:38.593738Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4ac293b406774970a011d73dae50c541",
+      "query": "",
+      "answer": "A megadott Vercelhivatkozás nem érhető el közvetlenül, mivel ez egy felhasználói fiókhoz vagy bejelentkezést igénylő projektoldalhoz tartozik („maczkopitya/~/integrations/kernel”). Ezek az oldalak általában privátak, és csak az adott Vercelfiók tulajdonosa vagy meghívott együttműködők férhetnek hozzájuk.  \n\nHa szeretnéd, segíthetek lépésről lépésre abban, hogyan lehet:\n megnyitni vagy kezelni a Vercelintegrációt (például a Kernel telepítését),  \n vagy kiexportálni az oldal tartalmát (pl. buildlogok, beállítások, APIintegrációk).  \n\nMeg tudod erősíteni, hogy ezt szeretnéd?",
+      "created_at": "20251026T15:15:39.652701Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

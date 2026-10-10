@@ -1,0 +1,28 @@
+{
+  "context_uuid": "3322887f64fa4da4b9c786a7817a2b05",
+  "context_title": "exa ai docs osszes link direkt link\nfast mode es mindent válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250917T15:50:05.754765Z",
+  "updated_at": "20250917T15:52:35.240026Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "814ed5ee8f114958b568358dad5cbe76",
+      "query": "exa ai docs osszes link direkt link\nfast mode es mindent válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "  [1]\n  [2]\n  [3]\n  [4]\n  [5]\n  [6]\n  [7]\n  [8]\n  [9]\n  [10]\n  [11]\n  [12]\n  [13]\n  [14]\n  [15]\n  [16]\n  [17]\n  [18]\n  [19]",
+      "created_at": "20250917T15:50:05.887780Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "299873f908884fb7a06ac43e417a9ea4",
+      "query": "de csak a docs.exa.ai",
+      "answer": "  [1]\n  [2]\n  [3]\n  [4]\n  [5]\n  [6]\n  [7]\n  [8]\n  [9]\n  [10]\n  [11]\n  [12]\n  [13]\n  [14]\n  [15]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]\n  [4]",
+      "created_at": "20250917T15:51:47.251373Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

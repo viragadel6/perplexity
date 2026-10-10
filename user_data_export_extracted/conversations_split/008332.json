@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7ed39e077dce48688391e0c2b3ccbbf5",
+  "context_title": "melyik a jobb?",
+  "created_at": "20250922T12:23:08.281926Z",
+  "updated_at": "20250922T12:23:08.281926Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "efcfac4e1aaa438b9a6b6b1abb82c165",
+      "query": "melyik a jobb?",
+      "answer": "Röviden: a teljes_projekt_kod.txt a gyakorlatban jobb választás, mert komplett HTTP APIt, állapotkezelést és formális verifikációs pipelinet tartalmaz, míg a nomorewjfufn.txt inkább kísérleti, poliglott modulok gyűjteménye kvantumos és többnyelvű komponensekkel [1][2].\n\n Mit hasonlítunk\nA nomorewjfufn.txt keverten tartalmaz Forth parancsokat kvantumos fehérjehajtáshoz, Vale típusbiztonságú kvantumállapotkezelést és IBM Quantum QASM generálást, valamint Zigalapú kliens és WebSocket komponenseket, tehát inkább kutatási prototípus jellegű monolit szöveggyűjtemény [2]. A teljes_projekt_kod.txt koherens szolgáltatásalkalmazás, benne Julia alapú HTTP végpontokkal (health/fold/validate/job), állapotgép és WebSocket/SSE közvetítés, Groverkeresés meghívása a KvantumAIMotorból és formális verifikációs lépések (Idris, Coq) [1].\n\n Rövid összevetés\n| Szempont | nomorewjfufn.txt | teljes_projekt_kod.txt |\n|  |  |  |\n| Cél/pozícionálás | Kísérleti kvantum és multinyelvű modulok (Forth/Vale/IBM QASM, REPL) [2] | Szolgáltatásalkalmazás APIval, jobkezeléssel és eredményösszeállítással [1] |\n| API és végpontok | Nincs tiszta HTTP APIréteg; parancsalapú és könyvtárszerű komponensek dominálnak [2] | Routerrel ellátott végpontok: health, fold (POST), validate (POST), job/{id} státusz [1] |\n| Munkafolyamat | IBM Quantum integráció, QASM generálás, interaktív REPL/HELP parancsok [2] | Kvantum motor hívások, metrikák (confidence, TMscore, lDDT), kész állapot és kész struktúra visszaadása [1] |\n| Formális verifikáció | Több nyelv jelenléte, de nem szervezett verifikációs pipeline központilag [2] | Idris és Coq verifikációs futtatás, komponensenkénti eredmények és összesítés [1] |\n| Kommunikáció | Zig alapú kliens/SSE/WS kódok jelen vannak, de nem egy dedikált szerverútvonalhoz kötve [2] | WebSocket klienskezelés, státuszbroadcast, CORS és SSE feldolgozás szerveroldalon [1] |\n| Karbantarthatóság | Erősen poliglott és heterogén, magas belépési küszöb a sok nyelv és paradigma miatt [2] | Összefogottabb szerverarchitektúra és útvonalkezelés, könnyebb üzemeltethetőség [1] |\n\n Mikor lehet jobb a nomorewjfufn.txt\n Ha IBM Quantum háttenden kell QASM szinten kísérletezni, Groveriterációkat és kvantumállapotmérésszimulációt demózni, a nomorewjfufn.txt direkt eszközkészletet ad és REPL parancsokkal támogat [2].\n Ha speciálisan Valealapú memória és típusbiztonsági minták vagy Forthszerű vezérlés kipróbálása a cél, ez a fájl gazdag mintákat és prototípusokat kínál [2].\n\n Ajánlás\nAlkalmazás és szolgáltatásfókuszú felhasználásra, gyorsan üzemeltethető APIhoz, állapotkezeléssel és verifikációs visszajelzéssel a teljes_projekt_kod.txt a jobb kiindulópont, míg kutatási prototípushoz, kvantumkísérletekhez és eszközszintű integrációkhoz a nomorewjfufn.txt előnyösebb lehet [1][2].",
+      "created_at": "20250922T12:23:08.430024Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

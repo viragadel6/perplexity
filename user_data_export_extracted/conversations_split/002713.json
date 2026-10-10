@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7c46560c9c1c4bb4bbab7635996502da",
+  "context_title": "Kollarsandor/kissofdeath",
+  "created_at": "20260426T19:05:55.303852Z",
+  "updated_at": "20260426T19:06:31.845612Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "578accf1e00541f4ad6263501781f8b9",
+      "query": "Kollarsandor/kissofdeath",
+      "answer": "A  egy rendkívül ambiciózus, Zig nyelven írt adatbázismotor / AIkövetkeztetési keretrendszer projekt, amely formális verifikációt, elosztott feldolgozást és GPUgyorsítást is tartalmaz.\n\n Projekt struktúra\n\nA repozitórium gyökerében találhatók a főbb konfigurációs fájlok: build.zig és build.zig.zon (Zig buildrendszer), .replit és replit.nix (Replit IDE integráció), valamint egy igen terjedelmes README.md (~116 KB) . A forráskönyvtár (src/) az alábbi almodulokra tagolódik:\n\n src/main.zig (~82 KB) – a fő belépési pont, az egyik legnagyobb fájl \n src/main_distributed.zig – elosztott futtatás belépési pontja\n src/main_distributed_futhark.zig – Futhark (funkcionális GPUpárhuzamosítási nyelv) integrációval ellátott elosztott verzió\n src/main_gpu.zig – GPUspecifikus belépési pont\n src/inference_server_main.zig – következtetési szerver (inference server)\n\n Alkönyvtárak és modulok\n\nA src/ mappán belül számos specializált alkönyvtár található :\n\n| Könyvtár | Funkció |\n|||\n| core/ | Alapvető motorlogika |\n| core_relational/ | Relációs adatbázisréteg |\n| distributed/ | Elosztott számítási komponensek |\n| hw/ | Hardverközelű kód |\n| index/ | Indexelési alrendszer |\n| optimizer/ | Lekérdezésoptimalizáló |\n| processor/ | Feldolgozó egység |\n| ranker/ | Rangsoroló modul |\n| tokenizer/ | Tokenizálás (NLPhez) |\n| verification/ | Formális verifikáció |\n| zk/ | Zeroknowledge proof integráció |\n\n Formális verifikáció\n\nA projekt egyedülállóan komolyan veszi a helyességellenőrzést: a src/MainSpec.cry (~27 KB) egy Cryptol specifikációs fájl, amelyet a SAW (Software Analysis Workbench) eszközzel együtt használ a src/verify.saw (~26 KB) szkript . Ez azt jelenti, hogy a kritikus algoritmusok matematikai bizonyítással verifikálhatók, ami adatbázis és AIrendszereknél rendkívül szokatlan és igényes megközelítés.\n\n Technológiai stack\n\nA projekt Zig programozási nyelvet használ elsődleges implementációs nyelvként, ami memóriabiztonságot és Cszintű teljesítményt biztosít . Emellett Futhark párhuzamos funkcionális nyelvet integrál GPUgyorsításhoz, Cryptolt formális specifikációhoz, és SAWt a verifikációhoz. Az api/ és scripts/ alkönyvtárak valószínűleg HTTP APIt és segédeszközöket tartalmaznak. A hw/ könyvtár a gyökérben is megjelenik külön, ami hardveres absztrakciós réteget sugall .\n\nSzeretnéd, hogy megnyissam a README.mdt vagy a main.ziget részletesebb betekintésért?",
+      "created_at": "20260426T19:05:55.379215Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

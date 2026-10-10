@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b68c3b5fc3b643f5847a921c93496f7a",
+  "context_title": "[INFO] Deploying MiniMaxAI/MiniMaxM2.7 to Tensormesh...\r\n[INFO] model_name=minimaxm2717777764561ef34929\r\n[INFO] vllm args: [\"trustremotecode\", \"tensorparallelsize\", \"8\", \"toolcallparser\", \"minimax_m2\", \"reasoningparser\", \"minimax_m2\", \"enableautotoolchoice\", \"compilationconfig\", \"{\\\"mode\\\": 3, \\\"pass_config\\\": {\\\"fuse_minimax_qk_norm\\\": true}}\"]\r\n[FATAL] HTTP 401: Invalid or expired token\r\nHTTP Status: 401\r\n{\r\n  \"error\": \"Invalid or expired token\"\r\n}",
+  "created_at": "20260503T02:48:10.482372Z",
+  "updated_at": "20260503T02:48:30.359211Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "745aa2a46d284698abc63cbd9ad79546",
+      "query": "[INFO] Deploying MiniMaxAI/MiniMaxM2.7 to Tensormesh...\r\n[INFO] model_name=minimaxm2717777764561ef34929\r\n[INFO] vllm args: [\"trustremotecode\", \"tensorparallelsize\", \"8\", \"toolcallparser\", \"minimax_m2\", \"reasoningparser\", \"minimax_m2\", \"enableautotoolchoice\", \"compilationconfig\", \"{\\\"mode\\\": 3, \\\"pass_config\\\": {\\\"fuse_minimax_qk_norm\\\": true}}\"]\r\n[FATAL] HTTP 401: Invalid or expired token\r\nHTTP Status: 401\r\n{\r\n  \"error\": \"Invalid or expired token\"\r\n}",
+      "answer": "A HTTP 401: Invalid or expired token hiba azt jelenti, hogy a Tensormesh platform nem tudta érvényesíteni a hitelesítési tokenedet a MiniMaxM2.7 modell telepítésekor. Ez nem magával a vLLM konfigurációval van probléma, hanem a hitelesítő adatokkal.\n\n A hiba oka\n\nA 401es hiba a Tensormesh API tokenjéhez köthető, nem a modellhez vagy a vLLM argumentumokhoz. Ez általában három okból fordul elő: a token lejárt, érvénytelen, vagy nem megfelelő környezeti változóként lett megadva a telepítési folyamatban.[1][2]\n\n Lehetséges megoldások\n\nToken megújítása és helyes beállítása az első lépés. Ellenőrizd, hogy a Tensormesh platformon az API tokened még aktíve, és szükség esetén generálj újat. A tokent a megfelelő környezeti változóba kell helyezni — például ha ANTHROPIC_AUTH_TOKEN van beállítva a környezetedben, az felülírhatja a konfigurált API kulcsot.[3]\n\nA vLLM konfiguráció maga helyes. Az általad használt paraméterek — --tensor-parallel-size 8, --tool-call-parser minimax_m2, --reasoning-parser minimax_m2, valamint a fuse_minimax_qk_norm compilation config — összhangban vannak a MiniMaxM2.7 hivatalos vLLM telepítési útmutatójával. A hiba tehát biztosan nem a modell argumentumokon múlik.[4][5]\n\nIntermittáló 401 hibák esetén (amikor a token korábban működött) érdemes figyelembe venni, hogy ez egy ismert bug MiniMaxalapú deploymenteknél, ahol érvényes API kulcs esetén is időnként 401es hibát ad vissza a szerver. Ebben az esetben a kérés újrapróbálása vagy a token frissítése segíthet.[1]\n\n Praktikus ellenőrzőlista\n\nFuttasd le ezeket a lépéseket sorban: ellenőrizd, hogy nincse ANTHROPIC_AUTH_TOKEN vagy más, az API kulcsot felülíró környezeti változó; győződj meg arról, hogy a Tensormesh token nem járte le; és konfirmáld, hogy a régió helyes — nemzetközi felhasználóknak https://api.minimax.io, kínai felhasználóknak https://api.minimaxi.com az érvényes endpoint.[2][3]",
+      "created_at": "20260503T02:48:10.836014Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

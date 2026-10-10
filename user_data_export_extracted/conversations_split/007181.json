@@ -1,0 +1,19 @@
+{
+  "context_uuid": "99ae9b02a1cf412dafb70e5c065e41ed",
+  "context_title": "Fractal Memory Routing Network (FMRN)\n  KolmogorovArnold Network (KAN)\n  Hierarchical Temporal Memory (HTM)\n  VectorSymbolic Architectures (VSA)\n  Holographic Reduced Representations (HRR)\n  Temporal Graph Networks (TGN)\n  Sparse Distributed Memory (SDM)\n  Thinking Layer / Reasoning Layer\n  Gated Attention\n  Delta Net\nMultiScale Neural Implicit Fields (MSNIF)\n\nAdaptive Oscillatory Reservoir Array (AORA)\n\nClothoid Neural Path Integrator (CNPI)\n\n QPulse Hypergraph Network (QPHN)",
+  "created_at": "20251025T00:37:01.785486Z",
+  "updated_at": "20251025T00:37:01.785486Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9201f238d47c441498db7a17fdec68e0",
+      "query": "Fractal Memory Routing Network (FMRN)\n  KolmogorovArnold Network (KAN)\n  Hierarchical Temporal Memory (HTM)\n  VectorSymbolic Architectures (VSA)\n  Holographic Reduced Representations (HRR)\n  Temporal Graph Networks (TGN)\n  Sparse Distributed Memory (SDM)\n  Thinking Layer / Reasoning Layer\n  Gated Attention\n  Delta Net\nMultiScale Neural Implicit Fields (MSNIF)\n\nAdaptive Oscillatory Reservoir Array (AORA)\n\nClothoid Neural Path Integrator (CNPI)\n\n QPulse Hypergraph Network (QPHN)",
+      "answer": "A primary research survey of the architectures you listed is being prepared.",
+      "created_at": "20251025T00:37:01.875153Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

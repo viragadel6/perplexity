@@ -1,0 +1,55 @@
+{
+  "context_uuid": "51c7addc5ea846b5a25a9a4580063d22",
+  "context_title": "ezeknél jobb inferencia szolgaltatot keresek nagy free trial al\nAI21\nAionLabs\nAlibaba Cloud\nAmazon Bedrock\nAnthropic\nAnyscale\nAtlasCloud\nAtoma\nAvian.io\nAzure\nBaseten\nCerebras\nChutes\nCloudflare\nCloudRift\nCohere\nCrofAI\nCrusoe\nDeepInfra\nDeepSeek\nEnfer\nFeatherless\nFireworks\nFriendli\nGMICloud\nGoogle AI Studio\nGoogle Vertex\nGroq\nHuggingFace\nHyperbolic\nInception\ninference.net\nInfermatic\nInflection\nkluster.ai\nLambda\nLiquid\nMancer\nMeta\nMinimax\nMistral\nMoonshot AI\nMorph\nnCompass\nNebius AI Studio\nNextBit\nNineteen\nNovitaAI\nOpenAI\nOpenInference\nOpenRouter\nParasail\nPerplexity\nPhala\nRelace\nReplicate\nSambaNova\nSwitchpoint\nTargon\nTogether\nUbicloud\nVenice\nWeights & Biases\nxAI\nZ.AI",
+  "created_at": "20251011T05:10:23.374467Z",
+  "updated_at": "20251011T05:19:10.617230Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f50e57acc0cf41a193caf24408bae78b",
+      "query": "ezeknél jobb inferencia szolgaltatot keresek nagy free trial al\nAI21\nAionLabs\nAlibaba Cloud\nAmazon Bedrock\nAnthropic\nAnyscale\nAtlasCloud\nAtoma\nAvian.io\nAzure\nBaseten\nCerebras\nChutes\nCloudflare\nCloudRift\nCohere\nCrofAI\nCrusoe\nDeepInfra\nDeepSeek\nEnfer\nFeatherless\nFireworks\nFriendli\nGMICloud\nGoogle AI Studio\nGoogle Vertex\nGroq\nHuggingFace\nHyperbolic\nInception\ninference.net\nInfermatic\nInflection\nkluster.ai\nLambda\nLiquid\nMancer\nMeta\nMinimax\nMistral\nMoonshot AI\nMorph\nnCompass\nNebius AI Studio\nNextBit\nNineteen\nNovitaAI\nOpenAI\nOpenInference\nOpenRouter\nParasail\nPerplexity\nPhala\nRelace\nReplicate\nSambaNova\nSwitchpoint\nTargon\nTogether\nUbicloud\nVenice\nWeights & Biases\nxAI\nZ.AI",
+      "answer": "A felsorolt szolgáltatók közül több olyan is található, amelyek nagy ingyenes próbaidőszakot vagy kreditet kínálnak. Az alábbiakban a legbőkezűbb ajánlatokat nyújtó szolgáltatókat emelném ki:[1][2]\n\n Legjobb ingyenes kreditekkel\n\nBaseten a lista legbőkezűbb szolgáltatója $30 ingyenes kredittel. Ez jelentősen több, mint a legtöbb konkurens által kínált összeg, és bármely támogatott modellhez használható, mivel számítási időre alapuló fizetést alkalmaz.[2][1]\n\nModal szintén kiemelkedő ajánlatot tesz: $5/hó regisztrációkor, amely $30/hóra növekszik, ha fizetési módot adunk hozzá. Ez folyamatos kredit utánpótlást jelent.[2]\n\nNLP Cloud $15 ingyenes kredittel rendelkezik, bár telefonszámhitelesítést igényel.[2]\n\n Hosszú érvényességű ingyenes szintek\n\nAI21 $10 kreditet kínál 3 hónapra a Jamba modellek családjához.[1][2]\n\nUpstage szintén $10 kreditet biztosít 3 hónapig a Solar Pro/Mini modellekhez.[2]\n\nSambaNova $5 kreditet ad 90 napra, különböző nagy teljesítményű modellekhez való hozzáféréssel.[1][2]\n\n Teljes mértékben ingyenes szolgáltatások\n\nAki nem szeretne fizetési módot megadni, az alábbi szolgáltatók teljesen ingyenes hozzáférést kínálnak korlátokkal:[2]\n\nCerebras ingyenes hozzáférést nyújt olyan modellekhez, mint a LLaMA 3.3 70B és Qwen 3 235B, napi 1 millió token limitel.[1][2]\n\nGroq ingyenes API kulcsot biztosít rendkívül gyors inferenciával (LPU hardver), bár a limitek alacsonyabbak: 1030 RPM ingyenes szinten.[1][2]\n\nGoogle AI Studio bőkezű ingyenes hozzáférést ad Gemini modellekhez: a Gemini 2.5 Flash napi 250 kérést és percenként 250,000 tokent támogat.[2]\n\n Startup program\n\nDeepInfra nem kínál általános ingyenes szintet, de a DeepStart programon keresztül 1 milliárd tokent biztosít startupoknak.[1]",
+      "created_at": "20251011T05:10:23.451565Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "97834ba057ab4f3096257889e52a2129",
+      "query": "modal al mit tudok csinalni konkretan de erthetoen",
+      "answer": "A Modal egy Pythonalapú felhőinfrastruktúra platform, amellyel AI és gépi tanulási feladatokat futtathatsz anélkül, hogy saját szervereket kellene kezelned.[2]\n\n Mit tudsz vele csinálni konkrétan\n\nInferencia futtatása: Használhatod LLM modellek (ChatGPTszerű) futtatásához, képgeneráláshoz vagy bármilyen AI modell válaszadásához. Egyszerűen Python függvényt írsz, és a Modal automatikusan GPUkon futtatja.[2]\n\nHang és videófeldolgozás: Podcastok, audio fájlok átírása szöveggé Whisper modellel, beszédfelismerés, texttospeech generálás. A Modal párhuzamosan több száz konténert indít, így percek alatt átirsz akár órányi hanganyagot.[2]\n\nBatch feldolgozás: Nagy mennyiségű adat feldolgozása egyszerre  például ezer kép elemzése, sok dokumentum feldolgozása AIval.[2]\n\nKépgenerálás és multimédia: Zenekészítés (MusicGen), képgenerálás, videók feldolgozása párhuzamosan több GPUn.[2]\n\nModell tanítás és finomhangolás: Saját AI modellek tréningelése, meglévő modellek finomhangolása specifikus feladatokra (pl. Whisper finomhangolása szakszókincsen).[2]\n\n Hogyan működik egyszerűen\n\nNem kell Docker, YAML vagy komplikált konfigurációkat írni. Csak Python függvényeket írsz, elé teszel egy \"decorator\"t (egy @ jelet), és kész  a Modal automatikusan felhőben futtatja GPUkon. A platform másodpercek alatt indul, automatikusan skálázódik, és amikor nem használod, nullára csökken a költség.[2]",
+      "created_at": "20251011T05:13:07.169913Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "34f8dbf8aa444c44b33d935d6a9756cf",
+      "query": "es pl gpt 5 grok 4 ilyrneket modallal hogy futtatok replit en",
+      "answer": "A Modal nem úgy működik, hogy általa futtatod a GPT5öt vagy Grok 4et  ezek zárt, fizetős API szolgáltatások, amiket nem tudsz saját magad hosztolni.[1][2]\n\n Mi a különbség\n\nModal használata: Nyílt forráskódú modelleket futtatsz rajta (pl. LLaMA, Mistral, Flux képgenerálás), amiket saját GPUkon hosztolsz. Python kóddal letöltöd a modellt, és Modal automatikusan GPUn futtatja másodpercek alatt.[2]\n\nGPT5/Grok használata: Ezeket API kulccsal hívod meg közvetlenül az OpenAI vagy xAI szervereiről  nem te hosztolod őket.[3][4]\n\n Hogyan használd Repliten\n\nReplitből Modal futtatása: Van példa rá, hogy Modal kódot futtatsz Repliten. Telepíted a Modal Python csomagot, bejelentkezel (modal token new), majd futtatod a Python scriptedet.[5]\n\nOpenAI API hívása Repliten: Az OpenAI API kulcsot Replit Secretsbe mentsd, majd Pythonból közvetlenül hívd az APIt. Így éred el a GPT5öt, nem Modallal.[4][6][3]\n\npython\nimport openai\nclient = openai.OpenAI()\nresponse = client.chat.completions.create(\n  model=\"gpt-5\",\n  messages=[{\"role\": \"user\", \"content\": \"...\"}]\n)\n\n\n Összefoglalva\n\nModallal nyílt modelleket futtatni érdemes (olcsóbb, testreszabható). GPT5/Grok esetén közvetlenül az eredeti APIt hívd meg Replitből, nem Modalon keresztül.[3][4][2]",
+      "created_at": "20251011T05:14:22.127130Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "504a734f0e8a44668ea29fb36a2d63ee",
+      "query": "akkor pl modal+ replit + ",
+      "answer": "A Modal + Replit + Ling1T kombináció technikailag lehetséges, de nagy kihívást jelent a modell mérete miatt.[1][2]\n\n A Ling1T mérete és hardverigénye\n\nA Ling1T 1 trillion paraméterrel rendelkezik, amelyből ~50 milliárd aktív per token (MoE architektúra). FP8 precízióval ez több száz GB memóriát igényel  a dokumentum szerint 32 GPU tensorparallel konfiguráció szükséges a vLLM futtatásához.[3][1]\n\nHasonló méretű modellek (pl. SwitchTransformer 1.6T) 3.2 TB memóriát igényelnek tömörítetlen formában, tömörítve is 160 GB+.[4]\n\n Hogyan működne Modallal\n\nModal támogatja a vLLM deploymentet HuggingFace modellekkel. A folyamat:[2][5]\n\n1. Modalban megírsz egy Python scriptet, amely letölti a modellt HuggingFaceről[6][2]\n2. Definiálsz egy GPU konfigurációt (pl. gpu.A100(count=32))[6]\n3. Modal vLLM szervert indít, amely OpenAIkompatibilis APIt szolgáltat[2]\n4. Replitből ezt az APIt hívod meg, mint bármely OpenAI APIt[2]\n\n A valóság: költség és limitek\n\nModal ingyenes kreditje ($530) néhány másodperc futásra elegendő 32xA100 GPUkon. Az A100 GPU óránként több dollárba kerül, 32 GPU pedig több száz dollár/óra.[7][3]\n\nA Ling1T doksi ZenMux APIt ajánl alternatívaként, ahol a modell már hosztolva van, és az API kulccsal érhető el. Ez jóval praktikusabb Replitből.[1]\n\n Amit valóban tudsz csinálni\n\nKisebb nyílt modellek Modalon (730B paraméter): Mistral, LLaMA 3, Gemma  ezek 12 GPUn futnak, és a Modal kredit fedezi a tesztelést.[6][2]\n\nLing1T használata: A ZenMux APIt hívd Replitből, nem Modallal hosztolva.[1]",
+      "created_at": "20251011T05:17:50.374085Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "cc4cf7327a834e129215716c14e157bb",
+      "query": "de modal ba hol a rakba irok kodot kezdjuk ott",
+      "answer": "A Modalba NEM egy webes szerkesztőbe írsz kódot  a saját gépeden dolgozol, és a kód a felhőben fut.[1][2]\n\n Hogyan kezdd el\n\n1. Telepítés a saját gépeden\n\nbash\npip install modal\nmodal setup\n\n\nEz telepíti a Modal Python csomagot és bejelentkezteti a fiókodba.[2][1]\n\n2. Kód írása helyben (VS Code, PyCharm, bármi)\n\nKészítesz egy Python fájlt a saját gépeden, pl. hello.py:[3][2]\n\npython\nimport modal\n\napp = modal.App(\"hello\")\n\n@app.function()\ndef hello():\n    print(\"Hello Modal!\")\n    return \"Működik!\"\n\n\nEz egy normális Python fájl a saját gépeden, csak van benne pár Modal decorator (@app.function()).[1][2]\n\n3. Futtatás felhőben\n\nbash\nmodal run hello.py\n\n\nA Modal ekkor:\n Fogja a kódodat\n Automatikusan konténerbe csomagolja\n Felhőben futtatja (GPUval ha kell)\n Az outputot visszaküldi neked[2][1]\n\n Replit + Modal kombináció\n\nRepliten is telepítheted a Modalt:[4][5]\n\n1. Replit project létrehozása (Python)\n2. Shellben: pip install modal\n3. modal setup  bejelentkezés\n4. Python fájl írása Replit editorban\n5. Futtatás: modal run myfile.py\n\nA kód a Replit editorban van, de a futás a Modal felhőjében történik. Nem kell semmilyen webes Modal interfészen dolgoznod  minden a megszokott kódszerkesztődben zajlik.[6][1][2]",
+      "created_at": "20251011T05:18:48.120221Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

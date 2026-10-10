@@ -1,0 +1,19 @@
+{
+  "context_uuid": "af0e746801c84e4483e7dfc8989101c9",
+  "context_title": "cerebras sebesegget meghalado ai szolgaltatas , nagyon ismeretlen, ingyenes proba idot ad",
+  "created_at": "20250828T18:59:44.934122Z",
+  "updated_at": "20250828T18:59:44.934122Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "ee412620fed64ca78c5a926a68f4e6f1",
+      "query": "cerebras sebesegget meghalado ai szolgaltatas , nagyon ismeretlen, ingyenes proba idot ad",
+      "answer": "Cerebras sebességet meghaladó AI szolgáltatás: \"Cerebras exceeding speed AI services, very unknown, free trial AI inference platforms faster than Cerebras waferscale engine\"\n\nCerebras sebességet meghaladó AI szolgáltatás: \"obscure ultrafast AI inference services free trial, unknown alternatives beating Cerebras WSE3 speed, underdog AI platforms with free tokens exceeding Cerebras performance\"[1][2][3][4]",
+      "created_at": "20250828T18:59:45.413404Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "59cfb70fe46c4e608776df60048effca",
+  "context_title": "?",
+  "created_at": "20251002T03:02:24.136678Z",
+  "updated_at": "20251002T03:02:24.136678Z",
+  "mode": "COPILOT",
+  "collection_uuid": "7f837628915c4c889bbd3c7dfcba471f",
+  "entries": [
+    {
+      "entry_uuid": "d5cc2f718a9d491787b0019ca48d3e9d",
+      "query": "?",
+      "answer": "A legjobb nyers kód a „bybmh.txt”, mivel ez a fájl rendelkezik a legmagasabb komment­sűrűséggel (0,003) és egyúttal kiemelkedően magas függvény­sűrűséggel (0,070), ami a legjobb egyensúlyt biztosítja a dokumentáltság és a moduláris felépítés között.",
+      "created_at": "20251002T03:02:24.404371Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

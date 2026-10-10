@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1606ecccb5e04e17a33700c22391eeee",
+  "context_title": "Szíjtárcsa amgolul",
+  "created_at": "20251025T09:16:31.360168Z",
+  "updated_at": "20251025T09:16:31.360168Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "90f3660d856b484fb2ca5cfd8f740eaa",
+      "query": "Szíjtárcsa amgolul",
+      "answer": "A „szíjtárcsa” angolul leggyakrabban pulley vagy belt pulley formában fordul elő.[1][6]\n\n Gyakori változatok\n Általános műszaki értelemben: belt pulley (vagy egyszerűen pulley).[6][1]\n Főtengely szíjtárcsa: crankshaft pulley; gyakran harmonic balancer néven is említik.[3][4][5]\n Ékszíjtárcsa: Vbelt pulley.[2]",
+      "created_at": "20251025T09:16:31.453639Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

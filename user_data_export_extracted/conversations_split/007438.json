@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d763ff7a5e714b0a9f24f2c5c636a528",
+  "context_title": "",
+  "created_at": "20251018T12:39:26.440029Z",
+  "updated_at": "20251018T12:39:26.440029Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "994220e246f04e0c95cb504c80613d4b",
+      "query": "",
+      "answer": "A FactGrid egy Wikibasealapon működő platform történelmi adatok kezelésére. Célja egy ingyenes, kiterjedt és egységes névterű adatbázis biztosítása történelmi információk számára. A FactGrid lehetővé teszi, hogy a felhasználók különböző nyelveken címkézzék és kezeljék az adatokat, több nyelven is elérhetővé téve azokat. A szoftver rugalmas, és már most is több százezer elemet tartalmaz részletes történelmi adatokkal. Emellett együttműködnek nagy adatforrásokkal, például a Német Nemzeti Könyvtárral, hogy bővítsék az adatbázist. A platform lehetőséget kínál közös kutatási projektek támogatására is, bár jelenleg a felhasználói felület és a keresési funkciók tovább fejlesztésre szorulnak. Az összes adat CC0 licenc alatt érhető el, tehát szabadon használható. További információk elérhetők a FactGrid hivatalos oldalán, amely az összes entitást és tulajdonságot több nyelven is képes kezelni, így támogatva a széles körű kutatási és oktatási célokat.[1][2]",
+      "created_at": "20251018T12:39:27.130495Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

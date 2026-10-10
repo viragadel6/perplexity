@@ -1,0 +1,19 @@
+{
+  "context_uuid": "ed3c34fc22324cff982c8ff682c5ee35",
+  "context_title": "jt 4.1 flash",
+  "created_at": "20260716T23:07:40.040059Z",
+  "updated_at": "20260716T23:08:03.517425Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ab1498265b184c85b2c4828c2945fb6e",
+      "query": "jt 4.1 flash",
+      "answer": "A JT4.1 Flash (teljes nevén JT4.1 Flash 236B A21B) a China Mobile 2026. július 9én bemutatott, nagy teljesítményű, nemreasoning típusú nyelvi modellje.[1][2]\n\n Mi ez a modell?\n\nA China Mobile saját AIsorozatának legújabb Flashtagja, amely a korábbi JT35BFlash (2025. május 14.) utódja. A „Flash” elnevezés a gyors, hatékony válaszadásra utal: a modell nem végez hosszadalmas belső gondolkodási láncot (chainofthought), hanem közvetlenül ad választ.[2][1]\n\nA modell paraméterszáma 236 milliárd, amiből 21 milliárd aktív (A21B = active 21B). Ez a MoE (MixtureofExperts) architektúrára utal, amely lehetővé teszi, hogy a teljes modell nagy legyen, de a futás során csak a szükséges részek aktiválódjanak, így gyorsabb és olcsóbb a használat.\n\n Fő technikai adatok\n\nA JT4.1 Flash 256 ezer tokenes kontextusablakkal rendelkezik, és jelenleg szövegalapú bemenetet és kimenetet támogat (egyes források szerint később képbemenetet is kaphat).[1][2]\n\nAz Artificial Analysis Intelligence Index v4.1 szerint 39 pontot ért el, ami jelentős ugrás a JT35BFlashhez képest. Ez a pontszám a kínai modellek élmezőnyéhez közelíti: a GLM5.2 51, a Qwen3.7 Max 46 pontot ért el, így a JT4.1 Flash a kínai frontier modellek közé emelkedett.[2][1]\n\n Teljesítmény a benchmarkokon\n\nA modell különösen erős a banki és pénzügyi feladatokban (τ³Banking): 28%os eredményt ért el, amivel a legjobb kínai modellek közé tartozik (DeepSeek V4 Pro 26%, GLM5.2 27%, a világelső GPT5.6 Sol pedig 33%).[1]\n\nAz AAOmniscience Indexen –10,1 pontot szerzett, ami +13,1 pontos javulás a korábbi Flash modellhez képest. A hallucináció aránya 43%ra csökkent (korábban jóval magasabb volt), miközben a kérdések 59%ára próbál válaszolni (a JT35BFlash még 74%ot próbált meg).[1]\n\nA Humanity’s Last Exam (HLE) nehéz indoklási teszten 16,1%ot ért el (a JT35BFlash csak 6%ot). Érdekes módon, noha nem reasoningmodell, átlagosan 28 ezer kimeneti tokent generált feladatonként, ami magasabb, mint sok reasoningmodellé.[3][1]\n\nTokenhatékonyság szempontjából is jó: az Intelligence Index feladatokon körülbelül 14 ezer tokent használ, ami a nemreasoning modellek között kedvező.[3]\n\n Elérhetőség és ár\n\nA modell zárt forráskódú (proprietary), és elsősorban a China Mobile saját APIján keresztül érhető el. 2026. július közepén még nem volt széles körben elérhető harmadik féltől származó szolgáltatóknál.[4][2]\n\nAz Artificial Analysis adatai szerint az input és output tokenár jelenleg 0,00 USD / 1 millió token (azaz rendkívül kedvező vagy belső használatra optimalizált árazás).[2]\n\n Hol áll a versenyben?\n\nA JT4.1 Flash a China Mobile eddigi legkomolyabb lépése a kínai nagy nyelvi modellek élmezőnyébe. Bár még nem éri el a GLM5.2 vagy a Qwen3.7 Max szintjét, a Flashsorozat gyors fejlődése (májustól júliusig) azt mutatja, hogy a China Mobile agresszívan zárkózik fel.[1]\n\nÖsszefoglalva: a JT4.1 Flash 236B A21B egy gyors, hatékony, nemreasoning, kínai nagy nyelvi modell, amely 2026 júliusában jelent meg, 39 pontos Intelligence Indexeredménnyel, erős banki teljesítménnyel és jelentősen csökkentett hallucinációval.",
+      "created_at": "20260716T23:07:40.218726Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

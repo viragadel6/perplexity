@@ -1,0 +1,28 @@
+{
+  "context_uuid": "0a1434d845ff46cea5df58c09ad2e0f4",
+  "context_title": "Ez mire jo ",
+  "created_at": "20250710T08:15:10.554859Z",
+  "updated_at": "20250710T08:16:27.174947Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "250e156ba5924986b8ac5f4d3e39aff6",
+      "query": "Ez mire jo ",
+      "answer": " Mire jó a ConnectKit alkalmazás?\n\nA ConnectKit egy fejlesztőeszköz, amely lehetővé teszi, hogy az Apple App Store Connect APIját egyszerűen elérd és használd az iOS Shortcuts (Parancsok) alkalmazással[1].\n\n Fő funkciók\n\n APIkulcs biztonságos tárolása: Az App Store Connect APIkulcsot biztonságosan tárolja, és iCloudon keresztül szinkronizálja az eszközeid között.\n JWT generálás: Lehetővé teszi JSON Web Token (JWT) létrehozását, amely szükséges az App Store Connect API hitelesítéséhez.\n Shortcut integráció: Különböző Shortcut műveleteket kínál, például:\n   Lekérheted az alkalmazásaid listáját\n   Megnézheted az alkalmazásod értékelési státuszát\n   Lekérheted a teljes alkalmazásszámot\n   Lekérheted a TestFlight felhasználók számát\n   Lekérheted pénzügyi vagy értékesítési jelentéseidet\n\n Kinek ajánlott?\n\n Fejlesztőknek, akik automatizálni szeretnék az App Store Connect műveleteket (pl. jelentések letöltése, alkalmazásadatok lekérdezése).\n Azoknak, akik gyakran dolgoznak az Apple fejlesztői platformján, és szeretnék gyorsítani, egyszerűsíteni a napi feladataikat.\n\n Egyéb tudnivalók\n\n Az alkalmazás ingyenes, de bizonyos prémium Shortcut műveletek alkalmazáson belüli vásárlással érhetők el.\n Nem gyűjt felhasználói adatokat.\n Kompatibilis iPhone, iPad, iPod touch, Mac és Apple Vision eszközökkel (iOS 15.0, iPadOS 15.0, macOS 12.0 vagy újabb szükséges).\n Az alkalmazás nyelve: angol.\n\n Példák, mire használható:\n\n Automatikus jelentésletöltés minden hónapban\n Értékelési státuszok gyors ellenőrzése\n TestFlight tesztelők számának lekérdezése egy gombnyomással\n\nEz az alkalmazás tehát főként fejlesztőknek hasznos, akik szeretnék az App Store Connect funkcióit gyorsan, automatizált módon elérni saját Apple eszközeiken keresztül[1].",
+      "created_at": "20250710T08:15:10.687218Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "a442ae742c2047daac8fce9bb07bd8f7",
+      "query": "Pythonos webappomba tudom hasznositani?",
+      "answer": " Használhatóe a ConnectKit egy Pythonos webappban?\n\nRöviden:  \nA ConnectKit alkalmazás (amelyet az App Storeból letölthetsz) kifejezetten iOS/macOS rendszerekre és az Apple Parancsok (Shortcuts) automatizálására készült, nem pedig Pythonos webalkalmazásokhoz. Maga a ConnectKit nem kínál közvetlen Python vagy webes APIt, amit közvetlenül beépíthetnél egy Pythonos webappba[1].\n\n Mit tehetsz, ha Pythonos webappból szeretnéd elérni az App Store Connect APIt?\n\n Közvetlen APIhasználat:  \n  A ConnectKit által kínált funkciók (pl. alkalmazáslista lekérése, jelentések letöltése) mögött az App Store Connect hivatalos REST APIja áll. Ezt az APIt közvetlenül is elérheted Pythonból, függetlenül a ConnectKit alkalmazástól[2][3][4][5][6].\n Python könyvtárak:  \n  Létezik hivatalos és közösségi Pythoncsomag is az App Store Connect APIhoz, például az appstoreconnect nevű pip csomag[6].  \n  Ezzel egyszerűen tudsz hitelesíteni (JWT tokennel) és lekérdezéseket indítani.\n Fő lépések:\n   APIkulcs generálása az Apple fejlesztői portálján.\n   JWT token generálása Pythonban.\n   REST API hívások indítása (pl. alkalmazáslista, jelentések, értékelések lekérése).\n\n Példa Pythonos megoldásra\n\npython\nimport requests\nimport jwt\nimport time\n\ndef generate_token(key_id, issuer_id, private_key):\n    payload = {\n        'iss': issuer_id,\n        'exp': int(time.time()) + 1200,\n        'aud': 'appstoreconnect-v1'\n    }\n    headers = {'kid': key_id}\n    return jwt.encode(payload, private_key, algorithm='ES256', headers=headers)\n\ntoken = generate_token('KEY_ID', 'ISSUER_ID', 'PRIVATE_KEY')\nheaders = {'Authorization': f'Bearer {token}'}\nresponse = requests.get('https://api.appstoreconnect.apple.com/v1/apps', headers=headers)\nprint(response.json())\n\nEz a példa közvetlenül az Apple APIját használja, nem a ConnectKitet[2][3][4].\n\n Összefoglalva\n\n A ConnectKit alkalmazás nem integrálható közvetlenül Pythonos webappba.\n Az App Store Connect APIt viszont Pythonból natívan, külön eszköz nélkül is elérheted.\n Ehhez csak APIkulcs és néhány Python könyvtár szükséges.\n\nHa szükséged van konkrétabb példára vagy lépésről lépésre útmutatóra, szívesen segítek!",
+      "created_at": "20250710T08:16:09.144576Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

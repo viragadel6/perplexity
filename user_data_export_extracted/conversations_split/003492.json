@@ -1,0 +1,19 @@
+{
+  "context_uuid": "72c93cf7a02f4c45bd26971314baf1ff",
+  "context_title": "paste.txt",
+  "created_at": "20260314T17:03:49.031864Z",
+  "updated_at": "20260314T17:03:49.031864Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3bff982f9dc64644bb0c3770fe8f16fe",
+      "query": "paste.txt",
+      "answer": "",
+      "created_at": "20260314T17:03:49.151202Z",
+      "label": null,
+      "query_status": "PENDING",
+      "engine_mode": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7cd82fec53af41e9b1c7e1ed894db67b",
+  "context_title": "2003.04.16án telihold volt?",
+  "created_at": "20251222T09:44:51.569376Z",
+  "updated_at": "20251222T09:44:51.569376Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "87cde8a675124e8eb164dda1029c7593",
+      "query": "2003.04.16án telihold volt?",
+      "answer": "2003. április 16án telihold volt. A telihold egészen pontosan 21:36kor következett be ezen a napon.[1]\n\nNéhány további adat a 2003. április 16i holdfázissal kapcsolatban:\n   Időpont: 21:36 (magyar idő szerint)[1]\n   Holdfázis: Telihold[1]\n   Előző újhold: 2003. április 1. 21:20[1]\n   Következő újhold: 2003. május 1. 14:16[1]\n\nEzt a dátumot megelőzően az áprilisi újhold április 1jén volt, a következő telihold pedig május 16án következett be.[1]",
+      "created_at": "20251222T09:44:51.677536Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

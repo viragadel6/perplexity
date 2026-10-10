@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2c31757f3cf447b09bebf0586c396d78",
+  "context_title": "ez?",
+  "created_at": "20260316T15:37:34.922221Z",
+  "updated_at": "20260316T15:38:35.527193Z",
+  "mode": "COPILOT",
+  "collection_uuid": "64a545d57a194713a7e8ed4f506afa7d",
+  "entries": [
+    {
+      "entry_uuid": "fd9dec59eb9e498d896a7f2d805832f2",
+      "query": "ez?",
+      "answer": "A Spaceutasítás alapján a kérdésed erre irányul: ez valós formális verifikációs bizonyítás, vagy csak egyszerűsített mock/placeholder/dummy/szimulált fake?\n\n A két fájl szerepe\n\nA két feltöltött fájl egy RSF (Realvalued Scalar Flow / skálázóeltolás folyam) nevű neurális hálózati architektúra két különböző megvalósítása:[1][2]\n\n rsf_fixed.zig.txt — a tényleges, futtatható Zig nyelvű implementáció, amely valódi memóriakezeléssel, GPU gyorsítással, hátrafelé terjedéssel (backpropagation), fájlmentéssel és CRC32 ellenőrzőösszeggel dolgozik.[1]\n RSF.txt — egy Lean 4 nyelvű formális specifikáció és bizonyításhalmaz, amely teorémákat, struktúradefiníciókat és azok bizonyításait tartalmazza.[2]\n\n Valós bizonyítás vagy fake?\n\nEz egy részben valós, de szándékosan korlátozott formális verifikáció — nem egyszerű placeholder, de nem is teljes körű ipari szintű bizonyítás. Íme a részletek:\n\nAmi valódi és érdemi benne: A Leanfájl valódi Lean 4 szintaxissal írt, és tartalmaz bizonyítható állításokat — például checkedMulok, validateTensor2Dok, LayerCore.forwardInPlaceoverlap stb. Ezek nem üres deklarációk: Eq.refl, Eq.subst, nomatch, és hasonló taktikák láthatók bennük, amelyek ténylegesen ellenőrizhetők a Lean typecheckerrel. A CRC32tábla és a crc32Tableget255 theorem például megadja a konkrét értéket és annak egyenlőségi bizonyítását is.[2]\n\nAmi viszont hiányos vagy leegyszerűsített: Több kulcsfontosságú függvény — mint az RSF.load, RSF.loadWithConfig, RSF.save — stub/placeholder implementációt kapott a Leanfájlban (pl. Except.ok registry, id 0), amelyek nem modellezik a tényleges fájlbeolvasás logikáját. A noncomputable jelölés számos aritmetikai és lebegőpontos függvénynél azt jelzi, hogy ezek nem futtathatók Leanben, csupán matematikai modellként szolgálnak. Az olyan teorémák, mint LayerCore.computeTranslationIntodimeq, szintén triviálisan Eq.refllel bizonyíthatók, mert lényegében tautológiák.[2]\n\nA valódi cél: A Leanfájl elsősorban arra szolgál, hogy a Zigimplementáció logikai viselkedési tulajdonságait — hibaesetek kezelése, tensoralakok konzisztenciája, aliasingvédelem, gradienskezelés idempotenciája — formálisan rögzítse és részben bizonyítsa. Ez egy ún. \"specification companion\" megközelítés: nem a futtatható kód kerül bizonyításra, hanem egy absztrakt modellje.[2]\n\n Összefoglalva az értékelést\n\n| Szempont | Értékelés |\n|||\n| Lean szintaxis helyessége | ✅ Valódi Lean 4 kód [2] |\n| Kritikus útvonalak bizonyítása | ✅ Részben valódi (overlap, shape, gradients) [2] |\n| Teljes körű verifikáció | ❌ Hiányos (save/load stub, noncomputable korlátok) [2] |\n| Futtatható Lean kód | ❌ Csak specifikáció, nem extrahálható |\n| Ipari minőségű formális proof | ❌ Kutatási/demonstrációs szintű |\n\nTehát: nem fake, nem placeholder — de nem is teljes formális bizonyítás. Egy jól strukturált, részlegesen bizonyított formális specifikáció, amely a Zigkód mellé készült, és a kritikus biztonsági tulajdonságok (overflow, aliasing, shapemismatch) kezelését valóban igazolja, de a teljes implementációs logikát (különösen I/O, GPU szinkronizáció) csak absztrakt szinten modellezi.[1][2]",
+      "created_at": "20260316T15:37:35.140994Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

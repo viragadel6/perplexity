@@ -1,0 +1,19 @@
+{
+  "context_uuid": "86455bc8c67742eda5a1715f7930e966",
+  "context_title": "van topaz labs api kulcsom de nem talalom auokat a docsokat amikkel tudom integralni sajat appomba",
+  "created_at": "20251129T03:21:36.822295Z",
+  "updated_at": "20251129T03:21:36.822295Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5de18a92ae9847d3bfc1eedfb485bad4",
+      "query": "van topaz labs api kulcsom de nem talalom auokat a docsokat amikkel tudom integralni sajat appomba",
+      "answer": "Szuper hír, hogy már rendelkezel API kulccsal! A Topaz Labs fejlesztői dokumentációja – amely gyakran nehezen található meg a főoldalról – egy külön dedikált portálon érhető el.\n\nItt találod a szükséges dokumentációkat az integrációhoz:\n\n 1. A hivatalos dokumentáció helye\nA fejlesztői portál címe: .[1]\n\nEzen az oldalon belül két fő részre van bontva a leírás, attól függően, hogy képeket vagy videókat szeretnél feldolgozni:\n   Általános API Referencia:  – Itt látod a végpontokat (endpoints) és a paramétereket.[2]\n   Image API (Kép): Részletes útmutató a képjavító modellek (upscaling, denoising) használatához.[3]\n   Video API: Útmutató a videók felskálázásához és javításához.[4]\n\n 2. Hogyan használd a kulcsodat (Authentikáció)\nA dokumentáció alapján a kapott API kulcsot a HTTP kérések header részében kell elküldened. Nem a query stringben (az URL végén), hanem fejléc adatként.\n\nA formátum a következő:[3][4]\n   Header neve: X-API-Key\n   Értéke: AZ_TE_API_KULCSOD\n\nPélda egy curl kérésre (Video API esetén):\nbash\ncurl --request POST \\\n  --url https://api.topazlabs.com/video/ \\\n  --header 'X-API-Key: AZ_TE_API_KULCSOD' \\\n  --header 'Content-Type: application/json' \\\n  ...\n\n\n 3. API Playground\nÉrdemes kipróbálnod az \"API Playground\" funkciót is, amit nemrég indítottak el. Ez lehetővé teszi, hogy közvetlenül a böngészőből teszteld a hívásokat a saját kulcsoddal, mielőtt megírnád a kódot az alkalmazásodban.[5]\n\nHa esetleg elakadnál, a dokumentációban találsz példakódokat (request/response mintákat) is, amelyek segítenek a helyes JSON struktúra összeállításában.[2]",
+      "created_at": "20251129T03:21:36.958065Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

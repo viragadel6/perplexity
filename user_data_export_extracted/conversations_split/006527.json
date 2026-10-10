@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2e8146e747c44790ae410486a39155a2",
+  "context_title": "Keresek olyan fizetési link szolgáltatót (mint a paygate.to, de NE azt), amely támogatja az Apple Payt, Google Payt és bankkártyás fizetést, nem igényel business regisztrációt/KYCt, és a pénz maximum 1 órán belül megérkezik a számlámon – milyen alternatívák vannak?",
+  "created_at": "20251109T15:20:42.529629Z",
+  "updated_at": "20251109T15:20:42.529629Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "be0373f433944a3a91856a4a2083e7e9",
+      "query": "Keresek olyan fizetési link szolgáltatót (mint a paygate.to, de NE azt), amely támogatja az Apple Payt, Google Payt és bankkártyás fizetést, nem igényel business regisztrációt/KYCt, és a pénz maximum 1 órán belül megérkezik a számlámon – milyen alternatívák vannak?",
+      "answer": "Payment link providers supporting Apple Pay, Google Pay, and bank card payments with instant or under 1 hour payouts, no business registration or KYC required, usable with personal accounts, alternatives to paygate.to  \n\nOlyan fizetési link szolgáltatók, amelyek támogatják az Apple Payt, Google Payt és bankkártyás fizetést, a kifizetés azonnali vagy legfeljebb 1 órán belüli, nem igényelnek cégregisztrációt/KYCt, magánszemélyként is használhatók, paygate.to alternatívák",
+      "created_at": "20251109T15:20:43.358401Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

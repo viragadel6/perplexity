@@ -1,0 +1,19 @@
+{
+  "context_uuid": "df644a74caa541ce953af4d37bb8a122",
+  "context_title": "",
+  "created_at": "20251229T10:12:59.202926Z",
+  "updated_at": "20251229T10:12:59.202926Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "06eadf1ba2cc4d2bad79eb509ff7bdc1",
+      "query": "",
+      "answer": "A Xposzt egy iPhonetrükköt mutat be, amivel elveszett telefon esetén távolról fotót készíthetsz a tolvajról és megkapod a helyadatait egy kulcsszóra (pl. \"LOST\") küldésével.  2025. december 27én posztolta, több mint 1,6 millió megtekintéssel.[1]\n\n Lépések iPhoneon\nNyisd meg a Rövidítések (Shortcuts) appot, válaszd az Automatizálás fület, majd koppints a Személyes automatizálás létrehozása gombra. Válaszd az Üzenet triggert, állítsd be a kulcsszót (pl. LOST), majd add hozzá ezeket a műveleteket sorrendben:[1]\n Állítsd Alacsony fogyasztás mód → BE.\n Készíts Fotót → Előlapi kamera (előnézet KI).\n Szerezd meg a jelenlegi helyet.\n Küldj üzenetet a saját számládra (fotó + helyadat).[1]\nKapcsold ki az Előtti futtatás kérdés és Futtatáskor értesítés opciókat, hogy automatikusan fusson.[1]\n\n Android alternatíva\nAndroidon töltsd le a MacroDroid appot (ingyenes), és hozz létre hasonló makrót a tolvaj azonosítására.[2]\n\n Figyelmeztetés\nEz biztonsági funkcióként működhet, de ellenőrizd az Apple irányelveit a Shortcuts használatára, és ne sértsd a törvényeket adatgyűjtéssel. A poszt vírusként terjedt, 10 ezer likekal és 1300 reposttal.[1]",
+      "created_at": "20251229T10:12:59.338680Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

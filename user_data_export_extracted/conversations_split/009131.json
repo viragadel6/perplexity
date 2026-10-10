@@ -1,0 +1,28 @@
+{
+  "context_uuid": "d7fe86fd53e942058b6e9c6201ef908c",
+  "context_title": "Legmagadabb minosegi open source szegedi three bank",
+  "created_at": "20250810T03:09:44.834775Z",
+  "updated_at": "20250810T03:10:54.718768Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "cefeb359379c4683b6293ffa6421aa7b",
+      "query": "Legmagadabb minosegi open source szegedi three bank",
+      "answer": "Úgy tűnik, a kérdésben több elgépelés van, ezért pontosítok, hogy gyorsan segíthessek:\n\nEzt értetted?\n “Legmagasabb minőségű opensource szegedi Three Bank”?\n Vagy: “Legmagasabb minőségű opensource (projektek) Szegeden – three (három) bank/megoldás?”\n Esetleg: “Legmagasabb minőségű opensource ‘Three.js’ bank (gyűjtemény)?”\n\nKérlek, írd le egy mondatban, mit keresel (pl. opensource banki szoftverek, Szegedhez köthető nyílt forráskódú projektek, vagy Three.jshez kapcsolódó magas minőségű opensource példák). Ha sürgős, megadhatod a kulcsszavakat magyarul vagy angolul, és azonnal listázom a releváns találatokat forrásokkal.",
+      "created_at": "20250810T03:09:45.003355Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "fa1467d9338740169d1a3421302e34d4",
+      "query": "1",
+      "answer": " Mit szerettél volna a “1” üzenettel?\n\nAz előző kérdés (“Legmagadabb minosegi open source szegedi three bank”) valószínűleg elgépelés volt, és három irányt jelezhet:\n Szegedhez köthető opensource fejlesztések/minőségbiztosítás (pl. SZTE Szoftverfejlesztés Tanszék, ipari banki partnerekkel) [1][2][3].\n “Three.js” opensource források/útmutatók (három=three) [4][5][6].\n Szegedi bankfiókok, “három bank” címszóval (pl. MBH, OTP, K&H/Erste/Raiffeisen) [7][8][9].\n\nHa az “1” azt jelenti, hogy az első témát kéred (Szeged + open source + minőség), rövid, hasznos összefoglaló:\n\n Az SZTE Szoftverfejlesztés Tanszéke kódminőség és tesztelési kutatásokkal, ipari projektekkel foglalkozik; partnerei közt szerepel Erste és CIB Bank is, ami a banki szoftverminőség helyi kapcsolódását jelzi [1].  \n A tanszék több nagy projektben vett részt, pl. egységes szoftverminőségi platform (SIKK) és életciklusmódszertan (RÉM), ami folyamatos méréssel kontrollálja a minőségi attribútumokat [2].  \n Szegedi kötődésű ipari szereplő a FrontEndART is, amely kutatási és pályázati együttműködésekkel kapcsolódik a minőségbiztosításhoz [3].\n\nHa a “2” lenne a választásod (Three.js open source), itt a gyors start:\n\n Hivatalos oldal és példák: Three.js dokumentáció, példatár, letöltés [6].  \n SZTEs jegyzet magyarul: “Three.js üzembe helyezése” – helyi, magyar nyelvű alapozó [4].  \n Ingyenes tananyagok/források: könyv PDF (Learning Three.js), közösségi tutorialok, textúra/TSL gyűjtemény [5][10][11].\n\nHa a “3” lenne (három bank Szegeden, gyakorlati infók):\n\n Szegeden több bankfiók elérhető; a Tourinform gyűjti az OTP, Erste, K&H, UniCredit, MBH és Raiffeisen címeket [7].  \n Konkrét példa: MBH Bank Széchenyi tér 3. – nyitvatartás és fiókadatok elérhetők banki és aggregátor oldalakon [8][12].  \n K&H Széchenyi tér 9. – részletes nyitva tartás és szolgáltatások a bank hivatalos oldalán [9].\n\nKérlek írd be: 1 (Szeged + open source + minőség), 2 (Three.js források), vagy 3 (Szegedi “három bank”/fiókok). Melyikre van szükség? [1][2][3][6][4][5][7][8][9]",
+      "created_at": "20250810T03:10:38.785551Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

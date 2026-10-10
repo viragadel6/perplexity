@@ -1,0 +1,28 @@
+{
+  "context_uuid": "56bf14b2dad74ecbb7bc98752e266e60",
+  "context_title": "irj egy pelda Fehérje szekvencia (aminosavak)",
+  "created_at": "20250809T06:40:02.768110Z",
+  "updated_at": "20250809T06:40:43.138189Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c85d9167f4f144e0abcf70fb1760f44f",
+      "query": "irj egy pelda Fehérje szekvencia (aminosavak)",
+      "answer": "Egy egyszerű példa egy rövid fehérje (polipeptid) aminosavszekvenciájára: MAVSEQLKQK. [1]\n\n A fehérjék az aminosavak lineáris láncaiból állnak, amelyeket peptidkötések kapcsolnak össze, és az aminosavak sorrendjét aminosavszekvenciának (primer szerkezet) nevezzük. [1]\n A szekvenciát az Nterminálistól a Cterminális felé írjuk le, egybetűs vagy hárombetűs aminosavkódokkal (pl. M=A metionin, A=alanin, V=valin). [1]\n A fehérje minden tulajdonságát alapvetően ez a sorrend határozza meg, mert a primer szerkezet meghatározza a magasabb szintű térszerkezeteket is. [5]",
+      "created_at": "20250809T06:40:02.888215Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "70abf43034144c13baf71805b01495d4",
+      "query": "de egy peldat",
+      "answer": "Persze! Íme egy rövid fehérje (polipeptid) szekvencia példája egybetűs kóddal:\nMAVSEQLKQK\n\nUgyanez hárombetűs kódokkal:\nMetAlaValSerGluGlnLeuLysGlnLys\n\nHa szeretnél hosszabb vagy konkrét funkciójú fehérjeszekvenciát, írd meg, mire gondolsz (pl. enzim, membránfehérje, jelpeptid).",
+      "created_at": "20250809T06:40:31.464052Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

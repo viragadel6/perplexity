@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d1b3b73c37dc491e8466cb6d15c863a7",
+  "context_title": "hany foundation llm letezik",
+  "created_at": "20250903T18:45:22.073779Z",
+  "updated_at": "20250903T18:45:22.073779Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7c9e63ab9bad4d80b6ca63bde3a55d9c",
+      "query": "hany foundation llm letezik",
+      "answer": "A foundation modellek és nagy nyelvi modellek (LLMek) számát pontosan meghatározni nehéz feladat, mivel a terület rendkívül gyorsan fejlődik és új modellek folyamatosan jelennek meg.\n\n Mi a foundation model?\n\nA foundation modellek olyan mesterséges intelligencia modellek, amelyeket hatalmas adathalmazokon képeznek ki, és széles körű felhasználási esetekre alkalmazhatóak[1][2]. A nagy nyelvi modellek (LLMek) a foundation modellek egy speciális kategóriája, amely kifejezetten nyelvi feladatokra összpontosít[2].\n\n Jelenlegi helyzet 2025ben\n\n Főbb foundation LLMek\n\nA legfontosabb foundation LLMek között találjuk:\n\nOpenAI modellek:\n GPT sorozat (GPT4o, GPT4.5, GPT5)\n OpenAI o1, o3 és o4mini reasoning modellek[3]\n\nGoogle modellek:\n Gemini sorozat (Gemini 2.0 Flash, Pro, FlashLite, FlashThinking)[3]\n BERT, PaLM 2, T5[4]\n\nMeta modellek:\n Llama sorozat (Llama 3.1, 3.2, 3.3, 4)[4][3]\n\nAnthropic modellek:\n Claude sorozat (Claude 3, 3.5, 3.7, 4)[4][3]\n\nKínai modellek:\n DeepSeek (DeepSeekR1, DeepSeekV3)[3]\n Qwen sorozat (Qwen2, Qwen2.5, Qwen3)[4][3]\n Ernie 3.0 Titan (Baidu)[4]\n\nEgyéb jelentős modellek:\n Falcon sorozat (Technology Innovation Institute)[4][3]\n Mistral AI modellek[3]\n IBM Granite sorozat[3]\n Grok sorozat (xAI)[4][3]\n\n Becsült számok\n\nA Wikipedia listája alapján több mint 70 jelentős LLM modellt azonosíthatunk[4], azonban ez csak a legfontosabb, publikusan dokumentált modelleket tartalmazza. Ha figyelembe vesszük:\n\n Nyílt forráskódú modellek: Hugging Face platformon több ezer modell érhető el[5]\n Kereskedelmi modellek: Számos vállalat fejleszt saját belső modelleket\n Kutatási modellek: Egyetemek és kutatóintézetek által fejlesztett modellek\n Különböző paraméterméretű variánsok: Ugyanazon modellcsaládból több méret létezik\n\nA teljes szám valószínűleg több száz vagy akár több ezer foundation LLMet jelent, ha minden variánst és specializált modellt figyelembe veszünk.\n\n Folyamatos fejlődés\n\n2025ben a foundation LLMek száma folyamatosan növekszik, mivel[6][7]:\n Új kutatási eredmények születnek\n Vállalatok specializált modelleket fejlesztenek\n Nyílt forráskódú közösség aktív\n Multimodális képességek bővülnek (szöveg, kép, hang, videó)\n\nA pontos szám meghatározása nehéz, mivel nincs központi regiszter, és a \"foundation model\" definíciója is változhat a kontextustól függően.",
+      "created_at": "20250903T18:45:22.294876Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

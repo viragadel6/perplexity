@@ -1,0 +1,19 @@
+{
+  "context_uuid": "ac929238e03b46cead55e2585aa632a0",
+  "context_title": "deepwiki devlin ai system prompt",
+  "created_at": "20260410T03:39:59.472676Z",
+  "updated_at": "20260410T03:40:22.512535Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "65f0f0ad283b4b90859715285677c16f",
+      "query": "deepwiki devlin ai system prompt",
+      "answer": "A DeepWiki system prompt kiszivárgott verziója elérhető nyilvánosan, a Devin AI által használt dokumentációs asszisztens rendszerutasításaival együtt.\n\n Mi az a DeepWiki?\n\nA DeepWiki a Devin AI (Cognition AI) által fejlesztett ingyenes eszköz, amely bármely nyilvános GitHubtárolót automatikusan, Wikipediastílusú, interaktív dokumentációvá alakít át. Egyszerűen le kell cserélni a github.com részt deepwiki.comra a böngésző címsorában, és az AI elemzi a kódszerkezetet, generál architektúradiagramokat, és lehetővé teszi természetes nyelven való kérdezést a kódbázisról.[3][7]\n\n A Kiszivárgott Rendszerutasítás\n\nA DeepWiki rendszerutasításának kiszivárgott változata megtalálható a GitHubon, egy 2025. november 9i dátumozású verzióban az EliFuzz/awesome-system-prompts repóban, amely különböző AI kódolási ügynökök (Devin AI, Cursor, Claude Code, Augment Code stb.) rendszerutasításait gyűjti össze. Egy másik ismert gyűjtemény, az x1xhlol/system-prompts-and-models-of-ai-tools repó szintén tartalmazza a Devin AI teljes rendszerutasítását, több mint 400 sorban, beleértve az eszközdefiníciókat is.[1][4]\n\n DeepWiki Technikai Felépítése\n\nA DeepWiki rendszer a .devin/wiki.json konfigurációs fájlon keresztül testreszabható – ezt a fájlt a tárolód gyökerébe helyezve irányíthatod az AI dokumentációgeneráló folyamatát, meghatározhatod az oldalstruktúrát, és kiemelheteted a kritikus, de kevésbé feltűnő kódrészleteket. A hivatalos MCP (Model Context Protocol) szerver a https://mcp.deepwiki.com/ címen érhető el, publikus repókhoz hitelesítés nélkül.[5][6]\n\n Hol Találod a Rendszerutasítást?\n\nA kiszivárgott DeepWiki rendszerutasítást az alábbi helyeken érheted el:\n\n GitHub – EliFuzz gyűjtemény: github.com/EliFuzz/awesome-system-prompts/blob/main/leaks/devin/2025-11-09_prompt_deep-wiki.md[4]\n GitHub – x1xhlol gyűjtemény: github.com/x1xhlol/system-prompts-and-models-of-ai-tools (a teljes Devin AI rendszerutasítással együtt)[1]\n\nÉrdemes megjegyezni, hogy a Cognition AI nem tette hivatalosan publikussá ezeket a rendszerutasításokat – ezek a verziók közösségi feltárás és visszafejtés útján kerültek nyilvánosságra.[1]",
+      "created_at": "20260410T03:39:59.537113Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

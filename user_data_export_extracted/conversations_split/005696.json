@@ -1,0 +1,28 @@
+{
+  "context_uuid": "3c78137bad284ca080689de1ec5217f2",
+  "context_title": "mit hogy allitsak be? csak magamnak meg max 12 baratomnak csinalok repliten ajd egy ai chat appot de tenylegesen a legeslegmagasabb teljesitmenyt es sebesseget szeretbem",
+  "created_at": "20251214T03:30:12.249476Z",
+  "updated_at": "20251214T03:36:16.264122Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c253e0bd3a0b42ca897fa6ec4e6dc360",
+      "query": "mit hogy allitsak be? csak magamnak meg max 12 baratomnak csinalok repliten ajd egy ai chat appot de tenylegesen a legeslegmagasabb teljesitmenyt es sebesseget szeretbem",
+      "answer": "Ha 1–3 felhasználóra, de a lehető legkisebb késleltetésre mész, akkor a legfontosabb beállítás: ne engedd “alvó” (0 replika) állapotba menni az endpointot, hanem legyen mindig legalább 1 aktív replika, és csak kis mértékben skálázzon felfelé (pl. max 2 replika).[1][2]\nA nyers sebességet (különösen a kimeneti tokenek tempóját) jellemzően online kvantálással (8bit/4bit) és Ngram speculative decoding bekapcsolásával tudod még érezhetően növelni.[3][4]\n\n Autoscaling beállítás\n Minimum replika: 1 (így nincs “cold start”/feléledési késleltetés, mert nem tud 0ra skálázni).[2]\n Maximum replika: 2 (barátoknál ritka a nagy csúcs, de ha egyszerre írtok, legyen tartalék).[1]\n Cooldown: indulj 300 másodpercről (ez tipikus alapérték, és segít elkerülni a “kibe ugrálást” skálázásnál).[5]\n\n Online kvantálás (4bit/8bit)\nA Friendli online kvantálás célja, hogy kisebb precizitással gyorsabb/olcsóbb futást érj el, és dedikált környezetben elérhető 8bit és 4bit opció.[6][4]\n Ha a “max speed” fontosabb, mint a legjobb minőség: próbáld 8bittel, mert általában jó kompromisszum.[6]\n Ha még gyorsabbat akarsz és belefér némi minőség/stabilitáskockázat: próbáld 4bittel (különösen Hopper/Blackwell GPUkon szokott jól működni).[6]\n\n Ngram speculative decoding\nAz Ngram speculative decoding célja, hogy gyorsítsa a generálást anélkül, hogy külön “draft” modellt kellene tanítani/használni.[3]\nA Friendli dokumentációja szerint a Maximum Ngram Size alapértelmezett (3) értékét érdemes megtartani, mert ez tipikusan jó gyorsulást ad túl nagy overhead nélkül.[7]\n\n Konkrét “max speed” preset\nAz alábbi preset jó kiindulópont kis forgalomra, de prémium sebességre (és később 5 perc finomhangolással validálható valós chat használat mellett).[7][1]\n\n| Beállítás | Javaslat | Miért |\n||||\n| Autoscaling min/max | 1 / 2 | Nincs cold start, mégis van burst tartalék. [2][1] |\n| Cooldown | 300s | Stabilabb skálázás, kevesebb “flapping”. [5] |\n| Online quantization | 8bit (ha kell: 4bit) | 8bit jó kompromisszum; 4bit a még nagyobb tempóért. [6][4] |\n| Ngram speculative decoding | ON, max ngram = 3 | Dokumentáltan ajánlott alapérték, tipikusan gyors. [7][3] |\n\nMelyik a fontosabb: a legjobb válaszminőség (kevesebb kvantálás), vagy a leggyorsabb tokenkimenet (agresszívebb kvantálás, speculative decoding + erősebb GPU)?",
+      "created_at": "20251214T03:30:12.376575Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "532105bc897c4b16b12bd09f8c685fe6",
+      "query": "ja ezt fine tuneolhatom?",
+      "answer": "Igen—Friendli Dedicated Endpoints alatt tudsz “finetune”olni, de a tipikus és támogatott út a LoRA (adapteres) finomhangolás, illetve LoRA adapterek kiszolgálása a base modell mellé.[1][2]\n\n Mit jelent itt a “finetune”?\n A Friendli dokumentáció szerint az endpointon base modellhez tudsz LoRA adaptert hozzáadni (akár Hugging Face Hubról, akár a Suiteon belül készült adaptert), és így kapsz egy “finomhangolt” viselkedést a teljes modell újratanítása nélkül.[1]\n MultiLoRA esetén több adapter is futhat ugyanazon az endpointon, és kérésenként választható, melyik adaptert használd.[3][4]\n\n Hogyan tudod megcsinálni (gyakorlatban)\n Ha már van kész LoRA adaptered: endpoint létrehozásnál (vagy konfigurálásnál) az “Add LoRA adapter” opcióval tudod hozzáadni, és a base modell + adapter együtt fog futni.[1]\n Ha több adaptered van: MultiLoRA endpointnál az APIhívásban megadható az adapter “route”, így runtime tudsz váltani (nem kell újradeploy).[5][3]\n\n Ha tényleg tanítani is akarsz\nA Friendli blog szerint a Suite támogat finomhangoló jobokat is (W&B integrációval bemutatva), és a LoRA finetuninghoz kapcsolódó hiperparaméterek konfigurálhatók a job létrehozásakor.[2]\n\nMilyen célra finomhangolnád: magyar nyelvű “stílus/karakter” (chat persona), vagy inkább domaintudás (pl. saját jegyzetek/céges doksik)?",
+      "created_at": "20251214T03:35:49.292584Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

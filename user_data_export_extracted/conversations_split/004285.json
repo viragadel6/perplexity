@@ -1,0 +1,19 @@
+{
+  "context_uuid": "ed3efc58a38649a0b13c8cb83104a81d",
+  "context_title": "",
+  "created_at": "20260210T22:41:56.567471Z",
+  "updated_at": "20260210T22:42:14.100955Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1bee2eee87244f8392c3dc5a47a4b320",
+      "query": "",
+      "answer": "Ez az oldal a Baidu ERNIE 4.5 egyik nyilvános Hugging Face modellkártyája, konkrétan az ERNIE4.5VL424BA47BPT multimodális MoE chatmodellé.[1]\n\n Mi ez a modell?\n\n ERNIE4.5VL424BA47B egy multimodális (szöveg + kép) MoE chatmodell.[1]\n A „VL” visionlanguaget jelent, tehát tud szöveges és vizuális inputtal is dolgozni.[1]\n A „PT” variáns PyTorch/Transformerstílusú súlyokat használ, szemben a „Paddle” változatokkal, amelyek PaddlePaddle formátumúak.[4][1]\n\n Fő technikai paraméterek\n\n Paraméterszám: 424 milliárd összes paraméter, ebből 47 milliárd aktiválódik tokenenként a MoE (MixtureofExperts) architektúra miatt.[1]\n Modalitás: Szöveg és kép (Text & Vision).[1]\n Rétegek száma: 54 transformer réteg.[1]\n Fejek: 64 queryhead és 8 KVhead.[1]\n Text experts: 64 összesen, ebből 8 aktív egyszerre.[1]\n Vision experts: 64 összesen, ebből 8 aktív egyszerre.[1]\n Konteksthossz: 131 072 token, tehát 128ks nagyságrendű context windowt támogat.[1]\n\n Képességek / tréning\n\n Az ERNIE 4.5 család MoEalapú (A47B, A3B sorozat) architektúrára épül, skálázhatóságra optimalizálva.[2][1]\n A VLM (visionlanguage modellek) kifejezetten vizuálisszöveges megértésre, és „thinking” / „nonthinking” módokra vannak hangolva (tehát különböző reasoning profilokat támogatnak).[2]\n A poszttréningben használják többek között:\n   Supervised FineTuning (SFT),  \n   Direct Preference Optimization (DPO),  \n   egy UPO (Unified Preference Optimization) nevű, módosított RLalapú módszer, illetve külön említve RLVRt (Reinforcement Learning with Verifiable Rewards) a chatmodellnél.[2][1]\n\n Base vs Chat (A47BBasePT vs A47BPT)\n\nA linked modell a Chat variáns:\n\n ERNIE4.5VL424BA47BBasePT:  \n   „Base” multimodális MoE modell, pretraining fázis után.[2]\n ERNIE4.5VL424BA47BPT:  \n   Chatre finomhangolt modell, posttraining (SFT + preferenciaalapú RL) után.[1]\n\nMindkettőnél az architekturális fő számok egyeznek (424B / 47B, 54 layer, 64/8 head, 64/8 expert stb.).[2][1]\n\n Futatás (vLLM példa)\n\nA modellkártya konkrét példát ad vLLMhez:\n\n vLLM verzió: vllm ≥ 0.11.2 szükséges.[2][1]\n Javasolt konfiguráció:  \n   16 darab 80 GBos GPU (80G × 16) tensorparallel módon.[2][1]\n Példaparancs (Chat modellhez):  \n   vllm serve baidu/ERNIE-4.5-VL-424B-A47B-PT --tensor-parallel-size 16 --trust-remote-code.[1]\n\nA korábbi READMEváltozatban volt FastDeployhoz is példa, ahol 80 GB × 8 GPU, kvantizáció (wint4, wint8) és kisebb max context (pl. 32768) szerepel, de ez a diff szerint később módosult/eltávolításra került.[4]\n\nA repo „support vllm” PRjei a config és a modeling fájlok átnevezéséről és vLLM támogatásról szólnak (configuration_ernie4_5_vl.py, modeling_ernie4_5_vl.py stb.).[5][6]\n\n Licenc és felhasználás\n\n A modell Apache License 2.0 alatt érhető el, ami kereskedelmi felhasználást is enged, a licenc feltételei mellett.[2][1]\n A licencjogosult: Baidu, Inc., 2025.[2][1]\n\nA modellkártya kér, hogy használat esetén hivatkozz az „ERNIE 4.5 Technical Report” preprintre/műszaki jelentésre (még üres arXiv hivatkozással, de már formázott BibTeX bejegyzéssel).[2][1]\n\n\n\nHa megírod, hogy pontosan mire szeretnéd használni (csak inference, finomhangolás, saját szolgáltatás, lokális gép/cluster), szívesen segítek egy konkrét telepítési / inferencialépéssorral vagy erőforrásbecsléssel.",
+      "created_at": "20260210T22:41:56.757671Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

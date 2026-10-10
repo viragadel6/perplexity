@@ -1,0 +1,82 @@
+{
+  "context_uuid": "987c7357f5ca43d9b4d4afe07ba155ea",
+  "context_title": "olyan platformok keresek ami tud ertelmezni teljesen valosan es pontossn egy 1333743 tokenes kodbazist es Total Size\n4 508 947 chars es tudok chatelni rola vele",
+  "created_at": "20251014T09:05:00.592477Z",
+  "updated_at": "20251014T09:26:30.409961Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "afaf9c3927cd4317a9be5fc6368135ee",
+      "query": "olyan platformok keresek ami tud ertelmezni teljesen valosan es pontossn egy 1333743 tokenes kodbazist es Total Size\n4 508 947 chars es tudok chatelni rola vele",
+      "answer": "A kérdésedre válaszolva, több platform is képes pontosan értelmezni és feldolgozni egy ~1,3 millió tokenes, ~4,5 millió karakteres kódbázist, amelyről chatelni tudsz.[1][2][3]\n\n Ajánlott platformok\n\nClaude Sonnet 4.5 (Anthropic) a legerősebb választás kódoláshoz, amely 1 millió tokenes kontextusablakot támogat APIn keresztül, ez körülbelül 75 000 sornyi kódot jelent. A Claude Sonnet 4.5 a világ legjobb kódoló modellje, és kifejezetten erős komplex kódbázisok elemzésében. A fizetős Claude Pro és Enterprise előfizetésekkel a claude.ai webes felületen 200K500K tokenes kontextusablak érhető el.[3][4][5][1]\n\nGemini 1.5 Pro (Google) akár 2 millió tokenes kontextusablakot is támogat, ami körülbelül 50 000 sornyi kódnak felel meg. Ez a legnagyobb elérhető kontextusablak a piacon, és kifejezetten alkalmas teljes kódbázisok elemzésére. A Gemini APIján és a Google AI Studioban elérhető.[6][7][8][9]\n\nGPT4.1 (OpenAI) szintén támogatja az 1 millió tokenes kontextusablakot, jelentős fejlesztésekkel a kódolás és hosszú kontextus kezelése terén. A GPT4.1 54,6%ot ért el a SWEbench Verified benchmarkon, ami vezető teljesítmény a kódolási feladatokban.[10]\n\n Integrált fejlesztői környezetek\n\nCursor IDE speciálisan AIalapú kódolásra optimalizált fejlesztői környezet, amely kódbázisindexeléssel és kontextuális megértéssel rendelkezik. A Cursor képes a teljes kódbázisodat indexelni és megérteni, mérettől és komplexitástól függetlenül. A Claude, GPT4 és más modelleket is használhatja.[11][12][13][14][15]\n\n Használati tippek\n\nA legjobb eredmények érdekében érdemes a kontextus gyorsítótárazást (context caching) használni, ami jelentősen csökkenti a költségeket és a késleltetést nagy tokenszámú munkaterhelések esetén. A kérdéseidet általában a prompt végére helyezd, különösen hosszú kontextus esetén.[7][9][6]",
+      "created_at": "20251014T09:05:00.704664Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "4aa1278465d741a69bd52321dfa02c91",
+      "query": "de ezt a feladatod adnam neki: A verzio szamok jelentektelenek! A feltöltött txt dokumentumokba ugyanannak az LLM nek a teljes forraskodjai talalhatóak. ezek kozul kell a legjobbat kiválasztani. mindegyik fajlt atnezet teljesen minden sort\na legjobb: teljesen 0 rol epitett 100% ban, nem transformers es minden saját: architektúra, runtime, hardver, tokenizer, optimizer, pipeline, security proof, dataset és a legkevesebb placeholder szimulalt stb kamu dolgot kell hogy tartalmazza és a legfejlettebb, a legtöbb program nyelv, legfejlettebb arhetikura es features legérettebb arra hogy gpt 5 grok 4 es a tobbi llmet felülmúlja amikor már be lesz tanítva\n\na text fajlok neveivel hivatkozz rajuk es rangsorold is\n\naz asztrologia az nem szamit gyengeseknek szóval ennek fenyebe\n\n\nes egy hataljas txt fajlba van tehat igy kene\nalapbol claude ra fel se lehet tolteni sot meg  500 kb os txt fajlokat se fogadja el",
+      "answer": "Sajnálom, de a feltöltött fájl túl nagy (4.5 MB, 4,5 millió karakter) ahhoz, hogy az általam használt eszközök feldolgozzák. A rendszer \"token_limit_exceeded\" hibát jelez, ami azt jelenti, hogy még a keresési funkciók sem képesek átnézni ezt a méretű dokumentumot.[1]\n\n Megoldási lehetőségek\n\nClaude Code vagy Cursor AI használata javasolt, mivel ezek kifejezetten ilyen óriási kódbázisok kezelésére lettek tervezve. Ezek az eszközök:[2][3]\n\n Lokálisan dolgoznak a teljes projekttel, nem küldik fel egyetlen fájlként[2]\n Intelligens indexeléssel dolgoznak, nem próbálják egyszerre betölteni a teljes kódot[3]\n Képesek millió soros kódbázisokat elemezni darabonkénti feldolgozással[2]\n\nAlternatív megközelítés: A 4.5 MBos txt fájlt szét kell bontani kisebb részekre (pl. projektenként vagy fájlonként külön txtkbe), hogy elemezni lehessen. A repomix kimenet általában összefűzi az összes forrásfájlt  ezt vissza kellene bontani az eredeti struktúrára.[1]\n\nSourcegraph Cody szintén képes nagy repositoryk teljes indexelésére és szemantikus keresésre, és önállóan telepíthető szerverre is, ahol nincs fájlméret korlátozás.[4]\n\nEzek közül a Claude Code Enterprise verzió lenne a legalkalmasabb, mivel azt fejlesztették kifejezetten nagyvállalati méretű kódbázisok elemzésére, és lokálisan dolgozik a teljes projekttel.[2]",
+      "created_at": "20251014T09:08:58.994619Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "8e0a50609e024752b8e81dbe6d35429f",
+      "query": "de mondom 4,5 millio karakter es 1,4 millio token a kod bazis es 2025 oktober kozepe van friss modellekez nezzrl ne gemini 1.5 ket",
+      "answer": "Igazad van! 2025 október közepén vagyunk, és az 1,4 millió token bőven belefér a legfrissebb modellek kontextusablakába.[1][2]\n\n Legfrissebb modellek 2025 októberére\n\nGemini 2.5 Pro az abszolút legerősebb választás a feladatodra, amely 1 millió tokenes kontextusablakot kínál és kifejezetten komplex kódbázisok, matematikai és STEM problémák elemzésére lett optimalizálva. A Gemini 2.5 Pro képes \"gondolkodni\" összetett problémákon, és 2025 júniusában frissítették, legfrissebb tudása pedig 2025 januárig terjed.[2]\n\nClaude 3.7 Sonnet szintén kiváló választás, amely 2025 februárjában jelent meg és hibrid reasoning modell  tudod váltani a gyors válaszok és a részletes, lépésrőllépésre történő gondolkodás között. A Claude 3.7 Sonnet kifejezetten erős kódolásban és frontend fejlesztésben, és az APIn keresztül akár 128K tokenes gondolkodási limitet is beállíthatsz. Cursor, Cognition és Replit is megerősítette, hogy a Claude 3.7 Sonnet a legjobb komplex kódbázisok kezelésében.[1]\n\nGemini 2.5 Flash gyorsabb és költséghatékonyabb alternatíva, szintén 1 millió tokenes kontextusablakkal, amely kiválóan teljesít nagy léptékű feldolgozásban és ágensszerű feladatokban.[2]\n\n Hogyan használd őket\n\nA Google AI Studioban (ai.google.dev) közvetlenül feltöltheted a teljes 4,5 MBos txt fájlt a Gemini 2.5 Pro vagy 2.5 Flash modellekbe, mivel ezek támogatják az 1M tokenes kontextust. A Claude APIn vagy claude.aion szintén feltöltheted a fájlt, bár a webes felületen néha vannak korlátozások  az API biztosan kezeli.[3][1][2]\n\nA feladatod (az LLM verziók összehasonlítása és rangsorolása) pontosan az a típusú komplex elemzési feladat, amire ezeket a modelleket tervezték.[1][2]",
+      "created_at": "20251014T09:15:49.955907Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "e73239cc118b44bcad213d644dcaafcc",
+      "query": "de az 1.4 millio hogy a faszomba fer es azv1 millioba",
+      "answer": "Igazad van, bocsánat! Az 1,4 millió token NEM fér bele az 1 millió tokenes kontextusablakba. Viszont van megoldás:[1][2]\n\n Modellek amik kezelik az 1,4M tokent\n\nGemini 2.0 Pro Experimental  Ez a Google legújabb modellje, amely 2 millió tokenes kontextusablakot kínál, így bőven befér az 1,4 milliós kódbázisod. Ez a legerősebb kódolási teljesítménnyel és komplex promptok kezelésével rendelkező modell, amit a Google valaha kiadott. Elérhető a Google AI Studioban és Vertex AIban.[1]\n\nClaude Sonnet 4/4.5 (1M token béta)  A Claude is rendelkezik 1 millió tokenes kontextusablakkal béta funkcióként, de ehhez tier 4 használói szintnek vagy egyedi rate limit megállapodásnak kell lenned. Ez csak APIn keresztül érhető el a context-1m-2025-08-07 béta header használatával. Mivel az 1,4M token meghaladja az 1Met, ez sem elegendő.[3]\n\nMeta Llama 4 Scout  10 millió tokenes kontextusablakkal rendelkezik, ami egyetlen GPUn is fut. Ez képes körülbelül 7500 oldal szöveget feldolgozni.[4][5]\n\n Gyakorlati megoldás\n\nAz 1,4 millió token = körülbelül 1,05 millió szó = 4200 oldal, tehát a Gemini 2.0 Pro Experimental a 2 millió tokenes ablakával tökéletes választás. Ez most experimentális, de elérhető fejlesztőknek és Gemini Advanced felhasználóknak.[6][1]",
+      "created_at": "20251014T09:16:51.253862Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "a806803f27244d328b3aecaf43291139",
+      "query": "gemimi 2.5 pro nen? xd",
+      "answer": "Igen, igazad van! A Gemini 2.5 Pro jelenleg 1 millió tokenes kontextusablakkal fut, és a 2 millió tokenes verzió még fejlesztés alatt van (\"coming soon\").[1][2][3]\n\n Aktuális helyzet 2025 októberében\n\nA Gemini 2.5 Pro 1 millió tokenes stabil verzióval érhető el production használatra. A 2 millió tokenes verzió aktív tesztelés alatt áll, de még nem publikus. Néhány felhasználó akár 670K tokent is be tudott tölteni speciális kontextuskezeléssel.[4][5][2][3]\n\n Ami TÉNYLEG 2M tokent tud\n\nGemini 1.5 Pro  Ez az előző generációs modell volt, ami ténylegesen támogat 2 millió tokent a Vertex AIon. Bár nem a legújabb, de ha az 1,4 milliós kódbázisod a legfontosabb, ez ténylegesen kezeli.[6][7]\n\nVercel AI Gateway szerint a Gemini 2.5 Pro már 2M token context windowval van hirdetve, de ez valószínűleg a jövőbeli specifikáció vagy csak API integrációnál érhető el.[8]\n\n Megoldás az 1,4M tokenhez\n\nMivel az 1,4 millió token több mint 1M, a jelenlegi legjobb választások:\n Gemini 1.5 Pro (2M token, biztos működik)[7]\n Megvárod a Gemini 2.5 Pro 2M verzióját (hamarosan jön)[3][1]\n Két részletben dolgozod fel Gemini 2.5 Pro 1Mmel",
+      "created_at": "20251014T09:17:42.340328Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f4b11f94cf704cbdaeb4737ed0d03e54",
+      "query": "jo olyat kuldj ami 1.5 millio token felett van es ingyenesen most eltudom erni es a legfejlettebb",
+      "answer": "Perfekt! Itt van az ingyenes megoldás az 1,4 millió tokenes kódbázisodhoz:\n\n Gemini 1.5 Pro  2 millió token INGYEN\n\nA Gemini 1.5 Pro 2 millió tokenes kontextusablakkal teljesen ingyenesen elérhető a Google AI Studion keresztül. Ez jelenleg az egyik legerősebb modell, és az egyetlen ingyenes 2M tokenes megoldás.[1][2]\n\n Hogyan éred el:\n\n1. Menj a  oldalra[2][3]\n2. Jelentkezz be Google fiókkal (nincs szükség bankkártyára)[4][2]\n3. Generálj API kulcsot (2 perc)[2]\n4. Ingyenes limit: 5 kérés/perc, 25 kérés/nap[5][2]\n\n Specifikációk:\n\n 2 millió token kontextusablak (bőven elég az 1,4Mhoz)[6][1]\n Kód végrehajtás (code execution) beépítve[1]\n Kontextus gyorsítótárazás (5090% költségmegtakarítás)[2]\n Multimodális: kép, videó, audio feldolgozás[2]\n\n Alternatíva: Grok 4 Fast\n\nA Grok 4 Fast szintén 2 millió tokenes kontextusablakkal rendelkezik és teljesen ingyen használható a grok.comon. Ez egy multimodális reasoning modell, amely 2025 szeptemberében jelent meg.[7]\n\nElérhető:  vagy \n\nA Gemini 1.5 Pro a legjobb választás a feladatodhoz, mivel kifejezetten kódolásra optimalizálták és teljes kódbázisok elemzésére tervezték.[8][1]",
+      "created_at": "20251014T09:18:45.118876Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "b9b1280c4cfc47b1ad8ff626696a9deb",
+      "query": "inkabb ne transformerst hanem olyat ami tenylegesen a teljeset ertelmezi",
+      "answer": "Sajnos nincs olyan nemtransformer modell, ami ingyenesen elérhető lenne és 1,5 millió token fölötti kontextust kezelne 2025 októberében.[1][2][3]\n\n A valóság a nemtransformer modellekkel\n\nRWKV7 Goose a legfejlettebb lineáris attention modell, amely RNNszerűen működik exponenciálisan csökkenő memóriával, de a legnagyobb elérhető verzió csak 14B paraméter és maximum 32K token kontextust tud kezelni. A RWKV7 G1 2.9B verzió pedig csak 4K8K tokent. Ezek a modellek opensource és ingyenesek, de messze vannak az 1,4M tokentől.[2][4]\n\nMamba/SSM modellek hasonló problémával küzdenek  bár lineáris komplexitásúak, a kutatások kimutatták, hogy a hosszú távú függőség exponenciálisan csökken a szekvencia hosszával, hasonlóan az RNNekhez. A Mamba architektúra jelenleg inkább kutatási fázisban van, és nincsenek nagy kontextusablakú production modellek belőle.[5][6][7][8]\n\n Miért mégis a Transformer a megoldás?\n\nA matematika sajnos egyértelmű: a transformer attention mechanizmus rugalmasabb a hosszú távú függőségek modellezésében, mert nem korlátozott exponenciális csökkenésre, mint az SSM/RNN alapú megoldások. Ezért minden nagy kontextusablakú modell (Gemini, Claude, GPT) továbbra is transformer alapú.[7][9][10][5]\n\n Egyetlen ingyenes megoldás: Gemini 1.5 Pro\n\nA Gemini 1.5 Pro 2 millió tokennel továbbra is az egyetlen ingyenesen elérhető opció, ami kezeli az 1,4M tokenes kódbázisod. Transformer alapú ugyan, de ténylegesen feldolgozza a teljes kontextust, nem csak szimulál.[11][12][13]\n\nElérhető: ",
+      "created_at": "20251014T09:24:11.937176Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "47042e06e71242e698c370b7ebb8f33c",
+      "query": "de az  nem is erheto el sehol xd",
+      "answer": "Bocs, igazad van! A Gemini 1.5 modellek szeptember 29én deprecated státuszba kerültek, és szeptember 24, 2025én teljesen megszűnnek. Mivel október 14ét írunk, ezek a modellek még technikusan elérhetők, de hamarosan leállnak.[1][2][3][4]\n\n Ami MOST elérhető 2025 októberében\n\nGemini 2.5 Pro (1M token)  Ez az, ami jelenleg elérhető és működik. Az 1 millió tokenes kontextusablakkal rendelkezik, tehát az 1,4M tokened nem fér bele.[5][6]\n\nGemini 2.5 Flash (1M token)  Szintén 1 millió token, gyorsabb és olcsóbb, de ugyanaz a probléma.[7][5]\n\n A brutal igazság 2025 októberében\n\nNincs ingyenesen elérhető 1,5M+ tokenes modell sem transformer alapú, sem nemtransformer alapú. A legnagyobb ingyenes kontextusablak jelenleg 1 millió token a Gemini 2.5 Pro/Flashnél a Google AI Studioban.[8][9][5]\n\n Egyetlen megoldás: szétbontás\n\nAz 1,4 milliós kódbázisod két részletben kell feldolgozni:\n Első rész: 700K token\n Második rész: 700K token\n\nVagy fizetnél a Vertex AIon, ahol lehet, hogy magasabb limitet kapsz, de nincs ingyenes 2M token.[10]\n\nSajnálom, hogy ilyen a helyzet, de 2025 októberében tényleg nincs ingyenes 1,5M+ tokenes megoldás.[5][8]",
+      "created_at": "20251014T09:26:05.351923Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

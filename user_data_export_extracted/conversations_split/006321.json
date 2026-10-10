@@ -1,0 +1,28 @@
+{
+  "context_uuid": "03f5f1dc2e8f48bfb36b48ef50275019",
+  "context_title": "",
+  "created_at": "20251117T05:17:16.802781Z",
+  "updated_at": "20251117T05:19:04.761495Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "da7bc68ad14047fca29bfd468b1e7966",
+      "query": "",
+      "answer": "Az rCM (ScoreRegularized ContinuousTime Consistency Model) egy csúcskategóriás diffúziós disztillációs modell, amelyet a NVlabs fejlesztett ki, főként videó generálásra 10 milliárdnál nagyobb paraméterű diffúziós modelleken. Ez az első olyan munka, amely képes a folyamatos időbeli konzisztencia disztilláció (például sCM/MeanFlow) skálázására ilyen nagy modelleken, és egy nyílt forráskódú FlashAttention2 Jacobianvektor szorzat (JVP) kernelt biztosít párhuzamosítási támogatással (pl. FSDP/CP).\n\nAz rCM gyógyítja az sCM minőségi korlátait egy előrehátra irányuló divergencia együttes disztillációs keretrendszer bevezetésével. Ennek révén az rCM képes magas minőségű és nagy diverzitású videókat generálni mindössze 24 lépés alatt, jelentősen gyorsítva az eddigi diffúziós mintavételezést.\n\nAz rCM főbb jellemzői:\n Skálázhatóság 10B+ paraméterű videó diffúziós modellekre\n Nyílt forráskódú, FlashAttention2 alapú JVP kernel párhuzamosítási támogatással\n Előrehátra divergencia alapján kombinált disztilláció a jobb generált képminőségért és diverzitásért\n Képes 24 lépés alatt magas minőségű, diverz videók generálására\n A tanítási kód és példa az inferencere elérhető a GitHub repóban\n\nHasználat például videó generálásra a Wan2.1 modellcsalád mellett lehetséges, argumentumokkal vezérelhető, mint mintapéldában:\n\nPYTHONPATH=. python rcm/inference/wan2pt1_t2v_rcm_infer.py --dit_path checkpoints/rCM_Wan2.1_T2V_1.3B_480p.pt --num_samples 5 --prompt \"A cinematic shot of a snowy mountain at sunrise\"\n\n\nAz rCM kódja a CosmosPredict2 projektre épül, és további kutatási irányok vannak, például a fizikai konzisztencia növelése utótréninggel vagy az autoregresszív video diffúzió kiterjesztése.\n\nÖsszefoglalva, az rCM a legújabb, nagy skálájú diffúziós disztillációs modell, amely gyors, minőségi és diverz videógenerálást kínál kevesebb lépésben, és fejlett technikai megoldásokat nyújt nagymodellek tanításához és futtatásához.[2][7]",
+      "created_at": "20251117T05:17:33.178769Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "a592d643d5134f24a343209ef0e98e85",
+      "query": "ertjetoen",
+      "answer": "Nem teljesen értem, hogy mire gondolsz az \"ertjetoen\" kifejezéssel. Esetleg elgépelés történt? Lehetséges, hogy az alábbiak egyikére gondoltál:[1][2]\n\n \"Értettem\"  jelezni szeretnéd, hogy megértetted az rCMről szóló magyarázatomat\n \"Érthetően\"  megkérdezni szeretnéd, hogy érthetően magyaráztame el\n Vagy esetleg valami konkrét kérdésed van az rCM GitHub repositoryval kapcsolatban\n\nSzívesen segítek, ha pontosítod, hogy mire vagy kíváncsi az rCMmel vagy a korábbi válaszommal kapcsolatban ![3][1]",
+      "created_at": "20251117T05:18:31.647281Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

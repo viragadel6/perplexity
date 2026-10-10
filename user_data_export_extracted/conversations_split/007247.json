@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c304bae52e3b434ab8ad19905499bc9e",
+  "context_title": "instant payout instant approval easy kyc payment processor apple pay card",
+  "created_at": "20251023T14:55:49.275060Z",
+  "updated_at": "20251023T14:55:49.275060Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "1dc23789ade84d33bf4d479694f9e875",
+      "query": "instant payout instant approval easy kyc payment processor apple pay card",
+      "answer": "Which payment processors offer instant payouts, instant approval, easy KYC onboarding, and support for Apple Pay and card payments?\nMely fizetési szolgáltatók kínálnak azonnali kifizetést, azonnali jóváhagyást, egyszerű KYC onboardingot, valamint Apple Pay és bankkártyás fizetések támogatását?",
+      "created_at": "20251023T14:55:50.177071Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

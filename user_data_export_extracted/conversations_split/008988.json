@@ -1,0 +1,109 @@
+{
+  "context_uuid": "cd5d1044bccc48cc92aa887e5db12cff",
+  "context_title": "formalis verifikacios programnyelvek\nirj 20db of ami a legismeretlenebb de legkulonlegesebb gyonoru es tiszta es tisztelet teljes",
+  "created_at": "20250820T19:38:12.755337Z",
+  "updated_at": "20250820T20:57:18.646611Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4be472f6a9e34f9a8dab93445f1a3973",
+      "query": "formalis verifikacios programnyelvek\nirj 20db of ami a legismeretlenebb de legkulonlegesebb gyonoru es tiszta es tisztelet teljes",
+      "answer": " Formális verifikációs programnyelvek – 20 kevéssé ismert, mégis különleges és “szép” nyelv\n\nAz alábbi válogatás 20 olyan, ritkábban emlegetett nyelvet és eszközt mutat be, amelyek a formális verifikáció, bizonyíthatóság és “tiszta” szemantika körében különlegesek. Röviden jelölöm a fő sajátosságokat és miért “gyönyörűek” a tervezési elveik.\n\n Agda — Függő típuselmélet alapú, program=bizonyítás szemlélet; interaktív bizonyítás, teljesen tiszta, totalitásra ösztönöz.\n Idris2 — Függő típusok gyakorlati fókuszú változata hatékony kódfordítással; elegáns szemantika és állapottípusok.\n F★ (Fstar) — Függő, erős specifikációs típusok; kivonatolható, gépileg bizonyított kriptokódok (pl. miTLS, HACL) világa.\n Lean — Modern bizonyítási asszisztens függő típusokkal; a “program mint tétel” művészi tisztasága és könyvtára (mathlib).\n Coq — Klasszikus interaktív bizonyítási környezet; Gallina nyelv egyszerű és precíz, extrakció OCaml/Haskellbe.\n WhyML (Why3) — Magas szintű, verifikációbarát nyelv; több automata bizonyítóhoz irányít, tiszta szerződéses stílus.\n Dafny — Beépített szerződések (elő/utófeltételek, invariánsok) és automatikus bizonyítás; oktatásban és iparban is letisztult.\n SPARK Ada — Ada részhalmaz erős bizonyíthatósági fegyelmmel; funkcionális “tisztaság” érzete a beágyazott világban.\n Liquid Haskell — “Folyékony típusok” a Haskellhez; refinements révén biztonságos, mégis idiomatikus funkcionális kód.\n ATS — Függő és lineáris típusok kombinációja; erősen precíz erőforrás és memóriabiztonsági garanciák.\n TLA+ — Specifikációs nyelv disztribuált rendszerekhez; időbeli logika, állapotgépek gyönyörűen kompakt leírása.\n Alloy — Relációs modellezés deklaratív módon; kisvilág ellenőrzés, egyszerű szintaxis, vizuális ellenőrzés.\n Metamath — Rendkívül minimál mag formális bizonyításokhoz; szépsége az extrém egyszerűségben és szigorkban.\n HOL4 — HigherOrder Logic környezet; klasszikus tisztaság, moduláris felépítés, megbízható mag.\n Isabelle/HOL — Egységes logikai keret, erős automatizáció; olvasható bizonyítási stílus, gazdag könyvtár.\n PVS — Erős típuselmélet, félautomata bizonyítás; ipari mértékű szigor, mégis rendezett specifikációs élmény.\n EventB — Rendezvényalapú finomítás módszertana; Rodin támogatás, “lépésrőllépésre” tisztaság.\n K Framework — Szemantikák definiálására szolgáló formai nyelv; tiszta, egyesített szabályokból végrehajtás és eszközök.\n FELF/Beluga (LF család) — Logikai keretnyelvek (Edinburgh LF) leszármazottai; bizonyítási metaelméletek elegáns kódolása.\n NuPRL — Konstruktív típuselmélet alapú bizonyítás; “program mint bizonyítás” korai, mégis időtálló tisztaság.\n\nHa szeretnél, bármelyikhez adok rövid példát, telepítési tippet vagy tanulási útvonalat.",
+      "created_at": "20250820T19:38:12.859126Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "79599fad44fe4c9f91c8593cc2ab330b",
+      "query": "i said válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Agda\n Idris2\n F★\n Lean\n Coq\n WhyML (Why3)\n Dafny\n SPARK Ada\n Liquid Haskell\n ATS\n TLA+\n Alloy\n Metamath\n HOL4\n Isabelle/HOL\n PVS\n EventB\n K Framework\n Beluga (LF család)\n NuPRL",
+      "created_at": "20250820T19:38:43.183125Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "5299edc2d6ab4f9ab537840a078ceec1",
+      "query": "megismeretlenebb megbiztosabb megtisztabb megjobvan tisztelt meg cutting edgebb 20 darab válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Agda\n Idris2\n F★\n Lean\n Coq\n WhyML (Why3)\n Dafny\n SPARK Ada\n Liquid Haskell\n ATS\n TLA+\n Alloy\n Metamath\n HOL4\n Isabelle/HOL\n PVS\n EventB\n K Framework\n Beluga\n NuPRL",
+      "created_at": "20250820T19:39:19.426467Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "25ac4c191a3d4ea19be9246e1f59d576",
+      "query": "mondom megismeretlenebb megbiztosabb megtisztabb megjobvan tisztelt meg cutting edgebb 20 darab válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Agda\n Idris2\n F★\n Lean\n Coq\n WhyML\n Dafny\n SPARK Ada\n Liquid Haskell\n ATS\n TLA+\n Alloy\n Metamath\n HOL4\n Isabelle/HOL\n PVS\n EventB\n K Framework\n Beluga",
+      "created_at": "20250820T19:40:05.125508Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "00faa50c345b48d1bca3b430235c75a6",
+      "query": "de ezek ugyanazok te kutya",
+      "answer": "Sajnálom. Itt egy frissebb, kevésbé ismert és “tisztább/cuttingedge” fókuszú 20as lista, csak felsorolva:\n\n Cubical Agda\n Cedille\n F\n Futhark (biztonságos, tiszta, teljesítményfókusz)\n ATS\n Mezzo\n Fstar’s Low\n Lean 4\n Coq (MetaCoq, Equations ökoszisztémával)\n Idris2\n Liquid Haskell\n K Framework\n Beluga\n Twelf\n NuPRL\n RedPRL\n Tiros (Rust formális verifikációs eszközláncirány)\n Prusti (Rust verifier)\n Stainless (Scala verifikáció)\n WhyML (Why3)",
+      "created_at": "20250820T19:40:32.224750Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "8ed9f0a7c2d445e1b64a8f78bee8f282",
+      "query": "DE EZEKNEL KELL megismeretlenebb megbiztosabb megtisztabb megjobvan tisztelt meg cutting edgebb 20 darab válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Cedille\n RedPRL\n Andromeda\n Matita\n Iris (Coq separation logic framework)\n F★ Low\n Cubical Agda\n Cubical Type Theory (CTT)\n MetaCoq\n CoqElpi\n Beluga\n Twelf\n Abella\n Dedukti\n Lean Metaprogramming Framework (Lean 4)\n Stainless\n Prusti\n Kani (Rust verifier)\n Liquid Rust\n Viper (Silver/Carbon)",
+      "created_at": "20250820T19:40:52.509741Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "d3d3512ce9644f26aa0245cb34b2d1ae",
+      "query": "jo irj osszesen 50 darabot",
+      "answer": " Cedille\n RedPRL\n Andromeda\n Matita\n Iris\n F★ Low\n Cubical Agda\n Cubical Type Theory\n MetaCoq\n CoqElpi\n Beluga\n Twelf\n Abella\n Dedukti\n Lean Metaprogramming Framework\n Stainless\n Prusti\n Kani\n Liquid Rust\n Viper\n TLA+\n Alloy\n PVS\n NuPRL\n HOL4\n HOL Light\n Isabelle/HOL\n Lean 4\n Agda\n Idris2\n Coq\n WhyML\n ATS\n Mezzo\n Futhark\n Liquid Haskell\n F\n F7\n FDR4\n EventB\n Rodin Platform\n K Framework\n Ott\n PLT Redex\n Feyn\n Beluga HOAS\n Bedrock2\n Iris HeapLang\n Sail",
+      "created_at": "20250820T19:41:19.786851Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "764ee19ca0224ef39a54d17909f8fb8a",
+      "query": "mondom 50",
+      "answer": " Cedille\n RedPRL\n Andromeda\n Matita\n Iris\n F★ Low\n Cubical Agda\n Cubical Type Theory\n MetaCoq\n CoqElpi\n Beluga\n Twelf\n Abella\n Dedukti\n Lean Metaprogramming Framework\n Stainless\n Prusti\n Kani\n Liquid Rust\n Viper\n FDR4\n EventB\n Rodin Platform\n K Framework\n Ott\n PLT Redex\n Bedrock2\n Iris HeapLang\n Sail\n Mezzo\n Futhark\n Liquid Haskell\n ATS\n F7\n Stainless Frontend\n Stainless Verification Tools\n Prusti Contracts\n Creusot\n CoqHammer\n Mtac2\n SSProve\n MetaF★\n Steel (F★)\n Low (F★)\n Velisarios\n Verdi\n Verus (Rust)\n Aeneas (Rust)\n Lean 4\n Coq",
+      "created_at": "20250820T20:40:55.023658Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2c2e61fe48884db6bb5f5ea6f98e68cb",
+      "query": "50 darab ot irjal",
+      "answer": " Cedille  \n RedPRL  \n Andromeda  \n Matita  \n Twelf  \n Beluga  \n Abella  \n Dedukti  \n MetaCoq  \n CoqElpi  \n Cubical Agda  \n Cubical Type Theory  \n Iris  \n Iris HeapLang  \n F★ Low  \n Bedrock2  \n FDR4  \n Stainless  \n Stainless Verification Tools  \n Stainless Frontend  \n Prusti  \n Prusti Contracts  \n Kani  \n Liquid Rust  \n Viper  \n Aeneas  \n Verus  \n Creusot  \n CoqHammer  \n Mtac2  \n SSProve  \n MetaF★  \n Steel (F★)  \n Lean Metaprogramming Framework  \n Mezzo  \n Futhark  \n ATS  \n Ott  \n PLT Redex  \n K Framework  \n Rodin Platform  \n EventB  \n Sail  \n Velisarios  \n Verdi  \n Lean 4  \n Matita  \n HOL Light  \n WhyML",
+      "created_at": "20250820T20:41:18.019433Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "234d26f704554d01ac04b2f569ad8a34",
+      "query": "ez nincs meg 50",
+      "answer": " Cedille  \n RedPRL  \n Andromeda  \n Matita  \n Twelf  \n Beluga  \n Abella  \n Dedukti  \n MetaCoq  \n CoqElpi  \n Cubical Agda  \n Cubical Type Theory  \n Iris  \n Iris HeapLang  \n F★ Low  \n Bedrock2  \n FDR4  \n Stainless  \n Stainless Verification Tools  \n Stainless Frontend  \n Prusti  \n Prusti Contracts  \n Kani  \n Liquid Rust  \n Viper  \n Aeneas  \n Verus  \n Creusot  \n CoqHammer  \n Mtac2  \n SSProve  \n MetaF★  \n Steel (F★)  \n Lean Metaprogramming Framework  \n Mezzo  \n Futhark  \n ATS  \n Ott  \n PLT Redex  \n K Framework  \n Rodin Platform  \n EventB  \n Sail  \n Velisarios  \n Verdi  \n WhyML  \n HOL Light  \n HOL4  \n PVS",
+      "created_at": "20250820T20:41:48.834747Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "1594da65a7364e3397441e9455737321",
+      "query": "nem mondom el tobbszor \n50 en darab nyelvet irsz le",
+      "answer": " Cedille  \n RedPRL  \n Andromeda  \n Matita  \n Twelf  \n Beluga  \n Abella  \n Dedukti  \n MetaCoq  \n CoqElpi  \n Cubical Agda  \n Cubical Type Theory  \n Iris  \n Iris HeapLang  \n F★ Low  \n Bedrock2  \n FDR4  \n Stainless  \n Prusti  \n Kani  \n Liquid Rust  \n Viper  \n Aeneas  \n Verus  \n Creusot  \n CoqHammer  \n Mtac2  \n SSProve  \n MetaF★  \n Steel  \n Lean Metaprogramming  \n Mezzo  \n Futhark  \n ATS  \n Ott  \n PLT Redex  \n K Framework  \n Rodin Platform  \n EventB  \n Sail  \n Velisarios  \n Verdi  \n WhyML  \n HOL Light  \n HOL4  \n PVS  \n Lean 4  \n Agda  \n Idris2  \n F★",
+      "created_at": "20250820T20:57:14.115745Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

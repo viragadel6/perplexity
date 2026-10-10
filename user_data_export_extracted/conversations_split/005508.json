@@ -1,0 +1,28 @@
+{
+  "context_uuid": "6adbef8390b14155961222b69d734d66",
+  "context_title": "glm 4.6 vs glm 4.6v",
+  "created_at": "20251219T23:54:26.705151Z",
+  "updated_at": "20251220T00:15:20.356701Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9e0cac5071f94cfa9f504a48b4dad368",
+      "query": "glm 4.6 vs glm 4.6v",
+      "answer": "A GLM4.6V egy multimodális modell, amely a szöveg mellett a látás képességével is rendelkezik, míg a GLM4.6 egy szövegközpontú modell. A GLM4.6V képes feldolgozni képeket, dokumentumokat és videókat, és a vizuális bemenetet végrehajtható műveletekkel összekötni.[2][3][6]\n\n Főbb különbségek\n\n| Jellemző | GLM4.6 | GLM4.6V |\n|  |  |  |\n| Elsődleges funkció | Szövegalapú feladatok | Multimodális (szöveg és kép) [6] |\n| Bemeneti típusok | Szöveg | Szöveg, képek, dokumentumok, diák, videók [3][6] |\n| Specializáció | Hatékonyabb eszközhasználat és keresésalapú ügynökök [1] | Natív funkcióhívás, amely a vizuális érzékelést összekapcsolja a végrehajtható műveletekkel [5][6] |\n\n A GLM4.6V változatai\nA GLM4.6V sorozat két fő verzióban érhető el, hogy a különböző igényeket kielégítse:[3][10]\n   GLM4.6V (106B) Egy 106 milliárd paraméterrel rendelkező alapmodell, amelyet felhőalapú és nagy teljesítményű fürtökben való használatra terveztek.[7][10][3]\n   GLM4.6VFlash (9B) Egy könnyű, 9 milliárd paraméteres modell, amelyet helyi telepítésre és alacsony késleltetésű alkalmazásokra optimalizáltak.[5][7]\n\n Teljesítmény és felhasználási területek\nA GLM4.6 erősebb teljesítményt nyújt az eszközhasználatban és hatékonyabban integrálható az ügynök keretrendszerekbe. Ezzel szemben a GLM4.6V kiemelkedik a multimodális feladatokban, mint például a dokumentumelemzés és a frontend fejlesztés, jelentősen lerövidítve a \"tervezéstől a kódolásig\" tartó ciklust. A modell kiváló teljesítményt nyújt több mint 20 multimodális benchmarkon, beleértve az MMBench, a MathVista és az OCRBench teszteket. A GLM4.6V 128 ezer tokenes kontextusablakkal rendelkezik, ami lehetővé teszi számára, hogy egyetlen következtetési menetben nagy mennyiségű adatot, például 150 oldalnyi összetett dokumentumot vagy egy órás videót dolgozzon fel.[1][6][8][9][3][7]",
+      "created_at": "20251219T23:54:26.811155Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "feaa8369362b4b4185d87a919bbd2eff",
+      "query": "de a glm 4.6 v csak 100 b",
+      "answer": "Nem: a „GLM‑4.6V” (flagship) hivatalosan 106B paraméteres modellként van megadva, és a „100B” többnyire csak kerekítés/egyszerűsítés. A sorozat másik fő tagja a GLM‑4.6V‑Flash, ami 9B paraméteres.[1][2][3]\n\n Miért írják néhol 100Bnek?\nTöbb helyen a 106Bt „~100B”ként rövidítik, mert marketingben és összehasonlításokban gyakori a kerekítés (100Bos kategóriaként hivatkoznak rá). A hivatalos megnevezések viszont következetesen 106Bt használnak a GLM‑4.6Vre.[2][3][1]\n\n Melyik modellt nézed?\nHa „csak” 9B körüli paraméterszámot látsz, akkor nagy eséllyel a GLM‑4.6V‑Flash verzióról van szó, nem a teljes GLM‑4.6Vről. A Hugging Face leírása is két verziót említ: GLM‑4.6V (106B) és GLM‑4.6V‑Flash (9B).[3][1][2]\n\n Gyakorlati jelentőség\nA 106B verziót inkább felhős/cluster futtatásra pozicionálják, míg a 9B Flash a helyi, alacsony késleltetésű használatra készült. Emiatt teljesítményben és erőforrásigényben is nagy különbség lehet a kettő között még akkor is, ha mindkettő „GLM‑4.6V” családnév alatt fut.[1][3]\n\nMelyik felületen/APIban láttad a „100B” megjelölést (link vagy screenshot)?",
+      "created_at": "20251220T00:14:55.319617Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b7304a65f19147aab426e58db979c48a",
+  "context_title": "On the image with short hair \nEdit my hair to the same as the other pictures\nUltra realistic 4k",
+  "created_at": "20260722T04:03:45.664549Z",
+  "updated_at": "20260723T16:32:30.414705Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "477c8d93055d4568a32210c5fdbab0a7",
+      "query": "On the image with short hair \nEdit my hair to the same as the other pictures\nUltra realistic 4k",
+      "answer": "Media generated: 'The shorthaired portrait with a natural platinum sweptback hairstyle'",
+      "created_at": "20260722T04:03:45.902083Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

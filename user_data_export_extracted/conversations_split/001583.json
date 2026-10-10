@@ -1,0 +1,19 @@
+{
+  "context_uuid": "ebc4c64d114a46219e111b3083487f45",
+  "context_title": "Fhu de azt ugatom hogy ugyanugy zransformers architekturajuak a flow csak egy wrapper nem egy onallo architektura szoval real nvp Normalizing Flow az csak egy wrapper nem onallo",
+  "created_at": "20260705T15:46:30.450167Z",
+  "updated_at": "20260705T15:47:39.167745Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "cb87943eee844ce6b548a25d449b71c8",
+      "query": "Fhu de azt ugatom hogy ugyanugy zransformers architekturajuak a flow csak egy wrapper nem egy onallo architektura szoval real nvp Normalizing Flow az csak egy wrapper nem onallo",
+      "answer": "Érthető, hogy miért gondolod így a legújabb gépi tanulási trendek fényében, de a klasszikus Normalizing Flow és különösen a Real NVP nem Transformer alapú, és teljesen önálló architektúráknak számítanak. Bár a legújabb kutatások valóban elkezdték ötvözni a két technológiát, a Real NVP történelmileg és strukturálisan is független a Transformerektől.\n\n A Real NVP önálló architektúrája\nA Real NVP (Realvalued NonVolume Preserving transformations) egy 2016ban bemutatott generatív modell. Mivel a Transformer architektúra csak egy évvel később, 2017ben jelent meg, a Real NVP koncepcionálisan sem épülhetett rá. A modell alapját az úgynevezett affin csatolórétegek (affine coupling layers) adják, amelyek a bemeneti adatokat két részre osztják, és hagyományos neurális hálózatokat (például konvolúciós hálózatokat vagy MLPket) használnak a paraméterek megbecslésére. Ezek a rétegek nem használnak selfattention mechanizmust, ami a Transformerek alapja lenne.[1][2][3]\n\n Miért több a Normalizing Flow egy \"wrappernél\"?\nA Normalizing Flow nem csupán egy \"wrapper\" (csomagoló), hanem egy önálló és szigorú matematikai elvekre épülő generatív modellcsalád. A Flow modellek lényege, hogy egy egyszerű eloszlást (például Gausseloszlást) invertálható, bijektív transzformációk sorozatán keresztül alakítanak át egy komplex adateloszlássá. Ez a megközelítés megköveteli, hogy a hálózat minden rétege visszafordítható legyen, és a Jacobmátrix determinánsa könnyen kiszámítható maradjon. Ezek a szigorú strukturális korlátok alapjaiban határozzák meg a hálózat felépítését, így a Flow maga a magarchitektúra, nem pedig csak egy külső réteg.[3][1]\n\n A keveredés oka: Modern Transformeralapú Flow modellek\nA félreértést valószínűleg a legújabb generatív AI kutatások okozzák. Napjainkban megjelentek olyan modern Normalizing Flow architektúrák (például az Apple által kiadott TarFlow), amelyek már Transformer blokkokat használnak a transzformációk paramétereinek kiszámításához. Ezekben az új rendszerekben a Transformer végzi a nehéz számítási munkát, a Flow pedig valóban egyfajta matematikai keretrendszerként biztosítja az invertálhatóságot és a pontos valószínűségszámítást. Ebben a specifikus kontextusban igazad van abban, hogy a Flow \"wrapperként\" funkcionál egy Transformer felett, de ezt nem lehet visszamenőleg a 2016os Real NVPre vagy a klasszikus elméletre ráhúzni.[4][5]\n\n Különbségek az architektúrák között\n\n| Tulajdonság | Real NVP (Klasszikus Flow) | Modern Flow (pl. TarFlow) | Hagyományos Transformer |\n| : | : | : | : |\n| Megjelenés éve | 2016 [1] | 20242025 [4][5] | 2017 |\n| Alapvető rétegek | Affin csatolórétegek (CNN/MLP) [2][3] | Autoregresszív Transformer blokkok [4] | Selfattention és FeedForward |\n| Invertálhatóság | Szigorúan garantált és beépített [3] | Garantált a Flow keretrendszer miatt [4] | Nem invertálható |\n| A Flow szerepe | Maga az önálló architektúra [3] | Keretrendszer (wrapper) a Transformer körül [4] | Nincs (önálló architektúra) |",
+      "created_at": "20260705T15:46:30.624711Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

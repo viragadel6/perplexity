@@ -1,0 +1,19 @@
+{
+  "context_uuid": "946a15c1efea49669f665f686fe935c2",
+  "context_title": "Mondj egy random zenet ariana grandetol",
+  "created_at": "20261001T11:44:18.067351Z",
+  "updated_at": "20261001T11:44:21.866308Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9b8e71d29a314d57abd1b85f559f7304",
+      "query": "Mondj egy random zenet ariana grandetol",
+      "answer": "Ariana Grande – “no tears left to cry” — energikus popdal a 2018as Sweetener korszakból.[4]",
+      "created_at": "20261001T11:44:18.247678Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

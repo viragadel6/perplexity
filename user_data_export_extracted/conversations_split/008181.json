@@ -1,0 +1,19 @@
+{
+  "context_uuid": "cba9a25c6df340d78eddfb0d9fd60e33",
+  "context_title": "Kép\n",
+  "created_at": "20250930T08:35:11.316580Z",
+  "updated_at": "20250930T08:35:11.316580Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bf734392a6de4fda8302fc19b0b5647a",
+      "query": "Kép\n",
+      "answer": "Az alkalmazás, amelynek neve \"写作猫\" (angolul: Writing Cat), egy kínai fejlesztésű, írássegítő app iPhonera, Macre és egyéb Apple eszközökre, amelynek készítője a Shanghai MetaSOTA Technology Inc. A program segítséget nyújt szöveghelyesírásban, mondatok átírásában, fordításban és szövegfolytatásban, főként a kínai nyelvet használó közönség számára. Az alkalmazás teljesen ingyenes és minimum iOS 11.0 verziót igényel Apple eszközökön. Az adatvédelmi gyakorlat szerint semmilyen adatot nem gyűjt az app használata során, valamint megfelel az európai uniós jogszabályoknak[1].",
+      "created_at": "20250930T08:35:11.816169Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

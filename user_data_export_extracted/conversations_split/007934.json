@@ -1,0 +1,19 @@
+{
+  "context_uuid": "60c77c3407044f38a6f7e1744826182b",
+  "context_title": "ez mi\nadj neki egy nevet amibe legyen benne hogy jaded es egy szavas legyen",
+  "created_at": "20251006T08:07:11.963232Z",
+  "updated_at": "20251006T08:07:11.963232Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "410376778a2c413da1f349a718788849",
+      "query": "ez mi\nadj neki egy nevet amibe legyen benne hogy jaded es egy szavas legyen",
+      "answer": "A csatolt fájl egy Julia programozási nyelven írt szkript, amely a jelek szerint a \"BindCraft\" nevű, fehérjekötődések számítógépes tervezésére szolgáló program része.[1]\n\nLényegében ez egy komplex bioinformatikai eszköz, amely mesterséges intelligencia modelleket, például az AlphaFoldot használja, hogy új, specifikus célmolekulákhoz (például egy betegséget okozó fehérjéhez) kötődő fehérjéket (úgynevezett „bindereket”) tervezzen. A szkript automatizálja a tervezési folyamat több lépését, beleértve a modellek betöltését, a szimulációk futtatását, a kapott fehérjeszekvenciák optimalizálását és a végső tervek kiértékelését és szűrését.[1]\n\nA kérésed alapján egy lehetséges egyedi név a szkriptnek, amely tartalmazza a „jaded” szót: JadedCraft.",
+      "created_at": "20251006T08:07:12.065170Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

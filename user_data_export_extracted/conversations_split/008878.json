@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f834cf9d440a45e88596155954d1f165",
+  "context_title": "gcp vel teljesen sajat domain nevet keszithetek? azt akarom hogy ai.jade",
+  "created_at": "20250828T00:43:45.413732Z",
+  "updated_at": "20250828T00:43:45.413732Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "288cf4d1353d4d8ab8e13ae68dc2bcd9",
+      "query": "gcp vel teljesen sajat domain nevet keszithetek? azt akarom hogy ai.jade",
+      "answer": "Röviden: GCP önmagában nem tud új, nyilvános TLDt (például .jade) létrehozni, ezt csak az ICANN új gTLD programján keresztül lehet elérni, és a .jade jelenleg nincs a gyökérzónában, így az „ai.jade” nyilvánosan nem delegálható ma interneten [1][2]. Belső használatra viszont Cloud DNS privát zónában létrehozható és feloldható egy „ai.jade” névtér a VPC hálózatokon belül [3][4].\n\n Mit lehetséges GCPn\n Nyilvános domain: GCPn a Cloud Domains szolgáltatással lehet meglévő TLDk alatt domaint regisztrálni (pl. example.com), majd a Cloud DNSsel publikus zónát és rekordokat kezelni [5][3].  \n Privát, belső névtér: Cloud DNS privát zónával tetszőleges suffix (akár „ai.jade”) használható, de ezek csak az engedélyezett VPCkből oldódnak fel, nem láthatók az interneten [3][4].\n\n Miért nem lehet „ai.jade” nyilvánosan\n A nyilvános DNS csak a IANA/ICANN által delegált TLDket ismeri; a .jade nem szerepel a Root Zone Databaseben, ezért az „ai.jade” nem regisztrálható nyilvános domainként jelenleg [2][6].  \n Új TLDt indítani az ICANN új gTLD programján át lehet; ez nem felhőszolgáltatófüggő, hanem külön pályázati és üzemeltetői (registry) folyamat, amelynek szabályait az Applicant Guidebook írja le [7][8].  \n\n ICANN új gTLD program időzítés\n Az ICANN közlése szerint a következő új gTLD pályázati ablak várhatóan 2026 áprilisában nyílik meg 12–15 hétre, az AGB véglegesítése után [1].  \n A folyamat összetett, registryüzemeltetői képességeket és jelentős erőforrásokat igényel; a korábbi körök tapasztalatai alapján a jóváhagyás több hónapot vehet igénybe, és történetileg magas értékelési díjjal járt [7][9].\n\n Privát „ai.jade” GCPn (belső használat)\n Hozható létre Cloud DNS privát zóna „ai.jade” DNS névvel, és hozzárendelhetők VPCk, amelyekből a rekordok feloldhatók (pl. A/CNAME rekordok szolgáltatásokhoz) [3][4].  \n A privát zónák csak a kijelölt hálózatokból érhetők el; nem lesznek nyilvánosan láthatók, és nem kerülnek a publikus root DNSbe [4][10].\n\n Nyilvános alternatívák\n Választható és regisztrálható létező TLD alatti név a Cloud Domainsben (például „aijade.com” vagy „jade.ai”szerű minta, ha elérhető), majd a zónakezelés Cloud DNS publikus zónában végezhető [5][3].  \n Ha már van saját másodszintű domain (pl. jade.com), létrehozható aldomain (például „ai.jade.com”) és hosztolható nyilvános DNSben Cloud DNSszel [3][4].\n\n Lépések GCPn (nyilvános domain esetén)\n Regisztráció a Cloud Domains felületén egy elérhető névre meglévő TLD alatt, a Squarespace feltételeinek elfogadásával a GCPintegráció miatt [5][11].  \n Cloud DNS publikus zóna létrehozása a regisztrált domainhez, majd a névszerverek beállítása a regisztrátornál és a szükséges rekordok felvitele [3][4].\n\n Lépések GCPn (privát „ai.jade” esetén)\n Cloud DNS privát zóna létrehozása „ai.jade” DNS névvel, engedélyezett VPC hálózatok hozzárendelésével [3][4].  \n Belső rekordok (A/AAAA/CNAME/TXT stb.) felvétele; ezek csak az engedélyezett hálózatokban lévő erőforrások számára lesznek feloldhatók [4][10].",
+      "created_at": "20250828T00:43:45.504792Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

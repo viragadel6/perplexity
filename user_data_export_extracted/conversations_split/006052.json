@@ -1,0 +1,19 @@
+{
+  "context_uuid": "acf811be8d1743938d7528335c124900",
+  "context_title": "",
+  "created_at": "20251130T05:58:32.491340Z",
+  "updated_at": "20251130T05:58:32.491340Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3580fceee93144648ad9220f9f54c8aa",
+      "query": "",
+      "answer": "A Pathway () egy Python alapú ETL (Extract, Transform, Load) keretrendszer, amely stream feldolgozásra, valós idejű analitikára, LLM (nagy nyelvi modellek) pipelineokra és RAGre (RetrievalAugmented Generation) specializálódott. Könnyen használható Python APIval rendelkezik, és alkalmas adatfolyamok, idősorok és egyéb nagyadatfeldolgozási feladatokhoz. A Pathway célja, hogy hatékony, valós idejű adatfeldolgozást és elemzést tegyen lehetővé különféle alkalmazások, például IoT, gépi tanulás vagy adatpipelines számára.[2][6]",
+      "created_at": "20251130T05:58:33.330356Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

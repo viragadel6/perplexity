@@ -1,0 +1,37 @@
+{
+  "context_uuid": "6188b70ca8f34886a924f7d4d6586924",
+  "context_title": "full tech stack\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250905T01:32:06.628591Z",
+  "updated_at": "20250905T01:34:42.294217Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "af0d1feed8d94f6287434fca1b8c364c",
+      "query": "full tech stack\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " JAIDE V25 Teljes Tech Stack\n\n Programozási Nyelvek\n Zig (fő futtatókörnyezet)\n Python (orkesztráció, HGM optimalizáló)\n Nim (párhuzamos feladatütemező)\n Chapel (elosztott tréning)\n Haskell (Clash) (hardveres vezérlő)\n Vale (memóriabiztos IPC parser)\n ATS (formálisan verifikált IPC komponensek)\n\n Hardver és Alacsony Szintű\n Verilog (Forge AI gyorsító mag)\n LLVM IR (JIT optimalizált kernelek)\n\n Verifikáció és Specifikáció\n TLA+ (Chapel konszenzus protokoll specifikáció)\n Dafny keretrendszer (Vale verifikációhoz)\n\n AI/ML Architektúra\n Jade Selective Scan (CSS) mechanizmus\n Synapse Tokenizer (Adaptive ByteGroup Encoding)\n Aethelred adatfolyam pipeline\n Neuroszimbolikus kapuzás (Prologalapú)\n 1.58bit ternary kvantálás\n\n Párhuzamosság és Elosztás\n Munkalenyúlásos ütemezés (Nim)\n Chapel többcsomópontos tréning\n Forge hardveres gyorsítás\n Atomikus számlálók és szálbiztos várólisták\n\n Memória és Biztonság\n Formális verifikáció (Vale/ATS)\n Memóriabiztos IPC parsing\n Függő típusok (ATS)\n Lineáris típusok (Vale)\n\n Optimalizáció\n Heuristic Gradient Momentum (HGM) optimalizáló\n JIT fordítás (LLVM)\n Vektoros utasítások\n Állapotmátrix regularizáció\n\n Konfiguráció\n 16M token kontextushossz\n 256 szakértő (dinamikus SSMalapú)\n 8192 modell dimenzió\n 256 állapot dimenzió\n 96 réteg\n 64 Chapel csomópont\n 128 Nim szál",
+      "created_at": "20250905T01:32:07.354887Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "0927286dcd534f65ae7d47683169b18e",
+      "query": "irj mindegyikre egy jobb alternativat ami brutal ismerrtlen cuttibg edge underdog max 3 honapos",
+      "answer": " BRUTAL ISMERETLEN CUTTING EDGE UNDERDOG ALTERNATÍVÁK (MAX 3 HÓNAPOS)\n\n Programozási Nyelvek\n Zig → V Programming Language (Swiftszerű szintaxis C teljesítménnyel)\n Python → Mojo (Modular AI superset, Python kompatibilis de 35000x gyorsabb)  \n Nim → Gleam (Erlang VMen futó típusbiztos actor model)\n Chapel → Verse (Epic Games metaprogramozási nyelv)\n Haskell/Clash → Filament (Stanford spatial computing DSL)\n Vale → Austral (lineáris típusok C sebességgel)\n ATS → Whiley (extended static checking verification)\n\n Hardver és Alacsony Szintű\n Verilog → Spatial (Stanford Scalaembedded ADL)\n LLVM IR → MLIR (Google multilevel intermediate representation)\n\n Verifikáció és Specifikáció  \n TLA+ → Dafny (Microsoft specification language)\n Dafny keretrendszer → Apalache (symbolic model checker)\n\n AI/ML Architektúra\n Jade SSM → KolmogorovArnold Networks (KANs)\n Synapse Tokenizer → SentencePiece Unigram\n Aethelred Pipeline → JAX Flax\n Neuroszimbolikus → GraphRAG\n Ternary kvantálás → GPTQ/AWQ posttraining\n\n Párhuzamosság és Elosztás\n Nim scheduler → TokioConsole (async Rust runtime)\n Chapel többcsomópont → Ray Distributed \n Forge gyorsítás → Allo (Cornell composable ADL)\n Atomikus várólisták → Crossbeam (lockfree Rust)\n\n Memória és Biztonság\n Vale formális verifikáció → Creusot (Rust specification language)\n ATS függő típusok → Lean 4 (theorem prover)\n Lineáris típusok → Granule (graded modal types)\n\n Optimalizáció\n HGM optimalizáló → Lion (adaptive gradient optimizer)\n LLVM JIT → Cranelift (WebAssembly code generator)\n Vektoros utasítások → ISPC (Intel implicit SPMD)",
+      "created_at": "20250905T01:33:07.522090Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e9573187e0d34961824f588b61dac52f",
+      "query": "meg sokkal sokkal jobat",
+      "answer": " BRUTÁL ISMERETLEN UNDERDOG ALTERNATÍVÁK (ULTRA CUTTING EDGE  MAX 3 HÓNAP)\n\n Programozási Nyelvek\n Zig → Hylo (Val nyelvcsapat új projektje, ownership + value semantics)\n Python → Codon (MIT Python → LLVM AOT compiler, 100x gyorsabb)\n Nim → Pony (Actor model + capability security + zerocopy messaging)\n Chapel → Futhark (Pure functional parallel array programming)\n Haskell/Clash → Calyx (Cornell temporal HDL intermediate language)  \n Vale → Inko (VMbased actor model linear memory safety)\n ATS → Whiley (Extended static checking verification language)\n\n Hardver és Alacsony Szintű\n Verilog → XLS (Google's circuit synthesis from functional IR)\n LLVM IR → CIRCT (LLVM subproject for circuit design)\n\n Verifikáció és Specifikáció\n TLA+ → Quint (Informal Systems TLA+ successor with better UX)\n Dafny → Creusot (INRIA Rust specification language)\n\n AI/ML Architektúra\n Jade SSM → KolmogorovArnold Networks v2 (splinebased activation revolution)\n Synapse Tokenizer → Llama3 Tiktoken (bytepair encoding evolution)\n Aethelred Pipeline → LiteLLM (unified LLM API abstraction)\n Neuroszimbolikus → DSPy (Stanford programmatic LM prompting)\n Ternary kvantálás → SpQR (Samsung sparse quantized representation)\n\n Párhuzamosság és Elosztás\n Nim scheduler → Loom (Virtual threads for structured concurrency)\n Chapel többcsomópont → RayJob (Kubernetesnative distributed compute)\n Forge gyorsítás → Triton (OpenAI GPU kernel language)\n Atomikus várólisták → Disruptor (LMAX lockfree ring buffer)\n\n Memória és Biztonság\n Vale verifikáció → Prusti (ETH Zurich Rust verification)\n ATS függő típusok → Idris2 (dependent types practical programming)\n Lineáris típusok → Granule (graded modal effect types)\n\n Optimalizáció\n HGM optimalizáló → Shampoo (Google secondorder preconditioning)\n LLVM JIT → CraneLift (Bytecode Alliance WebAssembly backend)\n Vektoros utasítások → SPIRV (Khronos compute shaders everywhere)",
+      "created_at": "20250905T01:34:12.305695Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

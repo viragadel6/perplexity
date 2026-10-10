@@ -1,0 +1,19 @@
+{
+  "context_uuid": "acc4d203f96c4bb48f1c725a1ae455c8",
+  "context_title": "",
+  "created_at": "20260926T04:01:10.083489Z",
+  "updated_at": "20260926T04:01:19.077607Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "94a4a262763e428cac0faaedecb6ea91",
+      "query": "",
+      "answer": "A linkelt  egy ingyenes iPhoneos bemutatóapp: interaktívan kipróbálhatod benne a React Native, Expo, NativeWind és TypeScript alapú mobilalkalmazássablonok felületeit. Nem magukat a fejlesztéshez használható sablonforrásokat adja ingyen; azok a fejlesztő weboldalán vásárolhatók meg.[1][2]\n\nAz App Store szerint a fejlesztő Tomas Zeman, az alkalmazáshoz iOS 15.1 vagy újabb rendszer kell, és a felülete angol nyelvű. A bemutatók között banki, AIchat, ingatlanos, webshopos, piactéri és fitneszapp is szerepel.[1]\n\nMit szeretnél tudni róla: a használatát, a sablonok árát, vagy azt, hogy érdemese letölteni?",
+      "created_at": "20260926T04:01:10.118869Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

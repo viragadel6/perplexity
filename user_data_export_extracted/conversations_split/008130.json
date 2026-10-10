@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8fd523810ab14089bb80b1c00fa4a7c4",
+  "context_title": "",
+  "created_at": "20251001T21:31:36.543719Z",
+  "updated_at": "20251001T21:31:36.543719Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3ba909cc6d1f44238e6e21263c2b5a98",
+      "query": "",
+      "answer": "A VideoPrism egy általános célú, fejlett videó és videószöveg kódoló modell, amelyet a Google DeepMind fejlesztett ki és 2025ben publikáltak[1]. A modellt úgy tervezték, hogy kiválóan alkalmazható legyen számos videós feladatban, például osztályozásban, keresésben, lokalizációban, leírás generálásában és kérdésmegválaszolásban[1].\n\n Fő jellemzők\n\n Több, mint 1 milliárd képszöveg, 36 millió videószöveg pár és 582 millió videóklip alapján tanították elő[1].\n Egyszerűen adaptálható új videós feladatokra, így rugalmasan használható kutatásban és ipari alkalmazásokban is[1].\n Stateoftheart eredményeket ért el 31 nyilvános benchmarkon, bemutatva a modell kiemelkedő teljesítményét[1].\n\n Használat\n\nA VideoPrism modellek JAX/Flax keretrendszerrel futnak, hivatalos támogatás jelenleg ezekre létezik. Modell betöltése és futtatása néhány sorban elvégezhető Pythonban. Például:\n\npython\nimport jax\nfrom videoprism import models as vp\n\nmodel_name = 'videoprism_public_v1_base'\nflax_model = vp.get_model(model_name)\nloaded_state = vp.load_pretrained_weights(model_name)\n\n@jax.jit\ndef forward_fn(inputs):\n  return flax_model.apply(loaded_state, inputs, train=False)\n\nvideo_inputs = ... # [batch_size, num_frames, height, width, 3]\noutputs, _ = forward_fn(video_inputs)\n\nA videoszöveg kódolók globális embeddingeket állítanak elő, amelyek segítségével mérhető a hasonlóság szöveges és videós tartalmak között[1].\n\n Modellváltozatok és konfigurációk\n\n| Modell Névből   | Konfiguráció      | Modell típus      | Backbone | Paraméterek száma | Fájlméret |\n|||||||\n| VideoPrismB    | videoprism_public_v1_base     | Video encoder        | ViTB    | 114M              | 458MB     |\n| VideoPrismL    | videoprism_public_v1_large    | Video encoder        | ViTL    | 354M              | 1.42GB    |\n| VideoPrismLvTB| videoprism_lvt_public_v1_base | Videotext encoder   | ViTB    | 248M              | 991MB     |\n| VideoPrismLvTL| videoprism_lvt_public_v1_large| Videotext encoder   | ViTL    | 580M              | 2.30GB    |\n\nA bemeneti videók RGB értékei [0,0; 1,0] közé legyenek normálizálva, a bemenet fő formátuma pedig: [batch_size, num_frames, 288, 288, 3][1].\n\n Benchmark eredmények\n\nVideoPrism modelljei kiemelkedő eredményeket értek el videofókuszú és videoszöveg benchmarkokon, mind abszolút pontosságban, mind teljesítményben kíváló helyet foglalva el a korábbi modellekhez képest[1].\n\n Licenc és forrás\n\n Kód: Apache2.0 licenc\n Egyéb tartalom: Creative Commons CCBY 4.0 licenc\n Hivatalos példák, Colab notebookok, és checkpointok elérhetők a repoban[1].\n\n Tudományos hivatkozás\n\nKérik, hogy tudományos felhasználáskor az ICML 2024es publikációt (arxiv.org/abs/2402.13217) idézzék[1].\n\n\n\nA VideoPrism jól dokumentált, könnyen adaptálható és nagyon erős alapot nyújt videós mesterséges intelligencia feladatokra a legkorszerűbb eredményekkel[1].",
+      "created_at": "20251001T21:31:36.642775Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

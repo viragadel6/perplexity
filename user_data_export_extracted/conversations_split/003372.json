@@ -1,0 +1,19 @@
+{
+  "context_uuid": "58b56953681a4283b4af0e2ac8558702",
+  "context_title": "jaide github",
+  "created_at": "20260319T02:58:50.291134Z",
+  "updated_at": "20260319T02:58:56.859083Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "56a6eeb59c52493f93c08f79b4621899",
+      "query": "jaide github",
+      "answer": "A „jaide” névre több GitHubprojekt és fiók is található, de a legismertebbek közül pár releváns:\n\n JaidedAI / EasyOCR\n\n GitHubszervezet: JaidedAI[1][7][10]\n Fő repo: EasyOCR – kész OCRkönyvtár, 80+ nyelv támogatásával (latin, kínai, arab, dévanágari, cirill stb.).[1]\n Cím: \n Szervezet összes repója: \n\n Hasonló nevű projektek/fiókok\n\n Felhasználó: jaidetree – 229 publikus repóval rendelkező GitHubfiók.[4]\n   Profil: \n Projekt: jaide (Junos Aide) – Junos hálózati eszközök kezelésére szolgáló könyvtár és CLI.[6][8][9]\n   Repo: \n\nHa pontosítod, hogy melyik „jaide/jaided” érdekel (pl. EasyOCR, hálózati eszközös Jaide, vagy egy konkrét user/projekt), tudok részletesebb összefoglalót adni.",
+      "created_at": "20260319T02:58:50.437871Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

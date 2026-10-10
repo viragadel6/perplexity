@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e0a8188b8bc44249995ddd69e707fd22",
+  "context_title": "gpt 4o vs gpt 4.1",
+  "created_at": "20250721T13:50:24.502728Z",
+  "updated_at": "20250721T13:50:24.502728Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8680747e5f07449fa82ebe34085f78f1",
+      "query": "gpt 4o vs gpt 4.1",
+      "answer": "Íme a részletes összehasonlítás a GPT4o és GPT4.1 modellek között:\n\n| Jellemző          | GPT4o                          | GPT4.1                                      |\n||||\n| Kiadás ideje      | 2024. május/november            | 2025. április                                |\n| Kontextusablak    | 128 000 token                   | 1 000 000 token (APIban)                    |\n| Tudásvágás dátuma | 2023. október                   | 2024. június                                 |\n| Multimodalitás    | Szöveg, kép, hang (teljesen integrált) | Főként szöveges és kód feladatokra fókuszál |\n| Kreatív írás, hangalapú chat | Kiemelkedő, természetes, gyors | Jobban követi az utasításokat, stabilabb formátum |\n| Kódolás           | Jó (33,2% SWEbench Verified)   | Kiemelkedő (54,6% SWEbench Verified)        |\n| Utasításkövetés   | Jó                              | Jobb, 10,5%kal előzi meg a 4ot (MultiChallenge) |\n| Nagy bemenetek kezelése | 128k token                  | 1M token, teljes adatbázisokra, logokra alkalmas    |\n| Ár                | Magasabb                        | Akár 83%kal olcsóbb, főleg mini/nano verziókban   |\n| Elérhetőség       | ChatGPTben, APIn át is         | Főként APIn keresztül, ChatGPTben korlátozottan   |\n\nLényeges különbségek:\n GPT4o azoknak való, akik minden modalitást (szöveg, kép, hang) gyorsan és integráltan akarnak használni – például hangos beszélgetés, képanalízis, dokumentumok feldolgozása egyben[2][3][9].\n GPT4.1 fejlesztőknek, vállalatoknak ajánlott, akiknek óriási adatmennyiségek (pl. teljes kódarchívum, több száz oldalas szerződések) feldolgozása a célnál, kiemelkedően jobb kódírási, utasításkövetési és stabilitási igénnyel. A változások kiszámíthatóbbak, az output stabilabb, a „random edit” arány jelentősen csökkent[2][5].\n Költség: GPT4.1 használata (mini/nano verziók főleg) jóval költséghatékonyabb a folyamatos vagy tömeges alkalmazásoknál[2][3][9].\n A tudásfrissesség: GPT4.1 újabb információkkal dolgozik, így frissebb adatokra képes választ adni[3][9].\n\nÖsszefoglalva:  \n Ha multimodális, hangos, képes feladatokat vagy ChatGPTben könnyen elérhető AIt keresel, a GPT4o a jobb választás.  \n Ha óriási szöveges/kódos adatokat kell feldolgoznod, jobb utasításkövetés és alacsonyabb költség a cél, fejlesztőként, akkor a GPT4.1 jobb – főleg APIn keresztül[2][3][5][9].\n\nHa szeretnél konkrét felhasználási példát vagy magyarul részletesebb magyarázatot, szólj!",
+      "created_at": "20250721T13:50:25.916158Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

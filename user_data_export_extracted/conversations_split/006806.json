@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b1c9d8952880485b9ed935db60f211b0",
+  "context_title": "Rust alapú Logly naplózó motor?",
+  "created_at": "20251101T22:29:20.326864Z",
+  "updated_at": "20251101T22:29:20.326864Z",
+  "mode": "COPILOT",
+  "collection_uuid": "a817011163ef4e6e943c113d1f46c570",
+  "entries": [
+    {
+      "entry_uuid": "81289e59bc9e465583aa08761a18da58",
+      "query": "Rust alapú Logly naplózó motor?",
+      "answer": " Logly naplózó motor\n\nA Logly egy Rustalapú naplózó könyvtár, amely elsősorban Python alkalmazások számára készült, de kihasználja a Rust memóriabiztonságát és magas teljesítményét a backendben. Ez a megoldás a PyO3 és Maturin eszközökkel épül, így gyors, szálbiztos naplózást biztosít minimális konfigurációval, beleértve a struktúrált JSON kimenetet, fájlrotációt és aszinkron írást.[1][2]\n\n Főbb jellemzők\n\n Teljesítmény és biztonság: A Rust backend biztosítja a gyorsaságot (akár 10szeres speedup a standard Python logginghez képest benchmarkokban) és a memória biztonságot, elkerülve az adatversenyeket.[2][1]\n API és használat: Loguruszerű egyszerű APIval rendelkezik, támogatja a több szintű naplózást (TRACEtől CRITICALig), színes konzolkimenetet, kontextus kötést és kivételkezelést.[1]\n Kimeneti opciók: Több sink támogatása (konzol, fájl, egyedi handlerek), idő és méretalapú rotáció, tömörítés (gzip, zstd) és retention policyk.[1]\n\n Telepítés és használat\n\nPythonhoz: pip install logly után azonnal használható, pl. from logly import logger; logger.info(\"Üzenet\"). Fejlesztéshez Rust 1.70+ szükséges a forráskódból építéskor.[1]\n\nEmellett létezik egy tiszta Rust implementáció a crates.ion, amely egyszerű színkódolt, szintalapú naplózást kínál Rust projektekhez, de kevésbé fejlett, mint a PythonRust hibrid verzió.[3][4]\n\nA Logly aktívan fejlesztés alatt áll (nem productionready), Python 3.103.14et támogat minden főbb platformon.[1]",
+      "created_at": "20251101T22:29:20.589299Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "context_uuid": "1369df895f2744a4a717df6d29b6e53f",
+  "context_title": "",
+  "created_at": "20260629T23:39:27.814717Z",
+  "updated_at": "20260629T23:43:55.891869Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e73edb9737d5431abe937c7759f4cc32",
+      "query": "",
+      "answer": "A  a DeepSeek AI által kiadott nyílt forráskódú, teljes körű kódbázis, amely spekulatív dekódoláshoz szükséges vázlat modellek (draft models) betanítására és kiértékelésére szolgál.\n\n Mi az a spekulatív dekódolás?\n\nA spekulatív dekódolás (speculative decoding) egy olyan technika, amellyel a nagy nyelvi modellek (LLMek) inferenciáját jelentősen fel lehet gyorsítani. Az ötlet lényege: egy kis, gyors „vázlat modell\" előre megjósol több tokent, majd a nagy „célmodell\" egyetlen lépésben elfogadja vagy elveti ezeket. Ha az elfogadási arány magas, a folyamat lényegesen kevesebb GPUciklust igényel ugyanannyi kimenet előállításához.\n\n A DeepSpec felépítése\n\nA repository három fő szakaszra épül: adatelőkészítés, betanítás és kiértékelés . Az adatfolyamat letölti a promptokat, újragenerálja a célmodell válaszait, és felépíti az ún. target cachet – figyelmeztetés: ez alapértelmezett Qwen/Qwen3-4B beállítás esetén akár ~38 TB tárhelyet is igényelhet . A betanítás egyetlen csomópontra, 8 GPUra van optimalizálva, és a train.sh szkripttel indítható el .\n\n Támogatott algoritmusok\n\nA DeepSpec jelenleg három draft modell algoritmust tartalmaz :\n\n DSpark – a DeepSeek saját, a mellékelt [DSpark_paper.pdf]() dokumentumban leírt módszer \n DFlash – a  bemutatott draft modell design \n Eagle3 – a  alapuló implementáció, amelynek training frameworkje a  projektből van adaptálva \n\n Kiadott checkpointok\n\nA repóban négy célmodellhez (Qwen34B, Qwen38B, Qwen314B, Gemma412Bit) mindhárom algoritmushoz elérhetők HuggingFace checkpointok, amelyek az [open-perfectblend]() adatkészleten, nemthinking módban lettek betanítva . Ezek a checkpointok pontosan a paper 1. táblájának eredményeit reprodukálják.\n\n Kiértékelés\n\nAz eval.sh szkript kilenc benchmark feladatsoron fut: gsm8k, math500, aime25, humaneval, mbpp, livecodebench, mtbench, alpaca és arenahardv2 . A kiértékeléshez meg kell adni a célmodell és a draft checkpoint elérési útját, majd a rendszer méri a spekulatív dekódolás elfogadási arányát (acceptance rate).\n\n Licenc és közreműködés\n\nA projekt MIT licenc alatt érhető el . A DeepSeek kifejezetten hívja a közreműködőket új algoritmusok implementálásához – a NOTICE fájlban minden harmadik féltől adaptált kódrészlet külön fel van tüntetve .",
+      "created_at": "20260629T23:39:27.976658Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "278d4bd18277493887a13957d85112c9",
+      "query": "most akkor ez egy llm csak mini?",
+      "answer": "Nem egészen – a DeepSpec maga nem egy önálló LLM, hanem egy keretrendszer, amellyel kis „vázlat modelleket\" (draft modeleket) lehet betanítani és értékelni egy meglévő nagy célmodell mellé.\n\n A lényeg: két modell együtt\n\nA spekulatív dekódolás architektúrájában mindig két modell működik párban . A nagy célmodell (pl. Qwen34B, Qwen38B, Qwen314B vagy Gemma412Bit) az, amelyik a tényleges, megbízható szöveget generálja. A kis draft modell a DeepSpec által betanított komponens, amelynek egyetlen feladata, hogy gyorsan előrejósolja a következő néhány tokent – nem kell, hogy tökéletes legyen, csak elég jó ahhoz, hogy a célmodell gyakran elfogadja a javaslatait .\n\n Nem önálló, hanem parazita architektúra\n\nA draft modell önmagában nem használható chatbotként vagy bármilyen érdemi feladatra – nincs értelmes kontextusértelmező képessége a célmodelltől függetlenül . Lényegében a célmodell belső rétegeinek aktivációit olvassa be bemenetként, és ezekből becsüli meg a következő tokeneket. Ez azt jelenti, hogy a draft modell szorosan hozzá van kötve egy adott célmodellhez: a dspark_qwen3_4b_block7 checkpoint például kizárólag a Qwen/Qwen3-4B mellé működik .\n\n Méret és szerep\n\nA kiadott checkpointok elnevezéséből (block7, block8, ttt7) látszik, hogy ezek a draft modellek mindössze 7–8 transformer blokkból állnak, míg a Qwen34B célmodellnek 36 blokkja van . Tehát nem egy kis LLM a szó hagyományos értelmében, hanem egy erősen specializált, alacsony paraméterszámú segédmodell, amelynek önmagában nincs „tudása\" – kizárólag gyorsítási célból létezik.",
+      "created_at": "20260629T23:42:56.269923Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "d20b4e6cd58b42e3939e7c1cfb835d1f",
+      "query": "de a 12b is egy mini llm",
+      "answer": "Jó kérdés, de itt fontos különbséget tenni. A 12B a célmodell (Gemma412Bit), nem a DeepSpec által betanított valami – ez egy teljes értékű, 12 milliárd paraméteres Google LLM, amelyet a DeepSpec csak mint célpontot használ .\n\n Mit tanít be a DeepSpec?\n\nA DeepSpec által betanított draft modellek ezzel szemben töredékei a célmodell méretének . A kiadott checkpointok neve (block7, block8) azt jelzi, hogy ezek mindössze 78 transformer blokkból álló kis struktúrák – a Qwen34Bnek pl. 36 blokkja van, tehát a draft modell nagyjából ötödakkora sem . Ezek nem önálló LLMek, hanem a célmodell mellé illesztett gyorsító komponensek.\n\n Tehát a 12B nem „mini\"\n\nA 12 milliárd paraméteres Gemma modell a mai fogalmak szerint egy közepes méretű LLM – önállóan is teljes értékű chatbot, kódgenerátor stb. . A DeepSpec ebből a szempontból olyan, mint egy turbó a motorhoz: a célmodell (12B) maga a motor, a draft modell pedig a turbó, amely felgyorsítja a működést, de önmagában nem hajt semmit.",
+      "created_at": "20260629T23:43:43.307184Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

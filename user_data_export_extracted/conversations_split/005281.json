@@ -1,0 +1,19 @@
+{
+  "context_uuid": "64511ae62b1d4ca0a2508ff16f7f7fa2",
+  "context_title": "exa ait es cerebrast lovaables app ba tudom integrálni?",
+  "created_at": "20251227T07:32:11.759936Z",
+  "updated_at": "20251227T07:32:11.759936Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "181b5deac7f04c01bf7ace1a38fc1e45",
+      "query": "exa ait es cerebrast lovaables app ba tudom integrálni?",
+      "answer": "Igen: az Exa APIt és a Cerebras Inference APIt is be tudod kötni egy Lovable appba úgy, hogy a Lovable “Integrate any API” megközelítést használod, és az APIkulcsokat nem a frontendbe, hanem egy backend Edge Functionbe teszed.[1]\n\n Hogyan kösd be Lovableban\n Lovable támogatja, hogy bármilyen külső APIt integrálj (publikusat vagy autentikáltat is).   \n Ha az API autentikált (API key / Bearer token), a Lovable Cloud használatát kéri, a kulcsot “Secrets”ben tárolja, és automatikusan Edge Functiont hoz létre, hogy a kulcs ne kerüljön ki a kliensbe.   \n Ez a mintázat pont jó Exához és Cerebrashoz, mert mindkettő tipikusan API kulcsos (Bearer) hívás.[2][1]\n\n Exa integráció (web search)\n Az Exa “search” endpointnál az API kulcs mehet x-api-key fejléccel vagy Authorization: Bearer ... formában.[1]\n Lovableban ezt célszerű egy Edge Function mögé rakni (pl. /exa_search), ami átveszi a felhasználó queryjét, meghívja az Exát, majd visszaadja a találatokat a UInak.[1]\n\n Cerebras integráció (LLM chat)\n A Cerebras Inference API Bearer tokenes autentikációt használ, és a Chat Completions endpoint hívható a https://api.cerebras.ai/v1/chat/completions címen.[2]\n A Cerebras API “mostly compatible” az OpenAI klienskönyvtárakkal (tehát OpenAIsémájú chat completion request/response könnyen átvihető), ami Lovable/Supabase Edge Functionből is kényelmesen használható.[3]\n Ezt is Edge Function mögé tedd (pl. /cerebras_chat), és a Lovable frontend ebből kérjen választ.[2]\n\nÍrd meg: Lovable Cloud + Supabase be van már kapcsolva nálad, vagy még csak tisztán frontendes projekt?",
+      "created_at": "20251227T07:32:11.854270Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "context_uuid": "9695d19743704cd3bb4a0f5fe35d037c",
+  "context_title": "Ocr",
+  "created_at": "20260630T20:36:10.205002Z",
+  "updated_at": "20260630T20:40:31.641819Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9fb5c592e3774c1d965445a9d6fe2660",
+      "query": "Ocr",
+      "answer": "A képen látható szöveg OCRje:\n\n „Hogyan kezeli a rendszer az agent memory és state állapotot”\n „Mi a különbség a chainofthought és az agent loop között”\n „Hogyan biztosítja a rendszer a sandbox környezet biztonságát”\n Beviteli mező: „Kérdezz utána...”\n Képernyőn még látszik: „13 Források”\n\nHa szeretnéd, ki is tudom írni a teljes képernyő szövegét soronként, vagy meg tudom fordítani magyarból angolra.",
+      "created_at": "20260630T20:36:10.658488Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "24c23f31d9a7454cafeff2d592aa2043",
+      "query": "Ocr",
+      "answer": "A képen látható szöveg OCRje:\n\n „Milyen konkrét toolhasználati mechanizmusokkal rendelkezik a Manus”\n „Hogyan történik a hibakezelés és az önjavítás agent loop közben”\n „Milyen technikai limitációi vannak az autonóm sandbox futtatásnak”\n Beviteli mező: „Kérdezz utána...”\n Képernyőn még látszik: „20 Források”\n\nHa szeretnéd, a két képből össze is rakom az összes kinyert magyar szöveget egy tiszta listába.",
+      "created_at": "20260630T20:39:23.262894Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "de343ccf211e476885c29ffb7448c522",
+      "query": "Ocr",
+      "answer": "A képen látható szöveg OCRje:\n\n „Hogyan skálázható az agent memory hosszú, komplex feladatoknál”\n „Milyen protokollok biztosítják a sandbox biztonságos fájlrendszerhozzáférését”\n „Hogyan mérhető az agent döntéshozatali hatékonysága hibás kimeneteknél”\n Beviteli mező: „Kérdezz utána...”\n Képernyőn még látszik: „15 Források”\n\nHa akarod, a három képből most összeállítom egyetlen tiszta OCRlistába, ismétlődések nélkül.",
+      "created_at": "20260630T20:40:26.952514Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

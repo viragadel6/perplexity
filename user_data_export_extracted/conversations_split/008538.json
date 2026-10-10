@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c8d5a98d8609479a9331e178680e4693",
+  "context_title": "magyar haztartasokba mikortol jellemzo hogy csinaltak videokat",
+  "created_at": "20250912T16:40:28.412546Z",
+  "updated_at": "20250912T16:40:28.412546Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1f8beaf0183242e9a5a51f034c4a8768",
+      "query": "magyar haztartasokba mikortol jellemzo hogy csinaltak videokat",
+      "answer": "Röviden: a magyar háztartásokban a házi videózás tömegesen az 1980as évek végén indult, és az 1990es évek elején vált általánossá a VHS/Video8 kézikamerák és a videómagnók elterjedésével.[1][2][3]\n\n Miért ekkor lett jellemző?\n A VHS szabvány a 70es évek végén/80as években tette olcsóbbá és könnyebbé az otthoni videózást világszerte, ami a késő Kádárkorban Magyarországra is begyűrűzött.[2][1]\n A kompakt házi videókamerák (Sony Video8/Hi8) 1985–1989 között jelentek meg és váltak népszerűvé, ami a háztartási felvételkészítést különösen az 1989 utáni években gyorsította.[3]\n\n Magyar vonatkozások, jelek az elterjedésről\n A VHS a 80as években lett általános otthoni formátum, Magyarországon is ekkor kezdtek megjelenni a videomagnók és a kölcsönzők; visszaemlékezések 1988 tájára teszik a „videózás élményének” terjedését a családok és iskolai közösségek körében.[4][1]\n A házi videózás és kazettakultúra a 80as évek végétől alakult ki, majd a 90es években vált széles körben „normálissá”; a későbbiekben a DVD vette át a vezetést, de ez már a 90es évek végétől történt.[5][6]\n\n Rövid idővonal\n 1976: JVC VHS bemutatója (globális indító technológia).[7][1]\n 1985–1989: Video8/Hi8 kézikamerák kora, a házi felvétel ezáltal kényelmes és hordozható lesz.[3]\n 1988–1992: Magyarországon a házi videózás láthatóan megjelenik a háztartásokban és közösségekben; a 90es években válik általánossá.[4][2]\n\nMegjegyzés: pontos, reprezentatív hazai statisztika a „saját videókészítés” kezdeti arányairól ritka, de a formátumok és eszközök megjelenése, valamint kortársi beszámolók alapján a fordulópont a 80as évek vége, elterjedés pedig a 90es évek elejeközepe.[1][2][4]",
+      "created_at": "20250912T16:40:28.622742Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

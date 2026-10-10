@@ -1,0 +1,19 @@
+{
+  "context_uuid": "092e53aa446e4844a3099d8c6d181f7a",
+  "context_title": "melyik model lett a legjobb? Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+  "created_at": "20260908T20:54:39.799879Z",
+  "updated_at": "20260908T20:55:28.513123Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6f0395393c2a4f808d6bced2b5c7b23f",
+      "query": "melyik model lett a legjobb? Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+      "answer": "A fájlban nem található explicit \"győztes\" vagy pontszám alapú végső verdikt – ez egy nyers összehasonlító adatgyűjtemény, amely négy különböző AImodell teljes válaszát tartalmazza ugyanarra a rendkívül komplex Pythonkódgenerálási feladatra (egy productionready fényképészemulációs pipeline megírása barreldisztorzióval, flashszimulációval, halációval, tónuskezeléssel és filmszemcsével).[1]\n\n A dokumentumban szereplő modellek\n\nA fájl négy modell teljes \"gondolkodási\" folyamatát és kódját tartalmazza egymás után: Claude Fable 5.1 max (fallback thinking módban), Claude Opus 5 max (thinking módban), GPT5.6 Sol max (thinking módban), valamint GPT5.5 Pro xhigh (thinking módban). Mindegyik ugyanazt a rendkívül részletes, magyar és angol nyelvű specifikációt kapta feladatként, amely egy modulokra bontott képfeldolgozó szoftver (photostylizer) teljes, kommentek nélküli, placeholdermentes, típusannotált forráskódját várta el tőlük.[1]\n\n Miért nincs egyértelmű \"legjobb\"\n\nA tartalom végigolvasása alapján a fájl nem tartalmaz külön kiértékelő szekciót, pontszámtáblát vagy explicit bírói (judge) döntést arról, melyik modell válasza a legjobb. Ami látható, az egyes modellek saját belső érvelése (chainofthought jellegű tervezési folyamat) és az általuk legenerált konkrét Pythonkód – tehát ez inkább egy nyers, egymás mellé rakott válaszkorpusz, mint egy kiértékelt benchmark eredmény.[1]\n\n Mit lehet mégis megfigyelni\n\nHa a válaszok minőségét a specifikáció betartása alapján próbáljuk megítélni, néhány különbség kirajzolódik. A Claude Opus 5 max és a GPT5.5 Pro xhigh válaszai különösen alapos, lépésről lépésre végiggondolt matematikai levezetéseket tartalmaznak a barreldisztorzió inverzének, a homográfia illesztésének és a színtérkonverzióknak a kérdésében, beleértve olyan finomságokat is, mint a Newtonmódszeres sugárinverzió monotonitásának ellenőrzése vagy a memóriahatékony feldolgozás megtervezése nagy felbontású képekhez. A GPT5.6 Sol max válasza is részletes dataclassalapú konfigurációs rendszert és CLIt épít fel, míg a Claude Fable 5.1 max inkább a kódszervezési és importcikluselkerülési kérdésekre fókuszál részletesebben.[1]\n\nMivel a fájlban nincs olyan rész, ahol egy külső bíró vagy a felhasználó explicit módon kimondaná, melyik a \"győztes\" modell, nem tudok megbízható, tényalapú választ adni arra, hogy melyik lett a legjobb – ehhez szükség lenne egy konkrét kiértékelő/rangsoroló szakaszra a dokumentumban, amit a jelenlegi keresések nem találtak meg.",
+      "created_at": "20260908T20:54:39.942674Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "31d07aabbdc544778dacf5f9e322d551",
+  "context_title": "ez mennyire veszelyes?",
+  "created_at": "20250702T10:53:32.786439Z",
+  "updated_at": "20250702T10:54:55.434517Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3450cedab1c14a4d960e523995a964bf",
+      "query": "ez mennyire veszelyes?",
+      "answer": "Ez a kód rendkívül veszélyes és több szempontból is komoly biztonsági kockázatot jelent:\n\n Kritikus biztonsági problémák\n\nHardkódolt API kulcsok és hitelesítő adatok\nA kódban nyíltan láthatók érzékeny adatok, mint GitHub tokenek, API kulcsok, adatbázis kapcsolati stringek és Google Service Account privát kulcsok. Ezek azonnali visszaélésre alkalmasak[1].\n\nAdatbázis sebezhetőségek\nA PostgreSQL kapcsolati string teljes hozzáférést biztosít egy Neon adatbázishoz, ami lehetővé teszi az adatok törlését, módosítását vagy lopását[1].\n\nHálózati biztonsági kockázatok\nA kód port szkennelést és sebezhetőségkeresést végez, ami:\n Illegális lehet bizonyos országokban\n DDoS támadásként értelmezhető\n Hálózati infrastruktúra feltérképezésére használható[1]\n\n Potenciális visszaélési lehetőségek\n\nAPI kulcsok visszaélése\n GitHub token: Privát repositoryk elérése, kód módosítása\n Gemini API: Költséges AI szolgáltatások használata\n Replicate/Together AI: Számítási erőforrások kihasználása[1]\n\nAdatbázis kompromittálás\nA PostgreSQL hozzáférés lehetővé teszi:\n Érzékeny szkennelési adatok ellopását\n Adatbázis tartalmának törlését\n Rosszindulatú adatok beszúrását[1]\n\nHálózati támadások\nA beépített Nmap és port szkennelő funkciók használhatók:\n Célpontok feltérképezésére\n Sebezhetőségek azonosítására\n Támadások előkészítésére[1]\n\n Azonnali teendők\n\nSürgős lépések:\n Minden API kulcs azonnali visszavonása\n Adatbázis jelszavak megváltoztatása\n GitHub token deaktiválása\n Google Service Account kulcsok újragenerálása[1]\n\nHosszú távú megoldások:\n Környezeti változók használata érzékeny adatokhoz\n Secrets management rendszer implementálása\n Hozzáférésvezérlés bevezetése\n Audit logok beállítása[1]\n\nEz a kód soha nem kerülhet éles környezetbe jelenlegi formájában, és minden benne található hitelesítő adat azonnali cseréje szükséges.",
+      "created_at": "20250702T10:53:32.805862Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "48a9a40ba26c43248886113b7c40be21",
+      "query": "de ugy ertve hogy maga a szoftver most az api kulcsokkal ne foglakozz",
+      "answer": "A szoftver architektúrája és funkciói szempontjából ez egy rendkívül összetett és potenciálisan problémás biztonsági platform:\n\n Szoftver Architektúra Kockázatok\n\nTúlzottan Komplex Rendszer\nA kód több mint 2000 soros monolitikus alkalmazás, amely egyszerre próbál port szkennelést, sebezhetőségkeresést, AI elemzést és web interfészt kezelni. Ez a komplexitás maga is biztonsági kockázatot jelent.\n\nAgresszív Hálózati Szkennelés\n Nmap integrációval fejlett port szkennelést végez\n Sebezhetőségkereső szkripteket futtat\n SSL tanúsítvány elemzést hajt végre\n DNS rekord feltérképezést végez\n\nPotenciálisan Illegális Funkciók\nA beépített port szkennelő és sebezhetőségkereső funkciók használata:\n Engedély nélküli rendszerek ellen illegális lehet\n DDoS támadásként értelmezhető\n Hálózati infrastruktúra feltérképezésére alkalmas\n\n Technikai Biztonsági Problémák\n\nAdatbázis Sebezhetőségek\n SQLAlchemy ORM használata SQL injection ellen véd, de a komplex lekérdezések kockázatot jelenthetnek\n Adatbázis kapcsolatok kezelése nem optimális\n Érzékeny szkennelési adatok tárolása titkosítás nélkül\n\nWeb Biztonsági Hiányosságok\n CORS minden origint engedélyez (allow_origins=[\"*\"])\n Nincs rate limiting a WebSocket kapcsolatokhoz\n Hiányzik a proper input validáció\n Nincs CSRF védelem\n\nAI Integráció Kockázatok\n Több AI szolgáltatás egyidejű használata\n Érzékeny adatok küldése külső AI APIkhoz\n Nincs AI válaszok validálása vagy szűrése\n\n Működési Kockázatok\n\nErőforrás Kihasználás\n Párhuzamos szkennelési feladatok túlterhelhetik a rendszert\n Nincs timeout vagy resource limit\n Memory leak lehetőség a WebSocket kapcsolatoknál\n\nJogi Következmények\n Engedély nélküli port szkennelés\n Sebezhetőségkeresés idegen rendszereken\n Potenciális kibertámadásnak minősülő tevékenység\n\nAdatvédelmi Problémák\n Szkennelési eredmények hosszú távú tárolása\n Nincs adattörlési mechanizmus\n GDPR compliance hiánya\n\n Ajánlások\n\nAzonnali Intézkedések:\n Szkennelési funkciók korlátozása csak saját rendszerekre\n Rate limiting és input validáció implementálása\n Adatbázis titkosítás bevezetése\n Audit logok implementálása\n\nHosszú Távú Megoldások:\n Moduláris architektúra kialakítása\n Proper error handling és logging\n Biztonsági tesztelés és code review\n Jogi megfelelőség biztosítása\n\nEz a szoftver jelenlegi formájában nem alkalmas éles környezetben való használatra a jelentős biztonsági, jogi és technikai kockázatok miatt.",
+      "created_at": "20250702T10:54:21.811450Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

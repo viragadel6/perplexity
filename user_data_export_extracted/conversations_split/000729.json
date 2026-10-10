@@ -1,0 +1,28 @@
+{
+  "context_uuid": "18267c4cf7ee4240a91e8d5707ea2f1b",
+  "context_title": "ki az a kai cenat",
+  "created_at": "20260830T02:21:12.984189Z",
+  "updated_at": "20260830T02:21:52.883039Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "faecf72ff34b4690afa90e5746ace7ed",
+      "query": "ki az a kai cenat",
+      "answer": "Kai Cenat, teljes nevén Kai Carlo Cenat III, amerikai streamer, youtuber és internetes szórakoztató. Főleg energikus, komikus Twitchadásairól ismert: játékokkal, kihívásokkal, reakciókkal, beszélgetésekkel és hírességekkel közös streamekkel épített óriási közönséget.[1][2]\n\n Miért lett híres?\n\n 2001. december 16án született New Yorkban, és a Bronxból indult; családi háttere karibi: édesanyja trinidadi, édesapja haiti.[2][1]\n Először YouTubevideókkal kezdett foglalkozni 2018 körül, majd 2021ben komolyabban áttért a Twitchre.[3]\n Az élő adásai sokszor szándékosan kaotikusak, hangosak, viccesek és erősen közösségi jellegűek — a nézők nem pusztán gameplayt kapnak, hanem folyamatos showműsort.\n Tagja az AMP (Any Means Possible) nevű amerikai tartalomgyártó csapatnak.[1][2]\n\n Twitchrekordok\n\nCenat a Twitch egyik legnagyobb alakja. 2023ban minden idők legtöbb előfizetővel rendelkező Twitchstreamere lett, és a „Mafiathon” nevű, hosszú, előfizetői támogatással működő streamekkel új mérföldköveket ért el: a források szerint a Mafiathon 2 során átlépte az 500 ezres, a Mafiathon 3 alatt pedig az 1 milliós feliratkozói határt.[2][1]\n\nFontos különbség: a Twitchön a „subscriber” fizetős csatornaelőfizetőt jelent, nem ugyanaz, mint a követő. Ezért ezek rendkívül nagy, üzletileg is jelentős számok.\n\n A netkultúrában\n\nKai Cenat nem csak streamer, hanem a mai angol nyelvű internetes kultúra egyik fő arca. A nevéhez gyakran olyan virális kifejezéseket kötnek, mint a „rizz”, a „Fanum tax” és a „gyatt”, bár ezek többnyire közösségi, egymásra épülő mémjelenségek, nem kizárólag az ő találmányai.[2]\n\nRöviden: ő egy nagyon népszerű, látványosan előadó típusú streamer, aki a videojátékot, a humort, a celebinterjúkat és az internetes mémkultúrát egyetlen élő műsorrá keveri.",
+      "created_at": "20260830T02:21:13.028727Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "7589a7dafe484c7891b46bbf0000f39f",
+      "query": "",
+      "answer": "Nem tudtam lekérni vagy lejátszani ezt az Xvideót: a közvetlen oldalletöltés sikertelen volt, az Xkapcsolat pedig azt jelezte, hogy elfogytak a hozzáférési kreditek. Emiatt nem lenne megbízható találgatnom, mi van benne.[1]\n\n Mit küldj helyette?\n\n töltsd fel ide magát a videót vagy egy képernyőfelvételt;\n küldj 1–3 képkockát/screenshotot;\n másold be a poszt szövegét, illetve írd le, mire vagy kíváncsi — például fordítás, magyarázat, factcheck vagy kontextus.\n\nHa elküldöd a videófájlt, meg tudom nézni, elmondani, mi történik benne, és lefordítani a hallható vagy látható szöveget.",
+      "created_at": "20260830T02:21:40.105375Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

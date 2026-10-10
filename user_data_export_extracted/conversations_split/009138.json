@@ -1,0 +1,19 @@
+{
+  "context_uuid": "18d2f08de1f54c8dba64df4039134596",
+  "context_title": "Apple AI 5x gyorsabb válasz",
+  "created_at": "20250809T20:40:38.457564Z",
+  "updated_at": "20250809T20:40:38.457564Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5cb0640b8b0c426a934d159c386031f0",
+      "query": "Apple AI 5x gyorsabb válasz",
+      "answer": "Röviden: nincs hiteles, hivatalos állítás az Appletől arról, hogy az „Apple Intelligence” vagy a Siri „5x gyorsabb választ” adna, és ilyen konkrét szorzót megbízható források sem közöltek.[2][7]\n\n Az Apple az Apple Intelligencet és a Siri nagy frissítését emeli ki (természetesebb megértés, rugalmasabb kérések kezelése, ChatGPTintegráció), de nem kommunikál „5× gyorsabb” teljesítményállítást.[2]  \n Az Apple támogatási oldala részletezi az AIfunkciókat (iOS 18.4/más platformverziók), de nem szerepel benne sebességszorzó vagy „5× gyorsabb válasz” ígéret.[7]  \n Magyar összefoglalók és áttekintők is a képességbővítést hangsúlyozzák (Siri pontosabb nyelvmegértés, kontextus, íróeszközök), nem a többszörös gyorsulást.[8][10]  \n\nHa hallottál ilyen állításról, valószínűleg félreértelmezett hír vagy nem hivatalos spekuláció lehet; a jelenlegi hivatalos és megbízható leírások nem támasztják alá az „5× gyorsabb válasz” konkrét ígéretét.[2][7][8]",
+      "created_at": "20250809T20:40:38.761181Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

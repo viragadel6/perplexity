@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c5f2327ad7e94fe1a506be2ad6224203",
+  "context_title": "a gyakorlatban melyik a legeslegerősebb formális verifikacios program nyelv? en olyanra gondolok ami teljesen mas , felsobb szint mint coq isabelle agda hol4 beluge f idris dufny viper teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű Olyan programnyelveket keresek és szeretek, amelyek még a fejlesztői körökben is a legeslegismeretlenebbek, de összehasonlíthatatlanul erősebbek, hatékonyabbak, nagyobb teljesítményűek, magasabb szintűek, brutálisan gyorsak, tiszták, gyönyörűek és tiszteletet parancsolóak. Fontos, hogy használhatók legyenek Nixszel és Repliten is.  Az olyan mainstream nyelvek, mint a C, C++, Rust, Julia, Zig, Nim, Python, Crystal, Ruby, Gleam, Uiua, BQN, Hylo, Odin, Agda, ATS, Bash, Carbon, Chapel, Chisel, Scala, Clash, Haskell, Dedukti, Elixir, Filc, Isabelle, Jai, JSON, K, Lean, Pony, Promela, PureScript, Racket, Red, Terra, TLA+, Uppaal, XML, Unison, Viper, YAML, Go (Golang), Node.js, Common Lisp, OCaml, F (FSharp), Ada, SPARK, Mercury, D (Dlang), Idris (Idris 2), Scheme (Chez Scheme, GambitC), Lua, LuaJIT, Haxe,, Coq, Eiffel, Erlang, Clojure, FreePascal (FPC) egyáltalán nem érdekelnek. Ezeknél keresek többszörösen jobbat – olyat, ami valóban működik, tényleg használható, és Repliten is fut: csak bemásolom a csomag kódot a replit.nixbe, megnyomom a Run gombot, és azonnal megy. Nem akarok olyan szarakodást, mint a Python esetében, ahol mindent harmincszor kell javítgatni.",
+  "created_at": "20251119T16:43:11.463026Z",
+  "updated_at": "20251119T16:43:11.463026Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "ec57b75d2926490aa16bb0c73b5bb332",
+      "query": "a gyakorlatban melyik a legeslegerősebb formális verifikacios program nyelv? en olyanra gondolok ami teljesen mas , felsobb szint mint coq isabelle agda hol4 beluge f idris dufny viper teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű Olyan programnyelveket keresek és szeretek, amelyek még a fejlesztői körökben is a legeslegismeretlenebbek, de összehasonlíthatatlanul erősebbek, hatékonyabbak, nagyobb teljesítményűek, magasabb szintűek, brutálisan gyorsak, tiszták, gyönyörűek és tiszteletet parancsolóak. Fontos, hogy használhatók legyenek Nixszel és Repliten is.  Az olyan mainstream nyelvek, mint a C, C++, Rust, Julia, Zig, Nim, Python, Crystal, Ruby, Gleam, Uiua, BQN, Hylo, Odin, Agda, ATS, Bash, Carbon, Chapel, Chisel, Scala, Clash, Haskell, Dedukti, Elixir, Filc, Isabelle, Jai, JSON, K, Lean, Pony, Promela, PureScript, Racket, Red, Terra, TLA+, Uppaal, XML, Unison, Viper, YAML, Go (Golang), Node.js, Common Lisp, OCaml, F (FSharp), Ada, SPARK, Mercury, D (Dlang), Idris (Idris 2), Scheme (Chez Scheme, GambitC), Lua, LuaJIT, Haxe,, Coq, Eiffel, Erlang, Clojure, FreePascal (FPC) egyáltalán nem érdekelnek. Ezeknél keresek többszörösen jobbat – olyat, ami valóban működik, tényleg használható, és Repliten is fut: csak bemásolom a csomag kódot a replit.nixbe, megnyomom a Run gombot, és azonnal megy. Nem akarok olyan szarakodást, mint a Python esetében, ahol mindent harmincszor kell javítgatni.",
+      "answer": "What are the most powerful obscure formal verification programming languages with Nix support that are superior to Coq, Agda and Idris?\nMelyek a Coqnál, Agdánál és Idrisnél jobb, legerősebb ismeretlen formális verifikációs programnyelvek Nix támogatással?",
+      "created_at": "20251119T16:43:11.801582Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

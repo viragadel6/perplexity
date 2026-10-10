@@ -1,0 +1,19 @@
+{
+  "context_uuid": "301de1b9d4e24007a631d586b5159847",
+  "context_title": "",
+  "created_at": "20260810T03:32:37.490195Z",
+  "updated_at": "20260810T03:32:45.238323Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6f2ff825deb24f6597684d3a9bec1242",
+      "query": "",
+      "answer": "A megadott Valyu Playgroundhivatkozás tartalma innen nem hozzáférhető: valószínűleg bejelentkezést, munkaterülethozzáférést vagy kliensoldali betöltést igényel. A link egy Valyu DeepResearchfeladatra mutat; a platform ilyen feladatokhoz kutatási folyamatot, hivatkozott jelentést és letölthető kimeneteket kezelhet.[1][2]\n\nMásold be ide a jelentés szövegét, töltsd le és csatold a fájlt, vagy küldj nyilvánosan megnyitható exportlinket. Ezután át tudom nézni, összefoglalni, ellenőrizni a hivatkozásait, vagy kritikus elemzést készíteni róla.",
+      "created_at": "20260810T03:32:38.360973Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

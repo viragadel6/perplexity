@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7f275db65438498ca3c3242dc40869b6",
+  "context_title": "",
+  "created_at": "20251207T23:45:07.328966Z",
+  "updated_at": "20251207T23:45:07.328966Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2499863b32794cd6945d169046c11b82",
+      "query": "",
+      "answer": "A Google Gemini egy személyes, proaktív és erőteljes mesterséges intelligencia asszisztens alkalmazás iPhonera és iPadre. Az alkalmazás segít ötletek megalkotásában, összetett témák leegyszerűsítésében, gyakorlásban fontos helyzetekre, és kapcsolódik más Google alkalmazásokhoz, mint például a Google Search, YouTube vagy Gmail. Támogatja az interaktív tanulást, vizuális segédleteket és valós példákon alapuló információk megjelenítését. Az alkalmazás iOS 16.0 vagy újabb rendszert igényel, és több mint 20 nyelven használható, köztük magyarul is.\n\nAz egyik különleges funkció a \"Gemini Live\", amely lehetővé teszi, hogy élő beszélgetésben hanggal kommunikáljunk a Gemini AIjal, akár a kamera vagy képernyő megosztásával is. Az alkalmazás felhasználói véleményei szerint a hangalapú interakció természetes, és a képalkotó funkció is támogatott, bár előfordulhatnak hibák vagy ellentmondások az alkalmazás működésében. Az alkalmazás alapvetően produktivitást növelő eszköz, amely képes egyebek mellett ötletbörzére, tanulási kvízekre, valamint különböző kreatív projektek előkészítésére.\n\nA Google Gemini app elérhető ingyenesen az Apple App Storeból, azonban prémium funkciókhoz Google One előfizetés szükséges. Az alkalmazás adatvédelmi gyakorlatáról és funkcióiról további részletes tájékoztatást is találni a hivatalos Apple App Store oldalán.\n\nAz alkalmazás hivatalos Apple App Store oldala: ",
+      "created_at": "20251207T23:45:07.441622Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "af3c8d7b4e61481890eb60a78551d4ca",
+  "context_title": "De 2026+ 4= 2030 xd",
+  "created_at": "20260622T21:47:56.001794Z",
+  "updated_at": "20260622T21:48:13.397841Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6e48fd6805f24c499647eb637d8c69e5",
+      "query": "De 2026+ 4= 2030 xd",
+      "answer": "Igen, a matematika teljesen stimmel! 😄\n\nMusk legutóbbi nyilatkozatában a „45 éves\" előrejelzése — amit 2026ban tett — pontosan 20302031re mutat, ami egyébként konzisztens a korábbi kijelentéseivel is. Januárban a Davosi Világgazdasági Fórumon szintén 20302031et jelölt meg az emberi kollektív intelligencia meghaladásának időpontjaként, tehát a „szuperszonikus cunami\" metafora ellenére a tényleges dátum nem változott számottevően.[1]\n\nEgyfajta keretes struktúra rajzolódik ki: AGI (egyedi emberi szint) ≈ 2026, ASI (az összes ember együttes intelligenciájának meghaladása) ≈ 2030. Ezt a kétlépéses modellt Musk több különböző fórumon is következetesen ismételte — a Riyadhi rendezvénytől az Abundance Summitig. A „45 év\" megfogalmazás tehát inkább kommunikációs fogás, mint új becslés.[2][3]",
+      "created_at": "20260622T21:47:56.015758Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

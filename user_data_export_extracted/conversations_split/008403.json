@@ -1,0 +1,19 @@
+{
+  "context_uuid": "fa75566ef18343b2be94106fbbe518a6",
+  "context_title": "melyik",
+  "created_at": "20250919T14:03:44.935525Z",
+  "updated_at": "20250919T14:03:44.935525Z",
+  "mode": "COPILOT",
+  "collection_uuid": "7f837628915c4c889bbd3c7dfcba471f",
+  "entries": [
+    {
+      "entry_uuid": "619c6f0421fd44fb9470074c9b595698",
+      "query": "melyik",
+      "answer": "Röviden: a file.jl.txt a jobb nyers kód alapján, mert kevesebb külső függőséget igényel, több kritikus hibajavítást és optimalizációt tartalmaz, és CPUn is stabilan futtatható módosításokat épít be, míg a model.jl.txt sok, nem garantáltan elérhető csomagra támaszkodik és tartalmaz több helyen potenciálisan törékeny megoldást [1][2].\n\n Miért a file.jl.txt?\n Minimalista függőségkészlet: szisztematikusan ki vannak kapcsolva a problémás vagy nem elérhető csomagok (Plots, DataFrames, RDKit, KernelAbstractions stb.), így kisebb a build és runtimehiba kockázata heterogén környezetben [1]. Ezzel szemben a model.jl.txt rengeteg pakkot importál és erősen kötődik GPU és vizualizációs stackhez, ami törékenyebbé teszi a futtatást különböző gépeken [2].  \n Kritikus algoritmikus javítások: javított softmaxdimenziókezelés a figyelemben és veszteségben, maszkolásnál elemenkénti művelet használata, attentionreshapelés (batch, heads, seq, dim) következetesítése, memóriahatékony attention egyező skálázással, ami csökkenti a numerikai eltérést nagy szekvenciáknál [1]. A model.jl.txtben a softmax és reshaping több helyen lapításra és implicit dimenziókra támaszkodik, ami hibaforrás lehet [2].  \n CPUfirst teljesítmény és stabilitás: GPUkerneles támasz helyett szálkezelt CPUtávolságmátrix, megőrzött értékű sparsekonverzió, párhuzamos RMSD és SharedArrayalapú mátrix számítás, adaptív batchméret (CUDA memóriát figyeli, de CPU fallback adott), ami hordozhatóbb és biztonságosabb [1]. A model.jl.txt kernelabstrakciós útra épít és eszközre mozgatást vár el, ami környezetfüggő [2].  \n Hibás/hiányzó dependenciák ésszerű kezelése: memoize eltávolítva a GPUdetektálásból, backendszimplifikáció, logging egyszerűsítése, ami csökkenti az inicializációs hibákat; a model.jl.txtben több helyen makrókra és ritkább csomagokra hagyatkozás maradt [1][2].  \n Kódminőség a tensoros útvonalakon: Attention és SmoothLDDT Loss dimenziókezelése explicit, a reshape_for_attention tengelyei rendezettek, a maskolás numerikusan korrektebb; ezek tipikus, nehezen észrevehető bugforrások, melyeket a file.jl.txt tudatosan javít [1]. A model.jl.txtben ezekből több még implicit vagy potenciálisan félreérthető [2].  \n\n Mikor lehet mégis a model.jl.txt?\n Ha garantált a teljes GPU és vizualizációs ökoszisztéma (CUDA/ROCm, KernelAbstractions, Makie/PlotlyJS, Genie stb.), és fontosak a GPUkerneles gyorsítások és a bő webesértékelő pipelineok (OpenStructure docker hívások, RDKit teljes CCDfolyamat) [2]. Ilyenkor a széles funkcionalitás jobb lehet, de környezetfüggőbb [2].  \n\n Döntési összegzés\n Hordozhatóság, stabil futás és karbantarthatóság elsődleges: file.jl.txt a jobb választás a nyers kód minősége alapján [1].  \n Teljes, GPUintenzív, széles függőségű kutatói pipeline, garantált környezettel: model.jl.txt lehet indokolt, de nagyobb kockázattal [2].",
+      "created_at": "20250919T14:03:46.794740Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6e3e82e76c914143b7c3d494b4dde449",
+  "context_title": "\nezt a repot toltsd le\nminden fajlt irj at hogy .txt kiterjesutesu legyen\nes minden fajlt az egodz repo bol minden almappabol egy mappaba helyezz at es zip be ezt kuld el",
+  "created_at": "20260705T11:51:36.091781Z",
+  "updated_at": "20260705T11:52:11.377963Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0074400540264b9399ee83269dbc83b2",
+      "query": "\nezt a repot toltsd le\nminden fajlt irj at hogy .txt kiterjesutesu legyen\nes minden fajlt az egodz repo bol minden almappabol egy mappaba helyezz at es zip be ezt kuld el",
+      "answer": "Kész! A https://github.com/cupcakke/gkod.git repót sikeresen letöltöttem és feldolgoztam. \n\nÖsszesen 67 fájl volt a repóban (az összes almappából: src/core, src/core_relational, src/distributed, src/hw, src/api, stb.). Minden fájlt .txt kiterjesztésűvé alakítottam (pl. tensor.zig → tensor_zig.txt, README.md → README_md.txt), és az összes fájlt egyetlen lapos mappába helyeztem, névütközések esetén a szülőmappa nevével kiegészítve a fájlnevet. A ZIP kb. 445 KB méretű, letölthető fentről.",
+      "created_at": "20260705T11:51:36.270296Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

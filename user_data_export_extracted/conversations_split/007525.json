@@ -1,0 +1,19 @@
+{
+  "context_uuid": "32f6318c2bd24dcbbe7df2e63158a4b3",
+  "context_title": "",
+  "created_at": "20251016T17:32:28.982742Z",
+  "updated_at": "20251016T17:32:28.982742Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ee28b1300f6d4778b208db32b10f88ef",
+      "query": "",
+      "answer": "A  egy Theneo által fejlesztett AIalapú API dokumentáció szerkesztő eszköz, amely automatikusan generál szép és interaktív API dokumentációt. A szolgáltatás lehetővé teszi az API specifikációk egyszerű feltöltését vagy CI/CD integrációval történő összekapcsolását, így automatikusan és folyamatosan frissíti a dokumentációt a legújabb kódbeli változások alapján. Az eszköz támogatja a valós idejű együttműködést, beépített AIt használ az endpointok és paraméterek leírásának gyorsítására, valamint interaktív API tesztelést kínál közvetlenül a dokumentációban.\n\nFőbb jellemzők:\n Egyszerű dokumentáció generálás OAS, Postman, GraphQL vagy más API formátumokból.\n AIalapú segítés a leírások, példák, és hibajavítások készítéséhez.\n CI/CD integráció és verziókövetés, automatikus changelog generálás.\n Biztonságos és interaktív API tesztelés sandbox vagy éles környezetben.\n Márkázási lehetőségek: CSS, JavaScript, sablonok testreszabása, saját domain használata.\n Fejlesztői portál készítése API portfolio, SDKk és egyéb erőforrások bemutatására.\n\nEz az eszköz különösen hasznos fejlesztőknek és vállalatoknak, akik gyorsan szeretnének professzionális API dokumentációt létrehozni, ami folyamatosan naprakész, áttekinthető és felhasználóbarát, miközben csökkenti az ezzel járó manuális munkát.[1][2][4][5]\n\nHa az editor.theneo.io használatára vagy annak funkcióira vonatkozó konkrétabb kérdésed van, vagy segítséget szeretnél a használatban, erre is tudok részletes támogatást nyújtani.",
+      "created_at": "20251016T17:32:29.185450Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

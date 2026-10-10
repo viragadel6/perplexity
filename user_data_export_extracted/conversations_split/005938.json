@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e8364ff016f741bba2ed09bd9852c3c8",
+  "context_title": "",
+  "created_at": "20251205T05:57:18.785741Z",
+  "updated_at": "20251205T05:57:18.785741Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "987330388cc74cdc981081a5ab203611",
+      "query": "",
+      "answer": "Fal2500M egy kompakt látásnyelvi modell, amelyet képfeldolgozási és képalkotási feladatokra terveztek. Az Qwen2 architektúrára épül, és egy hibrid látáskódolót használ, amely kevesebb tokennel dolgozik, ezáltal gyorsabb a nagyfelbontású képek kódolása mellett is. A modell 500 millió paraméterrel rendelkezik, és fejlett pontossággal, valamint kiváló hatékonysággal kínál képértést és leírást.[2]\n\nTulajdonságai közé tartozik, hogy 1024×1024es felbontásnál mindössze 256 tokent generál, ami 16szor kevesebb, mint más modelleknél, például a ViTnél. Ez lehetővé teszi a gyorsabb és hatékonyabb végrehajtást. Elsősorban képleírásra és vizuális kérdésválasz feladatokra használható.[2]\n\nA modell használata egyszerű kódban is megoldható, ahol betöltjük a tokenizálót és a modellt, majd a képet feldolgozva a modell generál egy feliratozást vagy választ az adott képre. A Fal2500M a gyors végrehajtás és a versenyképes pontosság miatt különösen vonzó az alkalmazások számára, amelyeknek képinyelvi megértésre van szükségük.[2]\n\nAz SVECTORCORPORATION fejlesztette ki Indiában, és jelenleg nem található meg kereskedelmi inference szolgáltatók között, tehát helyileg kell futtatni vagy integrálni a rendszerekbe.[7][2]",
+      "created_at": "20251205T05:57:19.003505Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

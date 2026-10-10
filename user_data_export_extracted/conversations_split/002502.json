@@ -1,0 +1,109 @@
+{
+  "context_uuid": "81dfd19c821d4fd7b7bdb0eb6271fbd2",
+  "context_title": "binancerol lehet krak is kripto cim re kuldeni bnbt?",
+  "created_at": "20260505T08:17:12.931090Z",
+  "updated_at": "20260505T12:00:38.839523Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "51ca956f2e3649e1865334390fcf9e09",
+      "query": "binancerol lehet krak is kripto cim re kuldeni bnbt?",
+      "answer": "Nem, a Binanceről közvetlenül nem lehet BNBt küldeni Kraken kripto címre, mert a Kraken nem támogatja a BNB natív hálózatait (mint BNB Chain/BSC BEP20 vagy BNB Beacon Chain BEP2) befizetésekre, így a tranzakció elveszne.[1][2][3]\n\n Miért nem lehetséges közvetlenül?\nA Binance elsősorban a saját BNB Chain hálózatán (BEP20) keresztül kezeli a BNBt, de a Kraken hivatalos támogatása szerint nem fogad BNBt a Binance Smart Chainen (BSC) vagy hasonló hálózatokon, mert ezek nincsenek a támogatott listán. Ha rossz hálózatot választasz a Binance kivonásakor, a Binance figyelmeztet is rá: az eszközök véglegesen elveszhetnek, mivel nem kompatibilisek. A Kraken támogatott hálózatai főként Ethereum (ERC20), Bitcoin, Solana stb., de BNBspecifikusan nincs BSC támogatás befizetésre, hiába kereskedhető és stakeelhető ott a BNB.[4][5][6][2][7][8][1]\n\n Alternatív megoldások\nHasználj egy külső, kompatibilis tárcát, mint MetaMask vagy Trust Wallet: vonjd ki a BNBt onnan Binanceről (BEP20 hálózaton), majd cseréld át pl. USDTre vagy BTCre (Ethereum hálózaton), amit már be tudsz fizetni a Krakenre. Például: Binance → Wallet (BSC) → Swap BNB → ETH (ERC20) → Kraken. Ez díjas, de biztonságos, mert elkerülöd a közvetlen inkompatibilitást. A Krakenen a BNB kereskedhető 2025 áprilisa óta, de csak megfelelő hálózatról fogadja.[3][8][9]\n\n Lépések biztonságos átvitelhez\nElőször generálj deposit címet a Krakenen: lépj a Funding/Deposit menübe, válaszd a BNBt (ha elérhető), és nézd meg a támogatott hálózatot – valószínűleg Ethereum vagy más EVMkompatibilis, nem BSC. Binance oldalon dupla ellenőrizd a hálózatot a kivonásnál (Wallet → Withdraw → BNB → Network: csak Krakenkompatibilis). Tesztelj kis összeggel mindig, mert a hibás hálózat visszafordíthatatlan. Ha EUs felhasználó vagy (pl. Budapest), a Kraken és Binance mindkettő elérhető, de KYC kell nagy összegekhez.[10][2][11][1][4]",
+      "created_at": "20260505T08:17:13.320156Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "24b396dfd3d541a4a64c5919fc58735a",
+      "query": "binance app ba nem lehet egyszeruen azvaltani uscd re?",
+      "answer": "Igen, a Binance alkalmazásban egyszerűen át lehet váltani BNBt USDTre (vagy más fiatra), mivel a Binance app beépített csere/swap funkcióval rendelkezik. Az Attekintés lapon látható a te BNBd (0,22804887 BNB ≈ 44.423 Ft), és közvetlenül az alkalmazásból lehet átváltani.\n\n Egyszerű csere az appban\n\nA Binance alkalmazásban az \"Átváltás\" (vagy \"Convert\") funkció az egyik leggyorsabb módszer. Az Attekintés vagy Finanszírozás fül alatt találod, ahol kiválaszthatod a BNBt forrásként, és USDTt célként – az app automatikusan megmutatja az aktuális árfolyamot és díjakat. A csere pillanatok alatt megtörténik, és az USDT azonnal a számlád Spot pénztárcájában jelenik meg. Ez díjmentes vagy minimális díj mellett történik, mivel belső Binance tranzakcióról van szó, nem blockchainhálózati tranzakció.[1][2]\n\n Alternatív módszer: P2P vagy Spot Trading\n\nHa a Convert funkció nem működik, használhatod a Spot Trading piacot: keress meg egy BNB/USDT párost, és add el a BNBdet USDTért közvetlenül a kereskedési felületen. Ez szintén gyors és belül történik a Binanceben. A P2P funkció (PeertoPeer) kevésbé ideális ebben az esetben, mivel az internetes vevőkkel való tranzakciózásra való, de technikai megoldás lenne.[3]\n\n Miért ez az ideális megoldás számodra?\n\nAz USDT (Tether, USD stablecoin) jó közbenső valuta: mivel te Krakenre szeretnél BNB helyett átvinni valamit, az USDTt könnyebben fogadja el a Kraken (többféle hálózaton – ERC20, Tron, stb.), és stabilan 1 USD értékű marad, nem függsz az árfolyam változásaitól. Binanceről ezt már egyszerűen ki tudod vonni a Krakenre.[4]\n\nMelyik módszert szeretnéd használni: a beépített Convert funkciót vagy a Spot Tradinget?",
+      "created_at": "20260505T08:18:24.506935Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "ba8f7c6c015a438083a5241f37748b57",
+      "query": "es azt ki kuldeni revolut szamlamra?",
+      "answer": "Igen, de van egy fontos probléma: a Revolut lezárta a kriptós szolgáltatásait 2024 decemberében, így már nem tudsz közvetlenül kriptovalutát kiutalni vagy befizetni a Revolutra. Ez azt jelenti, hogy az USDTt nem tudod Binanceből a Revolut kripto pénztárcájára küldeni, mert a Revolut már nem fogadja el az új kriptoátutalásokat.[1]\n\n Mi történt a Revolut kripto szolgáltatásával?\n\nA Revolut 2024 decemberében visszavonta a kryptó kereskedési és tárcázási funkcióit az EUban (amely alatt Magyarország is található), így lezárta az összes kripto átutalást és a pénztárcafunkciókat. Ezt a szabályozási követelmények (MiCA  Markets in Crypto Assets Regulation) miatt tették meg, amely szigorúbb licenckövetelményeket vezetett be.[1]\n\n Mit tudsz tenni helyette?\n\nAlternatíva 1: Revolut fiat számlájára csatornázni\nNem tudsz USDTt közvetlenül Revolutra küldeni, viszont az USDTt egy másik tőzsdén (például Kraken vagy Coinbase) keresztül euróra (EUR) vagy forintra (HUF) válthatod, majd az így kapott fiatot átutalhatsz a Revolut számlájára banktranszferrel vagy más módszerrel.[2]\n\nAlternatíva 2: Polygon hálózaton (EGT/UK felhasználóknál)\nHa az Egyesült Királyságban vagy az EGTben élsz, a Revolut visszafogadja a Polygonon alapuló USDTt, mivel az integráció 2024 decemberében indult el és szinte azonnali átutalásokat kínál; azonban Magyarország EGTtag, így elméletileg használható lehet, de az elérhető szolgáltatások helyi szabályozási köve­telmények alapján változnak.[3]\n\nAlternatíva 3: Közvetlenül a bank számlájádra\nAz egyszerűbb megoldás az USDTt EUR/HUFra konvertálni a Binanceben vagy más csatornán, majd ezt euróban kivenni a saját magyar bank számlájára SWIFT transzferrel – ez viszont több napos lehet.[4]\n\nMég milyen információra van szükséged – vane másik pénztárcád (például MetaMask vagy más applikáció), vagy az USDTt végül euróra szeretnéd konvertálni?",
+      "created_at": "20260505T08:19:02.270697Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "fcae75ba0e194ebb90d937851548cc77",
+      "query": "binanceba at valtom uscd re, azt elkuldom krak os kripto walletre, revolutba csinalok payment request linket, azt kifizetem a krakos apple pay kompatibilis kartyammal  azt csa meg is van nem?",
+      "answer": "Nem, ez a terv nem működik így. Van több probléma is ezzel a megközelítéssel, ami lehetővé teszi a végső cél, de eltérő módon:\n\n Miért nem működik ez pontosan?\n\n1. Revolut payment link nem működik kriptó befizetésre\nA Revolut payment request link egy fiat pénz (EUR, HUF) átutalási módszer – nem lehet erre kriptót küldeni. A link csak normál banki átutalásokat vagy kártyás fizet, de a Kraken kripto portfóliójához nem kapcsolódik. Az USDTt nem lehet közvetlenül egy Revolut payment linken keresztül kiutalni.[1][2]\n\n2. Kraken Apple Pay csak készpénzbefizetésre működik\nA Kraken támogatja az Apple Payt, de csak fiat pénz letétbe helyezésére (EUR, USD, HUF – készpénz nélküli kártyás befizetés). Az Apple Pay képes átvenni a fizetést, de kriptó küldésre nem. Az USDT kriptó portfólión keresztül jön, nem pedig Apple Payen.[3][4]\n\n A helyes megoldás\n\nAz egyszerűbb és működő terv az lenne:\n\n1. BNB → USDT az átutalás Binanceben (amit már említettünk) ✓\n2. USDT küldése Kraken kripto pénztárcájára Binanceből – válaszd az USDTt, generálj egy Kraken Wallet vagy Kraken Exchange deposit címet, és küld arra. Ez ingyenes vagy olcsó.[5][6]\n3. USDTből EUR/HUF készpénz szerzése – a Krakenen belül eladod az USDTt euroval vagy forinttal (fiat).\n4. Fiat bankszámládra vagy Revolutra – ez után már bankátutalás vagy kártyás kifizet lehet.\n\nVagy egyszerűbben: az USDTt a Krakenen közvetlenül Apple Payen keresztül visszaválthatod euróra/forintra készpénzbefizetésként, majd azt már ki tudod venni vagy Revoluthoz átutalhatod banki szignálokkal.\n\nSzeretnéd, hogy végigmegyünk a helyes folyamaton lépésről lépésre, vagy van kérdésed?",
+      "created_at": "20260505T08:22:01.593232Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "48073d9cca8e4ceda5d4df46b60fc387",
+      "query": "te vagy a hulye xd\na kraken bank kartyammal fizetek szoszerint mindenhol es mindenert\nkripto es fiatomat egyutt ugyanugy koldhetem gond nelkul a kartyamrol es az ertekesito rendes forintot kap\nattol hogy nekem milyen devizaba van a penzem cagy kripto attol meg revolutomra forint fog kerulni",
+      "answer": "Teljesen igazad van, bocs! 😅 Teljesen túlbonyolítottam.[1][2]\n\n A valódi megoldás\n\nHa a Krakenen van egy kártyád (vagy Apple Payt támogat a kártyád), akkor egyszerűen fizetni tudsz vele közvetlenül – függetlenül attól, hogy az USDT kripto vagy EUR fiat a hátterében. A kereskedő/értékesítő forintot kap, és az összes konverzió automatikus.[2][1]\n\n Tehát a folyamat:\n\n1. BNB → USDT Binanceben ✓\n2. USDT kiküldés Krakenre ✓\n3. Kraken kártyával fizetsz Apple Payen vagy közvetlenül – a Kraken automatikusan konvertál, az értékesítő forintot kap ✓\n4. Vagy: Az USDTt közvetlenül is tudod küldeni/fizetni vele, a Kraken háttérben intézi a konverziót.\n\nAzt hittem, hogy kriptó walletről crypto walletへ szeretnél küldeni, de valójában csak normálisan szeretnéd használni, mint egy bankkártyát – ami teljesen logic és működik. Sajnálom a felesleges szövegeket! \n\nSzóval tömören: Binance BNB → USDT, Krakenre, és onnantól már kártyaként használod. Kész.",
+      "created_at": "20260505T08:25:34.579144Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "442a632b57e24367ae5590fea4980003",
+      "query": "de fhu a vegen sajat revolutombol kuldok magamnak fizegesi kerelmet linkel azt meg nyitom es a kraken es kartyammal ki fizetem es ugy kerul azonnal forint a revolutomra",
+      "answer": "Pontosan! Ez működik! 🎯[1][2]\n\n A terv:\n\n1. BNB → USDT Binanceben ✓\n2. USDT kiküldés Krakenre ✓\n3. Revoluton payment request link készítesz saját magadnak (a Fizetések menüben, Új → Fizetési hivatkozás készítése)[1]\n4. A linket megnyitod és a Kraken kártyájával (Apple Payen vagy direkt) kifizeted – a Kraken automatikusan konvertál ✓\n5. Azonnal forint érkezik a Revolutról – a link megoldódik, és az összeg beérkezik[3]\n\n Limitáció:\n\nVan egy heti korlát: kártyás fizetésből maximum ~250 GBP (vagy megfelelő HUF) érkezhet hetente, de ha több az összeg, akkor ez lehet a gond. Ha az összeged ennél több, azt fel kell darabolnod hetente.[1]\n\nSzóval igen, ez a megoldás működik! Ez így logikus és működő terv. 👍",
+      "created_at": "20260505T08:27:06.442695Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "0635848318f44f8c80f4d745a099b186",
+      "query": "Summarize all the previous points in a single sentence",
+      "answer": "BNBt átváltasz USDTre Binanceben → átutalod a Krakenre → Revolutban készítesz magadnak egy payment request linket → azt kifizeted a Kraken kártyáddal (Apple Payen) → és azonnal forint kerül a Revolut számládra.",
+      "created_at": "20260505T08:27:35.604600Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "901e165a341149469e51583b991f7d6a",
+      "query": "hogy valtom at usdc re",
+      "answer": "A Binance alkalmazásban a BNBt USDTre így váltod át:[1][2]\n\n1. \"Finanszírozás\" fülre menj (amit az Attekintésből elérhetsz)\n2. \"Átváltás\" vagy \"Convert\" gombra kattints (az Pénzeszközök hozzáadása mellett található)\n3. Forrás: BNB, Cél: USDT választod\n4. Az összeg beírod (pl. az egész 0,22804887 BNB)\n5. Az árfolyam és díjak megjelennek – rákattintasz a \"Convert now\"ra\n6. Azonnal kész – az USDT a számlád Spot pénztárcájában van\n\nVagy gyorsabban: a képernyő tetején az \"Küldés\" gombra kattintva is lehet váltani közvetlenül.[2]",
+      "created_at": "20260505T08:28:16.539583Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "384cf8953acc4070b6080ae2b561217f",
+      "query": "Ja de nekem nem bnb be van penzem hanem euroba\nEurot is tudok kuldeni krak walletre?",
+      "answer": "Igen, eurót is tudsz küldeni a Krakenre, csak nem kripto walletre, hanem fiat (EUR) befizetésként kell kezelni.[1]\n\n Mi van most nálad?\n\nA screenshot alapján a Binance spot/funding pénztárcádban EUR egyenleged van, tehát az már fiat, nem BNB. Ezt az EURt nem tudod „kripto címre” küldeni, mert az nem kriptó, hanem sima pénz, ezért a Kraken oldalon is EUR befizetési módot kell választanod (SEPA, PayPal, stb.).[2][1]\n\n Hogyan tudsz EURt a Krakenre küldeni?\n\nA Kraken úgy fogad eurót, mint egy sima bank: SEPA utalással, PayPallel vagy más támogatott fiat módszerrel. A lépések nagy vonalakban:[3][1]\n\n1. A Kraken app/weben menj az Átutalás / Transfer → Befizetés / Deposit részhez.[3]\n2. Az eszköznél válaszd ki az EURt (ne kriptót, hanem „Cash” / „Fiat” típusú eszközt).[1]\n3. Válaszd ki a neked elérhető módszerek egyikét (pl. SEPA átutalás, PayPal, Plaid – attól függ, mit enged a magyar lakcím / bankod).[4][3]\n4. A Kraken megadja azokat a banki adatokat (IBAN, kedvezményezett név, referencia kód), ahová az eurót utalnod kell – ez egy normál banki átutalás, nem kripto.[1]\n5. Ezután egy olyan helyről kell indítanod az utalást, ami tud SEPA euró utalást – ez általában nem közvetlenül Binance, hanem a saját bankod vagy Revolutod. Binanceből tipikusan inkább eurót kiveszel a saját bankszámládra, majd onnan utalsz Krakenre.[5][1]\n\nA lényeg:  \n Kripto címet csak kriptóra használj (BTC, USDT, stb.).  \n EURt mindig fiat befizetésként küldj – úgy kezelve a Krakent, mint egy bankot (IBAN, SEPA, PayPal).[1]\n\nHa megmondod, honnan szeretnél EURt küldeni (Revolut, magyar bank, vagy még mindig csak Binanceből), tudok konkrét, lépésenkénti útmutatót adni arra a verzióra.",
+      "created_at": "20260505T11:35:37.152425Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "8bde5ed862374bd9aaec416bc5b5c39e",
+      "query": "De akkor igy nem jon meg azonnal nem",
+      "answer": "Nem, fiat (EUR) utalással általában nem érkezik meg azonnal, csak kriptóval tudsz igazán „instant” lenni.[1][2]\n\n Miért nem azonnali az EUR?\n\nHa eurót küldesz banki úton (SEPA), akkor az bankközi átutalásnak számít, ami normál esetben 0–1 munkanap, de hivatalosan 0–3 munkanap az ablak. Gyakran megérkezik még aznap vagy pár órán belül, de nem garantált, hogy azonnal bent lesz a Krakenen, főleg ha délután/este, hétvégén vagy ünnepnapon indítod.[2][3][4][1]\n\nKriptónál (USDT, BTC, stb.) a hálózattól függően percek alatt beér a tranzakció, szóval ha neked a gyorsaság a lényeg, akkor inkább USDTt küldj Binance → Kraken között, ne EURt. Onnantól pedig a Kraken kártyáddal már azonnal tudsz költeni, és a kereskedő forintot kap.[5][6]\n\nHa a leggyorsabb működő setupot akarod (BNB/EUR Binanceről → költés Kraken kártyáról → Revolut), szívesen leírom lépésről lépésre, hogy melyik ponton melyik devizát érdemes használnod.",
+      "created_at": "20260505T11:36:53.302534Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "5074b3d2336a41f1b70a3011be8a786e",
+      "query": "de binancenK amugy nincs bank kartyaja?",
+      "answer": "Röviden: régen volt Binance Card, de az EGTben, így Magyarországon is megszűnt 2023 végén, ezért nálad most nem ez az út.[1]\n\n Mi volt a Binance kártya?\n\nA Binancenek valóban volt saját Visaalapú kártyája, amivel a Binance egyenlegedről lehetett költeni, és a háttérben konvertálta a kriptót fiatra. Ez tényleg hasonló volt ahhoz, amiről most a Kraken kapcsán beszélsz.[2][3]\n\n Mi a helyzet most?\n\nA Binance bejelentette, hogy az Európai Gazdasági Térségben a Binance Card szolgáltatás 2023. december 20ig működött, utána megszűnt. Tehát Magyarországról jelenleg nem számíthatsz arra, hogy a Binance appban igényelhető és használható hagyományos Binance bankkártya legyen.[1]\n\n Mi maradt Binanceen?\n\nA Binance továbbra is támogatja azt, hogy bankkártyával vásárolj kriptót, illetve Apple Payjel és Google Payjel tölts fel vagy vegyél eszközt, de ez nem ugyanaz, mint hogy a Binance ad neked saját költős kártyát. Vagyis: befelé tudsz kártyát használni a Binanceen, de kifelé költésre a régi Binance Card út jelenleg nem opció Magyarországon.[4][5][1]\n\nEzért logikusabb nálad a Kraken kártyás megoldás, ha az már működik nálad napi használatban.[6]",
+      "created_at": "20260505T11:58:43.970164Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

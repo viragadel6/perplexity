@@ -1,0 +1,19 @@
+{
+  "context_uuid": "27fc36cd2e04496aa69bc356825f0466",
+  "context_title": "angolra forditsd: “ es december 22 en az ev legsotetebb ejszajan lettem orokbe adva”",
+  "created_at": "20260114T20:27:31.043174Z",
+  "updated_at": "20260114T20:27:31.043174Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "89d1decac0bd4475898830c6aa83d961",
+      "query": "angolra forditsd: “ es december 22 en az ev legsotetebb ejszajan lettem orokbe adva”",
+      "answer": "> “And on December 22, on the darkest night of the year, I was given up for adoption.”  \n\nSzeretnéd, hogy inkább irodalmiasabb stílusban hangozzon (pl. „on the year’s darkest night”) vagy maradjon egyszerű és természetes?",
+      "created_at": "20260114T20:27:31.103390Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

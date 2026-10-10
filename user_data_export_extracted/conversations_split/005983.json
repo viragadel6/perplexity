@@ -1,0 +1,19 @@
+{
+  "context_uuid": "463fc57bfc354f23ac909e512060bf41",
+  "context_title": "ez mi",
+  "created_at": "20251203T05:10:35.670701Z",
+  "updated_at": "20251203T05:10:35.670701Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1537db78267b47cb85c7edbf7bccb361",
+      "query": "ez mi",
+      "answer": "Ez egy Zig nyelven írt forrásfájl, ami egy  nevű speciális adatszerkezetet valósít meg szekvenciák (token sorozatok) tárolására, keresésére és sorbarendezésére hash‑fa segítségével.[1]\n\n Mi ez a fájl?\n\nA fájl egy  struktúrát definiál, amely egy fastruktúrán (csomópontok: ) keresztül indexeli a szegmenseket (), amik valójában  tömbök (u32 tömbök) pozícióval, pontszámmal és egy hash értékkel kiegészítve. A kód erősen támaszkodik az allokátorra, a  hash‑függvényre és saját / típusokra egy nagyobb rendszer (valószínűleg valamilyen ML/LLM infrastruktúra) részeként.[1]\n\n Fő adatszerkezet és műveletek\n\nAz  egy gyökérből induló fa, ahol a  csomópontok vagy belső csomópontok (gyerek mutatókkal), vagy levelek (konkrét  tárolással és ütközési lánccal).  A szegmensek hash‑e alapján kerülnek vödörökbe (bucket), ütközés esetén  láncba fűzve; van hozzá beszúrás (), lekérdezés (, ), pontszám frissítés () és összevonás (, ).[1]\n\n Keresés, hasonlóság és export\n\nA  függvény egy prioritási kupacot használ, hogy a lekérdező tokenek hash‑éhez legjobban hasonló szegmenseket adja vissza, a hasonlóságot két 64 bites hash  alapú XOR‑távolságából számítva. A struktúra tud ba exportálni és onnan visszatölteni (, ), illetve bináris formátumba írni/onnan olvasni (, ).[1]\n\n Validálás és statisztikák\n\nVan benne  függvény, ami összeszámolja a csomópontok, levelek számát és a fa mélységét, illetve egy  függvény, ami végigjárja a fát, újraszámolja a hash‑eket és ellenőrzi, hogy konzisztensek‑e a gyerek/levél értékekkel. A fájl végén több  blokk egységtesztekkel ellenőrzi a fő funkciókat (beszúrás+lekérdezés, , , szerializálás, statisztika, validálás).[1]\n\nHa szeretnéd, el tudom magyarázni lépésről lépésre, hogyan működik mondjuk az  vagy a  függvény.",
+      "created_at": "20251203T05:10:35.898630Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

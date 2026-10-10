@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c0f2ac7a4cf94e1ab7169bb8c860a1b7",
+  "context_title": "melyik txt fajlba van jobb verzio",
+  "created_at": "20250926T04:55:16.552245Z",
+  "updated_at": "20250926T04:55:16.552245Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "51cccdcc459a4cecb97f8151a1abb271",
+      "query": "melyik txt fajlba van jobb verzio",
+      "answer": "A lipservice.txt fájl tartalmazza a jobb verziót [1]. Ez a fájl több fejlett implementációt és részletesebb megoldásokat tartalmaz:\n\n Főbb különbségek\n\nFejlett Gleam implementáció  A lipservice.txt verzióban teljesen újraírt create_neural_actor() függvény szerepel fejlettebb aktor kezeléssel [1]. \n\nKiterjesztett funkciók  A második fájl tartalmazza a enhance_with_planets() függvény továbbfejlesztett verzióját, amely 19 elemű tömböket használ az eredeti 16 helyett [1].\n\nTeljeskörűbb szövegek  A lipservice.txt teljes mondata: \"JAIDE V29 languages integration Gleam Uiua BQN Hylo Red Odin Zig Nim Terra Pony Crystal Chapel Futhark Julia Agda Lean Isabelle Clash SpinalHDL full production ready no mocks birth 20030416 09:58 Kiskunfelegyhaza\" [1].\n\nJavított hibaügyek  Számos programozási nyelv implementációjában (Odin, Zig, Nim, Terra, Crystal) javításokat tartalmaz, például jobb memóriakezelést és hibakezelést [1].\n\nBővített adat struktúrák  A második verz",
+      "created_at": "20250926T04:55:16.759589Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

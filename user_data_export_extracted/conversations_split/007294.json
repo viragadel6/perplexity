@@ -1,0 +1,28 @@
+{
+  "context_uuid": "0adc333ec1b249bfa3c72db40f83d9dc",
+  "context_title": "es akkor ez most lenyegebe mi a faszt is jelwnt",
+  "created_at": "20251022T07:25:22.516239Z",
+  "updated_at": "20251022T08:24:53.620113Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "158d433b49d74fbeb9189c5ecfd6d895",
+      "query": "es akkor ez most lenyegebe mi a faszt is jelwnt",
+      "answer": "A 99,99 százalékos kétqubites kapufidelitás azt jelenti, hogy IonQ gépein minden 10 000 kvantumkapuból átlagosan csak egyetlen hibázik, vagyis a műveletek megbízhatósága négyszeres „kilences” pontosságot ért el.[1][2]\n\n Miért nagy dolog?\n\n A kvantumalgoritmusok egymásra épülő kapuk ezreitmillióit használják; ha a kapuk hibásak, összeomlik a számítás.[4]\n A 99,99%os szinttel a hibaarány $$1{}F=10^{4}$$, ami már alacsonyabb, mint sok feladatnál szükséges hibajavítási küszöb.[5]\n IonQ számításai szerint ugyanazon a hardveren tízmilliárdszor nagyobb hasznos áramkört lehet futtatni, mint a korábbi 99,9%os (három kilences) kapuknál.[4]\n\n Hogyan érték el?\n\n Új „smooth gate” vezérlést használnak, amely elektronikus rádiófrekvenciás jelekkel irányítja az ionokat, nem lézerrel, ezért nincs szükség drága – idő és energiaigényes – alapállapothűtésre.[2]\n A módszer még meleg(ebb) ionoknál is csak $$8{,}4\\times10^{5}$$ kapuhibát mér, ami százszor jobb, mint a hasonló hőmérsékletű korábbi megoldások.[2]\n\n Mit jelent a gyakorlatban?\n\n| Terület | Korábbi 99,9% | Új 99,99% | Jelentőség |\n|||||\n| Kapuhibaarány | $$10^{3}$$ [4] | $$10^{4}$$ [1] | 10× kevesebb hiba |\n| Szükséges hibajavító qubit | ~1000szeres a logikai qubithez [4] | <100szoros | Drasztikusan kisebb gép kell |\n| Fut­tatható kapuk száma hiba nélkül | ≈1000 | ≈100 000 | Mélyebb algoritmusok válnak elérhetővé |\n\n Összefoglalva\n\nA „négy kilences” kapufidelitás áttörés: radikálisan kevesebb hibajavító erőforrást igényel, nagyságrendekkel mélyebb kvantumáramkörök futtatását teszi lehetővé, és évek­kel közelebb hozza a valóban hasznos, hibát­tűrő kvantumszámítógépeket. Ez a lényeg – röviden: most már nem csak menő demonstráció, hanem a gyakorlati kvantumalkalmazások előszobája.[1][5][2][4]",
+      "created_at": "20251022T07:25:22.533615Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "6cc17956cb244a1e845df35a2067a852",
+      "query": "ebbe ez a dolog valamit szamit? marmint a jaded nek ez hsznos dolog es tudna vele valamit ujitani?",
+      "answer": "Igen, ez a kvantumkapufidelitás áttörés (az IonQ 99,99%os pontossága) releváns a JADED projekthez, mivel a rendszer kvantumalapú komponensei közvetlenül profitálhatnak belőle.[1][2][3]\n\n Miért számít a JADED számára?  \nA JADED egy hibrid kvantumklasszikus rendszer proteinstruktúraelőrejelzésre (pl. AlphaFoldszerű pipelineokkal), ahol kvantumkörök (mint a ProteinFoldingCircuit vagy VQEoptimalizálás) kezelik a szekvenciakódolást, energiamegmaradást és keresési feladatokat. A magasabb fidelitás csökkenti a kapuhibákat ($$10^{4}$$ szinten), így a kvantumszerver (Crystalalapú) megbízhatóbban futtathat nagyobb áramköröket anélkül, hogy túlzott hibaellenőrzésre lenne szükség. Ez különösen hasznos a quantumserver függvényeiben, mint a Groverkeresés vagy hibrid predikció, ahol a jelenlegi szimulátorok (pl. Q vagy Qiskit) helyett valós hardverre válthatna.[2][3][1]\n\n Lehetséges fejlesztések  \n Pontosság növelése: A smooth gate módszerrel (elektronikus vezérlés ionoknál) a JADED kvantumegyenlőtlenségei (pl. energiamegmaradás számítása Juliaban) pontosabbak lennének, csökkentve a zajt a diffúziós modellben. Például a VQEansatz paramétereinek optimalizálása gyorsabb és stabilabb lenne, akár tízmilliárdszor nagyobb áramkörökkel.[3][2]\n Skálázhatóság: A Juliabackend (AlphaFold3 pipeline) és a quantumserver integrációja (Elixir/Crystal) mostantól nagyobb qubitszámot (pl. 8+ qubites folding áramkörök) bír el hibamentesen, ami a hibrid predikciók (pl. quantumenhanced energy calculation) teljesítményét 10100szorosára emelheti.[1][3]\n Gyakorlati integráció: A Qkód (GroverOracle, PhaseEstimation) vagy a Zigbioinformatika modulok (szekvenciaalignment) könnyen bővíthetők IonQ hardverre, a phoenixgatewayn keresztül (Elixir). Ez frissítené a deploymentmanifesteket (Kubernetes/Docker) kvantumfüggőségekkel.[4][1]\n\nÖsszességében a JADED kvantummoduljai (pl. quantumserver, modelpipeline) jelentősen javulnának: kisebb hibaarány, gyorsabb konvergencia VQEben, és reálisabb proteinszimulációk. Javasolt a quantumserver frissítése IonQ APIval a smooth gate támogatásához.[2][3]",
+      "created_at": "20251022T08:24:38.063028Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

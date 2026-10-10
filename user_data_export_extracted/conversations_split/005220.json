@@ -1,0 +1,28 @@
+{
+  "context_uuid": "5b852581c1d3477b8a9eca90b08fa5b9",
+  "context_title": "david nevnap",
+  "created_at": "20251230T08:16:32.594325Z",
+  "updated_at": "20251230T08:17:04.713948Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ffeba10dcb8a4b10baeb746904925ecc",
+      "query": "david nevnap",
+      "answer": "A Dávid névnapot Magyarországon hagyományosan december 30án ünneplik.[1][9]\n\n További dátumok\n\nEgyes névnaptárak a Dávid névhez más időpontokat is rendelnek.  Ilyenek például:[5][1]\n Március 1.[1][5]\n Június 26.[6][7][1]\n December 29. (alternatív hivatalos napként is megjelenik)[7][5][6]\n\n A név eredete\n\nA Dávid héber eredetű férfinév.  Jelentése bizonytalan, gyakran “kedvelt, szeretett” értelemben adják meg, más források az „apai részről testvér” vagy „egyesítő” jelentést említik.[3][4][1]",
+      "created_at": "20251230T08:16:32.632015Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "fdb89546cba44d8e9d794f6f43fcd431",
+      "query": "nem 31",
+      "answer": "Igen, a Dávid névnap nem 31én, hanem december 30án van a magyar névnaptár szerint.[1][2]",
+      "created_at": "20251230T08:17:02.112541Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

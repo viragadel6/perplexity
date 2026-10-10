@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2237dbb6fabb422a9556f83d44a45c6e",
+  "context_title": "",
+  "created_at": "20250731T21:19:50.681317Z",
+  "updated_at": "20250731T21:19:50.681317Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "44fbf9194d694763ae8259df996c01a8",
+      "query": "",
+      "answer": "A JADE Ultimate Security Platform egy 2025re tervezett, mesterséges intelligenciával támogatott vállalati biztonsági rendszer, amelynek főbb jellemzői:\n\n AIalapú fenyegetésanalitika: Olyan modern nyelvi modelleket használ, mint a GPT4, Claude3 vagy Gemini Pro a veszélyek azonosítására és elemzésére[1].\n Automatizált sérülékenységvizsgálat és jelentéskészítés: A rendszer automatikusan feltérképezi a sebezhetőségeket és riportokat készít róla[1].\n Szerepköralapú hozzáférés, audit naplók, többlépcsős hitelesítés (MFA): Teljes körű jogosultságkezelés és visszakövethetőség.\n Modern technológiák: Docker és Kubernetesalapú telepítés, Reactfrontend, API dokumentáció (Swagger, ReDoc)[1].\n Biztonság és megfelelőség: GDPR, ISO 27001, SOC 2, AES256 titkosítás, JWT tokenek, RBAC, MFA támogatás[1].\n\nTelepítés gyorsan elvégezhető Docker Compose segítségével, a forráskód klónozása után elérhetők példafájlok a konfigurációhoz. A frontend fejlesztése npmmel történik.\n\nA platform szerzője Kollár Sándor, digitális aláírással és hashsel igazolva.\n\nJelenleg nem találtam publikus, független értékelést vagy aktív GitHubrepozitóriumot ezzel a névvel, így valószínűleg a projekt még fejlesztés alatt áll, vagy privát[1]. A dokumentáció alapján azonban a fenti funkciókat célozza meg.",
+      "created_at": "20250731T21:19:51.523557Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "context_uuid": "a2b8f858df92422ebdbcc34e1aca9283",
+  "context_title": "",
+  "created_at": "20251107T21:51:35.374521Z",
+  "updated_at": "20251107T21:53:42.356127Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e85f3a47c1f54d6fa0f0d22b787ffac5",
+      "query": "",
+      "answer": "A Genesis DB Community Edition egy ingyenes, nyílt forráskódú eseményforrásalapú adatbázis motor, amely ugyanazt a magmotor technológiát használja, mint a kereskedelmi Enterprise Edition változat. A Community Edition elsősorban a fejlesztőknek szól, és alkalmas fejlesztési és kisebb termelési projektekhez, ahol nincs szükség beépített GDPReszközökre, sémakezelésre vagy haladó lekérdező motorra. Az olvasási és írási hozzáférés korlátlan, offline használat is lehetséges, és nem igényel licenckulcsot, viszont nem tartalmaz fejlett funkciókat, mint például audithívás vagy támogatás.\n\nFőbb jellemzői:\n Ugyanaz a magmotor, mint az Enterprise Editionben\n Korlátlan eseményszám és példányszám\n Élettartamra szóló olvasási és írási hozzáférés\n Offline használati lehetőség\n Nincs szükség licenckulcsra\n Közösségi támogatás\n\nEz az edíció elsősorban azoknak a fejlesztőknek és kisebb vagy közepes méretű projekteknek készült, akik nem igénylik az Enterprise Edition összetett GDPR funkcióit, sémakezelő rendszerét, vagy haladó lekérdezési képességeit, de szeretnék használni a Genesis DB megoldásait eseményforrásalapú alkalmazások fejlesztéséhez és futtatásához.[2][4][5][7]",
+      "created_at": "20251107T21:51:35.885179Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "ca3adc80c5d24babaec69786afd3d1ef",
+      "query": "replit be hogyan hasznaljam?",
+      "answer": "A Genesis DB Community Edition használatához Replit környezetben Docker konténerben kell futtatnod az adatbázist, majd csatlakoznod kell hozzá az alkalmazásodból.[1][2]\n\n Docker telepítés Repliten\n\nA Genesis DB Docker konténerként futtatásához használd a következő parancsot:[2][1]\n\nbash\ndocker run -d --name genesisdb -p 3000:3000 genesisdb/community-edition\n\n\n Csatlakozás az adatbázishoz\n\nA Genesis DB különböző SDKkat kínál a kapcsolódáshoz, többek között JavaScript/TypeScript, Python, Go, Swift és PHP SDKkat. A Repliten való használathoz válaszd ki a projektedhez illő SDKt, és használd a megfelelő környezeti változókat a kapcsolat konfigurálásához.[3][4][5]\n\n Replit környezeti változók beállítása\n\nA Replitben a DATABASE_URL vagy hasonló környezeti változó segítségével tárolhatod a Genesis DB kapcsolati adatokat. A Replit automatikusan biztosítja ezeket a változókat az alkalmazásod számára.[4][3]\n\n Alternatív megoldás\n\nHa a Docker telepítés bonyolult lenne, fontold meg a Genesis DB LocalStack használatát fejlesztési célokra. Ez könnyebb beállítást tesz lehetővé lokális környezetben, és később átmigrálhatod termelési környezetbe.[6][5]",
+      "created_at": "20251107T21:51:46.884332Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "d5e967d7f66844538b407f019e818801",
+      "query": "de ha nincs is api kulcs akkor honnan fogja tudna melyik az en adatbazisom es mihez kell csatlakoznia?",
+      "answer": "Jó kérdés! A Genesis DB Community Edition esetében nincs szükség API kulcsra, mert a saját gépen (localhost) vagy a saját szerveren futtatod az adatbázist. Az adatbázis azonosítása a kapcsolati URLen keresztül történik, nem pedig API kulccsal.[1][2][3][4]\n\n Hogyan működik a csatlakozás\n\nAmikor a Genesis DBt Docker konténerben futtatod Repliten, a konténer egy helyi porton (általában 3000es port) lesz elérhető. Az alkalmazásod ehhez a címhez csatlakozik:[2][5]\n\n\nhttp://localhost:3000\n\n\n Replitspecifikus beállítás\n\nReplit környezetben a következőképpen kell konfigurálni:[6][7]\n\n1. A Genesis DB konténer futtatása a Replit környezetben\n2. A kapcsolati URL beállítása környezeti változóként vagy közvetlenül a kódban\n3. Az SDK használata a csatlakozáshoz a megadott URLlel\n\n Példa TypeScript SDKval\n\ntypescript\nconst genesisClient = new GenesisDB({\n  url: 'http://localhost:3000'\n});\n\n\nMivel saját adatbázis példányt futtatsz, nem kell más felhasználóktól megkülönböztetni  ez a te saját, dedikált példányod. Az API kulcs csak akkor lenne szükséges, ha felhőalapú, megosztott szolgáltatást használnál, de a Community Edition esetében te vagy az adatbázis teljes tulajdonosa és üzemeltetője.[8][4]",
+      "created_at": "20251107T21:52:36.922916Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "11fe261fe1434e2fb83668739ba332c0",
+      "query": "pythonba kell pontosan ird le mit hogy hogyan",
+      "answer": "Íme a pontos lépések Genesis DB Community Edition használatához Pythonban Replit környezetben:[1][2][3]\n\n 1. Genesis DB telepítése Repliten\n\nElőször indítsd el a Genesis DB Docker konténert a Replit terminálban:\n\nbash\ndocker run -d --name genesisdb -p 3000:3000 genesisdb/community-edition\n\n\n 2. Python SDK telepítése\n\nTelepítsd a Genesis DB Python SDKt a requirements.txt fájlba vagy közvetlenül:\n\nbash\npip install genesisdb\n\n\n 3. Kliens létrehozása és csatlakozás\n\nHozz létre egy Python fájlt (pl. main.py) és csatlakozz az adatbázishoz:[1]\n\npython\nfrom genesisdb import GenesisDB\n\n# Kliens létrehozása a lokális Genesis DB példányhoz\nclient = GenesisDB(url='http://localhost:3000')\n\n\n 4. Adatok írása\n\nEsemények írása az adatbázisba:\n\npython\n# Esemény írása\nclient.append_event(\n    stream='user-123',\n    event_type='UserCreated',\n    data={\n        'name': 'János',\n        'email': 'janos@example.com'\n    }\n)\n\n\n 5. Adatok olvasása\n\nEsemények lekérdezése egy streamből:\n\npython\n# Események olvasása egy streamből\nevents = client.read_stream('user-123')\n\nfor event in events:\n    print(f\"Event type: {event.type}\")\n    print(f\"Data: {event.data}\")\n\n\n 6. Komplett példa\n\npython\nfrom genesisdb import GenesisDB\n\n# Kapcsolódás\nclient = GenesisDB(url='http://localhost:3000')\n\n# Új esemény írása\nclient.append_event(\n    stream='orders-2024',\n    event_type='OrderPlaced',\n    data={\n        'order_id': '12345',\n        'amount': 150.50,\n        'customer': 'Kovács Péter'\n    }\n)\n\n# Események lekérdezése\nevents = client.read_stream('orders-2024')\nfor event in events:\n    print(event)\n\n\nEz az alapvető használat  a Python SDK kezeli a kapcsolatot és az autentikációt, neked csak a localhost:3000 URLt kell megadnod, ahol a Genesis DB Docker konténer fut.[4][1]",
+      "created_at": "20251107T21:53:20.142716Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

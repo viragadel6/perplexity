@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1675f00a0d10454491dbf54103906b7c",
+  "context_title": "generálj egy képet rólam",
+  "created_at": "20251013T21:01:19.892304Z",
+  "updated_at": "20251013T21:01:19.892304Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "53f5538d71f340a0b5192f7f91c23268",
+      "query": "generálj egy képet rólam",
+      "answer": "Media generated: 'Generated portrait from user's photo'",
+      "created_at": "20251013T21:01:20.044461Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "bfa8d4e0abf44986a5413a6730de01b7",
+  "context_title": "",
+  "created_at": "20250705T19:35:22.778240Z",
+  "updated_at": "20250705T19:37:18.451267Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ac583a8e35e2497aab065e29f6331b81",
+      "query": "",
+      "answer": " Az AI képgenerálás következő szintje: képek azonnal, URLből\n\n Főbb pontok\n\n Hagyományos AI képgenerátorok (mint a Flux, ChatGPT képfunkciói, Midjourney) általában chatfelületen keresztül működnek: beírsz egy leírást (promptot), majd vársz, amíg az AI elkészíti a képet.\n Ezek a rendszerek gyakran kínálnak APIt is, így más AI technológiákkal integrálhatók, de a tartalomkészítés (pl. blogokhoz, videókhoz) sokszor bonyolult, több eszköz vagy workflow szükséges hozzá.\n Új, kevésbé ismert nyílt forráskódú eszköz jelent meg, amely lehetővé teszi, hogy a képleírást közvetlenül a webcímbe (URL) írd, és azonnal képet generálj.\n     Nincs szükség külön eszközre, chatablakra, APIra, regisztrációra vagy dedikált weboldal megnyitására.\n     Ez a megközelítés forradalmi, mert egyszerűsíti és felgyorsítja a képgenerálást, különösen azok számára, akik gyorsan, bonyolult beállítások nélkül szeretnének képeket készíteni.\n\n Hogyan működik?\n\n A felhasználó a kívánt képleírást egyszerűen beírja egy speciális URLbe.\n Az eszköz automatikusan generálja a képet a megadott leírás alapján, mindenféle extra lépés vagy bejelentkezés nélkül.\n Ez a módszer különösen hasznos lehet blogok, videók, vagy bármilyen digitális tartalom gyors illusztrálásához.\n\n Előnyök\n\n Azonnali képgenerálás: nincs várakozás, az eredmény azonnal elérhető.\n Egyszerű használat: nem kell külön alkalmazást vagy weboldalt megnyitni.\n Nincs szükség regisztrációra vagy APIkulcsra: teljesen nyílt és szabadon használható.\n Workflow egyszerűsítése: tartalomkészítők számára jelentősen leegyszerűsíti a képek beillesztését.\n\n Összefoglalás\n\nEz az új, URLalapú AI képgenerálási megközelítés forradalmasíthatja a digitális tartalomkészítést, mivel gyors, egyszerű és mindenki számára elérhető[1].",
+      "created_at": "20250705T19:35:22.796269Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "55e4c6bc08a3498b8ca775d76fa8076d",
+      "query": "Es mi az az url cagy mit vafy hogy xd",
+      "answer": "Sajnos a keresési eredmények nem hoztak fel konkrét példát arra az URLalapú AI képgenerálási módszerre, amit az előző beszélgetésben említettünk. Ez valószínűleg azért van, mert ez egy viszonylag új vagy kevésbé ismert megoldás.\n\n Hogyan működnek általában az AI képgenerálási APIk?\n\nA legtöbb AI képgenerátor APIn keresztül működik, ami a következő folyamatot jelenti:\n\n Hagyományos API használat\n POST kérés küldése egy API végpontra[1][2]\n JSON formátumban prompt és paraméterek megadása[2][3]\n API kulcs szükséges a hitelesítéshez[4][3]\n Válasz formátum: URL vagy base64 kódolt kép[3][5]\n\n Példa egy tipikus API hívásra:\n\nPOST https://api.openai.com/v1/images/generations\nContent-Type: application/json\nAuthorization: Bearer YOUR_API_KEY\n\n{\n  \"prompt\": \"A cat sitting on a stack of books\",\n  \"model\": \"dall-e-3\",\n  \"size\": \"1024x1024\",\n  \"n\": 1\n}\n\n\n Mi lehet az URLalapú módszer?\n\nAz előző beszélgetésben említett URLalapú képgenerálás valószínűleg egy speciális implementáció, amely:\n\n Egyszerűsített hozzáférést biztosít API kulcs nélkül\n GET kérésekkel működik URL paramétereken keresztül\n Közvetlen képgenerálást tesz lehetővé böngészőből\n\n Lehetséges URL struktúra:\n\nhttps://example-ai-generator.com/generate?prompt=cat+on+books&style=realistic\n\n\n Miért nem találtam konkrét példát?\n\nA keresés során főleg etablírozott AI szolgáltatások kerültek elő (OpenAI, Google, Microsoft), amelyek hagyományos APIkat használnak[1][4][6]. Az URLalapú módszer valószínűleg:\n\n Nyílt forráskódú projekt vagy kisebb szolgáltatás\n Kísérleti megoldás \n Nem széles körben dokumentált\n\n Összefoglalás\n\nBár a konkrét URLalapú képgenerálási eszköz nem került elő a keresésben, a koncepció létezik és működőképes. A hagyományos AI képgenerátorok APIkon keresztül működnek, de vannak egyszerűsített megoldások is, amelyek közvetlenül URLeken keresztül engedik meg a promptok megadását.",
+      "created_at": "20250705T19:36:41.976216Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

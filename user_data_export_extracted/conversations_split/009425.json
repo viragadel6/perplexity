@@ -1,0 +1,37 @@
+{
+  "context_uuid": "2ce1c67ea16549fcb1869bf23be131d6",
+  "context_title": "valamelyik modell a legjobb mind kozul? ha nem, melyik modell mibe a legjobb?",
+  "created_at": "20250721T13:09:32.676000Z",
+  "updated_at": "20250721T13:11:59.468381Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bcb9d3d7d7a44f2bb0387e949b7d2509",
+      "query": "valamelyik modell a legjobb mind kozul? ha nem, melyik modell mibe a legjobb?",
+      "answer": " Modellek összehasonlítása\n\nAz általad felsorolt modellek mindegyike eltérő tulajdonságokkal rendelkezik, és nincs egyetlen olyan, amely „mindenben” a legjobb lenne. Az egyes modellek másmás erősségekkel és felhasználási területekkel bírnak. Íme egy összefoglaló, hogy melyik modell miben kiemelkedő:\n\n Főbb modellek és előnyeik\n\n| Modell                       | Méret      | Legfőbb erősség                                                 | Ajánlott felhasználás      |\n|||||\n| Llama4Maverick             | nagy       | Általános, széles tudás, fejlett szövegértés                  | Összetett feladatok, Chat  |\n| Llama4Scout                | nagy       | Gyors, de kisebb fogyasztás; mobilabb, kompromisszumos pontosság | Egyszerűbb kérdések, gyors válaszok |\n| Llama3.370B                | nagyon nagy| Precíz, részletes válaszok; rengeteg paraméter                 | Komplex problémák          |\n| Llama3.18B                 | kicsi      | Gyors, kevésbé erőforrásigényes                               | Egyszerű feladatok, fejlesztés |\n| DeepSeekR1DistillLlama70B| nagy, distill| Optimalizált, gyorsabb, kevesebb fogyasztás nagyobb modellekhez képest | Futási költségre érzékeny környezet |\n| Qwen332B                   | közepes    | Jó általános teljesítmény, kreatív szövegalkotás               | Általános, kreatív feladatok |\n\n Fontos tudnivalók\n\n Nincs abszolút legjobb: Az, hogy melyik a legjobb, attól függ, mire szeretnéd használni (pl. sebesség, pontosság, erőforrásfelhasználás vagy speciális feladatok).\n Specializációk: Egyes modellek gyorsabbak vagy kevesebb memóriát igényelnek (pl. Llama3.18B), míg mások sokkal precízebbek, ha komplex kérdésekről van szó (pl. Llama3.370B).\n Újabb modellek: A Maverick modellek a legújabb generációk, amelyek gyakran jobb általános teljesítménnyel és szövegértéssel rendelkeznek.\n\n Összegzés\n\n Ha legjobb általános teljesítményt szeretnél: Llama4Maverick vagy Llama3.370B.\n Ha gyorsaság és alacsony erőforrás a cél: Llama4Scout vagy Llama3.18B.\n Ha költséghatékonyság is szempont: DeepSeekR1DistillLlama70B.\n Ha kreatív szövegekre van szükség: Qwen332B.\n\nAz ideális választás mindig az adott feladattól, a kívánt pontosságtól, gyorsaságtól és az elérhető erőforrásoktól függ.",
+      "created_at": "20250721T13:09:33.355435Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "bf03d414eba141ab9ae3804469d0bb59",
+      "query": "es a qwen 3 235b?",
+      "answer": "A Qwen3235B (teljes nevén gyakran Qwen3235B) egy jóval nagyobb, új generációs, kínai fejlesztésű opensource LLM, mely elméletben kiemelkedő teljesítményt nyújt, sok benchmarkon a GPT4 szintjéhez közelít vagy meg is haladja azt.  \nAz általad feltöltött képen viszont Qwen332B érhető el, nem a 235B. A 235B verzió ennél jóval nagyobb, nagyobb memóriát és erőforrást igényel, ezért kevésbé elterjedt felhős vagy publikus felületeken. Ha a célod a lehető legfejlettebb Qwen modell, akkor a Qwen3235B valóban a sorozat csúcsa, de jelenleg nálad csak a 32B opció választható.\n\nÖsszefoglalva:\n Qwen3235B: nagyon fejlett, de nálad nem érhető el a listában;\n Qwen332B: elérhető, és jó kompromisszum a teljesítmény és az erőforrásigény között.\n\nHa specifikusan Qwen3235Bt szeretnél használni, nézd meg, hogy a platform támogatjae, vagy próbáld olyan környezetben keresni, amely képes ezt a modellt futtatni.",
+      "created_at": "20250721T13:11:02.432888Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "30e8a9bcec5647ecb864db2d6273e06e",
+      "query": "es jobb mint a maverkick?",
+      "answer": " Qwen3235B vagy Maverick – melyik a jobb?\n\nA Qwen3235B egy kifejezetten nagy és fejlett nyelvi modell, amely sok iparági benchmarkon akár a GPT4 szintjét is eléri vagy meghaladja. Általánosságban a Qwen3235B:\n\n Erősebb számítási kapacitással rendelkezik, sokkal több paraméterrel, így bonyolultabb kérdésekben vagy kreatív feladatokban is kiemelkedően teljesíthet.\n Fejlettebb szövegértésre és generálásra képes, főleg hosszabb vagy összetettebb szövegekben.\n\nA Maverick (például Llama4Maverick):\n\n Egy újabb Llamaszéria tagja, amelyet általános célokra fejlesztettek ki.\n Nagyon jó általános teljesítményt nyújt, viszonylag gyors, széles körű tudással és stabil válaszadással.\n Kisebb erőforrásigényű, ezért rugalmasabb környezetben is futtatható.\n\n Melyik a jobb?\n\n Nyers nyelvi képességekben (pl. bonyolult okfejtés, hosszú logikai láncok, részletes elemzések) a Qwen3235B a nagyobb mérete és fejlettsége miatt összességében a piac egyik legerősebb modellje.\n Általános, mindennapi kérdésekre vagy alacsonyabb erőforrásigényű környezetben a Maverick gyorsabb és költséghatékonyabb választás.\n Ha kompromisszummentes “legjobb” nyelvi minőség és legkreatívabb szöveggenerálás a célod – és nem számít a futtatási költség vagy a hardverigény –, akkor a Qwen3235B jobb választás.\n Ha fontos a gyors elérhetőség, stabilitás és általános jó teljesítmény, akkor a Maverick bőven elég lehet.\n\n Fontos\nA Qwen3235B típusból általában csak speciális platformokon (nagyvállalati vagy kutatói infrastruktúrában) érhető el, míg a Maverick modellek jóval elterjedtebbek és szélesebb körben használhatóak.\n\nÖsszefoglalva:  \nA Qwen3235B technikailag fejlettebb, de csak akkor jobb, ha rendelkezésre állnak a szükséges erőforrások és tényleg kihasználod a nagyobb tudását. Átlagos felhasználás esetén, ahol fontos a gyorsaság és a stabil elérés is, a Maverick bőven elég – sőt, sokszor praktikusabb is.",
+      "created_at": "20250721T13:11:27.956651Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

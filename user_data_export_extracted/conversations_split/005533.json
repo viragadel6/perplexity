@@ -1,0 +1,19 @@
+{
+  "context_uuid": "db539a29ad4f482597d1a4df1ba7872b",
+  "context_title": "ISPC, SAC, Bend, Felix, MLton, Lobster, Clean, Ur/Web, Inko, Slang nyelvek kozul valami jo lenne jaidebe?",
+  "created_at": "20251219T01:18:26.503173Z",
+  "updated_at": "20251219T01:18:26.503173Z",
+  "mode": "COPILOT",
+  "collection_uuid": "4dae5311ffbf40ab8280f3c1236ea6cd",
+  "entries": [
+    {
+      "entry_uuid": "be85175f7d4846b5acd92511a665c65e",
+      "query": "ISPC, SAC, Bend, Felix, MLton, Lobster, Clean, Ur/Web, Inko, Slang nyelvek kozul valami jo lenne jaidebe?",
+      "answer": "A Jaide projekthez két nyelv különösen érdekes a felsoroltak közül, a Space instrukciók alapján:[1]\n\n Slang  A legígéretesebb választás\n\nA Slang shading language ideális a Jaide GPUgyorsított komponenseihez. A Khronos Group 2024. november 2021én indította el a Slang Initiativeot nyílt governance keretben, tehát kevesebb mint 1 hónapja.[2][3][4]\n\n Miért tökéletes Jaidehez:\n\nBrutálisan erőforráshatékony:\n Natív GPU shader nyelv CUDA, Vulkan, Metal, WebGPU támogatással[2]\n Jelentősen csökkenti a fordítási időket moduláris rendszerrel[5]\n Közvetlen hardware hozzáférés tensor műveletekhezAutomatic Differentiation:\n Első osztályú nyelvi feature a forward és backward propagációhoz[3][6]\n PyTorch integráció slangtorchon keresztül[6]\n Differentiable rendering support[6]\n\nCuttingedge és ismeretlen:\n 15 év NVIDIA fejlesztés után most nyílt meg széles közösségnek[3]\n Neural computation támogatás shaderekben[2][3]\n Még nem használja egyetlen LLM sem  tisztán shader/graphics területen volt eddig[7]\n\nIlleszkedik a Jaide architektúrához:\nA jelenlegi Jaide stack Zig + Futhark + Clash RTL kombinációt használ. A Slang perfekt kiegészítés GPU kernelekhez, különösen az RSF (Reversible ScatterFlow) processzor és a differenciálható komponensek számára.[8][1]\n\n MLton  Másodlagos opció\n\nAz MLton Standard ML compiler 2024. december 30án kapott új releaset, tehát szintén az 1 hónapos határon belül van. Standard ML wholeprogram optimizer, de kevésbé illeszkedik a Jaide GPUcentrikus architektúrájához.[9][10]\n\n A többi nyelv problémája\n\n ISPC, Bend, Felix, Lobster: Nem elég frissek (2024 májusoktóber)[11][12][13]\n SAC, Clean, Ur/Web, Inko: Nem találtam 1 hónapnál frissebb releaset[14][15][16]\n\n Ajánlás\n\nA Slang használata kifejezetten ajánlott a Jaide GPU kerneleihez és differenciálható komponenseihez. Kombináld a meglévő Zig coreral és Futhark array programozással  a Slang pokérheti a shader réteg hiányzó láncszeme.[1]",
+      "created_at": "20251219T01:18:26.580967Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

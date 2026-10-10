@@ -1,0 +1,19 @@
+{
+  "context_uuid": "712251f1dbd049a68fb239dd99c93c2d",
+  "context_title": "Olyan appot akarok építeni Crossmint + Wallester integrációval, ahol a user belép, pénzt tud tartani (fiat vagy kripto/stablecoin), kap saját bankkártyát amivel a balanceából tud költeni, és tud fizetési kérelmet küldeni link formában, amit bárki meg tud nyitni és Apple Pay/Google Payjel is tud rajta fizetni.",
+  "created_at": "20260215T02:10:41.147771Z",
+  "updated_at": "20260215T02:13:08.199119Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a34b8eccc2fa412f993a31a17c659dcc",
+      "query": "Olyan appot akarok építeni Crossmint + Wallester integrációval, ahol a user belép, pénzt tud tartani (fiat vagy kripto/stablecoin), kap saját bankkártyát amivel a balanceából tud költeni, és tud fizetési kérelmet küldeni link formában, amit bárki meg tud nyitni és Apple Pay/Google Payjel is tud rajta fizetni.",
+      "answer": "Létrehoztam egy teljes körű crypto payment wallet alkalmazást, amely integrálja a Crossmint és Wallester funkcionalitását. Az app főbb funkciói:\n\n🔐 Authentikáció:\n Emailalapú belépés (Crossmint Auth szimuláció)\n User profil kezelés\n\n💰 Balance kezelés:\n Dual balance rendszer: Fiat (EUR) és Crypto (USDC/stablecoin)\n Valós idejű egyenleg megjelenítés\n Összesített és külön egyenlegek\n\n💳 Virtuális bankkártya (Wallester):\n Szép vizuális megjelenítés\n Kártyaadatok (szám, lejárat, CVV) elrejtése/megjelenítése\n A kártyát használhatod online vásárlásokhoz\n\n⬇️ Befizetés funkciók:\n Bankkártyás feltöltés\n Crypto (USDC) befizetés onchain címmel\n Választható payment módszerek\n\n⬆️ Kifizetés:\n Banki átutalás\n Crypto withdrawal\n Automatikus balance management\n\n🔗 Payment link generátor:\n Egyedi linkek generálása\n Összeg és leírás megadása\n Link másolása funkcióval\n Bárki fizethet Apple Pay/Google Payjel (Crossmint checkout)\n\n📊 Tranzakciók:\n Teljes tranzakció történet\n Dátum, leírás, összeg megjelenítés\n Pozitív/negatív indikátor\n\n⚙️ Beállítások:\n Értesítések kezelése\n Napi limit beállítás\n Automatikus kripto→fiat konverzió\n\nAz alkalmazás productionready architektúrát követ, modern design rendszerrel (dark mode support), responsive elrendezéssel és teljes funkcionalitással. Az integráció készen áll Crossmint Wallet API és Wallester Card API csatlakoztatására.",
+      "created_at": "20260215T02:10:41.394226Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

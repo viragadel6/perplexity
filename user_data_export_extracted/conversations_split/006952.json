@@ -1,0 +1,64 @@
+{
+  "context_uuid": "47083e1f8c2e47b486fac7fb04b00aa2",
+  "context_title": "video hang felesoristo es tisztito appot keresek iphonera az etalont a legmagasabb minosegbe",
+  "created_at": "20251030T12:21:23.906768Z",
+  "updated_at": "20251030T12:34:42.593645Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9e1432db719a41c59b0e475c6d964494",
+      "query": "video hang felesoristo es tisztito appot keresek iphonera az etalont a legmagasabb minosegbe",
+      "answer": "Az iPhone‑on a legmagasabb minőségű beszédhang‑zajszűréshez és tisztításhoz a legjobb kombináció jelenleg: Denoise.FX (on‑device AI zajcsökkentés), Krisp (valós idejű hívás/meeting zajszűrés), és egy mastering app, pl. Trinity, ha “etalon” minőségű végső exportot szeretnél 24‑bit/32‑bit float szinten.[1][2][3][4]\n\n Azonnali zajtisztítás (offline fájlokra)\n Denoise.FX: on‑device AI, szél/utca/autó zajok eltávolítása, manuális paraméterezés, szűrők, hangerő boost, videóból hang kinyerése, internet nélkül, nem írja felül az eredetit.[1]\n Audio Noise Reducer & Recorder: egyszerű zajcsökkentés felvett audio/videón, felvétel közbeni redukció támogatásával.[5][6]\n Denoise (iOS): népszerű, interaktív frekvenciasáv‑elemzővel és több formátumtámogatással.[7][8]\n\n Valós idejű zajszűrés (hívás, meeting, stream)\n Krisp: AI zajszűrés mikrofonra és hangszóróra több száz appban, mobil app is elérhető; lokális feldolgozás, adatvédelem, ingyenes és prémium csomagok.[9][10][3][11]\n Alternatívák és megfontolások: egyes összehasonlítások szerint a hard zajszűrés hangszínt torzíthat, ezért utómunka (pl. mastering) ajánlott fontos anyagoknál.[12]\n\n Mastering és “etalon” export\n Trinity | Audio Mastering (iOS): integrált mastering eszköztár, export 16‑/24‑bit és 32‑bit float WAV‑ba, opcionális ditheringgel. [2][4]  \n Irányelvek az etalonhoz: Apple Digital Masters gyakorlat szerint a 24‑bit, 96 kHz mester a cél; az AAC kódolás 32‑bit float belső lépéssel történik a klippelés elkerülésére.[13]\n\n Felvétel és gyors javítás\n Dolby On: ingyenes rögzítő és hangjavító app Dolby technológiával, gyors zajcsökkentéshez és színezéshez.[14]\n iPhone voice recorder opciók: a Zapier válogatásában stúdió‑fókuszú felvevők (pl. MOTIV Audio) szerepelnek, ha a nyers minőség is fontos.[15]\n\n Ajánlott workflow “referencia” minőséghez\n Felvétel: csendes tér + irányított mikrofon; ha kell, valós időben Krisp hívásokhoz/meetingekhez.[10][3]\n Zajtalanítás: Denoise.FX‑szel offline, manuális finomhangolással, szükség esetén frekvenciaszűrőkkel.[1]\n Mastering: Trinity‑ben tónus, dinamika, loudness beállítás, export 24‑bit WAV (publikálás), archiváláshoz 32‑bit float.[2]\n Irányelvek: kerüld a fölösleges upsamplinget; tartsd a jelutat nagy felbontáson a végéig, Apple‑féle ajánlások szerint.[13]\n\n Rövid alternatív lista\n Denoise.FX: AI zajcsökkentés, offline, on‑device, videóhoz is.[1]\n Denoise (iOS): egyszerű, hatékony mobil denoiser.[7]\n Audio Noise Reducer & Recorder: gyors tisztítás és rögzítés egy appban.[6][5]\n Krisp: élő zajszűrés és meeting‑assistant iOS‑en is.[3][11]\n Trinity: mastering és 32‑bit float export.[4][2]\n\nHa szeretnéd, küldhetsz egy rövid, zajos mintát és a célplatformot (YouTube, podcast, zenei streaming), és adok konkrét Trinity preset‑/export‑beállításokat az “etalon” eredményhez.[2][13]",
+      "created_at": "20251030T12:21:24.046727Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e5b377c91e6744ac8892c716791bd15b",
+      "query": "de appot es direkt app store linket kuldj",
+      "answer": "Íme a javasolt iPhone appok közvetlen App Store linkekkel:\n\n Denoise.FX – Audio & Video zajcsökkentés (on‑device AI, offline): \n Trinity | Audio Mastering – mastering és 24/32‑bit export:  [2]  \n Audio Noise Reducer & Recorder – gyors zajcsökkentés és felvétel egyben: \n Krisp AI Meeting Note Taker – mobilos felvétel, jegyzetelés, de iOS‑en jelenleg nincs élő zajszűrés: \n\nHa masteringhez részletes útmutató kell Trinity‑hez, itt éred el a hivatalos leírást: ",
+      "created_at": "20251030T12:29:54.025806Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "36a5a91ca39a4951b31804df9485a8f7",
+      "query": "mar meglevo videot akarok csak feleristeni tajta NAGYON a beszed hngot",
+      "answer": "Igen, meglévő videón a beszédhangot így tudod nagyon felerősíteni iPhone‑on:\n\n Denoise.FX (ajánlott): Importáld a videót, futtasd a zajcsökkentést, majd használd a “Boost volume” opciót, végül mentsd vissza a Fotókba; ez külön kiemeli a beszédet és tisztítja is.[1][2]\n VideoMaster – Video Sound Editor: Import után a 6‑sávos EQ‑val emeld a 1–4 kHz tartományt a beszéd érthetőségéhez, plusz “Volume Boost”tal nagy hangosítást érhetsz el, majd export.[3][4]\n iMovie (ingyenes): Új Movie projektbe húzd be a klipet, a hangerő csúszkát told fel 400–500%‑ig, szükség esetén ismételt export+újraimport a további erősítéshez.[5][6]\n\nKözvetlen linkek iPhone‑ra:  \n Denoise.FX (HU App Store): \n VideoMaster – Video Sound Editor: \n iMovie (Apple, ingyenes): a Hangerő csúszkával több száz %‑ig erősíthetsz.[6][5]\n\nTipp a torzítás elkerülésére: előbb zajtalaníts (Denoise.FX), aztán emeld a hangerőt/EQ‑t (VideoMaster vagy iMovie), mert a zaj felhangosítása gyorsan klippeléshez vezethet.[2][6][3]",
+      "created_at": "20251030T12:30:17.021960Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "3f334fd7c46b49e2a60e057b03630db4",
+      "query": "teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű",
+      "answer": "Ha kifejezetten “underdog”, kevéssé ismert, de kimagasló minőségű iPhone appot keresel meglévő videó beszédhangjának brutális felerősítésére és tisztítására, ezeket érdemes megnézni:\n\n VoiceUp – Enhance Your Voice\n Kifejezetten videók és audiók beszédhang‑kiemelésére készült; AI‑alapú beszédfókusz, erősítés és tisztítás egyben, alig ismert fejlesztőtől.[1]\n Alkalmas “dialogue‑boost” jellegű munkára: importálod a videót, AI enhancement, majd export, minimális menüdzsungellel.[1]\n\n Recorder – speech enhancement\n AI beszédjavítás felvételhez és meglévő anyagokhoz, az augmentedhearing.io megoldásával; nem mainstream, de jó zajleválasztás/beszéderősítés arányt ad.[2]\n Workflow: import vagy rögzítés, AI speech enhancement, majd export tisztított és hangosabb beszéddel.[2]\n\n Noise Reducer: Denoise Audio\n Egyszerű, alulradaros zajcsökkentő app több formátumtámogatással; a “kis, de minőségi” kategória, jó előkészítés a beszéd további erősítéséhez.[3][4]\n Használat: először zajtalanít, utána egy másik appban (pl. VoiceUp) drasztikus beszéderősítés.[4][3]\n\n Módszer, ha “NAGYON” fel kell tolni a beszédet\n Lépés 1: zajtalanítás egy underdog appal (Noise Reducer), hogy a zaj ne erősödjön együtt a beszéddel.[3][4]\n Lépés 2: AI beszédfókusz és erősítés (VoiceUp vagy Recorder – speech enhancement), így a középtartomány (kb. 1–4 kHz) és a beszédtransziensek tisztán és hangosan jönnek elő.[2][1]\n\nApp Store linkek:\n VoiceUp – Enhance Your Voice: \n Recorder – speech enhancement: \n Noise Reducer: Denoise Audio: \n\nHa szeretnéd, írsz 1 percnyi mintát és a célplatformot (TikTok, YouTube, podcast), és adok konkrét VoiceUp/Recorder beállításokat a legnagyobb, még nem torzító beszéderősítéshez.[1][2]",
+      "created_at": "20251030T12:31:11.182320Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2377e4e152304ce389894b4d403bb5f3",
+      "query": "sokkal jobbakat es valosakat",
+      "answer": "Érthető, akkor jöjjenek kevésbé ismert, de valóban erős, minőségcentrikus iOS appok, amelyek kifejezetten beszéd‑kiemelésre, izolálásra és zajcsökkentésre jók meglévő videón is.\n\n AudioAI – TTS & Isolate Voice\n AI‑alapú voice isolation videóból is, célzott beszéd‑kiemeléssel és magas minőségű exporttal; alulradaros, de a hangszétválasztás minősége kiemelkedő ebben a kategóriában.[1][2]\n Használat: importálod a videót, Voice Isolation, majd export tisztább és hangosabb dialóggal.[2]\n\n Sound Boost: Enhance & Isolate\n Kisebb név, AI‑vezérelt izolálás és nagy hangerő‑boost, stúdióminőségű export opciókkal; jó, ha nyers erősítés mellett kell a beszédet külön is kiemelni.[3]\n Workflow: izolálás + erősítés, majd EQ finomhangolás, export.[3]\n\n AI Noise Reducer Audio Enhance\n Under‑the‑radar AI zajcsökkentő, ami videós hangot is tisztít; jó előfeldolgozás beszéd drasztikus erősítése előtt, hogy ne a zajt toljad fel.[4]\n Lépés: zajtalanítás, majd külön appban (pl. Sound Boost/AudioAI) beszéd‑fókusz és gain.[4]\n\n Mimi Dialogue Focus (technológia)\n Nem végfelhasználói app, hanem integrálható AI dialogue‑boost technológia; a mögöttes megoldás mutatja, milyen elvek szerint érdemes beszédet kiemelni mobilon.[5]\n Szabályozható izoláció, multiband kompresszió és ML‑alapú hangosság illesztés a tiszta dialógusért.[5]\n\nApp Store linkek:\n AudioAI – TTS & Isolate Voice: \n Sound Boost: Enhance & Isolate: \n AI Noise Reducer Audio Enhance: \n\nGyakorlati lánc “sokkal jobb” eredményhez:\n 1) AI zajcsökkentés (AI Noise Reducer), hogy a boost ne torzítson és ne erősítse a háttérzajt.[4]\n 2) Voice isolation + erősítés (AudioAI vagy Sound Boost) a dialógus dominanciáért.[2][3]\n 3) Ha még kell, finom multiband kompresszió/EQ a közép‑tartományon a végső érthetőséghez.[5][3]\n\nHa elküldöd a célplatformot és a minta jellegét (zajos utca, szobai visszhang, zene alatta), adok konkrét per‑app beállításokat a maximális, de tiszta beszédhanghoz.[3][2][4]",
+      "created_at": "20251030T12:32:01.044386Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "7a299862c9d049f79987d407f498ecb9",
+      "query": "de csak egy sima videot megfogok feltoltok es nagyon egyszeruen de tobbszorosere hangosithatom benne a beszedet teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű app storebol a legeslegeslegeslegeslegjobbat kuld !!!!\nprofesszionalis minosegbe",
+      "answer": "Ha egyetlen, nagyon egyszerű, mégis professzionális minőségre képes iPhone app kell, amiben egy meglévő videót betöltesz és a beszédhangot többszörösére, torzítás nélkül fel tudod húzni, a legjobb választás az AudioFix: Video Volume Booster, mert egy lépésben zajtisztít és a hangerőt a torzítás előtti maximumra állítja, így “megfogod → betöltöd → maximalizálja → export” alapon működik.[1]\n\nMiért ez a “legjobb” a kérésedhez\n Egy mozdulattal maximalizálja a videó hangját, és manuális plusz erősítést is enged, ezért extrém mértékű beszéd‑hangosítás is megoldható minimális kezeléssel.[1]\n Beépített zajcsökkentő presetekkel tisztít is, hogy a felhangosítás ne csak a zajt növelje, ami professzionálisabb eredményt ad a sima gain‑hez képest.[1]\n Úgy optimalizál, hogy a kimeneti szint torzítás előtt álljon meg (pl. −0,1 dB vagy platformhoz igazított −3 dB), ami segít a klippelés elkerülésében és a platformonkénti konzisztenciában.[1]\n\nApp Store link\n AudioFix: Video Volume Booster: \n\nAlternatíva, ha mégis AI‑alapú izolálás kell\n Sound Boost: Enhance & Isolate – AI izolálás + nagy boost, de kezelése részletesebb; nem annyira “egy gomb” jellegű, mint az AudioFix.[2]\n\nHa tényleg a “megfogom a sima videót és pár koppintással brutálisan hangos és tiszta lesz a beszéd” a cél, az AudioFix a legközvetlenebb, underdog‑nak számító, mégis szakmai workflow‑ban is használható opció.[1]",
+      "created_at": "20251030T12:32:48.412516Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

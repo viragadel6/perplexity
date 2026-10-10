@@ -1,0 +1,28 @@
+{
+  "context_uuid": "e5ca092d4f5e4c26a4278ade100dfd79",
+  "context_title": "modal.,com b300 ár",
+  "created_at": "20260815T02:42:07.349572Z",
+  "updated_at": "20260815T02:42:47.404545Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3a8909f628ed4a22850c2455c32e83b7",
+      "query": "modal.,com b300 ár",
+      "answer": "A  felhőszolgáltatónál az Nvidia B300 GPU ára $0,001972 / másodperc, ami óránkénti lebontásban körülbelül $7,10 / óra díjszabást jelent.[1][2]\n\n Főbb árképzési részletek\n\nA Modal szerver nélküli, másodpercalapú elszámolást használ.[1]\n\n Másodpercalapú díj: $0,001972 / mp[1]\n Óradíj: kb. $7,10 / óra (3600 másodperccel számolva)[2][1]\n Alapértelmezett keret: havonta $30 ingyenes számítási keret érhető el az új fiókok számára[1]\n\n Technikai tudnivalók\n\n Hardver: Nvidia Blackwell Ultra architektúra, 288 GB HBM3e VRAM[3][4]\n Skálázhatóság: legfeljebb 8 GPU kapcsolható össze egy konténeren belül (összesen 2 304 GB GPU memóriáig)[3]\n Szoftveres követelmény: a B300 használatához legalább CUDA 13.1 verzió szükséges[3]",
+      "created_at": "20260815T02:42:07.465747Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "b8dcebcdf99a4750be7f1a31b3ac9d97",
+      "query": "30:7.1=?",
+      "answer": "A \\(30 : 7{,}1\\) osztás eredménye megközelítőleg 4,225.\n\n Részletesebb értékek\n\n Tizedes törtként (kerekítve): \\( \\approx 4{,}22535 \\)\n Közönséges törtként: \\( \\frac{30}{7{,}1} = \\frac{300}{71} = 4 \\frac{16}{71} \\)\n Időben kifejezve: körülbelül 4 óra 13 perc 31 másodperc futásidő jön ki a 30 dolláros keretből.",
+      "created_at": "20260815T02:42:42.111061Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

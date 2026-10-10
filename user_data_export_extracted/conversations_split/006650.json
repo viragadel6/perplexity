@@ -1,0 +1,19 @@
+{
+  "context_uuid": "814b4991a5be440c979bfefd68e393cf",
+  "context_title": "",
+  "created_at": "20251105T14:43:57.331031Z",
+  "updated_at": "20251105T14:43:57.331031Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0f739ce309d7432dbcfb3c62131d9319",
+      "query": "",
+      "answer": "Rendben, most nem tudok közvetlenül megnyitni vagy beolvasni külső hivatkozásokat, de szívesen segítek a megadott GitHubág (calmwillow2819) elérésében, letöltésében vagy ellenőrzésében. Írd meg, mire van szükséged (áttekintés, klónozás, build, hibakeresés, diff), és adok célzott lépéseket.\n\n Mi ez a hivatkozás?\nA link egy GitHubtárhely (kollarsandorbibispec/monkeybibi) egyik ága, név szerint calmwillow2819, a “tree/ágnév” útvonalon a fájlok böngészhető nézetére mutat. Ha az oldal 404et ad vagy üres, az ág lehet, hogy nem létezik, át lett nevezve, vagy a repo privát.\n\n Gyors klónozás közvetlenül az ágra\nHasználd a branch célzott klónozását, hogy csak ezt az ágat töltsd le.\nbash\ngit clone -b calm-willow-2819 --single-branch https://github.com/kollarsandorbibi-spec/monkeybibi.git\n\n\n Ha már klónoztad a repót\nHúzd be az áglistát és válts az adott ágra.\nbash\ncd monkeybibi\ngit fetch origin\ngit checkout calm-willow-2819\n\n\n Ellenőrizd, hogy létezike az ág\nÁg meglétének gyors ellenőrzése távoli oldalon:\nbash\ngit ls-remote --heads https://github.com/kollarsandorbibi-spec/monkeybibi.git calm-willow-2819\n\nHa kapsz találatot (egy commit hash és a refs/heads/calmwillow2819), akkor az ág létezik távol; ha üres a kimenet, akkor nincs ilyen ág (vagy nincs jogosultságod).\n\n Letöltés ZIPként (böngésző nélkül)\nA legtöbb GitHub repo támogatja a branch ZIP archívumát:\ntext\nhttps://github.com/kollarsandorbibi-spec/monkeybibi/archive/refs/heads/calm-willow-2819.zip\n\nHa ez 404et ad, az ág nem elérhető vagy a repo privát.\n\n Hibák és megoldások\n 404 a böngészőben: ellenőrizd az owner/repo/ág írásmódját és a jogosultságot; lehet, hogy az ág törölve/átnevezve lett.\n Permission denied / 403: kérj hozzáférést, vagy használd az SSHt, ha a repo privát és van kulcsod.\nbash\ngit@github.com:kollarsandorbibi-spec/monkeybibi.git\n\n Átnevezett ág keresése:\nbash\ngit ls-remote --heads https://github.com/kollarsandorbibi-spec/monkeybibi.git | sed 's?.*/heads/??' | sort\n\n\n Miben segíthetek pontosan?\n Tartalom áttekintése és összefoglalója\n Függőségek, build és futtatás lépései\n Változások összehasonlítása a main/dev és a calmwillow2819 között\n CI/CD vagy linters hibák elhárítása\n\nÍrd meg, melyikre van szükséged, és küldök célzott parancsokat vagy magyarázatot.",
+      "created_at": "20251105T14:43:58.234298Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

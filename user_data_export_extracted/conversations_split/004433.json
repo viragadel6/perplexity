@@ -1,0 +1,19 @@
+{
+  "context_uuid": "454fa70829344aa18c4d8a2140dd53ed",
+  "context_title": "",
+  "created_at": "20260206T13:39:43.511472Z",
+  "updated_at": "20260206T13:39:56.409074Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ccf9d5626fe841ac9e6527fb27d5d113",
+      "query": "",
+      "answer": "Ez egy nyilvános, Apache 2.0 licencű, „imagetovideo” (világmodell) alapmodell, amivel statikus képből és kamera‑trajektóriából nagyfelbontású videót tudsz generálni.[1][4]\n\n Mi ez a modell?\n\n Név: LingBotWorldBase (Cam).[4]\n Típus: világmodell / image‑to‑video diffúziós háló, a Wan2.2 kódjára építve.[1][4]\n Fő input: egy kép + kamera‑pozíciók (camera poses) mint kontroll jel.[4][1]\n Kimenet: videó 480p vagy 720p felbontásban.[1][4]\n Licenc: Apache‑2.0, tehát szabadon használható, módosítható, akár kereskedelmi célra is, a licencfeltételek betartásával.[4]\n\n Fő képességek\n\n Magashűségű, változatos környezetek: realizmus, tudományos szcenáriók, rajzfilmes / stilizált világok stb.[1][4]\n Hosszú időtáv és konzisztencia: akár perc hosszúságú (kb. 1 perc) videók, végig koherens jelenettel.[4][1]\n Közel valós idejű interakció: 16 FPS mellett <1 s körüli késleltetéshez optimalizált rendszerként pozicionálják.[6][1]\n Alapmodellre épülő finomhangolások támogatottak a Hugging Face‑en (finetunes / adapters).[5]\n\n Telepítés, letöltés (röviden)\n\nA README szerint a teljes stack a Wan2.2 repo‑ra épül, így:[4]\n\n1. Repo klónozása:\n    git clone https://github.com/robbyant/lingbot-world.git  \n    cd lingbot-world[1][4]\n2. Követelmények:\n    torch >= 2.4.0.[1][4]\n    pip install -r requirements.txt  \n    pip install flash-attn --no-build-isolation a gyorsított attentionhöz.[4][1]\n3. Modell letöltése:\n    pip install \"huggingface_hub[cli]\"  \n    huggingface-cli download robbyant/lingbot-world-base-cam --local-dir ./lingbot-world-base-cam[1][4]\n\n Inferencia – mit tudsz vele csinálni?\n\n 480p és 720p videó generálása egy kép + kamera‑trajektória alapján.[4][1]\n Példa inputok (képek, promptok, kontroll jelek) az examples/ könyvtárban vannak.[1][4]\n Hosszú videókhoz multi‑GPU inferencia (FSDP + DeepSpeed Ulysses) javasolt.[4][1]\n Ha elég nagy a CUDA memória, a frame_num+ot 961‑re emelve kb. 1 perces, 16 FPS videót kapsz.[1][4]\n\n Kapcsolódó források\n\n GitHub kód: https://github.com/robbyant/lingbot-world – teljes tréning és inferencia kód, Wan2.2 alapokkal.[10][4][1]\n Projektoldal és cikk (world‑model fókusz): linkek a README‑ben (paper, project page).[4][1]\n Közösségi visszajelzések: pl. Reddit thread, ahol kiemelik az akció‑/kamera‑embeddingeket, emergens memória‑ és struktúramegőrző képességet, és a ~16 FPS 480p teljesítményt.[6]\n\nHa leírod, hogy pontosan mire szeretnéd használni (pl. játékprototípus, robot szimuláció, kreatív videó, saját finomhangolás), tudok konkrétabb gyakorlati lépéseket is javasolni (hardver, batch‑méretek, pipeline felépítése stb.).",
+      "created_at": "20260206T13:39:43.698738Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "49337415fd184316b986692bb0a28197",
+  "context_title": "",
+  "created_at": "20251025T23:21:13.428819Z",
+  "updated_at": "20251025T23:21:13.428819Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f2fc881d0e5a4ea4b8e4ea4267cf973d",
+      "query": "",
+      "answer": "A hivatkozott Hugging Facemodell, a HunyuanWorldMirror, egy univerzális 3D világrekonstrukciós háló, amely többféle bemenetet és kimenetet képes egyszerre kezelni és előállítani.[2]\n\n Mit tud a modell?\n Egyetlen előrecsatolt (feedforward) futás során különböző 3D reprezentációkat állít elő: pontfelhőt, többnézetű mélységtérképeket, kameraparamétereket, felületi normálokat és 3D Gaussian objektumokat.[2]\n “AnyPrior Prompting”: bármilyen kombinációban megadható bemeneteket fogad (kalibrált intrinzik mátrixok, kamerapozíciók, nyers vagy előre számolt mélységek).[2]\n Egységes architektúrája révén több feladatot fed le: kamera és mélységbecslés, ponttérképregresszió, felületi normálbecslés, valamint új nézetek szintézise.[2]\n\n Fő összetevők\n1. Többmodális priorpromptolás  \n    Könnyű kódoló rétegek alakítják a különböző bemeneteket strukturált tokenekké, amelyeket a háló ugyanabban a térben dolgoz fel.[2]\n\n2. Univerzális geometriai predikció  \n    Ugyanaz a háló architektúra képes a teljes 3D rekonstrukciós feladatkészletet megtanulni, így nincs szükség külön modellre minden részfeladathoz.[2]\n\n Licenc és hivatkozás\n Licenc: “tencenthunyuanworldmirrorcommunity”, amely a GitHuboldalon érhető el.[3]\n Cikk: Liu et al., “WorldMirror: Universal 3D World Reconstruction with AnyPrior Prompting”, arXiv:2510.10726 (2025).[2]\n  BibTeX bejegyzés a READMEben található.[2]\n\n Használati esetek\n Tartalomgyártás: soknézetű fotók vagy videók alapján teljes 3D jelenetek gyors előállítása pontfelhőként vagy Gaussianként.[2]\n Robotika és AR/VR: valós idejű kamerapozíció és mélységbecslés heterogén érzékelőadathalmazból.[2]\n Tudományos vizualizáció: felületi normálok és mélységek gyors kinyerése mérési adatokból.[2]\n\n Gyakorlati tudnivalók\n A modell Hugging Faceen elérhető, október 24i utolsó frissítéssel; havonta ~5900 letöltést regisztráltak.[2]\n A repository fastruktúrája és commitelőzményei nyilvánosak a GitHubtárhelyen is.[3]\n\nA modell tehát egy “minden az egyben” 3D rekonstrukciós megoldás, amely rugalmas bemenetkezeléssel és többféle kimeneti formátummal szolgálja ki a kutatók és fejlesztők igényeit.[2]",
+      "created_at": "20251025T23:21:13.629630Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

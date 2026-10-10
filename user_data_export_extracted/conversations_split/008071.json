@@ -1,0 +1,19 @@
+{
+  "context_uuid": "260407296db24dc899271df7900abd4d",
+  "context_title": "melyik idris 2 fajl a legjobb a julia model\nmelle?",
+  "created_at": "20251002T12:06:51.449459Z",
+  "updated_at": "20251002T12:06:51.449459Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "dd88ec25b72c40bfb5a2bbd24b45c11d",
+      "query": "melyik idris 2 fajl a legjobb a julia model\nmelle?",
+      "answer": "A Julia modellhez a legjobb Idris 2 fájl a modelverifaction.Idr.txt (\"VerifiedUniMolJulia\") nevű modul, mert ez direkt a Julia rendszer fő numerikus típusait (például Float32, Double) modellezi és bizonyításokat tartalmaz a Julia kód stabilitási, indexelési, SMILESből graph generálási, konformer generálási és E3equivariáns neurális háló modellezési feladatokra, ráadásul explicit kompatibilitással és matematikai bizonyításokkal[1].\n\n Miért alkalmasabb a modelverifaction.Idr.txt?\n Direkt szintaxis és típuskezelés kapcsolódik a Julia numerikus típusaihoz (Float32 mint Double a bizonyításokhoz)[1].\n Kiemelt modelleket és algoritmusokat bizonyít (pl. l2 normálás, atom feature, graf generálás, konformer generálás), amelyek a Julia molekulamodelljeiben is központi szerepet játszanak[1].\n Tartalmazza a SMILESből graph generálás és a neurális háló bizonyításainak kódját, amely szorosan illeszkedik a Julia modellek elvárásaihoz[1].\n Számos gépi tanulási és strukturális algoritmus szerepel benne, beleértve a kmeans clusteringet, attention mechanizmusokat és padding/formátumkezelést, amelyek a Julia oldali fő kódkomponensekhez jellemzők[1].\n\n Más Idris fájlok összehasonlítása\n| Fájl              | Előny                                       | Hiányosság                   |\n||||\n| modelverifaction.Idr.txt   | Julia specifikus modellezés, numerikus típusok, teljes körű bizonyítások[1] | Nincs                        |\n| jadedmodelverifaction.idr.txt | Sok neurális/hálózati logika, de általánosabb, nem specifikusan Julia felé[2] | Kevés konkrét Juliakompatibilitás[2] |\n| v.idr.txt         | Általános típuskezelés, listák, vekorok[3] | Nem modellezi a Julia fő funkciókat[3] |\n\n Ajánlás magyarul\nA Julia modellekhez a \"modelverifaction.Idr.txt\" használata ajánlott, mert ez tartalmazza a legteljesebb Julia kompatibilitást, bizonyításokat és explicit modelleket atomoktól a konformer generálásig, miközben minden releváns struktúrát Julia szemszögből modellez[1].",
+      "created_at": "20251002T12:06:51.571898Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

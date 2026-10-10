@@ -1,0 +1,37 @@
+{
+  "context_uuid": "e8bcdd2e9b2d45708464da6b6862822c",
+  "context_title": "kuldj el minden dokumentacio oldal linket az  cerebras ai honlaprol, exa ai oldalrol, \nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250719T03:02:47.683385Z",
+  "updated_at": "20250719T03:05:46.219183Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "27e77a92f3c1482986c5c77b8f7399c8",
+      "query": "kuldj el minden dokumentacio oldal linket az  cerebras ai honlaprol, exa ai oldalrol, \nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Cerebras és Exa AI Dokumentációs Linkek\n\n Cerebras AI Dokumentációs Linkek\n\n Fő dokumentációs oldalak[1]\n   Főoldal a teljes dokumentációhoz[1]\n   Training dokumentáció áttekintés[1] \n   Inference dokumentáció bevezető[1]\n   Training API referencia[1]\n   SDK dokumentáció[1]\n\n Training dokumentáció részletes linkek[1]\n \n \n \n \n \n \n \n \n \n \n \n \n\n Inference dokumentáció részletes linkek[1]\n \n \n \n \n \n \n \n \n \n \n \n \n \n\n GitHub és példakód linkek[1]\n   Fő GitHub szervezet[1]\n   CSL példakód gyűjtemény[1]\n   Model Zoo repository[1]\n   Inference példák[1]\n   Python SDK[1]\n   Node.js SDK[1]\n\n További szakmai anyagok[1]\n   Kutatási publikációk[1]\n   Technikai tanulmányok[1]\n   Technikai blog[1]\n   Cloud platform[1]\n\n Exa AI Dokumentációs Linkek\n\n Fő dokumentációs oldalak[2]\n   Kezdeti útmutató[2]\n   Gyors indítás[2]\n\n API dokumentáció részletes linkek[2]\n   POST Search endpoint[2]\n   POST Get contents endpoint[2]\n   POST Find similar links[2]\n   POST Answer endpoint[2]\n   Research API[2]\n   Websets API[2]\n   OpenAPI specifikáció[2]\n\n SDK dokumentáció[2]\n   Python SDK részletes útmutató[2]\n   TypeScript SDK útmutató[2]\n   Gyors referencia kártyák[2]\n\n Integráció dokumentáció[2]\n   Vercel AI SDK integráció[2]\n   OpenRouter integráció[2]\n   LangChain integráció[2]\n   LlamaIndex integráció[2]\n   CrewAI integráció[2]\n   IBM WatsonX integráció[2]\n\n RAG útmutatók[2]\n   RAG Exa és OpenAI használatával[2]\n   RAG LangChain használatával[2]\n   OpenAI Exa wrapper[2]\n   CrewAI ágensek Exa használatával[2]\n   RAG LlamaIndex használatával[2]\n   Tool calling GPT használatával[2]\n   Tool calling Claude használatával[2]\n   OpenAI Chat Completions[2]\n   OpenAI Responses API[2]\n\n Példák és tutorialok[2]\n   Exa MCP szerver[2]\n   Websets hírmoniror[2]\n   Hallucináció detektor[2]\n   Írássegéd[2]\n   Chat alkalmazás[2]\n   Cégelemző[2]\n\n Websets dokumentáció[2]\n   Websets áttekintés[2]\n   Websets GYIK[2]\n   Dashboard használat[2]\n   Websets API[2]\n\n Koncepciók és magyarázatok[2]\n   Hogyan működik az Exa keresés[2]\n   Az Exa index[2]\n   Tartalmi lekérés[2]\n   Exa képességek[2]\n   Aloldalak feltérképezése[2]\n   Exa LiveCrawl[2]\n   Exa Research[2]\n   Gyakori kérdések[2]\n\n Változásnapló és admin[2]\n   Legfrissebb változások[2]\n   Csapat kezelés[2]\n   Sebességkorlátok[2]\n   Vállalati dokumentáció és biztonság[2]\n\n Blog és esetstudiumok[3]\n   Exa blog[3]",
+      "created_at": "20250719T03:02:47.715016Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "429c26879c314f55afdb76f134b737df",
+      "query": "es a tobbi?",
+      "answer": "   \n   \n   \n   \n   \n   \n   \n   \n   \n ",
+      "created_at": "20250719T03:04:08.558909Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "8cf8453efb974cff821b2f934c8a02a1",
+      "query": "tobbi?",
+      "answer": "   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n ",
+      "created_at": "20250719T03:05:41.478993Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

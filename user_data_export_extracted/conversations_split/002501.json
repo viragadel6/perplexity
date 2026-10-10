@@ -1,0 +1,28 @@
+{
+  "context_uuid": "b42ef2d43dcf4f23b4013234d69d7777",
+  "context_title": "miyami llm  arenan\n\n{\"id\":\"019de42c-5c72-7c36-8b55-6abafffbb8ae\", \"publicName\":\"miyami\", \"displayName\":\"miyami\", \"capabilities\":{\"inputCapabilities\":{\"text\":true},\"outputCapabilities\":{\"text\":true}}...}",
+  "created_at": "20260505T10:17:14.859064Z",
+  "updated_at": "20260505T10:25:55.353019Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6694345f071643ce87ee7fd9a8b7ecf3",
+      "query": "miyami llm  arenan\n\n{\"id\":\"019de42c-5c72-7c36-8b55-6abafffbb8ae\", \"publicName\":\"miyami\", \"displayName\":\"miyami\", \"capabilities\":{\"inputCapabilities\":{\"text\":true},\"outputCapabilities\":{\"text\":true}}...}",
+      "answer": "A \"miyami llm arenan\" valószínűleg a Miyami LLM Arenara utal, ami a LMArena (lmarena.ai) nevű népszerű LLMösszehasonlító platformon szereplő modellre vagy entitásra vonatkozik.[1][2]\n\n Mi az LMArena?\n\nAz LMArena egy közösségi alapú, vaktesztalapú aréna, ahol felhasználók párosítani tudják a nagy nyelvi modelleket (LLMeket), és szavaznak arra, melyik ad jobb választ valós felhasználói lekérdezésekre. Ez Elopontszámítással rangsorolja a modelleket, alapulva milliók szavazatain – jelenleg több mint 6 millió voks alapján. Ez különbözik a hagyományos benchmarkoktól, mert emberi preferenciákat mér, nem fix teszteken, így reálisabb képet ad a modellek mindennapi teljesítményéről, például chatben, kódolásban vagy kreatív írásban.[3][4]\n\nA platformon modellek anonimizáltan versenyeznek, hogy elkerüljék a biaszt, és a ranglista folyamatosan frissül leaderboardként.[5][1]\n\n Miyami modell a platformon\n\nA megadott JSONfragmentum ({\"id\":\"019de42c-5c72-7c36-8b55-6abafffbb8ae\", \"publicName\":\"miyami\", ...}) egy tipikus modellmetaadat LMArenastílusú felületen, ahol \"miyami\" a publikus név, text input/output képességekkel. Keresések alapján a \"miyami\" egy aktív modell a LMArena leaderboardján, de pontos rangja vagy teljesítménye a legfrissebb snapshotokban (pl. 2026. áprilismájus) nem került kiemelésre a top modellek között, mint a Grok4.1 vagy GLM5.1 (Elo ~14701500). Valószínűleg egy kisebb vagy speciális LLM, esetleg nyílt súlyú vagy kínai fejlesztésű, hasonlóan más listázott modellekhez (pl. GLM, Kimi).[6][4][7][1]\n\nHasonló néven nincs más jelentős találat (pl. nem kapcsolódik Arena.ai vagy LMSYS Chatbot Arena variánsokhoz közvetlenül).[2][8]\n\n Hogyan működik az Arena?\n\nA rendszer páros random modelleket ad egy promptra, a felhasználó választ, Elo frissül. Példák top modellekre 2026 eleji adatokból: GLM5.1 ~1471 Elo, Kimik2.5 ~1452; gyengébbek, mint Vicuna13B ~1000 alatt. Ez tanít meg arra, miért fontos a vakteszt: modellek biasz nélkül mérhetők, és magyarázza, miért vezetnek kisebb modellek (pl. Gemma4 31B) néha nagyokat.[8][7]\n\nHa kipróbálnád, látogass el ra vagy  oldalra.[1]\n\nMilyen részletet keresel pontosan a Miyami modellről, pl. rangját vagy teljesítményét?",
+      "created_at": "20260505T10:17:15.095088Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6f9ee9c594f54a19aa03fc6cb6f2519f",
+      "query": "{\"id\":\"019de42c-5c72-7c36-8b55-6abafffbb8ae\", \"publicName\":\"miyami\", \"displayName\":\"miyami\", \"capabilities\":{\"inputCapabilities\":{\"text\":true},\"outputCapabilities\":{\"text\":true}}...}",
+      "answer": "Miyami egy nyelvi modell (LLM), amely az LMArena / Chatbot Arena platformon elérhető, publicNameként \"miyami\" azonosítóval, text/text képességekkel. A JSON, amit megadtál, tipikusan egy modell metaadatja ilyen arénákból, ahol modelleket párosan hasonlítanak össze közösségi szavazatok alapján.[1][2][3]\n\n Miyami a platformon\n\nEz a modell az LMArena leaderboardjén szerepel, ahol a felhasználók anonim csatákban értékelik a válaszokat Elopontszámítás alapján. A \"miyami\" IDja (019de42c...) egyedi azonosítója a rendszerben, ami textalapú input/outputra korlátozódik, de nincs közvetlen info a mögötte álló fejlesztőről vagy paraméterméretéről a nyilvános forrásokban.[2][4][5]\n\n Hogyan működik az Arena?\n\nAz LMArena (korábban LMSYS Chatbot Arena) crowdsourced értékelést használ: két modellt random párosítanak egy promptra, a felhasználó szavaz a jobb válaszra, ebből alakul a rangsor. Több millió szavazatból számítják az Elot, ami valós preferenciákat tükröz, nem benchmarkokat. Például a legfrissebb listákon top modellek mint Grok4.1 vagy GLM5.1 vezetnek ~1470+ Eloval.[6][7][4][8][5][3][1]\n\n Kapcsolódó találatok\n\nNincs megerősített info a \"miyami\" pontos teljesítményéről vagy rangjáról a legfrissebb leaderboardokon (pl. arena.ai vagy Hugging Face LMArena), de hasonló nevű projektek mint \"miyabillm\" Rust könyvtárak LLMintegrációkra utalnak. Ha ez egy privát vagy új modell, akkor az ID alapján tesztelhető az arénában.[9][10][2]\n\nMilyen részletet keresel pontosan a \"miyami\"ról: a jelenlegi Elopontszámát, összehasonlítást más modellekkel, vagy hogyan próbáld ki?",
+      "created_at": "20260505T10:23:32.459662Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

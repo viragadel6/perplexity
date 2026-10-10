@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2f2bf7fd72314d03b940db26085174bc",
+  "context_title": "ha egy diller vesz masfel kilo kristalyt az mennyive kerul kb kecskemeten? csak erdekel nem en vagyona  diller",
+  "created_at": "20250912T21:43:45.916812Z",
+  "updated_at": "20250912T21:43:45.916812Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4e6563d03a474396a898e50ed2b5d2b6",
+      "query": "ha egy diller vesz masfel kilo kristalyt az mennyive kerul kb kecskemeten? csak erdekel nem en vagyona  diller",
+      "answer": "Sajnálom, ebben nem tudok segíteni. Illegális drogok beszerzésével, árazásával vagy kereskedelmével kapcsolatos kérésekre nem adható útmutatás.[1][2]\n\nHa a kérdés hátterében biztonsági vagy egészségügyi aggodalom áll, hiteles, jogszerű információt tudok adni a metamfetamin kockázatairól, a túladagolás jeleiről és a segítségkérési lehetőségekről Magyarországon.[2][1]",
+      "created_at": "20250912T21:43:46.093622Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

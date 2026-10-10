@@ -1,0 +1,19 @@
+{
+  "context_uuid": "ccabb84c353b4bf8805726dcfa38cc46",
+  "context_title": "hol elerheto a model",
+  "created_at": "20251112T06:04:12.601691Z",
+  "updated_at": "20251112T06:04:12.601691Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "63bd4a29f84c44c587939965f3a9f1c6",
+      "query": "hol elerheto a model",
+      "answer": "A Mercury (és Mercury Coder) jelenleg az Inception saját APIján, az Amazon Bedrockon (és SageMaker JumpStarton), továbbá az OpenRouteren és a Poen érhető el. Ezek a csatornák hivatalosan bejelentett, általánosan elérhető hozzáférési pontok a dLLMekhez.[1][2][3][4]\n\n Hol érhető el\n Inception API: közvetlen vállalati APIhozzáférés a Mercury és Mercury Coder modellekhez, igény szerint vállalati telepítéssel is (on‑premise).[5]\n Amazon Bedrock és SageMaker JumpStart: a Mercury és Mercury Coder a Bedrock Marketplaceben és a JumpStart katalógusban érhető el, Bedrock Converse APIval is hívható.[3]\n OpenRouter: a Mercury modellek elérhetők és hívhatók az OpenRouter ökoszisztémán keresztül.[6][2]\n Poe: a modellek a Poe platformon is hozzáférhetők partnerségi integráción keresztül.[4][1]",
+      "created_at": "20251112T06:04:12.634399Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

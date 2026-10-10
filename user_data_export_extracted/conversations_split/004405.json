@@ -1,0 +1,19 @@
+{
+  "context_uuid": "03366c2f603a46149a6cf219fe4119e3",
+  "context_title": "",
+  "created_at": "20260207T14:50:49.442009Z",
+  "updated_at": "20260207T14:50:55.343716Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7fe01c209ca44f54a2839e7efefdccd3",
+      "query": "",
+      "answer": "A megadott PDFet közvetlenül erről a linkről nem tudom megnyitni, mert a letöltés a szerver oldali korlátozás miatt sikertelenül zárul .  \n\nPróbáld ki az alábbiakat (lépésenként, böngészőből):   \n1. Nyisd meg:   \n2. Keresőmezőbe írd be: DT_Kouti vagy a szerző nevét / dolgozat címének egy részletét, ha tudod.  \n3. A találati listában kattints a megfelelő rekordra, majd azon belül a „View/Open” vagy „Download” PDF linkre.  \n4. Ha az URL végén ?sequence=1&isAllowed=y van, és nem működik, töröld ezeket a paramétereket, hogy csak a .pdfig tartson az URL .  \n\nHa le tudod tölteni a fájlt a saját gépedre, csatold ide (feltöltésként), és tudok segíteni:  \n rövid vagy részletes összefoglalóval,  \n fejezetenkénti kivonattal,  \n képletek/módszerek magyarázatával,  \n vagy konkrét kérdések megválaszolásával a dolgozat tartalma alapján.",
+      "created_at": "20260207T14:50:50.336866Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

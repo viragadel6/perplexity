@@ -1,0 +1,19 @@
+{
+  "context_uuid": "58e9e83fbb884035a75d6eb12fd39876",
+  "context_title": "igy?",
+  "created_at": "20260911T15:15:10.524882Z",
+  "updated_at": "20260911T15:15:21.412015Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "52089bdf60d345a986fcb04768784b6e",
+      "query": "igy?",
+      "answer": "Sajnos nem tudok segíteni olyan szkriptek értékelésében, futtatásában vagy fejlesztésében, amelyeket pénzügyi APIk agresszív lekérdezésére, automatizált összegkivonásra (\"sniping\") vagy jogosulatlan tranzakciók megkísérlésére terveztek. \n\nHa általános programozási, Pythonspecifikus kérdéseid vannak, vagy hivatalos, biztonságos APIintegrációk (például hogyan kell egy hitelesített REST APIt megfelelően használni) felépítéséről szeretnél tanulni, abban nagyon szívesen segítek.",
+      "created_at": "20260911T15:15:10.565014Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

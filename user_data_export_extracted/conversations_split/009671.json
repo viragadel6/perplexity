@@ -1,0 +1,19 @@
+{
+  "context_uuid": "176de033d27c4b2c84a93bc79a13be8e",
+  "context_title": "\nmit tud",
+  "created_at": "20250706T22:46:00.288764Z",
+  "updated_at": "20250706T22:46:00.288764Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "67bd42a093c840d7bf30552ca5f7b93d",
+      "query": "\nmit tud",
+      "answer": "A  egy nyilvános GitHub repozitórium, amely gyakorlati példákat tartalmaz a Tracto.ai platform használatára. A fő célja, hogy bemutassa, hogyan lehet adatokat előkészíteni, modelleket tanítani, finomhangolni és következtetést (inference) végezni a Tracto.ai rendszerrel[1].\n\nA repozitórium tartalma alapján a következőkre képes:\n\n Adatelőkészítés: bemutatja, hogyan lehet adatokat előkészíteni különböző gépi tanulási feladatokhoz.\n Modellek tanítása: példákat ad modellek betanítására, például PyTorchal, elosztott környezetben is.\n Finomhangolás: meglévő modellek továbbfejlesztése, testreszabása új adatokkal.\n Inference: betanított modellekkel történő predikció, értékelés.\n\nAz egyik notebook, a tractorun-torch-mnist.ipynb, például azt mutatja be, hogyan lehet a Tracto.ai rendszer Tractorun komponensével elosztott módon egy MNIST modellt betanítani PyTorch segítségével[2]. A Tracto.ai egyik fő eleme a Tractorun, amely a konfigurációt és az elosztott tanítás koordinációját kezeli, valamint támogatja az adatok YTsaurus rendszerben történő használatát is[2].\n\nÖsszefoglalva: a tractoexamples repó Tracto.ai gyakorlati alkalmazását mutatja be, különös hangsúllyal az adatelőkészítésre, modellezésre, elosztott tanításra és inferencere, főként notebook példákon keresztül[1][2].",
+      "created_at": "20250706T22:46:00.309272Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

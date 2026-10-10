@@ -1,0 +1,19 @@
+{
+  "context_uuid": "dd22fa778b514fbc92099c91380ff307",
+  "context_title": "change Katy Perry to the fat girl\ndo not change anything else\nkeep her fat\nultra realistic 4K",
+  "created_at": "20260820T20:42:28.218447Z",
+  "updated_at": "20260820T20:43:12.929736Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "55884694ff0b47aea1f466fae80f2a85",
+      "query": "change Katy Perry to the fat girl\ndo not change anything else\nkeep her fat\nultra realistic 4K",
+      "answer": "Generirování 4K obrazu určeného trofu strukturem Sierra",
+      "created_at": "20260820T20:42:28.278814Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "5aeb4cad3931401e81c31da713fc22bc",
+  "context_title": "Szeged Treebank, Hungarian Deep Corpus",
+  "created_at": "20250726T19:13:55.731492Z",
+  "updated_at": "20250726T19:14:57.607020Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "613aec5d0df84b299dcada659affe742",
+      "query": "Szeged Treebank, Hungarian Deep Corpus",
+      "answer": " Szeged Treebank\n\n‒ Magyarország legnagyobb, teljesen kézzel annotált szintaktikai faállománya: 82 000 mondat, 1,2 millió szó, hat szövegműfajból (szépirodalom, tanulói fogalmazások, napilapcikkek, informatika, jogi szövegek, üzleti hírek)[1][2].\n\n‒ Verziók\n 1.0: főnevi csoportok és mellékmondatok jelölése.  \n 2.0: mély, frazisstruktúrájú elemzés minden mondatra[1][3].  \n Dependency Treebank: automatikusan konvertált, majd kézzel ellenőrzött függőségi reprezentáció[1][4].\n\n‒ Formátum: TEI XML; elérhető .zip csomagokban kutatásioktatási célra az SZTE RGAI honlapján (ingyenes, de regisztrációhoz/kéréshez kötött).\n\n‒ Felhasználás: arany standard gépi tanulású szintaktikai elemzők tanításához, információkinyeréshez, szemantikai annotált részkorpuszok (NE, coref, WSD, sentimentalrendszerek) alapjául[5][6][7].\n\n Hungarian Deep Corpus\n\nA „Hungarian Deep Corpus” név nem tartozik hivatalos, önálló korpuszhoz. A szakirodalomban többnyire a Szeged Treebank 2.0 mély szintaktikai rétegére vagy más, „deeply annotated” (többszintű) magyar korpuszokra utal (pl. Szeged Dependency Treebank, Universal Dependencies HUSzeged)[8]. Amennyiben a kérdező ilyet keres, a hozzáférés ugyanazon SZTE RGAI csatornákon történik, mint a Treebank.\n\n Hozzáférés rövid útmutató\n\n1. Lépjen az SZTE RGAI hivatalos „Downloads” oldalára.  \n2. Válassza a kívánt verziót (Treebank 2.0, Dependency Treebank stb.).  \n3. Küldjön emailt (pl. Vincze Veronikának) a licenckérelmével; oktatóikutatói használatra díjmentes.  \n4. A kapott linkről tölthető le a tömörített XMLállomány, melyet standard NLP eszközökkel (Python + lxml, UDkonverterek) feldolgozhat.\n\n Kapcsolódó magyar nyelvi korpuszok (válogatás)\n\n| Név | Méret | Fő jellemző | Elérés |\n|  |  |  |  |\n| Hungarian Gigaword (MNSZ2) | >1 milliárd token | Morfológiailag annotált, naprakész web és sajtószövegek | online CQLfelület, ingyenes regisztráció[9] |\n| Hungarian National Corpus (HNC) | 150 millió szó | Balanszírozott, 5 műfaj | Nyelvtud. Int. kereső[10] |\n| Hungarian Webcorpus 2.0 | ~9 milliárd token | Common Crawl alapú nyers + morfológiai annotáció | nyílt licenc[5][11] |\n| UD_HungarianSzeged | 82 000 mondat | UDformátumú, a Treebank függőségi átirata | GitHub / UDrepos[8] |\n\nEzekből a Treebank a legmélyebben annotált, ezért precíz nyelvtani kutatásokhoz vagy gépi tanuláshoz „arany standardnak” számít.",
+      "created_at": "20250726T19:13:55.838433Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "75deeb511ac94c898439784e357e2ac7",
+      "query": "erthetoen, mi az?",
+      "answer": "Röviden és közérthetően:\n\n  Szegedi Faállomány (Szeged Treebank): egy nagy gyűjtemény kb. 82 000 magyar mondatból. Minden mondathoz a nyelvészek kézzel odaírták: mi a mondat alanya, állítmánya, tárgya, hol vannak a mellékmondatok stb. Olyan ez, mintha egy hatalmas magyar nyelvtankönyv minden példamondatát „kiszerkesztették” volna – de nem embereknek, hanem számítógépeknek, hogy megtanulják a magyar nyelvtant (fordítás, beszédfelismerés, keresés).\n\n  „Hungarian Deep Corpus”: önálló korpusz ilyen néven nincs; általában ugyanennek a Szegedi Faállománynak a „mély” (aprólékos) elemzésére vagy annak függőségi változatára utalnak. Tehát ha valahol Hungarian Deep Corpust említenek, jó eséllyel a Szeged Treebank egyik verziójáról beszélnek.\n\nÖsszefoglalva: a Szeged Treebank a legnagyobb, részletesen kijavított magyar mondatgyűjtemény számítógépes nyelvfeldolgozáshoz; a „deep corpus” pedig ennek a mélyebben tagolt változata.",
+      "created_at": "20250726T19:14:46.711355Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

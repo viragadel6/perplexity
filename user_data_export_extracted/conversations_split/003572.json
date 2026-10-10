@@ -1,0 +1,19 @@
+{
+  "context_uuid": "07300c871297415e849228886fbab19c",
+  "context_title": "zope nyelv",
+  "created_at": "20260312T00:26:30.934608Z",
+  "updated_at": "20260312T00:26:56.432323Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ef0ce7e55abd417d9e24d864c24ebaf0",
+      "query": "zope nyelv",
+      "answer": " Mi a Zope?\n\nA Zope (Z Object Publishing Environment) egy ingyenes, nyílt forráskódú webalkalmazáskiszolgáló, amelyet főként Python programozási nyelven írtak. A neve a „Z Object Publishing Environment\" rövidítése, ahol a „Z\" betűnek nincs különösebb jelentése.[2][5]\n\n Történet és eredet\n\nA Zopeot 1998ban adta ki a Digital Creations nevű cég (amely később Zope Corporation lett). Az első változat három Pythoncsomagból nőtt ki: Bobo, Document Template és BoboPOS, amelyek webes publikálást, szövegsablonozást és objektumadatbázist biztosítottak. Érdekesség, hogy a Zope Corporation egy időben Guido van Rossumot, a Python megalkotóját is alkalmazta, és a Zope ExtensionClass megközelítése valószínűleg befolyásolta a Python 2.2ben bevezetett „newstyle\" osztályokat.[3][5]\n\n Felépítés és működés\n\nA Zope szinte teljes egészében böngészőn keresztül kezelhető webes felületen. A rendszer középpontjában egy objektumadatbázis áll, amelyben minden tartalom objektumként tárolódik, de külső relációs adatbázisok (Oracle, PostgreSQL, MySQL, Sybase) is csatlakoztathatók hozzá. A fejlesztők webalkalmazásaikat Python kódban, illetve a Zope saját sablonnyelvén, a DTML (Document Template Markup Language) segítségével írhatják meg.[6][2]\n\n Skálázhatóság\n\nA Zope egyik kiemelkedő tulajdonsága a ZEO (Zope Enterprise Objects) nevű beépített fürtözési megoldás, amellyel az alkalmazások szinte lineárisan skálázhatók több fizikai gépre elosztva, minimális kódmódosítással. Ez sok más alkalmazáskiszolgálóval szemben komoly előnyt jelent nagyobb projekteknél.[5]\n\n Zope és a Python kapcsolata\n\nA Zope architektúrájának egyik különlegessége az acquisition (megszerzés) nevű mechanizmus, amely a JavaScript prototípusalapú örökléshez hasonlóan működik: ha egy objektumon nem található meg egy attribútum, a rendszer a szülőobjektumban keresi azt, végig az URLútvonal mentén. Ez lehetővé teszi például, hogy a hozzáférésvezérlési listák (ACLek) kaszkádszerűen öröklődjenek az objektumhierarchián lefelé. Ez a fajta szemantika azonban eltér a Python alapvető viselkedésétől, ami idővel a Zope és a szélesebb Pythonközösség között egyre mélyülő szakadékot okozott.[3]\n\n Zopera épülő rendszerek\n\nA Zope alapjaira számos ismert tartalomkezelő rendszer (CMS) épül, köztük a Plone, a Nuxeo CPS és a Zwiki. Ezek közül a Plone a legelterjedtebb, és ma is aktívan fejlesztett, vállalati szintű CMSként tartják számon.[2]",
+      "created_at": "20260312T00:26:30.978920Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

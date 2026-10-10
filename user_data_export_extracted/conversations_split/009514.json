@@ -1,0 +1,28 @@
+{
+  "context_uuid": "af21866eb48e470a8804e2672c248e52",
+  "context_title": "\nmelyik repo integralasa lenne jo az appomba??",
+  "created_at": "20250715T10:37:08.565850Z",
+  "updated_at": "20250715T10:38:11.678681Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9b7eef9cf5c94ac4bfe4f9a4b1695e78",
+      "query": "\nmelyik repo integralasa lenne jo az appomba??",
+      "answer": "Nagyon ígéretes a Jade appod!  \nA googledeepmind GitHub repói közül érdemes lehet olyat választanod, ami jól kiegészítheti az AI/keresési/kutatási funkciókat. Néhány ötlet, mire lehet jó integráció:\n\n1. DeepMind/alphafold – Fehérjeszerkezetelőrejelzés (ha bioinformatikai, orvosi, vagy pharma területen szeretnél modult).\n2. DeepMind/graphcast – Időjáráselőrejelzés (ha környezeti/fenntartható kategóriád bővítenéd, pl. előrejelző modul).\n3. DeepMind/dmhaiku – Modern deep learning modellek építéséhez (ha saját AIt vagy egyedi modellt fejlesztenél a platformodra, főleg JAXszel).\n4. DeepMind/open_spiel – Játék és szimulációs AI, ha edukáció, kutatás vagy AIszimuláció a cél.\n5. DeepMind/trfl – Reinforcement learning utility library: ha játék, szimuláció vagy döntéshozó AIt integrálnál, hasznos lehet.\n\nTIPP:  \n Jade platformod kiemelten AIkutatási, kereső, elemző irányokat céloz.  \n Ha például célod tudományos elemzések, biológiai, környezeti modellek támogatása, akkor az AlphaFold (biológia), illetve a GraphCast (környezeti adatok) nagyon vonzó.\n Ha általánosabb AI/ML bővítményt keresel, a dmhaiku, trfl tudja a legjobban fejlesztőként támogatni az egyedi AImodulokat.\n\nÍrd meg, milyen témájú modult vagy plusz képességet akarsz a Jade platformodhoz, és segítek konkrét ajánlást és integrációs tippet is adni, akár példakóddal!",
+      "created_at": "20250715T10:37:08.599009Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "5e7785d4ea704a579994264cfedf2ca0",
+      "query": "miert alphafold nincs mar benbe?",
+      "answer": "Az AlphaFold azért nincs készen benne (az appodban), mert  \n az AlphaFold egy nagyon összetett, gépi tanulással fehérjeszerkezetet előrejelző rendszer,  \n nem egy egyszerű API, hanem inkább egy komplett ML pipeline Pythonban (TensorFlow/JAX ökoszisztéma),  \n futtatása speciális hardvert (GPU/TPU), nagy memóriát, és tudományos Python környezetet igényel,  \n jogilag is elég szigorú: a Google DeepMind kutatási célokra tette szabadon elérhetővé, de nem extra szolgáltatási APInak, és nem felhőszolgáltatásként (mint pl. egy kereső vagy társalgó AI).\n\nA Jadeben jelenleg nincsen fehérjeszerkezetmodellező funkció (legalábbis a JADED0711 leírás alapján sem látszik), ezért az AlphaFold nem jelent meg \"Alpha service\"ként vagy Exafunkcióként.\n\nTechnikai okok:  \n Nem olyan, mint egy promptolható nagy nyelvi modell vagy kereső API (Exa, Gemini stb.), hanem teljesen más workflow.\n Egyszerű webes vagy mobilos AIplatformba csak úgy \"plugandplay\" módon nem integrálható.\n Számításigényes, tudományos felhasználásra való.\n\nMi kellene hozzá?  \n Backenden konténeresítve vagy egyedi APIn keresztül lehetne becsomagolni,  \n vagy egy külső AlphaFold szolgáltatáson keresztül (ha lenne ilyen stabil, publikusan elérhető).\n\nÖsszefoglalva:  \nAz AlphaFold nem csak azért nincs benne, mert hiányzik a listából, hanem mert ezt integrálni teljesen más nagyságrendű fejlesztés és infrastruktúra, mint egy kereső vagy adatbányász AI. Ha mégis kellene ilyen funkció a Jade platformhoz, írj, és leírom hogyan lehetséges valamilyen szinten webes APIsítás vagy specializált backend mellett!",
+      "created_at": "20250715T10:38:00.992990Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "context_uuid": "792e0a1e4c10448c800bac4ce09444d2",
+  "context_title": "Nem vasaroltam meg semmit az odalon csak siman free vagyok de a limit ezt mutatja akkor most tudom hasznalni ezeket a modelekeg vagy nem",
+  "created_at": "20251012T16:12:11.425305Z",
+  "updated_at": "20251012T17:32:41.841659Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8c582328e319437fb959d401a8f1366d",
+      "query": "Nem vasaroltam meg semmit az odalon csak siman free vagyok de a limit ezt mutatja akkor most tudom hasznalni ezeket a modelekeg vagy nem",
+      "answer": "A képen látható Anthropic Console \"Limits\" oldal egy ingyenes (Free Tier) API fiókhoz tartozó limiteket mutat, amelyeket használni lehet.[1][2]\n\nAz ingyenes szinten a következők érhetők el:[3][2]\n\n Használható modellek és limitek\n\nA Free Tier havonta 10 dollár értékű API használatot biztosít. A képen látható modellek mindegyike elérhető ingyenesen, a következő limitekkel:[2][1][3]\n\n Claude Sonnet 4.x: 5 kérés/perc, 10,000 input token/perc, 4,000 output token/perc\n Claude Opus 4.x: 5 kérés/perc, 10,000 input token/perc, 4,000 output token/perc  \n Claude Sonnet 3.7: 5 kérés/perc, 10,000 input token/perc, 4,000 output token/perc\n Claude Haiku 3.5: 5 kérés/perc, 25,000 input token/perc, 5,000 output token/perc\n Claude Haiku 3: 5 kérés/perc, 25,000 input token/perc, 5,000 output token/perc\n\nTovábbi korlátok az ingyenes szinten:[1][2]\n\n Batch kérések: 5 kérés/perc minden modellre\n Web keresési eszköz: 20 keresés/másodperc\n Fájl tárhely: 100 GB\n\n Összegzés\n\nIgen, használhatók ezek a modellek ingyenesen, hiszen a Free Tier valódi API hozzáférést biztosít. A limitek azt jelentik, hogy percenként maximum 5 kérést lehet küldeni, és havonta legfeljebb 10 dollár értékű használat megengedett. Ha ezeket a limiteket túllépi a felhasználó, 429es hibakódot kap, és várnia kell, amíg a limit visszaáll, vagy magasabb szintre kell lépnie.[3][2]",
+      "created_at": "20251012T16:12:11.697952Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "7870b33e1fc0406c8b4a1dd9a9d378f2",
+      "query": "megis ezt irja ki: ^^^^\r\n  File \"/home/runner/workspace/main.py\", line 105, in translate_dataset\r\n    translated = self.translate_entry(entry)\r\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/home/runner/workspace/main.py\", line 39, in translate_entry\r\n    response = self.client.messages.create(\r\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/home/runner/workspace/.pythonlibs/lib/python3.11/sitepackages/anthropic/_utils/_utils.py\", line 282, in wrapper\r\n    return func(args, kwargs)\r\n           ^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/home/runner/workspace/.pythonlibs/lib/python3.11/sitepackages/anthropic/resources/messages/messages.py\", line 930, in create\r\n    return self._post(\r\n           ^^^^^^^^^^^\r\n  File \"/home/runner/workspace/.pythonlibs/lib/python3.11/sitepackages/anthropic/_base_client.py\", line 1324, in post\r\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\r\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/home/runner/workspace/.pythonlibs/lib/python3.11/sitepackages/anthropic/_base_client.py\", line 1112, in request\r\n    raise self._make_status_error_from_response(err.response) from None\r\nanthropic.BadRequestError: Error code: 400  {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CU3hhoaRUw1r19tnuNTCk'}",
+      "answer": "A hibaüzenet azt jelenti, hogy nincs elég kredit a fiókon az API használatához. Bár a képernyőn látható limitek megjelennek, az ingyenes szint nem automatikusan aktív  krediteket kell vásárolni vagy hozzáadni a fiókhoz a használat megkezdéséhez.[1][2][3][4]\n\n Mi a probléma\n\nAz Anthropic API előre fizetett rendszert használ. Még az ingyenes teszteléshez is aktiválni kell a fiókot kreditekkal, bár új fiókok esetenként kaphatnak promóciós krediteket telefonszámhitelesítés után.[3][5][6][7]\n\n Megoldás\n\nA hiba kijavításához a következő lépéseket kell követni:[2][1][3]\n\n1. Belépés: Lépj be a  oldalra\n2. Navigálás: Menj a Settings → Plans & Billing részre\n3. Fizetési mód hozzáadása: Add meg a bankkártyaadatokat\n4. Kredit vásárlása: Vásárolj krediteket  a minimális összeg általában 510 dollár körül van[5][3]\n5. Autoreload beállítása (opcionális): Állíts be automatikus újratöltést, hogy ne szakadjon meg a szolgáltatás[4][3]\n\n Fontos tudnivalók\n\nAz ingyenes 10 dolláros havi keretet csak akkor lehet használni, ha előtte legalább egyszer vásároltál krediteket. Az Anthropic nem nyújt teljesen ingyenes API hozzáférést fizetési mód hozzáadása nélkül.[8][9][1][2]\n\nA telefonszám hitelesítése után néhány dollárnyi promóciós kredit járhat új fiókokhoz, amit tesztelésre lehet használni.[6][7]",
+      "created_at": "20251012T16:23:16.042098Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "9ca9630b88be48bdbab669e0fab91e9d",
+      "query": "akkor ez a gpt 5 pro modellnel azt jelenti hogy en nemnis hasznalhatom?\n\nSZINT\tFORDULAT\tTPM\tKÖTEGELT VÁRAKOZÁSI SOR KORLÁTJA\nIngyenes\tNem támogatott\n1. szint\t500\t30 000\t90 000\n2. szint\t5000\t450 000\t1 350 000\n3. szint\t5000\t800 000\t50 000 000\n4. szint\t10 000\t2 000 000\t200 000 000\n5. szint\t10 000\t30 000 000\t5 000 000 000",
+      "answer": "Igen, sajnos a táblázat alapján a GPT5 Pro modellt nem használhatod ingyenes szinten, mivel az \"Ingyenes\" sornál egyértelműen \"Nem támogatott\" szerepel.[1][2]\n\n GPT5 vs GPT5 Pro különbségek\n\nFontos megérteni, hogy két külön modellről van szó:[3][2][1]\n\nGPT5 (standard): Az ingyenes felhasználók számára is elérhető, korlátozott mennyiségben (10 üzenet 5 óránként a ChatGPTn keresztül, vagy napi 1 GPT5 Thinking kérés)[4][1]\n\nGPT5 Pro: Ez egy prémium, nagyobb számítási kapacitást igénylő változat, amely csak fizetős előfizetőknek érhető el (Pro szint: 200 dollár/hó)[2][1][3]\n\n Mit használhatsz ingyenesen?\n\nAz ingyenes OpenAI API szinten:[1][4]\n\n GPT5 (alap verzió): ChatGPTn keresztül napi 10 üzenet 5 óránként\n GPT5 mini/nano: Korlátozott API használattal (3 RPM, 200 RPD)\n GPT4.1, GPT4o: Szintén korlátozott mennyiségben\n\n GPT5 Pro hozzáféréshez\n\nA táblázat szerint minimum 1. szintre kell lépni, amihez fizetni kell (minimum 5 dollár egyenleg szükséges a fiókban). Az 1. szint már biztosítja a GPT5 Pro hozzáférést 500 RPM és 30,000 TPM limittel.[5][6][2][1]\n\nTehát a GPT5 Pro modellt ingyenesen nem lehet használni az APIn keresztül, csak a ChatGPT weboldalon érhető el korlátozott formában az alap GPT5.[4][1]",
+      "created_at": "20251012T16:31:29.994164Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "b745c3c50a904ff998ad788f5ad52602",
+      "query": "akkor a kurva annyikat hat meg github modells nel is nagyobb tiert kapok",
+      "answer": "Igen, a GitHub Models valóban jobb ingyenes hozzáférést biztosít, különösen a GPT5 és más prémium modellek esetében.[1][2]\n\n GitHub Models ingyenes limitek\n\nA GitHub Models minden GitHub fióknak ingyenesen biztosít hozzáférést a következő modellekhez:[3][2][1]\n\nGPT5 modellek ingyenesen (alap GitHub fiókkal, Copilot Free nélkül):[2]\n GPT5, O3, O1: 1 kérés/perc, 8 kérés/nap (nem támogatott Copilot Free nélkül)\n GPT5mini, GPT5nano, O4mini: 2 kérés/perc, 12 kérés/nap (nem támogatott Copilot Free nélkül)\n GPT4o és más \"High\" modellek: 10 kérés/perc, 50 kérés/nap\n \"Low\" tier modellek: 15 kérés/perc, 150 kérés/nap\n\n Miért jobb, mint az OpenAI Free Tier?\n\nA GitHub Models előnyei az OpenAI ingyenes szintjéhez képest:[4][1][2]\n\n1. Több modellhez való hozzáférés: OpenAI, Meta Llama, Microsoft, DeepSeek modellek egyetlen API kulccsal[5][6]\n2. Magasabb napi limitek: 50150 kérés/nap a modell típusától függően vs. OpenAI 200 kérés/nap (de csak 3 RPM)[2]\n3. Több token/kérés: 8,000 input + 4,000 output token vs. OpenAI változó limitek[2]\n4. Ingyenes playground: Modellek összehasonlítása és tesztelése díjmentesen[5][2]\n5. Átlátható limitek: Nincs rejtett havi költési limit, csak egyszerű rate limit[1][2]\n\n Fontos megjegyzés\n\nHa GitHub Copilot Prot (10$/hó) vásárolsz, akkor még több hozzáférést kapsz:[2]\n GPT5: 1 RPM, 8 RPD\n GPT5mini/nano: 2 RPM, 12 RPD\n GPT4o: 10 RPM, 50 RPD\n\nTehát igen, a GitHub Models sokkal jobb választás ingyenes AI modell hozzáféréshez, mint az OpenAI vagy az Anthropic Free Tier.[3][1][2]",
+      "created_at": "20251012T16:33:00.276411Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

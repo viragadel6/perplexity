@@ -1,0 +1,28 @@
+{
+  "context_uuid": "c85d725c3c034d0e9158157df11a3470",
+  "context_title": "hivatalos műszaki vizsgaállomás kecskemeten ahova online foglalhatok időpontot",
+  "created_at": "20251212T04:54:17.975941Z",
+  "updated_at": "20251212T05:02:14.897788Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a961150b76ca435f9be36207f83dda9c",
+      "query": "hivatalos műszaki vizsgaállomás kecskemeten ahova online foglalhatok időpontot",
+      "answer": "Kecskeméten jelenleg biztosan online foglalható időpontot találtam egy magán műszaki vizsgálóállomásnál (saját webes időpontfoglalóval), illetve a kormányhivatali vizsgasorokra az állami (KAÜ/Ügyfélkapualapú) időpontfoglaló rendszeren keresztül.[1][2][3]\n Hova tudsz online foglalni\n Kormányhivatali (állami) vizsgasor: az állami vizsgálóállomásokra a KHKIA felületen lehet időpontot foglalni, és a belépés KAÜ/Ügyfélkapualapú.[2][3]\n GumiSped Kft.: a cég weboldalán külön „Időpontfoglalás” oldalon választható szolgáltatás és időpont (műszaki vizsga is szerepel), így itt ténylegesen online foglalás működik.[1]\n\n További hivatalos opciók (jellemzően egyeztetéssel)\n RZ Műszaki Vizsgabázis: Kecskeméten, a Szent László krt. 79. címen működő vizsgálóállomás, amely szerepel a kormányhivatali vizsgálóállomáslistában, a bejelentkezést elérhetőségeken keresztül hirdeti.[4][5]\n Magyar Autóklub Szerviz és vizsgapont (Kecskemét, Izzó u. 1.): vizsgapontként működik, és a klub oldalán elérhetők a műszaki vizsgás időpontinformációk (a foglalás módját érdemes a helyi elérhetőségen pontosítani).[6]\n Gyors tipp a foglaláshoz\nA műszaki vizsgához általában szükség lesz a jármű okmányaira (pl. forgalmi) és magánszemélynél személyes iratokra, cégnél cégiratokra, ezért foglalás előtt érdemes ezeket előkészíteni.[4][7]\nHa megírod, hogy személyautó/kisteher/motor (és benzines/dízel/LPG), meg lehet mondani, melyik fenti hely a legpraktikusabb a te esetedre, és melyiknél a legkényelmesebb az online időpontfoglalás.[1][3]",
+      "created_at": "20251212T04:54:18.101697Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "24c06000b1164a1c8cdc758fce960377",
+      "query": "de ahol kapok cissza igazolo emailt azonnal",
+      "answer": "Ha azonnali visszaigazoló emailre van szükséged, a legbiztosabb megoldás a Kormányhivatali Központi Időpontfoglaló (KHKIA) rendszeren keresztüli foglalás, mert a véglegesítés után automatikus visszaigazolást és emailt küld.[1][2]\n\n Legbiztosabb opció (azonnali email)\n KHKIA / közlekedési hatósági időpontfoglalás (Kecskemét): a rendszer a foglalás véglegesítése után automatikus visszajelzést ad, és a visszaigazolást a megadott emailcímre elküldi.[2]\n Belépés KAÜn keresztül történik (Ügyfélkapu/DÁP), ezért ez a megoldás “hivatalos” és jellemzően jól nyomon követhető.[3]\n\n Kecskeméti alternatívák (online foglalás / egyeztetés)\n Gumi‑Sped Kft. (Kecskemét, Matkói út 3): elérhető külön online időpontfoglaló oldal, ahol lépésekben választasz szolgáltatást és időpontot.[4]\n Magyar Autóklub Szerviz és vizsgapont (Kecskemét, Izzó u. 1): a nyilvános Autóklublistában szerepel kecskeméti elérhetőséggel; ha az “azonnali email nyom” a lényeg, érdemes emailben kérni időpontot a helyi címre (a visszaigazolás gyorsasága viszont az ügyintézéstől függ).[5]\n RZ Műszaki Vizsgabázis (Kecskemét, Szent László krt. 79): elérhető közvetlen emailes kapcsolat, ami szintén ad írásos nyomot, ha emailben egyeztetsz időpontot (az “azonnali automata” visszaigazolás viszont nem mindenhol garantált).[6]\n\n Tipp az “azonnali” visszaigazoláshoz\nHa a foglalás után 1–2 percen belül nem jön email, nézd meg a Spam/Promóciók mappát, és ellenőrizd, nem volte elgépelés az emailcímben. Ha kritikus, hogy rögtön legyen visszaigazolás, érdemes a KHKIAt választani, mert ott kifejezetten szerepel az automatikus emailes visszaigazolás.[2]",
+      "created_at": "20251212T05:01:00.069841Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f2fe973e49304cabac0952faae219fd7",
+  "context_title": "ez ki?",
+  "created_at": "20251021T04:52:33.377671Z",
+  "updated_at": "20251021T04:52:33.377671Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8fbe2fa2f13e42288c1e81835b55def3",
+      "query": "ez ki?",
+      "answer": "A  kérdésnek felel meg, de a természetes szórend magyarul: Ki ez?[1][2]\nA „ki” jelentése „who”, az „ez” pedig mutató névmás („this”), ezért az alapkérdés formája: Ki ez?[3][1]\n\n Példák\n Ki ez a fiú? [4][1]\n Ki az? [5][1]\n Ki ez a képen? [1][4]\n\nMegjegyzés: a „ez ki?” fordított szórend, hétköznap beszédben előfordulhat, de a szabályos és általános forma a „Ki ez?”[2][4]",
+      "created_at": "20251021T04:52:33.442584Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

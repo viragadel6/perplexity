@@ -1,0 +1,28 @@
+{
+  "context_uuid": "cb9d67ea86674cd6bc03d96494e8716f",
+  "context_title": "kelebia foldi kutya",
+  "created_at": "20251226T09:46:06.611663Z",
+  "updated_at": "20251226T09:48:50.382420Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d316b8448fa546fa8422639cdb232893",
+      "query": "kelebia foldi kutya",
+      "answer": "A kelebiai földi kutya a délvidéki földikutya (Nannospalax leucodon montanosyrmiensis) egyik ritka populációja, amely Kelebia környékén, a magyarszerb határvidéken fordul elő. Ez a vak, földalatti életmódot folytató rágcsáló fokozottan védett faj, amelynek élőhelye homoki sztyepprét és parlagföldekre korlátozódik.[1][2][4]\n\n Előfordulás\nKelebiaÁsotthalom térségében töredékpopulációkban él, összesen mintegy 100150 egyeddel, apró élőhelyfragmentumokon, amelyeket utak és művelt területek szabdalnak szét. A Kiskunsági Nemzeti Park 2017ben zöldfolyosókat hozott létre az elszigetelt állományok összekapcsolására, körülbelül 10 hektáros bővítéssel.[2][3][1]\n\n Jellemzők\nHengeres testű, rövid végtagú emlős, óriási metszőfogakkal, amelyekkel gyökereket, gumókat rág; vizet a táplálékából nyeri, téli álmot nem alszik. Párzási időszaka januármárcius, a nőstények 28 napos vemhesség után 24 kölyköt ellenek évente.[4][5]\n\n Védettség\nA világon összesen néhány száz egyed él belőle, főként Baja, Kelebia, Ásotthalom és szerbiai helyszíneken; eszmei értéke hét számjegyű, rezervátumokat hoztak létre megőrzésére.[3][6][2]",
+      "created_at": "20251226T09:46:06.672570Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "711e5276cee44100826c0232b6d00280",
+      "query": "de ilyenek csak itt vannak a foldon mem?",
+      "answer": "Nem, a földikutyák több fajban és több kontinensen is előfordulnak. A család világszerte elterjedt, de a délvidéki földikutya (melynek része a kelebiai populáció) valóban egy nagyon speciális és ritka faj, amely csak Európa délkeleti részén található meg.[1]\n\n A földikutyák globális elterjedése\n\nFöldikutyafajok világszerte: A Spalacidae család több tucat fajt tartalmaz, amelyek Európa, Ázsia és Afrika különböző részein élnek. Például:\n\n Szovjet földikutya (Spalax microphthalmus) – KeletEurópa\n Anatóliai földikutya (Nannospalax xanthodon) – Törökország, Kaukázus\n Közelkeleti földikutyák – Izrael, SzírArab Köztársaság, Libanon\n Északafrikai fajok – Egyiptom, Líbia\n\nA földikutyák általában száraz, félszáraz területeken élnek, homokos vagy agyagos talajban, ahol jól tudnak ásni.[2][1]\n\n Mit tesz különlegessé a kelebiai populációt?\n\nA délvidéki földikutya, és ezen belül a kelebiai állomány nem azért ritka, mert csak itt van, hanem mert:\n\n Európa legészakibb populációja – ez a fajnak az Európa északi részén található előfordulása\n Töredékpopulációk – az ember által fragmentált élőhelyek miatt csak apró, izolált csoportok maradtak meg\n Alacsony egyedszám – a kelebiai populáció összesen 100150 egyedből áll, míg a faj globális populációja sem több 600700 egyednél\n\nTehát a földikutyák általánosságban világszerte vannak, de a délvidéki földikutya és a kelebiai populáció igen, szinte lokálisan korlátozott és végveszélyes faj Magyarországon és a szomszédos régióban.[1]",
+      "created_at": "20251226T09:47:54.768301Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

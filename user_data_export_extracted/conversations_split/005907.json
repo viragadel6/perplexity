@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4c9d006e9c4c427b83d01f62f25fc558",
+  "context_title": "a 12 olimposzi isten válaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20251207T08:30:57.158112Z",
+  "updated_at": "20251207T08:30:57.158112Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ddc44513beb842c1aec07fcd6d18b9ed",
+      "query": "a 12 olimposzi isten válaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Zeusz[1]\n Héra[1]\n Poszeidón[1]\n Démétér[1]\n Athéné[1]\n Apollón[1]\n Artemisz[1]\n Arész[1]\n Aphrodité[1]\n Héphaisztosz[1]\n Hermész[1]\n Hesztia vagy Dionüszosz[2][1]",
+      "created_at": "20251207T08:30:57.216953Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "2e504d64e0f94b64a99d6470de08cbd0",
+  "context_title": "van xai apim 10$ al az az imagenre is hasznalhato?",
+  "created_at": "20260227T17:03:50.613787Z",
+  "updated_at": "20260227T17:04:57.503704Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "552f49b6662849c48c85af54cea56cad",
+      "query": "van xai apim 10$ al az az imagenre is hasznalhato?",
+      "answer": "A kérdésed a Perplexity xAI API hitel ($10) és az image generálás kapcsolatáról szól — megválaszolom részletesen.\n\n Mire való az xAI API kredit?\n\nA Perplexity előfizetés keretében kapott xAI API kredit ($10/hó) kizárólag az xAI (Grok) modellek programmatic APIhozzáférésére vonatkozik — tehát arra, ha te magad vagy fejlesztőként hívod a Grok modelleket az xAI APIján keresztül külső alkalmazásból.  Ez a kredit nem vonatkozik a Perplexity platformon belüli (weben, mobilon, desktopban) használatra, ahol a képgenerálás és egyéb funkciók az előfizetési csomagtól függenek.[1][2]\n\n Képgenerálás Perplexityn belül\n\nA Perplexity saját képgenerálási funkciója a Pro és Enterprise Pro előfizetőknek elérhető, és olyan modelleket használ, mint a GPT Image 1, Nano Banana és Seedream 4.5 — ezek nem xAI modellek.  A képgenerálás az előfizetési szintedtől függően korlátozott számban érhető el: Pro/Enterprise Pro tagok korlátozott mennyiségű kiváló minőségű képet kapnak naponta, míg Max/Enterprise Max előfizetők a legbővebb hozzáférést élvezik.[3]\n\n Tehát: az xAI $10 kredit és az image generálás\n\nA rövid válasz: nem, az xAI API kredit ($10) nem használható a Perplexity platformon belüli képgenerálásra. A két dolog teljesen külön rendszer. Az xAI kredit kizárólag az xAI saját APIjának (api.x.ai) elérésére szolgál, ahol Grok modellekkel dolgozhatsz — ám az xAI Grok modellek jelenleg nem kínálnak képgenerálási képességet, csak szöveg és képelemzési (vision) funkciókat.  Ha tehát a xAI APIn keresztül akarnál képet generálni, arra egyelőre nincs lehetőség a $10os kreditből sem.[2]\n\nA Perplexity felületen belüli képgenerálás ezzel szemben az előfizetési csomaggal jár automatikusan, külön kreditvásárlás nélkül — amennyiben Pro vagy magasabb szintű előfizető vagy.[4]",
+      "created_at": "20260227T17:03:50.904535Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2920a84b7d2d4b65934704cec42f0727",
+      "query": "mondom x ai api",
+      "answer": "Igazad van, elnézést — az xAI APIn igenis van képgenerálás, sőt, az egyik legfrissebb és legfejlettebb képgenerálós API a piacon. Részletesen elmagyarázom, hogyan működik és mennyibe kerül a $10es kreditedből.\n\n Az xAI API képgenerálási képességei\n\nAz xAI 2025 márciusában vezette be a képgenerálást az APIba, majd 2026 februárjában megjelentette a teljesen megújított Grok Imagine Image modellt, amely jelenleg az Image Arena Paretofrontierén van — azaz az árteljesítmény arány tekintetében a legjobb modellek közé tartozik.  A jelenlegi modell neve grok-imagine-image, és az Aurora autoregresszív mixtureofexperts architektúrára épül, amit milliárdnyi internetes példán tanítottak.[1][2]\n\nAz API teljes körű képgenerálási lehetőségeket kínál:[3]\n\n Texttoimage: szöveges promptból kép generálás\n Image editing: meglévő kép módosítása természetes nyelvű prompttal\n Multiimage editing: egyszerre akár 3 forrásképpel is dolgozhatsz\n Multiturn editing: iteratív finomítás — az előző output lesz a következő input\n Style transfer: fotórealizmus, anime, olajfestmény, ceruza, stb.\n\n Részletes technikai paraméterek\n\nA generált képek JPG formátumban érkeznek, ideiglenes URLként (letöltés/feldolgozás szükséges gyorsan) vagy kérésre base64 formátumban.  Az aspect ratio szabadon állítható — 1:1, 16:9, 4:3, 3:2, 2:1, 19.5:9 és még több opció érhető el, illetve auto módban a modell maga választja ki a legmegfelelőbbet a prompthoz.  Felbontásban 1k és 2k érhető el. Egy kérésben egyszerre maximum 10 képet generálhatsz.[3]\n\n Mennyit ér a $10 képgenerálásra?\n\nAz árazás flat perimage alapú, tokenszámlálástól független — minden kép ugyanannyiba kerül prompthossztól függetlenül.  Az árakat az alábbi táblázat foglalja össze:[3]\n\n| Modell | Ár/kép | Mit tudsz csinálni $10ból |\n||||\n| grok-2-image (Aurora) | $0.07/kép | ~142 kép [4] |\n| grok-imagine-image (új, 2026) | árazás a modell oldalon | [részletes ár a docs.x.ain] [3] |\n\nImage editingnél fontos tudni: mindkét képért fizetsz — a forrásképért és a generált outputért is.  Tehát ha szerkesztesz, egy művelet $0.14be kerülhet az előző modellnél.[3]\n\n Hogyan hívhatod az APIt?\n\nAz xAI API OpenAIkompatibilis, így az OpenAI Python/JS SDKval is működik, csak a base_urlt kell átállítani https://api.x.ai/v1re.  Ezen felül az xAI saját xai_sdkja és a Vercel AI SDK is támogatott. Példakód Pythonban, OpenAI SDKval:[3]\n\npython\nfrom openai import OpenAI\n\nclient = OpenAI(\n    base_url=\"https://api.x.ai/v1\",\n    api_key=\"YOUR_XAI_API_KEY\",\n)\n\nresponse = client.images.generate(\n    model=\"grok-imagine-image\",\n    prompt=\"A futuristic city skyline at night\",\n)\n\nprint(response.data[0].url)\n\n\nTehát a $10 API kredit simán felhasználható képgenerálásra az xAI APIn — sőt, az új grok-imagine-image modellel video generálásra is lehetőség nyílik, hiszen a Grok Imagine 1.0 (2026. február 2.) már 10 másodperces, 720p videókat is tud előállítani ugyanezen az APIn keresztül.[5]",
+      "created_at": "20260227T17:04:17.794802Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

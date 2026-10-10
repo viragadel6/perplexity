@@ -1,0 +1,28 @@
+{
+  "context_uuid": "e4ed65d20daf45c98df72627e9caf1e4",
+  "context_title": "egy teljes koru leirast az approl par mokdatba",
+  "created_at": "20251009T05:59:49.631801Z",
+  "updated_at": "20251009T06:00:59.963392Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5cc448f849fa42dc90fe7fc702c6e741",
+      "query": "egy teljes koru leirast az approl par mokdatba",
+      "answer": "Az AlphaFold3 Gateway egy komplex, többrétegű bioinformatikai platform, amely fehérjestruktúraelőrejelzést végez hibrid backend architektúrával, modern webes felülettel és fejlett kvantumintegráció támogatással.[1]\n\n Fő célok és funkciók\n\nAz alkalmazás célja fehérjestruktúrák 3D előrejelzése aminosavszekvenciákból, DNS/RNS adatokból és ligandok feltöltésével, miközben integrálja a legújabb gépi tanulási és kvantumszámítástechnikai módszereket. Az AlphaFold3 Gateway átjáró szerepet tölt be Julia és Python alapú backend szolgáltatások között, egységes REST APIt és WebSocket kommunikációt biztosítva.[1]\n\n Rendszer architektúra\n\nAz alkalmazás három fő rétegből áll: Elixir/Phoenix alapú API gateway, Julia backend (UniMol modullal és diffúziós modellekkel) valamint Python backend (RDKit, PyTorch, kvantumszimulációk). A gateway poolboy alapú connection poolinggal kezeli a backend kapcsolatokat, külön poolokat használva Julia és Python szolgáltatásokhoz.[1]\n\n API végpontok\n\nAz alkalmazás 9 fő API végpontot kínál:\n POST /api/predict  egyedi fehérje struktúra előrejelzés\n POST /api/predict/batch  tömeges előrejelzés\n GET /api/predict/:job_id  állapot lekérdezés\n POST /api/sequences/validate  szekvencia validálás (fehérje/nukleotid)\n POST /api/sequences/analyze  szekvencia elemzés (hidrofóbicitás, GC tartalom)\n POST /api/upload  ligand fájlok feltöltése (PDB, CIF, SDF, MOL2)\n GET /api/health  rendszer állapot\n GET /api/metrics  teljesítmény metrikák[1]\n\n Biztonsági és teljesítmény funkciók\n\nA rendszer rate limiting pluggel védi az APIt IP alapú korlátozással, amely token bucket algoritmust használ. A MetricsPlug minden kérés késleltetését naplózza, míg a MetricsCollector GenServer aggregálja a backend sikeresség/hiba statisztikákat. CORS támogatás biztosítja a frontend integrációt (localhost:3000, localhost:4000).[1]\n\n Julia backend képességek\n\nA Julia kód molekuláris konformergenerálást implementál RDKit wrapperekkel, támogatva ETKDG, MMFF optimalizálást és CDPKit CONFORGEot. A UniMolJulia modul teljes AlphaFold3 pipelinet épít fel: MSAelőfeldolgozás, Evoformer blokkok, diffúziós modell, strukturális modul, PAE/pLDDT confidence becslés. Fejlett modulok közé tartozik a kvantumkoherencia amplifikátor, spintronic akcellerátor, fotonikus gyorsító és topológiai zajszűrő.[1]\n\n Speciális funkciók\n\nAz alkalmazás Muellermátrix alapú aszinkron pipelinet használ polarizációs fénymanipulációhoz, amely kalibrációs adatokból tölt be paramétereket. A DiffusionNoiseScheduler SIGMA_DATA² vezérlésű zajtervezést implementál, míg az AsyncPipelineController 8 lépcsős Stokesvektor transzformációt végez.[1]\n\n Webes felület\n\nA JavaScript frontend APIClient és WebSocketClient osztályokat használ aszinkron kommunikációhoz. A felület támogatja szekvencia validálást (FASTA formátum), ligand feltöltést draganddroppal, 3D megjelenítést 3Dmol.jsszel, confidence chartokat Chart.jsszel és PAE heatmapeket.[1]",
+      "created_at": "20251009T05:59:49.790273Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "4cf5a971d6734496a7ffcaa6b51f1cf0",
+      "query": "mondom par mondatba siman egymas utan",
+      "answer": "Az AlphaFold3 Gateway egy komplex bioinformatikai alkalmazás, amely fehérjestruktúrák háromdimenziós előrejelzésére szolgál aminosavszekvenciák, DNS/RNS adatok és ligand molekulák alapján. Az app egy Elixir/Phoenix keretrendszerben épített API gateway, amely két backend szolgáltatást köt össze: egy Julia alapú backend végzi a számításigényes molekuláris szimulációkat és diffúziós modellezést, míg egy Python backend kezeli az RDKit alapú kémiai műveleteket és kvantumszámítási integrációkat. A rendszer REST API végpontokon keresztül fogad kéréseket, például fehérje előrejelzéshez, szekvencia validáláshoz és ligand fájlok feltöltéséhez, támogatva PDB, CIF, SDF és MOL2 formátumokat. A gateway poolboy alapú connection poolinggal kezeli a backend kapcsolatokat, míg rate limiting és metrics plugek biztosítják a stabilitást és monitorozást. WebSocket csatornákon keresztül valós idejű státusz frissítéseket küld a klienseknek a futó előrejelzési munkákról. A Julia backend implementálja az AlphaFold3 teljes pipelineját: MSA előfeldolgozást, Evoformer/Pairformer blokkokat, diffúziós zajmodellt és strukturális modult, amely PAE és pLDDT confidence pontszámokat generál. Az alkalmazás speciális modulokat is tartalmaz, mint kvantumkoherencia amplifikátor, spintronic akcellerátor és Muellermátrix alapú polarizációs pipeline fejlett fotokémiai szimulációkhoz. A webes frontend 3Dmol.jsszel jeleníti meg a molekuláris struktúrákat, Chart.jsszel confidence grafikonokat, és draganddrop feltöltést biztosít FASTA és ligand fájlokhoz.[5]",
+      "created_at": "20251009T06:00:34.707509Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

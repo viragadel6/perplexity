@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7db90bd3105d4ed8a7b5ae410a89cae9",
+  "context_title": "Megosztott hely",
+  "created_at": "20250707T15:45:22.422659Z",
+  "updated_at": "20250707T15:45:22.422659Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bf60aba0a87045b7a9ba99f469a35bb1",
+      "query": "Megosztott hely",
+      "answer": "A megosztott hely kifejezés technológiai környezetben általában azt jelenti, hogy valaki digitálisan megosztja az aktuális vagy kiválasztott földrajzi tartózkodási helyét más személyekkel vagy csoportokkal. Ez a funkció elérhető több népszerű alkalmazásban és platformon, például:\n\n1. Google Térkép\n Lehetővé teszi, hogy valós időben megoszd a tartózkodási helyedet másokkal, meghatározott ideig vagy akár folyamatosan is.\n A megosztás beállításához Googlefiók, mobil eszköz és aktív internetkapcsolat szükséges, valamint a helymeghatározás engedélyezése az eszközön[1][2].\n A helymegosztás bármikor leállítható vagy szüneteltethető, illetve személyenként is megszüntethető[2].\n\n2. Apple iPhone (Lokátor, Üzenetek, Térképek)\n Az iPhoneon többféle módon lehet megosztani a helyet: egyszeri, ideiglenes vagy folyamatos megosztással.\n A Lokátor alkalmazásban vagy az Üzenetekben beállítható, hogy kivel és mennyi ideig osztod meg az élő tartózkodási helyedet.\n A megosztás bármikor leállítható egy adott személynél, vagy akár mindenkinél egyszerre is[4].\n\n3. WhatsApp\n Lehetővé teszi a valós idejű tartózkodási hely megosztását egyéni vagy csoportos beszélgetésben[5].\n\n4. Egyéb rendszerek (pl. Garmin, Windows, hálózati mappák)\n Helymegosztás funkciók elérhetők például Garmin Connect alkalmazásban vagy hálózati megosztások esetén, ahol mappák vagy fájlok elérési helyét osztják meg a felhasználók egymás között[3][6][7].\n\nAdatvédelem és biztonság\n Fontos tudni, hogy a helymegosztás során mindig mérlegelni kell, kivel osztjuk meg az adatainkat, mivel ezek érzékeny információk lehetnek[6][9].\n\nÖsszefoglalva:  \nA „megosztott hely” azt jelenti, hogy digitálisan hozzáférést adsz valakinek az aktuális vagy kiválasztott földrajzi helyzetedhez egy alkalmazáson vagy rendszeren keresztül, meghatározott időre vagy folyamatosan, és ezt bármikor leállíthatod vagy módosíthatod az adatvédelmi beállítások szerint[1][2][4].",
+      "created_at": "20250707T15:45:22.450613Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

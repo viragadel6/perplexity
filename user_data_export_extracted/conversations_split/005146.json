@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f0530b29265f42689593563156e64735",
+  "context_title": "grok 4.1 fast reasoning api ttft",
+  "created_at": "20260104T00:27:55.480291Z",
+  "updated_at": "20260104T00:27:55.480291Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "085f8aeb71184c7fbfdb15a5e7ea5186",
+      "query": "grok 4.1 fast reasoning api ttft",
+      "answer": "Based on current research, here's a comprehensive overview of Grok 4.1 Fast Reasoning's API and TTFT performance:\n\n TTFT Performance Metrics\n\nGrok 4.1 Fast Reasoning exhibits variable TimeToFirstToken (TTFT) performance depending on the task complexity:[1]\n\n| Task Category | TTFT | PerToken Latency |\n||||\n| General Q&A | 3 seconds | 0.010 seconds |\n| Summarization | 4 seconds | 0.010 seconds |\n| Document Review | 6 seconds | 0.005 seconds |\n| Coding Tasks | 11 seconds | 0.005 seconds |\n\nThe 36 second TTFT range positions Grok 4.1 Fast as moderate for realtime interactions, but its exceptional pertoken latency (0.0050.010 seconds) compensates by delivering rapid token generation once the response begins. This makes it particularly efficient for batch operations and longer outputs where sustained throughput matters more than initial responsiveness.[2][1]\n\n API Architecture & Capabilities\n\nRelease & Availability\nGrok 4.1 Fast Reasoning was released on November 17, 2025, and is available through xAI's API with OpenAI SDK compatibility. Multiple thirdparty providers (AI/ML API, OpenRouter, Vercel) also offer access.[3][4][5][6]\n\nKey Specifications\n Context Window: 2 million tokens (massively larger than standard offerings)[7]\n Max Output: 8,192 tokens per response[8]\n Reasoning Mode: Supports visible reasoning tokens for transparent decisionmaking[9]\n Tool Calling: Optimized for agentic task completion with multistep planning[9]\n\n Performance Characteristics\n\nGrok 4.1 Fast excels in scenarios prioritizing throughput over initial latency. Its architecture delivers:[2]\n\n Reliability: ~3x reduction in hallucinations compared to earlier Grok models[2]\n Emotional Intelligence: Strong EQBench performance, enabling natural customer interactions[2]\n CostEfficiency: Lower costpertoken with high throughput for realtime chatbots, RAG summaries, and social media processing[2]\n Code Generation: Fastest pertoken latency (0.005s) among benchmarked models, ideal for batch code tasks[1]\n\n DualMode Operation\n\nThe model offers two operational variants:[9]\n NonThinking (NT): Instant responses optimized for speed\n Thinking (T): Visible reasoning tokens for complex problemsolving and debugging\n\nThe 2M context window combined with aggressive output rate makes Grok 4.1 Fast particularly suitable for documentheavy workflows, extended conversations, and highvolume API deployments where total completion time is critical.[8]",
+      "created_at": "20260104T00:27:55.657094Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

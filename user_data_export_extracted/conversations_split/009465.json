@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a73bace9ae6b4d5d9dbd7fd5f107ece1",
+  "context_title": "generálj ennek egy logót",
+  "created_at": "20250717T21:32:49.977155Z",
+  "updated_at": "20250717T21:32:49.977155Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e74be5c6f32c4ae19d33c106bf38cae9",
+      "query": "generálj ennek egy logót",
+      "answer": "Image generated: 'Modern technológiai logó a JADE AI Deep Discovery platformhoz, lilarózsaszín átmenettel, absztrakt neurális mintával.'",
+      "created_at": "20250717T21:32:49.995575Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

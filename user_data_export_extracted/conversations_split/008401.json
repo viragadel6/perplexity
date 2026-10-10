@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7eee8edd94564d5aa23d3b998720c0f9",
+  "context_title": "ez mi?",
+  "created_at": "20250919T14:06:36.507255Z",
+  "updated_at": "20250919T14:06:36.507255Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "40071f4029d74088b9ba1d97ce110560",
+      "query": "ez mi?",
+      "answer": "Ez egy nagy, Julia nyelven írt kutatási/fejlesztési kódállomány, amely egy fehérjehajtogatásra fókuszáló, Transformer‑szerű “Pairformer/MSA” architektúrát és kapcsolódó numerikus segédfüggvényeket valósít meg, kiterjesztve IBM Quantum API integrációval és nagy teljesítményű párhuzamosítási eszközökkel. [1]\n\n Mire való\n Fehérje szerkezet‑modellezés: MSA (multiple sequence alignment) és “pair” reprezentációk feldolgozása TriangleAttention, TriangleMultiplication, Transition blokkokkal, PairformerStack rétegezéssel, ami az AlphaFold‑jellegű komponensek Julia/Flux változata. [1]\n Kvantum feladatkezelés: IBMQuantumClient típussal kvantum futtatások beadása/lekérdezése az IBM Quantum REST API felé, opcionálisan valódi backendekre (pl. ibm_torino, ibm_brisbane). [1]\n Nagy teljesítmény: ThreadsX, LoopVectorization, BLAS, valamint saját optimalizált műveletek (softmax, RMSD, másszorozás) a gyorsításért. [1]\n\n Fő részek\n IBMQuantumClient, submit_quantum_job, get_quantum_result: Tokenes HTTP hívások a kvantum feladatokhoz; naplózás és hibatűrés. [1]\n Kivételosztályok: NetworkError, MissingDataError, HardwareError, ModelError a részletes hibakezeléshez. [1]\n SelfContainedMath modul: Euklideszi távolság, softmax, RMSD, optimalizált mátrixszorzás (BLAS), általános visszaesési útvonal. [1]\n MSA és Pairformer komponensek: MSAPairWeightedAveraging, TriangleMultiplication, AttentionPairBias, TriangleAttention, Transition, MSAModule, PairformerStack; sok helyen Einsum és PreLayerNorm használat. [1]\n Párhuzamos MSA futtatás: parallel_msa_process ThreadsX‑szel batch dimenzió felett. [1]\n\n Könyvtárak és ökoszisztéma\n Tudományos/numerikus: LinearAlgebra, Statistics, SparseArrays, Einsum, StaticArrays. [1]\n Teljesítmény/párhuzamosítás: Base.Threads, Distributed, SharedArrays, LoopVectorization, ThreadsX, BenchmarkTools. [1]\n Gépi tanulás: Flux integráció a Dense rétegekkel, Attention blokkokkal és normalizációkkal. [1]\n I/O és segéd: JSON3, HTTP, Downloads, Logging/LoggingExtras, FileIO, JLD2, ArgParse, ProgressMeter. [1]\n\n Konfiguráció és konstansok\n IBM_QUANTUM_API_TOKEN környezeti változóval olvasható; alap URL: ; példabackendek: ibm_torino (Heron r1, 133 qubit), ibm_brisbane (Eagle r3, 127 qubit). [1]\n Fizikai konstansok: ℏ, kB, Avogadro, kcal→Joule átváltás, ami szimulációs/energetikai számításokra utal. [1]\n\n Hogyan használható\n Klasszikus futtatás: Julia + Flux környezetben az MSAModule és PairformerStack komponensekkel MSA/pair tenzorok feldolgozása. [1]\n Kvantum integráció: érvényes IBM token mellett submit_quantum_job() meghívása QASM‑sztringgel és backend névvel; eredmények get_quantum_result(). [1]\n Teljesítmény: nagy batch esetén parallel_msa_process automatikusan ThreadsX‑re vált. [1]\n\nHa érdekes, készíthető rövid példa a PairformerStack inicializálására és egy dummy bemenet átfuttatására, vagy egy IBM Quantum job beadására mintakóddal. [1]",
+      "created_at": "20250919T14:06:36.725993Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

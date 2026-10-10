@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c4442d4f331a4a73a1ec5c4192f66a2b",
+  "context_title": "Keszits egy full magyar dokumentaciot ami a jelenlegi openai cerebras exa ai google es gcp es aws dolumentaciojat tartalmazza de fullba a teljes dokumentaciot",
+  "created_at": "20250809T03:05:18.297913Z",
+  "updated_at": "20250809T03:05:18.297913Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7be8df032b0247288b865457c8e303f8",
+      "query": "Keszits egy full magyar dokumentaciot ami a jelenlegi openai cerebras exa ai google es gcp es aws dolumentaciojat tartalmazza de fullba a teljes dokumentaciot",
+      "answer": "Gathering comprehensive web search results to compile detailed Hungarian developer documentation for Google AI Gemini.",
+      "created_at": "20250809T03:05:18.444351Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deeper_research"
+    }
+  ]
+}

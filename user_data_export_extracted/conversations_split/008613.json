@@ -1,0 +1,19 @@
+{
+  "context_uuid": "bb5239da08744446bb0d0d206d86966e",
+  "context_title": "Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb technológiák amik legfeljebb 3 hónapja léteznek teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell betanitasara es futtatasara es akar chipes hardveres dolgok us api cal vagy ilyesmi \n rootlevel LLM with its own architecture, runtime, hardware, tokenizer, optimizer, and formal security proof.  nem transformers!",
+  "created_at": "20250908T14:49:41.379881Z",
+  "updated_at": "20250908T14:49:41.379881Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "64a401b91e88497cac6f9213cececf9c",
+      "query": "Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb technológiák amik legfeljebb 3 hónapja léteznek teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell betanitasara es futtatasara es akar chipes hardveres dolgok us api cal vagy ilyesmi \n rootlevel LLM with its own architecture, runtime, hardware, tokenizer, optimizer, and formal security proof.  nem transformers!",
+      "answer": "nontransformer “from scratch” LLM (architecture AND runtime AND tokenizer AND optimizer) (“custom hardware” OR ASIC OR FPGA OR photonic OR neuromorphic) (“formal verification” OR “security proof” OR TLA+ OR Coq OR Isabelle OR “model checking”) (hyperdimensional OR “vector symbolic” OR SSM OR “state space”) (lowresource OR lightweight OR efficient) (underdog OR “under the radar” OR obscure) after:20250608 site:github.com OR site:arxiv.org OR site:substack.com OR site:medium.com\n\nnem transformer „from scratch” LLM (architecture AND runtime AND tokenizer AND optimizer) („custom hardware” OR ASIC OR FPGA OR photonic OR neuromorphic) („formális verifikáció” OR „biztonsági bizonyítás” OR TLA+ OR Coq OR Isabelle OR „model checking”) (hiperdimenzionális OR „vector symbolic” OR SSM OR „state space”) (lowresource OR lightweight OR hatékony) (underdog OR „under the radar” OR ismeretlen) after:20250608 site:github.com OR site:arxiv.org OR site:substack.com OR site:medium.com",
+      "created_at": "20250908T14:49:42.191927Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f7bcf83a62a6434792b32193b44fd1fd",
+  "context_title": "Olyan teljesen ismeretlen, brutálisan underdog, de a mainstream nyelveknél sokkal erősebb, tisztább, gyorsabb, univerzális és enterprise‑szintűen használható programnyelvet keresek, amely Replit‑en és Nix‑szel azonnal fut (tehát bemásolom a kódot, megnyomom a Run gombot és működik, nincs dependency‑pokol), amellyel saját, teljesen független és maximálisan általam kontrollált PSP‑t akarok építeni, amely Apple Pay‑t és instant payoutot is támogat, enterprise‑szintű architektúrával (edge API, core ledger/engine, payout service, append‑only ledger, routing, audit, compliance), úgy hogy ne fordulhasson elő, hogy egy külső szolgáltató (pl. Stripe) letiltson, és a rendszerben a kritikus logikát egy valóban marginális, de sokkal jobb minőségű nyelvben írom meg, miközben opcionálisan – de nem elvárásként – akár Python‑csomagokat is tudok hívni FFI‑n vagy bridge‑en keresztül.”",
+  "created_at": "20251103T13:36:16.203848Z",
+  "updated_at": "20251103T13:36:16.203848Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "89eede7c44094263b0eb104a9ba0cbb3",
+      "query": "Olyan teljesen ismeretlen, brutálisan underdog, de a mainstream nyelveknél sokkal erősebb, tisztább, gyorsabb, univerzális és enterprise‑szintűen használható programnyelvet keresek, amely Replit‑en és Nix‑szel azonnal fut (tehát bemásolom a kódot, megnyomom a Run gombot és működik, nincs dependency‑pokol), amellyel saját, teljesen független és maximálisan általam kontrollált PSP‑t akarok építeni, amely Apple Pay‑t és instant payoutot is támogat, enterprise‑szintű architektúrával (edge API, core ledger/engine, payout service, append‑only ledger, routing, audit, compliance), úgy hogy ne fordulhasson elő, hogy egy külső szolgáltató (pl. Stripe) letiltson, és a rendszerben a kritikus logikát egy valóban marginális, de sokkal jobb minőségű nyelvben írom meg, miközben opcionálisan – de nem elvárásként – akár Python‑csomagokat is tudok hívni FFI‑n vagy bridge‑en keresztül.”",
+      "answer": "What are the best obscure, highperformance programming languages with Nix and Replit support for building a completely independent enterprise PSP with Python FFI?\nMelyek a legjobb ismeretlen, nagy teljesítményű programozási nyelvek Nix és Replit támogatással egy teljesen független nagyvállalati PSP építéséhez Python FFIvel?",
+      "created_at": "20251103T13:36:16.604194Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

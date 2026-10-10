@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b142dd8573b64848a4bda42e297f02b5",
+  "context_title": "",
+  "created_at": "20251112T04:15:44.853426Z",
+  "updated_at": "20251112T04:15:44.853426Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "3700e45286ca4c3ab0b110c99f0bcc70",
+      "query": "",
+      "answer": "What is available at , how is it organized (directories, releases, file types like PDB/mmCIF/JSON), and how can it be bulkdownloaded (HTTP/FTP/rsync) with checksums?\n\nMi érhető el a  címen, hogyan van szervezve (könyvtárak, kiadások, fájltípusok mint PDB/mmCIF/JSON), és hogyan tölthető le tömegesen (HTTP/FTP/rsync) ellenőrzőösszegekkel?",
+      "created_at": "20251112T04:15:45.450576Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

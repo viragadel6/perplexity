@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2c2d19b5d91d43149fc86dfcf631ed4c",
+  "context_title": "nezd at alaposan hogy van e  benne transformers marmint mint epitve",
+  "created_at": "20251019T02:50:47.197746Z",
+  "updated_at": "20251019T02:50:47.197746Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "862c6e72bc67426888ee55962dfec84c",
+      "query": "nezd at alaposan hogy van e  benne transformers marmint mint epitve",
+      "answer": "Röviden: nem látható benne Hugging Face Transformers integráció vagy import; a kód kifejezetten jelzi, hogy nincs PyTorch/Transformers függőség. Emellett több helyen hangsúlyozza, hogy a teljes stack PyTorch/NumPy/SciPy nélkül működik, saját modulokkal és megvalósításokkal.[1]\n\n Mit jelez a fájl\nA fő modulok és demók szöveges kimenetei kimondottan azt írják, hogy „Nincs PyTorch/Transformers függőség”, ami egyértelműen arra utal, hogy a Transformers könyvtár nincs beépítve vagy használva. Továbbá szerepel a „TELJES STACK PyTorch/NumPy/SciPy NÉLKÜL” üzenet, ami megerősíti, hogy a rendszer nem a megszokott Pythonökoszisztéma csomagokra támaszkodik.[1]\n\n „Nincs PyTorch/Transformers függőség” jelzés az adaptív tokenizáló demó leírásában.[1]\n „TELJES STACK PyTorch/NumPy/SciPy NÉLKÜL” összefoglaló állítás a rendszer leírásában.[1]\n\n Saját megvalósítások\nA fájl több nyelven (Julia, Zig, Elixir, Pony, Odin, Crystal, Nim, Terra, stb.) definiál saját komponenseket, például Lorenzalapú beágyazást, Bspline interpolációt, ritkított figyelmet és zeroorder finomhangolót, ami azt mutatja, hogy nem külső Transformers APIkra épít. Példák: Juliaban LearnableSparseAttention és SparseDecoderBottleneck, Julia/Zig oldalon saját TensorCore, valamint AdaptiveTokenizer/LorenzBSplineTokenizer, amelyek mind egyedi megvalósítások.[1]\n\n LearnableSparseAttention és SparseDecoderBottleneck (Julia) saját súlyokkal és maszkolással.[1]\n TensorCore (Zig/Julia bindingekkel), saját matmul/softmax/layernorm implementációkkal.[1]\n LorenzBSplineTokenizer és hibrid tokenizáló logika több nyelvi porttal.[1]\n\n Mit nem találtam\nNem szerepel se „from transformers import …”, se „import transformers” a fájlban, és nem láthatók tipikus HFos osztálynevek (pl. AutoTokenizer, Trainer, BertModel, GPT2LMHeadModel). Nem jelennek meg PyTorchos transformer minták sem, mint „nn.Transformer”, „TransformerEncoder” vagy „MultiheadAttention”, ami szintén a külső Transformersmentes felépítést támasztja alá.[1]",
+      "created_at": "20251019T02:50:47.259247Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "c75968218f4b4d6d87663e8739799679",
+  "context_title": "melyik a legfrissebb mistral llm",
+  "created_at": "20260806T22:05:40.707330Z",
+  "updated_at": "20260807T00:57:34.794596Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "925c887e72fd41369828b31fbf9a94c4",
+      "query": "melyik a legfrissebb mistral llm",
+      "answer": "A jelenleg legfrissebb, nyilvánosan követhető Mistral LLM a Mistral Medium 3.5, amelyet 2026. április 29én adtak ki.[1][2][3][4]\nHa viszont a Mistral legismertebb nyílt súlyú zászlóshajómodelljére gondolsz, akkor az a Mistral Large 3, amely 2025. december 2án jelent meg.[5][6][1]\n\n Miért van kétféle válasz?\n\nAzért lehet zavaró a kérdés, mert a Mistral kínálatában nem ugyanaz a „legfrissebb kiadás” és a „fő flagship modell”.  A Mistral dokumentációja szerint a Medium 3.5 az újabb modell, míg a Large 3at továbbra is külön, stateoftheart openweight általános multimodális modellként emelik ki.[4][1]\n\n Röviden a modellekről\n\nA Mistral Medium 3.5 egy 128B sűrű modell, 256k kontextusablakkal, és kifejezetten instructionfollowing, kódolási, valamint agentic felhasználásra pozicionálják.  A Mistral Large 3 ezzel szemben általános célú, multimodális, többnyelvű, openweight modellként jelent meg, és a hivatalos jogi/modellnyilvántartás szerint 2025. december 2. óta aktív.[6][2][7][5][1]\n\n Időrendi sorrend\n\nA 2026os nyilvános kiadások között a Mistral Small 4 március 16án jött ki, majd ezt követte a Mistral Medium 3.5 április végén.  Ez alapján, ha szó szerint a legújabb Mistral LLMet keresed, akkor a helyes válasz a Mistral Medium 3.5.[8][9][10][3][4]\n\nMelyik nézőpont érdekel: a legújabb kiadás, a legjobb openweight modell, vagy a legjobb Mistral modell helyi futtatásra?",
+      "created_at": "20260806T22:05:40.990188Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "854eb7e2067040e8b60a34df62a2d073",
+      "query": "Akkor melyik a legfejletteb",
+      "answer": "Ha azt kérdezed, hogy melyik a legfejlettebb Mistral modell összességében, akkor a legerősebb válasz jelenleg a Mistral Medium 3.5.  A hivatalos modelláttekintőben ezt „frontierclass multimodal model”ként írják le, és ez szerepel kiemelt modellként is.[1][2][3][4]\n\n Mit jelent itt a „legfejlettebb”?\n\nA „legfejlettebb” nem mindig ugyanaz, mint a „legnagyobb” vagy a „legfrissebb openweight flagship”.  A Mistral saját anyagai alapján a Mistral Large 3 volt „a legképessebb modelljük” a 2025ös indulásakor, de az újabb dokumentációban a Mistral Medium 3.5 kapja a frontierclass, agentic és coding fókuszú csúcsmodell pozíciót.[5][6][1]\n\n Large 3 vagy Medium 3.5?\n\nA Mistral Large 3 továbbra is nagyon fontos modell, mert a Mistral 2025ös bejelentése szerint ez volt a „most capable model to date”, 41B aktív és 675B teljes paraméterrel, valamint általános célú multimodális flagship openweight modellként pozicionálták.  Viszont a frissebb hivatalos dokumentációban a Mistral Medium 3.5 szerepel mint aktuális frontierclass multimodális modell, amelyet agentic és kódolási feladatokra optimalizáltak, 256k kontextusablakkal.[2][7][8][3][1][5]\n\n Gyakorlati válasz\n\nHa egyetlen nevet kell mondani 2026 augusztusában, akkor én azt mondanám: Mistral Medium 3.5 a legfejlettebb aktuális Mistral LLM.  Ha viszont kifejezetten azt kérdezed, melyik a Mistral legnagyobb, legismertebb openweight zászlóshajómodellje, akkor az továbbra is a Mistral Large 3.[3][1][5][2]\n\n Rövid eligazítás\n\nEgyszerűen fogalmazva: a Medium 3.5 inkább az aktuális, modern, gyakorlatban leginkább ajánlott csúcsvonal, míg a Large 3 az openweight flagship és architekturálisan látványosabb modell.  Emiatt attól függően, hogy API, helyi futtatás, openweight hozzáférés vagy általános képesség érdekel, más lehet az „első helyezett”.[6][1][5][3]\n\nAkarod, hogy ezt most lebontsam külön arra is, hogy legjobb Mistral APIra, legjobb lokális futtatásra, és legjobb opensource/openweight használatra melyik?",
+      "created_at": "20260807T00:57:18.432305Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

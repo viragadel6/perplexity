@@ -1,0 +1,28 @@
+{
+  "context_uuid": "a33ad9b091174f2db0abd8cd65780d8e",
+  "context_title": "Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb technológiák amik legfeljebb 3 hónapja léteznek teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell datasets generalasa automatikusan nem wikipedia reddit meg ilyen tomeg szarok hanem a legeslegmagasabb minosegu teljes foldi tudast magaba foglalo",
+  "created_at": "20250830T09:13:56.905422Z",
+  "updated_at": "20250830T09:17:03.290776Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "8e81120a45af4d7da43842ab8ba43135",
+      "query": "Legleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb technológiák amik legfeljebb 3 hónapja léteznek teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell datasets generalasa automatikusan nem wikipedia reddit meg ilyen tomeg szarok hanem a legeslegmagasabb minosegu teljes foldi tudast magaba foglalo",
+      "answer": "English:\nFind ultraunderdog, cuttingedge, extremely resourceefficient technologies for building a fully fromscratch LLM (not finetuned or built on others) that have emerged within the last 3 months, including automatic generation of the highestquality, comprehensive knowledge datasets that do not rely on Wikipedia, Reddit, or similar mass sources. [1][2][3][4][5][6][7]\n\nHungarian:\nKeress ultraunderdog, cuttingedge, rendkívül erőforráshatékony technológiákat teljesen saját, nulláról épített LLM készítéséhez (nem finomhangolt és nem másra épülő), amelyek az elmúlt 3 hónapban jelentek meg, beleértve a legmagasabb minőségű, átfogó tudású adathalmazok automatikus generálását Wikipedia, Reddit és hasonló tömeges források nélkül. [1][2][3][4][5][6][7]",
+      "created_at": "20250830T09:13:57.228021Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "181fa75914564e2bb5678f27ad197014",
+      "query": "Nah mit talalt",
+      "answer": "English:\nSummarize what was found in the attached search results about truly undertheradar, cuttingedge, lowresource technologies from the last 3 months for building fully fromscratch LLMs and for automatically generating ultrahighquality, comprehensive datasets without using Wikipedia/Reddit.\n\nMagyar:\nFoglalja össze, hogy a csatolt keresési találatok mit találtak a valóban „underdog”, cuttingedge, erőforráshatékony, az elmúlt 3 hónapban megjelent technológiákról teljesen 0ról épített LLMekhez, illetve az ultramagas minőségű, átfogó adatkészletek automatikus generálásának módszereiről Wikipedia/Reddit nélkül.",
+      "created_at": "20250830T09:16:48.951708Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

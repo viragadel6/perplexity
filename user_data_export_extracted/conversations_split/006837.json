@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0d79b5b24f0446eb8f32cfc1e90ee45a",
+  "context_title": "Balázs Lencse Zersetzung",
+  "created_at": "20251101T05:18:13.318857Z",
+  "updated_at": "20251101T05:18:13.318857Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2a157d78780b46c8a41717fe822d0354",
+      "query": "Balázs Lencse Zersetzung",
+      "answer": "Röviden: nem található megbízható, nyilvános adat, amely bármely „Lencse Balázst” közvetlenül a „Zersetzung” fogalmával kötné össze; a találatok különböző azonos nevű személyekre (sportoló, jogász, közösségi médiás/egyházi tartalomkészítő) és külön a Stasi módszerére utalnak, egymástól függetlenül.[1][2][3][4]\nA Zersetzung a keletnémet Stasi pszichológiai bomlasztó eszköztára volt a 70–80as években, nem egy személy neve.[5][6][4]\n\n Lencse Balázs találatok\n Közösségi médiás és gyülekezeti tartalmak: Facebook és YouTubeprofilok, prédikációk és dicsőítő videók szerepelnek ezen a néven.[7][8][9][1]\n Labdarúgók ugyanezen vagy nagyon hasonló névvel (Lencse/Lencsés Balázs): MLSZ és klubadatlapok, átigazolási és statisztikai oldalak.[2][10][11][12]\n LinkedInprofiltöredékek az azonos nevű személyekről.[13][14]\n Jogász/akadémiai szerző: 2014es tanulmány a sértetti jogokról a büntetőeljárásban dr. Lencse Balázs névvel.[3]\n A fenti találatok egyikében sem jelenik meg a „Zersetzung” kifejezés vagy ilyen témájú tevékenységemlítés.[9][1][2][3]\n\n Mi a Zersetzung?\nA Zersetzung a Stasi által rendszeresített „személyiségbomlasztó” módszercsomag, amely ellenzékieket és „államellenesnek” minősített személyeket célzott lejáratással, társas izolációval, magánéleti és munkahelyi kapcsolatok szisztematikus zavarásával, reputációrombolással és pszichés nyomásgyakorlással.[6][4]\nA hetvenes–nyolcvanas években – a Basic Treaty (1972) és a Helsinki Záróokmány (1975) után – a nyílt elnyomás egy részét a láthatatlanabb, „emberségesebbnek” álcázott bomlasztási technikák váltották fel, széles körű besúgóhálózatra támaszkodva.[5]\nTipikus eszközök: levelek felbontása és manipulálása, betörések „nyom nélküli” rendetlenséggel, pletyka és rágalomkampányok, álláslehetőségek szabotálása, hamis kapcsolati konfliktusok gerjesztése; ezek a módszerek dokumentumokból és visszaemlékezésekből ismertek, és dokumentumfilmek dolgozták fel.[15][16][6]\n\n A csatolt fájl megjegyzése\nA csatolt állomány a Révai Nagy Lexikona XVI. kötetének OCRszövege; tematikusan nem kapcsolódik közvetlenül sem „Lencse Balázs”, sem a „Zersetzung” kereséséhez.[17]\n\n Feltételezés\nA lekérdezés alapján ésszerűen feltételezhető, hogy vagy egy „Lencse Balázs” nevű személy és a Zersetzung közötti esetleges kapcsolat érdekel, vagy a Zersetzung fogalmának tisztázása volt a cél; fent mindkettőt lefedtük az elérhető nyilvános adatok alapján.[4][1]",
+      "created_at": "20251101T05:18:13.405550Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

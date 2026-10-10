@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4332f702e0064f88928337a19a5dc305",
+  "context_title": "",
+  "created_at": "20260422T21:37:44.565846Z",
+  "updated_at": "20260422T21:38:27.045739Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a2820a652b9347db9fdfe444568688b5",
+      "query": "",
+      "answer": "  — Áttekintés\n\nA gpt4free (rövidítve: g4f) egy nyílt forráskódú Pythonkönyvtár és eszközkészlet, amely lehetővé teszi különféle nagy nyelvi modellek (LLMek) ingyenes elérését, azok nyilvánosan elérhető webes végpontjain keresztül — APIkulcs és előfizetés nélkül. A projekt  által indult, és jelenleg  aktívan karbantartja.\n\n Projekt struktúra\n\nA repository gyökérkönyvtárában megtalálható a fő csomag (g4f/), a dokumentáció (docs/), Dockerkonfigurációs fájlok (docker-compose.yml, docker-compose-slim.yml), valamint különféle requirements*.txt fájlok — minimális, slim és teljes függőségi szintekre bontva.  A g4f_cli.py egy parancssori belépési pont, a scripts/ mappa pedig automatizálási és buildsegédleteket tartalmaz. \n\n Legutóbbi kiadás: v7.5.0\n\nA legfrissebb stabil kiadás a , amely 2026. április 18án jelent meg.  Ez a kiadás bevezette a thinking_mode és feature_config kezelést, amelyet a közreműködő @3mora2 valósított meg. \n\n Telepítési lehetőségek\n\nA projekt számos platformon telepíthető. PyPIről egyszerűen: pip install g4f==v7.5.0.  Emellett előre fordított futtatható fájlok is elérhetők Windows x64, Linux x64, Linux ARM64, macOS x64 és macOS ARM64 platformokra.  Dockerrel is futtatható:\n\n\ndocker pull hlohaus789/g4f:v7.5.0\ndocker pull hlohaus789/g4f:v7.5.0-slim\n\n\nWindows felhasználók számára WinGeten keresztül is elérhető: winget install gpt4free. \n\n Letöltési statisztikák (v7.5.0)\n\nA kiadás letölthető eszközei közül a Windows x64 ZIP a legtöbbet letöltött csomag 97 letöltéssel, ezt követi a Linux x64 bináris 7 letöltéssel, majd a macOS x64 verzió szintén 7tel.  A Python wheel (g4f-7.5.0-py3-none-any.whl) 12szer, a forráscsomag (tar.gz) 3szor lett letöltve. \n\n Főbb fájlok és licenc\n\nA projekt GPL3.0 licenc alatt érhető el (LICENSE fájl, 35 148 bájt).  Tartalmaz egy LEGAL_NOTICE.md és CODE_OF_CONDUCT.md dokumentumot is, amelyek a jogi keretet és a közösségi normákat fektetik le.  A SECURITY.md a biztonsági jelentési irányelveket rögzíti. \n\nSzeretnéd, hogy mélyebben bemutassam a g4f/ csomag belső felépítését, az elérhető providereket, vagy a Dockeralapú telepítés menetét?",
+      "created_at": "20260422T21:37:44.979746Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

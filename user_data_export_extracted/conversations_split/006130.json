@@ -1,0 +1,19 @@
+{
+  "context_uuid": "71f9fbabe07a499b982de12c97ed986d",
+  "context_title": "",
+  "created_at": "20251125T07:35:24.266528Z",
+  "updated_at": "20251125T07:35:24.266528Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a4221e3fa1884749964f5edba3d9348a",
+      "query": "",
+      "answer": "Az APIkulcsok kezeléséhez a Fieldwise AI rendszerében először fiókot kell létrehozni az app.fieldwise.ai oldalon, majd belépve az API Keys szekcióban generálható egy egyéni API token, amelyet biztonságos körülmények között kell tárolni és felhasználni a fejlesztéshez. Az API kulcsot a projekt beállításaiban lehet hozzáadni és konfigurálni, így a rendszer automatikusan kezeli az adatáramlást és a biztonságot.[1][2]\n\n API kulcs létrehozási lépések\n Fiók létrehozása az app.fieldwise.ai oldalon.\n Bejelentkezés után navigáljon az API Keys menüpontra.\n Új APIkulcs generálása és biztonságos tárolása.\n\n Biztonság és használat\n Az adatokat AWS szervereken, titkosítva tárolják.\n Az APIkulcsot csak megbízható környezetben használja, ne ossza meg nyilvános helyeken.[1]\n\nHa dokumentumokkal dolgozik a Fieldwise APIval, minden kéréshez meg kell adni az APIkulcsot az XAPIKey fejlécben. További részletes API dokumentáció a  oldalon érhető el.[4]",
+      "created_at": "20251125T07:35:24.696073Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

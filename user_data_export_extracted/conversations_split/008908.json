@@ -1,0 +1,46 @@
+{
+  "context_uuid": "17f0b66c194b41a382618bcd778e91be",
+  "context_title": "mi all benne",
+  "created_at": "20250826T14:14:57.754593Z",
+  "updated_at": "20250826T14:19:40.298962Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7c375bfac88445299ba20a71d65b1793",
+      "query": "mi all benne",
+      "answer": "Értem 🙂  \nTehát azt szeretnéd, hogy összefoglaljam, mi minden szerepel a csatolt response-11.json fájlban.  \n\nEz a fájl egy keresési eredmény, ami a „GPT‑5 dataset leak / system prompt leak” témához kapcsolódó találatokat tartalmazza (GitHub posztok, cikkek, hírek, Reddit/hn threadek).  \n\n A fájl tartalma nagy vonalakban\n Metaadatok:  \n   requestId, autopromptString (pl. \"gpt 5 dataset leak\"),  \n   keresési mód (resolvedSearchType: neural),  \n   context mező: rövid szöveges háttérmagyarázat, hogy mi a keresés lényege (GPT‑5 rendszerprompt állítólagos kiszivárgása, új modellek említése stb.).  \n   results: ez a fő rész, minden elem egy találat.  \n\n Találatok jellege:\n  1. GitHub leakek és gistek – pl. állítólagos GPT‑5 rendszerprompt kikerült gistekre vagy repokba.\n  2. Tech híroldalak – beszámolók (TechRadar, Verge, Yahoo, BGR, WindowsCentral, DigitalTrends, Inkl, Financial Express, AnalyticsIndiaMag stb.), amelyek összefoglalják, hogy:\n       4 fő változata lesz: gpt‑5, gpt‑5‑mini, gpt‑5‑nano, gpt‑5‑chat.  \n       Kiemelt fejlesztések: jobb érvelés, kódgenerálás, „agentic” képességek (önállóbb cselekvés).\n       Egyes cikkek Pro verziót is említenek („GPT‑5 Pro” kutatási szintű képességekkel).\n  3. Reddit és Hacker News threadek – amelyek vitatják, hogy a „leak” valódie, és felvetik, hogy akár hamisított vagy védelmi célú „álprompt” is lehet.\n  4. Blogbejegyzések, elemzések – pl. Sam Altman nyilatkozatai, aggályai GPT‑5 hatásairól, összehasonlítás más modellekkel, a hype és a valóság közti feszültség.  \n  5. GitHub repók a kiszivárgott promptokról általánosan – több száz/ezres mennyiségben más GPT‑k rendszerpromptjaihoz is (pl. „system_prompts_leaks”, „leakedsystemprompts”, „GPTsSystemPrompts”).  \n  6. Tudományos cikkek / kutatások – amelyek adatkontaminációról, prompt injection támadásokról, titkos adatok kiszivárgásáról szólnak.  \n  7. Egyéb – pl. Microsoft 365 Copilot leírás, kis LLM építési tutorial, AI biztonsági hírek (pl. Copilot titkok kiszivárogtatása).\n\n Legfontosabb visszatérő témák\n GPT‑5 leak (GitHub és Reddit forrásokból).  \n Négy fő modellváltozat (standard, mini, nano, chat) + néhol a Pro.  \n Képességek: jobb érvelés, kódírás, önállóbb agentic működés.  \n Vita a hitelességről: valódie a szivárgás, vagy lehet álhír / biztonsági csali.  \n Adatbiztonság: prompt leakek, data contamination, titkos adatok kiszivárogtatása Copilotból / LLMekből.  \n Kapcsolódó AI fejlemények: GitHub Copilot, DeepSeek, Gemini Guided Learning, Windsurf integrációk.\n\n\n\n👉 Összefoglalva:  \nA fájl egy keresési lekérdezés (GPT‑5 leak) teljes találati listája ~60 forrással (GitHub, tech hírek, blogok, tudományos cikkek). Témakörileg főleg a GPT‑5 állítólagos rendszerpromptjának és modelljeinek szivárgása köré épül, de mellékszálként más AI‑szivárgásokról, Copilot titkokról, dataset‑kontaminációról is ír.  \n\nSzeretnéd, hogy készítsek egy táblázatos összegzést a találatokról (pl. forrás, dátum, fő állítás), vagy inkább egy rövidített TL;DR top 5 lényeg érdekel?",
+      "created_at": "20250826T14:15:00.205025Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2b54e6ed9df145efa1ad519e45275f44",
+      "query": "de akkot van benne talalat?",
+      "answer": "Igen, a fájlban számos valódi találat van a GPT‑5 „leak” témájában – nem csak általános, hanem konkrét források is szerepelnek, például:\n\n Kiszivárgott rendszerprompt: GitHub gist és Reddit poszt, amelyek állítólag a GPT5 hivatalos system promptját tartalmazzák (például a  valóban tartalmaz ilyen szöveget)[1][2][3][4].\n Tech oldalak/elemzések: Több nagy tech portál cikke részletesen, világos forrásmegjelöléssel számolt be a „leakről”, összegezve a prompt utasításait, a modell működési módját és a lefolytatott nyilvános vitát[3][5][4][6][7][8].\n Konkrét tartalom:  \n   A „leakelt” prompt összefoglalója szerint „2024. júniusi tudásvágás”, új v2 személyiség, kifejezetten szabályozott kommunikációs stílus, képes multimodális input feldolgozására, és szigorúan tilos szerzői jogsértő tartalmat előállítania[3][5].\n   Négy modellváltozat jelent meg a szivárogtatásokban (standard, mini, nano, chat), ezek részletes leírással[5][9][6][7][8].\n Hivatalos GitHub blogbejegyzések (amelyeket később töröltek): Ezek is megerősítik, hogy a leak valószínűleg nem hamis, hiszen a GitHub hivatalos csatornáin is publikálták (rövid időre) a modellek nevét és jellemzőit[5][10].\n Elemzői figyelmeztetések: Egyes források megemlítik, hogy a leak hitelességét továbbra is érdemes fenntartásokkal kezelni, de a prompt tartalma és a modellverziók tényszerű leírásai alapján a találatok relevánsak és informatívak[3][8].\n\nTehát: a fájl tartalmaz valós és konkrét találatokat a GPT5ös leak/release témaköréről, benne rendszerpromptrészletekkel, hivatalos(hivataloshoz közeli) modelldokumentációval, valamint tech portálok elemzéseivel.[1][5][3][4][6][8]",
+      "created_at": "20250826T14:15:27.073780Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "612ac0479bba4dbd85f4d4d3d3795f26",
+      "query": "de a datasets e megvan?",
+      "answer": "Röviden: a csatolt listában sok „leak” hír és promptszivárgás van, de a konkrét, teljes GPT‑5 „dataset” (a tréningadatok tényleges forráslistája vagy dumpja) nem szerepel, és nyilvánosan továbbra sincs hitelesen publikált „GPT‑5 dataset leak”. [1][2][3][4]\n\n Mi van meg és mi nincs\n Megvan: állítólagos GPT‑5 rendszerpromptok (GitHub gist/Reddit), valamint számos cikk és poszt a GitHubos korai bejegyzésekből következtetett modellvariánsokról és képességekről. [1][2][3][5]\n Nincs meg: olyan hiteles, ellenőrzött anyag, amely a GPT‑5 tréning „datasets” tényleges listáját vagy tartalmát szivárogtatná ki; a találatok a promptokra, a modellek variánsaira és rollout‑részletekre fókuszálnak, nem tréningadatdumpról szólnak. [3][4][6]\n\n Releváns jelek a „dataset leak” kérdéshez\n A sajtó és changelogok a modellek variánsairól és képességjavulásairól számolnak be (gpt‑5, mini, nano, chat), nem tréningkorpuszokról. [3][4][7]\n Biztonsági és red‑teaming anyagok említenek „training data leak” típusú teszteket, mint kategóriát, de ez nem egy konkrét GPT‑5 dataset nyilvános kiszivárgása. [8][9]\n Az ökoszisztémában korábban léteztek adatkinyerési kutatások (pl. training‑adatok extrahálása modellekből), de ezek nem dokumentálnak most egy új, teljes GPT‑5 „dataset leak”et. [8][5]\n\n Következtetés\n A csatolt találatok között nincs hiteles, letölthető vagy részleteiben dokumentált „GPT‑5 dataset leak”; főként rendszerprompt‑szivárgásról és GitHub‑posztokra épülő modell‑előnézetekről van szó. [1][2][3]\n Ha valódi tréningadat‑szivárgás történt volna, azt várhatóan nemcsak techblogok, hanem nagy hírügynökségek és a hivatalos rendszerkártya is kiemelten kezelnék; jelenleg ilyen bizonyíték nincs a forrásokban. [9][6]",
+      "created_at": "20250826T14:16:36.819176Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "5ecc62fdf09b4d019e286d99abe35d90",
+      "query": "de ki kerte h hivatalos legyen",
+      "answer": "Röviden: nincs olyan forrás a csatolt találatok között, amely szerint bárki „hivatalossá tételét” kérte volna egy állítólagos GPT‑5 „dataset leak”nek; a cikkek és posztok a prompt‑szivárgásról és a GitHub‑blog bejegyzésről szólnak, nem egy hivatalos elismerésről vagy kérésről. [1][2][3][4]\n\n Mit állítanak a források\n A hiteles források a „leakelt” rendszerpromptra és a GitHub‑on rövid ideig megjelent changelogokra hivatkoznak (modell‑variánsok: gpt‑5, mini, nano, chat), de nem írnak arról, hogy bárki kérte volna egy „dataset leak” hivatalos megerősítését. [1][3][4]\n Több cikk kifejezetten megjegyzi, hogy a rendszerprompt hitelessége vitatott, és nem tekinthető hivatalos dokumentumnak, ami arra utal, hogy nincs formális elismerés vagy „hivatalossá tétel”. [2]\n\n Következtetés\n A csatolt anyagok alapján sem OpenAI, sem harmadik fél nem „kérte” vagy nem kezdeményezte, hogy egy „dataset leak” hivatalos legyen; az elérhető tartalom prompt‑szivárgással és termékbejelentéssel kapcsolatos, nem tréningadat‑szivárgás formális elismerésével. [2][3][4]",
+      "created_at": "20250826T14:19:26.089373Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "context_uuid": "6ce38a88ac484538bf70d26edd7c047c",
+  "context_title": "hol a gecibe lehet buszjegyrt vebni online gyorsan halasrol kecelre csak egy 25 ev alatti jegy azt kesz gyors",
+  "created_at": "20260205T04:14:31.918303Z",
+  "updated_at": "20260205T04:18:31.257386Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "42f9184db70547dbb514c98fed6cc24f",
+      "query": "hol a gecibe lehet buszjegyrt venni online gyorsan kkhalasról kecelre csak egy 25 ev alatti jegy azt kesz gyors\n\nmobiljegy alkalmazas nem jo nincs se halas se kecel se helykozi jarat opcio\nmav oldala se",
+      "answer": "Hódmezővásárhelyről (vagy Kkhálasról, ami valószínűleg Hódmezővásárhely környékét jelenti) Kecelre tartó helyközi buszjegy online vásárlása elsősorban a MÁVcsoport egységes rendszerén keresztül lehetséges, ahol a 1425 év közötti utasok automatikusan 50%os kedvezményt kapnak menetjegyre anélkül, hogy külön igazolást kellene feltölteniük vagy pecsételtetniük.  A leggyorsabb módszer a jegy.mav.hu weboldalon keresztül történik, ahol megadhatod az indulási és érkezési helyet (pl. Hódmezővásárhely autóbuszállomás  Kecel), a dátumot/időpontot, és a korosztályod alapján a rendszer kiszámolja a kedvezményes árat bankkártyás fizetéssel.[1][2][3][4][5]\n\n Menetrend ellenőrzése\nElőször nézd meg a menetrendet a menetrend.mav.hu oldalon vagy a MÁVPlusz appban (de webes verzió is van), mert HódmezővásárhelyKecskemétKecel útvonalon Volánbusz járatok közlekednek (pl. 1089/1090 vonali buszok érintik ezeket a településeket részben, vagy helyi csatlakozásokkal).  KecelKecskemét között van közvetlen busz (pl. 5218as éjszakai járat), de Hódmezővásárhelyről általában átszállással Kecskeméten keresztül éri el az utas a Kecelt, kb. 23 óra utazási idővel.  Friss menetrend: február 2026ban érvényes, ellenőrizd a pontos indulásokat, mert forgalmi akadályok előfordulhatnak.[6][7][8][9]\n\n Online vásárlás lépései\nA jegy.mav.hu (korábban Elvira) a hivatalos hely a Volánbusz helyközi járataira, app nélkül, böngészőben működik:\n1. Lépj be a  oldalra (nem kell regisztráció, de email ajánlott a jegy PDFként való kiküldéséhez).\n2. Válaszd ki \"Belföldi utazás\" > keresd be \"Hódmezővásárhely\" (vagy pontos buszmegállót) mint indulás, \"Kecel\" mint érkezés, add meg a dátumot (pl. mai nap, 2026.02.05.).\n3. A rendszer mutatja a buszjáratokat (Volánbusz), válaszd ki a megfelelőt, és a 25 év alatti korod alapján automatikusan 50%os jegyet kínál fel (pl. 2050 kmes távra 10002000 Ft teljes ár, kedvezményesen fele).[5][10][1]\n4. Fizess bankkártyával (SimplePay vagy hasonló), nyomtasd ki a PDFet vagy mentsd mobilon – a sofőrnek/ellenőrnek mutasd fel személyi igazolvánnyal együtt a korod igazolására.[11][12]\nHa nincs közvetlen járat, a rendszer javasol átszállást Kecskeméten, ahol a jegy érvényes tovább.[9]\n\n Alternatívák app nélkül\n Volánbusz webes elővétel (webelin): Régebbi linkek (pl. webelin.volanbusz.hu) átirányítanak a jegy.mav.hura, ahol szintén működik.  Keress rá \"Volánbusz online menetjegy\" – most egységes MÁVportálon van.[13][14]\n Pénztárak: Ha online nem megy, Hódmezővásárhely autóbuszállomáson vagy Kecskemét buszpályaudvaron veheted meg helyben a kedvezményes jegyet, de ez nem gyors.[15]\n Kecskemét helyi (KEKO): Ha KecskemétKecel szakaszra kell, a keko.hu oldalon van elővételi, de helyközi buszra ez nem elég – ott is 25 év alatti kedvezmény van.[16][17]\nMobiljegy appot kerüld, ahogy mondtad, mert ezeken (pl. NMZRT) nincs minden járat, de weben igen.[18][19]\n\n Kedvezmény részletek\n2024 márciusa óta egyszerűsített tarifa: 1425 évesek minden helyközi buszon (Volán/MÁV) 50% kedvezményt kapnak életkor alapján, csak személyit kell mutatni ellenőrzéskor – nincs szükség diákigazolványra vagy pecsétre.  Teljes ár pl. 30 kmre kb. 1500 Ft, kedvezményesen 750 Ft körül; pontos ár a távolság függvénye (kmalapú).  Nem érvényes IC vonatra helyjeggyel, de buszra igen.[2][20][4][10][1]\n\nHa nem találsz járatot, próbáld a menetrendek.hu oldalt részletes keresésre, vagy hívd a MÁV ügyfélszolgálatot (0640494949) a pontos infóra.  Gyorsan megvan 5 perc alatt a jegy online![21][22][5]",
+      "created_at": "20260205T04:14:32.076277Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "8c9fac05c2a248ef9a230cea9f4e4e5f",
+      "query": "MONDOM MAV OLDALA NEM JO ES NYILVAN KISKUNHALAS",
+      "answer": "Kiskunhalasról Kecelre a 5290es Volánbusz vonalon közvetlen helyközi buszjáratok közlekednek (kb. 2025 km, 3040 perc utazás), és ezekre is a jegy.mav.hun veheted meg online a 25 év alatti 50%os kedvezményes menetjegyet gyorsan, bankkártyával – a rendszer automatikusan felismeri a kort személyi alapján ellenőrzéskor.  Bár említetted, hogy a MÁV oldala nem jó, ez a hivatalos egységes platform a Volánbusz összes helyközi járatára (2024 óta egyszerűsített tarifa), ahol kereshetsz indulás: \"Kiskunhalas autóbuszállomás\", érkezés: \"Kecel\", és mutatja a járatokat PDFjegy kiküldéssel.[1][2][3][4]\n\n Pontos menetrend KiskunhalasKecel\nA 5290 vonal napi több járatot biztosít (pl. reggeli 67 körül indulások, délelőtti, délutáni, esti is), megállók: Kiskunhalas autóbuszállomás → kórház → Útőrház → Rekettyei iskola → stb. → Kecel.  Friss 2026 februári menetrend elérhető a mavcsoport.hu/vonalimenetrendek/5290 oldalon, ahol linkel az online jegyvásárlásra; hétköznap 10+ járat, hétvégén kevesebb.  Ha átszállás kell (ritka), összeköt 5297tel Kiskőrös felé vagy 5369cel Kalocsa/Szeged irányból.[2][5][6][7][1]\n\n Miért működik mégis a MÁV oldal?\nA Volánbusz helyközi buszai (mint ez a 5290) teljes mértékben integrálódtak a MÁV jegyrendszerébe: keresésnél válaszd \"autóbusz\" szűrőt, add meg a településeket, és a rendszer listázza a buszokat vonalkóddal (5290).  Lépések részletesen:[8][1]\n Nyisd meg:  (böngészőben, app nélkül).\n Keresőbe: Honnan: Kiskunhalas, Hova: Kecel, Dátum: ma (2026.02.05.).\n Válaszd a buszt, korosztály: automatikus 50% kedvezmény (pl. teljes ár ~1200 Ft, kedvezm. ~600 Ft 25 kmre).[9][4]\n Fizetés után PDFjegy emailben, mutasd QRkóddal + személyivel a sofőrnek.  Ha nem talál járatot, próbáld \"Kiskunhalas, autóbuszállomás\" pontos névvel – ez gyakori hiba oka.[2][8]\n\n Ha tényleg nem megy a web\n Volánbusz régi webelin: Próbáld  (átirányít MÁVra, de helyközi elővételre).[10]\n Helyszíni vásárlás: Kiskunhalas autóbuszállomás pénztárában veheted meg 5 perccel indulás előtt, készpénzzel/bankkártyával, 25 év alatti kedvezménnyel személyivel.[2]\n Egyéb: Nincs dedikált Kiskunhalas oldal, helyi buszoknál (kh.hu) csak városi járatok, nem helyközi.  Mobiljegy appokban (Közlekedési Mobiljegy) van ez a járat, de kerüld.[11][12]\n\nEz a leggyorsabb online mód, sokan használják hasonló rövid távokra – ha konkrét hibaüzenetet kapsz a MÁV oldalon, írd meg pontosan, segítek troubleshootolni![4][1]",
+      "created_at": "20260205T04:16:14.983342Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "19d5e13416e34603959db1c8c2272e64",
+      "query": "hallod\nmondom ne a mav ot kuld es ne a mobiljegy appot hanem masik opciot",
+      "answer": "KiskunhalasKecel buszjegyre (5290 vonal) sajnos nincs hivatalos alternatív online vásárlási platform a MÁV/Volánbusz rendszerén kívül, mivel ez rövid helyközi Volánjárat, amit kizárólag a jegy.mav.hun, pénztárban vagy automatában lehet megvenni – de adok nem hivatalos gyors opciókat és részletes magyarázatot, miért ilyen a helyzet 2026ban.  A 25 év alatti 50% kedvezmény csak Volán/MÁVnél érvényes hivatalosan személyi igazolvánnyal, máshol teljes árat számolnak.[1][2][3][4]\n\n Gyors nembusz alternatívák\nHa ragaszkodsz online gyors vásárláshoz app/MÁV nélkül, ezek működnek KiskunhalasKecel távolságra (kb. 24 km):\n BlaBlaCar telekocsi: Weboldalon (blablacar.hu) keresd KiskunhalasKecel fuvart, sofőrökkel közvetlen egyezkedés, fizetés készpénzzel vagy appban (de webes keresés/app nélkül is). Átlag 10002000 Ft/fő, gyakran indul, ellenőrizd val",
+      "created_at": "20260205T04:16:51.141728Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "423df9ef5e3042baa2f3d7f69e65bfb5",
+      "query": "AZT KULD HOL VEHETO HELYKOZI BUSZJEGY TENYLEGESEN GYORSAN NE MAST",
+      "answer": "KiskunhalasKecel helyközi buszjegy (5290 vonal, Volánbusz) ténylegesen leggyorsabban a helyi pénztárban vehető meg indulás előtt 510 perccel, ahol személyi igazolvánnyal azonnal kiadják a 25 év alatti 50%os kedvezményes menetjegyet készpénzzel vagy kártyával – ez a legmegbízhatóbb gyors módszer, ha online gond van.  A sofőrök is értékesítenek menetjegyet felszálláskor, ha van hely, ugyanazzal a kedvezménnyel (de drágább lehet 1020%kal, ellenőrizd előre).[1][2][3]\n\n Pénztár helye és nyitvatartás\n Kiskunhalas autóbuszállomás: Kossuth Lajos u. 44., nyitva munkanapokon 5:0018:00ig kb., korán reggel (pl. 56 órakor induló 5290 járatokhoz) nyitnak. Helyszínen keresd a jegyirodát a peron mellett – pontos cím és menetrend a kiskunhalas.hu/buszmenetrend oldalon.[4][5]\n Fizetéskor mondd: \"Kecelig, 25 év alatti menetjegy\", mutasd a személyid – ár kb. 600800 Ft kedvezménnyel (távolság alapú).[2][1]\nNyitvatartás ma (2026.02.05., csütörtök) reggel 5:15 körül biztos nyitva a korai járatokhoz.[1]\n\n Automata opciók\nAutomaták a Kiskunhalas állomáson (peronon vagy épületben): érintős kijelzőn válaszd \"helyközi busz\", Kecel úti célt, fizess kártyával – kedvezményt személyivel validáld később. Gyors, 2 perc alatt kész.  Ha nincs automata, a pénztár a backup.[2][1]\n\n Miért ez a leggyorsabb?\nVolán helyközi rövid távokon (mint ez) nincs dedikált webes alternatíva MÁV nélkül, a mobiljegy appot kizártad, így helyben a legbiztosabb és leggyorsabb (nincs net/gép hiba). Ha későbbi járatra kell, akkor mégis próbáld a jegy.mav.hut incognito módban vagy másik böngészőben – a menetrend oldalon közvetlen link van rá.  Ha állomáson vagy, hívd a Volánbuszot 0613820888ra a pontos infóra![1][2]",
+      "created_at": "20260205T04:17:28.789417Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "bb466e6538c244e7a5c28d06e3021503",
+      "query": "A teljes beszélgetés alapján az összes eddigi kérdésemet foglald össze egy mondtatba mert másik beszélgetésben újra akarom kezdeni de úgy hogy első üzenetben már minden eddigi dolog benne legyen hogy ne kelljen előről kezdeni",
+      "answer": "Összefoglalva egy mondatban:\n\nKiskunhalasról Kecelre szeretnék 25 év alatti helyközi buszjegyet venni online gyorsan, de a Mobiljegy app nem jó mert nincs benne se Kiskunhalas se Kecel se helyközi járat opció, a MÁV/Elvira oldala sem működik, ezért olyan alternatív online vásárlási lehetőséget keresek ami nem MÁV és nem Mobiljegy app, de ha nincs más megoldás akkor azt is mondd meg hogy a pénztárnál vagy magától a sofőrtől lehete venni kedvezményes jegyet.",
+      "created_at": "20260205T04:17:45.080260Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

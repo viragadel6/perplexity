@@ -1,0 +1,19 @@
+{
+  "context_uuid": "868848ec34c64e2d88708ddca7d5e9ae",
+  "context_title": "Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+  "created_at": "20260905T13:29:00.522671Z",
+  "updated_at": "20260905T13:29:13.904589Z",
+  "mode": "COPILOT",
+  "collection_uuid": "ec2dfd5f478c4586a8b6ac4d7d8b5e11",
+  "entries": [
+    {
+      "entry_uuid": "192c48ba561b45fd82151a49a23e7b70",
+      "query": "Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+      "answer": "Elolvastam és feldolgoztam a rendelkezésre álló két fájlt teljes tartalmában: a Lean 4 modell/bizonyítás oftb.txt, valamint a Zig implementáció oftb.zig.txt. A további válaszokban ezekhez viszonyítom a formális verifikáció teljességét és a Zigkódhoz való tényleges szemantikai megfelelést.[1][2]\n\n Beolvasott anyag\n\n| Fájl | Tartalom | Állapot |\n||||\n| oftb.zig.txt | OFTB Zig implementáció: init, forward/backward/inverse inplace és slice műveletek, SIMD és scalar útvonalak, fused/reversal funkciók, soronkénti transzformáció, tesztek | Feldolgozva [2] |\n| oftb.txt | Lean 4 absztrakt algebrai modell, listafelosztás, hosszinvariánsok, forward/backward absztrakt mag, kétirányú inverzitási bizonyítás, shape/precondition modell | Feldolgozva [1] |\n\n Megőrzött kritikus részletek\n\nA Zigkód fő transzformációja félhosszúságú blokkokra osztja a []f32 bemenetet:\n\n\\[\n(a,b) \\mapsto ((ab)s,\\,(a+b)s)\n\\]\n\nahol a forrás szerint s = FRACTAL_SCALE = 0.7071067811865476 f32ként. A visszairányú/adjungált művelet:\n\n\\[\n(g_1,g_2) \\mapsto ((g_1+g_2)s,\\,(g_2g_1)s).\n\\]\n\nA Leanfájl ehhez egy paraméteres ScaleAlgebra F struktúrát vezet be, és explicit axiómamezőkként feltételezi a szükséges algebrai törvényeket, különösen:\n\n disztributivitás add és sub felett;\n kommutativitás és asszociativitás;\n jobb oldali egységelem;\n a két komponens visszaállításához szükséges azonosságok;\n a lényegi skálafeltétel: mul (mul two scale) scale = one.[1]\n\nA Leanfájl termalapú stílust használ: fun, match, rekurzió, let, Eq.trans, congrArg, False.elim, konstruktorok. A megtekintett tartalomban nincs by, sorry, admit, Classical.*, Decidable.em, native_decide vagy decide.[1]\n\n Fontos előzetes minősítési keret\n\nA Lean fájl valós, kernel által ellenőrizhető termbizonyításokat tartalmaz az általa definiált absztrakt modellre. Például formálisan bizonyítja, hogy ha a lista hossza pontosan dim + dim, és a ScaleAlgebra összes mezőjeként megadott algebrai feltétel teljesül, akkor:\n\n backwardCore (forwardCore L) = L;\n forwardCore (backwardCore L) = L;\n a forward és backward core megőrzi a 2 * dim hosszúságot;\n az alak és hosszelőfeltételek absztrakt szinten kezelhetők.[1]\n\nViszont a Leanmodell nem ugyanaz, mint a tényleges Zigprogram szemantikája. A Zig specifikus elemei—f32 IEEE754 lekerekítés, NaN, infinities, signed zero, overflow/underflow, eltérő SIMD utasítási útvonal, mutálható szeletek aliasingja, Zig hibaágak, std.debug.assert, Tensor valódi definíciója, memória és slicebiztonság, illetve a konkrét FRACTAL_SCALE bináris f32 értéke—nincsenek Leanben modellezve vagy a Zig kódhoz formálisan kapcsolva. Ezért a későbbi szigorú verdictnél ezt nem lehet „a Zig fájl 100%os formális verifikációjának” tekinteni; legfeljebb egy absztrakt, ideális algebrai listatranszformáció bizonyításának.[2][1]",
+      "created_at": "20260905T13:29:00.608856Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

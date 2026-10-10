@@ -1,0 +1,19 @@
+{
+  "context_uuid": "73e36b48378d4be692832856d5512098",
+  "context_title": "CerebrasChatClient",
+  "created_at": "20250721T15:09:10.667874Z",
+  "updated_at": "20250721T15:09:10.667874Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "37a690e90c77446b9e1acb13d4ba5e11",
+      "query": "CerebrasChatClient",
+      "answer": "A CerebrasChatClient a Cerebras Systems által kínált fejlesztői eszköz vagy APIkliens, amelynek célja, hogy gyors, valós idejű AI chatinferenciát biztosítson különböző alkalmazások számára. Ezt jellemzően Python SDKn keresztül használják, amelyen keresztül könnyen integrálhatóak a Cerebras nagy nyelvi modelljei, például a llama3.18b vagy llama3.170b, chatbot rendszerekbe, ügyfélszolgálati agentekbe vagy más RAG, azaz RetrievalAugmented Generation rendszerekbe[1][2][5][8].\n\nA kliens működése egyszerű: a fejlesztő egy API keyvel hitelesíti magát, majd megadja a használni kívánt modellt, valamint a felhasználótól érkező üzeneteket. A kliens visszaadja a generált választ, amely lehet egy egyszerű szöveg, de igény esetén strukturált adat (például JSON vagy Pydantic modellek) is[2][5]. Támogat streaming módot is, tehát a válaszok részenként is feldolgozhatók a minimális késleltetés érdekében[5].\n\nA CerebrasChatClient fő előnyei közé tartozik az extrém gyors válaszidő (több mint hússzor gyorsabb, mint a klasszikus GPUkkal működő rendszerek), a nagyfokú skálázhatóság, valamint a csúcskategóriás nyelvi és kontextusértési képességek, amelyek különösen hasznosak valós idejű és összetett alkalmazásokban, például Zoom Chatintegrációkban vagy más valós idejű ügyfélszolgálati rendszerekben[1][4][6][7].\n\nA fejlesztéshez szükséges a Cerebras SDK telepítése és egy érvényes API key beszerzése, amelyet környezeti változóként kell beállítani[5][9]. Ezután a kliens könnyen integrálható Pythonból, de más nyelveken vagy egyedi megoldásoknál is használható a hivatalos vagy akár közösségi fejlesztésű interfészek segítségével[10].",
+      "created_at": "20250721T15:09:10.699940Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

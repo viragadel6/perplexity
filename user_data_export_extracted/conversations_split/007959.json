@@ -1,0 +1,28 @@
+{
+  "context_uuid": "7833013b77b9460d9dae6c26a4c8e04d",
+  "context_title": "ezeknek mi az osszefoglalo kategoria megnevezesuk\npl\ntransformers mamba kan tgn",
+  "created_at": "20251005T10:43:59.584427Z",
+  "updated_at": "20251005T10:46:01.243143Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6c4cbd41945b49cf8045b8f57f213380",
+      "query": "ezeknek mi az osszefoglalo kategoria megnevezesuk\npl\ntransformers mamba kan tgn",
+      "answer": "Az említett modellek (Transformers, Mamba, KAN, TGN) mind neurális hálózati architektúrák vagy mélytanulási architektúrák kategóriájába tartoznak.[1][2][3][4]\n\n Neurális Hálózati Architektúrák\n\nEzek mind különböző megközelítéseket képviselnek az adatok feldolgozására és mintázatok tanulására. A Transformer egy figyelmi mechanizmuson (attention mechanism) alapuló architektúra, amely szekvenciális adatok feldolgozására specializálódott és az alapja a modern nagy nyelvi modelleknek. A Mamba egy állapottérmodelleken (State Space Models, SSM) alapuló architektúra, amely a Transformer alternatívájaként kínál lineáris komplexitást hosszú szekvenciák kezelésére. A KAN (KolmogorovArnold Networks) egy új típusú hálózat, amely a KolmogorovArnold reprezentációs tételen alapul és tanulható aktivációs függvényeket használ az éleken, szemben a hagyományos többrétegű perceptronokkal (MLP). A TGN (Temporal Graph Networks) pedig a gráf neurális hálózatok (Graph Neural Networks, GNN) családjába tartozik, amelyet dinamikus, időben változó gráfok modellezésére fejlesztettek ki.[5][2][6][7][3][8][9][4][1]\n\nPontosabban megfogalmazva, ezek szekvenciamodellező vagy gráfmodellező architektúrák a mélytanulás területén, amelyek különböző adatstruktúrák (szekvenciák, gráfok) hatékony reprezentálására és predikciójára szolgálnak.[10][11]",
+      "created_at": "20251005T10:43:59.763161Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "b1ab3066e60f4acaad0f40208189425d",
+      "query": "de ha arra akarok ra keresni hogy utolso egy honapba megjelentek ezekbol es ne kesz modelleket hanem ilyeneket kuldjon",
+      "answer": "Ha új neurális hálózati architektúrákat szeretnél keresni (nem kész modelleket), amelyek az utóbbi egy hónapban jelentek meg, a következő keresési kulcsszavakat érdemes használni:[1][2]\n\n Ajánlott Keresési Kifejezések\n\nA legjobb találatokhoz használd ezeket az angol nyelvű kulcsszavakat:[3][1]\n\n \"novel neural network architecture\" + időszak (pl. \"September 2025\")\n \"new deep learning architecture\" + dátum\n \"hybrid transformer architecture\" + publikációs idő\n \"state space model architecture\" + év/hónap\n \"graph neural network architecture\" + időszak\n\nEzek a kifejezések kutatási publikációkat és új architektúrajavaslatokat eredményeznek, nem pedig előre betanított modelleket. Például a közelmúltban megjelent MammoMamba (július 2025) vagy MHSVIT (június 2025) hibrid architektúrák, amelyek a Mamba állapottérmodelleket és Transformer mechanizmusokat kombinálják.[4][5][6]\n\n Hol Keress\n\nA legjobb eredményekért használd az arXiv.org, Papers with Code, vagy Google Scholar platformokat a \"neural network architecture\" vagy \"deep learning architecture\" keresőkifejezésekkel és szűrd az eredményeket az utolsó 30 napra. Az olyan konferenciák anyagainál is érdemes böngészni, mint az ICANN 2025 (szeptember 912), ahol számos új architektúrajavaslat került bemutatásra.[2][7][1][4]",
+      "created_at": "20251005T10:45:42.767573Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

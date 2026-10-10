@@ -1,0 +1,19 @@
+{
+  "context_uuid": "04a2f61ab9ec488088ee8277a36eba64",
+  "context_title": "",
+  "created_at": "20251120T08:46:52.872335Z",
+  "updated_at": "20251120T08:46:52.872335Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5f378e112eb34e0b8e137350e1a2b42e",
+      "query": "",
+      "answer": "A Dex egy kutatási nyelv a típusos, funkcionális tömbfeldolgozásra, a Haskell/ML nyelvcsaládban. Célja a típus rendszerek, matematikai programtranszformációk (mint differenciálás és integrálás), párhuzamos hardverre történő felhasználó által vezérelt fordítás, valamint interaktív, inkrementális numerikus programozás és vizualizáció kutatása és fejlesztése. A nyelv különlegessége, hogy visszaadja a for ciklusokat, így azok, akik a hagyományos imperatív programozási szemlélethez szoktak, könnyebben tudnak tömbös műveleteket írni, de közben statikusan típusos és funkcionális marad. A Dex kód végrehajtása közvetlenül LLVM kódra fordítható, ezáltal hatékony futást biztosít. A projekt a Google Research keretében zajlik, és nyílt forrású a GitHubon, folyamatos fejlesztéssel 20242025ben is.[2][8][9]",
+      "created_at": "20251120T08:46:53.590139Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

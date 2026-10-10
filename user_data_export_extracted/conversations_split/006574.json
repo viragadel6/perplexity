@@ -1,0 +1,19 @@
+{
+  "context_uuid": "ae5f750e4c8d44e9a0ac34ac0e927f7a",
+  "context_title": "ez mi",
+  "created_at": "20251107T22:07:24.372889Z",
+  "updated_at": "20251107T22:07:24.372889Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1026ef8e49a94fe59b98dc7e17812f67",
+      "query": "ez mi",
+      "answer": "Ez a TiffyTime  egy webalapú fizetési feldolgozó és időkövetési alkalmazás forráskódja, amely a Flask keretrendszerre épül, és az Erste Bank PSD2 APIjával integrálódik.[1]\n\n Az alkalmazás fő összetevői\n\nBackend infrastruktúra: Az alkalmazás a Flaskből, SQLAlchemy adatbáziskezelésből és LoginManager felhasználókezelésből áll. Az Erste Bank APIval kommunikálva OAuth2 hitelesítést valósít meg, míg a Coinbase Commerce integrációval kriptovalutafizetéseket támogat.[1]\n\nFizetési módok: Az alkalmazás négy fizetési módot támogat: , Apple Pay, Google Pay és Coinbase Commerce. Mindegyikhez külön API kliens és feldolgozó modul tartozik.[1]\n\nFelhasználói felület: Az alkalmazás Appleszerű design nyelvvel készült, amely garantálja az iPhonera optimalizált, glassmorphism stílusú megjelenítést. Az interfész magyar nyelvű és teljes mértékben reszponzív.[1]\n\n Legfontosabb fájlok\n\n| Fájl | Funkció |\n|||\n| app.py | Flask alkalmazás inicializálása és adatbáziskezelés |\n| models.py | Adatmodelleket definiáló  User, Payment, PaymentLink, Account, Transaction |\n| routes.py | Összes HTTP útvonal és végpont implementációja |\n| erste_api.py | Erste Bank PSD2 API kliens OAuth2 támogatással |\n| coinbase_api.py | Coinbase Commerce kriptovalutafizetési kliens |\n| payment_processor.py | Fizetések feldolgozása az összes módszerhez |\n| static/css/apple-style.css | Appleszerű CSS design rendszer |\n\nAz alkalmazás komplett fizetési szisztéma, amely lehetővé teszi a felhasználók számára banki transzfereket, mobilfizetéseket és kriptovalutafizetéseket biztonságosan, modern interfészen keresztül.[1]",
+      "created_at": "20251107T22:07:24.429691Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

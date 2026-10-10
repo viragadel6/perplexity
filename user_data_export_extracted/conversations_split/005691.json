@@ -1,0 +1,37 @@
+{
+  "context_uuid": "6f1c698d1577446f8d81fd55a5a7e5ab",
+  "context_title": "",
+  "created_at": "20251214T05:16:35.532334Z",
+  "updated_at": "20251214T05:18:25.262806Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9770a7938a45466e89b6813f8354ec99",
+      "query": "",
+      "answer": "Ez az oldal a QwenLongL132BAWQ modell Hugging Face‑es kártyája, amely egy hosszú kontextusra optimalizált, kvantált nagy nyelvi modell a Tongyi (Alibaba) ökoszisztémából származó QwenLongL1 családból származtatva.[1][5]\n\n Mi ez a modell?\n\nA QwenLongL132B egy 32 milliárd paraméteres „Large Reasoning Model” (LRM), amelyet kifejezetten hosszú dokumentumok feletti következtetésre (longcontext reasoning) tanítottak megerősítéses tanulással.[6][1]\nAz AWQ‑s változat („QwenLongL132BAWQ”) ennek int4 kvantált, erőforrás‑hatékonyabb inferencia‑verziója, amely kisebb GPU‑memóriával is futtatható, miközben igyekszik megőrizni az eredeti modell teljesítményét.[10][1]\n\n Fő képességek\n\nA modell akár ~130 000 tokent képes egyetlen kontextusablakban kezelni, ami nagyjából 200+ oldalnyi szövegnek felel meg.[5][6]\nHosszú dokumentum‑kérdés‑válasz (DocQA), többlépéses (multi‑hop) és matematikai következtetésben kifejezetten erős, több benchmarkon az OpenAI o3mini és a Qwen3235BA22B fölött, Claude‑3.7‑Sonnet‑Thinking szintjén teljesít.[1][6]\n\n Tipikus felhasználások\n\n Hosszú jogi szerződések vagy szabályzatok elemzése és kérdés‑megválaszolása.[5]\n Kutatási cikkek, pénzügyi jelentések, több dokumentumból álló dossziék áttekintése és összefűzött lekérdezése.[5]\n\nHa pontosabban leírod, mire szeretnéd használni (chat, RAG, kód‑asszisztens, lokális futtatás stb.), szívesen segít a konfiguráció és a hardver‑igény becslésében is.",
+      "created_at": "20251214T05:16:35.761471Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "c580fc44605a4e1186883cedcc81f126",
+      "query": "akkor melyik a qwen long amelyik a 10 millios kontextusos",
+      "answer": "A QwenLong az a modell, amely 10 millió token kontextusablakot támogat – ez egy APIn keresztül elérhető Alibaba Cloud modell, amely kifejezetten ultrahosszú dokumentumelemzésre készült.[1][2]\n\n Különbség a két modell között\n\n| Jellemző | QwenLongL132B | QwenLong |\n||||\n| Kontextusablak | ~130 000 token | 10 000 000 token [1][2] |\n| Elérhetőség | Letölthető opensource modell (Hugging Face) | API szolgáltatás (Alibaba Cloud) [1] |\n| Fókusz | Reasoning (megerősítéses tanulás alapú következtetés) | Ultrahosszú dokumentumfeldolgozás fájl ID referenciákkal [1] |\n| Output limit | ~8192–16384 token | 8192 token [1] |\n\n Hogyan működik a 10 milliós kontextus\n\nA QwenLong akkor éri el a 10 millió tokenes limitet, amikor dokumentumokat fájl ID hivatkozások útján adsz át (nem közvetlenül a prompt szövegébe illesztve).[1]\nLegfeljebb 100 fájl IDt küldhetsz egy kérésben, összesen akár 10 000 fájlt tárolhatsz a fiókodban (max. 100 GB).[1]\n\nA kontextus kezelése így skálázható és nem terheli le közvetlenül a prompt tokenjeit, miközben az API képes a teljes dokumentumkészletben keresni és következtetni.",
+      "created_at": "20251214T05:17:02.617313Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "804af8fa4e1f487c80aa193819ff45a6",
+      "query": "es azt a modlef hogy erem el vagy h",
+      "answer": "A QwenLong modellt az Alibaba Cloud DashScope APIján keresztül érheted el. Íme a lépések:\n\n Hozzáférés menete\n\n1. Alibaba Cloud fiók létrehozása  \n   Regisztrálj az  oldalon, majd engedélyezd a Model Studio vagy DashScope szolgáltatást a konzolon.[1][2]\n\n2. API kulcs generálása  \n   A DashScope dashboardon keresd meg az \"API Keys\" szekciót, és generálj új kulcsot.[2][3]\n   Az ingyenes tier 1 millió token/hó kvótát ad tesztelésre.[2]\n\n3. API hívás  \n   A QwenLong modellt a qwen-long model IDval éred el OpenAIkompatibilis végponton:\n   bash\n   curl -X POST \"https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions\" \\\n     -H \"Authorization: Bearer $DASHSCOPE_API_KEY\" \\\n     -H \"Content-Type: application/json\" \\\n     -d '{\"model\": \"qwen-long\", \"messages\": [...]}'\n   \n\n\n Árazás\n\n QwenLong: ~$0,40/M input token, ~$1,20/M output token (QwenPlus szinten)[4]\n A 10 milliós kontextus dokumentumfeltöltéssel (file ID) érhető el, nem közvetlen promptba illesztéssel.[5]\n\n Alternatívák\n\nHa nem akarsz Alibaba Cloud fiókot, használhatsz OpenRouter vagy CometAPI szolgáltatásokat, amelyek újracsomagolják a Qwen APIt egyszerűbb regisztrációval.[1][4]",
+      "created_at": "20251214T05:18:00.412501Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

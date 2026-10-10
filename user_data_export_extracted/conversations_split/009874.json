@@ -1,0 +1,19 @@
+{
+  "context_uuid": "2d71086faf7a4f1cb751e1970f1fc816",
+  "context_title": "szerbiabol es romaniabol magyarorszagra hany doboz glo veot lehet behozni fejenkent magamszemelykent? (veo az nem dohany termek)",
+  "created_at": "20250619T10:44:23.351282Z",
+  "updated_at": "20250619T10:44:23.351282Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a1aacb9d5ed84e3e840a524da0d16725",
+      "query": "szerbiabol es romaniabol magyarorszagra hany doboz glo veot lehet behozni fejenkent magamszemelykent? (veo az nem dohany termek)",
+      "answer": "A glo VEO (vagy más hevítéses dohányhelyettesítő) termékek behozatalára Magyarországra Szerbiából és Romániából jelenleg nincs külön, kifejezetten ezekre vonatkozó szabályozás a magyar vámjogban, mivel a VEO nem minősül dohányterméknek, így nem tartozik a klasszikus cigaretta, szivar, dohányáru kvóták alá.\n\nA legfontosabb tudnivalók:\n\n A vámmentes behozatal általános szabályai szerint, ha a termék nem dohánytermék, akkor az egyéb áruként kezelendő, amelyre az értékhatárok és a nem kereskedelmi mennyiség szabályai vonatkoznak.\n Szerbiából (EUn kívülről) magánszemély vámmentesen összesen legfeljebb 300 euró értékben hozhat be árut (légi úton 430 euró), de 15 év alattiaknak csak 150 euróig engedélyezett[1].\n Romániából (EUtagállam) érkezve nincs vámellenőrzés és mennyiségi korlát, amennyiben az áru nem kereskedelmi mennyiségű, hanem személyes használatra szolgál[1].\n\nÖsszefoglalva:\n\n Szerbiából: Fejenként 300 euró összértékig hozhatsz be glo VEOt vagy hasonló hevítéses terméket, ha az egyértelműen saját használatra szolgál és nem kereskedelmi mennyiség[1].\n Romániából: Nincs mennyiségi vagy értékbeli korlát, ha saját használatra hozod és nem kereskedelmi mennyiségben[1].\n\nFontos kiegészítés:  \nA magyar vámhatóság a \"nem kereskedelmi mennyiség\" meghatározásánál figyelembe veszi a behozott mennyiséget, a csomagolást, az utazás gyakoriságát és az egyéb körülményeket. Ha a behozott mennyiség meghaladja a személyes használat ésszerű kereteit (például több tucat doboz), azt kereskedelmi behozatalnak minősíthetik, és vámot, áfát, illetve engedélyeket követelhetnek meg.\n\nDohánytermékkorlátok nem vonatkoznak rá, de a tapasztalatok szerint érdemes 510 doboznál többet nem hozni egyszerre, hogy ne keltsen kereskedelmi cél gyanúját.\n\nÖsszegzés táblázatban:\n\n| Ország      | Mennyiségi korlát (glo VEO, nem dohánytermék) | Megjegyzés                                    |\n||||\n| Szerbia     | 300 euró összérték/fő, saját használatra     | Nem kereskedelmi mennyiség, értékhatár számít |\n| Románia     | Nincs mennyiségi/értékbeli korlát            | Csak saját használatra, nem kereskedelmi cél  |\n\nHa biztosra akarsz menni, javasolt a NAV ügyfélszolgálatánál vagy a határátkelőn érdeklődni az aktuális gyakorlati eljárásról.",
+      "created_at": "20250619T10:44:23.390835Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

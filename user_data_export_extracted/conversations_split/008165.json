@@ -1,0 +1,19 @@
+{
+  "context_uuid": "ed5a2f7cd810470db6be755c2b8548c3",
+  "context_title": "egy ai agent webappot akarok epiteni\negy main.py meg index.html lesz az egesz elso sorba\nde az a celom hogy mint egy ai chat appba kuldok utenetet feltoltok dokumentumot stb es indithassak kutatast ahol autonom modon kutat akar 1 oran at es tobb ezer forrast atvizsgalva\nxai grok 4 fast\nexa ai \ncerebras ai \nes claude 4.5 sonnet \ngemini 2.5 pro\nmodal.com\ndragonfly database\nionos\n(ibm\niqm\nionq kvantum gépek)\ngpt 5 api kulcsaim vannak eddig\nmit szerezzek meg be hozza? mit ajanlasz\nazt akarom hogy TENYLEG a vilagszinten is leginteligensebb legyen es tudjon kovetkeztetni , ra jonni hogy mire keressek, folyamatot atlatni meg ilyenek erted \nja es replit en csinalom\nes nem olyanra akarom csinalni mi t a perplexity hanem tenyleg sokkal inteligensebbre es akar 2030 oldalas jelenteseket is keszitsen",
+  "created_at": "20250930T20:28:47.656837Z",
+  "updated_at": "20250930T20:28:47.656837Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "d3ae14bc27624d3f92719cd4200d9bf3",
+      "query": "egy ai agent webappot akarok epiteni\negy main.py meg index.html lesz az egesz elso sorba\nde az a celom hogy mint egy ai chat appba kuldok utenetet feltoltok dokumentumot stb es indithassak kutatast ahol autonom modon kutat akar 1 oran at es tobb ezer forrast atvizsgalva\nxai grok 4 fast\nexa ai \ncerebras ai \nes claude 4.5 sonnet \ngemini 2.5 pro\nmodal.com\ndragonfly database\nionos\n(ibm\niqm\nionq kvantum gépek)\ngpt 5 api kulcsaim vannak eddig\nmit szerezzek meg be hozza? mit ajanlasz\nazt akarom hogy TENYLEG a vilagszinten is leginteligensebb legyen es tudjon kovetkeztetni , ra jonni hogy mire keressek, folyamatot atlatni meg ilyenek erted \nja es replit en csinalom\nes nem olyanra akarom csinalni mi t a perplexity hanem tenyleg sokkal inteligensebbre es akar 2030 oldalas jelenteseket is keszitsen",
+      "answer": "How to design a productiongrade autonomous AI research chat web app (file uploads, 20–30 page reports, 1hour autonomous browsing across thousands of sources) with multiLLM orchestration using xAI Grok4Fast, Exa API, Cerebras, Claude 4.5 Sonnet, Gemini 2.5 Pro, GPT5, Modal.com, DragonflyDB, and IONOS; what additional services and best practices (agents, web browsing tools, RAG, evals, observability, caching, safety, rate limiting) are recommended?\n\nHogyan tervezzek éles, autonóm AI kutató chat webappot (fájlfeltöltés, 20–30 oldalas jelentések, 1 órás autonóm böngészés több ezer forráson) többLLM orkchestrációval az xAI Grok4Fast, Exa API, Cerebras, Claude 4.5 Sonnet, Gemini 2.5 Pro, GPT5, Modal.com, DragonflyDB és IONOS felhasználásával; milyen további szolgáltatások és bevált gyakorlatok (agentek, webes böngésző eszközök, RAG, értékelések, observability, gyorsítótárazás, biztonság, rate limiting) ajánlottak?",
+      "created_at": "20250930T20:28:47.975919Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

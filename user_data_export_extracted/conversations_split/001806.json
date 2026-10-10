@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a62ea8f399c04ec7b1e1c1eb413024a8",
+  "context_title": "az elmúlt 10 évből keresd meg a leguniqe outfitet amit egy main stream angol eloado viselt egy klippben",
+  "created_at": "20260621T10:27:55.230451Z",
+  "updated_at": "20260621T10:28:28.432844Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0630fb78ebd74d23856e22f59fae85d4",
+      "query": "az elmúlt 10 évből keresd meg a leguniqe outfitet amit egy main stream angol eloado viselt egy klippben",
+      "answer": "Az elmúlt 10 év legunique outfitjei közül három kiemelkedő jelölt akad — de ha egyetlen legkülönlegesebbet kellene kiemelni, Sam Smith „I'm Not Here To Make Friends\" (2023) klipjének összoutfitje az, ami igazán kategórián kívüli.\n Sam Smith – „I'm Not Here To Make Friends\" (2023)\nSam Smith brit énekes 2023as klipje talán az elmúlt évtized legmerészebb, legunikusabb vizuális előadása egy mainstream angol előadótól. A klipben Sam hatalmas tolldíszes fejdíszt, aprólékosan kirakott korzettet, vibráló tollkabátokat, óriási platformsarkú cipőket és szekvens corsetkombinációkat visel — az egész egy burleszkkabarék stílusát keverő, gendernormaákat lebontó jelmezegyüttes.[1]\nA look nem egyszerűen „furcsa\" — tudatosan vett mintát az 1920as évek kabarékultúrájából, a drag queen esztétikájából és az haute couture divatból egyszerre. Minden egyes outfit váltás a klipben egy önálló divatkijelentés: a rózsaszín tollas roba, a fekete fejdíszes teatrális köntös, és a glitteres nipplecoverek egymás után alkotnak összefüggő, mégis egyedi képi világot.[1]\n Harry Styles – „As It Was\" (2022)\nA másik kiemelkedő jelölt Harry Styles, aki a „As It Was\" klipben egy JW Anderson tervezte piros flitteres overallt viselt, amely azonnali ikonná vált. Ez a look Bowie és Jagger genderfluid klipjeit idézte fel, miközben teljesen kortárs maradt — a British GQ egyenesen Jagger és Bowie mellé sorolta.[1]\nA két look közötti különbség az, hogy Harry Styles overallja egy jól felismerhető, hivatkozható pillanat, míg Sam Smith klipje egy teljes, több rétegű, felforgatott divatnarratívát alkot — ezért egyediség szempontjából Sam Smith viszi a pálmát az elmúlt 10 év mainstream brit klipjeiből.[1]",
+      "created_at": "20260621T10:27:55.537249Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

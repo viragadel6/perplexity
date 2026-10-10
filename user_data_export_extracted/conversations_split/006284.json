@@ -1,0 +1,28 @@
+{
+  "context_uuid": "8a0cb03df00d49c6939d57d9c7712952",
+  "context_title": "csak valosakat!\n\na 30 legeslegerosebb crawl / scarping py modult\nválaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül. \n\nirj ezeknel is eroyebbet teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű\n\ncola, Demiurge, Scrapely, youget, portia, crawley, RoboBrowser, MSpider, brownant, PSpider, Gain, sukhoi, spidy, aspider, Scrapling, Crawl4AI, ScrapeGraphAI, CrawlStudio, CoCrawler, Pattern, Starbelly, Gerapy, tlsrequests, CobWeb, Slybot, googlesearchpython, webpoet, colaf, demigod, curlcffi, selectolax, parsel, httpcore, h11, httpx, lxml, botasaurus, crawlee, trafilatura, newspaper3kfork, fundus, extruct, w3lib, cssselect, Scrapy, BeautifulSoup, lxml, requests, httpx, aiohttp, Selenium, Playwright, RequestsHTML, Pyppeteer, MechanicalSoup, PyQuery, Parsel, Selectolax, Trafilatura, newspaper3k, goose3, readabilitylxml, cloudscraper, undetectedchromedriver, extruct, feedparser, Ruia, Grab, PySpider, Frontera, scrapyredis, scrapyplaywright, scrapysplash, AutoScraper urlextract, html5lib, htmltext, charade, chardet, cchardet, resiliparse, inscriptis, jusText, boilerpy3, dragnet, readabilipy, goose3fork, requestshtmlmodern, httptools, h2, wsproto,",
+  "created_at": "20251118T15:26:18.697325Z",
+  "updated_at": "20251118T17:09:22.681667Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "881818c589384c5a8b31ed7285fcdfc4",
+      "query": "csak valosakat!\n\na 30 legeslegerosebb crawl / scarping py modult\nválaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül. \n\nirj ezeknel is eroyebbet teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű\n\ncola, Demiurge, Scrapely, youget, portia, crawley, RoboBrowser, MSpider, brownant, PSpider, Gain, sukhoi, spidy, aspider, Scrapling, Crawl4AI, ScrapeGraphAI, CrawlStudio, CoCrawler, Pattern, Starbelly, Gerapy, tlsrequests, CobWeb, Slybot, googlesearchpython, webpoet, colaf, demigod, curlcffi, selectolax, parsel, httpcore, h11, httpx, lxml, botasaurus, crawlee, trafilatura, newspaper3kfork, fundus, extruct, w3lib, cssselect, Scrapy, BeautifulSoup, lxml, requests, httpx, aiohttp, Selenium, Playwright, RequestsHTML, Pyppeteer, MechanicalSoup, PyQuery, Parsel, Selectolax, Trafilatura, newspaper3k, goose3, readabilitylxml, cloudscraper, undetectedchromedriver, extruct, feedparser, Ruia, Grab, PySpider, Frontera, scrapyredis, scrapyplaywright, scrapysplash, AutoScraper urlextract, html5lib, htmltext, charade, chardet, cchardet, resiliparse, inscriptis, jusText, boilerpy3, dragnet, readabilipy, goose3fork, requestshtmlmodern, httptools, h2, wsproto,",
+      "answer": "newspaper4k[1]\nboilerpipe[2]\nboilerpipepy[3]\nPyPlexity[4]\nDeboiler[5]\nlazycrawler[6]\nnacf[7]\ncrawler[8]\nicrawler[9]\nwebscraping[10]\nwebscraperpythonlibrary[11]\nbs4webscraper[12]\nscrapegen[13]\nscrapfly[14]\ncrawlbase[15]\nscrapingbee[16]\npywebscrapr[17]\npydatascraper[18]\npythonwebscrapingtutorialstepbystep[19]\nScraperAPI[20]",
+      "created_at": "20251118T15:26:18.787168Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "d28b69f6bd6a4e6ba17cb02e00683d06",
+      "query": "válaszodban szeretném ha csak listába írnád efymás mellé sorolva a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "Crawl4AI[1][2]\nScrapeGraphAI[3][4]\nscrapegraphpy[5]\nCrawlStudio[6][7]\nwrappertlsrequests[8][9]\nRuia[10][11]\nPySpider[12][13]\nGerapy[14][15]\nStarbelly[16][17]\nCobWeblnx[18][19]\nicrawler[20][21]\nnewspaper4k[22][23]\ntrafilatura[24][25]\njusText[26][27]\nboilerpy3[28][29]\nresiliparse[30]\ninscriptis[30]\ndragnet[30]\nreadabilipy[30]\ngoose3[30]\nwebpoet[31]\nwebscraping[32]\nwebscraperpythonlibrary[33]\nbs4webscraper[34]\nscrapegen[35]\npydatascraper[36]\npywebscrapr[37]\npythonwebscrapingtutorialstepbystep[38]\nlazycrawler[7][39]\nscrapling[40][41]",
+      "created_at": "20251118T17:06:01.989558Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "ac0dfb69c30243e9a60288d9a37453ed",
+  "context_title": "",
+  "created_at": "20260414T06:38:15.870232Z",
+  "updated_at": "20260414T06:38:27.908641Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e84d59aa1d9c4dffab47a18459f8f5e8",
+      "query": "",
+      "answer": "A megadott link egy SPIRV interpreter GitHubrepozitóriumára mutat, amelyet a Kbz8 nevű fejlesztő készített, Zig nyelven.[2]\n\n Miről szól ez a projekt?\n\nA leírás alapján ez egy szoftveres SPIRV interpreter, tehát nem egy GPU‑driverre támaszkodó futtatókörnyezet, hanem egy CPU‑n futó program, amely SPIRV bytecode‑ot értelmez és futtat. A SPIRV maga a Khronos szabványos köztes reprezentációja a grafikus és compute shaderekhez, amelyet például Vulkan és OpenCL is használ. Egy ilyen interpreter fő célja lehet oktatás, debugging, tesztelés vagy portabilitás biztosítása olyan környezetekben, ahol nincs vagy nem egységes GPU‑driver.[2]\n\nA leírás szerint a szerző kifejezetten „bound to no single GPU nor driver” jellegű eszközként jellemzi: azaz a kód nem függ konkrét GPU‑tól, és önmagában, CPU‑n képes a SPIRV programokat futtatni. Mivel Zigben írták, valószínű, hogy erősen a nyelv alacsony szintű memóriakezelését és teljesítmény‑orientált jellegét használja.[2]\n\n Mire lehet használni egy SPIRV interpretert?\n\nEgy SPIRV interpreterrel ellenőrizhető, hogy egy shader SPIRV kódja elvileg helyesen fut‑e, anélkül, hogy különböző GPU‑kon, driver‑verziókon kellene tesztelni. Ez jó eszköz lehet implementációk közti különbségek feltárására vagy specifikáció‑megértésre. Emellett oktatási célra is ideális: a SPIRV virtuális gép modelljét szemlélteti, lépésről lépésre követhető végrehajtással.\n\nMivel ez egy CPU‑alapú interpreter, teljesítmény szempontjából nem arra való, hogy nagy, valós idejű grafikai terhelést vigyen, hanem inkább a helyes működés, kompatibilitás és elemzés a fókusza. Ezt a szerepet töltheti be például más grafikus projektek, mint a Rust‑alapú wgpu körüli eszközkészlet kiegészítéseként is, ahol szintén foglalkoznak SPIRV, WGSL és más shader‑formátumok közti átalakításokkal.[3][4]\n\nHa leírod, hogy fejlesztőként pontosan mire szeretnéd használni (debug, oktatás, saját engine‑hez CPU fallback, stb.), szívesen adok konkrétabb, gyakorlati tanácsokat is a projekttel kapcsolatban.",
+      "created_at": "20260414T06:38:17.110331Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

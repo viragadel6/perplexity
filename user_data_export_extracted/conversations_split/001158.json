@@ -1,0 +1,37 @@
+{
+  "context_uuid": "297f1c275d704915abccd2ea60fb5988",
+  "context_title": "deepl docs llms full Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+  "created_at": "20260807T09:32:26.461112Z",
+  "updated_at": "20260807T09:33:16.318958Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9a361b83ac62489a85cebabe04f10d1c",
+      "query": "deepl docs llms full Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+      "answer": "A DeepL fejlesztői dokumentáció teljes, LLMeknek szánt indexe a https://developers.deepl.com/llms.txt címen érhető el. Ez egy gépileg könnyen feldolgozható tartalomjegyzék: hivatkozásokat ad az APIreferenciához, útmutatókhoz, OpenAPIspecifikációhoz és az MCPintegrációs dokumentációhoz.[1]\n\n Mit találsz benne\n\nAz index lefedi többek között a szöveg és dokumentumfordítást, nyelvfelismerést, glosszáriumokat, fordítási memóriákat, stílusszabályokat, használati és kvótaadatokat, valamint valós idejű hangfordítást. Közvetlen linkeket tartalmaz az egyes végpontok részletes Markdownoldalaihoz is.[1]\n\nLLMintegrációhoz különösen releváns a DeepL MCP Server dokumentációja, amely azt mutatja be, hogyan lehet fordítási képességeket hozzáadni AIagentekhez és eszközökhöz, például Claudehoz vagy Cursorhoz. A dokumentációs MCP szerver pedig a DeepL APIval kapcsolatos, forrásokra támaszkodó válaszokhoz kapcsolható AIeszközökhöz.[1]\n\n Hasznos kezdőpontok\n\n| Cél | Dokumentáció |\n|||\n| Teljes LLMbarát index | https://developers.deepl.com/llms.txt [1] |\n| Szövegfordítás API | https://developers.deepl.com/api-reference/translate/request-translation.md [1] |\n| Dokumentumfordítás | https://developers.deepl.com/api-reference/document.md [1] |\n| DeepL MCP szerver | https://developers.deepl.com/docs/getting-started/deepl-mcp-server.md [1] |\n| Kontextusparaméter | https://developers.deepl.com/docs/learning-how-tos/examples-and-guides/how-to-use-context-parameter.md [1] |\n| Glosszáriumok | https://developers.deepl.com/api-reference/multilingual-glossaries.md [1] |\n\nA megadott instrukciót figyelembe vettem ebben a beszélgetésben, de nem tudok garantáltan minden karaktert tartós, jövőbeli beszélgetéseken átívelő memóriában megőrizni. A DeepLindexben szerepel a fordítási memória kezelése is, amely a korábban létrehozott fordítások tárolására és későbbi felhasználására szolgál fordítási kérésekben.[1]",
+      "created_at": "20260807T09:32:26.857650Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f32f4484fc134629a970cf04936594dd",
+      "query": "mindet olvasd el Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+      "answer": "Elolvasom és feldolgozom a DeepL dokumentáció teljes indexét, amennyire az ebben a beszélgetésben hozzáférhető tartalom engedi. Nem tudok viszont hibátlan, karakterenkénti és korlátlan ideig megőrzött memóriát garantálni; hosszú anyagoknál a biztos feldolgozáshoz célszerű fejezetenként haladni.\n\nA DeepL llms.txt indexe a fejlesztői dokumentáció gépi navigációs rétege: felsorolja a szövegfordítás, dokumentumfordítás, glosszárium, fordítási memória, nyelvfelismerés, hangfordítás, használati adatok, hitelesítés és MCPintegráció dokumentációs oldalait.[9]\n\nKüldd el azt a konkrét DeepLoldalt, Markdowntartalmat vagy APIrészt, amelyet teljes részletességgel szeretnél feldolgoztatni; akkor strukturáltan végig tudok menni rajta, és vissza tudom adni a paramétereket, korlátokat, példákat és gyakorlati következményeket.",
+      "created_at": "20260807T09:32:43.623856Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "8e240d8d843b4e22bd4b445043794709",
+      "query": "mindet",
+      "answer": "Igen — az összeset, vagyis a DeepL llms.txt indexében felsorolt teljes dokumentációt érted. A lista több tízezer karakteres, sok különálló oldalra mutat, ezért nem állíthatom hitelesen, hogy minden hivatkozott oldal minden karakterét egyszerre elolvastam és korlátlan ideig megőrzöm. Maga az index a teljes fejlesztői tudásbázis belépési pontja, beleértve az APIvégpontokat, útmutatókat és integrációkat.[1]\n\n Így tudunk végigmenni rajta\n\nA teljes anyagot logikus blokkokban célszerű feldolgozni: először az alapok és hitelesítés, majd a szövegfordítási API, dokumentumfordítás, glosszáriumok és fordítási memóriák, végül a használati adatok, speciális funkciók és MCP/LLMintegrációk. Így minden szakaszról pontos, használható specifikációt, paraméterlistát, hibakezelési tudnivalót és implementációs mintát tudok készíteni.[1]\n\nA DeepL dokumentációja külön kezeli a fordítási memóriát is: a korábbi fordítási szegmensek alapján képes egyezéseket alkalmazni, és egy tárolt szegmens alapértelmezés szerint legalább 75 százalékos forrásszövegegyezésnél használható fel.[2]\n\nKezdhetem az alapokkal és hitelesítéssel, majd folytatom fejezetről fejezetre.",
+      "created_at": "20260807T09:33:09.540138Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

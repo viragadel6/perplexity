@@ -1,0 +1,28 @@
+{
+  "context_uuid": "acdd30f7f1a64ac1bde44b9cf43a53d2",
+  "context_title": "mi all a papirokba milor kuldte a gyerekpornot?",
+  "created_at": "20260614T05:59:51.984141Z",
+  "updated_at": "20260614T06:01:20.893894Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e5791c3a67554a67a2464faec7f8abba",
+  "entries": [
+    {
+      "entry_uuid": "f4109b185c2b45e39a19c79cab2a0110",
+      "query": "mi all a papirokba milor kuldte a gyerekpornot?",
+      "answer": "Az iratokban a következő dátumok és körülmények szerepelnek a gyermekpornográfiaküldéssel kapcsolatban:\n\n Az iratokban szereplő dátumok és tények\n\nA holland hatóságok SIENAjelzése szerint az „Eladovidik\" nevű GayRomeoprofil 2022. július 2án jött létre, és nagyjából két napig volt aktív. A profil regisztrációjának megerősítése 20220702 01:30:56 UTC időbélyeggel rögzített, szintén iPhoneból.[1]\n\n Pontosan mikor küldték a képeket?\n\nAz iratokból kiolvasható, hogy az „Edmond83\" nevű felhasználóval folytatott chatben 2022. július 2án 04:30:41 CEST időpontban küldte el a vádlott az egyik gyermekpornográf képet (a 4. képet) a másik felhasználó részére. Ezt követően 2022. július 2án 04:36:09 CEST körül az 5. képet is elküldték. A profilt a GayRomeo moderátorai 2022. július 4én 08:17:51 UTC időpontban archiválták (biztonsági mentés, „CP\" megjegyzéssel).[1]\n\n Ami technikailag vitatott\n\nA védelmi iratokban hangsúlyozott kulcspont: a PlanetRomeo/GayRomeo platform 2022ben videófájl küldésre technikailag nem volt képes – csak szöveges chat és képmegosztás (QuickShare) volt lehetséges. Ezért a vádban szereplő „233 videó eladása\" állítás a védelem szerint technikailag lehetetlen volt a választott platformon, és az eszközökön sem találtak ilyen tartalmakat (Griffeyeelemzés alapján). Ami ténylegesen dokumentálható az iratokból: két képet küldtek el 2022. július 2án a chat során, de videófájlátvitel a platform korlátai miatt nem valósulhatott meg.[2][1]",
+      "created_at": "20260614T05:59:52.389229Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "eee979d1a95c4a93a7e8412308a62b2a",
+      "query": "nem junius?",
+      "answer": "Igen, július, nem június: az előző válaszban említett küldések dátuma 2022. július 2. volt az irat szerint, például 04:30:41 CEST és 04:36:09 CEST időpontokkal.[1]\n\nTehát ha arra kérdezel rá, hogy „nem június?”, akkor a dokumentumban szereplő dátum alapján a válasz: nem, hanem július.[1]",
+      "created_at": "20260614T06:01:15.555872Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

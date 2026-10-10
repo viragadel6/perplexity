@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e470bc574cd54c9fb3e1f910118278f6",
+  "context_title": "",
+  "created_at": "20251112T20:30:07.352288Z",
+  "updated_at": "20251112T20:30:07.352288Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "547c158dba37457da38d08215dab1702",
+      "query": "",
+      "answer": "Az ERNIE4.5VL28BA3BThinking egy multimodális mesterséges intelligencia modell, amely kiemelkedő vizuálisnyelvi képességeket kínál – különösen a vizuális következtetés, komplex többlépéses elemzés és okokozati viszonyok feltárása terén.[1][2]\n\n Fő fejlesztések és technikai újítások\n\n Nagy mennyiségű, kiváló minőségű vizuálisnyelvi adathalmazon tanították, amivel a vizuális és szöveges szemantikai egyeztetés mélyebb lett.[1]\n Korszerű multimodális megerősítéses tanulását (GSPO, IcePop) alkalmaz, amely stabil befogadó (MoE  Mixture of Experts) tréninget és dinamikus nehézségi mintavételt kínál.[2]\n \"Vizualis földelés\" és \"képekkel való gondolkodás\": pontosabb lokalizáció és rugalmas utasításvégrehajtás például minőségellenőrzési vagy orvosi képalkotásban.[1]\n\n Fő képességei\n\n Vizuális következtetés: Grafikonok, diagramok, jelenetek többlépéses elemzése, trendek azonosítása, okokozati viszonyok feltárása.[2]\n STEM feladatmegoldás: Geometriai feladatok, fizikai erők elemzése képekről, kémiai kísérletek felismerése vizuális input alapján.[1]\n Részletfókuszú elemzés (\"Thinking with Images\"): Képzoomolás, apró részletek feltárása ipari, régészeti vagy térképelemzési felhasználásban.[2]\n Eszközhasználat: Képfelismerés, számítás, adatok ellenőrzése külső eszközökkel.[1]\n Videó feldolgozás: Rövid videók temporális elemzése – objektumok mozgása, fontos események időpontjának azonosítása, tartalomösszegzés.[2]\n\n Használat fő módjai\n\n Hugging Face Transformers: egyszerű Pythoninferálás (text+image) fejlesztőknek.[1]\n vLLM: nagy teljesítményű, alacsony késleltetésű kiszolgálás nagy forgalmú alkalmazásokhoz (pl. ügyfélszolgálat).[2]\n FastDeploy: Baidu gyors, termékkész telepítőeszköze GPUn (80GB javasolt).[1]\n Finetuning ERNIEKit segítségével: utasításalapú és eszközhívásos finomhangolás, több GPU támogatás, LoRA és DPO.[1]\n\n Hardver és egyéb tudnivalók\n\n Minimum 80GB GPU memória szükséges stabil egykártyás futáshoz, 60GB fölött már kvantált módban is használható.[1]\n Kínai és angol nyelvet egyaránt támogat, kiemelkedő teljesítmény kínai tartalmakra.[1]\n Apache License 2.0 – kereskedelmi felhasználásra is szabadon engedélyezett, megfelelő hivatkozási kötelezettséggel.[2]\n\nAz ERNIE4.5VL28BA3BThinking révén az AI multimodális alkalmazásokban, vizuális és nyelvi inputok egységes kezelésében és komplex következtetési feladatokban vált magasfokúan használhatóvá – fejlesztőknek, kutatóknak, vállalati megoldásokhoz egyaránt ajánlott.[2][1]",
+      "created_at": "20251112T20:30:07.466841Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

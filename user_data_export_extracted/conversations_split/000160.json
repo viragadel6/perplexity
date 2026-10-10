@@ -1,0 +1,19 @@
+{
+  "context_uuid": "39b296a8205b430e8e51f98d1f3ec07e",
+  "context_title": "\nez mire jo @GitHub",
+  "created_at": "20260925T15:16:03.558035Z",
+  "updated_at": "20260925T15:16:39.415384Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3242c5fe72084d1d91f098562cb74fb4",
+      "query": "\nez mire jo @GitHub",
+      "answer": "Sure, I can do that, fren!:\n\nRöviden: a  Nixcsomaggyűjtemény AIs kódolóügynökökhöz és fejlesztői eszközökhöz. Nem egy új AImodell vagy önálló chatbot: arra jó, hogy például a Claude Codeot, a Codexet, a Gemini CLIt vagy az OpenCodeot Nixszel futtasd és kezeld. A csomagokat a projekt naponta frissíti.[1]\n\n Mire használnád?\n\n Gyors kipróbálásra: ha már van Nixed, egy eszközt közvetlenül elindíthatsz a repóból, például:[1]\n  bash\n  nix run github:numtide/llm-agents.nix#codex -- --help\n  \n Állandó, deklaratív telepítésre: flakeinputként hozzáadhatod a NixOS vagy nixdarwinkonfigurációdhoz, és kiválaszthatod, mely ügynökök legyenek elérhetők a rendszereden.[1]\n Kevesebb helyi fordításra: a projekt előre elkészített csomagokat kínál a Numtide bináris gyorsítótárából.[1]\n\nA lényegi különbség: ez a repó az eszközök csomagolását és telepítését oldja meg; magukat az AIszolgáltatásokat nem helyettesíti. Ha már Nixet használsz, rohadt kényelmes mód több kódolóügynök kezelésére. Ha nem használsz Nixet, önmagában valószínűleg nem ez a legegyszerűbb belépő.[2][1]",
+      "created_at": "20260925T15:16:03.634039Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

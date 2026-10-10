@@ -1,0 +1,19 @@
+{
+  "context_uuid": "61c31f35c89a46fb8490f090bf16aaf4",
+  "context_title": "instavm.io",
+  "created_at": "20260925T13:38:32.944921Z",
+  "updated_at": "20260925T13:38:47.548221Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0512c6cf0d5b4a8087d705b6200d6937",
+      "query": "instavm.io",
+      "answer": "Az  az InstaVM oldala: AIügynököknek és alkalmazásoknak kínál elkülönített LinuxmikroVMeket, amelyekben kódot lehet futtatni, állapotot megőrizni, illetve szolgáltatásokat közzétenni. Python és TypeScriptSDKt, CLIt és SSHalapú kezelést is kínál.[1]\n\n Mire lehet használni?\n\nPéldául AI által generált kód elkülönített futtatására, tartós ügynökmunkamenetekre vagy egy alkalmazás publikus URLen történő telepítésére. A dokumentáció szerint az induláshoz APIkulcs kell; a CLI a pip install instavm paranccsal telepíthető.[2][1]\n\nAz árlista szerint a Free csomag alapdíja $0, induláskor $50 kredit jár hozzá, a számítási kapacitás pedig használat alapján fizetendő. A Pro alapdíja $100/hó, szintén használati díjjal. Figyelem: az árlista alján $100 induló kredit is szerepel, ami ellentmond az oldal többi részén feltüntetett $50nak; regisztráció előtt ezt érdemes a fizetési felületen ellenőrizni.[3]\n\nMit szeretnél megtudni róla: hogy megbízhatóe, hogyan kell használni, vagy hogy megérie az árazása?",
+      "created_at": "20260925T13:38:33.004926Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

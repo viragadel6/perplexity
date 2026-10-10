@@ -1,0 +1,19 @@
+{
+  "context_uuid": "aaeb965f49df436ea7ed27c772005a2d",
+  "context_title": "",
+  "created_at": "20251120T09:10:38.013143Z",
+  "updated_at": "20251120T09:10:38.013143Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f5be7849b00049079395e2f5d99722c6",
+      "query": "",
+      "answer": "Az általad megadott GitHub link () egy olyan projektet tartalmaz, amely az ATON (Adaptive TokenOriented Notation) nevű, nagy nyelvi modellek (LLMek) számára optimalizált adatszerializációs formátumot fejleszt. Az ATON formátum célja, hogy jelentősen, akár 5060%kal csökkentse a tokenek számát a JSONhoz képest, miközben megőrzi az adat integritását és könnyen olvasható marad. \n\nFő jellemzők és előnyök:\n Explicit séma deklaráció, amely leírja az adatmezők típusait (pl. int, str, bool, arr, obj, datetime, ref).\n Alapértelmezett értékek megadása a gyakori adatokhoz, így azok elhagyhatók az adat sorokból, ezzel tovább csökkentve a tokenhasználatot.\n Táblázatos elrendezés, amely homogén adatgyűjtemények (pl. objektumtömbök) tömör és áttekinthető ábrázolását teszi lehetővé.\n Native kapcsolatok támogatása, amivel entitások között explicit hivatkozásokat lehet létrehozni.\n Teljes körű típusbiztonság, adatvesztés nélküli kódolás és visszafejtés, valamint emberi olvashatóság.\n\nAz ATON formátum alkalmazható például RAG (RetrievalAugmented Generation) rendszerekben, multimodális AI rendszerek állapotkezelésében, ekereskedelmi katalógusok optimalizálásában, időalapú adatelemzésben, és API válaszok tokenköltségeinek csökkentésében.\n\nA csomag Python implementációban érhető el, pip telepíthető, és tartalmaz részletes dokumentációt használatról, fejlesztésről, tesztelésről, valamint API referencia is található benne. A projekt GitHub oldala további példákat, teljesítmény összehasonlításokat és technikai részleteket is nyújt.\n\nÖsszefoglalva: az atonformat egy modern, LLMekre optimalizált adattárolási formátum és könyvtár, amely jelentős token és költségmegtakarítást eredményez a JSONhoz képest, miközben megtartja a részletes típusinformációkat és az emberi olvashatóságot.[1][2]",
+      "created_at": "20251120T09:10:39.024437Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

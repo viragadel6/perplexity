@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8ecc23970d3d4f8e9fdedebef43c2f22",
+  "context_title": "generalj ennek egy logo",
+  "created_at": "20250924T19:57:18.161283Z",
+  "updated_at": "20250924T19:57:18.161283Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5064300babfc4030afe6b49907502381",
+      "query": "generalj ennek egy logo",
+      "answer": "Media generated: 'Minimalista tech logó Generalj felirattal.'",
+      "created_at": "20250924T19:57:18.267803Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

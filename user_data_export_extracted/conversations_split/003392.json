@@ -1,0 +1,19 @@
+{
+  "context_uuid": "40f2179cbd9841c5986d62347b5c6660",
+  "context_title": "halide nyelv",
+  "created_at": "20260317T21:08:52.994846Z",
+  "updated_at": "20260317T21:09:23.761271Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bf0e7ae3a5fb47288d846564bc953013",
+      "query": "halide nyelv",
+      "answer": "A Halide szónak két fő jelentése van magyarul, amelyek teljesen eltérő területekre vonatkoznak: egy kémiai fogalomra és egy programozási nyelvre.\n\n Kémiai jelentés: halogenid\n\nA halide (ejtsd: /ˈhælaɪd/) a kémia területén halogenideket jelöl. Ez egy olyan vegyületet vagy iont jelent, amelyben egy halogénelem (fluor, klór, bróm, jód vagy asztácium) más elemmel kombinálódik. Például a nátriumklorid (konyhasó, NaCl) egy tipikus halide vegyület, amelyben a klór a halogén. A halogenidek rendkívül fontosak az iparban, az orvostudományban és a mindennapi életben egyaránt.[7][8]\n\n Programozási nyelv: Halide\n\nA Halide egy nyílt forráskódú, területspecifikus programozási nyelv (DSL – domainspecific language), amelyet képfeldolgozásra, gépi tanulásra és általános tömbfeldolgozásra optimalizáltak. Technikailag C++ könyvtárként és beágyazott nyelvként működik, azaz C++ba integrálva használható, operátortúlterheléssel természetes szintaxist biztosítva.[6]\n\n Az algoritmus és az ütemezés szétválasztása\n\nA Halide legfontosabb újítása az, hogy szétválasztja az algoritmust (mit kell kiszámítani) az ütemezéstől (hogyan kell optimalizálni). Ez azt jelenti, hogy a fejlesztő egyszer leírja a képfeldolgozási logikát, majd különböző „schedule\"okat (ütemezéseket) írhat különböző hardverplatformokhoz – CPUkhoz és GPUkhoz egyaránt –, anélkül, hogy magát az algoritmust módosítaná. Az ütemezések egyszerűen, modulárisan kezelik a párhuzamosítást, vektorizációt, a gyorsítótárlokalitást és a memóriakezelést.[6]\n\n Valós alkalmazások\n\nA Halide nyelvet olyan nagyvállalatok használják, mint a Google, az Adobe és a Qualcomm. Gyakorlatilag minden egyes fotót feldolgoz, amelyet egy Google Pixel telefonnal készítenek, minden egyes Photoshopdokumentumban kezeli a rétegek kompozitálását, és a YouTubeon is videófeldolgozásra alkalmazzák. Ez azt mutatja, hogy teljesítménykritikus, ipari léptékű alkalmazásokban is megállja a helyét, miközben a fejlesztési idő töredékét igényli a hagyományos megközelítésekhez képest.[6]\n\n Halide Mark II – a kamera alkalmazás\n\nLétezik egy Halide Mark II nevű, iOSre készült professzionális kamera alkalmazás is, amelyet az App Storeban lehet megtalálni. Ez az app RAW és ProRAW felvételek készítésére specializálódott iPhoneokon, és a neve valószínűleg a kémiai/optikai „halide\" fogalomból ered, utalva a hagyományos filmes fényképezés halogénezüstalapú kémiai folyamataira.[4][5]\n\nMelyik Halideot keresed – a kémiai fogalmat, a programozási nyelvet, vagy esetleg az iPhoneos kamera alkalmazást?",
+      "created_at": "20260317T21:08:53.061029Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

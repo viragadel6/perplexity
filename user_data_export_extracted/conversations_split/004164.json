@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1727ee96d4e545428e516b878259d6ce",
+  "context_title": "melyik az a ssrg fajl?",
+  "created_at": "20260214T18:21:47.030055Z",
+  "updated_at": "20260214T18:22:18.234744Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f3d6faf4be954d64a426da79310782ea",
+      "query": "melyik az a ssrg fajl?",
+      "answer": "Az SSRG (SelfSimilar Relational Graph) több fájlban is megjelenik a projektedben. A főbb fájlok, amelyek az SSRGvel foglalkoznak:\n\n SSRG Implementációk\n\n formal_verification.zig.txt[1]\nEz a fájl tartalmazza a legtöbbet SSRGről. A \"NSIR Formal Verification Engine\" egy átfogó Zig implementáció, amely selfsimilar relational graph struktúrákat kezel formális verifikációval, beleértve a Hoare logikát, automatizált tételbizonyítást, gráf invariánsokat (összefüggőség, kvantumkoherencia, összefonódás), bizonyításvalidálást és verifikációs motort rezolúcióval és visszafelé láncolással.[1]\n\n rgpu.lean.txt[2]\nEz a fájl definiálja az SSRG formális struktúráját Lean 4ben. A SelfSimilarRelationalGraph struktúra csomópontokat (Nodes) és éleket (Edges) tartalmaz, valamint számos művelet és tétel található benne a gráfokra vonatkozóan, például addNode, addEdge, nodeCount, edgeCount függvények és a kapcsolódó tételek bizonyításai.[2]\n\n c_api.zig.txt (file:15)\nA JAIDE C API implementáció Zigben, amely C FFIt biztosít selfsimilar relational gráfokhoz kvantumállapotokkal, szimulált hűtési optimalizálóval és gráfműveletekkel, beleértve az összefonódást, kapukat és fraktál dimenziót.[3]\n\n Egyéb kapcsolódó fájlok\n quantum_hardware.zig.txt   IBM kvantumszámítási backend, amely szintén kapcsolódik a kvantumrelációs gráfokhoz[4]\n futhark_kernels.fut.txt   GPU kerneleket tartalmaz, amelyek támogatják az RGPU műveleteket[5]\n\nHa konkrétan az architektúra központi implementációját keresed, akkor a formal_verification.zig.txt és rgpu.lean.txt fájlok a legfontosabbak, mivel ezek tartalmazzák a teljes SSRG definíciót, műveleteket és formális tulajdonságokat.[1][2]",
+      "created_at": "20260214T18:21:47.206675Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

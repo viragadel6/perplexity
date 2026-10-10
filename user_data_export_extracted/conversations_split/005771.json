@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b1153c076c9948298e8e84e25ee2c7b7",
+  "context_title": "",
+  "created_at": "20251211T16:21:18.775645Z",
+  "updated_at": "20251211T16:21:18.775645Z",
+  "mode": "COPILOT",
+  "collection_uuid": "4dae5311ffbf40ab8280f3c1236ea6cd",
+  "entries": [
+    {
+      "entry_uuid": "404b882a38a34698bd3f76c9bdacb505",
+      "query": "",
+      "answer": "A linkelt útvonal a Hugging Faceen lévő MultiSynt/MT-Nemotron-CC dataset repó egyik almappája (data/additional/tower9b/hun_Latn), tehát a repón belüli fájlstruktúrában található magyar (hun_Latn) tartalomhoz vezet.[1]\nA legegyszerűbb megoldás: töltsd le a teljes dataset repót, és lokálisan nézd meg ezt a mappát.[2][3]\n\n Gyors ellenőrzés a Hubon\nA datasetnek van webes „viewer” felülete is; itt látszik például, hogy a hun_Latn konfiguráció nagyon nagy (a viewer szerint 305M sor nagyságrend).[1]\nHa a konkrét tower9b/hun_Latn almappát akarod böngészni, a „Files and versions” nézetben tudod megnyitni a repo könyvtárfáját, és ott megkapod a fájllistát (ugyanott, ahol a tree link is van).[2]\n\n Letöltés CLIvel\nA Hugging Face hivatalos letöltési módja a hf download, ahol megadhatod, hogy dataset repóról van szó.[3]\n\nbash\nhf download MultiSynt/MT-Nemotron-CC --repo-type dataset --local-dir MT-Nemotron-CC\n\n\nEzután a keresett mappa itt lesz (repo gyökerétől): MT-Nemotron-CC/data/additional/tower9b/hun_Latn.\n\n Letöltés gittel\nA Hugging Face Hub repók gitalapúak, ezért a dataset repo le is klónozható.[2]\n\nbash\ngit clone https://huggingface.co/datasets/MultiSynt/MT-Nemotron-CC\ncd MT-Nemotron-CC/data/additional/tower9b/hun_Latn\nls -la\n\n\nHa megírod, hogy „csak a fájlneveket és méreteket” kéred ebből a mappából, vagy konkrét fájlokat akarsz letölteni belőle, megadok hozzá célzott parancsokat (platform: Linux/macOS/Windows?).",
+      "created_at": "20251211T16:21:20.358116Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

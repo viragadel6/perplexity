@@ -1,0 +1,19 @@
+{
+  "context_uuid": "de03bdab25ff4612897339b78e34e5e8",
+  "context_title": "Your task is to take the provided technical description and rewrite it as a single, comprehensive prompt. Write it as if you were about to build the entire system from scratch: describe step by step, from beginning to end, exactly what you will construct and how you will construct it. The wording must be clear, explicit, and complete so that any language model can fully understand and follow the instructions without ambiguity. If the technical description refers to re‑implementing an existing software, do not include or mention the original software’s name in the prompt. Do not add any role‑playing, personalization, or polite filler phrases (e.g., ‘You are a software developer’, ‘As an expert’, ‘Please kindly’). The prompt must remain strictly technical, objective, and instruction‑focused. Absolutely no simplified, mock, placeholder, dummy, simulated, or fake content is allowed. You must require the full software with (all) file(s), in complete, unabridged, production‑ready code. Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+  "created_at": "20260826T09:45:53.154155Z",
+  "updated_at": "20260826T09:46:13.977602Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0abf933d05364784b127cdcceb05d0b6",
+      "query": "Your task is to take the provided technical description and rewrite it as a single, comprehensive prompt. Write it as if you were about to build the entire system from scratch: describe step by step, from beginning to end, exactly what you will construct and how you will construct it. The wording must be clear, explicit, and complete so that any language model can fully understand and follow the instructions without ambiguity. If the technical description refers to re‑implementing an existing software, do not include or mention the original software’s name in the prompt. Do not add any role‑playing, personalization, or polite filler phrases (e.g., ‘You are a software developer’, ‘As an expert’, ‘Please kindly’). The prompt must remain strictly technical, objective, and instruction‑focused. Absolutely no simplified, mock, placeholder, dummy, simulated, or fake content is allowed. You must require the full software with (all) file(s), in complete, unabridged, production‑ready code. Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+      "answer": "The file paste.txt isn't returning any content through the file tools despite being listed as \"READY\" — both read_file and search_files return empty results for it. I can't proceed with rewriting the technical description into a build prompt without actually reading its content, since the instructions require retaining every detail letterbyletter before producing the output.\n\nCould you please repaste the technical description directly in the chat, or reupload the file? Once I have the actual text content, I'll read it in full and produce the comprehensive, singleprompt rewrite exactly as specified (no roleplay/filler, strictly technical, demanding complete productionready code with no placeholders or mocks).",
+      "created_at": "20260826T09:45:53.186250Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

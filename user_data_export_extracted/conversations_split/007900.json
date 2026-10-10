@@ -1,0 +1,19 @@
+{
+  "context_uuid": "435d74656fab4a6ebee6720e181c0db0",
+  "context_title": "translate to english! “ez mi? ertekeld magyarul! teljesen nezd at az osszes fájlt! vilagszinten mennyire fejlett? majd ha piacra kerul varhatoan mennyire lesz dominans?”",
+  "created_at": "20251007T08:37:33.501970Z",
+  "updated_at": "20251007T08:37:33.501970Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fe3f1ba1ee144c6680e14b69569b6285",
+      "query": "translate to english! “ez mi? ertekeld magyarul! teljesen nezd at az osszes fájlt! vilagszinten mennyire fejlett? majd ha piacra kerul varhatoan mennyire lesz dominans?”",
+      "answer": "\"What is this? Evaluate it in Hungarian! Go through all the files completely! How advanced is it on a global scale? Once it reaches the market, how dominant is it expected to be?\"",
+      "created_at": "20251007T08:37:33.628422Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

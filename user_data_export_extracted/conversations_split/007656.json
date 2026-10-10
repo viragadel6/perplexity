@@ -1,0 +1,37 @@
+{
+  "context_uuid": "4da5c8a69f45459c9f7554c342c23bf4",
+  "context_title": "grok 4 fast output token",
+  "created_at": "20251013T09:52:33.892139Z",
+  "updated_at": "20251013T10:06:29.482931Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8d1c99a133bc4458b5acf490e68d68e4",
+      "query": "grok 4 fast output token",
+      "answer": "A Grok 4 Fast kimeneti token díja $$0.50$$ USD / $$1$$M token a reasoning módban, extended kontextusban méretfüggően $$0.50$$–$$1.00$$ USD / $$1$$M token.[1]\n\nA kimeneti sebesség kb. $$342.3$$ token/másodperc.[1]\n\nA generált kimeneti tokenek számát a maxtokens paraméterrel lehet korlátozni a kérésben.[1]\n\nA teljes határt a Grok 4 Fast $$2{,}000{,}000$$ tokenes kontextusablaka adja, ahol a prompt és a completion együtt nem lépheti túl ezt a keretet.[1]\n\nRate limitek: várhatóan legfeljebb $$2{,}000{,}000$$ token/perc (TPM) és $$480$$ kérés/perc (RPM).[1]",
+      "created_at": "20251013T09:52:33.974923Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "9ad9bcb8ead049b88d6e8bd3ec905ce9",
+      "query": "de max token szam",
+      "answer": "Röviden: Grok 4 Fast esetén nincs fix „max_tokens” plafon, a kimenet felső határát a kontextusablak fennmaradó része adja (Standard: 128K, Extended: 2M), tehát a prompt és a completion együtt nem lépheti túl a modell kontextusát.[1]\n\nA maxtokens paraméterrel explicit korlát állítható a generált kimenetre; ha ezt eléri, a finish_reason értéke „length” lesz.[1]\n\nFormálisan: $$ \\text{max\\_tokens} \\le \\text{context\\_window}  \\text{prompt\\_tokens} $$ (Standard árazásnál 128 000 − prompt, Extended árazásnál 2 000 000 − prompt).[1]",
+      "created_at": "20251013T09:53:34.210315Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "35592a7bd347483a96cb30434dc289d4",
+      "query": "de py kodba",
+      "answer": "Íme egy rövid Python példa, amely Grok 4 Fast modellnél a kimenet felső korlátját a maxtokens paraméterrel állítja be.[1]\nA beállított értéket a modell kontextusablakából fennmaradó kapacitás korlátozza, és elérésénél a finish_reason „length” lesz.[1]\n\n Python SDK példa\nAz alábbi példa a hivatalos xAI Python SDKval mutatja be a maxtokens használatát Grok 4 Fast reasoning módban.[1]\npython\nimport os\nfrom xaisdk import Client\nfrom xaisdk.chat import user, system\n\n# Előkészítés\nclient = Client(api_key=os.environ[\"XAI_API_KEY\"])\n\n# Chat létrehozása Grok 4 Fast (reasoning) modellel és max kimeneti token korláttal\nchat = client.chat.create(\n    model=\"grok-4-fast-reasoning\",\n    temperature=0.7,\n    maxtokens=1500,  # kimeneti token limit\n)\n\n# Üzenetek\nchat.appendsystem(\"Te egy hasznos asszisztens vagy.\")\nchat.appenduser(\"Adj 5 pontban összefoglalót a témáról.\")\n\n# Mintavétel\nresponse = chat.sample()\n\nprint(response.content)\nprint(\"finish_reason:\", response.finish_reason)       # várhatóan \"stop\" vagy \"length\"\nprint(\"completion_tokens:\", response.usage.completion_tokens)\n\nA fenti kérésekben a maxtokens a generált kimeneti tokeneket limitálja, és ha eléri a keretet, a válasz befejezési oka „length” lesz.[1]\nA Grok 4 Fast modellazonosítói: „grok4fastreasoning” és „grok4fastnonreasoning”, így igény szerint választható mélyebb vagy kikapcsolt reasoning mód.[1]\n\n OpenAIkompatibilis példa\nAz xAI API OpenAI SDKkompatibilis, ezért az alábbi minta is használható, a maxtokens ugyanúgy megadható a kérésben.[1]\npython\nimport os\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=os.environ[\"XAI_API_KEY\"],\n    base_url=\"https://api.x.ai/v1\",  # xAI kompatibilis végpont\n)\n\nresp = client.chat.completions.create(\n    model=\"grok-4-fast-reasoning\",\n    messages=[\n        {\"role\": \"system\", \"content\": \"Te egy hasznos asszisztens vagy.\"},\n        {\"role\": \"user\", \"content\": \"Írj tömör összefoglalót 8 pontban.\"},\n    ],\n    maxtokens=1200,  # kimeneti token limit\n    temperature=0.6,\n)\n\nprint(resp.choices[0].message.content)\nprint(\"finish_reason:\", resp.choices[0].finish_reason)\nprint(\"usage:\", resp.usage)\n\nA kompatibilitás lehetővé teszi a megszokott hívásmintát, a modellnév megadásával és a maxtokens paraméterrel együtt.[1]\nA válasz objektumban az usage mezőben látható a prompt, completion és total token számláló, így a limitálás hatása is ellenőrizhető.[1]\n\n Megjegyzések\nA tényleges felső határt a kontextusablak maradéka adja: $$ \\text{maxtokens} \\le \\text{context\\_window}  \\text{prompt\\_tokens} $$ (Grok 4 Fast: Standard 128K, Extended 2M), vagyis a prompt és a completion együtt nem lépheti túl a kontextuskeretet.[1]\nGrok 4 Fast esetén két variáns áll rendelkezésre: reasoning és nonreasoning; a reasoning mélyebb gondolkodást ad, míg a nonreasoning gyorsabb és költséghatékonyabb feladatokra alkalmas.[1]",
+      "created_at": "20251013T10:05:38.966685Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "cb912d8bdfa74302b00cf4cb20bddf97",
+  "context_title": "de csak egy search prompt nem kell meselni xd",
+  "created_at": "20260906T21:40:44.424023Z",
+  "updated_at": "20260906T21:40:52.143283Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6fb189adc1324a598dbaf7ca88bfa6c9",
+      "query": "de csak egy search prompt nem kell meselni xd",
+      "answer": "Kérlek, add meg, hogy pontosan mire keressek rá.",
+      "created_at": "20260906T21:40:44.479161Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

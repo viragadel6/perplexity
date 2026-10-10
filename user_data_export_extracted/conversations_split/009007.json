@@ -1,0 +1,37 @@
+{
+  "context_uuid": "df0965b4bfdf4c0aac1f8a38f24bdf4b",
+  "context_title": "",
+  "created_at": "20250819T07:31:30.348612Z",
+  "updated_at": "20250819T07:32:11.331155Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a3aa9e3ea681469595d051a13e38817d",
+      "query": "",
+      "answer": "The linked GitHub repository \"wseasyncga\" by user mmore500 is about development work for agentbased evolution and epidemiological modeling on the Cerebras WaferScale Engine (WSE) hardware. It incorporates hereditary stratigraphy methodology for distributed tracking of agent phylogenies.\n\nThe repository includes:\n A port of hsurf algorithms to the Cerebras Software Language (CSL) along with supporting materials for WSE kernels.\n A kernel for a decentralized, islandmodel genetic algorithm that runs across WSE Processing Elements, with customizable genomes, mutation operators, and fitness functions.\n Python support code for data analysis.\n Scripts to run on the Cerebras WSE hardware simulator.\n\nThe project requires the Cerebras SDK, which is available through invitation.\n\nFor installation and running instructions, the repository suggests consulting their Continuous Integration configuration files.\n\nFor citation in scientific publications, the repository provides a citation format with the authors Matthew Andres Moreno and Connor Yang, year 2024.\n\nFeel free to ask if you want details on any part of the project or how to use it.",
+      "created_at": "20250819T07:31:31.358465Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "af919f01df5d42d6a600d7f20e6cf5e0",
+      "query": "magyarul",
+      "answer": "Rendben. Összefoglalom magyarul:\n\nA „wseasyncga” GitHubrepo (mmore500) egy fejlesztési projekt, amely ügynökalapú evolúciós/epidemiológiai modellezést valósít meg a Cerebras WaferScale Engine (WSE) hardveren, és a leszármazási rétegezés (hereditary stratigraphy) módszertanát használja az ágensfilogéniák elosztott követésére.\n\nFő tartalmak:\n cerebraslib: hsurf algoritmusok portolása Cerebras Software Language (CSL) nyelvre és egyéb WSEkernel segédanyagok.\n kerneltestcerebraslib: egységtesztek WSE hardverszimulátoron a cerebraslib komponenseire.\n kernelasyncga: általános célú, decentralizált, „szigetes” genetikus algoritmus keretrendszer WSE feldolgozó elemek (PEk) között; konfigurálható genommérettel, testreszabható mutációs operátorral és fitneszfüggvénnyel; tartalmaz szkripteket a WSE szimulátoron futtatáshoz.\n pylib: Python támogató kód adatelemzéshez.\n\nKövetelmények:\n Szükséges a Cerebras SDK (meghívásos hozzáféréssel).\n\nTelepítés és futtatás:\n A részletek a folyamatos integrációs (CI) konfigurációkban találhatók; a nyilvános repo CIjében a „testcsl” lépések nem futnak (IPvédelem miatt).\n\nHivatkozás (idézés) publikációhoz:\n Matthew Andres Moreno és Connor Yang (2024). mmore500/wseasyncga.\n BibTeX: @software{moreno2024wse, author={Matthew Andres Moreno and Connor Yang}, title={mmore500/wseasyncga}, month=dec, year=2024}\n\nHa szeretnél, segíthetek:\n a környezet beállításában (mi kell a WSE szimulátorhoz és a CSL fordításhoz),\n a „kernelasyncga” használatában (genomméret, mutáció, fitnesz testreszabása),\n tesztfuttatások és eredménykiértékelés (pylib) lépéseiben.",
+      "created_at": "20250819T07:31:41.503871Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "4846cf6c01744cb8ad9f6bd94ccc53ea",
+      "query": "most akk more jo",
+      "answer": "Örülök, ha így már jobb! Ha szeretnél, mehetünk tovább a következőkkel:\n\n Gyors kezdés: hogyan futtasd a WSEszimulátoron a „kernelasyncga” demót.\n Testreszabás: genomméret, mutációs operátor, fitneszfüggvény beállítása.\n Eredmények kiértékelése: hogyan használd a „pylib”et grafikonokhoz/elemzéshez.\n Környezet: milyen Cerebras SDK és CSL eszközök kellenek, és hogyan állítsd be.\n\nMondd meg, mivel kezdjük, vagy dobhatsz egy célfeladatot (pl. „bináris genom 1,024 bittel, 1% mutáció, OneMax fitnesz”), és adok hozzá konkrét lépéseket és parancsokat.",
+      "created_at": "20250819T07:32:07.122899Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

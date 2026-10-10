@@ -1,0 +1,37 @@
+{
+  "context_uuid": "02e1276b68de475e987472c101b21f24",
+  "context_title": "az  osszes aloldalanak linkjet kuldjet",
+  "created_at": "20250915T00:57:43.479991Z",
+  "updated_at": "20250915T01:06:05.755069Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1c512ff149094808a3c5573369428420",
+      "query": "az  osszes aloldalanak linkjet kuldjet",
+      "answer": "Az alábbiakban összegyűjtve találhatók a docs.exa.ai dokumentáció publikusan látható fő aloldalai relatív útvonalakkal, a dokumentációs példák és szekciók alapján válogatva.[1][2][3]\n\n /[3]\n /reference/quickstart[1]\n /reference/gettingstarted[3]\n /reference/search[4]\n /reference/answer[5]\n /reference/contentsretrieval[6]\n /reference/crawlingsubpages[3]\n /reference/crawlingsubpageswithexa[7]\n /reference/howexasearchworks[8]\n /reference/faqs[9]\n /reference/langchain[10]\n /reference/llamaindex[11]\n /reference/recentnewssummarizer[3]\n /reference/companyanalyst[3]\n /reference/exaresearcher[3]\n /reference/exarag[3]\n /sdks/typescriptsdkspecification[12]\n /websets[2]",
+      "created_at": "20250915T00:57:43.602759Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "7dc1bb8014f145e5810c3c862d2036a4",
+      "query": "DE A FULL LINKEKET",
+      "answer": "Az docs.exa.ai fő aloldalainak teljes linkjei az alábbiak. Ezek közvetlenül megnyithatók :[1][2][3][4][5][6][7][8][9][10][11][12]\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nMinden fenti link a docs.exa.ai dokumentáció egyegy releváns, publikus aloldalára mutat.[2][3][4][5][6][7][8][9][10][11][12][1]",
+      "created_at": "20250915T00:58:47.308307Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "deaac706325e42da83522459830aacd2",
+      "query": "most az xai grok 4 docs linkeket",
+      "answer": "Az xAI Grok 4 hivatalos dokumentációjának fő linkjei a következők:\n\n \n \n \n\nEzek a Grok 4hez tartozó doksik fő belépési pontjai a dokumentációban, további technikai részletek, gyorsindítás, APIleírások, árak, funkcionalitás, regionális elérhetőség is megtalálhatók itt.[1][2][3]",
+      "created_at": "20250915T01:06:00.036738Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

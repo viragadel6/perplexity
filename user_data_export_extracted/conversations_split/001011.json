@@ -1,0 +1,28 @@
+{
+  "context_uuid": "778ce7d4b7004b21854b164fdd36ac9d",
+  "context_title": "az avatar pandora xboxos video jatek source kodja fent van githubon? @GitHub",
+  "created_at": "20260815T06:42:25.007432Z",
+  "updated_at": "20260815T06:43:24.198232Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "da32b5b1ceda4ff9a5eefa5b0d466170",
+      "query": "az avatar pandora xboxos video jatek source kodja fent van githubon? @GitHub",
+      "answer": "Nem: az Avatar: Frontiers of Pandora teljes, hivatalos játékforráskódja nem található meg nyilvánosan GitHubon. A keresés csak rajongói moddingeszközöket, kisebb segédprogramokat, fordításokat és egyéb közösségi projekteket hozott fel — nem Ubisoft által kiadott Snowdropjátékkódot. \n\n Ami fent van GitHubon\n\n : C nyelvű modloader, amely a játékhoz külső assetek betöltését segíti; archív állapotú projekt. \n : Blenderbővítmény Avatarmeshek importjára/exportjára modkészítéshez. \n : Ikran, Na’vi és más játékassetek szerkesztésére készült eszköz. \n : felszerelésmodellek cseréjét segítő GUIsegédprogram. \n\n Vigyázat\n\nA „cheat”, „hack”, „trainer” nevű, frissen létrehozott és kevés aktivitású repókat nem javaslom letölteni vagy futtatni: ezek nem a játék forráskódjai, és különösen kockázatosak lehetnek biztonság és fióktiltás szempontjából. A találatok között több ilyen is szerepel.",
+      "created_at": "20260815T06:42:25.044968Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "7bba25c0ed5d46308267c9dcfbe94742",
+      "query": "akkor ha megveszem a jatekot teljes aron akkor azzal megszerzem a forraskodot nem?",
+      "answer": "Nem. A játék teljes áron való megvásárlásával a játék használati jogát/licencét szerzed meg, nem a forráskódot, és nem a játék szellemi tulajdonjogait. Az Ubisoft feltételei ezt kifejezetten úgy fogalmazzák meg, hogy a termék „licencelve van, nem eladva”; a tulajdonjog és minden IPjog az Ubisoftnál vagy licencadóinál marad.[1][2]\n\n Mit kapsz a vásárlással?\n\n Jogot, hogy telepítsd és személyes, nem kereskedelmi célra használd a játékot.\n A lefordított, futtatható játékfájlokat, asseteket és frissítéseket — nem az ember által szerkeszthető fejlesztői projektet.\n Nincs jogod a kódot lemásolni, visszafejteni, dekompilálni vagy saját változatot terjeszteni, kivéve ahol ezt kötelező helyi jogszabály kifejezetten engedi.[2][3]\n\n Egyszerű példa\n\nOlyan, mint amikor megveszel egy filmet Blurayen: megnézheted, de nem kapod meg hozzá a vágóprojektet, az eredeti nyersanyagokat és a stúdió belső gyártási fájljait.\n\nA játék forráskódjához csak akkor lenne hozzáférésed, ha az Ubisoft külön, írásos licencben vagy nyílt forrású kiadásban ezt biztosítaná.",
+      "created_at": "20260815T06:43:16.242250Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

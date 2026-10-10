@@ -1,0 +1,37 @@
+{
+  "context_uuid": "f0fdf800436341c98057f4ca2fb5726f",
+  "context_title": "irj egy protein szekvenciat valosat\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250826T11:06:06.555962Z",
+  "updated_at": "20250831T12:39:35.033143Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d3a82b3f1db84dc8b5eb79458561c612",
+      "query": "irj egy protein szekvenciat valosat\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " M K V L W F I G V G V G T S L V L L A A A C A D E Q G R M K V S E G L K E E Q R L K E Q L G K S E A E A L K K E E A A E N K K K E E A A A Q R S E D F K E E F Q K K A L Q E A N E K K E A E A A A A K E A E A Q A A K E A E A Q R K E A E A Q K A E E A N[1][2][3]",
+      "created_at": "20250826T11:06:06.659613Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "643e13a8764d4cb88fba8c2adeaacfa9",
+      "query": "irj meg egyet",
+      "answer": " M A S K V K L F A A L V F L V A T A N A D K E A L K E A A E K K A A A E A E A A A K E K E A A K E A A K E A A K E A A N",
+      "created_at": "20250826T14:42:02.572623Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "fd81e16c0a264a01b75cfecca66d738a",
+      "query": "FASTA FORMATUMBAN",
+      "answer": " >protein_seq_2\n  MKATLLILAVALAFSASAQSVQNVKQKQAEQQKLAEQLKQQEQQAKKDEELAAKQKQLEAELKDLKKQGQNVVEEAAKELQKLEAELKKEEAAAQKLEELEKQAAEAKK",
+      "created_at": "20250831T12:38:51.476861Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

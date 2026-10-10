@@ -1,0 +1,19 @@
+{
+  "context_uuid": "baa9a7b942a047719186c7ab8caa592d",
+  "context_title": "modular ai docs Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+  "created_at": "20260901T13:28:39.020910Z",
+  "updated_at": "20260901T13:29:16.770257Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d4a7439abca7458fa8924a5e3fe4f3a5",
+      "query": "modular ai docs Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+      "answer": "Modular provides a unified AI development and serving stack designed to execute highperformance inference across heterogeneous hardware architectures like Nvidia, AMD, Apple silicon, and CPUs. Its official documentation centers on two foundational opensource technologies: the MAX engine and the Mojo programming language.[1][2][3][4]\n\n Core Platform Components\n\nThe Modular documentation architecture is organized around three primary layers:[3][5]\n\n Mojo: A highperformance systems programming language designed as a superset of Python that compiles directly to hardware via MLIR (MultiLevel Intermediate Representation).[6][3]\n MAX (Modular Accelerated Xecution): An extensible framework and graphlevel compiler for executing, optimizing, and serving AI pipelines.[3][6]\n Modular Cloud: Managed infrastructure offering serverless and dedicated inference endpoints with standard OpenAIcompatible interfaces.[5][7]\n\n MAX Framework Architecture\n\nMAX unifies model execution across target architectures by compiling model computation graphs directly down to hardwarespecific machine code.[1][6]\n\n MAX Engine & Graph Compiler: Ingests models from PyTorch or ONNX and performs graphlevel optimizations, layer fusion, and automatic kernel scheduling.[4][6]\n Custom Mojo Kernels: Delivers hardwareaccelerated compute primitives written directly in Mojo rather than fragmented C++ or vendorspecific CUDA code.[4][6]\n MAX Serve: Provides a productiongrade inference server compatible with the OpenAI API format for dropin LLM serving.[5][4]\n MAX Pipelines: Offers composable Python APIs for building multimodal, agentic, and streaming generative workflows.[4]\n\n Mojo Language Essentials\n\nMojo bridges the gap between Python syntax and baremetal performance, enabling systemslevel AI development.[3][5]\n\n Memory Safety & Ownership: Uses an explicit ownership, borrowing, and lifetime model inspired by modern systems languages while retaining rapid prototyping flexibility.[3]\n Hardware Portability: Generates lowlevel instructions for PTX (Nvidia), AMDGPU IR (AMD ROCm), Apple Metal, and SIMD CPU vector extensions.[6]\n ZeroCost Interoperability: Imports and executes standard Python packages directly within Mojo code without foreign function interface overhead.\n\n Documentation and Developer Resources\n\nDevelopers can explore official technical resources, repositories, and API references through the primary entry points:[4][3]\n\n Platform Documentation Index: [3]\n OpenSource Repository & Standard Library: [4]\n Language Manual & Reference: [3]",
+      "created_at": "20260901T13:28:39.122066Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

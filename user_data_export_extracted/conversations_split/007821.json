@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c1765c0fdab54269bf06ac19f959b2f2",
+  "context_title": "quantum to train llm free trial api key",
+  "created_at": "20251009T16:46:48.814537Z",
+  "updated_at": "20251009T16:46:48.814537Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e80e8f7227df446d8edf03ee169ccaeb",
+      "query": "quantum to train llm free trial api key",
+      "answer": "A kvantumszámítástechnika és a nagy nyelvi modellek (LLM) képzése jelenleg két elkülönülő technológiai terület, mivel a kvantumszámítógépek még nem elég fejlettek ahhoz, hogy LLMeket képezzenek. Azonban több ingyenes próbaverziós APIkulcs érhető el mindkét területen különkülön.[1][2][3]\n\n Ingyenes LLM APIkulcsok\n\nA legismertebb ingyenes LLM APIszolgáltatások 2025ben a következők: Google AI Studio ingyenes hozzáférést biztosít a Gemini 2.5 Pro modellhez APIkulcs nélkül vagy kreditkártyaellenőrzés nélkül, naponta 25 kérésig és percenként 5 kérésig. A Groq Cloud kiváló ingyenes szintet kínál kezdőknek, gyors válaszidőkkel. Az OpenRouter, Cerebras, és DeepSeek szintén ingyenes hozzáférést biztosítanak különböző modellekhez.[3][4][5][1]\n\nAz IBM Quantum Platform ingyenes hozzáférést nyújt valódi kvantumprocesszorokhoz és szimulációkhoz a Qiskit keretrendszeren keresztül, amely nyílt forráskódú. Az IBM korlátlan ingyenes használatot kínál több 5qubites eszközhöz és egy 7qubites eszközhöz. A Google Cirq és Microsoft Quantum Development Kit szintén ingyenes, nyílt forráskódú eszközök kvantumalgoritmusok fejlesztéséhez.[6][2][7][8]\n\n APIkulcs megszerzése\n\nAz IBM Quantum Platform APIkulcs létrehozásához regisztrálni kell a platform dashboardján, ahol azonnal létrehozható a kulcs. A Google AI Studio esetében az aistudio.google.com oldalon bejelentkezés után közvetlenül elérhető az \"APIkulcs lekérése\" gomb. Mindkét szolgáltatás azonnal használható a regisztráció után, programozási nyelvtől függetlenül.[7][4][9]",
+      "created_at": "20251009T16:46:48.902573Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "52564413679f4e228865b7ba66bf3dbd",
+  "context_title": "CUDA 12.8.1\nUbuntu 24.04 (base image nvidia/cuda:12.8.1develubuntu24.04)\nPython 3.11\nZig 0.14.1 (zigx86_64linux0.14.1)\nFuthark 0.26.4 (futhark0.26.4linuxx86_64)",
+  "created_at": "20260808T07:22:18.969150Z",
+  "updated_at": "20260808T07:22:26.006017Z",
+  "mode": "COPILOT",
+  "collection_uuid": "dd89b627d2a24c64993e4a84d51e7774",
+  "entries": [
+    {
+      "entry_uuid": "19a62a9220a7419eb1e9c99c62111e37",
+      "query": "CUDA 12.8.1\nUbuntu 24.04 (base image nvidia/cuda:12.8.1develubuntu24.04)\nPython 3.11\nZig 0.14.1 (zigx86_64linux0.14.1)\nFuthark 0.26.4 (futhark0.26.4linuxx86_64)",
+      "answer": "toml\n[agent]\nexpertMode = true\n\n\nnix\n{ pkgs }: {\n  deps = [\n    pkgs.python311\n    pkgs.zig\n    pkgs.futhark\n    pkgs.cudaPackages.cudatoolkit\n  ];\n}\n",
+      "created_at": "20260808T07:22:19.053259Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

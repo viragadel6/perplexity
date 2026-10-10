@@ -1,0 +1,19 @@
+{
+  "context_uuid": "56cf32ac6f534b8ea783f2f472350eed",
+  "context_title": "fin.com",
+  "created_at": "20260103T09:06:01.020305Z",
+  "updated_at": "20260103T09:06:01.020305Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5bf81f2d2cb74ca58a48d4869738151a",
+      "query": "fin.com",
+      "answer": "A fin.com jelenleg egy olyan szolgáltatás weboldalának tűnik, amely stabilcoinalapú, nemzetközi kifizetési és pénzmozgatási infrastruktúrát kínál vállalatoknak („global payouts”, „borderless payments”).[1]\nUgyanakkor a „Fin.com” név alatt más, eltérő profilú cégre utaló nyilvános találat is van, ezért érdemes pontosítani, melyikre gondolsz (a domain aktuális tartalma vs. a korábbi/névazonos vállalat).[2][1]\n\n Mit ígér a fin.com (aktuális oldal)\nA fin.com a saját leírása szerint gyors, határokon átívelő fizetéseket tesz lehetővé stabilcoinokra építve, és „realtime” rugalmasságot/átláthatóságot hangsúlyoz.[1]\nA weboldalon szereplő FAQ szerint Litvániában VASPként regisztráltak, és az Egyesült Arab Emírségekben „Payment Services Provider (Category 3D)” státuszt említenek, valamint azt, hogy 30+ országban támogatnak megfelelőségi (compliance) pénzáramlásokat.[1]\n\n Támogatott pénznemek és integráció\nA fin.com azt állítja, hogy USD és EUR „named accountokat”, 30+ helyi pénznemben történő kifizetéseket, illetve USDC/USDT stabilcoinokat támogat több láncon (pl. Ethereum, Polygon, Arbitrum, Base, Solana).[1]\nA leírás alapján APIs működés, KYC/KYB/AML folyamatok és „whiteglove” bevezetési támogatás is része a szolgáltatásnak.[1]\n\n Névütközés / több „Fin”\nEgy LinkedInoldal „Fin.com” néven egy teljesen más jellegű céget ír le: SaaSalkalmazásokban dolgozó ügyfélkapcsolati/operációs csapatok munkájának láthatóságát és elemzését adó megoldást, 2019es alapítással és San Franciscoi központtal.[2]\nEz alapján elképzelhető, hogy a „fin.com” domain tulajdonosa/tartalma időközben megváltozott, vagy több, hasonló nevű entitás keveredik a találatokban.[2][1]\n\nMit szeretnél megtudni a fin.comról: hogy pontosan micsoda (összefoglaló), megbízhatóság/átverésgyanú ellenőrzés, vagy a cég jogi háttere és tulajdonosa?",
+      "created_at": "20260103T09:06:01.202263Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c9d012218e4a48919aa3cf0b1014a3a2",
+  "context_title": "Deliver the entire codebase for Replit. It must run instantly and errorfree. No simplified, mock, placeholder, dummy, todo, simulated, or fake content. Provide all files in full, unshortened, productionready code. No comments or extra messages. : @DuetQAVerified.jsonl.txt azt akarom hogy ezt a fájlt fordítsa le a claude opus 4 teljesen magyarra es json formátumba mentse az app konyvtarba es ugy hogy a leheto legmagasabb minosegu es tisztasagu legyen a datasets es a jaide betanitasi igenyeihez igazítva\nApi kulcs: skantapi032262xQgu9NVabA1fLiRuxYOyWRB32igigiqjDRHZG04ZgiXTamuqTZaw8yNAaztVVK5gSmqGf2i6DNh88AAQvggQAA\n\nMODEL\nREQUESTS PER MINUTE\nINPUT TOKENS PER MINUTE\nOUTPUT TOKENS PER MINUTE\nClaude Sonnet 4.x\n5\n10,000\n≤ 200k context, excluding cache reads\n4,000\n≤ 200k context\nClaude Opus 4.x\n5\n10,000\n≤ 200k context, excluding cache reads\n4,000\n≤ 200k context",
+  "created_at": "20251012T16:59:53.708852Z",
+  "updated_at": "20251012T16:59:53.708852Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0b739b353d474df3a64dc636b422d9f6",
+      "query": "Deliver the entire codebase for Replit. It must run instantly and errorfree. No simplified, mock, placeholder, dummy, todo, simulated, or fake content. Provide all files in full, unshortened, productionready code. No comments or extra messages. : @DuetQAVerified.jsonl.txt azt akarom hogy ezt a fájlt fordítsa le a claude opus 4 teljesen magyarra es json formátumba mentse az app konyvtarba es ugy hogy a leheto legmagasabb minosegu es tisztasagu legyen a datasets es a jaide betanitasi igenyeihez igazítva\nApi kulcs: skantapi032262xQgu9NVabA1fLiRuxYOyWRB32igigiqjDRHZG04ZgiXTamuqTZaw8yNAaztVVK5gSmqGf2i6DNh88AAQvggQAA\n\nMODEL\nREQUESTS PER MINUTE\nINPUT TOKENS PER MINUTE\nOUTPUT TOKENS PER MINUTE\nClaude Sonnet 4.x\n5\n10,000\n≤ 200k context, excluding cache reads\n4,000\n≤ 200k context\nClaude Opus 4.x\n5\n10,000\n≤ 200k context, excluding cache reads\n4,000\n≤ 200k context",
+      "answer": "Sajnálom, de úgy tűnik, félreértés történt. A csatolt fájl (file.txt) nem tartalmaz DuetQA adathalmazt. A fájl valójában egy komplex JAIDE V31 KANLLM nevű projekt teljes kódbázisa több mint 50 különböző programozási nyelven (Gleam, Python, Elixir, Zig, Lean, Agda, stb.).[1]\n\nA fájl tartalma:\n Konfigurációs fájlok (config.json, gleam.toml)\n Kubernetes deployment fájlok\n Neurális háló komponensek\n Kvantum computing modulok\n Formális verifikációs bizonyítások\n Tréning szkriptek\n\nNincs benne JSONL formátumú kérdésválasz párok vagy DuetQA dataset.[1]\n\n Mit tehetek helyette?\n\nHa valóban van egy DuetQAVerified.jsonl fájl, akkor:\n\n1. Kérlek, csatold be a helyes fájlt (a tényleges .jsonl fájlt)\n2. Alternatívaként megoszthatnád a fájl pontos nevét/útvonalát\n\nVagy ha ez a kódbázist szeretnéd valamilyen módon módosítani/lefordítani, azt is meg tudom tenni, de ehhez pontosítanod kell a feladatot.\n\nFontos: Az API kulcs, amit megosztottál, nyilvános lett  biztonsági okokból azonnal érvénytelenítsd az Anthropic fiókodban![1]",
+      "created_at": "20251012T16:59:53.885951Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

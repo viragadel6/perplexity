@@ -1,0 +1,19 @@
+{
+  "context_uuid": "48f5e6347da248bea1a8833cdb126ba8",
+  "context_title": "replitrol modal com api val tudok deployolni webappokat?",
+  "created_at": "20251024T14:08:04.972587Z",
+  "updated_at": "20251024T14:08:04.972587Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "624e6f4db6e94dbeb7636a4b583674bd",
+      "query": "replitrol modal com api val tudok deployolni webappokat?",
+      "answer": "Sajnos a „replitrol modal com APIval” jelenleg nem létezik: a Modal .com felhőszolgáltatásnak nincs olyan beépített Replitcsatlakozója, amely egy Replitprojektet közvetlenül, APIhívással „át­deployolna” önálló webappként.  \n\n Miért nem működik közvetlenül?  \n  Modal.com konténeralapú, ephemerális futtatókörnyezetet ad; tipikusan stateless batchfeladatokhoz vagy webhook/cronvégpontokhoz tervezték, nem folyamatosan futó webszerverekhez.[1]\n  A platform ugyan nemrég bevezetett HTTPendpoint támogatást (FastAPI, Flask), de ezek éles környezetben 1530 perc inaktivitás után leállhatnak, így klasszikus „alwayson” webapp helyett inkább APIfunkciókra alkalmas.[2]\n  Replit Deployments (Static, Autoscale, Reserved VM) már önmagában kínál teljes értékű webhosztingot, CDNt, saját domaint és folyamatos futást; ehhez nincs szükség külső Modalrétegre.[3]\n\n Mit lehet mégis tenni?  \n1. Ha Repliten fejlesztesz, de Modalon szeretnél futtatni:  \n   – GitHubra pushold a kódot, majd a Modal Python SDKban definiálj egy @stub.function(image=...) blokkot, benne pl. egy FastAPIinstanciát. Ezt CLIvel (modal deploy) lehet publikálni. Így azonban már nem Replitről, hanem GitHubról deployolsz.  \n2. Ha Repliten maradsz:  \n   – Használd a Replit “Autoscale” vagy “Reserved VM” deploytípust, ami HTTPSt, egész napos futást és perrequest skálázást is kezel.[3]\n3. Ha mindenképp serverless logikát vinnél Modalra:  \n   – Tartsd a webfrontot Repliten, és hívj háttérfüggvényeket (pl. AIinferencia) Modal HTTPendpointokon keresztül. Így a két platform kombinálható, de maga a webapp továbbra is Repliten fut.  \n\n Rövid válasz  \nKözvetlen, „egygombos” Replit → Modal webappdeploy API jelenleg nincs; Modal főleg stateless függvényekre optimalizált, míg Replit már saját, folyamatosan futó webes deploymegoldást ad. Használható workaround a GitHubos forrásszinkron vagy a front/backend szétválasztása, de Replitről Modalra önálló webappot közvetlenül nem lehet publikálni.[1][2][3]",
+      "created_at": "20251024T14:08:05.031573Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

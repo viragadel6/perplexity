@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8df7047fa4a947c29d90bbae196e94ed",
+  "context_title": "enbe mi van?",
+  "created_at": "20251226T00:41:27.842636Z",
+  "updated_at": "20251226T00:41:27.842636Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3f3ba79c96014c04a7826abac833edd8",
+      "query": "enbe mi van?",
+      "answer": "A \"file1\" nevű csatolt fájlban nem sikerült a tartalmat feldolgozni, mert feldolgozási hiba (parsing_error) történt. A fájl mérete kb. 132 KB, és 2025. december 26án töltötték fel.[1]\n\n Fájl részletei\n Név: file1\n Méret: 131 745 bájt\n Feltöltés dátuma: 20251226\n Státusz: Feldolgozási hiba miatt nem olvasható a tartalom\n\nHa újra feltöltöd a fájlt vagy több részletet adsz meg róla (pl. formátum, típus), segíthetek jobban elemezni.[1]",
+      "created_at": "20251226T00:41:27.890869Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

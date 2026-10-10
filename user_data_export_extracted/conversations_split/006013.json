@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d57923c6604c4391994814714fbd2450",
+  "context_title": "minden egyes karaktert VALÓBAN elolvasol és feldolgozol elsőtől az utolsóig és az ÖSSZES hibát listába írod a teljesség igényével! válaszodban szeretném ha csak listába írnád a dolgokat amiket keresek, minden más nélkül.   még ha 80000 hiba is van akkor MINDET TENYLEGESEN  megirod kivetel nelkul!",
+  "created_at": "20251201T21:06:17.969892Z",
+  "updated_at": "20251201T21:06:17.969892Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9b0182b3390a49b88d3d215fb96c0bc4",
+      "query": "minden egyes karaktert VALÓBAN elolvasol és feldolgozol elsőtől az utolsóig és az ÖSSZES hibát listába írod a teljesség igényével! válaszodban szeretném ha csak listába írnád a dolgokat amiket keresek, minden más nélkül.   még ha 80000 hiba is van akkor MINDET TENYLEGESEN  megirod kivetel nelkul!",
+      "answer": " Hiányzik a .pip_install() függvény záró zárójele a 5. sor után\n Hiányzik az @app.function() dekorátor záró zárójele a 26. sor után\n Szintaxis hiba: két dekorátor egymás után nem megfelelően strukturálva",
+      "created_at": "20251201T21:06:18.055416Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "ad63aaf337a7430baede02d0290d187b",
+  "context_title": "VPS Hosting (Linux VPS) free trial underdog at least 100gb cutting edge  no one known in 2025.08.03",
+  "created_at": "20250803T01:44:42.530142Z",
+  "updated_at": "20250803T01:44:42.530142Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fa7109f02802490f903cc91d396e5b97",
+      "query": "VPS Hosting (Linux VPS) free trial underdog at least 100gb cutting edge  no one known in 2025.08.03",
+      "answer": " Ingyenes (freetrial) Linux VPS szolgáltatók, amelyek legalább 100 GB tárhelyet adnak, és 2025ben még „underdognak” számítanak\n\nAz alábbi három szolgáltató nem tartozik a „nagy nevek” (AWS, Azure, GCP, DigitalOcean, Vultr, Linode stb.) közé, mégis ingyenes próbaidőt kínálnak 100 GB vagy több SSD/NVMe tárhellyel Linux VPShez 2025ben.\n\n| Szolgáltató | Próbaidő / kredit | Tárhely mérete | CPU / RAM | Feltételek, különlegesség | Hol számít „underdognak”? |\n|||||||\n| UltaHost | 30 napos valódi próba, teljes körű menedzselés | 100 GB NVMe[1] | 2 vCPU, 4 GB DDR5 RAM (alap) | Korlátlan forgalom, Debian 11/12 választás, BitNinja védelem, DDR5 memória, igény szerint panel és lokációválasztás | Még kevéssé ismert KözépEurópában; fő piac USA–MENA |\n| VPSMart | 24 órás ingyenes teszt (kártya nélkül) | 100 GB SSD[2] | 3 vCPU, 6 GB RAM (Express Plus csomag) | „Need free trial” megjegyzéssel rendelhető; dedikált IP; 100 Mbps unmetered; Ubuntu/CentOS/Debian | Főként vállalati resellerek ismerik, de fejlesztői körökben alig ismert |\n| AlaVPS | 30 napos moneyback (kvázi free trial) | 100 GB SSD[3] | 1 vCPU, 1 GB RAM (ingyenes csomag) | Teljes root, 1 TB sávszélesség, cPanel licenc nélkül | Startupszintű host, kevés review, friss 2024es belépő a VPSpiacra |\n\n\\ VPSMartnál a 24 órás teszt ingyenes; ha hosszabb ideig használnád, normál díjra vált.\n\n Miért „cuttingedge”?\n\n  UltaHost NVMe driveokkal és DDR5 memóriával szereli a próbacsomagját, ami 2025ben is a leggyorsabb elérhető memóriatechnológia[1].  \n  VPSMart 100 Mbps unmetered sávszélességet ad még a tesztidő alatt is, ami fejlesztési/staging célokra bőven elegendő[2].  \n  AlaVPS az ingyenes csomagban is cPaneldíjmentes adminisztrációt enged és 1 TB adatforgalmat nyújt[3].\n\n Rövid értékelés\n\n UltaHost: A legkiegyensúlyozottabb teljesítmény–ár–funkció arány, fejlett hardver, rugalmas OSválasztás.  \n VPSMart: Villámgyors kipróbálásra ideális; ha bejön, olcsó havi díjjal skálázható.  \n AlaVPS: Valóban „free forever” opció kis erőforrásigényű projektekhez; nagy tárhelye miatt média vagy backuptesztekhez jó.\n\n Mire figyelj próba alatt?\n\n1. Időkorlát – UltaHost és AlaVPS 30 nap, VPSMart csak 24 óra.  \n2. Automatikus számlázás – UltaHostnál próba végén fizetős csomagra vált, ha nem mondod le időben.  \n3. CPU/RAMlimit – A fenti szolgáltatók 1–2 vCPUt és 1–6 GB RAMot adnak; CPUintenzív teszthez skálázd fel.  \n4. Geolokáció – Ha Magyarországhoz közeli adatközpont kell, UltaHost európai régiót is kínál; VPSMart USAcentrikus; AlaVPS szerverei főleg Ázsiában/USAban futnak.\n\nEzekkel a kevésbé ismert, de technológiailag naprakész szolgáltatókkal ingyen kipróbálhatod a 100 GBos Linux VPSt, mielőtt döntesz a hosszabb távú bérlésről.",
+      "created_at": "20250803T01:44:42.625626Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

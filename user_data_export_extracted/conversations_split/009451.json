@@ -1,0 +1,46 @@
+{
+  "context_uuid": "1f6dff80c8c541fa9c62fee811f689fe",
+  "context_title": "kuldj el minden dokumentacio oldal linket az  cerebras ai honlaprol, exa ai oldalrol, \nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250719T03:13:01.565936Z",
+  "updated_at": "20250719T03:14:38.153754Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8f4e855a38a441e1859b9ccecb610cbf",
+      "query": "kuldj el minden dokumentacio oldal linket az  cerebras ai honlaprol, exa ai oldalrol, \nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Cerebras AI dokumentációs oldalak\n\n \n \n \n \n \n \n \n \n\n\n Exa AI dokumentációs oldalak\n\n \n \n ",
+      "created_at": "20250719T03:13:01.785185Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "c0e60129f85d42ddbee8558861c80533",
+      "query": "tobbi? legalabb 2020",
+      "answer": " Cerebras AI dokumentációs oldalak (minimum 20)\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n Exa AI dokumentációs oldalak (minimum 20)\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nA felsorolások tartalmazzák az összegyűjthető, elérhető dokumentációk URLjeit is, amelyek a két keresett szolgáltatáshoz kapcsolódnak.",
+      "created_at": "20250719T03:13:20.802787Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "5f92c89629274a56a1aa3e7d71d3e924",
+      "query": "de csak hivatalos sajat doku",
+      "answer": " Hivatalos Cerebras AI dokumentációs oldalak\n\n \n \n \n \n \n \n\n Hivatalos Exa AI dokumentációs oldalak\n\n \n \n \n \n \n \n \n \n \n \n \n ",
+      "created_at": "20250719T03:13:59.969025Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "dcf21d2fa6e24a9499389be8687c6285",
+      "query": "de igy 20 geci",
+      "answer": " 20 hivatalos Cerebras AI dokumentációs oldal\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n 20 hivatalos Exa AI dokumentációs oldal\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ",
+      "created_at": "20250719T03:14:17.249178Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

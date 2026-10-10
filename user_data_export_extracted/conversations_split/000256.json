@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e4a9ae820e964ac9873aa4562ec34358",
+  "context_title": "LLM API gateway offering access to Proprietary models, including with a $10 signup credit   The website explicitly states “$10 free credits on sign up.” This meets the criterion of offering a $10 sign‑up bonus or equivalent credit for new users, and the credits are usable for Proprietary llm API services.",
+  "created_at": "20260920T00:29:04.466338Z",
+  "updated_at": "20260920T00:29:34.206886Z",
+  "mode": "COPILOT",
+  "collection_uuid": "4330985e44b44ab7a2d16cb5aab55da0",
+  "entries": [
+    {
+      "entry_uuid": "75138f6056e04b5fb6c66335439b3824",
+      "query": "LLM API gateway offering access to Proprietary models, including with a $10 signup credit   The website explicitly states “$10 free credits on sign up.” This meets the criterion of offering a $10 sign‑up bonus or equivalent credit for new users, and the credits are usable for Proprietary llm API services.",
+      "answer": "ValueAPI is an AI API gateway that provides access to leading proprietary models alongside a $10 free signup credit without requiring a credit card upfront.[1]\n\n ValueAPI Gateway Overview\n\nThe platform acts as a unified LLM API gateway, connecting applications to over 500 language models through a single OpenAIcompatible base URL. New accounts receive a complimentary $10 balance upon registration, allowing developers to test API integrations and call endpoints immediately.[1]\n\nBecause it implements the standard OpenAI chat completion schema, developers can swap existing client base URLs and API keys without rewriting application code. The service features automated fallback chains, latency monitoring, and policybased request routing to balance cost against response quality.[1]\n\n Supported Proprietary Models\n\nThe gateway provides unified routing to several major proprietary and open model families, including:\n\n OpenAI models such as GPT4o, GPT4.1, and reasoningfocused variants.[1]\n Anthropic models including the Claude Opus, Sonnet, and Haiku series.[1]\n Google models spanning the Gemini Pro and Flash families.[1]\n Highperformance openweight models including DeepSeek and Qwen distributions.[1]\n\nUsage for both proprietary and open models is billed on a payasyougo token basis, drawing directly against the $10 credit pool until it is exhausted.[1]\n\n Alternative Credit Programs\n\nWhile ValueAPI directly offers $10 upon signup, other AI gateways and model providers operate comparable promotions:\n\n Merge Gateway provides $10 in monthly credit allowances to route traffic across major LLM providers.[2][3]\n Novita AI grants a $10 account credit through its developer referral program, which applies across its serverless model catalog.[4][5]\n AI21 Labs and Upstage supply $10 in trial credits for new accounts, though their access is limited to their proprietary models such as Jamba and Solar.[6][7]",
+      "created_at": "20260920T00:29:04.551774Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

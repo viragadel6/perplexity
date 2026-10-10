@@ -1,0 +1,19 @@
+{
+  "context_uuid": "871223abd6ec4611a76b03f99b1d6667",
+  "context_title": "csutortok hajnal 1 kor sokan atlagosan vagy kevesen lehetnek szeged es kecskemet kozott az m5 os autopalyan?",
+  "created_at": "20251119T23:12:36.901624Z",
+  "updated_at": "20251119T23:12:36.901624Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "085075a90f5648d18d85a0067023d5d3",
+      "query": "csutortok hajnal 1 kor sokan atlagosan vagy kevesen lehetnek szeged es kecskemet kozott az m5 os autopalyan?",
+      "answer": "Csütörtök hajnalban 1 órakor az M5ös autópálya Szeged és Kecskemét közötti szakaszán általánosságban kevesen vannak, a forgalom gyérnek mondható a személyautókat tekintve, ugyanakkor érdemes néhány fontos tényezővel számolnia:\n\n Forgalmi helyzet hajnali 1kor\n   Személyautók: Nagyon alacsony forgalom várható. Ilyenkor szinte üresek a sávok, kényelmesen lehet haladni.\n   Kamionok: Az M5ös kiemelt nemzetközi tranzitútvonal (Szerbia/Románia és NyugatEurópa között), így jelentős teherforgalomra számíthat még ebben az időpontban is. A kamionok folyamatos konvojokban haladhatnak a külső sávban.[1][2]\n\n Aktuális korlátozások (2025. november 20.)\nA mai napon (csütörtökön) az alábbi munkálatok befolyásolhatják a haladást ezen a szakaszon:\n   Kunszállási csomópont építése (Kecskemét közelében): A Szeged és Kecskemét közötti részen, Kunszállás térségében csomópontépítési munkák zajlanak. Itt terelésekre és 100 km/hs sebességkorlátozásra kell számítania, ami lassíthatja a haladást.[3]\n   M44 csomópont építése (Kecskemétnél): A 74es kilométerszelvénynél (KecskemétÉszak) szintén zajlik az új gyorsforgalmi út bekötése, ami miatt fokozott figyelmet igénylő szakaszok lehetnek.[2][1]\n\n Összegzés és tanács\nÖsszességében nyugodt, gyors haladásra számíthat, dugótól nem kell tartania, de a kamionok és az építési tereléseknél lévő sávszűkítések miatt érdemes éberen vezetni. Novemberben a hajnali órákban ezen a környéken gyakori a ködfoltok kialakulása is, ami ronthatja a látási viszonyokat.",
+      "created_at": "20251119T23:12:37.001823Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

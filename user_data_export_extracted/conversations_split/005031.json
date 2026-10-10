@@ -1,0 +1,37 @@
+{
+  "context_uuid": "e54aa46c16a349d6b88aef73315ab5ee",
+  "context_title": "",
+  "created_at": "20260110T19:05:23.539384Z",
+  "updated_at": "20260110T19:09:22.763594Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0a548e19775c4f488244e29f2883fb47",
+      "query": "",
+      "answer": "Az általad megadott link az OpenAGI / Lux fejlesztői dokumentáció „models” szekciójára mutat: \n\n Mi található ezen az oldalon?\n\n A Lux névre hallgató computeruse alapmodell(ek) listája és rövid leírása, amelyek kifejezetten grafikus operációs rendszerek használatára, böngészésre, alkalmazások kezelésére vannak optimalizálva.[2][1]\n Jellemzően itt szerepelnek a modellek elérési nevei (pl. APIban használható model azonosítók), a támogatott képességek (pl. web‑böngészés, többlépéses feladatvégrehajtás, fájlkezelés), és hogy mely SDK‑kon keresztül érhetők el.[1][2]\n Az oldal része az OpenAGI fejlesztői konzol/dokumentációs rendszerének, ezért általában innen linkelnek a „Quickstart” és SDK‑példák, amelyek megmutatják, hogyan kell a Lux‑ot kódból hívni.[2][1]\n\n Mire jó a Lux / OpenAGI modellkínálata?\n\n A Lux egy olyan ügynökmodell, amely „úgy használ számítógépet, mint egy ember”: látja a képernyőt, értelmezi a természetes nyelvű utasításokat és lépésről lépésre kattint, gépel, navigál.[3][2]\n A dokumentációban tipikusan olyan use caseek vannak, mint webes adatgyűjtés (scrape), űrlapok automatikus kitöltése, admin feladatok elvégzése vagy komplex böngésző‑workflowk automatizálása.[3][2]\n\n Hogyan használd a models oldalt?\n\n Nézd meg a konkrét modellek neveit és támogatott funkcióit; ez alapján válaszd ki, melyik felel meg a feladatodnak (pl. általános computeruse ügynök vs. speciálisabb variáns, ha ilyen van).[1][2]\n Kövesd az ott linkelt SDK‑ vagy API‑példákat (pl. „Lux SDK”), ahol megmutatják, hogyan kell a kiválasztott modellt inicializálni, autentikálni és egy egyszerű parancsot futtatni vele.[2][3][1]\n\nHa megírod, hogy pontosan mit szeretnél csinálni (pl. „Luxszal szeretnék egy webshopban automatikusan rendelést leadni Pythonból”), tudok konkrétabb, lépésről‑lépésre útmutatót adni (minta API‑hívásokkal, architektúra‑javaslattal).",
+      "created_at": "20260110T19:05:23.966605Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f73d149e13e444918e2b78c2ed8b0a68",
+      "query": "de ez most tenyleg from scartch model?",
+      "answer": "Lux nem „semmiből” (randomul) tanított from scratch nyelvi modell, hanem egy kifejezetten computer‑use feladatra kiképzett foundation modell, amihez speciális, aktív interakciós tanítási eljárást használnak.[1][2]\n\n Mit jelent a „foundation computer‑use model”?\n\n Luxot úgy mutatják be, mint elsődleges, általános célú „foundation computer‑use model”t, ami teljes desktopokat és böngészőket tud kezelni, nem csak chatelni.[2][3][1]\n A modell képernyőképeket és akciószekvenciákat tanul, azaz vizuális UI‑t és hozzá tartozó kattintás / gépelés lépéseket, hogy célokat tudjon végrehajtani az operációs rendszeren.[4][1]\n\n Hogyan tanítják (Agentic Active Pre‑training)?\n\n A Lux tanításához az OpenAGI egy „Agentic Active Pre‑training” nevű módszert használ: a modell nem passzívan olvas szöveget, hanem aktívan cselekszik digitális környezetekben, és ezekből az interakciókból tanul.[1][2]\n Ehhez az OSGym nevű, MIT licencű infra több ezer operációs rendszer példányt futtat, amelyekben a modell valós UI‑kon gyakorol (office szoftverek, böngészők, dev toolok stb.).[2][1]\n\n „From scratch” a klasszikus LLM‑ekhez képest?\n\n A publikusan elérhető leírások nem írják le részletesen, hogy teljesen nyers súlyokról indult‑e, vagy egy általános nyelvi/vision‑language alapmodellre építették rá a computer‑use tréninget.[4][1]\n Viszont egyértelmű, hogy a döntő különbség az, hogy nem sima webszövegből tanul, hanem nagymennyiségű „trajectory” (képernyőkép + action sequence) adaton, ezért funkcionál foundation computer‑use modellként, nem csak „chat LLM + tool calling” wrapperként.[1][2][4]\n\n Miben más, mint Operator / Gemini CUA?\n\n Az OpenAGI kommunikációja szerint Lux kifejezetten erre a célra, nagyléptékű computer‑use trajektóriákon lett betanítva, és az Online‑Mind2Web benchmarkon jelentősen veri az Operator / Gemini CUA / Claude Sonnet 4 modelleket (83,6% vs. 61–69%).[3][2][1]\n Emiatt érdemes úgy tekinteni rá, mint dedikált computer‑use foundation modellre, nem pedig egy általános LLM‑re, amire utólag ráhackelték a kurzor‑vezérlést.[4][1]\n\nHa konkrétan arra vagy kíváncsi, hogy „nyelvi modell szinten is” teljesen from scratch‑e (pl. nincs mögötte GPT‑stílusú pretrain), azt jelenleg nem dokumentálják nyíltan; csak az biztos, hogy a fő pretrain fázisa agentic computer‑use trajektóriákon fut, nem hagyományos webszöveg‑korpuszokon.[2][1]",
+      "created_at": "20260110T19:06:07.434635Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "3857e03355bc4bda95b5533563c09e34",
+      "query": "de ugy ertem h egy llama mistrsl stb finetune?",
+      "answer": "A nyilvános dokumentáció nem adja meg explicit, hogy Lux egy Llama, Mistral vagy más nyílt alapmodell finetuningje, vagy teljesen saját felépítésű modell.[1][2]\n\n Mit tudunk biztosan:\n\n1. Agentic Active Pretraining – Az OpenAGI a saját, dedikált tréningmódszerrel készítette el a modellt, ami hangsúlyosan másféle, mint az átlagos LLM pretraining.[2]\n\n2. OSGym adatmotor – Az OpenAGI opensourceizzal az OSGym infrastruktúrát (az adatgyűjtés és tréning infrastruktúrája), ami azt sugallja, hogy a modellt saját adatokon tanították.[2]\n\n3. Nem áll föl, mint „finetune wrapper\" – A nyelvhasználat azt sugallja, hogy Lux egy foundation modell, nem pedig egy meglévő LLM + ráforrasztott tool calling/computeruse adapter.[2]\n\n Azonban:\n\n Az OpenAGI nem detektálható nyíltan, hogy a base modell egy Llama, Mistral, vagy GPTszerű arquitectúrae.\n Lehetséges, hogy egy nyílt basemodellre építve (pl. Llama) aztán rá agentic pretrainingot végeztek, de ezt nem közlekedik.[2]\n Az is lehetséges, hogy teljesen saját.\n\n Praktikus konklúzió:\n\nHa valaki azt szeretné tudni, hogy mennyire „házi\" a Lux: az OpenAGI álláspontja az, hogy dedikált agentic pretraining (nem klasszikus LLM + finetune), és ha azt szeretnéd használni, ők az SDKon keresztül biztosítják APIként, nem pedig súlyok/repo download formában.[1][2]\n\nTovább konkrét technikai detailokért (base architecture, paraméterméretek, full training report) valószínűleg az OpenAGIhoz kellene fordulni vagy a GitHub repókat böngészni, de a nyilvános weboldal erre nem ad választ.",
+      "created_at": "20260110T19:06:51.327589Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

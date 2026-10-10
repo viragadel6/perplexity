@@ -1,0 +1,28 @@
+{
+  "context_uuid": "488d25ca0019490bbf13b3ff4bc9c201",
+  "context_title": "WASM (WebAssembly) nal van gyorsabb frontend nyelv?",
+  "created_at": "20251213T11:21:57.852252Z",
+  "updated_at": "20251213T11:23:53.986828Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b9dbf913d601451abea3ce237ee07278",
+      "query": "WASM (WebAssembly) nal van gyorsabb frontend nyelv?",
+      "answer": "WASM önmagában nem ad „gyorsabb frontend nyelvet” a komplett UIhoz; inkább arra jó, hogy a böngészőben futó, CPU‑igényes részeket közel natív sebességgel lehessen futtatni.  A legtöbb webes felületnél továbbra is JavaScript/TypeScript kezeli a DOM‑ot és az eseményeket, a WASM pedig opcionális gyorsító modul.[1][2]\n\n Mit gyorsít a WASM\nA WebAssembly tipikusan akkor hoz érezhető gyorsulást, amikor sok számítás történik (pl. képfeldolgozás, audio/video feldolgozás, fizika, kriptográfia, 3D/engine jellegű kód).  A böngészők a WASM bináris formátumát általában gyorsan tudják letölteni/dekódolni/fordítani, és sok esetben a futtatás is gyorsabb lehet, mint ugyanaz a feladat JSben.[2][1]\n\n Mi nem lesz gyorsabb\nA WASM jelenleg nem fér hozzá közvetlenül a DOMhoz; a Web APIkat jellemzően JavaScripten keresztül kell hívnia, ami határátlépési (interop) költséget jelent.  Emiatt „UI‑logika + sok DOM művelet” jellegű feladatokra a WASM gyakran nem jobb, sőt a sok apró JS↔WASM hívás lassíthat is.[3][4][2]\n\n Mely nyelvek jók WASMhoz\nHa a cél a számításigényes részek gyorsítása, a leggyakoribb választások: Rust (wasmbindgen), C/C++ (Emscripten), illetve AssemblyScript (TypeScriptszerű szintaxis).  Ezeket tipikusan úgy használják, hogy a „forró” számítás a WASMban fut, a UI és DOM továbbra is JS/TS marad.[2]\n\n Mikor érdemes használni\nWASM akkor éri meg, ha a profilozás szerint a szűk keresztmetszet CPU‑bound (sok számítás, nagy tömbök), és a JS↔WASM hívásokat ritkán, nagyobb „batch”ekben lehet megoldani.  Ha a gond inkább renderelés, DOM‑manipuláció vagy hálózati késleltetés, akkor jellemzően JS/TS oldali optimalizálás és böngészős performance eszközök hozzák a nagyobb nyereséget, nem a WASMre váltás.[4][2]\n\nMilyen jellegű appra gondolsz (pl. dashboard sok DOM elemmel, játék, képfeldolgozás, CAD, titkosítás)?",
+      "created_at": "20251213T11:21:58.059708Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "06f76fe784f94893bf5ae06683bd4a4d",
+      "query": "zig el",
+      "answer": "A Zig jó választás WASMmodulokhoz (főleg számításigényes részek gyorsítására), de „teljes frontend nyelvként” a böngészőben általában nem lesz gyorsabb, mert a DOMot továbbra is JavaScripten keresztül kell elérni.  A tipikus minta: UI és DOM marad JS/TS, a nehéz számítás pedig Zig→WASM.[1][2][3][4]\n\n Mire jó Zig+WASM\nZig képes WebAssembly célra fordítani LLVM targetekkel, és ezt szerveroldali WASM (WASI) és böngészős futtatás esetén is szokták használni.  Böngészőben jellemzően exportált WASMfüggvényeket hív a JavaScript, így a „forró” (CPUbound) részeket Zigben érdemes megírni.[2][5][1]\n\n DOM és interop\nWebAssembly (MVP) esetén a böngészőben a be és kilépés alapvetően importok/exportok útján történik, ezért a DOM/Web API eléréshez általában JSköztesréteg kell.  Emiatt sok apró DOMműveletnél a Zig→WASM nem csodafegyver, mert a JS↔WASM határátlépésnek költsége van, és az ergonomia is rosszabb lehet.[6][3][5][1]\n\n Mikor lesz tényleg gyorsabb\nA WASM előnye leginkább akkor jön ki, ha kevés a határátlépés, viszont egyegy hívás sok munkát végez (batchelés: nagy tömbök feldolgozása, kódolás, fizika, képfeldolgozás).  Ha a szűk keresztmetszet inkább DOMrender, layout, stílusújraszámítás vagy sok event handler, akkor a Zig→WASM váltás tipikusan nem hoz nagy nyereséget.[4][5]\n\n Gyors indulás Zig WASMmal\nBöngészős kísérletezéshez gyakori kiindulópont a wasm32-freestanding célra fordítás (pl. zig build-lib … -target wasm32-freestanding -dynamic, vagy zig build-exe … -target wasm32-freestanding).  A betöltést és a DOMfrissítést ilyenkor JavaScript végzi (fetch/instantiate), és a Zig modul exportjait hívja, illetve JS importokkal „visszahívható” funkciókat ad a WASMnak.  Léteznek próbálkozások arra is, hogy több frontendlogika menjen Zigben (pl. Zig közösségi példák wasmapi irányban), de ez inkább speciális/experimentális út a mainstream JS/TS UI helyett.[7][8][9][10][1]\n\nMilyen típusú felületet akarsz (sok DOM elemű app, canvas játék, képfeldolgozó, valami más), és hol érzed most a lassulást?",
+      "created_at": "20251213T11:23:13.947249Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

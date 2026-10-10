@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e58de0db7c424c27a02f616c5603b057",
+  "context_title": "",
+  "created_at": "20250719T12:35:59.766871Z",
+  "updated_at": "20250719T12:35:59.766871Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "eab2f62d4c2c44a9960486c9ac691801",
+      "query": "",
+      "answer": " Gemini Embedding Model – Fő jellemzők\n\nA Gemini Embedding modell a Gemini API részeként érhető el, és kifejezetten szöveges bemenetekhez készült, szövegbeágyazási (embedding) feladatokra optimalizálva. Az alábbi táblázat összefoglalja a legfontosabb paramétereit:\n\n| Tulajdonság                | Leírás                                      |\n|||\n| Modellkód                  | geminiembedding001                        |\n| Támogatott bemenet         | Szöveg                                      |\n| Kimenet                    | Szövegbeágyazás (text embeddings)           |\n| Token limit                | 2.048 token, rugalmas: 128–3.072, ajánlott: 768, 1.536, 3.072 |\n| Utolsó frissítés           | 2025. június                                |\n\n Alkalmazási területek\n\n Szövegösszehasonlítás és hasonlóság mérése\n Információvisszakeresés (retrieval)\n Kódszintű összehasonlítás és többnyelvű szövegek kezelése is támogatott\n\n Modellek elérhetősége, támogatott nyelvek\n\nA Gemini Embedding modellek stabil, előzetes (preview) és kísérleti (experimental) verziókban is elérhetők lehetnek. A stabil verziók minden fejlesztőnek ajánlottak, míg az előzetesek, kísérletiek gyors iterációhoz, teszteléshez használhatók. A Gemini modellek magyar nyelvet is natívan támogatják[1].\n\n Négy fő előnye\n\n SOTA (stateoftheart) teljesítmény több nyelven és feladaton (pl. kód, retrieval)\n Rugalmas token címlet a különböző alkalmazási igényekhez\n Alkalmazási egyszerűség (egyetlen API hívás szükséges)\n Számos standard AI workflowban alkalmazható (keresés, ajánlás, szöveghasonlóság)\n\n Összegzés\n\nA Gemini Embedding modell ideális szövegek gépi reprezentációjára, kereső, ajánló és hasonlóságfelderítő rendszerekhez, miközben modern, skálázható megoldást kínál a Google AI Cloud platformján keresztül[1].",
+      "created_at": "20250719T12:35:59.784538Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

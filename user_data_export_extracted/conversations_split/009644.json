@@ -1,0 +1,91 @@
+{
+  "context_uuid": "96cf5309a08f430b942716a00e872dca",
+  "context_title": "",
+  "created_at": "20250707T23:44:38.270950Z",
+  "updated_at": "20250707T23:51:34.628535Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3c098a8e3cf8453d90f613b86e4ef3a4",
+      "query": "",
+      "answer": "Az  az Európai Bioinformatikai Intézet (EMBLEBI) nyilvános FTP szervere, amely biológiai és bioinformatikai adatbázisok hatalmas gyűjteményéhez biztosít hozzáférést[1]. Itt többek között genomikai, proteomikai, strukturális biológiai, annotációs és egyéb kutatási adatok érhetők el, például a 1000 Genomes Project, Ensembl, PRIDE, BioStudies, Protein Data Bank, illetve különböző archívumok és adatbázisok teljes tartalma[1][7].\n\nA szerverhez anonim FTPkapcsolattal lehet csatlakozni, vagy böngészőből is elérhető a tartalom. Az adatok letöltéséhez használható bármely FTP kliens, például a FileZilla, vagy parancssori eszközök, mint a wget vagy curl[2][6]. A mappákban általában README fájlok segítik az eligazodást, amelyek részletesen leírják az adott könyvtár vagy adatbázis tartalmát és szerkezetét[7].\n\nAz FTP szerver főbb könyvtárai között megtalálhatóak például a biostudies, ensemblgenomes, pridearchive, pub, vol1, illetve tematikus adatbázisok, mint a GOA vagy az ENA[1][3][6]. Az adatok letöltése általában ingyenes és szabadon hozzáférhető, azonban a nagyobb állományok letöltéséhez stabil internetkapcsolat és elegendő tárhely szükséges.\n\nÖsszefoglalva: az ftp.ebi.ac.uk egy központi európai bioinformatikai adatmegosztó szerver, amely kutatók és fejlesztők számára biztosít nagy mennyiségű, strukturált biológiai adatot, egyszerűen letölthető formában[1][7].",
+      "created_at": "20250707T23:44:38.290650Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "8e087d018dfb4c21b12ad27205f0b0e6",
+      "query": "Ezzel hogy ferjek hozza az alphafold 3 hoz",
+      "answer": "Az AlphaFold 3 által előállított fehérjestruktúraelőrejelzésekhez az EMBLEBI FTP szerverén keresztül férhetsz hozzá az alábbi módon:\n\n FTP elérés:  \n  Az AlphaFold adatbázis előrejelzései letölthetők az alábbi FTP útvonalról:  \n  ftp://ftp.ebi.ac.uk/pub/databases/alphafold/  \n  Itt megtalálod a különböző verziók (pl. AlphaFold 2, AlphaFold 3) szerint csoportosított archívumokat, valamint egy részletes README.txt fájlt, amely segít eligazodni a szerkezetek és a letölthető állományok között[1][4][6].\n\n Letölthető tartalom:  \n  Az adatbázisban tömegesen letölthetők tömörített archívumok (TAR fájlok), amelyek tartalmazzák a fehérjestruktúra modelleket (PDB, mmCIF formátumban), valamint metaadatokat és segédállományokat[1][2][6].\n\n Keresés és egyedi letöltés:  \n  Ha konkrét fehérjét keresel, azt a  oldalon is megteheted UniProt azonosító vagy fehérjenév alapján, ahol vizualizáció és egyedi letöltés is elérhető[3][5].\n\n AlphaFold 3 specifikus adatok:  \n  Az FTP szerveren a legfrissebb (pl. AlphaFold 3) előrejelzések a latest vagy verziószám szerinti mappában találhatók:  \n  ftp://ftp.ebi.ac.uk/pub/databases/alphafold/latest/  \n  vagy a verzió nevét tartalmazó alkönyvtárban[1][4].\n\n Dokumentáció:  \n  A szerveren található README.txt részletesen leírja, hogy az egyes mappák mit tartalmaznak, illetve hogyan lehet letölteni vagy feldolgozni az adatokat[1].\n\n Alternatív hozzáférés:  \n  Az AlphaFold teljes adatbázisa elérhető Google Cloud Public Dataset formájában is, ha nagy mennyiségű adatot szeretnél letölteni[1].\n\nFontos:  \nAz AlphaFold 3 előrejelzései is ugyanebben a rendszerben érhetők el, de mindig ellenőrizd a READMEt és a verziószámokat, hogy biztosan a legújabb, számodra releváns adatokat töltsd le.\n\nHa csak néhány fehérjére van szükséged, érdemes a webes felületet használni, tömeges letöltéshez pedig az FTPt ajánlott választani.",
+      "created_at": "20250707T23:45:50.085536Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "ff15af6cae6848deb973a11cb2855f06",
+      "query": "De az ai modellt alarom integralni sajat appba",
+      "answer": "Jelenleg nem lehet közvetlenül integrálni az AlphaFold 3 AI modellt saját alkalmazásba, mert a Google DeepMind nem tette elérhetővé sem a modell forráskódját, sem a tanított súlyokat vagy a teljes futtatható rendszert[1][4][7]. Az AlphaFold 3at jelenleg csak a DeepMind AlphaFold Server webes felületén keresztül lehet használni, ahol egyedi lekérdezéseket lehet beadni, de nincs lehetőség a modell letöltésére vagy saját környezetben történő futtatására[4][7].\n\nA kutatói közösség részéről komoly kritika érte ezt a döntést, mert az AlphaFold 2vel ellentétben – amelynek forráskódja és súlyai szabadon elérhetők voltak – az AlphaFold 3 jelenleg zárt rendszerként működik, és csak APIszerű webes hozzáférést biztosít[1][4].\n\nÖsszefoglalva:\n Az AlphaFold 3 modell nem tölthető le és nem integrálható közvetlenül saját alkalmazásba.\n Csak a DeepMind által üzemeltetett webes felületen keresztül használható[4][7].\n Amint a DeepMind nyilvánossá teszi a modellt vagy APIt, akkor lesz lehetőség integrációra – jelenleg azonban ez nem lehetséges[1][4].\n\nHa saját alkalmazásba szeretnél fehérjestruktúraelőrejelzést integrálni, jelenleg az AlphaFold 2 nyílt forráskódú verziója használható, amely elérhető a GitHubon és letölthető, futtatható saját környezetben.",
+      "created_at": "20250707T23:46:32.582028Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "be3c2bf732b4464a9e9c39aa0cc53c02",
+      "query": "Meg jo hogy githubra is felraktak xd",
+      "answer": "Igen, valóban szerencsés, hogy az AlphaFold 2 nyílt forráskódját és modelljeit a DeepMind felrakta a GitHubra! Ez hatalmas előrelépés volt a fehérjestruktúraelőrejelzés terén, mert így a kutatók, fejlesztők és bioinformatikusok saját gépeiken futtathatják az algoritmust, testreszabhatják, integrálhatják különböző alkalmazásokba, vagy akár továbbfejleszthetik.\n\nEz a nyitottság lehetővé tette, hogy a tudományos közösség gyorsan haladjon előre, és rengeteg új kutatás, eszköz és adat szülessen az AlphaFold 2re alapozva. Ráadásul így nem vagyunk kizárólag a DeepMind szolgáltatásaira utalva, ami különösen fontos nagy volumenű vagy speciális igények esetén.\n\nSzóval igen, ez egy igazi winwin helyzet volt a bioinformatika világában! 😄\n\nHa érdekel, szívesen segítek abban, hogyan tudod az AlphaFold 2t telepíteni vagy használni saját projektekben!",
+      "created_at": "20250707T23:47:04.083552Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "1fc667767e6943eba5aa3e1cf36438b6",
+      "query": "Az alphafold 3at tettek ki.",
+      "answer": " AlphaFold 3: Nyílt forráskódúvá vált\n\nIgen, az AlphaFold 3at hivatalosan is elérhetővé tették!  \nA Google DeepMind és az Isomorphic Labs 2025ben nyilvánosságra hozta az AlphaFold 3 forráskódját, így most már letölthető és futtatható saját környezetben is, nem csak webes felületen keresztül[1][2][3].\n\n Mit jelent ez pontosan?\n\n Forráskód:  \n  A teljes AlphaFold 3 inferencia pipeline elérhető a hivatalos GitHuboldalon. Ez lehetővé teszi, hogy kutatók, fejlesztők és egyetemi felhasználók saját gépen vagy szerveren futtassák a modellt, integrálják alkalmazásokba, vagy akár továbbfejlesszék azt[2].\n\n Modell paraméterek (súlyok):  \n  A modell súlyai (trained weights) külön igénylés után tölthetők le. Ezeket csak nemkereskedelmi, tudományos célra lehet használni, és kizárólag akkor, ha közvetlenül a Googletől kapod meg őket. Az igényléshez egy online űrlapot kell kitölteni, és általában 23 munkanapon belül válaszolnak[1][2][4].\n\n Licenc és felhasználás:  \n  A forráskód a Creative Commons AttributionNonCommercial ShareAlike 4.0 (CCBYNCSA 4.0) licenc alatt érhető el, vagyis csak nemkereskedelmi célra használható. A modell paraméterekre további, szigorúbb feltételek vonatkoznak, amelyeket az igénylés során el kell fogadni[2][4].\n\n Hogyan lehet hozzáférni?\n\n1. Forráskód letöltése:  \n    GitHub: [googledeepmind/alphafold3][2]\n2. Modell paraméterek igénylése:  \n    A GitHuboldalon található űrlapon keresztül lehet kérni a súlyokat.\n3. Telepítés és futtatás:  \n    Részletes telepítési és futtatási útmutató található a dokumentációban, beleértve a Dockeralapú futtatást is.\n4. Adatbázisok:  \n    A működéshez szükséges biológiai adatbázisokat is le kell tölteni, ezekhez letöltő scriptet biztosítanak[5][2].\n\n Mire kell figyelni?\n\n Csak tudományos, nemkereskedelmi célra használható.\n A modell paraméterekhez külön engedély szükséges.\n A predikciók kizárólag elméleti, kutatási célra alkalmasak, klinikai vagy diagnosztikai felhasználásra nem!\n\n Összefoglalva\n\nAz AlphaFold 3 mostantól valóban elérhető a kutatói közösség számára: a forráskód nyílt, a modell súlyai igényelhetők, így saját alkalmazásba is integrálható, amennyiben betartod a licencfeltételeket és a nemkereskedelmi használatot[1][2][4][3].",
+      "created_at": "20250707T23:47:26.867974Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "97f351e966fb4300b59f92c54f8a5a43",
+      "query": "Akkor githubos dolgok + ez ?",
+      "answer": "Igen, az AlphaFold 3 futtatásához mind a GitHubról letölthető forráskódra, mind pedig a szükséges biológiai adatbázisokra van szükséged, amelyek például az EBI FTP szerveréről érhetők el.\n\nA folyamat lépései röviden:\n\n Forráskód:  \n  Az AlphaFold 3 hivatalos forráskódja elérhető a GitHubon, például itt:  \n  [googledeepmind/alphafold3][5][7]  \n  Itt megtalálod a telepítési útmutatót, a futtatási példákat, valamint a szükséges szoftveres követelményeket.\n\n Modell paraméterek:  \n  Ezeket külön kell igényelni a Googletől (DeepMind), a GitHuboldalon leírt eljárás szerint[3][5].\n\n Adatbázisok:  \n  Az AlphaFold 3 működéséhez nagy mennyiségű biológiai adatbázis szükséges (pl. PDB, UniProt, MGnify, stb.). Ezek letöltésére a GitHubon vagy a dokumentációban található letöltő scriptek szolgálnak, amelyek gyakran az EBI FTP szerveréről (https://ftp.ebi.ac.uk) töltik le az adatokat[2][3][5].  \n  Például:  \n  bash\n  wget https://raw.githubusercontent.com/google-deepmind/alphafold3/main/fetch_databases.sh\n  bash fetch_databases.sh /sajat/adatbazis/utvonal\n  \n  Ez a script automatikusan letölti a szükséges adatokat az EBI FTPről és más hivatalos forrásokból[2][3].\n\nÖsszefoglalva:\n GitHubról: forráskód, dokumentáció, letöltő scriptek.\n EBI FTPről: nyers biológiai adatbázisok, amelyeket a scriptek automatikusan letöltenek.\n Modell paraméterek: külön igénylés alapján.\n\nEzek együttesen szükségesek ahhoz, hogy saját környezetben futtasd vagy integráld az AlphaFold 3at[2][3][5].",
+      "created_at": "20250707T23:48:47.634487Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "1305e300e7744993ab90f599150960e9",
+      "query": "Es hol talalom meg leakelve hogy ne kelljen kulon igenyelni",
+      "answer": "A keresési eredmények alapján az AlphaFold 3 hivatalos modellparamétereit (súlyait) jelenleg nem találod meg nyilvánosan vagy \"leakelve\" sem GitHubon, sem az EBI FTP szerverén, és a hivatalos dokumentációk szerint továbbra is csak közvetlen igénylés útján juthatsz hozzájuk a Googletől[1][2][3]. \n\nA GitHubon elérhető a teljes forráskód és a futtatáshoz szükséges pipeline[3][7], illetve több alternatív implementáció (pl. PyTorch verziók, reprodukciók)[5][6], de ezek nem tartalmazzák az eredeti, tanított AlphaFold 3 modellparamétereket. Ezek nélkül a hivatalos DeepMind/Isomorphic Labs modell nem futtatható teljes értékűen.\n\nAz alternatív implementációk (pl. Protenix, lucidrains/alphafold3pytorch) saját, újratanított vagy szimulált súlyokat használnak, amelyek nem egyeznek meg az eredeti DeepMind modellel, és a pontosságuk, megbízhatóságuk eltérhet[5][6].\n\nÖsszefoglalva:\n Az eredeti AlphaFold 3 modellparamétereket nem találod meg leakelve vagy szabadon letölthető formában a neten, csak hivatalos igényléssel szerezhetők be[1][2][3].\n A forráskód, dokumentáció, adatbázisok szabadon elérhetők, de a súlyokat külön kell igényelni.\n Alternatív, nem hivatalos implementációk léteznek, de ezek nem az eredeti modellel dolgoznak.\n\nEz jelenleg a hivatalos és publikus helyzet.",
+      "created_at": "20250707T23:49:55.301730Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "879ec44a31324f5eb10a21165e6f7ab1",
+      "query": "Mennyire könnyű az AlphaFold3 kódját leakelni és hozzáférést szerezni",
+      "answer": "Az AlphaFold 3 kódjának és modellparamétereinek „leakelése” vagy jogosulatlan megszerzése nem egyszerű, és jelenleg nincs ismert, széles körben elérhető illegális forrás, ahonnan ezeket le lehetne tölteni. A helyzet a következő:\n\n Hivatalos hozzáférés:  \n  2024 végén a Google DeepMind váratlanul nyilvánossá tette az AlphaFold 3 forráskódját és modelljeinek súlyait tudományos felhasználásra[2]. Ez azt jelenti, hogy most már hivatalosan is elérhető a kutatók számára, így nincs szükség „leak”re vagy illegális letöltésre.\n\n Korábbi helyzet:  \n  Amikor az AlphaFold 3at 2024 májusában bemutatták, a kódot és a modellparamétereket nem tették közzé, csak egy webes szerveren keresztül lehetett használni, és a hozzáférés erősen korlátozott volt[1][3]. Ekkor valóban felmerült az igény a „leak”re, de a DeepMind és az Isomorphic Labs szigorúan védte a kódot és a súlyokat.\n\n Jelenlegi helyzet:  \n  Mivel a DeepMind végül hivatalosan publikálta a forráskódot és a súlyokat, nem szükséges és nem is jellemző, hogy illegális forrásból kellene megszerezni. A tudományos közösség számára elérhető, bár továbbra is csak nemkereskedelmi célra használhatóak[2].\n\n Biztonsági és jogi kockázatok:  \n  Ha valaki mégis „leakelt” verziót keresne, az jogilag kockázatos lenne, és a tudományos közösségben ez nem elfogadott út. Ráadásul a DeepMind infrastruktúrája és a Google biztonsági rendszerei miatt a kód vagy a súlyok jogosulatlan megszerzése technikailag is nagyon nehéz lenne.\n\nÖsszefoglalva:  \nMa már nem kell leakelni az AlphaFold 3at, mert a DeepMind hivatalosan is elérhetővé tette a forráskódot és a modell súlyokat tudományos célra. A hozzáférés egyszerű, jogszerű és támogatott – csak a kereskedelmi felhasználás van korlátozva[2].",
+      "created_at": "20250707T23:50:38.544184Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "08eea2f7d320436fa64c16a2c943bf4b",
+      "query": "Most akkor kell kerelmezni valamit a google tol vagy nem?",
+      "answer": "Az AlphaFold 3 használatához a helyzet a következő:\n\n A forráskód szabadon letölthető a hivatalos GitHuboldalról, nyílt forráskódú licenc alatt (CCBYNCSA 4.0)[1][3].\n A modellparaméterek (súlyok) viszont külön feltételekhez kötöttek. Ezeket csak a DeepMind által meghatározott \"Model Parameters Terms of Use\" szerint használhatod, és csak akkor használhatod őket, ha elfogadod ezeket a feltételeket[1][2][3].\n\nA modellparaméterek letöltéséhez:\n Nem minden esetben kell külön kérelmezni, de el kell fogadnod a felhasználási feltételeket (Terms of Use), mielőtt letöltheted vagy használhatod a súlyokat[1][2][3].\n A GitHuboldalon (README és WEIGHTS_TERMS_OF_USE.md) részletesen le van írva, hogyan tudod letölteni a modellparamétereket, és milyen feltételek mellett használhatod azokat[1][3].\n\nÖsszefoglalva:  \n Külön kérelmezni nem kell, de a letöltéshez és használathoz el kell fogadnod a DeepMind által megszabott feltételeket, amelyeket a letöltési folyamat során ismeretsz meg[1][2][3].\n Ezek a feltételek főleg a nemkereskedelmi, tudományos célú használatra korlátoznak.\n\nTehát:  \n GitHubról szabadon letölthető a kód.\n A modellparamétereket a feltételek elfogadása után tudod letölteni, külön kérelmezés nélkül.",
+      "created_at": "20250707T23:51:28.719088Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

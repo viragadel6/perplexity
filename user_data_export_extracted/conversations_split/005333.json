@@ -1,0 +1,19 @@
+{
+  "context_uuid": "95d6f553e98641c58e3ad7fb48a3b924",
+  "context_title": "van‑e fennmaradt, konkrét írásos/levéltári jegyzet 1900 előtt a tiramisuró",
+  "created_at": "20251225T13:08:25.046377Z",
+  "updated_at": "20251225T13:08:25.046377Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "15edccc82da64aa9b56a2137983dd07a",
+      "query": "van‑e fennmaradt, konkrét írásos/levéltári jegyzet 1900 előtt a tiramisuró",
+      "answer": "Does any written / archival note about tiramisu survive from before 1900?  \nVan‑e fennmaradt, konkrét írásos vagy levéltári említés a tiramisuról 1900 előtt?",
+      "created_at": "20251225T13:08:25.184921Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

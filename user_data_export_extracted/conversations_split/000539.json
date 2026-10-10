@@ -1,0 +1,19 @@
+{
+  "context_uuid": "42e663686e1844b7a42137bbf0f9228c",
+  "context_title": "days between gpt 5 and 6 release",
+  "created_at": "20260906T22:14:00.361578Z",
+  "updated_at": "20260906T22:14:42.498850Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7cd132f0a84f4c4f9217ae02cb1a08b8",
+      "query": "days between gpt 5 and 6 release",
+      "answer": "There are 392 days between the release of OpenAI's GPT5 and the launch of GPT6 Astra. GPT5 was released on August 7, 2025, while GPT6 Astra officially debuted on September 3, 2026.[1][2]\n\n GPT5 Release\nOpenAI introduced GPT5 on August 7, 2025. Upon its release, it replaced GPT4o and other earlier reasoning models as the default AI system powering ChatGPT.[1]\n\n GPT6 Astra Launch\nGPT6 Astra was launched just over a year later on September 3, 2026. OpenAI described it as a new generation of intelligence, featuring advanced capabilities in coding, computer use, and cybersecurity. The model initially rolled out to a limited group of organizations, including Business and Pro subscribers, as well as members of OpenAI's cybersecurityfocused Daybreak program.[3][2][4][1]",
+      "created_at": "20260906T22:14:00.542598Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

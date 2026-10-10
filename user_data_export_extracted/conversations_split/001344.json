@@ -1,0 +1,28 @@
+{
+  "context_uuid": "68ae0aff14b94c82922d2feac3387e4f",
+  "context_title": "translate the text to full hungarian. do not change, edit, short, modifaction only translate. only send back the translated hungarian \n\nminutes on complex tasks\n real agentic loop with proper state management\nEach tool call result feeds back into the next decision\ncan plan, execute, verify, adjust, retry\n\nLong SSE connections \nParallel research capabilities \nmultiple searches running simultaneously with synthesis\n subagent spawning for parallel task execution\nagentic loop, state management\ntool orchestration\n genuine autonomy.\n longrunning tasks, stores sessions serverside, proper heartbeat mechanism",
+  "created_at": "20260724T02:09:10.955056Z",
+  "updated_at": "20260724T02:09:19.739262Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7fa093111b3a481f9216ea4970908fd9",
+      "query": "translate the text to full hungarian. do not change, edit, short, modifaction only translate. only send back the translated hungarian \n\nminutes on complex tasks\n real agentic loop with proper state management\nEach tool call result feeds back into the next decision\ncan plan, execute, verify, adjust, retry\n\nLong SSE connections \nParallel research capabilities \nmultiple searches running simultaneously with synthesis\n subagent spawning for parallel task execution\nagentic loop, state management\ntool orchestration\n genuine autonomy.\n longrunning tasks, stores sessions serverside, proper heartbeat mechanism",
+      "answer": "percek összetett feladatokra  \nvalódi ágensi ciklus megfelelő állapotkezeléssel  \nMinden eszközhívás eredménye visszacsatolódik a következő döntésbe  \nképes tervezni, végrehajtani, ellenőrizni, módosítani, újrapróbálni  \n\nHosszú SSEkapcsolatok  \nPárhuzamos kutatási képességek  \negyszerre futó több keresés szintézissel  \nrészágensek indítása párhuzamos feladatvégrehajtáshoz  \nágensi ciklus, állapotkezelés  \neszközorkesztráció  \nvalódi autonómia.  \nhosszú ideig futó feladatok, a munkamenetek szerveroldali tárolása, megfelelő szívverési mechanizmus",
+      "created_at": "20260724T02:09:11.155853Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "ff0c0b25c6494a07968769f88d5b5884",
+      "query": "translate the text to full english. do not change, edit, short, modifaction only translate. only send back the translated english",
+      "answer": "minutes for complex tasks  \nreal agentic loop with proper state management  \nEach tool call result feeds back into the next decision  \ncan plan, execute, verify, adjust, retry  \n\nLong SSE connections  \nParallel research capabilities  \nmultiple searches running simultaneously with synthesis  \nsubagent spawning for parallel task execution  \nagentic loop, state management  \ntool orchestration  \ngenuine autonomy.  \nlongrunning tasks, stores sessions serverside, proper heartbeat mechanism",
+      "created_at": "20260724T02:09:18.352063Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

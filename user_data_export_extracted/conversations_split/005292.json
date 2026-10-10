@@ -1,0 +1,82 @@
+{
+  "context_uuid": "3cba1ff4746f4f0da1ebfd3ac274862f",
+  "context_title": "elevenlabs dubbing kreditet levonja es video sehol nincs es email se semmi",
+  "created_at": "20251226T15:54:50.024981Z",
+  "updated_at": "20251226T16:17:59.824476Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c73c7bb73002417fb3d6bce97645e4eb",
+      "query": "elevenlabs dubbing kreditet levonja es video sehol nincs es email se semmi",
+      "answer": "Valószínűleg a dub job elindult (ezért levonta a kreditet), de a feldolgozás nem fejeződött be rendesen / nem ott keresed az elkészült exportot, vagy a letöltést blokkolja a böngésző (adblock/popup). Az alábbi gyors lépések általában kiderítik, hol akadt el.\n\n Hol kell megjelennie\n Ha Dubbing Studio projektet indítottál, a kész (vagy félkész) dubot a Dubbing felületen a projektjeid között kell látnod, és ott külön “Export/Download” jellegű művelettel generálódik a letölthető fájl.[1]\n Ha “Productions” (humánellenőrzött) szolgáltatást rendeltél, az anyag az ElevenLabs “Productions” oldalon az order/projekt alatt érhető el, és ott lehet exportálni (MP4/AAC/MP3/WAV/SRT stb.).[2][3]\n\n Gyors hibakeresés (5 perc)\n Nyisd meg közvetlenül az appos Dubbing oldalt (ne egy régi/marketing URLt), és nézd meg a “Projects” listát.[4]\n Frissítsd az oldalt, mert előfordulhat, hogy a kész státusz nem jelenik meg automatikusan, és csak refresh után látszik a dub.[5]\n Próbálj másik böngészőt (pl. Chrome/Firefox), és kapcsold ki az adblockert / popup blockert, mert letöltést/exportot blokkolhatnak.[2]\n\n Miért nincs email?\n Nem minden workflow küld automatikus emailt minden lépésről; a státusz/projekt gyakran az appon belül követhető.[1]\n Ha “Productions” típusú rendelés volt, az export általában a Productions projekten belül történik, nem feltétlen emailből.[3][2]\n\n Ha továbbra sincs sehol\n Vedd fel a kapcsolatot az ElevenLabs supporttal: a Help Centerben a jobb alsó sarokban lévő chatbot, vagy a hivatalos “Submit a request” űrlap.[6][7]\n A ticketbe érdemes betenni: projekt neve, időpont, forrás link/fájl típusa, kb. hossz, levont kredit mennyisége, és screenshot a Dubbing oldalról.[7][6]\n\nMeg tudod írni: UIban csináltad (Dubbing Studio), vagy APIval, és kb. hány perces videó volt (illetve YouTube link vagy feltöltött fájl)?",
+      "created_at": "20251226T15:54:50.265058Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2642dced077645dbbe3a33a96a84a632",
+      "query": "dubbingotvigen inditottam es nem mutatja ott ahol kene nyoma sinxs sehol",
+      "answer": "Ha a Dubbingot elindítottad, kreditet le is vont, de a Dubbing oldalon semmilyen projekt nem látszik, akkor ez tipikusan vagy (1) UIs megjelenítési bug/cache, (2) rossz account/workspace, vagy (3) a job létrejött, de a felület nem listázza, miközben az export/letöltés böngésző oldali blokkolás miatt sem indul rendesen. A böngésző/adblock tényleg okozhat ilyen gondot ElevenLabsnál (külön kiemelik, hogy adblock/popup blocker és bizonyos böngészők gondot okozhatnak).[1]\n\n 3 gyors lépés (UIban)\n1) Nyisd meg közvetlenül ezt: https://elevenlabs.io/app/dubbing és nyomj egy hard refresht (Ctrl+F5 / Cmd+Shift+R), mert előfordul, hogy a státusz/projekt csak frissítés után jelenik meg.[2]\n2) Próbáld ki másik böngészőben (Chrome vagy Firefox), és kapcsold ki az adblock/popup blockert (különösen, ha Braveet használsz), mert ElevenLabs szerint ez sokszor megoldja a Dubbing/Studio exportletöltési és kapcsolódó hibákat.[1]\n3) Ellenőrizd, hogy biztosan ugyanazzal a bejelentkezéssel vagy bent (ugyanaz az email/Google login), mert több fióknál gyakori, hogy “eltűnt”nek tűnik a projekt, valójában másik accountban van.[3]\n\n Ha még mindig “nyoma sincs”\n Nyiss support ticketet (“Submit a request”), mert ilyenkor ők tudják megnézni backend oldalon, hogy létrejötte a job és mi lett a státusza.[4]\n A ticketbe írd bele: kb. mikor indítottad, milyen forrás (YouTube link vs feltöltött fájl), cél nyelv, és hogy levonta a kreditet, de a Dubbing Projects listában üres.[4]\n\nMondd meg ezt a 2 dolgot, és célzottabban megmondom a következő lépést:\n1) Milyen böngészőből indítottad (Brave/Chrome/Edge/Firefox)?  \n2) YouTube linket adtál meg, vagy fájlt töltöttél fel?",
+      "created_at": "20251226T15:55:34.332604Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f252a4a2038347c2a2bbc374a8b1ba82",
+      "query": "de a tobbi dolgot amit csinalram mutatja csak a dubbingot nem he",
+      "answer": "Ha a többi (pl. Studio/Voices) látszik, csak a Dubbing “tűnt el”, akkor nagy eséllyel nem listázódott be a Dubbing projektek közé (UI/cache vagy egy “félbeszakadt” create), vagy nem Dubbing Studio projektet hoztál létre, ezért nem ott keresed, ahol megjelenne.[1]\n\n Ellenőrizd: milyen dubot indítottál\n A Help Center szerint Dubbing Studiohoz kifejezetten úgy kell létrehozni a projektet, hogy a “Create a Dubbing Studio” opció be legyen jelölve, és a Dubbing Studio projektnek a Dubbing projektek listájának tetején kell megjelennie, miközben generálódik.[1]\n Ugyanitt írják, hogy egy “sima” automatikus dubot utólag nem lehet Dubbing Studio projektté alakítani, tehát ha nem azt pipáltad, más viselkedést fogsz látni.[1]\n\n 2 célzott lépés, ha nem jelenik meg\n Nyisd meg közvetlenül a Dubbing oldalt (/app/dubbing), és csinálj hard refresht (Ctrl+F5 / Cmd+Shift+R), mert a kliensoldali hibáknál ezt konkrétan javasolják.[2]\n Próbáld ki másik böngészőben és kapcsold ki az adblock/popup blockert, mert ElevenLabs szerint egyes böngészőkben (külön említik a Braveet) gond lehet a dubbinggal és a kapcsolódó letöltési/kezelési folyamatokkal.[3]\n\n Ha továbbra sincs nyoma (kredit levonva)\n Ilyenkor érdemes support ticketet nyitni, mert ők tudják visszakeresni a “ghost” dubot és a levonást is, ha a UI nem listázta ki.[4]\n\nEgyetlen pontosító kérdés: amikor indítottad, be volt pipálva a “Create a Dubbing Studio” opció, vagy “sima” automatikus dubbingot indítottál?",
+      "created_at": "20251226T16:11:33.701081Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "2b383bcf83694710b509c22149b45e1d",
+      "query": "itt",
+      "answer": "A képen az látszik, hogy a Dubbing oldalon a “Recent Dubs” lista működik (van benne több korábbi dub), tehát nem általános account/projekt gond, hanem az a konkrét dub nem került be a listába (vagy nem jött létre rendesen, vagy UI oldali “ghost” lett).[1][2]\n\n Amit érdemes megtenni (iPhone Safari)\n Csinálj egy “hard” újratöltést: zárd be az ElevenLabs lapot teljesen, majd nyisd meg újra és frissíts; ha van rá mód, próbáld meg asztali böngészőből is, mert a letöltés/export és a listázás böngészőfüggő gondokat tud produkálni.[3][4]\n Kapcsold ki az összes tartalomblokkolót iOSen (Settings → Safari → Content Blockers / Extensions), mert ElevenLabs külön javasolja az adblock/popup blokkolók kikapcsolását problémás dubbing esetén.[3]\n\n Hogyan lehet “biztosan” ellenőrizni, hogy létrejötte\n Ha az indítás után kaptál bármilyen azonosítót/URLt (pl. dub job link, dub_id, “View dub” jellegű hivatkozás), azzal a support sokkal gyorsabban vissza tudja keresni.[5]\n Ha nincs semmilyen azonosító, akkor is érdemes ticketet nyitni: ElevenLabs támogatás kéri, hogy adj meg minél több részletet + screenshotot (a mostani kép pont jó), és így ki tudják deríteni, mi lett a levont kredites, de nem listázott dubbing futás sorsa.[6][5]\n\n Mikor nyiss ticketet azonnal\n Ha 10–30 perc után sem jelenik meg a “Recent Dubs”ban, és több frissítés/böngészőcsere után sem, akkor nagy eséllyel nem UI késés, hanem hibásan rögzült job, amit supportnak kell kibányásznia (és ilyenkor a kredit levonás miatt is ők tudnak intézkedni).[2][6]\n\nKét gyors kérdés, hogy pontosan meg lehessen mondani a következő lépést:\n1) YouTube import volt, vagy feltöltött videó?  \n2) Emlékszel a dub nevére (amit megadtál), és kb. hány perce/órája indítottad?",
+      "created_at": "20251226T16:12:18.488662Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f6e7bac43bfb426aa08179587edc98aa",
+      "query": "azok mock historyk nem igaziak es ra kattintani sem lehet xd",
+      "answer": "Akkor ez nem “eltűnt history”, hanem a Dubbing oldal nem töltötte be rendesen a saját listádat, és csak demo/mock elemeket rajzol ki (ezért nem kattinthatók). Ilyenkor tipikusan kliensoldali hiba (Safari/cache/extensions) vagy a kérés elhasal a háttérben, ezért a valós “Recent dubs” nem jön le.[1][2]\n\n Mit csinálj most (iPhone Safari)\n Kapcsold ki minden Safari Content Blocker/Extensiont, mert a Dubbing/letöltés gondokra az ElevenLabs kifejezetten javasolja az adblock/popup blokkolók kikapcsolását, és több böngészőnél is előjöhet gond.[3]\n Próbáld meg másik böngészőn / eszközön (asztali Chrome/Firefox a legjobb), mert ugyanebben a témában a workaround gyakran a böngészőváltás + frissítés.[1][3]\n Ha be tudsz lépni asztali gépen: nyisd meg a Dubbing oldalt, majd csinálj hard refresht (CTRL+F5), mert több esetben ez hozza vissza a listát.[1]\n\n Ha a dub elindult és kreditet levont\n A Redditen is több friss panasz van olyan helyzetről, hogy a dubok nem jelennek meg a listában, miközben a kreditet levonja, ezért ha böngészőváltással sem áll helyre, support ticket kell.[1]\n Supportot a hivatalos “Submit a request” űrlapon érd el; kérik, hogy adj meg minél több részletet + screenshotokat (a mostani “mock listás” képernyő is hasznos).[4][5]\n\nMondd meg, melyik igaz:\n A “Create a Dub” gombra kattintva el tudsz jutni a feltöltésig/YouTube importig, vagy már ott is hibázik/lefagy?",
+      "created_at": "20251226T16:13:22.837178Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "abc94518cf0242bf862db819ec809cad",
+      "query": "minden olyenbkivancs kapcsolva",
+      "answer": "Ha minden “kíváncsi” (tartalomblokkoló/extension) ki van kapcsolva, akkor iOS Safarin még simán lehet cache/cookie vagy Safarikompatibilitási gond, és ettől a Dubbing oldal beragadhat demo/mock állapotba. Az ElevenLabs Help Center külön ír arról, hogy a “clientside” jellegű hibák gyakran böngésző cache/cookie problémák, és ilyenkor cache törlés / újratöltés kell.   Emellett azt is leírják, hogy iOS/macOS/Safari alatt előfordulhatnak weboldalhasználati nehézségek, és javasolják alternatív böngésző kipróbálását.[1][2]\n\n iPhoneon konkrét lépések\n iOS: Settings → Safari → Clear History and Website Data, majd lépj be újra ElevenLabsba és nyisd meg a Dubbingot.[1]\n Kapcsold ki a Safari “Translate”/automatikus fordítás funkciót az oldalon, mert a Help Center szerint a böngészős fordító eszközök is tudnak kliensoldali hibát okozni.[3][1]\n Próbáld meg nem Safariban (pl. iOSen Chrome/Firefox), mert ElevenLabs kifejezetten alternatív böngészőt javasol Safari gondoknál.[2]\n\n Ha kredit levonás már megtörtént\n Ha a cache törlés + böngészőváltás után is mock marad a lista, akkor nyiss “Submit a request” ticketet, és írd bele, hogy “Dubbing page shows nonclickable mock history, credits deducted, no dub appears”, plusz csatold a screenshotot.[4][5]\n\nEgy gyors pontosítás: iPhoneon be van kapcsolva a Low Power Mode vagy valamilyen privát DNS/VPN (pl. iCloud Private Relay)?",
+      "created_at": "20251226T16:14:09.591087Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "725e7ae4e31545b899b2721e443010a5",
+      "query": "chromeba se mutatja",
+      "answer": "Ha Chromeban is ugyanez (mock lista, nem kattintható, és a friss dub sehol), akkor ez már nem iOS/Safarispecifikus: nagy valószínűséggel oldal oldali / fiókhoz kötött Dubbing hiba, amit nem fogsz tudni kliens oldalon “kikattintgatni”. Ezt erősíti, hogy több felhasználó is jelzett mostanában olyan esetet, hogy a dubok nem jelennek meg a listában, miközben a kreditet levonja.[1]\n\n Azonnali workaround\n Próbáld meg ugyanazzal a fiókkal asztali gépen (Windows/Mac) Chromeban: ha ott sem jelenik meg, akkor szinte biztosan backend/listázási gond, nem mobil UI.[1]\n Ha van VPN/Proxy/iCloud Private Relay, kapcsold ki és próbáld újra, mert ezek néha kiváltanak furcsa “nem tölt be rendesen” jelenségeket webappoknál (nem csak ElevenLabsnál).[2]\n\n Mit tegyél a kredit miatt\n Nyiss support ticketet a hivatalos űrlapon, mert ők tudják visszakeresni a levont kredites “láthatatlan” dubbing futást, és intézni a jóváírást/korrekciót, ha a job hibásan ment át.[3][4]\n A ticket szövegébe ezt érdemes írni (tömören): “Dubbing: credits deducted, but dubs not showing; Recent Dubs shows nonclickable mock items on both iOS Safari and Chrome; please locate dub job and refund/restore credits.”[4][3]\n\n Extra: lehet szolgáltatásissue\n Az ElevenLabsnál volt nemrég olyan incidens is, hogy “Dubbing and Studio exports are failing in certain cases”, amit később resolvedra tettek; ettől még előfordulhat, hogy egyes jobok “beragadnak” vagy nem listázódnak rendesen.[5][6]\n\nÍrd meg: kb. mikor indítottad a dubot (óra:perc), és YouTube import volt vagy feltöltött fájl? Ezzel megmondom, várhatóe még, hogy “magától” megjelenik, vagy tényleg csak ticket.",
+      "created_at": "20251226T16:16:10.998224Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "43dd3b9480b74f008c2de41f8ff97cc7",
+      "query": "fel napja 40 masodperces 1,5 mb os video xd",
+      "answer": "Fél nap egy 40 mpes, 1,5 MBos videónál már egyértelműen nem normális — ennek perceken belül meg kellene jelennie a Dubbing felületen, ha rendben lefutott volna.   Mivel nálad ráadásul a “Recent Dubs” csak mock/demó és nem kattintható, ez inkább betöltési/listázási hiba vagy beragadt job, nem “türelem kérdése”.[1][2]\n\n Mit csinálj (gyors, célzott)\n Asztali gépen (Windows/Mac) Chromeban nyisd meg ugyanazzal a fiókkal a Dubbingot, és nézd meg ott is; ha ott sincs, akkor backend oldali gond, nem mobil.[2]\n Ha volt VPN/Proxy/iCloud Private Relay, kapcsold ki, mert kliensoldali hibáknál a Help Center is a böngésző/cookie/cache vonalat emeli ki, és a hálózati “közbeékelődés” tud furcsa állapotokat okozni.[1]\n\n Kredit + eltűnt dub: support kell\n Nyiss ticketet a hivatalos űrlapon, mert ők tudják visszakeresni a levont kredites, de nem listázott dubbing futást, és kezelni a jóváírást/korrekciót.[3]\n A tickethez: csatold a screenshotot, írd bele az indítás kb. idejét (“~12 órája”), a fájl méretét/hosszát, és hogy több böngészőben is csak mock “Recent Dubs” látszik.[3][1]\n\n Miért sürgős\n Nemrég volt náluk olyan incidens is, ami Dubbing/Studio export hibákat érintett “bizonyos esetekben”; hiába resolved, az ilyen beragadt munkák utókezelése sokszor manuális supporttal megy.[4]\n\nHa bemásolod (vagy screenshotolod) a “Billing/Usage” részen a levonás időpontját és a dub indításának pontos idejét, meg tudom írni egy nagyon tömör, jó eséllyel gyors ügyintézést hozó angol ticketszöveget is.",
+      "created_at": "20251226T16:17:38.719953Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

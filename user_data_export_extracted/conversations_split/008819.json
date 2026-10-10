@@ -1,0 +1,28 @@
+{
+  "context_uuid": "d4ba08d66f1c4fcabf11719921ee9c7d",
+  "context_title": " BlitzFuthark GPU kernels\n LLVM JIT (MINSYCL)\n Chapel (distributed training)\n Luminal IR\n AntaresSubgraph (CUDA)\n QLiteNet (lightweight networking)\n DiagPulseSSM (diagnostic pulsed SSM)\n NanoNIF (Elixir integration)\n PlogZero (Prolog engine)\n Tooless Interpreter (Python)\n Pyoxidizer2 (Python binary execution)\n 2bit BitNet quantization\n Neurosymbolic retrieval\n Ruledriven decider (Rosette/SMT logic)\n Distributed KV cache (Elixir, NanoNIF)\n Julia (LiquidSSM, expert router)\n CUDA (GPU acceleration)\n SparseArrays/State compression (Julia, Python, Zig)\n Advanced profiling (DiagPulseSSM)\n Ultraadvanced Polyglot LLM integration rendszer[1]",
+  "created_at": "20250830T09:21:31.322593Z",
+  "updated_at": "20250903T16:20:25.229474Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "f15857de07ad4aa587d7b76db6d527e0",
+      "query": " BlitzFuthark GPU kernels\n LLVM JIT (MINSYCL)\n Chapel (distributed training)\n Luminal IR\n AntaresSubgraph (CUDA)\n QLiteNet (lightweight networking)\n DiagPulseSSM (diagnostic pulsed SSM)\n NanoNIF (Elixir integration)\n PlogZero (Prolog engine)\n Tooless Interpreter (Python)\n Pyoxidizer2 (Python binary execution)\n 2bit BitNet quantization\n Neurosymbolic retrieval\n Ruledriven decider (Rosette/SMT logic)\n Distributed KV cache (Elixir, NanoNIF)\n Julia (LiquidSSM, expert router)\n CUDA (GPU acceleration)\n SparseArrays/State compression (Julia, Python, Zig)\n Advanced profiling (DiagPulseSSM)\n Ultraadvanced Polyglot LLM integration rendszer[1]",
+      "answer": "English:\nFind technical documentation, repositories, benchmarks, and recent papers for: BlitzFuthark GPU kernels; LLVM JIT (MINSYCL); Chapel for distributed training; Luminal IR; AntaresSubgraph for CUDA; QLiteNet lightweight networking; DiagPulseSSM diagnostic pulsed SSM; NanoNIF for Elixir integration; PlogZero Prolog engine; Tooless Interpreter for Python; Pyoxidizer2 for Python binary execution; 2bit BitNet quantization; neurosymbolic retrieval; ruledriven decider using Rosette/SMT logic; distributed KV cache in Elixir with NanoNIF; Julia implementations of LiquidSSM and expert router; CUDA for GPU acceleration; SparseArrays and state compression in Julia, Python, and Zig; advanced profiling for DiagPulseSSM; ultraadvanced polyglot LLM integration system. Include official docs, GitHub links, example usage, compatibility notes, and performance results where available.\n\nMagyar:\nKeresd meg a technikai dokumentációt, repókat, benchmarkokat és friss publikációkat az alábbiakhoz: BlitzFuthark GPU kernels; LLVM JIT (MINSYCL); Chapel elosztott tanításhoz; Luminal IR; AntaresSubgraph CUDAhoz; QLiteNet könnyű hálózat; DiagPulseSSM diagnosztikus pulzált SSM; NanoNIF Elixir integrációhoz; PlogZero Prolog motor; Tooless Interpreter Pythonhoz; Pyoxidizer2 Python bináris futtatás; 2bit BitNet kvantizáció; neuroszimbolikus visszakeresés; Rosette/SMT logikán alapuló szabályvezérelt döntő; Elixirben NanoNIFfel épített elosztott KV cache; Julia megvalósítások (LiquidSSM, expert router); CUDA GPU gyorsítás; SparseArrays és állapotkompresszió Julia, Python és Zig nyelveken; DiagPulseSSM fejlett profilozás; ultrafejlett poliglott LLM integrációs rendszer. Tartalmazza az official dokumentációkat, GitHub linkeket, példa használatot, kompatibilitási jegyzeteket és elérhető teljesítmény eredményeket.",
+      "created_at": "20250830T09:21:31.508601Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e9e9ca3cf10845e294f4974db1d543ba",
+      "query": "na",
+      "answer": "English:\nPlease provide the exact search query you want to run on exa.ai so it can be optimized. Currently, the query is empty.\n\nHungarian:\nKérlek add meg a pontos keresési lekérdezést, amit az exa.aien futtatni szeretnél, hogy optimalizálhassam. Jelenleg a lekérdezés üres.",
+      "created_at": "20250903T16:19:51.797010Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

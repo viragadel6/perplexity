@@ -1,0 +1,19 @@
+{
+  "context_uuid": "91330af7580b4aaaade96e11f8ea97c5",
+  "context_title": "ertekeld",
+  "created_at": "20250725T18:22:16.538301Z",
+  "updated_at": "20250725T18:22:16.538301Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d3791bf72c474647b1f42d530b7c6f6a",
+      "query": "ertekeld",
+      "answer": "Kérlek, küldd el vagy másold be ide a fájl tartalmát, mert az \"FUFN.txt\" csatolmányt nem tudom megnyitni közvetlenül. Így tudom értékelni azt.",
+      "created_at": "20250725T18:22:17.919533Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

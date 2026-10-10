@@ -1,0 +1,91 @@
+{
+  "context_uuid": "08534f69ad104f9c9ce0762638b5cd80",
+  "context_title": "",
+  "created_at": "20250704T13:15:04.220423Z",
+  "updated_at": "20260415T00:23:30.163847Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e7b783d8f9e74dffb7330245a665e9e9",
+  "entries": [
+    {
+      "entry_uuid": "9fff3631649f47d982925faeb2335936",
+      "query": "",
+      "answer": "A  oldal a Google mesterséges intelligencia (AI) platformjának hivatalos oldala, amely bemutatja, hogyan teszi a Google az AIt mindenki számára hasznossá, és hogyan integrálja legújabb AI fejlesztéseit termékeibe és szolgáltatásaiba[1]. Az oldal központi témája a Gemini, a Google következő generációs, multimodális generatív AI modellcsaládja, amely számos különböző felhasználási területet fed le, a kreativitás és produktivitás növelésétől a fejlesztők és vállalatok támogatásáig[1][2][5].\n\nAz oldalon többek között a következő főbb funkciók és lehetőségek jelennek meg:\n\n Gemini AI asszisztens: Segít a mindennapi feladatokban, kreatív ötletelésben, információkeresésben, emailek vagy képek generálásában, valamint személyre szabott kutatási asszisztensként is működik[1][3].\n Fejlesztői eszközök: A Google AI Studio és a Gemini API lehetővé teszi fejlesztőknek, hogy gyorsan és egyszerűen építsenek AIalapú alkalmazásokat, integrálják a Gemini modelleket, vagy akár saját, testreszabott AI megoldásokat hozzanak létre[2][4][5].\n AI integráció a Google termékekben: A Gemini és más AI fejlesztések megjelennek az Androidban, Chrome böngészőben, Google Photosban, Gmailben, Docsban, Workspaceben, és sok más Google szolgáltatásban, ahol például képszerkesztés, szövegírás, keresés vagy fordítás válik könnyebbé[1][8][9].\n Vállalati és oktatási megoldások: Az AI segíti a cégeket az innovációban, döntéshozatalban, ügyfélélmény javításában, illetve az oktatásban a tanárok munkájának támogatásában és a tanulás személyre szabásában[1][6][9].\n Felelős AI fejlesztés: A Google kiemelten kezeli az AI biztonságát, etikus alkalmazását, a felhasználók adatvédelmét és a társadalmi hasznosságot[1][9].\n\nAz oldal azok számára készült, akik szeretnék megismerni és kipróbálni a Google legújabb AI technológiáit, legyenek fejlesztők, vállalkozások, oktatók vagy hétköznapi felhasználók. Az oldalon keresztül elérhetőek bemutatók, fejlesztői dokumentációk, oktatási anyagok és közvetlen hozzáférés a Gemini AI asszisztenshez[1][2][3][10].",
+      "created_at": "20250704T13:15:04.251488Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "3a9a95e864cc4ec19163f23f572a0938",
+      "query": "ehhez hasonlo dedignu ui es ux es honlapot keresek. direkt honlap url ket kuldj válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " \n \n \n \n \n \n \n \n \n ",
+      "created_at": "20250704T13:15:53.896493Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e093423876104afe8e4dd82d4135c105",
+      "query": "de felete hatteru es nagyon hasonlito xd",
+      "answer": " \n \n \n \n \n \n \n \n \n ",
+      "created_at": "20250704T13:24:07.410642Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "a59c84ddb76f4401ad719681c1e7b665",
+      "query": "szebbek",
+      "answer": "   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n ",
+      "created_at": "20250705T10:34:31.260590Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "56720fac9eaa44228c300294f52a1f83",
+      "query": "80%a nem is valos letezo oldal vagy nem is felete hatteru vagy konkret meg a domain sincs megvasarolva\nkuldj 30 at ami mindnek megfelel amit kertem",
+      "answer": "Az alábbi lista 30, sötét háttérrel rendelkező és esztétikus weboldal URLjét tartalmazza, a keresési találatokban említett példák alapján [1][2][3].\n\n  [1]\n  [1]\n  [1]\n  [1][4]\n  [1]\n  [1]\n  [4]\n  [4]\n  [5]\n  [5]\n  [2]\n  [2]\n  [2]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]\n  [2][3]",
+      "created_at": "20250705T12:44:07.301762Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "6b6df75046cc4c4e9e7bafda35f1b916",
+      "query": "Ezek megszüntetem a fele igazából nem is létezik megmondtam már hogy milyen híresek rá hanem teljesen ismeretlenekre gondolok és amiknek teljesen 00000 fekete a háttere érted és olyasmi mint az Apple az animációk meg az ux",
+      "answer": " \n   \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ",
+      "created_at": "20250705T12:52:03.857166Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "c4b7af5f5c1240c6b7339ad4b5e30da4",
+      "query": "Fele nem működik, másik fele meg nem is Fekete\nMost küldj olyanokat amiket kértem￼ react native vagy ilyesmiket es rrndes componentrkblegyenek elerhetoek copy paste kodokkal",
+      "answer": " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ",
+      "created_at": "20250705T12:56:14.117092Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    },
+    {
+      "entry_uuid": "48f655495a654d7eb47f047d93cfffd1",
+      "query": "de konkret oldalak ahol mar egybol latom a komponenseket es kod is van hozza juk hasonlo mint a reactix de nem nem erdekel heroui dasies ui tamaha radix mui  mui shadcn meg ilyen tomegek",
+      "answer": " \n \n \n \n \n \n \n \n \n ",
+      "created_at": "20260415T00:21:22.751223Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "7ddfb3e62f834ca884e059493f1e43a5",
+      "query": "ezek 90% a shadcn volt csak mas neven xd",
+      "answer": "  — animált React komponensek, közvetlen komponensgaléria, nem shadcn[1][2]\n  — headless komponenskönyvtár 45+ komponenssel, saját stílusra, nem shadcn[3][4]\n  — unstyled React UI komponensek, hozzáférhető design system alap, nem shadcn[5][6]\n  — teljes React komponensdoksi élő példákkal és kóddal, nem shadcn[7][8]\n  — nagy komponensindex, demók és dokumentáció, nem shadcn[9][10]\n  — 80+ React komponens, showcase + docs + kódpéldák, nem shadcn[11][12]\n  — Base Web komponensdoksi és katalógus, nem shadcn[13]\n  — PrimeReact showcase, komponensek és UI blokkok közvetlenül nézhetők, nem shadcn[14]",
+      "created_at": "20260415T00:22:42.095891Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

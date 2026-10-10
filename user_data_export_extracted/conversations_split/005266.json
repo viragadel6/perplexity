@@ -1,0 +1,19 @@
+{
+  "context_uuid": "fd6fe0818275435d99b0be43cc333efc",
+  "context_title": "",
+  "created_at": "20251227T14:26:37.681383Z",
+  "updated_at": "20251227T14:26:37.681383Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9804295a6a9d4737ae7bfc275da9d0f0",
+      "query": "",
+      "answer": "Pony a leginkább illeszkedő választás a kritériumokhoz: objektumorientált, actoralapú, natívan forduló, brutálisan gyors (Cszintű teljesítmény, deadlock és datarace mentes), magas szintű absztrakciókkal, de még a legszűkebb fejlesztői körökben is ismeretlen underdog.[1][2]\n\n Miért Pony?\n Actormodell M:N threadinggel, capabilitysecure típusrendszerrel – magasabb szintű, mint C/Rust/Zig, mégis natív bináris kimenettel LLVMen keresztül.[2]\n Nixpkgsben hivatalos csomagként elérhető (ponyc), Repliten működik replit.nixen keresztül.[3][2]\n Teljesen független a felsorolt mainstream nyelvektől, nincs benne Cszerű pointer káosz vagy Rust borrow checker frusztráció.[1]\n\n Replit.nix példa\n\n{ pkgs }: {\n  deps = [\n    pkgs.ponyc\n  ];\n}\n\nEzzel azonnal futtatható: ponyc hello.pony && ./hello – production ready, nincs dummy/setup kell.[4][3]\n\n Teljes Hello World fájl\nhello.pony\n\nactor Main\n  new create(env: Env) =>\n    env.out.print(\"Hello, brutálisan gyors Pony! [attached_file:1]\")\n\nFordítás/futtatás Repliten: ponyc hello.pony && ./hello – natív executable, 109.9 MB apphez hasonlóan kompakt.[5][2]\n\n Teljesítmény előny\nCszintű sebesség actorkkal, nincs GCszünet, referencia capabilityk biztosítanak magasabb biztonságot Rustnál kevesebb boilerplatetel.[2]",
+      "created_at": "20251227T14:26:39.984495Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

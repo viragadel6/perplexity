@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4209e12c6c5d41f4b46c66590956239c",
+  "context_title": "Iej replitbe egy soros direkt shell scriptet ami full klonozza es menti at oldalt. konyvtarba: \nDe ugy h utana szerkeszthessem",
+  "created_at": "20250810T13:56:23.748540Z",
+  "updated_at": "20250810T13:56:23.748540Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "66717c84526d493c90e11efd766de178",
+      "query": "Iej replitbe egy soros direkt shell scriptet ami full klonozza es menti at oldalt. konyvtarba: \nDe ugy h utana szerkeszthessem",
+      "answer": " Egy­soros script Replithez: teljes oldal tükrözése szerkeszthető könyvtárba\n\nAz alábbi egy­soros parancs tükrözi a megadott oldalt egy lokális könyvtárba úgy, hogy az linkkonverzióval offline/szerkeszthető legyen, és nem mászik feljebb a szülőkönyvtárakba:\n\nbash\nmkdir -p site && wget --mirror --convert-links --adjust-extension --page-requisites --no-parent --restrict-file-names=windows --directory-prefix=site --domains=apple.com --span-hosts=off https://www.apple.com/hu/iphone-16-pro/\n\n\nMagyarázat röviden:\n --mirror rekurzív tükrözés webhelyhez igazított beállításokkal[1][2][3].\n --convert-links a linkeket relatívvá alakítja, hogy offline is működjenek[1][3][4].\n --adjust-extension megfelelő kiterjesztést ad (pl. .html)[1][3][4].\n --page-requisites letölti a megjelenítéshez szükséges erőforrásokat (CSS, képek, JS)[1][3][4].\n --no-parent nem lép feljebb a hierarchiában, a megadott útvonalra korlátoz[1][3][4].\n --restrict-file-names=windows kompatibilis fájlnevek[2][4].\n --directory-prefix=site mindent a „site/” könyvtárba ment[3][4].\n --domains=apple.com és --span-hosts=off a külső domainek elkerülésére, hogy szerkeszthető, zárt mentés készüljön[2][5].\n\nMegjegyzések Replithez:\n Ha a környezetben nincs wget, telepítés nélkülözhetetlen, vagy használható alternatívaként curl+httrack, de a fenti megoldás wgetet feltételez; Replit Bash projektekben előfordulhat, hogy wget nincs előtelepítve, ilyenkor curl javasolt vagy a csomag telepítése a környezet képességei függvényében[6][7][8].\n A wget tükrözés bevett módszer offline szerkeszthető másolat készítésére[1][5][2].\n\nJogkövetés/tiszteletben tartandó korlátok:\n A robots.txt és a szerzői jogi feltételek betartása ajánlott; a wget általános tükrözés funkciói a teljes megjelenítéshez szükséges erőforrásokat töltik, de a webhely szabályait célszerű ellenőrizni[5][9][10][11][12].",
+      "created_at": "20250810T13:56:23.903359Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

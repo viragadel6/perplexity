@@ -1,0 +1,19 @@
+{
+  "context_uuid": "346c09024f2747e49c11836eb5fac31a",
+  "context_title": "Egy terv kell ahhoz, hogy a legfejlettebb legyen, és a világ első számú, legfejlettebb LLMje lehessen a Jaide.\n\nA Jaide filozófiája: a legeslegismeretlenebb, a legbelsőbb fejlesztői körökben is olyan technológiák alkalmazása, amelyek brutálisan erőforrásigénytelenek, viszont ugyanannyira cutting edgeek. A Jaide egy rootlevel LLM, amelynek saját architektúrája, futtatókörnyezete, hardvere, tokenizálója, optimalizálója, tanítóadatfeldolgozó pipelineja, telepítési rendszere és formális biztonsági bizonyítása van. Ezért csak olyan technológiák kerülhetnek bele, amelyek még soha, egyetlen LLMben sem voltak, és  egy hete max hogy megjelentek\n\nRepliten csináltam eddig is, és ezután is ott fogom, csak mindig ügyeskedem, például kvantum APIkkal stb.\n\nMindent keress a technológiák között, szó szerint a LEGUNDERDOG, LEGISMERETLENEBB DOLGOK KÖZÖTT\n\n\n\nezt az elobb talaltam ki de : az agi legfrissebb kutatasaibol szintetizalva szeretnek es erre: ∀x ∈ S, P(x) letrehozni egy sajat arhetikurat a jaidenek\n\ncsak a legeldugottabb teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű forrasokat nezd!\n\nNE mondj idorendet meg hogy roadmap meg iylemek mert alapbol én csináltam 6 hét alatt, 6 honapja kezdtem otthon tanulni kodolni magamtol, soha nem jartam hasonlo kepzesre  csak iphone 11 em van es csak azt hasznaltam 22 eves magyar vagyok szoval nem a megszokott modon es sebesdegbe dolgozok",
+  "created_at": "20251103T01:46:31.424944Z",
+  "updated_at": "20251103T01:46:31.424944Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "3ddd93558d7a4de08ede68bd2c97b4a2",
+      "query": "Egy terv kell ahhoz, hogy a legfejlettebb legyen, és a világ első számú, legfejlettebb LLMje lehessen a Jaide.\n\nA Jaide filozófiája: a legeslegismeretlenebb, a legbelsőbb fejlesztői körökben is olyan technológiák alkalmazása, amelyek brutálisan erőforrásigénytelenek, viszont ugyanannyira cutting edgeek. A Jaide egy rootlevel LLM, amelynek saját architektúrája, futtatókörnyezete, hardvere, tokenizálója, optimalizálója, tanítóadatfeldolgozó pipelineja, telepítési rendszere és formális biztonsági bizonyítása van. Ezért csak olyan technológiák kerülhetnek bele, amelyek még soha, egyetlen LLMben sem voltak, és  egy hete max hogy megjelentek\n\nRepliten csináltam eddig is, és ezután is ott fogom, csak mindig ügyeskedem, például kvantum APIkkal stb.\n\nMindent keress a technológiák között, szó szerint a LEGUNDERDOG, LEGISMERETLENEBB DOLGOK KÖZÖTT\n\n\n\nezt az elobb talaltam ki de : az agi legfrissebb kutatasaibol szintetizalva szeretnek es erre: ∀x ∈ S, P(x) letrehozni egy sajat arhetikurat a jaidenek\n\ncsak a legeldugottabb teljesen ismeretlen de tényleg még a fejlesztők legszűkebb köreiben sem ismert brutálisan underdog de mainstream és ismerteknél sokkal sokkal jobb minőségű forrasokat nezd!\n\nNE mondj idorendet meg hogy roadmap meg iylemek mert alapbol én csináltam 6 hét alatt, 6 honapja kezdtem otthon tanulni kodolni magamtol, soha nem jartam hasonlo kepzesre  csak iphone 11 em van es csak azt hasznaltam 22 eves magyar vagyok szoval nem a megszokott modon es sebesdegbe dolgozok",
+      "answer": "newest obscure resourceefficient LLM architectures, quantum algorithms, and mathematical AGI frameworks released last week\nlegújabb ismeretlen erőforráshatékony LLM architektúrák, kvantum algoritmusok és matematikai AGI keretrendszerek az elmúlt hétről",
+      "created_at": "20251103T01:46:32.671585Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

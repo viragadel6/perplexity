@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b4280101f20f41da8982d9a6fdf4ba05",
+  "context_title": "replitrol modalcom api val finom hangulhatok modelt?",
+  "created_at": "20251215T21:57:27.201355Z",
+  "updated_at": "20251215T21:57:27.201355Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "956bd6058a094b0789d08f1255523cc7",
+      "query": "replitrol modalcom api val finom hangulhatok modelt?",
+      "answer": "Replit önmagában nem ad külön “finetuning API”t; Replitből ugyanazokat a külső szolgáltatói APIkat hívod, mint bárhonnan (pl. OpenAI Finetuning API), csak a kód Replitben fut.[1]\n\n OpenAI finetuning (leggyakoribb)\nAz OpenAI platformon finomhangolást lehet indítani dashboardból vagy APIn keresztül, tipikusan úgy, hogy példákat gyűjtesz, feltöltöd JSONL formátumban, majd indítasz egy finetuning jobot.[2][1]\nAz APIkulcsot szerveroldalon, környezeti változóban érdemes tárolni (ne kliensoldali kódban).[3]\nA sikeres job után a létrejött finomhangolt modellt ugyanúgy használod lekérdezésre, mint az alapmodellt.[2]\n\n Nyílt forrású finomhangolás (Hugging Face)\nHa nem zárt szolgáltatóval szeretnél finomhangolni, akkor Hugging Face Transformersszel “helyben” is lehet tréningelni/finetuneolni (pl. LoRA/PEFT megközelítéssel), de ez erőforrásigényes lehet.[4]\nReplithez közel álló példa, hogy a Replit replitcode modellcsaládját kifejezetten alapnak szánják alkalmazásspecifikus finetuninghoz (Hugging Faceen elérhető).[5]\n\n Claude és más szolgáltatók\nClaude finomhangolás általánosan nem “Anthropic natív API”n keresztül érhető el; a Claude 3 Haiku finetuning például Amazon Bedrockon keresztül érhető el.[6][7]\n\nMelyik modellt akarod finomhangolni (OpenAI / opensource HF / Claude Bedrock), és inkább szövegklasszifikációra, “stílus/format” igazításra, vagy kódgenerálásra kell?",
+      "created_at": "20251215T21:57:27.270890Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

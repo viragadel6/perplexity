@@ -1,0 +1,19 @@
+{
+  "context_uuid": "05fd56adf4354985a3f0d285e3784785",
+  "context_title": "hibák? összeset! hogyan kell javítani? válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250919T04:14:20.820391Z",
+  "updated_at": "20250919T04:14:20.820391Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e2407d18ede047ecb0906e52d2e77c31",
+      "query": "hibák? összeset! hogyan kell javítani? válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Hiányzó csomagok/importok: Flux, CUDA, AMDGPU, WeakRefStrings használva vannak (pl. Flux.Dense, CUDA.functional(), WeakRefString), de nincs import → add a következőket a tetejére: using Flux; using CUDA; using AMDGPU; using WeakRefStrings. [1]\n Threadbiztonsági hiba és globális állapot: precompute_distances több szálon ír a globális DIST_LOOKUP Dictbe (ThreadsX.foreach), ami nem threadsafe → használj előre allokált mátrixot és indexelt írást, vagy perszál gyűjtést és mergeöt; alternatívaként futtasd egy szálon és add vissza a lookupot értékként, ne globálisban tartsd. [1]\n Érvénytelen Julia indexelés: coords[.., index[1], :] / r_ij = coords[.., index[1], :] . coords[.., index, :] stb. → cseréld ':' operátorra minden dimenzión: coords[:, index[1], :], r_ij = coords[:, index[1], :] . coords[:, index, :]. [1]\n RDKit/CSV/DataFrames hivatkozások import nélkül: compute_ccd_main és társai RDKit, CSV.write, DataFrame APIkat hívnak, miközben a 'using RDKit', 'using CSV', 'using DataFrames' ki van kommentelve → importáld ezeket a csomagokat vagy zárd feltételes ágra azokat a funkciókat, amelyek ezeket igénylik. [1]\n Serialization helytelen használata: serialized_permutations = string(Serialization.serialize(permutations)) nem működik → szérializálj IOBufferbe és hexbinaryt ments: io = IOBuffer(); Serialization.serialize(io, permutations); bytes = take!(io); mol.SetProp(\"symmetries\", bytes2hex(bytes)); vagy használj JSON3.write a perzisztáláshoz. [1]\n Offbyone a szekvencia validációban: az üzenet 1–10000 karaktert enged, de a feltétel String.length(sequence) < 10000, így a 10000 hossz elutasított → módosítsd: String.length(sequence) >= 1 és String.length(sequence) <= 10000. [1]\n Túl nyitott CORS: accesscontrolalloworigin \"\" → állíts whitelistelt domainekre, vagy használj CORSPlugot origin listával és preflight kezeléssel környezetfüggő konfigurációban. [1]\n GPU típusspecifikus típusok használata import nélkül: CuArray/ROCArray hivatkozások 'using CUDA/AMDGPU' nélkül → add hozzá az importokat és védd az ágat CUDA.functional()/AMDGPU.functional() ellenőrzéssel, hogy CPUn ne dobjon hibát. [1]",
+      "created_at": "20250919T04:14:20.964556Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "context_uuid": "4c8f38cce7b542559324ed63e6d61e4e",
+  "context_title": "4549240646656415",
+  "created_at": "20260225T19:03:33.752547Z",
+  "updated_at": "20260225T19:04:14.659801Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ef1dece9fb3f4363b0c2ded4f828dc04",
+      "query": "4549240646656415",
+      "answer": "Answer skipped.",
+      "created_at": "20260225T19:03:33.829632Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "0331e5bb5aa54705be98c86e043654cb",
+      "query": "07/31",
+      "answer": "Answer skipped.",
+      "created_at": "20260225T19:03:49.784209Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "ba5d435f730f49f086b81299d8ed6d76",
+      "query": "718",
+      "answer": "Úgy tűnik, hogy bankkártyaadatokat osztottál meg velem:\n\n Kártyaszám: 4549240646656415\n Lejárati dátum: 07/31\n CVV: 718\n\nEzeket az adatokat nem tárolom, nem dolgozom fel és nem továbbítom sehova. Ugyanakkor határozottan kérlek:\n\nNe ossz meg bankkártyaadatokat semmilyen chatbottal vagy AIrendszerrel. Ez komoly biztonsági kockázat, mivel:\n\n Az ilyen adatok illetéktelen kezekbe kerülhetnek.\n A CVV kód megadása különösen veszélyes, hiszen az online vásárláshoz elegendő.\n Ha véletlenül osztottad meg ezeket az adatokat, javasolt azonnal blokkoltatni a kártyát a bankodnál.\n\nHa segítségre van szükséged, hívd fel a kártyádon lévő bank ügyfélszolgálatát.",
+      "created_at": "20260225T19:03:59.281831Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

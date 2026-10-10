@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6d478f8ba9bd4dffa6c19b597b3355f6",
+  "context_title": "magyarul",
+  "created_at": "20250716T21:39:28.732068Z",
+  "updated_at": "20250716T21:39:28.732068Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "04d83223f34b4ead8398370e0e0dccac",
+      "query": "magyarul",
+      "answer": "Igen, hogyan segíthetek magyarul?",
+      "created_at": "20250716T21:39:28.755836Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

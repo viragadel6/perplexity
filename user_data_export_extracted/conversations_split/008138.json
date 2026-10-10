@@ -1,0 +1,28 @@
+{
+  "context_uuid": "d9d9457483da46c1822ebccc1f038b26",
+  "context_title": "Cutting edge de brutal ismeretlen gyonyoru ui ux design bio informatikai ai honlapokat kuldj direkt linket",
+  "created_at": "20251001T19:55:45.331779Z",
+  "updated_at": "20251001T19:58:24.998078Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "cbd97987f6804912898947c8985949c5",
+      "query": "Cutting edge de brutal ismeretlen gyonyoru ui ux design bio informatikai ai honlapokat kuldj direkt linket",
+      "answer": " Cutting Edge Bioinformatikai AI Honlapok\n\nA következő csúcstechnológiás bioinformatikai AI platformok kiemelkedő UI/UX designnal és modern vizuális megjelenéssel rendelkeznek[1][2][3]:\n\n Fehérjestruktúra Predikció\n\nAlphaFold Server  \nA Google DeepMind és Isomorphic Labs által fejlesztett AlphaFold 3 webszolgáltatás tiszta, modern interfészt kínál fehérje, DNS, RNS és ligand struktúrák előrejelzésére[2][4]. Az oldal minimális designja és intuitív működése tökéletes példája a funkcionalitás és esztétika összhangja[5].\n\nAlphaFold Protein Structure Database  \nAz EMBLEBI és DeepMind közös projektje, amely több mint 200 millió fehérjestruktúrapredikciót tartalmaz[3]. A 2025ös frissítések közé tartozik a TED domén integráció, bulk letöltési funkciók és továbbfejlesztett vizualizációs eszközök modern interfészen keresztül[6].\n\nDeepMind AlphaFold  \nA központi AlphaFold platform, ahol a technológia mögötti tudomány és alkalmazások bemutatásra kerülnek elegáns, átlátható designnal[1][5].\n\n Workflow Platformok\n\nEDGE Bioinformatics  \nEgy demokratizált nextgeneration sequencing platform egyszerű, hozzáférhető interfészekkel[7]. A platform célja a genomikai és metagenomikai kutatás széles körű elérhetővé tétele modern eszközökkel.\n\n Design Inspiráció\n\nBrutalist Websites Collection  \nBrutalist web design példák gyűjteménye, amely segít megérteni a nyers, funkcióközpontú design elveit[8].\n\nAwwwards Brutalism Collection  \nDíjnyertes brutalist design koncepciók, amelyek inspirációt nyújtanak a modern, merész UI/UX megoldásokhoz[9].\n\nEzek a platformok képviselik a bioinformatikai AI eszközök legújabb generációját, ahol a fejlett gépi tanulási algoritmusok találkoznak a modern, felhasználóbarát dizájnnal[10][11][12].",
+      "created_at": "20251001T19:55:45.471538Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "f21473baa45e44f3af1fdc4149da290c",
+      "query": "De amiknek a designjuk gyonyoru 3d webgl szines letisztult modern",
+      "answer": " Gyönyörű 3D WebGL Bioinformatikai és AI Honlapok\n\nA következő platformok lenyűgöző 3D vizualizációval, WebGL technológiával, színes és modern designnal rendelkeznek[1][2][3]:\n\n Molekuláris Vizualizáció\n\nMol  \nModern, WebGLalapú toolkit nagy léptékű molekuláris adatok vizualizációjához és elemzéséhez[2]. Az oldal lenyűgöző 3D animációkat tartalmaz, mint a HIV kapszid CellPack modellje, SARSCoV2 virion vizualizációk és fehérje folding trajektóriák interaktív megjelenítése[4].\n\nNGL Viewer  \nWebGLalapú molekuláris grafika gyűjtemény, amely fehérjéket és DNS/RNS struktúrákat jelenít meg változatos reprezentációkkal[3]. A platform különböző eszközöket kínál, beleértve a Jupyter widgetet is interaktív molekuláris vizualizációhoz[4].\n\n3Dmol.js Platform  \nNagy teljesítményű, interaktív 3D molekuláris adatok megjelenítése WebGLlel, amely nem igényel plugineket modern böngészőkben[1]. Kiváló eszköz tudományos publikációkhoz és oktatási célokra.\n\nMolView  \nWebalapú adatvizualizációs platform GLmol és ChemDoodle WebGL renderelőkkel[5]. Számos molekuláris reprezentációt támogat, mint ballandstick, van der Waals gömb, és makromolekulák szalagdiagramjai[5].\n\n Biotech Platformok Modern Designnal\n\nParse Biosciences  \nSkálázható single cell szekvenálás letisztult, modern interfészen[6]. Az oldal színes animációkkal és intuitív designnal mutatja be az Evercode™ technológiát, amely akár 5 millió sejt feldolgozását teszi lehetővé egyetlen kísérletben[7][4].\n\nBeam Therapeutics  \nA CRISPR base editing úttörője modern, fehérteal színsémával és interaktív elemekkel[8][9]. Az oldal hoveranimációkkal és dinamikus team cardokkal teremti meg a letisztult, futurisztikus élményt[8][10].\n\n 3D Web Design Példák\n\nAwwwards WebGL Collection  \nDíjnyertes WebGL alapú weboldalak inspirációs gyűjteménye[11]. A legjobb 3D animációkat és interaktív élményeket bemutató platformok válogatása[12].\n\nbioWeb3D  EMBLEBI projekt\nHTML5/WebGL alapú 3D vizualizációs eszköz, amely lehetővé teszi biológusok számára az interaktív és testreszabható három dimenziós adatreprezentációt[13]. A Three.js JavaScript libraryt használva nagyméretű adathalmazokat jelenít meg böngészőben[13].\n\nEzek a platformok a WebGL technológia, Three.js library és GPU gyorsítás kombinációjával hoznak létre valós időben renderelt, hipervalisztikus 3D környezeteket[14][15]. A modern web design trendek közé tartozik a scrollytelling, expressive typography animations és AR/VR motion graphics integrálása[16].",
+      "created_at": "20251001T19:57:23.954113Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

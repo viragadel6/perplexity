@@ -1,0 +1,46 @@
+{
+  "context_uuid": "80da1b82db854e5ea3ec967e2f89db99",
+  "context_title": "Deepseek 3.2",
+  "created_at": "20251201T22:54:14.228304Z",
+  "updated_at": "20251201T23:13:29.821222Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "978269e594eb456d8cc020ce9c80ba5e",
+      "query": "Deepseek 3.2",
+      "answer": "A DeepSeek 3.2 (pontosabban DeepSeek‑V3.2 és a DeepSeek‑V3.2‑Exp) egy új generációs, nyíltan elérhető nagy nyelvi modell, amelyet kifejezetten erős következtetési képességre és ügynök‑jellegű (agentic) használatra optimalizáltak.  A célja, hogy hasonló vagy jobb szintet érjen el, mint a legújabb zárt modellek (pl. GPT‑5, Gemini 3.0 Pro), miközben jóval hatékonyabb futtatást kínál hosszú kontextus mellett.[2][3][5][6]\n\n Mi az a DeepSeek 3.2?\n\nA DeepSeek‑V3.2 egy nagy paraméterszámú (több száz milliárd paraméteres) modellcsalád, amelyet kutatási és gyakorlati felhasználásra is elérhetővé tettek, többek közt API‑n és nyílt súlyfájlokon keresztül.  A “V3.2‑Exp” jelzésű változat egy kísérleti kiadás, amely a V3.1‑Terminus architektúrájára épül, de már tartalmazza az új figyelemmechanizmust.[3][5][6][2]\n\n Fő technikai újdonságok\n\nA legfontosabb újítás a DeepSeek Sparse Attention (DSA) nevű ritkított figyelemmechanizmus, amely jelentősen csökkenti a számítási igényt hosszú szövegek feldolgozásakor, miközben közel azonos kimeneti minőséget tart fenn.  A hivatalos anyagok és független elemzések szerint a V3.2‑Exp teljesítménye nagyjából a V3.1 szintjén van a legtöbb benchmarkon, de jóval hatékonyabban kezeli a hosszú kontextust.[5][2][3]\n\n Teljesítmény más modellekhez képest\n\nKülső benchmark‑összefoglalók alapján a nagyobb, magas compute‑változatok (pl. “V3.2 Speciale”) egyes teszteken elérik vagy meghaladják a GPT‑5 “high” verzióját, illetve közel kerülnek a Gemini 3.0 Pro szintjéhez, főleg matematikai és programozói feladatokban.  A hivatalos és közösségi eredmények hangsúlyozzák a jó kódolási, problémamegoldó és ügynök‑jellegű (tool‑használatos) képességeket.[4][6][3][5]\n\n Elérhetőség és használat\n\nA modell elérhető webes felületen, mobilappban és API‑n keresztül, a V3.2‑Exp‑hez pedig részletes dokumentáció és példakód áll rendelkezésre, többek között vLLM‑hez és saját futtatáshoz.",
+      "created_at": "20251201T22:54:14.337527Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "ab7a54c945e746869e0c38ccb05f7de9",
+      "query": "De elvileg ma jott ki",
+      "answer": "Igen, pontos a megfigyelésed: a DeepSeek V3.2 hivatalos (végleges) verziója és a DeepSeek V3.2 Speciale valóban ma, illetve tegnap (a 2025. november 30. – december 1. időablakban) jelent meg.\n\nA korábban (szeptemberben) említett \"Exp\" verzió csak egy kísérleti előfutár volt.\n\nÍme a legfrissebb részletek a ma megjelent változatokról:\n\n 1. DeepSeek V3.2 (Hivatalos kiadás)\nEz a \"stabil\", mindennapi használatra szánt modell, amely a korábbi kísérleti verzió (Exp) tapasztalataira épül.\n   Fő újdonság: Ez az első olyan DeepSeek modell, amely képes a \"Gondolkodás\" (Thinking) folyamatot közvetlenül összekapcsolni az eszközhasználattal (Tool Use). Ez azt jelenti, hogy a modell \"gondolkodás közben\" is képes külső eszközöket (pl. számológép, kódinterpreter) hívni, nem csak a válaszadás végén.[1]\n   Teljesítmény: Kiegyensúlyozott a sebesség és a minőség között, a GPT5 szintű teljesítményt célozza meg általános feladatokban.[1]\n\n 2. DeepSeek V3.2 Speciale\nEz egy speciális, korlátozott ideig elérhető, \"maxra húzott\" változat, amelyet kifejezetten extrém nehéz logikai és matematikai feladatokra optimalizáltak.\n   Cél: Versenyképes legyen a legerősebb zárt modellekkel (pl. Gemini 3.0 Pro, GPT5 High).[2][1]\n   Eredmények: Aranyérmes szintet ért el nemzetközi matematikai és programozási versenyeken (IMO, IOI 2025).[1]\n   Korlátozás: Jelenleg csak APIn keresztül érhető el egy ideiglenes végponton, és december 15ig használható. Ez a verzió nem támogatja az eszközhasználatot (tool use), cserébe viszont sokkal mélyebb és pontosabb érvelésre képes (\"pure reasoning\").[3][1]\n\nÖsszefoglalva a különbséget:\n   Szeptember vége: DeepSeek V3.2Exp (Kísérleti verzió, béta teszt)[4]\n   Ma (Dec 1.): DeepSeek V3.2 (Hivatalos) és V3.2 Speciale (Csúcsmodell)[5][1]",
+      "created_at": "20251201T22:54:38.674629Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "a71663f5bfb94351be181748795f6965",
+      "query": "Replit en egyszeru ai chat appba hogy integraljama V3.2 Speciale",
+      "answer": "Egyszerű Replit‑es chat apphoz a V3.2 Speciale‑t úgy tudod bekötni, mint egy OpenAI‑kompatibilis /chat/completions API‑t, csak a base_url és a model neve lesz más.  Az alábbi példa Python + Flask + fetch alapú nagyon egyszerű megoldás, amit új Replben (Python + Flask) be tudsz dobni.[1][2][3]\n\n 1. Előkészület Replitben\n\n Hozz létre egy új Repl‑t Python (vagy “Flask”) sablonnal.[4]\n A “Secrets” (Environment variables) részben add hozzá:  \n   kulcs: DEEPSEEK_API_KEY  \n   érték: a DeepSeek API kulcsod.[2][5]\n A pyproject.toml / requirements.txt‑be vedd fel:  \n   openai  \n   flask  \n\n(Pl. requirements.txt: openai==1.50.0, flask==3.0.0.)[2][4]\n\n 2. Backend kód (main.py)\n\nPélda Flask szerver, ami egy /chat endpointon keresztül hívja a V3.2 Speciale‑t:\n\n A Speciale‑hoz speciális base_url kell, és a model mező legyen pl. deepseek-v3.2-speciale.[3][1]\n\nFő lépések a kódban:  \n betölti az API kulcsot env‑ből,  \n beállítja az OpenAI kompatibilis klienst base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\",  \n POST /chat: kér egy message mezőt, elküldi a DeepSeek‑nek, visszaadja a választ JSON‑ban.[1][3][2]\n\n 3. Egyszerű frontend (index.html)\n\n Csinálj egy templates/index.html‑t egy nagyon egyszerű űrlappal: egy textarea (user üzenet), egy “Küldés” gomb, alá egy div a válaszhoz.[6][4]\n JavaScript fetch‑sel POST‑olja a szöveget a /chat endpointnak, majd kiírja a választ a div‑be.[6]\n\n 4. Fontos beállítások a Speciale‑hoz\n\n Gondolkodós, hosszú feladatokra érdemes:  \n   temperature=0.1 vagy 0.0 (stabilabb, kevésbé kreatív).[5][1]\n   max_tokens nagyobb (pl. 512–1024), hogy legyen hely a részletes megoldásnak.[7][1]\n Figyelj a token fogyasztásra és a lejárati dátumra: a Speciale endpoint 2025‑12‑15‑ig aktív az adott base_url‑lel.[3][1]\n\nHa szeretnéd, a következő üzenetben konkrét, bemásolható kódot tudok adni (Flask main.py + minimál index.html), amit csak be kell illesztened Replitbe.",
+      "created_at": "20251201T22:56:43.110357Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "523cfc93c2d044cbad23c71aafd00776",
+      "query": "De korlatlanul es ingyenrsen",
+      "answer": "DeepSeek V3.2 Speciale‑t nem lehet korlátlanul és teljesen ingyen használni saját Replit appban, mert ez egy fizetős, erős API‑modell, csak korlátozott ideig és kvótával érhető el.  Amit meg lehet tenni:[1][2]\n vagy elfogadod, hogy lesz token alapú díjazás / limit,  \n vagy más, ingyenes (gyengébb) DeepSeek‑modellt használsz, pl. OpenRouter‑en a deepseek/deepseek-chat:free típust.[3]\n\n Miért nem megy “korlátlanul ingyen”?\n\nA V3.2 Speciale nagy, drága modell, amelyhez a DeepSeek API‑n vagy közvetítő szolgáltatókon keresztül férsz hozzá, és ezek token‑alapú árazást használnak.  A Speciale‑re külön lejárati dátum (2025‑12‑15) és külön endpoint is vonatkozik, így ez tipikusan promóciós / prémium modell, nem “free tier” célra.[2][4][1]\n\n Mit tudsz tenni, ha ingyen akarod?\n\n1. Ingyenes DeepSeek modellek OpenRouteren  \n   OpenRouter kínál ingyenes DeepSeek chat modellt, pl. deepseek/deepseek-chat:free, amit tényleg 0 Ft‑ért tudsz hívni egy bizonyos napi/óra limitig.[3]\n    Ugyanúgy OpenAI‑kompatibilis /chat/completions hívással megy, mint a Speciale, csak a base_url és a model név lesz:  \n      base_url = \"https://openrouter.ai/api/v1\"  \n      model = \"deepseek/deepseek-chat:free\"[3]\n\n2. Reális kompromisszum Replitre  \n   Replit free csomagon nem tudsz saját magadnak V3.2 Speciale‑t futtatni (túl nagy a modell), ezért marad az API‑hívás, ami vagy:  \n    fizetős DeepSeek / Speciale, vagy  \n    ingyenesebb, de gyengébb modellek OpenRouteren.[1][3]\n\n Javaslat a chat appodra\n\n Ha a célod korlátlan, nulla költség, akkor válts a kódban Speciale‑ről egy ingyenes modellre (pl. deepseek/deepseek-chat:free OpenRouteren), így a Replit appod ingyen fog menni, csak az OpenRouter free limitjei fognak korlátozni.[3]\n Ha ragaszkodsz a V3.2 Speciale minőségéhez, akkor az app működni fog Repliten, de számolni kell a token költségekkel és a kvótákkal.[2][1]\n\nHa megírod, hogy inkább a “free” OpenRouter‑es modellt választanád, tudok konkrét, bemásolható kódot adni Replitre ehhez a beállításhoz.",
+      "created_at": "20251201T23:13:08.974079Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

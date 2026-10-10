@@ -1,0 +1,19 @@
+{
+  "context_uuid": "3af831fd793f4fff9028bc51d2a4c64d",
+  "context_title": "hibák? az összeset! válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250916T15:41:59.925900Z",
+  "updated_at": "20250916T15:41:59.925900Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "089fd71c9d3646aba938c5bd46ef4f0a",
+      "query": "hibák? az összeset! válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": " Mondatkezdő nagybetű hiánya: „hibák?” → „Hibák?”, „az összeset!” → „Az összeset!”[1]\n Vesszőhiány a „szeretném, ha …” tagmondathatáron: „válaszodban szeretném, ha …”[2][3]\n Vesszőhiány a vonatkozó mellékmondat előtt: „a dolgokat, amiket keresek”[4]\n Szóismétlés: „írnád írnád”[5]",
+      "created_at": "20250916T15:42:04.214553Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

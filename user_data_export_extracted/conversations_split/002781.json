@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1051b598255d48da868fd832bd5bef0e",
+  "context_title": "ez jo datasetset lett?",
+  "created_at": "20260422T15:29:01.496380Z",
+  "updated_at": "20260422T15:29:21.921671Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2d380e9a9bd54b328360311d5efabe8b",
+      "query": "ez jo datasetset lett?",
+      "answer": "Ez a fájl egy jól megírt webcrawling szkript, ami a cagematch.net oldalról gyűjt adatokat, így datasetet hoz létre JSONL formátumban.[1]\n\n Szkript célja\nA \"file1.py\" egy aszinkron Python crawler, ami a cagematch.net birkózós adatbázist célozza meg. Kezdi a főoldallal (), majd generál paramétereket (pl. id=130, sectionidk, nr=110000, page=1200), hogy feltérképezze a keresési eredményeket és részoldalakat. Minden feldolgozott oldalról kinyeri a strukturált adatokat: cím, leírás, fejlécek, táblázatok, szöveg, kimenő linkek, időbélyeg – ezekből épít rekordokat, amik JSONLbe íródnak a \"cagematchdataset.jsonl\" fájlba. Ez klasszikus datasetgeneráló eszköz, mert nyers HTMLt alakít feldolgozható, annotált JSON struktúrává, ami MLhez, elemzéshez vagy kereséshez ideális.[1]\n\n Erősségek\nAz aszinkron aiohttp használat kiváló választás nagy volumenű crawlingra, mert párhuzamosan kezeli a kéréseket (CONCURRENCY=10), időzítéssel (REQUESTTIMEOUT=20s) és TCPConnector limitekkel kerüli a túlterhelést. A normalizeurl függvény okosan szűri a domainspecifikus URLeket, eldobja a hibásakat. Az extractstructureddata részletes: BeautifulSouppal tisztítja a HTMLt (eltávolítja script/ style tageket), parseol metaadatokat, fejléceket, táblázatokat sorokként, linkeket abszolút URLként, és fulltextet soronkénti tisztítással. Ez biztosítja, hogy a dataset tiszta, használható legyen, pl. birkózó események, pankrátorok adataihoz. A seedsectionurls tömegesen generál URLeket paraméterek alapján, így gyorsan fed le sok tartalmat anélkül, hogy manuálisan linkelnie kelljen.[1]\n\n Potenciális hibák\nSyntax hibák vannak a kódban: hiányzó idézőjelek/pontozás (pl. STARTURL httpswww.cagematch.net helyett kell ''), CRAWLPARAMS/SECTIONIDS listák nem definiáltak megfelelően (pl. id 1, helyett ['id=1']), HEADERS dictben vesszők nélkül. A mainben counter list helyett intet használ, de listként inicializálva. Ezek javítás után futna tökéletesen. Nincs robots.txt ellenőrzés vagy rate limiting dinamikusan, ami bant okozhat, ha túl agresszív (MAXPAGES=None végtelen). A tables kinyerés egyszerű (csak szöveges cellák), nem kezeli összetett struktúrákat jól. Linkeknél korlátozza 50re, ami jó, de outboundlinks néven menti.[1]\n\n Dataset minősége\nIgen, jó dataset lesz belőle futás után, mert minden rekord önálló JSON objektum teljes oldallal: URL, title, description, headings (pl. H1H6 párok), tables (sorok cellákkal), fulltext, linkek, paraméterek (sectionid, nr, page), timestamp, source='cagematch'. Ez lehetővé teszi elemzést pl. birkózó statisztikákra, hálózatelemzésre (linkekből) vagy NLPre (text). JSONL formátum skálázható, nagy fájlokhoz ideális. Ha 1000+ oldalt crawlol, akkor értékes dataset birkózós eseményekről/meccsekről. Teszteld javítás után kis MAXPAGESsel![1]\n\nHa lefuttatod javítva, nézd meg a JSONLt: pl. pandasszal betölthető DataFrameként elemzésre. Jó alap, de adj hozzá error loggingot és deduplikációt seen seten túl.[1]",
+      "created_at": "20260422T15:29:01.630472Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "776b139f989a4944897eeebdfb4c5dfe",
+  "context_title": "gemini sparks",
+  "created_at": "20260519T23:04:25.100487Z",
+  "updated_at": "20260519T23:04:53.622597Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2db53ab32af744d7a9b12944441b76a8",
+      "query": "gemini sparks",
+      "answer": "Gemini Spark a Google legújabb, május 2026ban bejelentett, 24/7es személyi AIügynöke, amely aktív partnerként dolgozik a felhasználó nevében — nem csupán kérdésekre válaszol, hanem valós feladatokat végez el.\n\n Mi az a Gemini Spark?\n\nA Google 2026. május 18án mutatta be a Gemini Sparkot, amely a Gemini app fejlődésének következő nagy lépése. A Spark a Gemini 3.5 modellen fut, és az ún. Antigravity keretrendszert használja. Lényeges különbsége a korábbi asszisztensektől, hogy felhőalapú ügynökként akkor is dolgozik a háttérben, amikor bezárod a laptopot vagy lezárod a telefont.[1]\n\nA Spark mélyen integrálva van a Google Workspace eszközökkel — Gmail, Docs, Slides és más szolgáltatásokkal. Ezáltal képes összetett, többlépéses munkafolyamatokat önállóan végrehajtani, például nyers értekezletjegyzetek szintézisére, letisztított Google Docs dokumentumok elkészítésére, vagy akár kísérőlevelek megírására és elküldésére.[1]\n\n Mire képes?\n\nA Gemini Spark segítségével ismétlődő feladatokat és triggereket állíthatsz be — például automatikusan elemezhet havi bankkivonatokat rejtett előfizetési díjak kiszűrésére. „Új készségeket\" is betaníthatsz neki: például utasíthatod, hogy figyelje az iskolai emaileket, szűrje ki a határidőket, és naponta egy összefoglaló üzenetet küldjön neked és partnerednek.[1]\n\nBiztonsági szempontból a Spark mindig az irányításod alatt áll: te döntöd el, hogy bekapcsolode, és milyen alkalmazásokhoz fér hozzá. Magas kockázatú műveleteket — például pénzköltés vagy email küldés — csak jóváhagyásod után hajt végre. Az MCPkapcsolatokon keresztül hamarosan Canva, OpenTable és Instacart integrációk is elérhetők lesznek.[1]\n\n Elérhetőség és tervek\n\nA Gemini Spark ebben a héten (2026. május vége) elindul megbízható tesztelőknek, majd a következő héten az amerikai Google AI Ultra előfizetők számára nyílik meg béta formában. A macOS asztali alkalmazásba nyári időszakban érkezik, ahol helyi fájlokkal és asztali munkafolyamatokkal is dolgozhat majd. A Google emellett tervezi az egyedi alügynökök létrehozásának lehetőségét, a böngészővezérlést, valamint az SMSben és emailben történő Sparkkommunikációt.[1]",
+      "created_at": "20260519T23:04:25.305125Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4bead40f7a804c95b6f422b3b4b38cf8",
+  "context_title": "Exa ai",
+  "created_at": "20260321T17:41:21.792399Z",
+  "updated_at": "20260321T17:42:57.965647Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "39d347ab70164c05acf912627fa9f0f5",
+      "query": "Exa ai",
+      "answer": "Az Exa AI egy olyan webes kereső és APIplatform, amelyet kifejezetten AIrendszerekhez és fejlesztői alkalmazásokhoz építettek, nem pedig hagyományos emberi böngészéshez.  Röviden: akkor érdemes rá gondolni, ha egy modellnek vagy AIügynöknek valós idejű webes keresésre, tartalomkinyerésre vagy strukturált információgyűjtésre van szüksége.[1][4][5]\n\n Mi ez\n\nAz Exa saját leírása szerint valós idejű AI keresőmotort kínál, valamint web search APIt, web crawling APIt, SERP APIt és deep research eszközöket.  A Y Combinator oldala úgy fogalmaz, hogy az Exa „AIs”ok számára újragondolt webes keresés, amely lehetővé teszi a fejlesztőknek, hogy összetett lekérdezésekkel szűrjék az internet tartalmát, és így tudást vigyenek AIalkalmazásokba.[4][1]\n\n Mire használják\n\nGyakorlati értelemben az Exa arra szolgál, hogy egy AI ne csak linklistát kapjon, hanem releváns webes tartalmat tudjon megtalálni, kivonni és feldolgozni gépileg hasznos formában.  Az AWS Marketplace leírása szerint az Exa Search API általános webes visszakeresést, answer endpointokat és deepresearch felhasználást támogat, emellett vállalati igényekhez magas QPSt, ZDRt és SOC 2 megfelelést is említ.[5][1]\n\n Eszközök és integrációk\n\nA Google Workspace Marketplaceben elérhető Exa AI bővítmény alapján a szolgáltatás Google Sheetsben is használható, ahol külön függvények vannak válaszgenerálásra, webes keresésre, teljes oldalszöveg kinyerésére és szemantikusan hasonló URLek keresésére.  A felsorolt függvények nevei EXA_ANSWER, EXA_SEARCH, EXA_CONTENTS és EXA_FINDSIMILAR.[2]\n\n Cég háttér\n\nA Y Combinator profilja szerint az Exa aktív cég, az S21 batch része volt, és San Franciscóhoz kapcsolódik.  Ugyanez a profil azt is írja, hogy a vállalat célja a világháló tudásának eljuttatása AIalkalmazásokba fejlettebb keresési képességeken keresztül.[4]\n\nHa az „Exa AI” alatt inkább arra gondoltál, hogy miben jobb vagy miben más a Googlehöz, Perplexityhez vagy Tavilyhoz képest, azt is össze tudom hasonlítani.",
+      "created_at": "20260321T17:41:22.068335Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

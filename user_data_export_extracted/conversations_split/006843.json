@@ -1,0 +1,19 @@
+{
+  "context_uuid": "29a61d6d9fab44c8a1a17e8478f342a3",
+  "context_title": "kiskunhalasrol szegedre\nszegeden belul kb 40km\nutana szegedrol kecskemetre\nott varoson belul kb 20km\nes onnan cissza kiskunhalasig osszesen hany km",
+  "created_at": "20251101T00:20:44.494751Z",
+  "updated_at": "20251101T00:20:44.494751Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2857bb12312c47f69855c3d0721c620e",
+      "query": "kiskunhalasrol szegedre\nszegeden belul kb 40km\nutana szegedrol kecskemetre\nott varoson belul kb 20km\nes onnan cissza kiskunhalasig osszesen hany km",
+      "answer": "Összesen kb. 281 km az út hossza a megadott városi szakaszokkal együtt (Kiskunhalas → Szeged → Kecskemét → Kiskunhalas).[1][2][3]\n\n Bontás\n Kiskunhalas → Szeged: kb. 70 km közúton.[1]\n Szeged → Kecskemét: kb. 86 km közúton.[2]\n Kecskemét → Kiskunhalas: kb. 65 km közúton.[3]\n\n Számítás\n $$70 + 40 + 86 + 20 + 65 = 281$$ km.[2][3][1]",
+      "created_at": "20251101T00:20:44.847053Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

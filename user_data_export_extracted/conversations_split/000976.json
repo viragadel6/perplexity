@@ -1,0 +1,19 @@
+{
+  "context_uuid": "995b7ac34c3b43718ca901634c61a8a2",
+  "context_title": "olyan oldalalat keresek mint a studentoffers vagy a \nne csak tanuloknak legyenek rajta kedvezmenyek es ilyen ingyen egy honap gpt plus meg ilyenek kellenek",
+  "created_at": "20260818T05:34:01.883479Z",
+  "updated_at": "20260818T05:34:20.238126Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a36730ae4fd64b368055ec0b92c6ae0c",
+      "query": "olyan oldalalat keresek mint a studentoffers vagy a \nne csak tanuloknak legyenek rajta kedvezmenyek es ilyen ingyen egy honap gpt plus meg ilyenek kellenek",
+      "answer": "A studentoffers és Resourify típusú gyűjtőoldalak mintájára számos olyan platform létezik, ahol nemcsak diákigazolvánnyal, hanem bárki számára elérhető ingyenes próbaidőszakok, ingyen AIkreditek, szoftverkedvezmények és ingyenes fejlesztői szolgáltatások találhatók.[1][2][3][4]\n\n\n\n AI és SaaS próbaidőszakok, kuponok\n\n  – Az egyik legnépszerűbb kedvezménygyűjtő. Bárki regisztrálhat, és több száz prémium SaaS eszközhöz (pl. Notion, AWS, Airtable, AI alkalmazások) kínál kuponokat, ingyenes hónapokat és krediteket.[3]\n  &  – Kifejezetten AI eszközökre, LLMkreditekre (OpenAI, Claude, Cursor stb.) és ingyenes próbaidőszakokra szakosodott listák.[4][5]\n  – Elsősorban lifetime (örökös) licencek piactere, de a Freebies menüpont alatt folyamatosan elérhetők ingyenes szoftverek, AI segédprogramok és promóciós hozzáférések.\n\n\n\n Ingyenes fejlesztői és felhőszolgáltatások\n\n  – A legnagyobb nyílt forráskódú gyűjtemény. Olyan SaaS, PaaS és IaaS szolgáltatásokat tartalmaz, amelyeknek van ingyenes csomagjuk (Free Tier), és nem kérnek diákigazolványt.[2][1]\n  – Bár startupoknak hirdetik, a legtöbb programba egyszerű regisztrációval vagy egy saját projekttel/ötlettel is be lehet lépni. OpenAI, Google Cloud, Vercel és Anthropic krediteket gyűjt.[6]\n  – Hasonló katalógus, amely dollárezres ingyenes krediteket és szoftverperkeket listáz felhőhöz, AIhoz és marketingeszközökhöz.[7]\n\n\n\n Közösségi és tech kuponos oldalak\n\n  &  – A felhasználók rendszeresen osztanak meg friss, 1–3 hónapos ingyenes előfizetéses kódokat (pl. ChatGPT Plus promók, Perplexity Pro, Canva vagy VPNek).\n  – Az újonnan induló AI projektek szinte mindig adnak 1–3 hónap ingyenes próbaverziót vagy induló tokent a korai regisztrálóknak.\n\n\n\n Jellemzők összehasonlítása\n\n| Oldal | Fő fókusz | Diákigazolvány kell? |\n| : | : | : |\n| freefor.dev [1][2] | Fejlesztői eszközök, ingyen adatbázisok, tárhelyek | Nem |\n| JoinSecret [3] | SaaS kedvezmények, ingyenes hónapok, szoftverek | Nem |\n| GetAIPerks / ClaimAICredits [5][4] | AI APIk, GPTkreditek, AI szerkesztők | Nem |\n| AppSumo Freebies | Ingyenes szoftvereszközök, marketing & AI | Nem |",
+      "created_at": "20260818T05:34:01.922457Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

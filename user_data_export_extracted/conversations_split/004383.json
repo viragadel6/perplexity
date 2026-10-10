@@ -1,0 +1,28 @@
+{
+  "context_uuid": "ef4c85fee79841a39f784117b272672c",
+  "context_title": " semmilten mas forrast ne kutass dsak toke  pazarlas kizarolag ezt a repot es a fajljait kodjait  Ez mi?  Magyarul ertekeld",
+  "created_at": "20260208T18:37:44.616268Z",
+  "updated_at": "20260208T18:48:43.487575Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c8c283d1ef204517b79f2b726b1d62f7",
+      "query": " semmilten mas forrast ne kutass dsak toke  pazarlas kizarolag ezt a repot es a fajljait kodjait  Ez mi?  Magyarul ertekeld",
+      "answer": "A megadott  GitHub repository nem érhető el nyilvánosan, mivel a lapok betöltése sikertelen. Keresések sem találtak rá releváns információt vagy tartalmat.[1][2]\n\n Repository Hozzáférés\nA repository főoldala és fájllistája nem töltődik be, ami privát beállításra, törlésre vagy nem létező projektre utal. GitHub oldalak ilyenkor tipikusan 404es hibát adnak, de itt hálózati elérés hiba lépett fel.[3]\n\n Keresési Eredmények\nÁltalános keresések hasonló nevekre (pl. \"kollarjade\" vagy \"jagide\") csak egyéb felhasználói profilokat hoztak fel, mint kkolade vagy jagodevreede, de egyik sem egyezik a pontos útvonallal. Nincs említés kódról, fájlokról vagy projektről ezen a néven.[4][5]\n\n Lehetséges Okok\n Privát repo: Csak a tulajdonos (kollarjade) és meghívottak láthatják, git clonenál autentikáció kell.\n Nem létezik: Az URL érvénytelen vagy törölve lett, nincs nyoma a weben.[6]\n Technikai hiba: Ideiglenes GitHub vagy hálózati probléma, de többszöri próbálkozás sem segített.\n\n Mit Tegyél Következőleg\nHa te vagy a tulajdonos, tedd nyilvánossá a repót a GitHub beállításokban. Ha hozzáférésed van, oszd meg a README.md vagy fő fájlok tartalmát szövegesen elemzéshez. Alternatívaként használd a git clonet lokálisan: git clone https://github.com/kollarjade/jagide.git, majd nézd meg a fájlokat (pl. ls -la).[7]",
+      "created_at": "20260208T18:37:44.743378Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "c70f128cf44449f291c3bf33d1e4a0cb",
+      "query": "nem keretrendszer",
+      "answer": "Így van, tévedtem. Ez nem egy keretrendszer  ez egy teljesen önálló, monolitikus nagy nyelvi modell implementáció, amely saját egyedi architektúrával rendelkezik.\n\n Mi Ez Valójában\n\nEz egy konkrét LLM (Large Language Model) implementáció, hasonlóan ahhoz, mintha valaki saját GPTszerű modellt írna nulláról Zig programozási nyelven. A \"JAIDE v40\" név a kódban egy konkrét modell verzióra utal, nem egy platformra vagy eszközkészletre.\n\n Saját Egyedi Komponensek\n\nA rendszer saját fejlesztésű modulokat tartalmaz, nem standard könyvtárakat:\n\n RSF (Reversible Spatial Flow): Egy saját neurális hálózati architektúra, amely nem standard Transformer vagy RNN  ez egyedi reverzibilis rétegeket használ két párhuzamos adatfolyammal\n MGT (MultiGranular Tokenizer): Saját tokenizáló implementáció, nem BPE vagy WordPiece  saját szókincsfájl formátumot használ\n SFD (Stochastic Fractional Descent): Saját optimalizáló algoritmus, nem Adam vagy SGD\n SSI (Semantic Structural Index): Saját indexelő struktúra\n\n Teljes Pipeline egyben\n\nA kód egy endtoend modell:\n1. Tokenizálás: Szöveg → tokenek (saját MGT tokenizálóval)\n2. Tanítás: Teljes training loop gradiens számítással, loss függvénnyel, modell mentéssel\n3. Inferencia: Szöveggenerálás topk samplinggel\n4. Perzisztencia: Saját bináris modell formátum (RSF, MGT, Projection rétegek)\n\n Hardverszintű Implementáció\n\nA projekt különleges aspektusa, hogy nem csak szoftver  a könyvtárak ASIC és FPGA támogatást, valamint kvantum hardver integrációt is tartalmaznak. Ez egy kutatási prototípus, amely a hardverszoftver határt feszegeti.\n\nEz tehát egy saját fejlesztésű, teljes stack AI modell, nem egy keretrendszer mások számára.",
+      "created_at": "20260208T18:43:29.610535Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

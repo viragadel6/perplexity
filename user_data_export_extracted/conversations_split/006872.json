@@ -1,0 +1,19 @@
+{
+  "context_uuid": "aed2cf5d55654088a2afaa6bd6ed597f",
+  "context_title": "mit irnak benne",
+  "created_at": "20251031T05:20:11.941988Z",
+  "updated_at": "20251031T05:20:11.941988Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0c725878b9324b128f1bde10ad98a622",
+      "query": "mit irnak benne",
+      "answer": "A csatolt \"file1.jsonl\" fájl egy JSONL formátumú dokumentum, amely az arXiv.org legfrissebb benyújtott cikkeinek listáját tartalmazza a Databases (cs.DB) kategóriában, magyar nyelven formázva. A tartalom Markdown struktúrájú szövegként van kódolva a \"text\" kulcs alatt, és metaadatokkal egészül ki, mint például a forrás URLje (), a nyelv (hu) és a minőségi pontszám.[1]\n\n Tartalom összefoglaló\nA fájl főként 2025. október 27–31. közötti dátumok szerinti cikklistát ír le, összesen körülbelül 20–25 bejegyzéssel, beleértve címeket, szerzőket, tárgyköri kulcsszavakat (pl. cs.DB, cs.AI, cs.CL) és linkeket PDFhez, HTMLhez vagy egyéb formátumokhoz. Például október 31én egy cikk szerepel a TexttoSQL interakcióról, október 30án öt cikk a lekérdezési optimalizálásról, gráfindexekről és tárolórendszerekről. A lista részletesen megadja a cikkek címét kurzívval, a szerzőket felsorolva, esetleges megjegyzéseket (pl. oldalszám, elfogadás, GitHublink) és a tárgyköri besorolásokat.[1]\n\n Példák cikkekre\n Október 31.: \"Rethinking TexttoSQL: Dynamic Multiturn SQL Interaction for Realworld Database Exploration\" – Szerzők: Linzhuang Sun et al., tárgykörök: cs.DB, cs.CL.[1]\n Október 30.: \"One Join Order Does Not Fit All: Reducing Intermediate Results with PerSplit Query Plans\" – Szerzők: Yujun He et al., tárgykör: cs.DB.[1]\n Október 28.: \"A Survey of Data Agents: Emerging Paradigm or Overstated Hype?\" – Szerzők: Yizhang Zhu et al., tárgykörök: cs.DB, cs.AI, GitHublinkkel kiegészítve.[1]\n\nA fájl hossza kb. 7071 karakter, és adatbáziskutatásra, mesterséges intelligenciára fókuszál, de nem tartalmaz kódot vagy nyers adatokat, csak leíró listát. Ha részletesebb elemzésre van szükség, a teljes tartalom feldolgozható további eszközökkel.[1]",
+      "created_at": "20251031T05:20:12.000489Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

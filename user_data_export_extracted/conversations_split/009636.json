@@ -1,0 +1,37 @@
+{
+  "context_uuid": "88dfc7f497354fd8891848327b484505",
+  "context_title": "",
+  "created_at": "20250708T08:31:20.441366Z",
+  "updated_at": "20250708T08:32:56.032263Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b27c96dc64d6494bb7fb16338999e63a",
+      "query": "",
+      "answer": " DarkGPTLite: Áttekintés\n\n Projekt Leírása\n\nA DarkGPTLite egy nyílt forráskódú projekt, amely a GitHubon érhető el. A projekt célja egy könnyű, gyors és hatékony chatbot vagy mesterséges intelligencia asszisztens létrehozása, amely különböző természetes nyelvi feldolgozási (NLP) feladatokat képes ellátni. A DarkGPTLite általában Python nyelven íródott, és a modern gépi tanulási könyvtárakat használja.\n\n Főbb Jellemzők\n\n Könnyűsúlyú: A projekt célja, hogy minimális erőforrásigénnyel működjön, így akár alacsonyabb teljesítményű gépeken is futtatható.\n Testreszabhatóság: A forráskód szabadon módosítható, így a felhasználók saját igényeik szerint alakíthatják a chatbotot.\n Egyszerű telepítés: A projekt általában egyértelmű telepítési útmutatóval rendelkezik, amely segíti a gyors beüzemelést.\n NLP képességek: Képes szövegértésre, válaszadásra, és különböző természetes nyelvi feladatok elvégzésére.\n\n Telepítés Általános Lépései\n\n1. Git klónozás:\n   bash\n   git clone https://github.com/m3sah3dul/DarkGPT-Lite.git\n   \n2. Követelmények telepítése:\n    Lépj be a projekt könyvtárába:\n     bash\n     cd DarkGPTLite\n     \n    Telepítsd a szükséges Python csomagokat:\n     bash\n     pip install r requirements.txt\n     \n3. Futtatás:\n    A projekt tartalmazhat egy fő Python fájlt (pl. main.py vagy app.py), amelyet a következő módon indíthatsz:\n     bash\n     python main.py\n     \n\n Használati Példák\n\n Chatbotként: Kérdésekre válaszol, beszélgetést folytat.\n NLP feladatok: Szövegelemzés, összefoglalás, kulcsszavak kinyerése.\n\n Fontos Megjegyzések\n\n A projekt fejlesztés alatt állhat, ezért érdemes figyelni a frissítéseket és az esetleges hibajavításokat.\n A használathoz Python környezet szükséges, valamint a projekt által megkövetelt csomagok telepítése.\n\n További Információ\n\nA részletes dokumentáció, példakódok és fejlesztői útmutatók a projekt GitHub oldalán találhatók. A forráskód szabadon elérhető, így bárki tanulmányozhatja vagy továbbfejlesztheti.",
+      "created_at": "20250708T08:31:20.491338Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "bba1ed1e66bc4f6d9f950703d035b168",
+      "query": "What features does DarkGPTLite offer for enhancing AI interactions",
+      "answer": " DarkGPTLite: Főbb Funkciók az AI Interakciók Fejlesztéséhez\n\n Könnyűsúlyú és Gyors Működés\n\n Minimális erőforrásigény: Alacsony gépigény, így régebbi vagy gyengébb hardveren is futtatható.\n Gyors válaszidő: Optimalizált kód a hatékony feldolgozásért.\n\n Testreszabhatóság\n\n Nyílt forráskód: A felhasználók szabadon módosíthatják a chatbot működését.\n Konfigurálható válaszstílus: A válaszadási logika és a viselkedés könnyen alakítható a felhasználói igényekhez.\n\n Természetes Nyelvi Feldolgozás (NLP) Képességek\n\n Szövegértés: Képes értelmezni és feldolgozni a felhasználói kérdéseket.\n Válaszadás: Interaktív, kontextusfüggő válaszokat generál.\n Szövegelemzés: Kulcsszavak kinyerése, összefoglalás, szentimentelemzés.\n\n Egyszerű Telepítés és Használat\n\n Gyors beüzemelés: Egyértelmű telepítési útmutató, egyszerű indítási folyamat.\n Python alapú: Könnyen integrálható más Pythonprojektekbe.\n\n Fejlesztői Támogatás\n\n Dokumentáció: Részletes leírások és példakódok a GitHub oldalon.\n Folyamatos fejlesztés: Frissítések és hibajavítások elérhetők a projekt oldalán.\n\n Használati Példák\n\n Chatbotként: Kérdésekre válaszol, beszélgetést folytat.\n NLP feladatok: Szövegelemzés, összefoglalás, kulcsszavak kinyerése.\n\nEzek a funkciók lehetővé teszik, hogy a DarkGPTLite hatékonyan és rugalmasan támogassa a különböző AI interakciókat, mind fejlesztői, mind felhasználói oldalról.",
+      "created_at": "20250708T08:31:57.675284Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "425db07bd344454bb87df7ae3582edd0",
+      "query": "akkor ez nem a chat gpt cenzoraltatlan verzioja?",
+      "answer": " DarkGPTLite és a \"cenzorálatlan ChatGPT\" kérdése\n\nA DarkGPTLite nem hivatalos, nem az OpenAI által fejlesztett ChatGPTverzió, hanem egy független, nyílt forráskódú projekt, amely célja egy könnyű, testreszabható chatbot létrehozása. Az alábbiakban összefoglalom, hogy miben különbözik a \"cenzorálatlan ChatGPT\" fogalmától:\n\n Mi NEM a DarkGPTLite?\n\n Nem az OpenAI ChatGPTje: Nem az eredeti ChatGPT vagy annak hivatalos változata.\n Nem garantáltan cenzorálatlan: A projekt nem deklarálja, hogy mindenféle tartalomszűrés vagy moderáció nélkül működne. A cenzúra vagy tartalomszűrés mértéke attól függ, hogy a fejlesztő vagy felhasználó milyen szabályokat, szűrőket épít be a rendszerbe.\n Nem tartalmazza az OpenAI nagy nyelvi modelljeit: Általában kisebb, nyílt forráskódú modelleket használ, amelyek eltérnek a ChatGPTtől.\n\n Mi a DarkGPTLite?\n\n Nyílt forráskódú, testreszabható chatbot: A felhasználók szabadon módosíthatják, bővíthetik, vagy akár saját tartalomszűrőket is hozzáadhatnak.\n Könnyűsúlyú és gyors: Kifejezetten alacsony erőforrásigényű, egyszerűen telepíthető és futtatható.\n NLPfeladatokra alkalmas: Szövegértés, válaszadás, szövegelemzés, kulcsszavak kinyerése, összefoglalás.\n\n Összefoglalva\n\nA DarkGPTLite nem egy \"cenzorálatlan ChatGPT\", hanem egy független, nyílt forráskódú chatbotkeretrendszer, amelyet a felhasználók saját igényeik szerint alakíthatnak. A cenzúra vagy tartalomszűrés jelenléte vagy hiánya attól függ, hogy a felhasználó vagy fejlesztő milyen szabályokat alkalmaz a rendszerben.",
+      "created_at": "20250708T08:32:44.407180Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

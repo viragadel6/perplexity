@@ -1,0 +1,19 @@
+{
+  "context_uuid": "233b2b13b2a0488d913034620a375f28",
+  "context_title": "fix the grammar \n\n\narrol keress valamit hogy Szegeden a rokosu koruti mekinel 2025.07.25en egy fekete bmw e60 neki ment a zebran atkelo ket fiatalnak",
+  "created_at": "20260306T19:05:56.637929Z",
+  "updated_at": "20260306T19:06:03.652210Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "809397cc84664f17ab84710e0483e7d5",
+      "query": "fix the grammar \n\n\narrol keress valamit hogy Szegeden a rokosu koruti mekinel 2025.07.25en egy fekete bmw e60 neki ment a zebran atkelo ket fiatalnak",
+      "answer": "Here's a grammatically corrected and naturalsounding version:\n\n> Keress rá valamire: Szegeden, a Rókosi úti McDonald'snál 2025. július 25én egy fekete BMW E60 nekiment a zebrán átkelő két fiatalnak.\n\nA főbb javítások: „arrol\" → „rá\" (vagy „arra\"), „rokosu koruti\" → „Rókusi úti\", „mekinel\" → „McDonald'snál\", és az dátumot kiírva, vesszőkkel tagolva írtam. A „neki ment\" egybeírandó mozgást kifejező igekötős szerkezetként: „nekiment\".\n\nWould you like a more formal or more casual phrasing?",
+      "created_at": "20260306T19:05:56.754922Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

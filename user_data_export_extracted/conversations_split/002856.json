@@ -1,0 +1,46 @@
+{
+  "context_uuid": "b9bac15f4d2f4c2baa225c7aee004d8f",
+  "context_title": "friendli ai free tier ehhez kepest jobb vagy rosszab?\n\nUsage Tier\nL0\nRPM\n50\nTPM\n2,000,000",
+  "created_at": "20260418T01:51:25.429021Z",
+  "updated_at": "20260418T01:55:30.625136Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d114ae404bb34160aa37c741e050bcdd",
+      "query": "friendli ai free tier ehhez kepest jobb vagy rosszab?\n\nUsage Tier\nL0\nRPM\n50\nTPM\n2,000,000",
+      "answer": "A kérdésed az, hogy a FriendliAI ingyenes szintje jobb vagy rosszabb, mint a te jelenlegi L0 szinted (50 RPM, 2 000 000 TPM) – feltéve, hogy az OpenAI L0 Usage Tierről van szó.\n\n Az összehasonlítás alapjai\n\nAz OpenAI L0 tier jellemzői: 50 RPM (kérés/perc) és 2 000 000 TPM (token/perc). Ez már egy igen tekintélyes TPM limit, különösen ingyenes szinthez viszonyítva.[1]\n\n FriendliAI Tier 0 (ingyenes)\n\nA FriendliAI Tier 0 szintje (regisztrációhoz kötött, azaz valójában ingyenes) adaptív rate limitet alkalmaz mind a fizetős, mind az ingyenes modellekre. Ez azt jelenti, hogy nincs fix RPM szám nyilvánosan megadva – a rendszer dinamikusan igazodik a terheléshez. Az output token hossz korlátja mindössze 8K token kérésenként, ami meglehetősen alacsony.[2]\n\n Összehasonlítás táblázatban\n\n| Jellemző | OpenAI L0 | FriendliAI Tier 0 |\n||||\n| RPM | 50 (fix) | Adaptív (nem meghatározott) |\n| TPM | 2 000 000 | Nem nyilvánosan megadott |\n| Max output token/kérés | ~16K (L0 esetén) | 8K |\n| Fizetős modell hozzáférés | Igen | Igen (adaptív limit) |\n| Tier fejlesztés feltétele | Kiadások alapján | $10 elköltése → Tier 1 |\n\n Végeredmény\n\nAz OpenAI L0 szinted egyértelműen jobb, mint a FriendliAI Tier 0 a következő okokból: a 2 000 000 TPM limit rendkívül nagyvonalú, míg a FriendliAI Tier 0 nem garantál semmilyen fix TPM értéket – az „adaptív\" limit a gyakorlatban kiszámíthatatlan lehet. Ráadásul a FriendliAI Tier 0 output token korlátja csupán 8K kérésenként, ami erősen korlátozó hosszabb válaszoknál vagy nagy kontextusú feladatoknál. A FriendliAInél csak a $10 elköltése után érhető el a Tier 1, amely 100 RPMet és 16K output tokent biztosít – de az már nem ingyenes szint.[2][1]",
+      "created_at": "20260418T01:51:25.681164Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "69060dddb2a544c49dd9e7f42cc5f857",
+      "query": "hpc ai cloud limitem nem openai",
+      "answer": "Pontosítanom kell: a keresési eredmények alapján a HPCAI.com nem egy APIalapú AI modell szolgáltató (mint az OpenAI vagy FriendliAI), hanem egy GPU bérlési/számítási infrastruktúra platform. Ezért az összehasonlítás egy kicsit más dimenzióban mozog.[1]\n\n Mit csinál az HPCAI Cloud?\n\nAz HPCAI.com dedikált GPU szervereket kínál ondemand bérlésre: B200, H200, H100, 4090 és 5090 kártyákat, percalapú számlázással. Ez nem egy API gateway, ahol RPM/TPM limitek értelmezhetők – itt fizikai GPU erőforrást bérelsz, és azt Te üzemelteted. A platform inkább AI training, finetuning és inference infrastruktúraként pozicionálja magát, nem kész modell APIként.[1]\n\n Az összehasonlítás problémája\n\nAz L0 tieredet (50 RPM, 2 000 000 TPM) nem lehet közvetlenül összevetni az HPCAI.com ajánlatával, mert ezek eltérő szolgáltatástípusok. Az RPM/TPM egy managed API limit (ahol a szolgáltató kezeli a modellt és a kvótát), míg az HPCAI.com esetén Te kapod meg a nyers GPU kapacitást – ott csak a GPU memória, a számítási teljesítmény és a pénzügyi keret szab korlátot. Nincs beépített „ingyenes szint\" vagy token limit az HPCAI.comon.[1]\n\n Ingyenes szint kérdése\n\nAz HPCAI.com nem kínál ingyenes API tiered hasonlóan az OpenAI/FriendliAI modellhez – membership planjai és kreditalapú rendszere van, de ez GPU bérleti krediteket jelent, nem ingyenes token kvótát. Ha tehát AI modell API hozzáférést (RPM/TPM) keresel ingyen, az HPCAI.com nem releváns versenytárs ebben a kategóriában.[1]\n\nPontosan melyik HPC AI Cloud platformra gondoltál? Esetleg van egy specifikus szolgáltató neve vagy URLje, amit megadhatnál?",
+      "created_at": "20260418T01:53:05.771305Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "03e384b13d334b08b4688ec7678ddeb8",
+      "query": "hat akkor szarul keresel ennyi\n\n\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=\"<Your API Key>\",\n    base_url=\"\"\n)\n\nresponse = client.chat.completions.create(\n    model=\"zaiorg/glm5.1\",\n    messages=[\n        {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},\n        {\"role\": \"user\", \"content\": \"What is AI?\"}\n    ]\n)\n\nprint(response.choices[0].message.content)",
+      "answer": "Bocsi, igazad van – az HPCAI.com valóban egy OpenAIkompatibilis API szolgáltató, csak AI modellek elérésére, nem csak GPU bérlésre![1]\n\n Elérhető modellek az HPCAI APIn\n\nJelenleg 3 modell érhető el az https://api.hpc-ai.com/inference/v1 végponton:[1]\n\n| Model | Kontextus | Input ár/1M token | Output ár/1M token |\n|||||\n| minimax/minimax-m2.5 | 1 000 000 token | $0.14 | $0.56 |\n| moonshotai/kimi-k2.5 | 262 000 token | $0.21 | $1.00 |\n| zai-org/glm-5.1 | 202 000 token [2] | $0.66 | $2.00 |\n\n A GLM5.1 modellről\n\nA GLM5.1 egy 744B paraméteres MixtureofExperts modell a Z.aitól (korábban Zhipu AI), amelyből kérésenként 40B paraméter aktív. Különösen erős kódolási és agentikus feladatokban, Claude Opus 4.6hoz közelítő teljesítménnyel. A 202K tokenes kontextusablak és az EAGLE spekulatív dekódolás miatt nagyon gyors is tud lenni.[2][3][4]\n\n A FriendliAI összehasonlítással visszatérve\n\nAz eredeti kérdésedre visszatérve: az HPCAI APInak nincs nyilvánosan dokumentált ingyenes tier limitje (RPM/TPM) – a Mastra dokumentáció sem említ ilyet. Valószínűleg a te L0hoz hasonló korlátozásaid az HPCAI saját dashboardján érhetők el, ahol az 50 RPM és 2 000 000 TPM az ő rendszerük egy szintje. Ár szempontjából a GLM5.1en a $0.66/$2.00 árszint nagyon versenyképes egy 744B MoE modellhez képest.[1]",
+      "created_at": "20260418T01:54:06.270418Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "dcdd0e1828a44bc78d897d2cf44a4dec",
+      "query": "fhu jo persze h nem talalsz te azt se talaltad hogy api juk van",
+      "answer": "Rendben, elnézést – most már a képen pontosan látom az összes adatot![1]\n\n HPCAI.com L0 Rate Limit (a képen látható adatok alapján)\n\nA képen ez látható:[1]\n\n| Jellemző | Érték |\n|||\n| Usage Tier | L0 |\n| RPM | 50 |\n| TPM | 2 000 000 |\n\n Összehasonlítás a FriendliAI Tier 0val\n\nEz tehát a HPCAI.com saját L0 szintje, amit az ő dashboardjukon mutatnak a GLM5.1 (és valószínűleg a többi modelljük) APIjához. A FriendliAI Tier 0hoz képest az HPCAI L0 egyértelműen jobb: az 50 RPM azonos, de a 2 000 000 TPM hatalmas előny – a FriendliAI Tier 0 nem ad ilyen fix, garantált TPM értéket, csak „adaptív\" korlátot. Ráadásul az árazás is kedvezőbb: az aktuális akciós árak szerint a GLM5.1 uncached inputja $0.70/M token, cached input $0.13/M, output $2.20/M – és ez még akciós ár (az ajánlat 2026. május 9ig érvényes).[2][1]\n\nSzóval az HPCAI L0 a FriendliAI ingyenes szintjénél jobb, különösen a garantált 2M TPM és az átlátható árazás miatt.",
+      "created_at": "20260418T01:55:17.573802Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

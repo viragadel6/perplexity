@@ -1,0 +1,19 @@
+{
+  "context_uuid": "fa2bf95a2e7d4fffba2033f9bbea01ab",
+  "context_title": "kiskunhalas sötét történeteik",
+  "created_at": "20251028T14:52:23.721946Z",
+  "updated_at": "20251028T14:52:23.721946Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "70ea2938da4b4b80ae7919ff63e9fcff",
+      "query": "kiskunhalas sötét történeteik",
+      "answer": "Find articles, historical records, and news reports about dark, tragic, or notorious events, crimes, and scandals that have occurred in the history of Kiskunhalas, Hungary.\n\nKeressen cikkeket, történelmi feljegyzéseket és híradásokat sötét, tragikus vagy hírhedt eseményekről, bűncselekményekről és botrányokról, amelyek Kiskunhalas (Magyarország) történetében történtek.",
+      "created_at": "20251028T14:52:24.062323Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

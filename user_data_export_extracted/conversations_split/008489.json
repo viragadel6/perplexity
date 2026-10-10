@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0a6fefdd662140db99fd4ea8f07df4a2",
+  "context_title": "",
+  "created_at": "20250915T04:12:49.043318Z",
+  "updated_at": "20250915T04:12:49.043318Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "4bf885117dac46b1b3ea116eb1b18c91",
+      "query": "",
+      "answer": "Az Ön által megadott URL (https://github.com/kollarsandor/budoskurva.git) nem érhető el jelenleg. Eddigi teljes körű keresésem alapján a kollarsandor GitHubprofilhoz nem található nyilvánosan elérhető „budoskurva” nevű repository, és a GitHubadatbázis sem mutat erre az URLre vonatkozó referenciát. Ez a helyzet a következő okok miatt állhat fenn:\n\n Nem létező vagy törölt repository: A repository soha nem létezett, vagy már törölték.  \n Magán vagy nem publikus repository: Elképzelhető, hogy a repository magántulajdonban van, vagy csak közvetlen meghívás után érhető el.  \n Hibás URLátírás: Az URLben lehet gépelési hiba, vagy a repository más néven/felhasználónál elérhető.  \n\nEgyelőre nem áll rendelkezésre hiteles információ a repository tartalmáról, tulajdonosáról vagy életciklusáról. Ha elért a projekthez, elolvashatja a repó README.md fájlját, vagy nyomon követheti a commitokat, attól függően, hogy milyen jogosultsággal rendelkezik.\n\nMit tehetsz?\n Ellenőrizd az URLt: Javaslom, hogy nézz rá a kollarsandor GitHubprofil oldalára, és keress a „budoskurva” nevű projektre.  \n Lépj kapcsolatba a tulajdonossal: Ha indokolt, próbálj meg egyeztetni a repository tulajdonosával, esetleg igényelj hozzáférést, ha magánprojektről van szó.\n Használj Git GUIt vagy parancssori eszközöket: Egy git client vagy a parancssorban a git clone <url> parancs lehetőséget ad a repository elérhetőségének közvetlen tesztelésére. Ha nincs hozzáférése a repositoryhoz, akkor git hibauzenetet kap (például „remote: Repository not found”).[1]\n\nHa részletesebb információra van szükséged (pl. a repository korábbi tartalmáról, archív változatáról), küldj pontosabb adatokat vagy lépj közvetlenül kapcsolatba a tulajdonossal. Amennyiben hibás vagy elavult az URL, ezt megoszthatod, hogy segítsek a helyes cím megtalálásában!",
+      "created_at": "20250915T04:12:49.881485Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

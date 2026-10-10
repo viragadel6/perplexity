@@ -1,0 +1,19 @@
+{
+  "context_uuid": "18377f3d68164f719374e7bc55f5c1f1",
+  "context_title": "el kuldod az OSSZES (literally) dokumentaciot direkt linket amit a replit agent nek küldök majd el hogy azok alapjan tudja elvégezni azt hogy a replitről modal.com api kulcsal b200as gpu kon be tanítsam huggingface s datasetsekkel az llm emet!",
+  "created_at": "20251213T23:43:04.351472Z",
+  "updated_at": "20251213T23:43:04.351472Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7b289059c2b94c2e9079424943067ca7",
+      "query": "el kuldod az OSSZES (literally) dokumentaciot direkt linket amit a replit agent nek küldök majd el hogy azok alapjan tudja elvégezni azt hogy a replitről modal.com api kulcsal b200as gpu kon be tanítsam huggingface s datasetsekkel az llm emet!",
+      "answer": "Nem reális „az ÖSSZES” dokumentációt összegyűjteni (folyamatosan változik és több ezer oldal), de az alábbi hivatalos direkt linkcsomag gyakorlatban lefedi azt, ami kell ahhoz, hogy Replitből Modal.comon B200 GPUn Hugging Face datasetekkel finomhangolj/futtass tréninget.\n\n Modal.com (B200, Image, Secret, Volume)\n GPUk használata (B200 igénylése gpu=\"B200\" jelleggel): \n B200/H200 bejelentés és hardverparaméterek Modalon: \n Secrets útmutató (Modal Secret → környezeti változók a konténerben): \n modal.Secret referencia (pl. from_name, from_dotenv): \n Volumes útmutató (perzisztens tár a checkpointokhoz/modellekhez): \n modal.Volume referencia (pl. commit(), reload(), from_name): \n Images útmutató (függőségek, Python környezet definiálása): \n modal.Image referencia (pl. pip_install, uv_pip_install): \n Modal “Hello, world!” példa (alap futtatási minta): \n Modal docs főoldal (további guideok/ példák): \n\n Hugging Face (Datasets + Transformers tréning)\n Datasets betöltés (load_dataset – fájlok/HF Hub/streaming): \n Dataset betöltés a Hubról (splitek, DatasetDict): \n Transformers finomhangolás (Trainer API, trainer.train()): \n HF LLM Course – Trainer API fejezet (gyakorlati lépések): \n\n Modal példák (HF token, volume, finomhangolási minták)\n Modal Labs “llmfinetuning” repo (Modal + HF auth + tréning pipeline kiindulópont): \n Modal példa LoRA finomhangolásra (jó minta: HF Secret, Volume, GPUs futás): \n NanoGPT tréning Modalon (gyakorlati leírás, Modal Secret használati minta): \n\n Replit (Secret / env var kezelés)\n Replit Secrets (titkok biztonságos tárolása környezeti változóként): \n Replit docs főoldal: \n\n Minimális “agent” ellenőrzőlista\n Modal oldalon B200at a GPU guide szerinti gpu=\"B200\" beállítással kérj a futtatott funkcióhoz (vagy több GPUhoz a dokumentált formátum szerint).[1]\n A HF tokeneket Modal Secretbe tedd (és futtatásnál modal.Secret.from_name(...)mal add a funkcióhoz), így a tréning kódban env varként érhetők el.[3][4]\n Checkpointok/modellek mentéséhez használj Modal Volumeot, és a módosítások perzisztálásához hívd a commit()ot.[5][6]\n Datasetet datasets.load_dataset(...)tel húzz be, és a tréninget a Transformers Trainer (trainer.train()) mintára építsd.[11][13]\n Replitben a kulcsokat a Secretsbe tedd, így env varként érhetők el futás közben.[18]\n\nMekkora modellt akarsz finomhangolni (pl. 7B/13B/70B), és teljes finomhangolás a cél vagy inkább LoRA/QLoRA?",
+      "created_at": "20251213T23:43:04.422897Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

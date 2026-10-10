@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1ee653173ac94b238a92d3b1cad1ef90",
+  "context_title": "julia nyelvne hogy integraljak cerebras modellt api val",
+  "created_at": "20250830T18:49:00.735887Z",
+  "updated_at": "20250830T18:49:00.735887Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "834dbdb0c9c5460d9d30ec0a79ede588",
+      "query": "julia nyelvne hogy integraljak cerebras modellt api val",
+      "answer": "A Cerebras modellek Julia nyelvű integrációjához közvetlenül nincs hivatalos Julia SDK, azonban az API HTTPn keresztül érhető el, így azt Juliaból HTTP hívásokkal is lehet használni, vagy Pythonon keresztül JuliaPython interoperability megoldásokkal (pl. PyCall) lehet a hivatalos Python SDKt használni[1][2][3].\n\n HTTP API használata Juliaban\n Juliaból egyszerűen lehet HTTP POST/GET kéréseket küldeni a Cerebras API végpontokhoz, például a HTTP.jl csomaggal.\n Tipikus workflow: Küldesz egy POST kérést egy modellre a  vagy más végpontra, a dokumentációnak megfelelően beállított JSONnal és az APIkulccsal a fejlécekben[2][3].\n Példa (pszeudokód Juliaban):\n  julia\n  using HTTP, JSON\n\n  api_key = \"YOUR_CEREBRAS_API_KEY\"\n  url = \"https://api.cerebras.ai/v1/chat/completions\"\n  headers = [\n    \"Authorization\" => \"Bearer $api_key\",\n    \"Content-Type\" => \"application/json\"\n  ]\n  data = JSON.json(Dict(\n    \"model\" => \"llama3.1-8b\",\n    \"messages\" => [\n      Dict(\"role\" => \"user\", \"content\" => \"Helló!\")\n    ]\n  ))\n  res = HTTP.request(\"POST\", url, headers, data)\n  println(String(res.body))\n  \n Fontos: Az APIkulcs (token) generálása és kezelése szükséges[3].\n\n Python SDK használata PyCalllal Juliaból\n Telepíthető a cerebras_cloud_sdk csomag, és Juliaból a PyCall.jl segítségével meghívhatók a Python API hívások[1][2][3].\n Ez lehetővé teszi, hogy a hivatalos Python mintakódokat szinte változatlanul futtasd Julia folyamatból.\n\n Elérhető modellek és végpontok\n Több, nagy méretű transformer modell (pl. llama3, qwen, gptoss) érhető el a Cerebras APIján keresztül[2].\n Az endpointok és a használati lehetőségek bővebben a hivatalos Cerebras API dokumentációban találhatók[3][2][1].\n\n Ajánlott lépések\n Regisztráció a Cerebras platformon, APIkulcs lekérése[3].\n HTTP.jl vagy Requests.jl használata Juliaból, vagy PyCall + cerebras_cloud_sdk kombináció alkalmazása.\n A dokumentált végpontokat és paramétereket követve kialakítható a kívánt funkciójú Julia wrapper, akár chat, akár modell lista lekérdezés vagy egyedi predikció céljára[3][1][2].\n\nEz a folyamat biztosítja, hogy Juliaban is könnyen automatizálhatók vagy scriptelhetők a Cerebras által kínált nagy nyelvi modellek API hívásai[1][2][3].",
+      "created_at": "20250830T18:49:00.885134Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

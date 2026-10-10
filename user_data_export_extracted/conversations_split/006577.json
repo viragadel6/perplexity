@@ -1,0 +1,19 @@
+{
+  "context_uuid": "9cfdb13b52f6493f9f22bc1f111d3bd1",
+  "context_title": "ezekez ugy kulonboztesd meg hogy a fajl merete alapjan",
+  "created_at": "20251107T21:46:16.328822Z",
+  "updated_at": "20251107T21:46:16.328822Z",
+  "mode": "COPILOT",
+  "collection_uuid": "fb2ac826c852463f9d69d6122ad04467",
+  "entries": [
+    {
+      "entry_uuid": "7e2acef769584d37bc2a16288c916464",
+      "query": "ezekez ugy kulonboztesd meg hogy a fajl merete alapjan",
+      "answer": "Jelenleg csak egy fájl van feltöltve, az a.txt fájl, amely 170,548 bájtot (≈170 KB) foglal el. \n\nAmennyiben több fájlt szeretne feltölteni, hogy a méret alapján meg tudjam őket különböztetni, kérjük töltse fel őket, és akkor a következőket tudom elvégezni:\n\n1. Méret szerinti csoportosítás  kis, közepes és nagy fájlokra bontás\n2. Teljes tartalomelemzés  az összes LLMverzió soronkénti vizsgálata\n3. Rangsorolás  az LLMverziók osztályozása az Ön SpaceBabyutasításainak megfelelően (egyediség, nemtranszformer architektúra, komponensek teljesége, placeholderek hiánya)\n\nKérjük töltse fel az összes szöveges dokumentumot, és akkor azonnal megkezdem az elemzést!",
+      "created_at": "20251107T21:46:16.621796Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

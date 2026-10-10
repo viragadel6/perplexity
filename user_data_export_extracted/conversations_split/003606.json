@@ -1,0 +1,28 @@
+{
+  "context_uuid": "7b3b696fedab4692891b75096fb12758",
+  "context_title": "",
+  "created_at": "20260310T19:01:38.409895Z",
+  "updated_at": "20260310T19:06:45.798306Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9597af69ed2a48ffb09a519608c07e3f",
+      "query": "",
+      "answer": "A megadott link egy GitHub repo a Replittől, „riverpython” néven, amely egy Python kliens/szerver implementáció a River rendszerhez (Replit belső RPC / szolgáltatás‑kommunikációs rétegéhez).[1]\n\n Mi ez a projekt röviden?\n\nA repository célja, hogy Pythonból könnyen tudj River‑alapú szolgáltatásokat írni és hívni, tehát ugyanazt a RPC/streamelős protokollt tudd használni, amit Replit más nyelveken is használ. A leírás szerint kliens–szerver oldali komponenst is tartalmaz, így Pythonban tudsz River szervert futtatni, illetve más River szolgáltatásokhoz csatlakozni.[7][1]\n\n Használt technológiák, környezet\n\nA repo kifejezetten Python 3.12‑re van beállítva, ezt a gyökérben található konfigurációs fájl is jelzi. Ez praktikusan azt jelenti, hogy ha klónozni szeretnéd és futtatni, érdemes 3.12‑es virtuális környezetet (vagy hasonlóan friss Python‑verziót) használni, hogy a kompatibilitási problémák elkerülhetők legyenek. A projekt Replit‑es infrastruktúrához igazodik (pl. Nix‑es konfiguráció, Makefile stb.), ami megkönnyíti a futtatást Replit környezetben.[2][3][5][6]\n\n Hogyan kapcsolódik a Replithez?\n\nA Replit GitHub fiókján ez egy a hivatalos, nyilvános projektek közül, „Python client/server for river” leírással. A River ökoszisztéma több nyelven létezik (pl. riverbabel a cross‑language teszteléshez), így ez a repo a Pythonos láncszem, amit tipikusan akkor használsz, ha Replit‑es River‑alapú szolgáltatásokat szeretnél integrálni vagy fejleszteni Pythonban.[1][7]\n\nMiben szeretnél pontosan segítséget: a repo funkcióinak magyarázatában, a használat első lépéseiben, vagy egy konkrét River‑alapú szolgáltatás implementálásában?",
+      "created_at": "20260310T19:02:38.546820Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "f35680813b054b3587b41ab5264dca7f",
+      "query": "tegat mire jo",
+      "answer": "A replit/riverpython repo tehát a Replit River nevű, hosszú életű streaming RPCkeretrendszerének Python implementációja – lényegében arra való, hogy Python klienseket és szervereket írj, amelyek a River protokollon kommunikálnak.[1][2]\n\n Mi az a River protokoll?\n\nA River egy Replit által fejlesztett, hosszú életű streaming RPCkeretrendszer (Remote Procedure Call), amelyet modern webalkalmazásokhoz terveztek. A tRPChez és a gRPChez hasonlít, de annál többet tud: támogatja a teljes kétirányú (fullduplex) streamelést, a szolgáltatásmultiplexelést, a futásidejű sémavalidációt és az átlátszó automatikus újracsatlakozást hosszú munkamenetek esetén. Az eredeti River implementáció TypeScriptalapú, de a river-python repo a Python híd ehhez az ökoszisztémához.[2][1]\n\n Mire jó konkrétan?\n\nA Riverrel olyan architektúrát építhetsz, ahol kliens és szerver között nem egyszerű HTTP kérésválasz történik, hanem tartós, streamelt kapcsolat él fenn. Ez négy féle eljárástípust támogat: egyszerű rpc (egy kérés → egy válasz), upload (több kérés → egy válasz), subscription (egy kérés → több válasz), és stream (több kérés → több válasz). Mindez WebSocket vagy Unix Domain Socket transporton keresztül megy, és az újracsatlakozás az alkalmazás szintjén teljesen átlátszó – ha megszakad a kapcsolat, a session folytatódik, nem vész el az állapot.[1]\n\n Hogyan kapcsolódik a gRPChez?\n\nA River protokoll erősen inspirálódott a gRPCből, és annak szupersétje. A @replit/river-codegen csomag segítségével gRPC .proto fájlokból lehet Riverkompatibilis TypeBox deklarációkat generálni, így a meglévő gRPCalapú szolgáltatásokkal is együttműködhet. A Python repo ennek a szélesebb ökoszisztémának a Pythonos láncszemét adja, odavissza kommunikációhoz Replit belső szolgáltatásaival.[3][2]\n\n Mire NE használd (egyelőre)?\n\nFontos megjegyzés: maga a River projekt még nem productionready – a Replit ugyan bizonyos részeit már éles környezetben használja, de a keretrendszer még gyors, törést hozó változásokon megy keresztül, és az első stabil 1.x.x verzió még nem jelent meg. Érdemes tehát kísérleti, belső vagy Replitspecifikus projektekhez használni, kritikus üzleti infrastruktúrához egyelőre óvatosan.[1]",
+      "created_at": "20260310T19:06:11.423938Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

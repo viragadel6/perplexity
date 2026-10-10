@@ -1,0 +1,28 @@
+{
+  "context_uuid": "bab0a34b24224087973853cb9e035c17",
+  "context_title": "Ezt ird meg repli env formaba\n\nConnection Details\nURL\n7rix38xcg.dragonflydb.cloud\nPORT\n6385\nKEY\n1me7dgl5kgrm\nCONNECTION URI\nrediss://default:1me7dgl5kgrm@7rix38xcg.dragonflydb.cloud:6385",
+  "created_at": "20251004T19:47:08.894202Z",
+  "updated_at": "20251004T19:50:26.194697Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7e836bdc2573470c8be29ad0ca2b0078",
+      "query": "Ezt ird meg repli env formaba\n\nConnection Details\nURL\n7rix38xcg.dragonflydb.cloud\nPORT\n6385\nKEY\n1me7dgl5kgrm\nCONNECTION URI\nrediss://default:1me7dgl5kgrm@7rix38xcg.dragonflydb.cloud:6385",
+      "answer": "env\nREDIS_URL=rediss://default:1me7dgl5kgrm@7rix38xcg.dragonflydb.cloud:6385\nREDIS_HOST=7rix38xcg.dragonflydb.cloud\nREDIS_PORT=6385\nREDIS_KEY=1me7dgl5kgrm\n\n\n  \nSzeretnéd, hogy a környezeti változók más formátumban is meglegyenek (pl. JSON",
+      "created_at": "20251004T19:47:08.962053Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "3d4b71d7bd4b42cca630f12084efc9c1",
+      "query": "Ez dragonfly",
+      "answer": "Az alábbi .env fájl beállítások Dragonflyhoz definiálják a kapcsolódási paramétereket:[1]\n\nenv\nDRAGONFLY_URL=rediss://default:1me7dgl5kgrm@7rix38xcg.dragonflydb.cloud:6385\nDRAGONFLY_HOST=7rix38xcg.dragonflydb.cloud\nDRAGONFLY_PORT=6385\nDRAGONFLY_PASSWORD=1me7dgl5kgrm\n",
+      "created_at": "20251004T19:49:59.783777Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

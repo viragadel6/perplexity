@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0b22a41e03174b4f87563602d2bbf271",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20260129T22:45:51.994343Z",
+  "updated_at": "20260129T22:47:13.249911Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "28ee66f172e04fb39beaf409ad24fad9",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": "Ez a PDF lényegében egy „Code Generation and Review” jellegű anyag: több, egymáshoz kapcsolódó hardveres (ASIC/FPGA) és szoftveres (Zig) komponens kódrészleteit tartalmazza, mintha egy projekt „melléklete” vagy beadandó technikai dokumentációja lenne.[1]\n\n Mit tartalmaz?\n ASIC flow Tcl scriptek:  \n   hw/asic/synthesis.tcl (Synopsys Design Compiler szintézis) és hw/asic/floorplan.tcl (ICC/ICC2 jellegű floorplan + power grid + placement + global route + riportok).[1]\n FPGA constraints + top:  \n   hw/fpga/constraints.pcf (IO lábkiosztás + késleltetés/falsepath/multicycle constraintek) és hw/fpga/top_level.v (AXIszerű regiszter interfész, SSI/Ranker blokkok, mem arbiter, LED/IRQ kimenetek).[1]\n Zig fuzz tesztek:  \n   hw/fuzz/fuzz_memory.zig, fuzz_ssi.zig, fuzz_tensor.zig – random műveletsorokkal próbálják törni/validálni a memóriakezelést, SSI indexet és tensor műveleteket.[1]\n Zig „inference server”:  \n   src/api/inference_server.zig egy egyszerű HTTP szerver /v1/health és /v1/inference végponttal, APIkulcsos Bearer auth opcióval és IPalapú rate limiterrel.[1]\n\n Magyar értékelés (rövid, de érdemi)\nErősségek\n Az ASIC scriptben látszik egy teljes, logikus „miniflow”: könyvtár létrehozás → netlist+SDC → floorplan → PG ring/strap/mesh → pin placement → placement → global route → timing/DRC jellegű riportok → export (DEF/Verilog/floorplan tcl).[1]\n A Zig szerverben van több alap biztonsági kontroll: max request size limit, rate limit per IP, opcionális API key ellenőrzés.[1]\n\nGyanús / javítandó pontok\n A PDFben több helyen látszik, hogy a kód „összecsúszott” (pl. URLek és oldalszámok belekeveredtek sorok közé), ami futtathatatlanná teheti a Tclt, ha ez nem csak PDFrenderelési artefakt.[1]\n Az ASIC floorplan paraméterek (pl. 5000×5000 die, core offset 100, row_core_ratio 0.70, PG szélességek/pitchek) erősen „placeholder” jellegűek: valós tapeouthoz tipikusan PDK/IRdrop/timing/DFM alapján iterálják.[1]\n A top_level.v AXIliteszerű kezelése nagyon egyszerű (pl. write/read handshake logika minimalista), ami FPGA demóra oké lehet, de teljes AXIkompatibilitáshoz hiányozhatnak sarokesetek (pl. backpressure, párhuzamos AW/W kezelése, burst hiánya stb.).[1]\n A Zig inference részben a „HTTP parsing” elég kézi és minimalista (header/body határig olvas, nem látszik teljes ContentLength kezelés), ami robusztusságban limitált lehet.[1]\n\nHa megírod, hogy milyen szempont szerint értékeljem (pl. „ASIC fizikai megvalósíthatóság”, „FPGA interfész korrektség”, „biztonság/robosztusság”, vagy „kódstílus/karbantarthatóság”), akkor célzottan rá tudok menni a legfontosabb hibákra és javasolt módosításokra.",
+      "created_at": "20260129T22:45:52.074140Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

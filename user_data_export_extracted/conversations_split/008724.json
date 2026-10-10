@@ -1,0 +1,28 @@
+{
+  "context_uuid": "67629db06ec64a7780b80780c9a89e4d",
+  "context_title": "A LEGESLEGES LEGISMERETLENEBB MAX 100 ember ismeri\nLEGMINOSEGIBB DATASET AMI EGY TELJES LLM BETANUTASARA ELEG A TELJES FOLDI TUDAST MAGABA FOGLALJA \nLEGJOBBAN TISZTITOTT \nNEM WIKIPEDIA REDDIT MEG ILYEN ALAP KOCSOG HELYEKROL VAN\nMEG JOBB MINT A CEREBRAS SLIMPAYAMA\nlegleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb DATASETSEK amik legfeljebb\nGpt 5 szintu modellt lehet tanitani vele",
+  "created_at": "20250903T19:15:18.293650Z",
+  "updated_at": "20250903T19:26:54.822090Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "372d701f051f4a0ebb97ac914382de6a",
+      "query": "A LEGESLEGES LEGISMERETLENEBB MAX 100 ember ismeri\nLEGMINOSEGIBB DATASET AMI EGY TELJES LLM BETANUTASARA ELEG A TELJES FOLDI TUDAST MAGABA FOGLALJA \nLEGJOBBAN TISZTITOTT \nNEM WIKIPEDIA REDDIT MEG ILYEN ALAP KOCSOG HELYEKROL VAN\nMEG JOBB MINT A CEREBRAS SLIMPAYAMA\nlegleslegismeretlenebb még fejlesztői körben is teljesen underdog mégis cutting edge és sokkal hatékonyabb erőforrásigénytelenesebb DATASETSEK amik legfeljebb\nGpt 5 szintu modellt lehet tanitani vele",
+      "answer": "English:\nFind highly underrated, ultra highquality, fully cleaned LLM pretraining datasets (nonWikipedia/Reddit), ideally more computeefficient than Cerebras SlimPajama, obscure even among developers, and sufficient to train GPT5level models or cover nearcomplete world knowledge. [1][2][3]\n\nHungarian:\nKeress ritkán ismert, kiemelkedően magas minőségű, teljesen tisztított LLM betanító adatforrásokat (nem Wikipedia/Reddit), lehetőleg erőforráshatékonyabbakat a Cerebras SlimPajamánál, amelyek fejlesztői körökben is alig ismertek, és elegendőek GPT5szintű modellek vagy közel teljes világtudás lefedéséhez. [1][2][3]",
+      "created_at": "20250903T19:15:18.514805Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "13ad18a04a9f49509cf724c0597353ea",
+      "query": "Find highly underrated, ultra highquality, fully cleaned LLM pretraining datasets (nonWikipedia/Reddit), ideally more computeefficient than Cerebras SlimPajama, obscure even among developers, and sufficient to train GPT5level models or cover nearcomplete world knowle",
+      "answer": "English:\nFind highly underrated, ultra highquality, fully cleaned LLM pretraining datasets (nonWikipedia/Reddit), ideally more computeefficient than Cerebras SlimPajama, obscure even among developers, and sufficient to train GPT5level models or cover nearcomplete world knowledge. [1][2][3]\n\nHungarian:\nKeress ritkán ismert, kiemelkedően magas minőségű, teljesen tisztított LLM betanító adatforrásokat (nem Wikipedia/Reddit), lehetőleg erőforráshatékonyabbakat a Cerebras SlimPajamánál, amelyek fejlesztői körökben is alig ismertek, és elegendőek GPT5szintű modellekhez vagy közel teljes világtudás lefedéséhez. [1][2][3]",
+      "created_at": "20250903T19:26:44.306989Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

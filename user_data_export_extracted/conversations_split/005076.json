@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0ee714b9a2e44ad494023d971b72aa90",
+  "context_title": "",
+  "created_at": "20260108T03:12:15.774895Z",
+  "updated_at": "20260108T03:12:15.774895Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "329e87fa1fda4ca3b86870b1d580b965",
+      "query": "",
+      "answer": "A Jakt egy memóriabiztos rendszerprogramozási nyelv, amely jelenleg C++ra transpileol (fordít) . A projekt „heavy development” állapotban van, tehát a nyelv és az eszközök gyorsan változhatnak .\n\n Mi található a repóban\n A Jakt céljai: memóriabiztonság, kódolvashatóság, fejlesztői produktivitás, futási teljesítmény és „fun” .  \n A standard könyvtár is létezik jakt:: névtér alatt, de „infancy” (kezdeti) állapotú .  \n\n Gyors használat\n A C++ra transpileoláshoz clang szükséges .  \n Alap futtatási minta:  \n  bash\n  jakt file.jakt\n  ./build/file\n    \n    \n Windows (nem WSL) klónozásnál javasolt a core.autocrlf false, hogy a repo \\n sortörései ne sérüljenek .  \n\n Memóriabiztonság modell\n A memóriabiztonságot többek között automatikus referenciaszámlálással, erős típusossággal, boundscheckinggel és azzal érik el, hogy safe módban nincs nyers pointer .  \n Három pointerkategória van: erős T, gyenge weak T, illetve raw T, utóbbi csak unsafe blokkokban használható .  \n Safe módban nincs „null pointer”; ha „hiányzó érték” kell, Optional<T> vagy röviden T? használható .  \n\n Nyelvi jellemzők (kivonat)\n Olvashatósági fókusz: immutábilis alapértelmezés, névvel címkézett argumentumok híváskor, match alapú pattern matching, optional chaining (?. és !.), ?? nonecoalescing, defer .  \n Hibakezelés: throwsszal jelölt függvények, try/catch, és a hibák nem stackunwinddal mennek, hanem „buborékolnak” a hívó felé .  \n Interop: léteznek cpp blokkok inline C++ beágyazására, tipikusan unsafe kontextusban .  \n\nHa megírod, hogy mire szeretnéd használni (pl. SerenityOShack, önálló CLI tool, C++ interop, tanulás), akkor tudok adni egy konkrét, minimál „hello world + build + modulimport + ErrorOr/throws” mintaprojektvázat is.",
+      "created_at": "20260108T03:12:16.466341Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

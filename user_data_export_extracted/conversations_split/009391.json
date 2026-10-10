@@ -1,0 +1,19 @@
+{
+  "context_uuid": "10a53a514e5c4e8a9f8884e141d2b8a2",
+  "context_title": "hibak?",
+  "created_at": "20250722T23:31:36.966769Z",
+  "updated_at": "20250722T23:31:36.966769Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "96673f580db045e8b0081bd92983de5f",
+      "query": "hibak?",
+      "answer": "Átnéztem a main-2.py.txt (FastAPI backend) fájlt. Néhány hibalehetőség és problémás pont, amik gondot okozhatnak:\n\n 1. Truncált/befejezetlen sorok a forrásban\n Láthatóan több helyen is félbeszakadt a tartalom, például függvénydefiníciók (elif request.mode == \"autonomous\":...) vagy dictionary/részek (\"processing_time\": round(random.uniform(0.5, 2.0), 2),...) után három ponttal ér véget. Ezek szintaktikai hibát okoznak és le se fut a kód.\n Ilyen:  \n  python\n  elif request.mode == \"autonomous\":... result = await self._process_autonomous(request)\n  \n Vagy dictionaryban lezáratlan sor:\n  python\n  \"processing_time\": round(random.uniform(0.5, 2.0), 2),... \"ui_visualization\": {\n  \n\nMegoldás:  \nVégig kell nézni a forrást, mindenhol törölni a ... karaktereket, pótolni a hiányzó lezárásokat, befejezetlen függvényeket, dictionaryket, utasításokat.\n\n 2. Egymásba ágyazott vagy hiányzó sorvégi lezárások\n Vannak helyek, ahol dictionaryket, listákat, vagy függvényeket nem zártál helyesen.\n Ügyelj a vesszők, kapcsos zárójelek, szögletes zárójelek lezárására, főleg, ha csonka kódrészletből dolgoztál.\n Ha például egy dictionary, lista, vagy függvénydefiníció vége lemarad, nem fordul le sem CLI, sem Uvicorn alatt.\n\n 3. AIRequest pydanticosztály definiálása félbeszakad\n Látszólag itt is megszakad a sor:\n  python\n  parameters: Optional[Dict[str, Any]] = Field(default_factory=dict)... class UnifiedAISystem:\n  \n Ez szintén szintaktikai hiba.\n\n 4. Verzió, dokumentáció szerint minden hibamentes, de valójában lehetnek futási hibák\n A kód kommentjei, és az UI szerint is „100% hibátlan”, a valóságban ez szinte lehetetlen egy komplex rendszernél – ne feledd tesztelni!\n\n 5. Néhány API endpoint nincs implementálva vagy nem egyezik a frontendtel\n Az /api/chat endpoint például nincs a backendben (frontend index.html használja). A backendben csak /api/ai létezik POSThoz.\n A státusz endpoint neve: /api/status hátul, de frontend például /api/system/statust is hív.\n\nMegoldás:  \nFrontendbackend endpoint egységesítés!  \nAdj hozzá a backendhez pl.  \npython\n@app.post(\"/api/chat\")\nasync def chat_endpoint(request: AIRequest):\n    # ugyanaz, mint ai_endpoint chat móddal\n    request.mode = \"chat\"\n    return await unified_ai.process_ai_request(request)\n\nvagy módosítsd a frontend fetch hívását /api/aira.\n\n 6. Dependency/Import Hibák\n Ügyelj, hogy minden szükséges csomag telepítve legyen (fastapi, uvicorn, pydantic, stb.).\n Ha py3.10+ nincs, @dataclass, BaseModel, stb. miatt hibázhat.\n\n Összefoglalva\n Szintaktikai hibák (truncált, félbeszakadt sorok, dictionaryk, függvények).\n Frontend és backend végpontok eltérései.\n Be nem fejezett/lezáratlan definíciók.\n Hibák a külső könyvtárakban vagy hiányzó modulok.\n Teszteléskor a logfájlban vagy konzolon rögtön látod a hibákat (stack trace), ezekből látszik a konkrét gond.\n\nTipp:   \nPróbáld először lefuttatni a backend kódot önmagában. Ha Python szintaxis hibát ír (file syntax error, unexpected EOF, lezáratlan dictionary, stb.), fokozatosan javítsd a ... mentén.\n\nHa konkrét hibakódot vagy stack tracet kapsz indításkor, másold be ide, segítek kibogozni!\n\nHa további hibakeresés kell vagy másik fájlt nézzek át, jelezz!",
+      "created_at": "20250722T23:31:37.955324Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "61a74244eef44ca39c5fd82c6c8fe1ac",
+  "context_title": "",
+  "created_at": "20250705T06:09:47.891202Z",
+  "updated_at": "20250705T06:10:37.200128Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "60502c3a6f844dd0844d659e9ad7af39",
+      "query": "",
+      "answer": "A  oldal az OpenAI által fejlesztett modellek, például a Whisper automatikus beszédfelismerő rendszer különböző verzióit tartalmazza. Ezek között megtalálhatók angol nyelvű és többnyelvű modellek is, amelyek mérete 38 millió paramétertől egészen 1,5 milliárd paraméterig terjed[1]. A Whisper modellek képesek hangfájlokat, mikrofonból rögzített hangot vagy akár YouTubevideók hangját is átiratni[1]. Az oldalon letölthetők a modellek és elérhetők a hozzájuk tartozó dokumentációk, például tudományos publikációk is[1].",
+      "created_at": "20250705T06:09:47.909599Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "1f04ecee8f054a5f829dbe551f25c529",
+      "query": "csak whisper van? xd",
+      "answer": "Nem, nem csak a Whisper van! A Hugging Faceen az OpenAI profilján valóban a Whisper modellek dominálnak, de ez nem jelenti azt, hogy ez lenne az egyetlen elérhető OpenAI modell a platformon[2].\n\n Egyéb OpenAI modellek a Hugging Faceen\n\nA keresési eredmények alapján találhatók OpenAI GPT modellek is a platformon, amelyek szöveggenerálásra és különböző NLP feladatokra használhatók[3]. Ezek között szerepel például az openai-community/openai-gpt modell, amely több mint 51 ezer letöltést ért el[3].\n\n Miért látszik úgy, mintha csak Whisper lenne?\n\nAz OpenAI hivatalos profilján (https://huggingface.co/openai) valóban főként a Whisper modellek különböző változatai találhatók meg  a legkisebb 38 millió paraméteres \"tiny\" verziótól egészen a legnagyobb 1,5 milliárd paraméteres \"large\" modellekig[2]. Ez azért van így, mert az OpenAI a Whisper modellcsaládot nyílt forráskódúként tette elérhetővé, míg más modelljeiket (mint a GPT4, ChatGPT) kereskedelmi APIn keresztül szolgáltatják.\n\n Más OpenAI technológiák elérhetősége\n\nHa az OpenAI teljes modellkínálatára vagy kíváncsi, azok főként az OpenAI Platformon keresztül érhetők el API formájában[9], vagy a Microsoft Azure OpenAI Serviceen keresztül[10]. A Hugging Face inkább a nyílt forráskódú és kutatási célú modellek tárháza.",
+      "created_at": "20250705T06:10:19.752676Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

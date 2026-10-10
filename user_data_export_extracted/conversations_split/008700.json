@@ -1,0 +1,19 @@
+{
+  "context_uuid": "0e5799da9b2d4caba60d6d0af50fd62e",
+  "context_title": "Hotel szoba foglaló honlap vagy app ami regisztraciokor legalabb 50 dollar erteku kupont ad",
+  "created_at": "20250904T22:05:34.995625Z",
+  "updated_at": "20250904T22:05:34.995625Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "c955c1e53267455b840e89041ce02131",
+      "query": "Hotel szoba foglaló honlap vagy app ami regisztraciokor legalabb 50 dollar erteku kupont ad",
+      "answer": "English:\nhotel booking website or app that gives at least 50 USD coupon upon registration\n\nMagyar:\nhotel foglaló weboldal vagy app, ami regisztrációkor legalább 50 USD értékű kupont ad",
+      "created_at": "20250904T22:05:35.208058Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

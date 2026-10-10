@@ -1,0 +1,46 @@
+{
+  "context_uuid": "e06404e1109b4dba984a1c665375eed3",
+  "context_title": "hany darab llm van ami foundation llm\ntudom nehez megmondani pontos szamot stb de leszarom keresd meg",
+  "created_at": "20251007T04:00:39.271884Z",
+  "updated_at": "20251007T04:06:19.166121Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bb6491fb86a14533979aab1a5d79de2e",
+      "query": "hany darab llm van ami foundation llm\ntudom nehez megmondani pontos szamot stb de leszarom keresd meg",
+      "answer": "Nincs pontos szám, de több száz foundation LLM létezik világszerte a jelenlegi adatok alapján. A foundation modellek (alapmodellek) száma dinamikusan változik, mivel folyamatosan fejlesztenek új modelleket, míg régiek eltűnnek vagy összeolvadnak.[1]\n\n Konkrét számok\n\n2023ban összesen 149 foundation modellt adtak ki világszerte, ami több mint duplája a 2022es számnak. Ezek közül körülbelül 65,7% nyílt forráskódú modell, ami jelentősen hozzájárul a gyors fejlődéshez. Csak az Ollama könyvtárában egyedül közel 70 nyílt forráskódú LLM található.[2][1]\n\nA legnagyobb és legismertebb foundation LLMek közé tartoznak a GPT4, Gemini, Claude 3, LLaMA, PaLM, Falcon és a Mistral családok. Különböző források 1544 vezető LLMet neveznek meg, de ezek a listák csak a legfontosabb vagy legismertebb modelleket tartalmazzák, nem a teljes ökoszisztémát.[3][4][5][2]\n\n Piaci dominancia\n\nA foundation LLM piac erősen koncentrált: az öt vezető gyártó együttesen a globális bevétel 88,22%át generálja. A legnagyobb szereplők közé tartozik az OpenAI (ChatGPT), Google (Gemini, PaLM), Meta (LLaMA), Anthropic (Claude) és Microsoft (Orca, Phi).[5][1]\n\nAz LLMpowered alkalmazások száma várhatóan eléri a 750 milliót 2025re globálisan, ami mutatja, mennyire gyorsan növekszik ez a terület.[1]",
+      "created_at": "20251007T04:00:39.338828Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "aadb6ac215584a9896a1fb2837120ef0",
+      "query": "de ami nem masikra epul xd",
+      "answer": "Sokkal kevesebb, mint a teljes LLMszám: körülbelül 3045 független foundation modellcsalád létezik, amelyeket nulláról tréningeltek, nem pedig másik modellre építettek.[1][2]\n\n Konkrét modellcsaládok\n\nAz alapvető foundation modellek, amelyek saját tréninggel készültek, a következők:[2][1]\n\nNyugati nagy tech cégek:\nGPT (OpenAI), Claude (Anthropic), Gemini/PaLM (Google), LLaMA (Meta), Phi (Microsoft), Grok (xAI), DBRX (Databricks), CommandR (Cohere), Falcon (Technology Innovation Institute), BLOOM (Hugging Face konzorcium).[1][2]\n\nKínai modellek:\nQwen (Alibaba), DeepSeek (DeepSeek AI), Ernie (Baidu), Yi (01.AI), GLM (Zhipu AI), InternLM (Shanghai AI Laboratory), PanGu (Huawei).[2][1]\n\nEgyéb:\nGranite (IBM), Mistral/Mixtral (Mistral AI), Gemma (Google), Nemotron (Nvidia), StableLM (Stability AI), OpenELM (Apple), CerebrasGPT, FugakuLLM.[3][1][2]\n\n Miért ilyen kevés\n\nFoundation model tréningelése több százmillió dolláros befektetést igényel, ezért csak nagy tech cégek és jól finanszírozott startupok engedhetik meg maguknak. Egy foundation modellt tréningelni hatalmas adatmennyiséget, számítási erőforrásokat (több ezer GPU) és szakértelmet igényel. A legtöbb cég inkább finomhangolást (finetuning) vagy RAGet alkalmaz meglévő foundation modellekre.[4][5][6][1]\n\nA piacon jelenleg a legnagyobb foundation modelleket mindössze 510 kulcsszereplő fejleszti (OpenAI, Google, Meta, Anthropic, Microsoft, xAI, Alibaba, stb.), akik együttesen a bevétel 88%át generálják.[6][7]",
+      "created_at": "20251007T04:03:57.604099Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "d966ee6e80e145c7a4675d70a7c0ff28",
+      "query": "válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "Nyugati foundation LLMek (nulláról tréningelve):\n\n GPT (OpenAI)[3]\n Claude (Anthropic)[3]\n Gemini / PaLM (Google)[3]\n LLaMA (Meta)[3]\n Phi (Microsoft)[3]\n Grok (xAI)[3]\n DBRX (Databricks)[3]\n CommandR (Cohere)[9]\n Falcon (Technology Innovation Institute)[3]\n BLOOM (Hugging Face)[9]\n Mistral / Mixtral (Mistral AI)[3]\n Gemma (Google)[3]\n Nemotron (Nvidia)[3]\n StableLM (Stability AI)[9]\n OpenELM (Apple)[9]\n CerebrasGPT[9]\n FugakuLLM (Fujitsu)[3]\n Granite (IBM)[3]\n Amazon Nova (Amazon)[3]\n Pixtral (Mistral AI)[3]\n\nKínai foundation LLMek (nulláról tréningelve):\n\n Qwen (Alibaba)[3]\n DeepSeek (DeepSeek AI)[3]\n Ernie (Baidu)[9]\n Yi (01.AI)[9]\n GLM (Zhipu AI)[3]\n InternLM (Shanghai AI Laboratory)[9]\n PanGu (Huawei)[9]\n MiniMax[3]",
+      "created_at": "20251007T04:05:11.563540Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "77647588063f47f5a2ef5734a62995e7",
+      "query": "keress még",
+      "answer": " GPT (OpenAI)[1]\n Claude (Anthropic)[1]\n Gemini / PaLM (Google)[1]\n LLaMA (Meta)[1]\n Phi (Microsoft)[1]\n Grok (xAI)[1]\n DBRX (Databricks)[1]\n CommandR (Cohere)[2]\n Falcon (Technology Innovation Institute)[1]\n BLOOM (Hugging Face)[1]\n Mistral / Mixtral (Mistral AI)[1]\n Gemma (Google)[1]\n Nemotron (Nvidia)[1]\n StableLM (Stability AI)[2]\n OpenELM (Apple)[2]\n CerebrasGPT[1]\n FugakuLLM (Fujitsu)[1]\n Granite (IBM)[1]\n Amazon Nova (Amazon)[1]\n Pixtral (Mistral AI)[1]\n Qwen (Alibaba)[1]\n DeepSeek (DeepSeek AI)[1]\n Ernie (Baidu)[1]\n Yi (01.AI)[2]\n GLM (Zhipu AI)[1]\n InternLM (Shanghai AI Laboratory)[2]\n PanGu (Huawei)[1]\n MiniMax[1]\n BERT (Google)[3][1]\n T5 (Google)[3][1]\n XLNet (Google)[1]\n GPTNeo (EleutherAI)[1]\n GPTJ (EleutherAI)[1]\n GPTNeoX (EleutherAI)[1]\n MegatronTuring NLG (Microsoft & Nvidia)[1]\n GLaM (Google)[1]\n Gopher (DeepMind)[1]\n LaMDA (Google)[1]\n Chinchilla (DeepMind)[1]\n OPT (Meta)[1]\n YaLM 100B (Yandex)[1]\n Minerva (Google)[1]\n Galactica (Meta)[1]\n AlexaTM (Amazon)[1]\n Chameleon (Meta)[1]\n BloombergGPT (Bloomberg)[1]\n OpenAssistant (LAION)[1]\n Jurassic2 (AI21 Labs)[1]\n Pythia (EleutherAI)[4]",
+      "created_at": "20251007T04:05:54.314568Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

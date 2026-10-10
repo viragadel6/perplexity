@@ -1,0 +1,19 @@
+{
+  "context_uuid": "962e07c5995a43e084b1194d2f16826b",
+  "context_title": "",
+  "created_at": "20251214T01:37:07.070613Z",
+  "updated_at": "20251214T01:37:07.070613Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "148c2432b14d4e37bc3e8fff53b5cbe9",
+      "query": "",
+      "answer": "Ez egy GitHub repó, amelynek neve „forthcb2”, és a Forth programozási nyelvhez kapcsolódó fordító‑/értelmező keretrendszert tartalmaz.[2]\n\n Mi ez a projekt?\n\nA leírás alapján a forthcb2 célja, hogy egyszerűen használható, rugalmas keretet adjon Forth‑alapú alkalmazások építéséhez, azaz egyfajta compiler–interpreter framework.  Oktatási és szintaxis‑orientált témák között is megjelenik, ami arra utal, hogy tanulási célra is jól használható.[3][4][2]\n\n Hogyan lehet használni?\n\nA repóban található README szerint a projekt a Forth nyelv „könnyű elérését” kínálja, és a „Getting Started” részben rövid bevezetőt ad az indításhoz.  A kódbázis klónozásához a szokásos módon lehet git clone parancsot használni a repó HTTPS URL‑jével.[2]\n\n Fő jellemzők\n\n Forth programok fordítására és futtatására szolgáló keretrendszer.[2]\n Célja, hogy egyszerű, kezdőbarát belépési pont legyen a Forth nyelvhez.[3][2]\n Nyilvános, nyílt forráskódú projekt, GitHubon elérhető forkkal és klónozási lehetőséggel.[2]",
+      "created_at": "20251214T01:37:08.991978Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

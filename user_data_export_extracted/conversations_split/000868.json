@@ -1,0 +1,19 @@
+{
+  "context_uuid": "6efcc7a2f3e94593a14fae49d4096bbb",
+  "context_title": ".envbe kuld el\nIn your reply, I’d like you to just list the results, nothing else. \n\nToken ID\twkWtA22VA0GY5mCZ4dJGjxfj\t\n\nToken Secret\twsWRZm0G9YBHCGuWLw2hRrrP\t\n\nModalKey: wkWtA22VA0GY5mCZ4dJGjxfj\nModalSecret: wsWRZm0G9YBHCGuWLw2hRrrP\n\nAuthorization: Bearer wkWtA22VA0GY5mCZ4dJGjxfj.wsWRZm0G9YBHCGuWLw2hRrrP\n\n\nMODAL_PROXY_TOKEN_ID\nwkWtA22VA0GY5mCZ4dJGjxfj\nwknZx7KC8JaEGxIOZdisFwg9\nwkeZuVRL6NRHAdYNRijQfSHc",
+  "created_at": "20260824T07:01:43.221903Z",
+  "updated_at": "20260824T07:02:47.468163Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "da42a9ae281846169fcd18f11cb8565f",
+      "query": ".envbe kuld el\nIn your reply, I’d like you to just list the results, nothing else. \n\nToken ID\twkWtA22VA0GY5mCZ4dJGjxfj\t\n\nToken Secret\twsWRZm0G9YBHCGuWLw2hRrrP\t\n\nModalKey: wkWtA22VA0GY5mCZ4dJGjxfj\nModalSecret: wsWRZm0G9YBHCGuWLw2hRrrP\n\nAuthorization: Bearer wkWtA22VA0GY5mCZ4dJGjxfj.wsWRZm0G9YBHCGuWLw2hRrrP\n\n\nMODAL_PROXY_TOKEN_ID\nwkWtA22VA0GY5mCZ4dJGjxfj\nwknZx7KC8JaEGxIOZdisFwg9\nwkeZuVRL6NRHAdYNRijQfSHc",
+      "answer": "env\nMODAL_TOKEN_ID=wk-WtA22VA0GY5mCZ4dJGjxfj\nMODAL_TOKEN_SECRET=ws-WRZm0G9YBHCGuWLw2hRrrP\nMODAL_KEY=wk-WtA22VA0GY5mCZ4dJGjxfj\nMODAL_SECRET=ws-WRZm0G9YBHCGuWLw2hRrrP\nMODAL_AUTH_TOKEN=wk-WtA22VA0GY5mCZ4dJGjxfj.ws-WRZm0G9YBHCGuWLw2hRrrP\n\nMODAL_PROXY_TOKEN_ID_1=wk-WtA22VA0GY5mCZ4dJGjxfj\nMODAL_PROXY_TOKEN_ID_2=wk-nZx7KC8JaEGxIOZdisFwg9\nMODAL_PROXY_TOKEN_ID_3=wk-eZuVRL6NRHAdYNRijQfSHc\n",
+      "created_at": "20260824T07:01:43.276007Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

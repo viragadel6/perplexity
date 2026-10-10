@@ -1,0 +1,19 @@
+{
+  "context_uuid": "35c1d3a749bf4e4fa301c55720edcbda",
+  "context_title": "melyik a legjobb",
+  "created_at": "20250917T03:58:33.594388Z",
+  "updated_at": "20250917T03:58:33.594388Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0d9b4d07da0b4b639d0cf749632e0cab",
+      "query": "melyik a legjobb",
+      "answer": "A három csatolt fájl közül a „szoveg47.txt” a legteljesebb és legátfogóbb változat: ez tartalmazza a buildrendszert, a natív Zig/Futhark integrációt, a kvantum backendeket, a formális verifikációs lépéseket, valamint még egy extra astro modul integrációját is, ami a másik kettőben nem szerepel.[1]\n\n Rövid indoklás\n Teljesebb build pipeline: flake.nix, build.sh, több nyelvű toolchain és FPGA flow részletesen jelen van, hasonlóan a másik két fájlhoz, de itt a tartalom kiterjesztett és egységesebb hivatkozásokkal.[1]\n Natív és GPU/kvantum réteg: Zig + Futhark kernel hívások, Qiskitalapú Sampler/Estimator és DDpipeline, valamint a JAIDEModel teljes beágyazása megtalálható, egyezően a másik verziókkal, de konzisztens HDSdimenzió és paraméterezés mellett.[1]\n Formális verifikáció: Isabelle/Agda/Dedukti lánc és a Lorenzrendszerrel kapcsolatos lemmák szerepelnek, jól összefűzve a projekt többi részével.[1]\n Extra modul: astrointegration.zig (API hívás Swissephszerű pozíciókhoz) egyedül itt bukkan fel, ami többletfunkcionalitást ad.[1]\n\n Mi a különbség a többivel?\n magical.txt inkább a „20480as” HDSdimmel és kisebb nodefeature/memorydim értékekkel dolgozó változat, részben régebbinek vagy alternatív konfigurációnak tűnik; tartalmilag nagyon közeli, de nem tartalmazza az astro integrációt, és több helyen a méretek és konstansok eltérnek.[2]\n szoveg46.txt főleg az Isabelle/HOL és rendszerkódrészletek nagy, koherens kivonata, de nem olyan teljes körű a projektfájlok szélességében, mint a 47es; inkább fókuszált snapshot, kevesebb kiegészítő modullal.[3]\n\n Ajánlás\n Ha a „legjobb” alatt a legtöbb funkciót és a legszélesebb lefedettséget értelmezzük, akkor a „szoveg47.txt” javasolt elsődleges referenciának és forrásnak.[1]\n Ha kisebb memórialábnyomú, 20480as HDSdimre optimalizált kísérleti konfiguráció kell, a „magical.txt” lehet praktikusabb bázis az adott beállításokhoz.[2]\n Ha formális bizonyítási részletek gyors áttekintése a cél, a „szoveg46.txt” a legrövidebb, célzott belépési pont.[3]",
+      "created_at": "20250917T03:58:33.702413Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

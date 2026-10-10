@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d19ea5e5501f43ba8ed04a206d992a7c",
+  "context_title": "Brutálisan ismeretlen underground Julia modulok",
+  "created_at": "20250901T04:07:56.913477Z",
+  "updated_at": "20250901T04:07:56.913477Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "c3a2d4b242834b2e913bb206097054d1",
+      "query": "Brutálisan ismeretlen underground Julia modulok",
+      "answer": "English:\nFind extremely obscure and littleknown Julia packages/modules, with emphasis on underground or experimental projects, and list them with brief descriptions and links.\n\nHungarian:\nKeress extrém módon ismeretlen, underground vagy kísérleti Julia csomagokat/modulokat, és sorold fel őket rövid leírással és hivatkozásokkal.",
+      "created_at": "20250901T04:07:57.450022Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "46ddd58a4dbd47c08fe3e7f493ac86fb",
+  "context_title": "rangsorold is",
+  "created_at": "20251002T03:14:39.091651Z",
+  "updated_at": "20251002T03:14:39.091651Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ebb3f89e3ad34169b7a220112ef24e67",
+      "query": "rangsorold is",
+      "answer": "Az „jaidemadebykollrsndor3.txt” a legátfogóbb és legfejlettebb, ezt követi az „jaidemadebykollrsndor2.txt”, legvégül pedig a „youalwYsthin.txt” áll a rangsorban [1][2][3].\n\n Rangsor\n jaidemadebykollrsndor3.txt: Kiterjedt formális verifikációs semantikát (PML, UPPAAL, Viper stb.), hardverleírást, többnyelvű implementációt és fejlett biztonsági bizonyítékot tartalmaz [1].  \n jaidemadebykollrsndor2.txt: Széles körű architektúra, futtatókörnyezet, hardverfelgyorsítás és formális bizonyítások (Agda, Lean, Isabelle), de kevesebb szemantikai modellt és verifikációs formátumot tartalmaz [2].  \n youalwYsthin.txt: Teljes kód és benchmarkok megtalálhatók, de hiányoznak a mély szemantikai modellek és bizonyos formális verifikációs rétegek, valamint kevesebb hardveres és semantikai komponens jelenik meg [3].",
+      "created_at": "20251002T03:14:39.427600Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

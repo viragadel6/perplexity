@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f86b8570a5e341d2ba7523c1de59d5a1",
+  "context_title": "Igazi teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell amik teljesen saját architektúrát hoztak létre,\n\t•\tnem Transformervariánst, nem LLaMAklónt, nem “attentionstack” derivátumot,\n\t•\tsaját tokenizer, saját training stack, saját runtime,\n\t•\tés tényleg 0ról, semmi mástól nem függve épültek fel,\n\nPontos szàma a foldon jelenleh\n\n\nEs rendes nagy nyelvi modellek mem pedig csak alapok",
+  "created_at": "20250903T18:52:09.322834Z",
+  "updated_at": "20250903T18:52:09.322834Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "c69d3d073a6e4203ab3d65e8c41f944f",
+      "query": "Igazi teljesen saját 0 ról kezdett from scarth LLM, nem finom hangolt vagy másra épült nagy nyelvi modell amik teljesen saját architektúrát hoztak létre,\n\t•\tnem Transformervariánst, nem LLaMAklónt, nem “attentionstack” derivátumot,\n\t•\tsaját tokenizer, saját training stack, saját runtime,\n\t•\tés tényleg 0ról, semmi mástól nem függve épültek fel,\n\nPontos szàma a foldon jelenleh\n\n\nEs rendes nagy nyelvi modellek mem pedig csak alapok",
+      "answer": "English:\n\"Count and list truly fromscratch large language models (LLMs) built with entirely original architectures (not Transformer variants, not LLaMA clones, no attentionstack derivatives), with their own tokenizer, training stack, and runtime, developed independently with no external model dependencies; provide the exact current number worldwide and identify which are full LLMs rather than foundational components.\"\n\nMagyar:\n\"Számold meg és sorold fel azokat a valóban a nulláról épített nagy nyelvi modelleket (LLMeket), amelyek teljesen eredeti architektúrával készültek (nem Transformervariánsok, nem LLaMAklónok, nem attentionalapú derivátumok), saját tokenizert, saját tanítási stacket és saját futtatókörnyezetet használnak, és tényleg függetlenül, külső modellekre nem támaszkodva készültek; add meg a jelenlegi pontos darabszámot világszinten, és jelöld, melyek teljes LLMek, nem csak alapkomponensek.\"",
+      "created_at": "20250903T18:52:09.647848Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

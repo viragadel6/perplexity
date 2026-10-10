@@ -1,0 +1,19 @@
+{
+  "context_uuid": "dd4350663a9541cbb1b573abe73008a0",
+  "context_title": "csak valassz egyet\nkaty perry vagy nicki minaj",
+  "created_at": "20260827T10:08:26.285893Z",
+  "updated_at": "20260827T10:08:35.306637Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e3afa69fbdc94f70b4d7c49ba97c1521",
+      "query": "csak valassz egyet\nkaty perry vagy nicki minaj",
+      "answer": "Nicki Minaj.",
+      "created_at": "20260827T10:08:26.336118Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1f619a400d4d49b98df0f02f901f4d0e",
+  "context_title": "",
+  "created_at": "20260110T22:32:11.452376Z",
+  "updated_at": "20260110T22:32:11.452376Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a8c8cf145097403dba1f8db345a6f9ae",
+      "query": "",
+      "answer": "A linket és a specifikáció szövegét gyakorlatilag teljes egészében bemásoltad, így a kérdésed valójában maga az URL volt.[2]\n\nAz oldal, amit adtál (https://www.openarchives.org/ore/1.0/datamodel), az OAIORE (Open Archives Initiative Object Reuse and Exchange) Abstract Data Model specifikációja, amely leírja, hogyan kell webes erőforrás‑aggregációkat (Aggregation) és azok leírásait (Resource Map) modellezni RDF‑ben és a szemantikus web technológiáival.[2]\n\n Mi van ezen az oldalon?\n\n Bevezetés az OAI‑ORE céljába: géppel feldolgozható módon azonosítható és leírható „aggregációk” (pl. cikk + PDF + kiegészítő adatok + képek).[2]\n Az absztrakt adatmodell fő entitásai: Aggregation, Aggregated Resource, Resource Map, Proxy.[2]\n A Resource Map‑hez tartozó RDF gráf kötelező és opcionális elemei (triplák, megszorítások, minimális/maximális előfordulások) egy táblázatban összefoglalva.[2]\n\n Fő fogalmak röviden\n\n Aggregation (ore:Aggregation):  \n   Logikai gyűjtemény/webes „csomag” több más Resource‑ból (pl. folyóiratcikk csomag).[2]\n   Saját URI‑val (URI‑A) azonosítják, amelynek nincs közvetlen reprezentációja, maga az Aggregation fogalom.[2]\n\n Aggregated Resource:  \n   Az Aggregation része (pl. PDF, HTML, adatfájl, kép).[2]\n   Szintén protokollal elérhető URI‑val (URI‑AR) azonosított Resource.[2]\n\n Resource Map (ore:ResourceMap):  \n   Egy RDF‑alapú leíró erőforrás, amely triplákon keresztül megmondja:  \n     mely Aggregation‑t írja le (ore:describes),  \n     mik az Aggregated Resource‑ok (ore:aggregates),  \n     milyen további metaadatok vannak (creator, modified, stb.).[2]\n   Saját URI‑ja van (URI‑R), amely különbözik az Aggregation URI‑jától.[2]\n\n Proxy (ore:Proxy):  \n   Opcionális „helyettesítő” erőforrás egy Aggregated Resource számára egy adott Aggregation kontextusában.[2]\n   A Proxy URI‑ja (URI‑P) aggregáció‑specifikus, és triplák kötik az Aggregated Resource‑hoz (ore:proxyFor) és az Aggregation‑höz (ore:proxyIn).[2]\n   Ennek segítségével lehet például sorrendet, lineage‑et stb. kifejezni kontextusfüggően (pl. xyz:hasNext, ore:lineage).[2]\n\n RDF gráf és kötelező triplák\n\n Minden Resource Map:  \n   Tartalmaz egy ore:describes triplát: subject = URI‑R (ReM‑1), object = URI‑A (A‑1).[2]\n   Tartalmaz legalább egy dcterms:creator triplát (Agent), és egy dcterms:modified időbélyeget.[2]\n Aggregation:  \n   Opcionálisan típus: rdf:type ore:Aggregation.[2]\n   ore:aggregates triplák sorozata az Aggregated Resource‑okra (AR‑j).[2]\n   Opcionálisan ore:similarTo vagy rdfs:seeAlso más, hasonló erőforrásokra (pl. DOI).[2]\n\n Kapcsolatok, nesting, lineage\n\n Egy Aggregated Resource több Aggregation része lehet (ore:isAggregatedBy).[2]\n Aggregation‑ök egymást is aggregálhatják (nesting, pl. folyóirat → szám → cikk).[2]\n Proxyn keresztül lineage/provenance kapcsolatok (ore:lineage) fejezhetők ki, ahol két Proxy ugyanarra az Aggregated Resource‑ra mutat, de más Aggregation‑ben.[2]\n\n Mire jó ez gyakorlatban?\n\n Gépi szinten egyértelművé teszi:  \n   mely URI az egész „csomag” (Aggregation),  \n   mik a csomag részei (Aggregated Resources),  \n   hol található a formális, RDF‑alapú leírás (Resource Map),  \n   hogyan lehet kontextusfüggő kapcsolatokat kifejezni (Proxy, lineage, sorrend).[2]\n\nHa pontosabban leírod, mire van szükséged (pl. „SPARQL lekérdezés példát kérek egy konkrét ReM‑re”, vagy „JSON‑LD serialization minta”), arra külön, konkrét példákkal is lehet válaszolni.",
+      "created_at": "20260110T22:32:11.658083Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

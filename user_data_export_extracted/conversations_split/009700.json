@@ -1,0 +1,19 @@
+{
+  "context_uuid": "93bf31425d9b4bf9851367d8e4aa6069",
+  "context_title": "",
+  "created_at": "20250705T02:56:11.103068Z",
+  "updated_at": "20250705T02:56:11.103068Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "9c1b2baa864f43ec937475a83254e389",
+      "query": "",
+      "answer": "A megadott hivatkozás () egy Google Gemini alkalmazáshoz tartozó oldalra mutat, de a keresési eredmények alapján nem található részletes tartalom vagy leírás kifejezetten erről az adott aloldalról[1][2]. \n\nÁltalánosságban a Google Gemini alkalmazásról:\n A Gemini a Google mesterséges intelligencia asszisztense, amely elérhető mobilalkalmazásként Androidra, illetve az iOSes Google alkalmazásban is[3][4][5].\n Segítségével ötletelhetsz, összetett témákat egyszerűsíthetsz, képeket generálhatsz, fájlokat alakíthatsz át podcasttá, vagy akár utazásokat tervezhetsz[3][4][6].\n Az app integrálható más Google szolgáltatásokkal, például a Keresővel, YouTubebal, Google Mapsszel vagy Gmaillel[3][4][6].\n A Gemini Pro előfizetéssel további fejlett funkciók és nagyobb szövegkörnyezet (akár 1 millió token) érhető el, ami nagyjából 1500 oldalnyi szöveg vagy 30 000 sor kód feldolgozását teszi lehetővé[3][4][6].\n Az alkalmazás adatvédelmi beállításai és adatkezelése régiónként és használattól függően eltérhetnek, a felhasználó kérheti az adatok törlését is[6].\n\nFontos tudni:\n A Gemini alkalmazás folyamatosan fejlődik, de jelenleg bizonyos funkciók (például autós infotainment rendszer vezérlése) még nem érhetők el mindenhol vagy minden eszközön[6].\n Az elérhetőség és a támogatott nyelvek, országok köre folyamatosan bővül[5].\n\nHa konkrétan az adott link tartalmára vagy kíváncsi, de nem tudod megnyitni, akkor valószínűleg egy egyedi, személyes munkamenethez vagy beszélgetéshez tartozó oldalról van szó, amelyhez csak bejelentkezve, jogosultsággal lehet hozzáférni[1]. Ha szeretnéd, hogy segítsek egy konkrét Geminifunkcióval vagy kérdéssel kapcsolatban, kérlek, írd le részletesebben, miben segíthetek!",
+      "created_at": "20250705T02:56:11.134832Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

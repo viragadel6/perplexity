@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4fb8b99958c942a3b3da49b58d4c8c54",
+  "context_title": "Photorealistic, highresolution sports portrait of professional wrestler Mercedes Moné in an AEW ring, captured with cinematic lighting and ultradetailed textures. She stands confidently in a custom whiteandgold sequined bodysuit, midriff and hip cutouts accentuated by cascading gold chains, her face lit by arena spotlights with sharp makeup and a triumphant smile. Her hair flows in bold blackandorange tiger stripes, and she displays her signature ‘MONÉ’ fourfinger ring. A broadcast camera dominates the foreground right, while blurred LED boards and crowd bokeh frame the background. Shot at eye level with shallow depth of field, emphasizing her muscular physique, glittering costume, and electric stage presence. Realworld materials, natural shadows, and precise proportions — all rendered in photorealistic fidelity",
+  "created_at": "20260831T15:13:35.724311Z",
+  "updated_at": "20260831T15:15:15.836809Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ea93287cf59e4edca8fc752d16d4e093",
+      "query": "Photorealistic, highresolution sports portrait of professional wrestler Mercedes Moné in an AEW ring, captured with cinematic lighting and ultradetailed textures. She stands confidently in a custom whiteandgold sequined bodysuit, midriff and hip cutouts accentuated by cascading gold chains, her face lit by arena spotlights with sharp makeup and a triumphant smile. Her hair flows in bold blackandorange tiger stripes, and she displays her signature ‘MONÉ’ fourfinger ring. A broadcast camera dominates the foreground right, while blurred LED boards and crowd bokeh frame the background. Shot at eye level with shallow depth of field, emphasizing her muscular physique, glittering costume, and electric stage presence. Realworld materials, natural shadows, and precise proportions — all rendered in photorealistic fidelity",
+      "answer": "Media generated: 'Mercedes Moné in an AEW ring under cinematic arena lights'",
+      "created_at": "20260831T15:13:35.853416Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

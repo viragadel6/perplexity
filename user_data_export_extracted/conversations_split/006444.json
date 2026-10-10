@@ -1,0 +1,28 @@
+{
+  "context_uuid": "1e001f9138be4c32ba514f0b0fe46747",
+  "context_title": "magyarra fordítsd le",
+  "created_at": "20251112T20:36:45.071197Z",
+  "updated_at": "20251112T20:57:41.879278Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "29cdeab58d774cd5934a571fe89a5257",
+      "query": "magyarra fordítsd le",
+      "answer": "Az alábbiakban a csatolt fájlban található jelentés magyar fordításának eleje olvasható, a dokumentum elejétől a „1.1 GPT5” szakasz végéig, a felsorolásokkal együtt.[1]\n\n [1]\n\n [1]\n\n[1]\n\n[1]\n\n [1]\n\n[1]\n\n[1]\n\n[1]\n\n[1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n\n[1]\n\n[1]\n\n[1]\n\n[1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n\n[1]\n\n[1]\n\n[1]\n\n [1]\n\n[1]\n\n[1]\n\n [1]\n\n[1]\n\n[1]\n\n [1]\n\n[1]\n\n[1]\n\n [1]\n\n[1]\n\n[1]\n\n[1]",
+      "created_at": "20251112T20:36:45.150877Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "70079fe67f1b4c828ddac3646dabc6e8",
+      "query": "tovabb",
+      "answer": "Folytatom a korábban megkezdett magyar fordítást a következő szakaszokkal és pontokkal.[1]\n\n [1]\n[1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n [1]\n [1]\n\n [1]\n[1]\n\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]\n\n [1]\n [1]\n [1]\n [1]",
+      "created_at": "20251112T20:55:52.338527Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

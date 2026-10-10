@@ -1,0 +1,55 @@
+{
+  "context_uuid": "3bc2bee209354a2a975a345e142a3469",
+  "context_title": "326/2011. (XII.28.) Korm. rendelet",
+  "created_at": "20251223T12:41:42.316619Z",
+  "updated_at": "20251223T12:44:05.373136Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1221d2c19f28473f85c2d48c066200b9",
+      "query": "326/2011. (XII.28.) Korm. rendelet",
+      "answer": "A 326/2011. (XII. 28.) Korm. rendelet egy magyar kormányrendelet, amely a közúti közlekedési igazgatási feladatokat, valamint a közúti közlekedési okmányok (pl. forgalmi engedély, törzskönyv, rendszámtábla, vezetői engedély) kiadásának és visszavonásának szabályait rendezi.[1]\n\n Miről szól röviden\nA rendelet meghatározza, hogy a közlekedési igazgatási ügyekben mely hatóságok járnak el, és milyen eljárási/nyilvántartási szabályok vonatkoznak az okmányokkal és járműnyilvántartással kapcsolatos ügyekre.[1]\nIde tartoznak például a jármű forgalomba helyezésével, ideiglenes vagy végleges kivonásával, rendszámtáblákkal, illetve a vezetői engedélyek kiadásával/cseréjével kapcsolatos ügytípusok is.[1]\n\n Hatályos szöveg elérése\nA rendelet hatályos (frissített) szövege a Nemzeti Jogszabálytárban elérhető ezen az oldalon: \n\n Pontosan mit keresel benne?\nÍrd meg, melyik rész érdekel (pl. „vezetői engedély csere”, „honosítás”, „ideiglenes rendszám”, „forgalomból kivonás”), és megmondom, mely paragrafus(ok) vonatkoznak rá.",
+      "created_at": "20251223T12:41:42.458697Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "40da5748eb2c4d27be4f32431c958bea",
+      "query": "ervenyes muszaki kell hogy forgalomba visszahelyezzemek autot",
+      "answer": "Igen: ha az autót ténylegesen közúti forgalomban szeretnéd újra használni, akkor érvényes műszaki (a forgalmiban szereplő „műszaki érvényesség” határidőn belül) szükséges a jogszerű közlekedéshez.  Ugyanakkor a „forgalomba visszahelyezés” ügyintézése és a műszaki megléte nem mindig ugyanazt jelenti: ha nincs érvényes műszaki, a hatóság jellemzően ideiglenes forgalomban tartási engedélyt adhat (rövid időre), hogy el tudd vinni vizsgára.[1][2]\n\n Mikor kell érvényes műszaki\n Közúton szabályosan közlekedni csak a forgalmi engedélyben feltüntetett műszaki érvényesség időpontjáig lehet, tehát ha lejárt, nem használhatod közúton.[1]\n Ha a jármű kivont státuszban van és nincs érvényes műszakija, a rendelet alapján kérhető ideiglenes forgalomban tartási engedély (rövid, tipikusan 3 napos) kifejezetten az ilyen helyzetek kezelésére.[2]\n\n Gyakorlati teendő (tipikus sorrend)\n Ha lejárt a műszaki: kérj ideiglenes forgalomban tartási engedélyt, vidd el műszakira, majd intézd a visszahelyezést/okmányokat a Kormányablaknál az aktuális eljárás szerint.[2]\n Ha még érvényes a műszaki: a visszahelyezés általában egyszerűbb, de a forgalomban tartáshoz a biztosításnak is rendezettnek kell lennie.[3]\n\n Pontosítás\nMilyen okból volt kivonva (saját kérésre ideiglenesen, hivatalból, vagy végleg), és le vane járva most a műszaki a forgalmiban?",
+      "created_at": "20251223T12:42:17.063351Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "e00ecba483924a19b234aa2942a11c8b",
+      "query": "de csak h rendszam tablat vissza adjak",
+      "answer": "Ha csak azt szeretnéd, hogy a rendszámtáblát visszakapd, az általában az „ismételt forgalomba helyezés” (visszahelyezés) ügyintézéséhez kötődik, nem önálló „rendszámvisszaadás” eljárás.  Ehhez sok esetben nem az a kérdés, hogy azonnal közlekedsze, hanem hogy a kivonás oka megszűnte, és a visszahelyezés feltételei teljesülneke (amit a 326/2011es rendelet szabályoz).[1]\n\n Kelle érvényes műszaki csak a rendszámhoz?\n Ha a jármű „visszahelyezését” kéred és a rendszámot is ehhez adják ki vissza, a gyakorlatban gyakran kérik, hogy a jármű műszaki állapota igazolt legyen (műszaki vizsga / műszaki adatlap), különösen ha a műszaki lejárt.[2]\n Ha nincs érvényes műszaki, jellemző megoldás, hogy ideiglenes forgalomban tartási engedélyt adnak rövid időre (tipikusan vizsgára mozgatáshoz), és utána lehet rendezni a teljes visszahelyezést és a rendszám „rendes” használatát.[3][1]\n\n Fontos: ideiglenes kivonásnál sokszor nem is adják le\nKérelemre történő ideiglenes kivonásnál a tájékoztatók szerint a rendszámtáblát általában nem kell leadni, tehát nincs mit „visszaadni” (nálad marad), csak a nyilvántartásban lesz kivont státusz.[4]\n\n Egy kérdés a pontos válaszhoz\nA rendszámot korábban ténylegesen be kellett adnod (elvették/leadatták), vagy nálad van most is, csak a kocsi kivont státuszú?",
+      "created_at": "20251223T12:42:46.563645Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "9feb26d688cc4d7e8ba69dff81378802",
+      "query": "de ez alapjan valaszolj 326/2011. (XII.28.) Korm. rendelet",
+      "answer": "A 326/2011. (XII. 28.) Korm. rendelet logikája szerint a rendszámtábla „visszaadása” nem külön, önálló jogintézményként jelenik meg, hanem a jármű forgalomba visszahelyezéséhez (azaz a forgalomban tarthatóság helyreállításához) kapcsolódó okmány és rendszámtáblakezelési szabályok része.  Emiatt, ha a cél csak annyi, hogy a rendszámtáblát újra kiadják/kiadható legyen, a rendelet szerinti ügytípus tipikusan akkor áll össze, amikor a jármű kivonásának oka megszűnik és a hatóság a forgalomban tartást ismét engedélyezi.[1]\n\n Mit jelent ez a „kelle műszaki” kérdésben\n A rendelet alapján a rendszám a jármű forgalomban tartásához kapcsolódó hatósági jelzés, ezért ha a jármű nem tartható forgalomban (pl. a műszaki érvényesség rendezése hiányzik), akkor a „rendszám visszaadása” önmagában nem kezelhető úgy, mintha csak egy tárgyat kérnél vissza.[1]\n Ha nincs érvényes műszaki, a rendelet szerinti tipikus kerülőút az, hogy ideiglenes forgalomban tartási engedéllyel (rövid időre) vizsgára mozgatod a járművet, majd a vizsga után intézhető a teljes visszahelyezés és az ehhez kapcsolódó rendszámhasználat.[2][1]\n\n Két gyakori eset (rendeleti logika szerint)\n Kérelemre ideiglenesen kivont jármű: sok esetben a rendszámot eleve nem kellett leadni, így „visszaadás” helyett a lényeg a kivonás megszüntetése (visszahelyezés).[3][1]\n Hivatalból kivont / leadott rendszám: a rendszám újbóli kiadása jellemzően a forgalomban tarthatóság igazolásához kötődik, ezért ha lejárt a műszaki, reálisan számolni kell azzal, hogy előbb vizsga (akár ideiglenes engedéllyel), és utána rendezhető a rendszám.[2][1]\n\nHa megírod, hogy (1) ideiglenesen vagy hivatalból volt kivonva, és (2) tényleg le vane adva a rendszám a hatóságnál, meg tudom mondani a rendelet szerinti „helyes” ügyintézési irányt 23 lépésben.",
+      "created_at": "20251223T12:43:09.715859Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "14423f5dfbba4fa3ba095c48e282afee",
+      "query": "lenyeget mar",
+      "answer": "A 326/2011. (XII. 28.) Korm. rendelet alapján a rendszámtábla „visszaadása” érdemben a jármű ismételt forgalomba helyezéséhez kapcsolódik, tehát nem úgy működik, hogy csak a táblát kéred vissza külön feltételek nélkül.  Ha nincs érvényes műszaki és csak azért kell a rendszám, hogy eljuss vizsgára, akkor a rendelet szerinti megoldás az ideiglenes forgalomban tartási engedély + ideiglenes rendszám (ez a kettő együtt jár), amivel el tudod intézni a vizsgáztatást.[1]\n\n Lényeg egy mondatban\nÉrvényes műszaki általában kell ahhoz, hogy a kocsi rendesen visszakerüljön forgalomba és „rendesen” használható rendszáma legyen, de vizsgára eljutáshoz a rendelet lehetőséget ad ideiglenes engedélyre/ideiglenes rendszámra.[1]",
+      "created_at": "20251223T12:43:54.617594Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

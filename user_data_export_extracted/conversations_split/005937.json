@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d3e6c67f7df3412b8907115a16f03db7",
+  "context_title": "",
+  "created_at": "20251205T06:07:13.961811Z",
+  "updated_at": "20251205T06:07:13.961811Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b395721616f042a39a54d31f912110d6",
+      "query": "",
+      "answer": "A Bee8B egy új, teljesen nyílt forráskódú, 8 milliárd paraméteres multimodális nagy nyelvi modell (MLLM), amelyet az OpenBee fejlesztett ki. Ez a modell a magas minőségű adatokról ismert HoneyData15M nevű, körülbelül 15 millió mintából álló felügyelt finomhangolási (SFT) adatbázison alapul. Kiemelkedő teljesítményt nyújt különösen összetett matematikai és logikai feladatokban, versenyképes a hasonló, félig nyílt modellekkel szemben, mint az InternVL3.58B.\n\nA Bee8B elsőként támogatja a vLLM magas teljesítményű inferenciát, amely gyorsabb és hatékonyabb felhasználást tesz lehetővé. A modellt könnyen lehet használni a Transformers könyvtárral, képes multimodális, azaz szöveg és képek feldolgozására is, és két működési módot kínál: gondolkodó (thinking) és nem gondolkodó módokat.\n\nJellemzői:\n Teljesen nyílt forráskódú infrastruktúra, beleértve az adatfeldolgozó pipelinet (HoneyPipe) és a modellt is.\n Kiemelkedő képességek strukturált dokumentumok, diagramok értelmezésében, valamint komplex gondolkodási feladatokban.\n Magas szintű adatminőségre épül, amely a modellt a jelenleg elérhető legjobb nyílt MLLMek közé helyezi.\n\nA Bee8B modellt letöltheti és használhatja közvetlenül a Hugging Face platformról, ahol a dokumentáció, a használati példák és akár futtatási példák is megtalálhatók.[2]",
+      "created_at": "20251205T06:07:14.070760Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

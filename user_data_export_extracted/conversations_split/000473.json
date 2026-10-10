@@ -1,0 +1,19 @@
+{
+  "context_uuid": "389c8ffb3e5a4eafbff340fbd55add9e",
+  "context_title": "Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+  "created_at": "20260910T11:16:32.601352Z",
+  "updated_at": "20260910T11:18:21.174213Z",
+  "mode": "COPILOT",
+  "collection_uuid": "dd89b627d2a24c64993e4a84d51e7774",
+  "entries": [
+    {
+      "entry_uuid": "67a8ba2744ad48558eaafd9e2bd2b5cd",
+      "query": "Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+      "answer": "toml\nentrypoint = \"run_alphafold.py\"\nrun = \"python3 run_alphafold.py\"\nmodules = [\"python-3.11\"]\nhidden = [\".pythonlibs\"]\n\n[agent]\nexpertMode = true\n\n[nix]\nchannel = \"stable-23_11\"\n\n[unitTest]\nlanguage = \"python3\"\n\n[gitHubImport]\nrequiredFiles = [\".replit\", \"replit.nix\"]\n\n[packager]\nlanguage = \"python3\"\nignoredPaths = [\".git\"]\n\n[packager.features]\nguessImports = true\npackageSearch = true\nenabledForHosting = false\n\n[languages.python]\npattern = \"**/*.py\"\nsyntax = \"python\"\n\n[languages.python.languageServer]\nstart = \"pylsp\"\n\n[deployment]\nrun = [\"python3\", \"run_alphafold.py\"]\ndeploymentTarget = \"cloudrun\"\nignorePorts = true\n\n\nnix\n{ pkgs }: {\n  deps = [\n    pkgs.python311\n    pkgs.hmmer\n    pkgs.libcifpp\n    pkgs.zstd\n    pkgs.zlib\n    pkgs.cmake\n    pkgs.gnumake\n    pkgs.gcc\n    pkgs.stdenv.cc.cc.lib\n  ];\n}\n",
+      "created_at": "20260910T11:16:32.696119Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4a1104e52bbc412aa1b154302ad1deab",
+  "context_title": "Magyarul hogy mongyák azt hogy iceland",
+  "created_at": "20250817T16:24:05.103453Z",
+  "updated_at": "20250817T16:24:05.103453Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "87f6ce0421f246958a45039536926e88",
+      "query": "Magyarul hogy mongyák azt hogy iceland",
+      "answer": "Magyarul az „Iceland” szó: Izland.",
+      "created_at": "20250817T16:24:05.235316Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

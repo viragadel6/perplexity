@@ -1,0 +1,19 @@
+{
+  "context_uuid": "21381ed5fb3f4316b2ff077b91efcc5a",
+  "context_title": "technologiai stack\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+  "created_at": "20250901T17:16:06.896038Z",
+  "updated_at": "20250901T17:16:06.896038Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a1715db587614120941a0ff3a6b44e2f",
+      "query": "technologiai stack\nválaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.",
+      "answer": "Backend technológiák:\n Python/Flask\n Julia\n WebSocket (SocketIO)\n Redis\n Julia AlphaFold 3++ implementáció\n Distributed computing support\n GPU acceleration (CUDA/ROCm)\n\nFrontend technológiák:\n Vanilla JavaScript\n Three.js (3D vizualizáció)\n HTML5/CSS3\n WebSocket client\n Responsive design\n Font Awesome ikonok\n Google Fonts\n\nAI/ML technológiák:\n Cerebras AI API integráció\n Protein structure prediction\n Neural network implementációk\n Deep learning frameworks\n\nFormális verifikáció eszközök:\n CompCert C\n Vale cryptography\n TLA+ specifikáció\n Dafny verification\n SPARK Ada\n ATS systems programming\n Lean 4 theorem prover\n Coq proof assistant\n Idris 2 dependent types\n Agda dependent types\n\nPárhuzamos számítás:\n Futhark parallel arrays\n Chapel parallel computing\n LLVM IR optimization\n Verilog hardware description\n\nInfrastruktúra:\n Docker containerization\n GCP storage integráció\n Logging és monitoring\n Error handling\n Realtime communication",
+      "created_at": "20250901T17:16:11.985512Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

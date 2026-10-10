@@ -1,0 +1,19 @@
+{
+  "context_uuid": "70f032cc5f834937a0ab55b167860e55",
+  "context_title": "cerebras gpt oss 120b 3000 token/s nel gyorsabb es legalabb ugyanilyan de inkabb fejlettebb model inferencia api t keresek  alacsony latencia és gyors Time To First Token  TTFT",
+  "created_at": "20251214T01:53:11.238637Z",
+  "updated_at": "20251214T01:53:11.238637Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "ff08073050d7463db03d95ca4f465558",
+      "query": "cerebras gpt oss 120b 3000 token/s nel gyorsabb es legalabb ugyanilyan de inkabb fejlettebb model inferencia api t keresek  alacsony latencia és gyors Time To First Token  TTFT",
+      "answer": "Which inference API offers models faster than Cerebras GPT OSS 120B (~3000 tokens/s) with equal or better quality, emphasizing low latency and fast timetofirsttoken (TTFT)?\n\nMelyik inferencia API kínál a Cerebras GPT OSS 120B (~3000 token/mp) modellnél gyorsabb, legalább ugyanilyen vagy inkább fejlettebb modelleket, alacsony késleltetéssel és gyors timetofirsttoken (TTFT) értékkel?",
+      "created_at": "20251214T01:53:12.235299Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

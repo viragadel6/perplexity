@@ -1,0 +1,28 @@
+{
+  "context_uuid": "645f78b53ca1499c909e6821c0d1c4ca",
+  "context_title": "kedzits egy kepet motki bubu rol mint Norbit filmből raspusa",
+  "created_at": "20251003T14:08:18.585766Z",
+  "updated_at": "20251003T14:08:37.506714Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8e8869181727450495d3ba33ef49fbb4",
+      "query": "kedzits egy kepet motki bubu rol mint Norbit filmből raspusa",
+      "answer": "Motki Bubu, akit Rasputiaként ismernek a Norbit című filmből, egy domináns, testes női karakter, akit Eddie Murphy alakít. Rasputia karakteréről híres, hogy 23 órás smink és egy 34 kilogrammos „hízott jelmez” szükséges a megformálásához, ami a figura jellegzetes megjelenését adja.[3][6]\n\nSajnos nem tudok közvetlenül képet készíteni vagy generálni, de Rasputia ikonikus megjelenése ismert a filmben: erős, domináns, nagyszájú, testes nő, aki Norbit életét uralja. Az ő ábrázolása különösen hangsúlyos az alkotásban.\n\nHa szeretnél képet találni róla, érdemes az online képtárakban, filmes oldalak galériáiban keresni a \"Norbit Rasputia\" vagy \"Norbit Rasputia Eddie Murphy\" kulcsszavakkal.[1][5][7]",
+      "created_at": "20251003T14:08:18.676668Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "43e17922d28344c98a2724e2823ff255",
+      "query": "fix the grammar: kedzits egy kepet motki bubu rol mint Norbit filmből raspusa",
+      "answer": "A helyes, nyelvtanilag javított mondat így hangzik:\n\n\"Készíts egy képet Motki Buburól, mint Rasputiáról a Norbit filmből.\"\n\nEz a változat világos és helyes magyar nyelvtanilag.",
+      "created_at": "20251003T14:08:33.106330Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

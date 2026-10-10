@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b07b7b510135481abe4b7a25e6452e17",
+  "context_title": "paste.txt",
+  "created_at": "20260404T21:14:30.495391Z",
+  "updated_at": "20260404T21:16:09.229196Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c5c7fbaa5e5047c98a775303aab04def",
+      "query": "paste.txt",
+      "answer": "A fájl egy nagyon összetett és részletes prompt, amely egy Zig forráskód Lean 4re való fordítását kéri, formális, taktikamentes bizonyításokkal.  Íme a fájl tartalmának részletes összefoglalója és elemzése:[1]\n\n Mi ez a fájl?\n\nA paste.txt egy rendkívül részletes rendszerutasításprompt egy AInak szóló Zig → Lean 4 transpiler és formális verifikációs feladathoz.  Az eredeti Zig kód egy FNDS (Fractal Node Data Structure) Manager rendszert valósít meg.[1]\n\n A Zig kód struktúrái\n\nA forrás a következő fő adatstruktúrákat és típusokat definiálja:[1]\n\nStatisztikai és csomóponti típusok: Az FNDSStatistics struct nyomon követi a gyorsítótártalálatokat, átlagos famélységet, memóriahasználatot és egyéb teljesítménymutatókat. Az FractalNodeData egy fraktálos csomópontot képvisel azonosítóval, adatokkal, súllyal, skálával, SHA256 aláírással és metaadatokkal.\n\nÉl és szintstruktúrák: Az FractalEdgeData négy éltípust definiál (hierarchical, sibling, cross_level, self_similar), és minden élt forrás/cél azonosítóval, súllyal és fraktálkorrelációval lát el. Az FractalLevel egy fraktálfán belüli szintet modellez csomópontokkal, élekkel, szülő/gyerek szintekkel és helyi fraktáldimenziószámítással.\n\nFa és index struktúrák: A FractalTree egy teljes fraktálfát valósít meg pre/post/level/fractalorder bejárással, egyensúlyellenőrzéssel és mélységgyorsítótárazással. A SelfSimilarIndex mintákat indexel helyinformációkkal együtt, és képes hasonlósági keresésre és fraktáldimenzióbecslésre.\n\nHash és gyorsítótárstruktúrák: A CoalescedHashMap egy generikus koaleszcens hashtáblát valósít meg \"cellar\" ütközéskezeléssel. Az LRUCache egy LRUalapú gyorsítótárat implementál dupla láncolt listával és kapacitás/memória korlátokkal.\n\nKözponti menedzser: Az FNDSManager az összes struktúrát összefogja, fákat, indexeket és a gyorsítótárat egységes APIon keresztül kezelve, globális fraktáldimenziószámítással.\n\n A prompt követelményei\n\nA feladat lényege a következő szabályok betartása:[1]\n\nMinden Zig definícióhoz legalább 10szeres arányban kell Lean 4 termmódú bizonyításokat írni, kizárólag kernelszintű konstrukciókkal (fun, Nat.recOn, List.recOn, Eq.trans, And.intro stb.). Tilos minden taktika (by, simp, decide, induction stb.), sorry, admit, lebegőpontos logika a bizonyításokban, és minden helyőrző kód. A lebegőpontos (f64) értékeket egzakt racionális vagy fixpontos reprezentációra kell cserélni. Minden állapotgépátmenetnél induktív nyomkövetési típusokat (trace types) kell definiálni, és monotonicitási illetve invarianciatulajdonságokat kell bizonyítani.\n\n Mit kellene tenni ezzel?\n\nEz a prompt egy AInak szól, hogy az egész Zig kódot lefordítsa Lean 4re és formálisan verifikálja. A feladat rendkívül komplex: a Zig kód körülbelül ~800 sort tesz ki, tehát a 10:1 arány alapján legalább ~8000 sor Lean 4 bizonyítást kellene generálni — taktikamentesen, kizárólag termmódú kernelkonstrukciókkal.\n\nSzeretnéd, hogy elkezdjük a tényleges Lean 4 fordítást és a formális bizonyítások generálását? Vagy inkább a prompt valamely specifikus részére vagy struktúrájára van szükséged?",
+      "created_at": "20260404T21:14:30.706430Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

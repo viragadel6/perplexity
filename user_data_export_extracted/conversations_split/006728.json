@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c6a22ca254124f07825a268624b53201",
+  "context_title": "ez mi?",
+  "created_at": "20251103T15:58:47.713234Z",
+  "updated_at": "20251103T15:58:47.713234Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6f3c5a743419435aa83daa981769d4c5",
+      "query": "ez mi?",
+      "answer": "Sajnos a fájl nem olvasható vagy üres. A kérdésedre válaszolva: az  azt jelenti, hogy \"mi ez?\" vagy \"ez mi?\" a magyarban. Ez egy egyszerű kérdés, amellyel valaki megkérdezi, hogy mi az adott tárgy vagy dolog.\n\nHa szeretnéd, hogy a fájlod tartalmáról beszéljek, kérlek töltsd fel újra vagy írd meg a tartalmat szövegesen. Így tudok jobban segíteni.[1]",
+      "created_at": "20251103T15:58:47.808324Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

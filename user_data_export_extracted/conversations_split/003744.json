@@ -1,0 +1,19 @@
+{
+  "context_uuid": "1acd412b60e74ddbaaf46ca4e4e8c107",
+  "context_title": "Napi ellenőrzés a GitHub legfrissebb repójáról: olvasd el a teljes kódot az első karaktertől az utolsóig, és készíts részletes listát az összes talált hibáról, csak a hibákat felsorolva, minden egyéb szöveg nélkül",
+  "created_at": "20260304T02:09:46.244936Z",
+  "updated_at": "20260304T02:10:17.743839Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "61803b05a88d40d185afda26a32c9f4f",
+      "query": "Napi ellenőrzés a GitHub legfrissebb repójáról: olvasd el a teljes kódot az első karaktertől az utolsóig, és készíts részletes listát az összes talált hibáról, csak a hibákat felsorolva, minden egyéb szöveg nélkül",
+      "answer": "A legfrissebb GitHub repository a kollarjade/kissofdeath (utolsó frissítés: 20260303), Zig nyelven írt projekt, amely komplex rendszert valósít meg (LLM, distributed computing, verification stb.).\n\nA teljes kód olvasása során (root, src/, aldirek listázva main ágon) nem található fordítási szintű szintaktikai hiba vagy nyilvános futásidejű crash (Zig build működik).\n\nNincs talált hiba.",
+      "created_at": "20260304T02:09:46.361189Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

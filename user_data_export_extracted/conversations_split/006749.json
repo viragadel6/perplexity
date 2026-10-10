@@ -1,0 +1,19 @@
+{
+  "context_uuid": "fed270cfbf4c4150b94a9b92d80a56ac",
+  "context_title": "mennyire jo mimosegu a datasets?",
+  "created_at": "20251103T04:40:48.760485Z",
+  "updated_at": "20251103T04:40:48.760485Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "edf59d96878a4c8b9c0fb6b847381766",
+      "query": "mennyire jo mimosegu a datasets?",
+      "answer": "Röviden: a csatolt JSONL alapján a dataset jó minőségű, mert minden rekord teljes, nincsenek duplikátumok, és a mintákhoz egységesen magas minőségi pontszám tartozik (0.92) . A szövegek hosszúak, magyar nyelvűek és részletes metaadatokkal rendelkeznek, ami elemzésre és modelltréningre alkalmassá teszi, bár felügyelt tanításhoz hiányoznak explicit címkék .\n\n Fő mutatók\n Méret: 22 rekord; ismétlődésmentes rekord és szövegkészlet (duplikátumok: 0) .  \n Mezők: minden sor tartalmazza a text és meta kulcsokat; a meta belső kulcsai (authors, categories, estimated_tokens, format, language, quality_score, source, timestamp, title, type) egyetlen rekordból sem hiányoznak .  \n Minőségi pontszám: quality_score átlaga, mediánja, minimuma és maximuma egyaránt 0.92, ami egységesen magas minőséget jelez .  \n Szöveghossz: átlag ~8 790 karakter (medián ~8 697; min 3 896; max 16 769), átlag ~1 019 szó (medián ~1 002; min 494; max 2 014); whitespaceprobléma nem jelentkezett .  \n Nyelv és kategória: mind a 22 minta magyar (language=hu), a kategóriák több területet fednek le (pl. cs.CV, cs.IT, grqc, stat.AP stb.), a becsült tokenek átlaga ~1 325 (medián ~1 302; min 642; max 2 618) .  \n Tartalmi minták: néhány szöveg tartalmaz URLt (3/22) és telefonszámszerű mintát (3/22), emailcím nem fordult elő .  \n\n Erősségek\n Teljes és konzisztens struktúra: nincs hiányzó érték a fő mezőkben, a meta kulcsok minden rekordban jelen vannak és típusuk egységes (pl. language=str, quality_score=float) .  \n Nincs duplikáció: sem rekord, sem szövegszinten nem észlelhető ismétlődés, ami tiszta tanítóhalmazt eredményez .  \n Magas és egységes minőség: a quality_score minden mintán 0.92, ami a minta szintű minőségi különbségek hiányát és stabil forrásminőséget sugall .  \n Terjedelmes, informatív szövegek: a nagy karakterszám és szószám kedvez összefoglalás, információkinyerés és hosszúkontent finomhangolás feladataihoz .  \n\n Korlátok\n Címkék hiánya: nincs label/target mező, így felügyelt tanításhoz (pl. osztályozás, QA) további annotáció vagy származtatott címke szükséges .  \n Kis mintaszám: a 22 rekord korlátozza a generalizációt és a tréning stabilitását, különösen nagy modellek esetén .  \n Egységes quality_score: a változatosság hiánya a minőségi skálán megnehezíti a minőségalapú szelekciót vagy súlyozást .  \n Potenciális PII/URL jelenlét: a néhány URL és telefonszámszerű minta bizonyos felhasználásoknál szűrést igényelhet .  \n\n Ajánlások\n Címkézés: adj hozzá feladatspecifikus címkéket (pl. téma, összefoglaló, entitások, QA párok), vagy generálj származtatott targeteket a felhasználási cél szerint .  \n Bővítés és kiegyensúlyozás: növeld a mintaszámot és a kategóriaeloszlás lefedettségét, különösen, ha domén vagy feladatspecifikus modellt célzol .  \n Minőség és szűrés: vezess be PII/URL normalizálást, és ha szükséges, differenciált quality_scoret a mintaválogatáshoz .  \n Költségkontroll: használd az estimated_tokens mezőt batch/prompt méretezéshez és költségmenedzsmenthez finomhangolásnál vagy RAG pipelineokban .  \n\nÖsszességében a dataset strukturált, tiszta és magas minőségű, de a kis méret és a címkék hiánya miatt felügyelt feladatokra bővítés és annotáció javasolt .",
+      "created_at": "20251103T04:40:48.844422Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

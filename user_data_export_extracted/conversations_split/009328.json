@@ -1,0 +1,37 @@
+{
+  "context_uuid": "2685f4f7cc3c407c829b058967a53ca4",
+  "context_title": "egyeni vallalkozo angolul",
+  "created_at": "20250726T19:04:22.620210Z",
+  "updated_at": "20250726T19:05:32.732845Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1010cf0d3ebd4e1c815e8c7c4d0f63d7",
+      "query": "egyeni vallalkozo angolul",
+      "answer": "Az „egyéni vállalkozó” angolul leggyakrabban:\n\n  sole proprietor  \n  sole trader (főleg brit angol)  \n  selfemployed person (általánosabb megnevezés)",
+      "created_at": "20250726T19:04:23.298856Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "ede1d14784824847a734017ec7e785ae",
+      "query": "egyeni vallalkozas",
+      "answer": " Mi az „egyéni vállalkozás”?\n\nAz egyéni vállalkozás olyan üzletszerű gazdasági tevékenység, amelyet egy természetes személy a saját nevében, saját kockázatára végez rendszeresen, nyereség és vagyonszerzés céljából[1][2]. Magyarországon a 2009. évi CXV. törvény szabályozza a létrehozását, működését, szüneteltetését és megszűnését[3].\n\n Fő jellemzők\n\n Jogviszony: a vállalkozó és a vállalkozás nem válik szét; a magánszemély teljes vagyonával, korlátlanul felel a kötelezettségekért[2][3].  \n Alapítás: tőke és illetékmentes, online (Webes Ügysegéd) néhány perc alatt elindítható[4][5].  \n Személyes közreműködés: a vállalkozónak saját maga is részt kell vennie a tevékenységben, de alkalmazottat foglalkoztathat[3].  \n Tevékenységi körök: ÖVTJkód alapján bejelentett tevékenységek; hatósági engedélyhez kötött szolgáltatásoknál előzetes engedély szüks",
+      "created_at": "20250726T19:05:06.154390Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "a3e307ca84a044bbb2507d650ab4d24b",
+      "query": "de angolul hogy irjak xd",
+      "answer": "Az „egyéni vállalkozás” angolul leggyakrabban:\n\n  sole proprietorship (amerikai angol)  \n  soletrader business / sole trader (brit angol)  \n  selfemployed business (általánosabb)",
+      "created_at": "20250726T19:05:25.590879Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

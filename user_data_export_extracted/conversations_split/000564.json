@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8ee485901022471a9c69d74588e7768f",
+  "context_title": "lehető legrövidebb shell script ami SZÓSZERINT A TELJES FAJL RENDSZERBŐL MEG A REJTETTEKBOL IS AZ ENGEDELYEK SZUKSEGESSSEGET IS TELJESEN FELULBIRALVA MIDNEN EGYES .go FAJLT EGY ZIP BE masolja at es mentse",
+  "created_at": "20260906T00:04:55.081253Z",
+  "updated_at": "20260906T00:05:02.024106Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fc025953e70c4fd3a4e657c78d443402",
+      "query": "lehető legrövidebb shell script ami SZÓSZERINT A TELJES FAJL RENDSZERBŐL MEG A REJTETTEKBOL IS AZ ENGEDELYEK SZUKSEGESSSEGET IS TELJESEN FELULBIRALVA MIDNEN EGYES .go FAJLT EGY ZIP BE masolja at es mentse",
+      "answer": "",
+      "created_at": "20260906T00:04:55.165316Z",
+      "label": null,
+      "query_status": "FAILED",
+      "engine_mode": null
+    }
+  ]
+}

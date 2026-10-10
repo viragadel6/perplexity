@@ -1,0 +1,64 @@
+{
+  "context_uuid": "f461891aa8bd4e2ea2b9e2f8d24ae820",
+  "context_title": "Flowerai osszes documents link",
+  "created_at": "20250720T00:10:05.310922Z",
+  "updated_at": "20250722T05:18:50.229646Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "de01fa77b5fb4ce989f99e4bdb367d77",
+      "query": "Flowerai osszes documents link",
+      "answer": " Flower AI összes dokumentációs linkje\n\nA Flower AI egy federated learning (föderált tanulás) framework, amely több különböző komponenssel rendelkezik. Az alábbiakban megtalálhatóak az összes főbb dokumentációs linkek:\n\n Fő dokumentációs központ\n\nFlower AI hivatalos dokumentáció: \n\nEz a központi hely tartalmazza az összes Flower projekt dokumentációját[1].\n\n Komponensek szerinti dokumentáció\n\n Flower Framework\n Főoldal: \n Leírás: A core Flower Frameworkhöz tartozó dokumentáció, amely federated learning projektek építéséhez, szimulálásához és telepítéséhez szükséges[1][2]\n\n Flower Intelligence\n Funkció: Ondevice AI opcionális Confidential Remote Compute támogatással[1]\n\n Flower Datasets\n Funkció: Adathalmazok particionálása federated learninghez frameworkagnosztikus, reprodukálható és alaposan tesztelt flwrdatasets könyvtár segítségével[1]\n\n Flower Baselines\n Funkció: Ismert kutatási eredmények könnyű reprodukálása és továbbfejlesztése[1]\n\n Példaprojektek\n Funkció: Teljes Flower példaprojektek, amelyek széles körű ML frameworköket, platformokat és forgatókönyveket fednek le[1]\n\n Fejlesztés alatt álló SDKk (2025ben érkeznek)\n\n Mobil SDKk\n Flower Android SDK: Fejlesztés alatt 🚧[1]\n Flower iOS SDK: Fejlesztés alatt 🚧[1]\n Flower C++ SDK: Fejlesztés alatt 🚧, kódpéldák már elérhetőek[1]\n\n További hasznos linkek\n\n PyPI csomag\n flwr package: \n\n Közösség és fejlesztői dokumentáció\nA Flower keretrendszer dokumentációja részletes útmutatókat, howto guideokat, magyarázatokat és referenciákat tartalmaz a kutatók és fejlesztők számára[2].\n\nMegjegyzés: A dokumentáció folyamatosan frissül, és a Flower közösség aktívan dolgozik a platform fejlesztésén[2].",
+      "created_at": "20250720T00:10:05.328291Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "0f9d4855eddb41d1a2ff655ab064c928",
+      "query": "Csak listazd\nLehalabb 20at",
+      "answer": " Flower AI dokumentációs linkek listája\n\n1.   Fő dokumentációs központ[1]\n\n2.   Flower Framework dokumentáció[2]\n\n3.   Példaprojektek dokumentációja[3]\n\n4.   PyTorch kezdő tutorial[4]\n\n5.   Gyorsindító tutorialok[5]\n\n6.   Hugging Face tutorial[6]\n\n7.   PyTorch gyorsindító[7]\n\n8.   scikitlearn tutorial[8]\n\n9.   Mi az a federated learning?[9]\n\n10.   Stratégiák használata[10]\n\n11.   Stratégiák útmutató[11]\n\n12.   Deployment Engine használata[12]\n\n13.   APIk magyarázata[13]\n\n14.   CLI referencia[14]\n\n15.   Referencia dokumentáció[15]\n\n16.   Példaprojektek referencia[16]\n\n17.   Flower főoldal[17]\n\n18.   Flower vizuális elemek[18]\n\n19.   GitHub README[19]\n\n20.   Példakódok repository[20]\n\n21.   AI4OS Flower tutorial[21]",
+      "created_at": "20250720T00:10:45.494599Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "a44c4254052446f5ada65ba4dee2747f",
+      "query": "Csak a linkeket.",
+      "answer": " Flower AI dokumentációs linkek\n\n1. \n2. \n3. \n4. \n5. \n6. \n7. \n8. \n9. \n10. \n11. \n12. \n13. \n14. \n15. \n16. \n17. \n18. \n19. \n20. \n21. ",
+      "created_at": "20250720T11:32:59.554487Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "8d08e7ced66440fabfb9114c3bca2b3f",
+      "query": "Cerebrast ugyanigy",
+      "answer": " Cerebras dokumentációs linkek\n\n1. \n2. \n3. \n4. \n5. \n6. \n7. \n8. \n9. \n10. \n11. \n12. \n13. \n14. \n15. \n16. \n17. \n18. \n19. \n20. \n21. ",
+      "created_at": "20250720T11:34:52.039941Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "998735bd1f97499183b63ef36c371478",
+      "query": "gemini deepreshearch",
+      "answer": "Ilyen nevű hivatalos Googleeszköz vagy API, hogy Gemini DeepReshearch, jelenleg nem létezik. Amit találsz, az kizárólag Gemini néven ismert — ez a Google fejlett generatív (multimodális) AI modellje és APIja, amely szöveg, kép, videó, dokumentum, stb. feldolgozására alkalmas nagy adatmennyiséggel, akár milliós tokenekig is[1][2][3][4].\n\nGemini API fő jellemzői:\n Nagyon hosszú kontextus (hatalmas dokumentumok, multimodális input feldolgozása)\n Több fejlesztői SDK és gyorsindító kód (pl. Python, JavaScript, Go, Java, REST)[1][2][4][5]\n Strukturált (pl. JSON) vagy nyílt szöveges válasz formátum támogatása[1]\n Képek, videók, dokumentumok, hangok értelmezése, generálása, elemzése[1][7][10]\n\nDokumentációk, fejlesztői segédletek:\n\n1. \n2. \n3. \n4. \n5. \n6. \n7. \n8. \n\nAmennyiben deep research alatt dokumentumelemzésre, hosszú kontextus kezelésére keresel AIeszközt, a Gemini API támogatja ezt, de nincs külön DeepResearch nevű modul vagy API[1][2][3][4][5].",
+      "created_at": "20250722T05:17:39.804314Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "52a3861e97f04b809436b496b788a60f",
+      "query": "de csak 30 direkt linket a dokumentaciojara",
+      "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "created_at": "20250722T05:18:45.843806Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e7a6afafa3a646a0b2e671c5b5b9d529",
+  "context_title": "arena ai\nchampagne model\n\n01a0d9e5b94370368f379fe69922ae96\n\n\n\\\"id\\\":\\\"01a0d9e5b94370368f379fe69922ae96\\\",\\\"publicName\\\":\\\"champagne\\\",\\\"displayName\\\":\\\"champagne\\\",\\\"capabilities\\\":{\\\"inputCapabilities\\\":{\\\"text\\\":true},\\\"outputCapabilities\\\":{\\\"text\\\":true}},\\\"userSelectable\\\":true}]},\\\"children\\\":\\\"$L2e\\\"}]\\n\"])</script>",
+  "created_at": "20260926T20:52:31.568298Z",
+  "updated_at": "20260926T20:53:54.033573Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "5b890675391c422f9c08e60cd83c2af2",
+      "query": "arena ai\nchampagne model\n\n01a0d9e5b94370368f379fe69922ae96\n\n\n\\\"id\\\":\\\"01a0d9e5b94370368f379fe69922ae96\\\",\\\"publicName\\\":\\\"champagne\\\",\\\"displayName\\\":\\\"champagne\\\",\\\"capabilities\\\":{\\\"inputCapabilities\\\":{\\\"text\\\":true},\\\"outputCapabilities\\\":{\\\"text\\\":true}},\\\"userSelectable\\\":true}]},\\\"children\\\":\\\"$L2e\\\"}]\\n\"])</script>",
+      "answer": "A champagne az Arena AI modellkatalógusában szereplő nyilvános név vagy tesztkódnév, a 01a0d9e5-b943-7036-8f37-9fe69922ae96 pedig annak belső UUIDazonosítója. A bemásolt adatokból nem állapítható meg hitelesen, hogy melyik konkrét OpenAI, Anthropic, Google vagy más modell van mögötte.\n\nA részletes elemzés kitér a mezők jelentésére, a kódnevek Arenabeli használatára és arra, milyen további adatokkal lehetne valóban azonosítani a modellt.[1][2]",
+      "created_at": "20260926T20:52:31.665372Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

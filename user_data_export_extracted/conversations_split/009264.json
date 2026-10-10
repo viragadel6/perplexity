@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4402504bac75491483fae9e4fed9a860",
+  "context_title": "",
+  "created_at": "20250731T21:22:11.356185Z",
+  "updated_at": "20250731T21:22:11.356185Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e2afa65a6a054f1b99c9778b56485df8",
+      "query": "",
+      "answer": "A GitHubon található GIGA3 nevű, „kurvavagyok” felhasználónévhez tartozó adattár nyilvános projektelem, főleg Python nyelvű fájlokkal, de további programozási nyelveket is tartalmaz, mint például Roff, HTML, C++ és JavaScript. A repóban többféle fájl található: modellekhez, adatfeldolgozáshoz, tréninghez, konfigurációhoz, valamint többféle modellt leíró (pl. h5, pth, onnx) és tokenizáló fájl, továbbá magyar nyelvű korpusz is (hu_szegedud). A pontos fejlesztési célt vagy a projekt leírását azonban a GitHub vagy a nyilvános internetes keresés alapján jelenleg nem lehet biztosan meghatározni, mert nem található hozzá README vagy összefoglaló dokumentum.\n\nA repó technikai jellemzői:\n Fő nyelv: Python (56,5%)\n Tartalom: modellek, konfiguráció, training script, checkpoint és tokenizációs fájlok.\n Feltehető célok: fejlett „jaide” névre utaló mesterséges intelligencia modellek fejlesztése, többrétegű modellépítés és tréning, magyar nyelvű adathalmazok használata.\n\nAmennyiben specifikusabb információra van szüksége a projekt pontos működését, célját vagy használatát illetően, célszerű közvetlenül a fejlesztőtől, vagy a repóban található forráskódok, konfigurációk böngészésével szerezni részletesebb tájékoztatást.",
+      "created_at": "20250731T21:22:12.395354Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

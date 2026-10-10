@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4346ae8521e9477ebff377e101541071",
+  "context_title": "",
+  "created_at": "20260920T13:19:37.163560Z",
+  "updated_at": "20260920T13:22:57.027274Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "b2676e0f4a5847058fe1eceb0138c551",
+      "query": "",
+      "answer": "A linket a  repó gyors technikai áttekintéseként értelmeztem. Röviden: ez egy aktívan fejlesztett, Rustalapú, Apache2.0 licencű programozási nyelv és teljes eszközlánc AIagentek típusbiztos fejlesztéséhez; ígéretes komoly agentes rendszerekhez, de egyszerű LLMprototípusokhoz túlméretezett lehet.\n\nElkészítettem a részletes jelentést az architektúráról, funkciókról, projektaktivitásról, erősségekről, kockázatokról és a kipróbálás javasolt menetéről.",
+      "created_at": "20260920T13:19:37.199976Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

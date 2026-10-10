@@ -1,0 +1,19 @@
+{
+  "context_uuid": "147c15fd68c14319a32c7a431d605435",
+  "context_title": "",
+  "created_at": "20251208T17:37:07.418573Z",
+  "updated_at": "20251208T17:37:07.418573Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "30152a2e226142719a117312f8ffb172",
+      "query": "",
+      "answer": "A pyapu egy Python csomag, amely elérhető a Python Package Indexen (PyPI). Ez a csomag valószínűleg valamilyen specifikus funkciókat vagy eszközöket kínál Python fejlesztéshez, melyet a PyPIn keresztül lehet telepíteni. Az oldalon például megtalálhatóak információk a verzióról, a telepítés módjáról és a csomag tartalmáról.\n\nAz adott link () a pyapu projekt oldalára vezet, ahol a felhasználók letölthetik vagy telepíthetik a csomagot a pip eszköz segítségével, amely a Python csomagok hivatalos telepítője. Itt találhatók részletes információk a csomag verziójáról, kiadási történetéről, valamint a használatával kapcsolatos dokumentációról is.\n\nHa konkrétabb információra van szükség a pyapu csomag funkcióiról vagy telepítéséről, az oldal részletes leírást és telepítési példákat is tartalmaz.[1]",
+      "created_at": "20251208T17:37:07.815340Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

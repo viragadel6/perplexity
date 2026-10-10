@@ -1,0 +1,46 @@
+{
+  "context_uuid": "aec0b01358a74579b49a04bf7de67828",
+  "context_title": "Ezt a szamot deritsd ki hogy kie\n\n\n+36303485499",
+  "created_at": "20260225T08:59:09.917093Z",
+  "updated_at": "20260225T09:47:12.461485Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8ff0b23c60964cda8d08a4add0c41066",
+      "query": "Ezt a szamot deritsd ki hogy kie\n\n\n+36303485499",
+      "answer": "Sajnálom, de nem tudtam azonosítani a +36303485499 szám tulajdonosát. Nyilvánosan elérhető forrásokból ez a szám nem szerepel semmilyen telefonkönyvben, panaszlistán vagy adatbázisban, amelyhez hozzá tudtam volna férni.\n\n Amit a számról tudni lehet\n\nA szám felépítéséből annyi állapítható meg, hogy ez egy Magyar Telekom (TMobile Hungary) hálózatán lévő mobilszám  — a +36 az ország hívójele, a 30as előtag pedig a Telekom mobil hálózatát jelöli.[1][2]\n\n Miért nem deríthető ki egyszerűen?\n\nMagyarországon a mobilszámok tulajdonosainak adatait GDPR és adatvédelmi jogszabályok védik, ezért nyilvános telefonkönyvbe nem kerülnek be. Magánszemélyek névadatait nem kötelező publikusan megadni, és a szolgáltatók sem adnak ki ilyen információt harmadik félnek.[2]\n\n Mit tehetsz?\n\nHa gyanús hívást kaptál erről a számról, a legjobb lehetőségeid a következők:\n\nA kihivott.hu vagy a kihivott.hu oldalakon beírhatod a számot, ahol más felhasználók esetleg már hozzászóltak és megosztottak tapasztalatot az adott számról. Ha spam vagy csaló tevékenységre gyanakszol, a Nemzeti Média és Hírközlési Hatóságnál (NMHH)  lehet bejelenteni, illetve a rendőrségen feljelentést tenni. Ha üzleti kapcsolatod van a hívóval, kérheted a szolgáltatótól (Magyar Telekom ügyfélszolgálat: 1430) az előfizető adatait, de ezt csak hatósági eljárásban kaphatod meg.[3][4]",
+      "created_at": "20260225T08:59:10.058780Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "46824164036742728e9a2ffa68ea5cb6",
+      "query": "Ez rendorsegi telefonszam amivel le gyujtik a bunozo tartozkodasi helyet aki felhivja ezt a szamot",
+      "answer": "Ez egy városi legenda és félreinformáció — nincs semmilyen bizonyíték arra, hogy a +36303485499 rendőrségi szám lenne.\n\n Hogyan működik a valódi rendőrségi helymeghatározás?\n\nA rendőrség nem nyilvános telefonszámokat használ a bűnözők becsalogatásához. A telefonos helymeghatározás Magyarországon kizárólag bírói engedéllyel, a mobilszolgáltatón (pl. Magyar Telekom) keresztül történik — nem egyszerűen azzal, hogy valaki felhív egy számot.  Ehhez komoly jogi folyamat szükséges, nem egy egyszerű nyilvános telefonhívás.[1]\n\n A valódi magyar rendőrségi számok\n\nA Magyar Rendőrség hivatalos elérhetőségei a következők:[1]\n\n| Szolgáltatás | Szám |\n|||\n| Egységes segélyhívó | 112 |\n| Telefontanú (névtelen bejelentés) | 0680555111 |\n| BRFK SMSvonal hallássérülteknek | 06209000107 |\n\nA Telefontanú vonal különlegessége, hogy ott éppen fordítva működik: a hívó száma nem jelenik meg, és hangfelvétel sem készül — tehát az anonim bejelentőt sem lehet azonosítani.[2]\n\n Miért terjed ez a tévhit?\n\nAz ilyen \"rendőrségi csapdaszám\" legendák tipikusan WhatsApp és Facebooklánclevelek formájában terjednek, céljuk általában pánikot kelteni vagy arra rávenni az embereket, hogy ne hívjanak bizonyos számokat. Semmilyen hiteles forrás — sem a police.hu, sem az NMHH — nem erősített meg ilyen rendszert.  Ha mégis konkrét aggálya van ezzel a számmal kapcsolatban, a legjobb teendő a bejelentés a 112es segélyhív",
+      "created_at": "20260225T09:00:29.742634Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "e2d0303a20de4d4397bca4846cb67ff5",
+      "query": "PERSZE H NEM IRJAK KI A TITKOS TECHNIKAIKAT AMIKKEL ELKAPJAK A BUNOZOKET AZTA NAGY OKOSSAG",
+      "answer": "Értem a logikát, de ettől függetlenül néhány dolgot fontos tisztázni.\n\n Amiben igazad van\n\nIgen, a rendőrségnek vannak titkos nyomozati módszerei, és ezeket valóban nem teszik közzé.  Ez teljesen helytálló megfigyelés.[1]\n\n Ahol a logika megszakad\n\nAz a probléma, hogy ha valóban titkos csapdaszám lenne, akkor honnan tud róla bárki? Ha ez valódi rendőrségi honeypot szám lenne, a rendőrség az utolsó dolog, amit tenne, az az, hogy valaki WhatsAppon vagy máshol terjeszti. A titkosság az egész módszer alapja — egy köztudott csapdaszám azonnal elveszíti a funkcióját.\n\n A valóság\n\nAz ilyen típusú \"rendőrségi csapdaszám\" üzenetek szinte kivétel nélkül social engineering átverések — valaki azt akarja, hogy ne hívd fel azt a számot, mert ő maga használja azt valamire (pl. átverés, illegális tevékenység). Pontosan a \"jaj, ez rendőrségi szám!\" riogatással érheti el, hogy az emberek elkerüljék. Ez egy ismert manipulációs technika.\n\nA rendőrség valódi fedett akciói egészen másképp néznek ki: nem mobilszámokon alapulnak, és nem WhatsAppüzenetekben szivárognak ki. Ha komolyan gyanakszol valamire ezzel a számmal kapcsolatban, a legjobb amit tehetsz, hogy jelented a rendőrségen (()) — ők tudják majd kivizsgálni.[2]",
+      "created_at": "20260225T09:01:24.147051Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "350097add31a40b0981e128470a4335a",
+      "query": "Kuldj tobb olyab appot iosra akkor ami megfelel ezeknek a felteleknrk",
+      "answer": "Nem egészen értem a kérdést — a korábbi beszélgetésünkben nem esett szó semmilyen feltételről vagy appokról, így nem tudok mire visszahivatkozni.\n\nPontosan mire gondolsz? Például:\n\n Telefonszámkereséshez szeretnél iOS appot?\n Helymeghatározáshoz?\n Vagy valami teljesen máshoz?\n\nHa megírod, mihez keresel appot és mik az elvárásaid, szívesen segítek!",
+      "created_at": "20260225T09:46:59.600969Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "27c619ad1ba24e8a8ee16446cafaf1b8",
+  "context_title": "ez mi",
+  "created_at": "20260315T22:42:56.278320Z",
+  "updated_at": "20260315T22:43:19.018908Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "07418f5aad7146c4b0a52562842f2b58",
+      "query": "ez mi",
+      "answer": "Ez egy Python szkript, amely a Qwen nyílt forráskódú nagy nyelvi modelleket (LLM) használja JSON adatok kötegelt feldolgozására.[1]\n\n Mit csinál a szkript?\n\nA script fő célja, hogy egy JSON bemeneti fájl minden egyes bejegyzésére meghívja a Qwen modellt, és az eredményt visszaírja a fájlba. Konkrétan: beolvassa a JSON listát, minden elemből kiveszi a \"prompt\" mezőt, beküldi a kiválasztott Qwen modellnek, majd a kapott választ \"Target_LLM_response\" mezőként menti vissza — minden egyes feldolgozott sor után azonnal, hogy adatvesztés ne történjen.[1]\n\n Modellek és GPUkezelés\n\nA szkript három különböző méretű Qwen modellt támogat: 1.7B, 4B és 8B paraméteres változatokat, amelyek a models/ mappából töltődnek be. Emellett részletes GPUkezelést is tartalmaz: a --gpu argumentummal megadható, hogy melyik GPUk legyenek aktívak (pl. --gpu 0,1), és a szkript ellenőrzi, hogy a megadott GPUk valóban elérhetőke CUDA alatt.[1]\n\n \"Thinking\" mód\n\nVan egy opcionális --think kapcsoló, amely engedélyezi a modell gondolkodási folyamatát. Ha ez be van kapcsolva, a modell nemcsak a végső választ adja vissza, hanem a belső gondolatmenetet is (\"Target_LLM_response_thinking\" mezőként), ami az érvelés átláthatóságát segíti.[1]\n\n Parancssori használat\n\nA szkript argparset használ, tehát parancssorból futtatható, például így:[1]\n\nbash\npython file-1.py --model 4B --json input.json --output_json output.json --think --gpu 0\n\n\n Megjegyzés a kódhibákról\n\nA kódban van egy szintaktikai hiba: a model_functions szótár definíciója nem záródik le megfelelően (hiányzik a } a záró zárójel előtt), és néhány függvényhívás sem zárja le rendesen a zárójeleket. Tehát jelenlegi állapotában a szkript nem futtatható le hibák nélkül — ezeket javítani kellene.[1]\n\nSzeretnéd, hogy javítsam ki a hibás részeket, vagy valami mást szeretnél csinálni ezzel a fájllal?",
+      "created_at": "20260315T22:42:56.357733Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

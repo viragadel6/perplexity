@@ -1,0 +1,19 @@
+{
+  "context_uuid": "32b959c96db749ee85033ea91927e798",
+  "context_title": "image to prompt detailest as possible",
+  "created_at": "20251215T23:07:02.272759Z",
+  "updated_at": "20251215T23:07:02.272759Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "37eefcbaf5134a678c3897fb4793f362",
+      "query": "image to prompt detailest as possible",
+      "answer": "Ez egy rendkívül részletes leírás (prompt) a csatolt kép generálásához, magyar nyelven, amely minden vizuális elemet tartalmaz:\n\n Részletes Kép Generálási Leírás (Prompt)\n\nFőtéma és Kompozíció:\nEgy filmszerű, kollázs stílusú poszter egy zenei videóhoz, amely több különböző pózban és öltözékben ábrázol egy popénekesnőt egy sivatagi országúti háttér előtt. A kép hangulata drámai, ötvözi a 'street style' (utcai divat) és az éteri, művészi elemeket.\n\nKarakterek és Megjelenés:\n1.  Utcai Stílusú Verzió: A főszereplő nő hosszú, sötét hajjal látható. Egy túlméretezett, pirosfehér kockás blézert visel, alatta fekete melltartóval vagy toppal. Az alsóruházat egy rojtos, kövekkel díszített farmer rövidnadrág, fekete övvel. A fején egy fehér baseball sapka van, amelyen fekete betűkkel a \"HEADACHE\" (fejfájás) felirat olvasható. A pózok dinamikusak: az egyik képen a kezét a sapkája elé emeli, mintha védekezne vagy rejtőzködne, egy másikon magabiztosan sétál az út közepén.\n2.  Éteri/Dobozos Verzió: Ugyanaz a nő, de hosszú, egyenes platina szőke hajjal. Egy légies, világoskék tüllruhát visel. Több egymásra helyezett, kék hátterű, átlátszó kocka alakú dobozban (vagy vitrinben) pózol. A mozdulatai művésziek, kortárs táncra emlékeztetnek: kezeit a feje fölé emeli, vagy az arcát keretezi velük, mintha be lenne zárva.\n\nHáttér és Kellékek:\n   Környezet: Egy sötétedő, felhős égbolt alatt húzódó sivatagi országút aszfaltja, sárga felezővonallal.\n   Jármű: A bal oldalon, a háttérben egy kék, vintage stílusú pickup teherautó látható, amely körül több táncos vagy statiszta áll csoportban.\n   Tárgyak: Egy hatalmas, ezüstszínű, fémből készült szív alakú szobor vagy lufi látható a teherautó platóján, illetve egy másik képrészleten a nő a hóna alatt cipeli ezt az ezüst szívet.\n\nSzöveg és Grafika:\n   A kép alján nagy, félkövér fehér betűkkel a \"PLASTIC BOX\" felirat olvasható.\n   Felette egy stilizált, fehér, kézírásos logóval a \"JADE\" név szerepel.\n   Legalul apró betűkkel: \"DIRECTED BY INDIA HARRIS, POSTER BY GRAPHICSBYCELINE\".\n\nSzínhasználat és Megvilágítás:\nA kép domináns színei a sötétkék, a szürke és a piros (a kockás kabát miatt). A megvilágítás stúdiószerű a karaktereken, míg a háttér természetes, borús esti fényeket idéz.",
+      "created_at": "20251215T23:07:02.459732Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

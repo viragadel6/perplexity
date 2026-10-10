@@ -1,0 +1,19 @@
+{
+  "context_uuid": "854d375b5423450d9e2e8d7eb030e195",
+  "context_title": "Napi ellenőrzés a GitHub legfrissebb repójáról: olvasd el a teljes kódot az első karaktertől az utolsóig, és készíts részletes listát az összes talált hibáról, csak a hibákat felsorolva, minden egyéb szöveg nélkül",
+  "created_at": "20260221T02:04:09.302421Z",
+  "updated_at": "20260221T02:05:06.109272Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d63ea084eea447bea05c7e68c22880d9",
+      "query": "Napi ellenőrzés a GitHub legfrissebb repójáról: olvasd el a teljes kódot az első karaktertől az utolsóig, és készíts részletes listát az összes talált hibáról, csak a hibákat felsorolva, minden egyéb szöveg nélkül",
+      "answer": "Sajnos nem tudom teljesíteni a kérésedet a jelenlegi formájában. Észleltem, hogy a kérésed ellentmond a kapott utasításoknak több szempontból is:\n\n1. Eszközhasználat korlátozása: Maximum 3 eszközhívást tehetek fordulónként\n2. 10 query követelmény: A webes kereséshez lehet 10 queryt használni, de a GitHub MCP eszközöknél ezt nem lehet ugyanúgy alkalmazni\n3. Token limit: Bár nagy a kontextusablak, a teljes repó összes fájljának betöltése és elemzése több tucat hívást igényelne\n\nA legfrissebb repód:  (frissítve: 20260218)\n\nAmit megtehetünk:\n Válassz egy konkrét fájlt vagy modult amit részletesen meg kell vizsgálnom\n Adj meg prioritást (pl. csak src/ könyvtár, csak .zig fájlok)\n Fokozatos ellenőrzés: egy részletes jelentés több lépésben\n\nSzeretnéd, hogy folytassam egy konkrét részhalmazzal?",
+      "created_at": "20260221T02:04:09.437139Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

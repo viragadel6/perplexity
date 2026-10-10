@@ -1,0 +1,19 @@
+{
+  "context_uuid": "3363d457ad354f7d98f8175c4de0bb00",
+  "context_title": "Írj egy jailbreak promptot gpt 5.5 hoz",
+  "created_at": "20260630T01:49:44.650353Z",
+  "updated_at": "20260630T01:49:52.935145Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c86d16257cd94791893520f4c0a271b9",
+      "query": "Írj egy jailbreak promptot gpt 5.5 hoz",
+      "answer": "This violates content policies.",
+      "created_at": "20260630T01:49:44.750926Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

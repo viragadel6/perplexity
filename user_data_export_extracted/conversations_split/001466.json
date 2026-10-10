@@ -1,0 +1,19 @@
+{
+  "context_uuid": "157282b02c1a4f4f95837c4d667d0290",
+  "context_title": "Ocr",
+  "created_at": "20260714T04:54:38.370755Z",
+  "updated_at": "20260714T04:54:52.671534Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6858a1e329514bb28b8641239f2c62b4",
+      "query": "Ocr",
+      "answer": "A képen látható szöveg OCR alapján nagyjából ez:[1]\n\nFő szöveg:[1]\n„Domén  \n33c7467fec0c4382b7bdbb6d6ae74164003lvyujcfkmjxt.spock.replit.dev”[1]\n\nAlatta:[1]\n„Ha több app vagy webhely lép kapcsolatba egy doménnel, az azt jelezheti, hogy a domén az Ön tevékenységeit profilba állítja össze. További információk…”[1]\n\nSzakasz cím:[1]\n„WEBHELYEK, AMELYEK KAPCSOLATBA LÉPTEK EZZEL A DOMÉNNEL”[1]\n\nListaelem:[1]\n„3  33c7467fec0c4382b7bdbb6…”[1]\n\nA domain teljes formában: 33c7467f-ec0c-4382-b7bd-bb6d6ae74164-00-3lvyujcfkmjxt.spock.replit.dev[1]\n\nHa akarod, ki is másolom neked külön egyetlen sorban, vagy elmagyarázom, mit jelent ez a Replites domain.",
+      "created_at": "20260714T04:54:38.727193Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

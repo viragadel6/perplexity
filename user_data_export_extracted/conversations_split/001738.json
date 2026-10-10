@@ -1,0 +1,19 @@
+{
+  "context_uuid": "4bbf41d425fa4536ab0c8e5d3043dfa4",
+  "context_title": "POST /api/chat → creates background task, returns task_id immediately\nGET /api/task/{id}/stream → SSE stream with 15s heartbeats\nGET /api/task/{id}/poll → polling fallback if SSE drops\nAgent runs in background thread with up to 500 iterations\nServerside session storage persists agent state between requests\nThe system prompt is configured to keep the agent working autonomously—it won't stop midtask, will write complete code, run and test everything, fix errors on its own, and install dependencies as needed. This setup handles long 200minute runs well, and the frontend's polling fallback ensures sessions stay connected even if the SSE stream drops.",
+  "created_at": "20260626T14:21:07.926517Z",
+  "updated_at": "20260626T14:29:09.887581Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3a05be72e23342d6896a17522a82da2b",
+      "query": "POST /api/chat → creates background task, returns task_id immediately\nGET /api/task/{id}/stream → SSE stream with 15s heartbeats\nGET /api/task/{id}/poll → polling fallback if SSE drops\nAgent runs in background thread with up to 500 iterations\nServerside session storage persists agent state between requests\nThe system prompt is configured to keep the agent working autonomously—it won't stop midtask, will write complete code, run and test everything, fix errors on its own, and install dependencies as needed. This setup handles long 200minute runs well, and the frontend's polling fallback ensures sessions stay connected even if the SSE stream drops.",
+      "answer": "",
+      "created_at": "20260626T14:21:08.056184Z",
+      "label": null,
+      "query_status": "FAILED",
+      "engine_mode": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f62d32596cf0424694d2a2eb4ac09807",
+  "context_title": "\nez mi",
+  "created_at": "20260425T12:46:37.430147Z",
+  "updated_at": "20260425T12:47:18.882003Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0fd84f579d534b59ae4fbf905fce96db",
+      "query": "\nez mi",
+      "answer": "Ez a  GitHub repository — egy \"AllinOne\" etikus hacking és penetrációs tesztelési eszközgyűjtemény Linux, Kali, Parrot és macOS rendszerekhez, Pythonban írva .\n\n Mi ez pontosan?\n\nA HackingTool egy nyílt forráskódú, Python 3.10+ alapú parancssori program, amely egyetlen interaktív menüből lehetővé teszi több mint 185 különféle biztonsági eszköz kezelését, telepítését és futtatását . Az eszköz célja, hogy a penetrációs tesztelőknek és biztonsági kutatóknak ne kelljen minden egyes eszközt különkülön keresni, telepíteni és meghívni — mindent egy helyre gyűjt össze. A projekt a v2.0.0 verziónál tart, amelybe 35 új, modern eszköz is bekerült .\n\n 20 Kategória, 185+ Eszköz\n\nA repóban hivatkozott Information Gathering (információgyűjtés) szekció az egyik legnagyobb, 26 eszközzel . Ide tartoznak például a jól ismert , , , ,  és  — mind hálózatfelderítésre, OSINTre és sérülékenységfeltérképezésre használatos eszközök . A többi kategória lefedi a phishing támadásokat, SQL injection eszközöket, WiFitámadásokat, fordított tervezést (reverse engineering), DDoS eszközöket, kriptográfiai és steganográfiai eszközöket, és még az Active Directory, Cloud Security és Mobile Security területeket is .\n\n Telepítés és Használat\n\nA telepítés egy paranccsal elvégezhető :\n\nbash\ncurl -sSL https://raw.githubusercontent.com/Z4nzu/hackingtool/master/install.sh | sudo bash\n\n\nEzután a hackingtool paranccsal indul az interaktív menü. A v2.0.0ban bevezetett keresési funkció (/ billentyűvel) lehetővé teszi, hogy kulcsszó alapján szűrj az összes eszköz között, a t billentyűvel tag szerint szűrhetsz (pl. osint, web, c2, cloud), az r billentyűvel pedig természetes nyelven fogalmazhatod meg, mit szeretnél csinálni, és a rendszer ajánl megfelelő eszközöket .\n\n Fontos Megjegyzés\n\nA repó maga is hangsúlyozza: kizárólag engedélyezett biztonsági tesztelésre szabad használni (\"For authorized security testing only\") . Az eszközök nagy részét, különösen a phishing, DDoS vagy RAT kategóriákat, törvénytelenül alkalmazni súlyos jogi következményekkel járhat.",
+      "created_at": "20260425T12:46:50.429471Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

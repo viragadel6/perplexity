@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a10ad7e6d590424bbf00591c8998b5b9",
+  "context_title": "",
+  "created_at": "20251127T01:43:14.874922Z",
+  "updated_at": "20251127T01:43:14.874922Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0208845184774cd0ade65d8ff2dee259",
+      "query": "",
+      "answer": "Az emm1.github.io oldal a világ legnagyobb multimodális AI adatkészletét, az EMM1et mutatja be, amely öt különböző modalitást kapcsol össze: képek, videók, szövegek, hanganyagok és pontfelhők. Az adatbázis több mint 100 millió automatikusan generált 5ös adatcsoportból áll, emberi értékelésekkel támogatott 1 millió párossal, valamint egy új, konszenzusalapú validációs készlettel, amely különösen az audiopontfelhő összhangot vizsgálja. A dataset széleskörű alkalmazási lehetőségeket kínál multimodális kereséshez, generatív AI modellekhez és kontextus érzékeny nyelvi modellekhez. Az oldal letölthető adatokat és előre elkészített beágyazásokat is kínál, továbbá egy alap modellt a multimodális keresés demonstrálására.[2]",
+      "created_at": "20251127T01:43:15.108524Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

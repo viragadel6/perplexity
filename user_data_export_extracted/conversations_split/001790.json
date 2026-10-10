@@ -1,0 +1,28 @@
+{
+  "context_uuid": "e68f3eda7cc94dd1a4c6ce47cd8acd8b",
+  "context_title": "ebbe az exa ai hogy van pontosan integralva?",
+  "created_at": "20260622T01:06:46.019485Z",
+  "updated_at": "20260622T01:13:55.909191Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "cd94d0032f1242a7837e3cee629e4060",
+      "query": "ebbe az exa ai hogy van pontosan integralva?",
+      "answer": "Az Exa AI integrációja a kódban egy egyszerű, közvetlen HTTPalapú megközelítésen alapul — nem az Exa hivatalos Python SDKját használja, hanem saját httpxalapú implementációt.\n\n Az Exa konfiguráció\n\nAz alkalmazás három globális konstanssal inicializálja az Exa kapcsolatot:[1]\n\n EXA_API_KEY — a EXA_API_KEY környezeti változóból töltődik be\n EXA_SEARCH_URL — fixen https://api.exa.ai/search\n EXA_NUM_RESULTS — 100 eredményre van állítva\n\n A exa_search() függvény\n\nEz a fő belépési pont, amely közvetlenül POST kérést küld az Exa REST APIra. A függvény a következő paramétereket fogadja: query, search_type (alapértelmezett: \"fast\"), category, start_published_date, end_published_date, include_domains, exclude_domains. A fejlécbe kerül az x-api-key, a payload pedig tartalmaz egy contents: {summary: True} mezőt, ami azt jelenti, hogy az Exa automatikusan összefoglalja az egyes találatok tartalmát — nem csak URLt ad vissza.[1]\n\nFontos logika a dátumszűrésnél: ha a kategória \"company\" vagy \"people\", akkor a dátumszűrők és a domainszűrők nem kerülnek bele a payloadba, mivel az Exa People/Company search nem támogatja ezeket.[1]\n\n A call_exa_tool() közvetítő réteg\n\nEz a függvény az AI modell tool calljait fogadja (tool_args dict formában), és hívja meg a exa_search()t. A modell felé csak egy szűkített, tisztított formátumot küld vissza:[1]\n\n Az első 15 URL + cím kerül sources listaként (hivatkozásokhoz)\n A modellnek szánt payload tartalmazza az összefoglalókat, de nem a teljes szövegeket — ezzel minimalizálja a tokenfelhasználást\n\nAz összes Exa hibát (HTTP vagy Exception) a függvény JSON hibaüzenetként adja vissza, nem dob kivételt, így a pipeline nem omlik össze keresési hiba esetén.[1]\n\n Hogyan látja az LLM az Exat?\n\nA Fast módban futó rendszerprompt (build_fast_system_prompt()) explicit utasítja az LLMet, hogy hívja az exa_search toolt — megkülönbözteti az \"instant\", \"fast\" és \"deep\" keresési módokat a kérdés komplexitása alapján. Az Exa tehát nem háttérben futó komponens, hanem az LLM által aktívan hívott tool, amelynek eredményeit a modell beépíti a válaszba.[1]",
+      "created_at": "20260622T01:06:46.191994Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "507aaf8d95034448a5f5eac0d613716d",
+      "query": "Your task is to take the provided technical description and rewrite it as a single, comprehensive prompt. Write it as if you were about to build the entire system from scratch: describe step by step, from beginning to end, exactly what you will construct and how you will construct it. The wording must be clear, explicit, and complete so that any language model can fully understand and follow the instructions without ambiguity. Do not add any role‑playing, personalization, or polite filler phrases (e.g., ‘You are a software developer’, ‘As an expert’, ‘Please kindly’). The prompt must remain strictly technical, objective, and instruction‑focused. Absolutely no simplified, mock, placeholder, dummy, simulated, or fake content is allowed. You must require the full application with all files, in complete, unabridged, production‑ready code.",
+      "answer": "Kész vagyok a teljes promptot megírni. A kód teljes egészét átolvastam — a 6 fázisú pipeline, a session store, a job store, a Screen Robot, az SSE streaming, az InstaVM manager, az Exa integráció, a Flask routeok mind egyértelműen dokumentált.",
+      "created_at": "20260622T01:08:31.350239Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

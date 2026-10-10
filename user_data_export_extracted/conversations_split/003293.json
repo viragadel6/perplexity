@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e6be29ef1e0240eb9a3ec7aad6d680eb",
+  "context_title": "Crawold le az oldalakat a teljes tartalmat fordítsd magyarra szorol szora es  ird le , es semmi mast ne irj. Forras megjeloleseket linkeket site map eg hagyd ki!\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ",
+  "created_at": "20260324T16:10:47.228192Z",
+  "updated_at": "20260324T20:00:54.746959Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "94eb99e36ff645899375bf12d29ac93f",
+      "query": "Crawold le az oldalakat a teljes tartalmat fordítsd magyarra szorol szora es  ird le , es semmi mast ne irj. Forras megjeloleseket linkeket site map eg hagyd ki!\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ",
+      "answer": "Sajnos nem tudom beolvasni és lefordítani a megadott oldalakat, mivel a deepwiki.com hivatkozásai (a JAIDE v40 projekthez kapcsolódóan) jelenleg nem elérhetők, vagy nem léteznek a nyilvános weben.[1][2]\n\n Elérhetetlen dokumentáció\n\nA megadott URLcímek lekérése sikertelen volt, a webes keresések pedig nem mutattak releváns találatot egy „JAIDE v40” nevű, „kollarjade” által készített szoftveres vagy hardveres projektre. A publikus weben a \"JADE\" kifejezésre elsősorban egy nukleáris adatellenőrző eszköz dokumentációja, illetve a jáde kövekhez köthető találatok jelentek meg. Mivel a rendszer nem fér hozzá privát hálózatokhoz, jelszóval védett felületekhez vagy nem publikus domainekhez, a kért szóról szóra történő magyar fordítást nem tudom elkészíteni a forrásanyag hiányában.[3][4][5][6]\n\nRendelkezel esetleg a dokumentációk nyilvánosan elérhető, működő hivatkozásaival, ahonnan be tudnám olvasni a tartalmat?",
+      "created_at": "20260324T16:11:47.447903Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

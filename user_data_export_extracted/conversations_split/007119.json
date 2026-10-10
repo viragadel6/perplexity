@@ -1,0 +1,28 @@
+{
+  "context_uuid": "1a76f13edf254229b9a3aaec8d0ffdb4",
+  "context_title": "modal.com b200 gpun betanitas minden direkt linket docs hoz kuld",
+  "created_at": "20251026T17:09:54.815539Z",
+  "updated_at": "20251026T21:03:46.369191Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "12afe82955fa425a86833447595354f0",
+      "query": "modal.com b200 gpun betanitas minden direkt linket docs hoz kuld",
+      "answer": "Íme a Modal.com B200 GPUkra és betanítási lehetőségekre vonatkozó közvetlen dokumentációs és gyakorlati linkek listája, kifejezetten a fejlesztéshez és tréninghez:\n\n\n\n Hivatalos dokumentációs linkek:\n\n1. GPUgyorsítás (GPU Acceleration Overview)  \n     \n   Leírja, hogyan állítható be Modal Function adott GPUtípussal (pl. @app.function(gpu=\"B200\")).[1]\n\n2. CUDA használat Modalban  \n     \n   Ismerteti, hogyan lehet CUDAt és GPUgyorsított könyvtárakat, például torch vagy transformers telepíteni Modal környezetben.[2]\n\n3. Multinode tréning (beta)  \n     \n   Lefedi, hogyan skálázható több GPUhoz és több nodera egy tréningfeladat Modal klasztereken.[3]\n\n4. Modal GPU referencia (modal.gpu)  \n     \n   Részletes referencia az elérhető GPUtípusokra, paraméterezésekre és architekturális különbségekre.[4]\n\n5. Alap dokumentáció kezdőknek  \n     \n   Belépő szintű útmutató, amely tartalmaz GPUösszekapcsolási példákat is.[5]\n\n\n\n Gyakorlati példák és blogbejegyzések:\n\n1. Introducing: B200s and H200s on Modal  \n     \n   Bevezeti a B200as GPUkat Modalon, magyarázza a teljesítményt, árajánlatokat ($6.25/óra) és használati példát ad.[6]\n\n2. B200 GPU árképzés és teljesítmény (2025)  \n     \n   Megmutatja, hogyan futtatható egy B200as GPUs kód kevesebb mint 5 perc alatt, és bemutatja az új NVLink 1.8 TB/s előnyeit.[7]\n\n3. Modal Training termékoldal  \n     \n   Részletes példák többutas GPU tréninghez (pl. @app.function(gpu=\"B200:8\", image=image) és @modal.clustered(size=4, rdma=True)).[8]\n\n4. Modal termékfrissítések: B200 és H200 támogatás  \n     \n   Többmagú tréning klaszterek és B200/H200 GPUs újdonságok Modalban.[9]\n\n\n\nHa gyorsan szeretnél belevágni, a legegyszerűbb induló kód B200 GPUval így néz ki:\n\npython\nimport modal\n\napp = modal.App()\n\n@app.function(gpu=\"B200\")\ndef run_big_model():\n    import torch\n    print(torch.cuda.get_device_name(0))\n\n\nEzzel a beállítással az alkalmazásod szerver nélkül fut majd egy NVIDIA B200 GPUn a Modal infrastruktúráján, fizetés használat alapján.",
+      "created_at": "20251026T17:09:54.972258Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "3a9830cf0bfc4efbadc9d4683085e30e",
+      "query": "válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.  es a b200 as kell",
+      "answer": "   \n   \n   \n   \n   \n   \n   \n ",
+      "created_at": "20251026T21:03:39.182284Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "7f1d5a01449b4a4e8b84174ab8efc78b",
+  "context_title": "Bianca nyeri iden a rumblet\nKi lehet aki masodik kent/utolso elottikent marad a ringbe?",
+  "created_at": "20260102T16:12:32.767700Z",
+  "updated_at": "20260102T16:13:54.832127Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "dc530b2f13ef4d7dac9d946fb5fffdf8",
+      "query": "Bianca nyeri iden a rumblet\nKi lehet aki masodik kent/utolso elottikent marad a ringbe?",
+      "answer": "Most helyzetben csak annyit lehet mondani, hogy Bianca tényleg toronymagas favorit a 2026os női Royal Rumble megnyerésére, de semmi sem „biztos”, és a hivatalos forgatókönyvet még nem ismerjük. A fogadási oldalak és pletykák csak tippelnek, így az sem ismert, hogy ki lenne vele a ringben utolsó előttiként.[1][2][3][4][5]\n\n Mi látszik most a Rumbleről?\n\n A fogadóirodák szerint Bianca Belair az egyértelmű első számú esélyes a női Rumble megnyerésére, 5/6 körüli oddsszal.[5][1]\n A második legnagyobb esélyes jelenleg Liv Morgan, utána jóval lemaradva Rhea Ripley jön a listákon.[3]\n Több wrestlingoldal is külön cikkben emeli ki, hogy a történetvezetés szempontjából is Bianca győzelmére „épít” minden, de ez továbbra is spekuláció, nem kiszivárgott script.[6][2]\n\n Ki lehet az „utolsó kettő” másik tagja?\n\n A fogadási sorrend alapján logikus tipp, hogy ha Bianca nyer, akkor az utolsó kettőben valószínűleg Liv Morgan lehet a másik, mivel ő a második favorit.[3]\n Keringenek „leaked list” jellegű állítólagos szivárgások is, amelyek Biancát hozzák ki győztesnek, de ezek megbízhatósága erősen kérdéses, és konkrétan az utolsó kettőt sem mindig részletezik.[4][7]\n\n Mit érdemes fejben tartani?\n\n A WWE bármikor átírhatja a kreatív tervet – a fogadási oddsok csak azt mutatják, mire számítanak a bukmékerek és a fogadók, nem a végleges forgatókönyvet.[1][5]\n Amíg maga a Rumble le nem megy (vagy megbízható, backstageből származó, konkrét spoiler nem jelenik meg), addig csak találgatás, hogy ki marad Biancával a ringben utolsó előttiként.",
+      "created_at": "20260102T16:12:32.910335Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    },
+    {
+      "entry_uuid": "07bdb54edc7a4c9a9181b8231881b1ef",
+      "query": "De liv mar reg returnolt\nRhea  mar reg sullyeszto\nJade s bajnok mem megy rumblebs",
+      "answer": "Liv Morgan már visszatért december végén house shown, és aktívan készül a címképeket ostromolni 2026 elején. Rhea Ripley top heelként aktív Rawon és SmackDownon, esetleg brandváltással, de Rumbleben simán benne lehet. Jade Cargill bajnokként indulhat a Rumbleben, mint 2024ben, bajnokok gyakran részt vesznek benne kihívó keresésre.[1][2][3][4][5][6][7]\n\n Friss favoritok Biancával szemben\nHa Bianca nyeri, ezek jöhetnek a végső 2.ként:\n Iyo Sky: Tag title chase miatt erős sztoriban, Ripleyvel párosan aktív.[2][8]\n Naomi: Heel fordulat után visszatérő, korábbi riválisok közül.[3][9]\n Bayley vagy Tiffany Stratton: Friss feuddel, Rumbletradíció szerint.[6][9]\n\n Következő lépések\nRoyal Rumble január 31én Rijádban, Bianca sérülés utáni visszatérése dobhatja ki a bajnokot vagy heel kihívót WrestleMania felé. Fogadások BiancaLiv/Jade párosra mutatnak, de booking változhat.[10][11][12][13][6]",
+      "created_at": "20260102T16:13:48.866421Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

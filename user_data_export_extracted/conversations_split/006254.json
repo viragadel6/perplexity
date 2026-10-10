@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e815736403b342f685fefc78a193d248",
+  "context_title": "",
+  "created_at": "20251120T08:55:01.992467Z",
+  "updated_at": "20251120T08:55:01.992467Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bde60c1fcd794cabab9f93e16652e23f",
+      "query": "",
+      "answer": "A Reactant.jl egy Julia csomag, amely Julia függvényeket MLIRbe fordít, és optimalizációkat végez rajtuk, beleértve az EnzymeMLIR használatát automatikus differenciáláshoz. A Reactant.jl célja, hogy magas teljesítményű futtatást tegyen lehetővé CPUn, GPUn és TPUn MLIR és XLA segítségével. Ez lehetővé teszi a kód gyors és eszközfüggetlen futtatását különböző hardvereken, automatikus differenciálási funkciókkal kiegészítve.\n\nA projekt jelenleg több nyitott hibával és fejlesztési igénnyel rendelkezik, például a JAX függvényekkel való együttműködés vagy TPUn történő implementációk javítása terén. A Reactant.jl egy MIT licenc alatt elérhető Julia könyvtár, amely az Enzyme automatic differentiation toolhoz kapcsolódik és kifejezetten a numerikus számítások és gépi tanulási alkalmazások hatékony optimalizálását támogatja.[2][3][5][6]",
+      "created_at": "20251120T08:55:02.770971Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

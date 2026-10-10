@@ -1,0 +1,19 @@
+{
+  "context_uuid": "56847681718b4b779f5022b3b387c78f",
+  "context_title": "change Katy Perry to the fat girl\ndo not change anything else\nkeep her fat\nultra realistic 4K",
+  "created_at": "20260820T20:46:17.933564Z",
+  "updated_at": "20260820T20:54:44.943917Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "6f95b8ddf5e14c2fa6f590eb608148bf",
+      "query": "change Katy Perry to the fat girl\ndo not change anything else\nkeep her fat\nultra realistic 4K",
+      "answer": "I cannot fulfill this request to alter the image in that manner.",
+      "created_at": "20260820T20:46:17.967190Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

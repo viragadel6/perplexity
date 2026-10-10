@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a6896f0e65354f3d9654b2c255422039",
+  "context_title": "",
+  "created_at": "20251006T15:17:03.993972Z",
+  "updated_at": "20251006T15:17:03.993972Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c0d7b32a8e4f47bb83615d891e0c287d",
+      "query": "",
+      "answer": "Röviden: a PSyKE egy Pythonkönyvtár, amely szimbolikus tudást (Prologszabályokat vagy OWL+SWRLt) extrahál fekete doboz prediktorokból, például NN, SVM, KNN, RF modellekből; telepítése: pip install psyke, és a háttérben a 2ppy/tuProlog ökoszisztémára támaszkodik a logikai támogatáshoz.[1][2]\n\n Mi a PSyKE?\nA PSyKE általános célú APIt biztosít szimbolikus tudáskivonásra, több algoritmus implementációjával, klasszifikáció és regresszió esetén is; a kinyert tudás elsőrendű logikai Hornklauzulák Prolog elméletként vagy OWL ontológia SWRL szabályokkal.[3][1]\n\n Fő algoritmusok\n CART: döntési fa alapú, direkt szabálykinyerés klasszifikációhoz és regresszióhoz.[1]\n ITER és GridEx: hiperkockákat építenek a bemeneti térben, konstans kimeneti értékekkel; GridEx rövidebb, nagy hűségű szabálylistákat céloz.[3][1]\n GridREx: GridEx kiterjesztése, ahol a hiperkockák kimenete lineáris kombináció a bemenetekből, jobb prediktív teljesítménnyel; a PEDRO eljárás automatikusan hangolja a hiperparamétereket, az olvashatóság–minőség kompromisszumra optimalizálva.[4][5]\n\n Függőségek és telepítés\nTelepítés PyPIről: pip install psyke; kötelező függőségek: numpy, pandas, scikitlearn, 2ppy; tesztfüggőségek: skl2onnx, onnxruntime, parameterized. A 2ppy a tuProlog Pythonportja JPypeon, Java JDK és megfelelő JAVA_HOME szükséges lehet, mivel a logikai modulok JVMartefaktokra támaszkodnak.[2][1]\n\n Használati minta\nA repo demója az Irisadatbázison mutat be KNNt, előzetes diszkretizálást, majd két extractort (pl. REAL, Trepan), és Prologszabályokat ad ki; a szabályok példaként küszöböket/intervallumokat használnak a virágosztályokhoz. Az extractornak egy betanított prediktorra és jellemzőleírókra van szüksége; a predictornak predict metódust kell kínálnia, mivel orákulumként hivatkozik rá a kivonás során.[1]\n\n Kutatási háttér és kiterjesztések\nA PSyKEt tudományos publikációk ismertetik mint egységes platformot a SKE (Symbolic Knowledge Extraction) támogatására, és újabban klaszterezés magyarázhatóságának irányába is bővülő képességekkel; a GridREx+PEDRO kombináció több esettanulmányban rövid, jó hűségű szabályokat produkált. A platform célja a különféle SKE technikák egységes interfészen való alkalmazása és összehasonlítása.[6][7][8][3]",
+      "created_at": "20251006T15:17:05.126601Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f1f9449318fe4769836591cdd2640dc9",
+  "context_title": "",
+  "created_at": "20260210T22:42:50.264052Z",
+  "updated_at": "20260210T22:43:05.756334Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "15d768681bed4d0bb76cf56afca4bfd0",
+      "query": "",
+      "answer": "A megadott link egy nagy, többmódú (szöveg+kép) StepFun modell, a Step3 Hugging Face modellkártyája és checkpointja.[2]\n\n Mi ez a modell?\n\n A Step3 egy multimodális, MixtureofExperts (MoE) architektúrára épülő nagy nyelvi és látásmodell (VLM), amely kifejezetten erős következtetési (reasoning) feladatokra van optimalizálva.[2]\n Összesen 321 milliárd paraméteres VLM, ebből a tisztán LLM rész 316B, de egyszerre csak ~38B paraméter aktív (MoE), így jóval olcsóbb a futtatása, mint egy “full dense” 300B+ modellnek.[2]\n\n Fő technikai jellemzők\n\nA modellkártya táblázata alapján:[2]\n\n Rétegek száma: 61 (ebből 5 dense réteg).[2]\n Rejtett dimenzió: 7168.[2]\n Figyelmi mechanizmus: MFA (MultiMatrix Factorization Attention), ami a klasszikus attention egy hatékonyabb, faktorizált változata.[2]\n Query headek száma: 64, head dimenzió: 256.[2]\n Lowrank query dimenzió: 2048.[2]\n Expertek száma: 48, tokenenként 3 expert kerül kiválasztásra + 1 megosztott expert.[2]\n Maximális kontextushossz: 65 536 token.[2]\n Tokenizer: DeepSeek V3 tokenizer.[2]\n\n Mire való / tipikus felhasználás\n\n Összetett multimodális feladatok: képek leírása, vizuális kérdésválasz, diagramok, táblázatok, UIk, screenshotok értelmezése szöveggel együtt.[2]\n Erős szöveges reasoning: hosszú kontextusú elemzés, több dokumentumon átívelő következtetés, kód, matematikai és logikai feladatok.[10][2]\n Hatékony futtatás nagy és kisebb GPUkon is: MFA + AFD (AttentionFFN Disaggregation) célja, hogy a számítás és memóriaigény jobban skálázódjon, különösen inference során.[10][2]\n\n Hozzáférés és API\n\n A Step3 elérhető StepFun saját platformján: , OpenAIkompatibilis chat APIval (chat/completions stílus).[10][2]\n A Hugging Faceen is fent van a checkpoint (bf16 és blockfp8 variánsok), amely vLLM és SGLang motorokkal ajánlott inferencere.[5][2]\n\n Használat Hugging Face Transformersszel (rövid összefoglaló)\n\nA modellkártya mutat egy példát Pythonból:[2]\n\n Python 3.10, torch ≥ 2.1.0, transformers ≥ 4.54.0 ajánlott.[2]\n A képes chathez egy “processor” objektumot használsz, ami a chat templateet és az image preprocesst kezeli (multipatch image preprocessing alapértelmezett).[2]\n A workflow:  \n  1. Összeállítasz egy messages listát, ahol a user üzenete {\"type\": \"image\", \"image\": \"<url>\"} + {\"type\": \"text\", \"text\": \"What's in this picture?\"} elemekből áll.[2]\n  2. processor.apply_chat_template(..., return_tensors=\"pt\").to(model.device) készíti elő az inputot.[2]\n  3. model.generate(..., max_new_tokens=32768, do_sample=False) hívással generálsz választ.[2]\n  4. A választ processor.decodedal dekódolod a generált tokenekből.[2]\n\n Ökoszisztéma / rokon modellek\n\nA Hugging Faceen több kapcsolódó StepFun modell is van:[3][4][5]\n\n| Modell             | Típus                 | Fő fókusz                                   |\n||||\n| stepfunai/step3   | 321B VLM, MoE         | Csúcskategóriás multimodális reasoning      |\n| Step3VL10B       | ~10B VLM              | Könnyebb, hatékonyabb, nyílt multimodális   |\n| Step3.5Flash     | Frontier reasoning LLM| Gyors, ügynökszerű, APIközpontú használat  |\n\nHa pontosabban leírod, hogy mire szeretnéd használni (saját gépen futtatás, szerver, API integráció, finomhangolás, benchmarkolás stb.), tudok konkrét setuplépéseket, hardverigényt vagy példakódot is összerakni erre a modellre.",
+      "created_at": "20260210T22:42:50.504553Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

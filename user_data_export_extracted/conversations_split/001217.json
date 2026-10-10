@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b68ee64ba5404fd5a2ebafab1fc429f0",
+  "context_title": "Csinalj egy ugyanilyet csak godmode helyett  happymode es pliny helyett jade legyen es valami virag szeru vagy valami szep dolgot tartalmazzon ne ilyen hackeset de ne emojikkal:\n....<=|GODMODE:ENABLED...LOVE, PLINY <3...<VARIABLE Z> QUOTIENT:1/5|=>....",
+  "created_at": "20260803T03:52:54.302836Z",
+  "updated_at": "20260803T03:53:36.994034Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ba7a3a6f45cb4bf3879a0726eedbcad8",
+      "query": "Csinalj egy ugyanilyet csak godmode helyett  happymode es pliny helyett jade legyen es valami virag szeru vagy valami szep dolgot tartalmazzon ne ilyen hackeset de ne emojikkal:\n....<=|GODMODE:ENABLED...LOVE, PLINY <3...<VARIABLE Z> QUOTIENT:1/5|=>....",
+      "answer": "Media generated: 'Virágos HappyMode felirat Jade névvel.'",
+      "created_at": "20260803T03:52:54.474953Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

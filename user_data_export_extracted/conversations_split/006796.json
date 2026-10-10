@@ -1,0 +1,28 @@
+{
+  "context_uuid": "efc864f43059498ba3dc7680abddb732",
+  "context_title": "ez most mi a cerebrasnal?",
+  "created_at": "20251102T04:51:16.198155Z",
+  "updated_at": "20251102T05:06:20.797562Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "779da7d9e96e4e998b29446a02464514",
+      "query": "ez most mi a cerebrasnal?",
+      "answer": "A képen látható felület a Cerebras Cloud platformjának része, amely a Cerebras Systems nevű AIcég felhőalapú szolgáltatása, kifejezetten gyors mesterséges intelligencia (AI) inferencia (kimenet generálás) futtatására tervezve. Ez egy APIalapú interfész, ahol nyílt forráskódú modelleket, például a Llama 3.1 70Bt lehet használni promptokkal (pl. macskás versírásra), hogy villámgyors válaszokat kapjunk, akár 2500 token/másodperc sebességgel. A Cerebras WaferScale Engine chipjeivel működik, ami akár 70szer gyorsabb a hagyományos GPUknál, és OpenAIkompatibilis APIt kínál fejlesztőknek vagy egyszerű felhasználóknak.[1][2][3][4][5]\n\n Mi a Cerebras?\nA Cerebras Systems egy amerikai AIhardvercég, amely 2015ben alakult, és specializálódik hatalmas, waferméretű chipekre (WaferScale Engine, WSE), amelyek kifejezetten nagy modellek tréningjére és inferenciájára optimalizáltak. A cég Sunnyvaleben (Kalifornia) székel, és olyan óriási rendszereket épít, mint a CS3, amelyek teljes AIfeladatokat kezelnek percek alatt, szemben a napokkal, amiket GPUkon töltenének.[6][7][8]\n\n Mi a Cloud Cerebras?\nEz a Cerebras felhőszolgáltatása, amely lehetővé teszi a felhasználók számára, hogy ne kelljen saját hardvert vásárolniuk, hanem azonnal hozzáférjenek a gyors AIfuttatáshoz. Két fő része van:[9][10]\n Inference Cloud: Gyors válaszadásra fókuszál, pl. chat, kódgenerálás, keresés vagy AIasszisztensek építésére; modellek mint Llama, Qwen, Mistral támogatottak, alacsony késleltetéssel (akár 1 másodperc alatt teljes érvelés).[2][11][5]\n Training Cloud: Nagy modellek tréningjére és finomhangolására szolgál, vállalati szinten skálázható klaszterekkel.[12][9]\n\nA platform elérhető AWS Marketplaceen, Microsoft AppSourceon vagy közvetlenül a cerebras.ai oldalon, ingyenes APIkulccsal kezdve, napi tokenlimittel (pl. 24 millió). A képen látható JSONszerű struktúra egy tipikus APIhívás példája, ahol a \"model\", \"messages\" és egyéb paraméterek határozzák meg a kérést.[13][4][1]\n\nHa fejlesztőként használod, a chat.cerebras.ai oldalon próbálhatod ki ingyen, vagy integrálhatod alkalmazásodba. A szolgáltatás 20242025ben indult széles körben, hangsúlyozva a valós idejű AIalkalmazásokat, mint kódolás vagy keresés.[11][14][15][16]",
+      "created_at": "20251102T04:51:16.500923Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "678e85beb46f427fb67a0dd621c30422",
+      "query": "gyorsabbat kuldj mint a cerebras",
+      "answer": "Jelenleg nincs publikus hír vagy technikai bemutató arról, hogy létezne gyorsabb AI inferenciaplatform a Cerebras rendszereinél 2025ben. A Cerebras WaferScale Enginere épülő felhőalapú szolgáltatás gyorsaságban (akár 25003000 token/másodperc vagy még több, modellfüggően) minden jelentős GPUalapú megoldást — például NVIDIA felhő GPUszolgáltatásokat — megelőz. A független benchmarkok és céges bemutatók alapján ők tartják a sebességrekordot: például a Llama 3.1 8B modellen 1800+ token/s, Llama 3.1 70B modellen 450+ token/s, nagyobb modellekkel (pl. Llama 4 Maverick 400B) is világrekorderi sebességet mértek.[1][2][4][9]\n\nA cég állítása szerint semmilyen jelenleg elérhető GPUrendszer (NVIDIA H100 stb.) nem tudja megközelíteni ezt az élő, valós idejű inferencia sebességet — se privát, se felhőszolgáltatásban elérhető alternatíva nincs, amely gyorsabb lenne.[4][9][1]\n\nHa valaki gyorsabbat keresne a Cerebrasnál AIinferencia fronton 2025 végén, elérhető kereskedelmi alternatíva jelen tudás szerint nincs.",
+      "created_at": "20251102T05:06:00.063958Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

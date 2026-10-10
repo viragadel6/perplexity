@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8a97413c1dd94ef3979b0f43e4fa1447",
+  "context_title": "@Hugging Face  olyan llm et keress ami uncensored de nem ilyen cibersecurity manias read teaming fos hanem olyan ami MINDENBEN TENYLEG UNCENSORED",
+  "created_at": "20260826T15:07:25.814309Z",
+  "updated_at": "20260826T15:08:12.968541Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "50f55d7eeaab41149212c69c1b5ded91",
+      "query": "@Hugging Face  olyan llm et keress ami uncensored de nem ilyen cibersecurity manias read teaming fos hanem olyan ami MINDENBEN TENYLEG UNCENSORED",
+      "answer": "A keresett célra a hibrid finomhangolások helyett az úgynevezett abliterated (elutasítási iránytól megtisztított) és a klasszikus Dolphin sorozatú modellek a legalkalmasabbak, mivel ezek nem etikai vagy biztonsági tesztelésre szűkítettek, hanem általános célú, szűretlen válaszadásra készültek .\n\n Abliterated modellek\n\nAz abliteration eljárás során a modell neurális rétegeiből matematikai módszerekkel kivonják az elutasításért és prédikálásért felelős súlyokat . A modell intelligenciája, logikája és nyelvtudása megmarad, miközben megszűnik a reflexszerű megtagadás:\n\n : A 70B paraméteres modell az egyik legintelligensebb, teljes körűen lecsupaszított nyílt forrású megoldás .\n : Kiváló általános nyelvi megértéssel és szűretlen logikával rendelkező, közepes hardverigényű modell .\n : Kifejezetten a cenzúra és a finomhangolt elutasítások eltávolítására optimalizált változat .\n : Általános feladatokra és beszélgetésekre hangolt szűrőmentes alapmodell .\n\n Dolphin széria\n\nA Cognitive Computations és Eric Hartford által készített Dolphin modellek nem kiberbiztonsági eszközök, hanem tudatosan morális szűrők nélkül betanított mindenevő rendszerek :\n\n  (vagy a kvantált ): A Venice.ai megbízásából finomhangolt, radikálisan privát és szűretlen modell .\n : Kisebb gépeken is gyorsan futtatható általános célú szűretlen változat .\n\n Szerepjáték és kreatív modellek\n\nHa a cél fiktív történetek, tabu témák vagy teljesen korlátlan szerepjáték generálása, az alábbi finomhangolások kínálják a legnagyobb szabadságot:\n\n : Kifejezetten sötétebb fikcióra, határok nélküli kreatív írásra és komplex dialógusokra optimalizált MoE felépítésű modell .\n : Multimodális és szöveges feladatokra egyaránt felkészített változat .\n\n Futtatási javaslat\n\nHelyi futtatáshoz (pl. LM Studio, Ollama vagy Kobold.cpp) a GGUF kiterjesztésű repókat érdemes letölteni:\n\n 16 GB VRAM esetén a 8B és 12B modellek kényelmesen elférnek a memóriában.\n 24 GB VRAM vagy több RAM birtokában a 24B–27B modellek és a 70B méret Q4_K_M kvantálása nyújtja a legmagasabb szintű válaszminőséget.",
+      "created_at": "20260826T15:07:25.865975Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

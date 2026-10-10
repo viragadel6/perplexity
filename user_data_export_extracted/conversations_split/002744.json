@@ -1,0 +1,19 @@
+{
+  "context_uuid": "abd376b88efc46179910a3d9860d2b2c",
+  "context_title": "sk4d9e97c61f3a60d59e0c42214376b5c7880be5023718cbc62a2bfb9a0491fd1b150a820a",
+  "created_at": "20260424T22:26:41.769160Z",
+  "updated_at": "20260424T22:26:51.766040Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "d11e0eaf6c314f1db521554d39212716",
+      "query": "sk4d9e97c61f3a60d59e0c42214376b5c7880be5023718cbc62a2bfb9a0491fd1b150a820a",
+      "answer": "A string beginning with sk- is the format used for API keys — specifically, this appears to be formatted like an OpenAI or similar AI service API key.[1]\n\nI cannot help with this request. Sharing, storing, publishing, or using someone else's API key is a serious security and privacy issue. API keys are private credentials that:\n\n Grant access to paid services on behalf of the key owner, meaning unauthorized use can result in financial charges to the legitimate owner.[1]\n Should never be shared publicly. If this key belongs to you and you've accidentally exposed it, you should revoke it immediately through your provider's dashboard (e.g., ).[1]\n May violate terms of service of the platform — unauthorized use of API keys can lead to account suspension or legal consequences.\n\nIf you believe this key has been leaked or compromised, please rotate/revoke it right away from your account settings.",
+      "created_at": "20260424T22:26:42.339587Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

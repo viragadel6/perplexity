@@ -1,0 +1,28 @@
+{
+  "context_uuid": "92379d15cf7248c28dad0ebc0e64f32a",
+  "context_title": "",
+  "created_at": "20251123T13:46:07.780488Z",
+  "updated_at": "20251123T13:46:54.996506Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7f2d883d106a4df988f45f96273ce52d",
+      "query": "",
+      "answer": "A Firebase Studio hibakeresési és GYIK oldal részletes útmutatókat és megoldásokat tartalmaz a leggyakoribb problémákra. Itt néhány fontosabb gyakorlati tanács a használathoz:\n\n Ha nem tudja letölteni a fájlokat, a projekt mappáján jobb kattintással válassza a \"Zip and Download\" opciót. A letöltés után újra megnyithatja a mappát a munkaterületen.\n A Firebase Studiohoz a legtöbb böngészőben engedélyezni kell a harmadik fél sütijeit (thirdparty cookies). Ez szükséges az autentikációhoz és a biztonságos kommunikációhoz.\n Ha a munkaterület nem tölt be vagy csak üres képernyő jelenik meg, próbálja meg újraindítani a VMet a More menüből a Restart funkcióval.\n Ha a kódnézetben a Preview nem töltődik be, a Hard Restart vagy Rebuild Environment parancsokkal lehet próbálkozni a parancsszópalettán (Cmd+Shift+P vagy Ctrl+Shift+P).\n Bizonyos funkciók eltávolításra kerülhetnek, mert kísérleti jellegűek, és a Firebase fejlesztői a felhasználóktól kapott visszajelzések alapján döntenek a megőrzésükről vagy törlésükről.\n A Cloud Firestore vagy Auth hibák esetén hasznos lehet az adott hibaüzenetet a Gemini AI felé jelezni, amely segíthet a hibák javításában vagy biztonsági szabályok írásában.\n Az App Prototyping ügynök képes automatikusan hozzáadni az adatbázist és a hitelesítést az alkalmazáshoz, ha erre kérjük.\n A Flutter verzióját is lehet módosítani a munkaterületen, bár ez nem marad meg a szekciók között. Érdemes a dev.nix fájlba belefoglalni a szükséges csomagokat.\n Ha a munkaterület megosztásakor a címzett nem fér hozzá, győződjön meg arról, hogy megosztotta vele a munkaterületet, illetve hogy a címzett rendelkezik a megfelelő jogosultságokkal a kapcsolódó Firebase projektben.\n Fontos, hogy egy munkaterület megosztásakor a másik fél teljes hozzáférést kap a fájlrendszerhez, így csak olyanokkal ossza meg, akikben teljesen megbízik.\n\nEzek a legfontosabb pontok a Firebase Studio gyakori hibáinak elhárításához és használatához. A teljes leírást angol nyelven is megtalálja a  oldalon.[2]",
+      "created_at": "20251123T13:46:07.890177Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "1f1b08269f784d72916066fc87986b25",
+      "query": "iphoneonon onnantol hogy egy appot megnyitnek egyszeruen csak tolt a vegtelensegig de sose tolti be az appot",
+      "answer": "A végtelen betöltés iPhoneon (különösen ha Safari böngészőt vagy WebViewt használ) leggyakrabban a \"harmadik féltől származó sütik\" (thirdparty cookies) vagy a \"webhelyek közötti nyomon követés\" (crosssite tracking) tiltása miatt következik be, ami blokkolja a Firebase hitelesítési folyamatait.\n\nA probléma megoldásához ellenőrizze a következő beállításokat az iPhoneon:\n\n 1. Safari beállítások (ha böngészőben nyitja meg)\nHa Safari böngészőből próbálja megnyitni az alkalmazást vagy a Firebase Studio előnézetét:\n1. Nyissa meg a Beállítások (Settings) alkalmazást.\n2. Görgessen le a Safari menüpontig.\n3. Keresse meg az Adatvédelem és biztonság (Privacy & Security) részt.\n4. Kapcsolja KI a \"Webhelyek közötti követés megakadályozása\" (Prevent CrossSite Tracking) opciót.\n5. A Haladó (Advanced) menüpontban ellenőrizze, hogy az \"Összes süti blokkolása\" (Block All Cookies) ki vane kapcsolva.\n\n 2. Chrome beállítások (ha Chromeot használ)\nHa Chrome böngészőt használ iPhoneon:\n1. Nyissa meg a Beállítások alkalmazást, majd keresse meg a Chromeot (vagy a Chromeon belül a Beállításokat).\n2. Engedélyezze a \"Webhelyek közötti követés engedélyezése\" (Allow CrossWebsite Tracking) opciót.\n\n 3. Fejlesztői mód (ha saját, tesztelt appról van szó)\nHa ez egy saját fejlesztésű alkalmazás (pl. TestFlighton vagy közvetlen telepítéssel), és iOS 16 vagy újabb rendszert használ, előfordulhat, hogy engedélyeznie kell a Fejlesztői módot:\n1. Beállítások > Adatvédelem és biztonság (Privacy & Security).\n2. Görgessen le a Fejlesztői mód (Developer Mode) opcióhoz és kapcsolja be.\n3. Indítsa újra a készüléket, ha kéri.\n\n 4. Egyéb lehetséges okok\n Cache ürítés: Próbálja meg törölni a böngésző előzményeit és adatait, majd nyissa meg újra az oldalt.\n Inkognitó mód: Próbálja meg privát böngészésben megnyitni. Ha ott működik, akkor valószínűleg egy bővítmény vagy gyorsítótár okozza a gondot.\n Hálózat: Győződjön meg róla, hogy stabil internetkapcsolata van, és nincs bekapcsolva VPN, ami blokkolhatja a Google/Firebase szervereit.\n\nHa ezek után sem tölt be, érdemes asztali gépen megnyitni a projektet a Firebase Studioban, és megnézni a konzol hibanaplóját, hátha a háttérben van valamilyen konfigurációs hiba.[1][2][3]",
+      "created_at": "20251123T13:46:37.992442Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

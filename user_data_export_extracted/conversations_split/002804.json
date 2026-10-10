@@ -1,0 +1,28 @@
+{
+  "context_uuid": "b5049fa9799242688c028b971b536850",
+  "context_title": " melyik a legfpntosabb file",
+  "created_at": "20260421T09:13:31.393177Z",
+  "updated_at": "20260421T09:16:37.732358Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3719283416a34c64b0176ffd2c4e7bfb",
+      "query": " melyik a legfpntosabb file",
+      "answer": "A kollarsandor/pheap repóban a legfontosabb fájl egyértelműen a [src/api.zig]( — ez a projekt nyilvános interfészét, azaz a teljes külső APIt definiálja, amin keresztül minden más komponens és a felhasználók is elérhetik a pheap funkcionalitását. \n\n A repó felépítése\n\nA projekt gyökerében található néhány kulcsfájl és könyvtár :\n\n [README.md]( — a legnagyobb fájl a repóban (41 132 bájt), részletes dokumentációt tartalmaz a projektről.\n [build.zig]( — a Zig build rendszer konfigurációja, nélküle a projekt nem fordítható le.\n src/, c/, test/ — forráskód, Cintegráció és tesztek könyvtárai.\n\n A src/ könyvtár fájljai\n\nA src/ könyvtárban 11 Zig forrásfájl található, mindegyik egyegy önálló felelősségi területet fed le :\n\n| Fájl | Méret | Szerepe |\n||||\n| [api.zig]() | 19 054 B | Nyilvános API |\n| [wal.zig]() | 17 970 B | WriteAhead Log |\n| [schema.zig]() | 16 482 B | Adatséma |\n| [security.zig]() | 16 611 B | Biztonsági réteg |\n| [gc.zig]() | 16 828 B | Szemétgyűjtő (GC) |\n| [concurrency.zig]() | 15 432 B | Párhuzamosság |\n| [benchmark.zig]() | 15 213 B | Teljesítménymérés |\n| [transaction.zig]() | 12 502 B | Tranzakciókezelés |\n| [gpu.zig]() | 11 382 B | GPUintegráció |\n| [recovery.zig]() | 10 572 B | Helyreállítás |\n| [header.zig]() | 9 689 B | Fejléc struktúrák |\n\n Miért az api.zig a legfontosabb?\n\nAz api.zig az a fájl, amely összefogja a többi modult és egységes, kívülről hívható felületet nyújt.  Ez a belépési pont minden külső használathoz — ha ezt nem ismered, nem tudod helyesen használni a könyvtárat. A mögötte álló fájlok (wal.zig, gc.zig, concurrency.zig stb.) mind fontos implementációs részletek, de az api.zig nélkülük is értelmezhető önállóan, mint a rendszer „szerződése\". \n\nSzoros második helyen áll a build.zig  — mivel Zig projektről van szó, ez nélkül semmit nem lehet lefordítani vagy futtatni, tehát infrastrukturálisan kritikus. Ha inkább az adatintegritás szempontjából vizsgálod, akkor a wal.zig (WriteAhead Log) kiemelkedő fontosságú, mivel ez garantálja az adatok tartósságát és a crashbiztonságot.",
+      "created_at": "20260421T09:13:31.763875Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "1de2e0664852406888049101726ccd81",
+      "query": "de nem ugy hanem a rendszerbe",
+      "answer": "A pheap rendszer szempontjából a legfontosabb fájl a [src/api.zig](), azon belül is a PersistentStore struktúra — ez a rendszer szíve és gerince.\n\n Miért PersistentStore a mag?\n\nA PersistentStore az a central objektum, amelybe minden más alrendszer összefolyik . Négy másik modult fog össze egyetlen egységbe:\n\n PersistentAllocator – memóriafoglalás a perzisztens heapen\n TransactionManager – tranzakciókezelés (begin/commit/rollback)\n RefCountGC – garbage collector, referenciaszámlálással\n ResidentObjectTable – betöltött objektumok cachee\n\nEz azt jelenti, hogy egyetlen PersistentStore példányon keresztül lehet mindent elérni: foglalni, írni, olvasni, tranzakciókat nyitni, és az objektumok élettartamát kezelni .\n\n A rendszer adatfolyama\n\nAmikor egy objektumot létrehozol (createObject), a PersistentStore először a heapen allokál helyet, beírja az adatot, majd a GCben regisztrálja az objektumot ref_count=1gyel . Olvasáskor (resolve) először a ResidentObjectTable cachet nézi — ha ott van, azonnal visszaadja, ha nincs, betölti a heapről. Ez a két irány (írás → flush → WAL, olvasás → cache → heap) alkotja a rendszer teljes adatfolyamát.\n\n A Handle<T> mint biztonsági réteg\n\nA PersistentStore mellett a Handle(T) generikus struktúra a másik kritikus elem . Ez egy RAIIszerű wrapper egyegy perzisztens objektum fölé: nyomon követi, hogy az objektum piszkose (dirty), milyen módban van (read/write/exclusive), és automatikusan commitol vagy rollbackel, ha a handle megszűnik. Ez az a mechanizmus, ami megakadályozza a \"felejtett írás\" típusú hibákat.\n\n A belépési pont a tesztekben\n\nMár a fájl végén lévő két test blokk is megerősíti, hogy a PersistentStore az egyetlen belépési pont  — minden integrációs teszt így indul:\n\n\nheap → WAL → PersistentAllocator → TransactionManager → GC → PersistentStore\n\n\nEz az inicializálási lánc jól mutatja a függőségi hierarchiát: a store minden más komponenst felhasznál, de azok nem tudnak egymásról – csak a storeon keresztül kommunikálnak.",
+      "created_at": "20260421T09:15:15.144921Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

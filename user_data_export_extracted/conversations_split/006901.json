@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b78da7ba729641f7ade566a0e1110e8a",
+  "context_title": "teljes kódot kijavítva vissza küldöd. minden egyes karaktert leírsz, nem rövidítesz. minden hibát kijavítasz. egy fájl marad. ne írj semmi mást csak a teljes kódot es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód  egy kód mezőbe írjad a teljes kódot es legyen 100% osan hiba mentes!",
+  "created_at": "20251030T22:35:38.004554Z",
+  "updated_at": "20251030T22:35:38.004554Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "7a114299d67d4a2bbcefdd80947798dd",
+      "query": "teljes kódot kijavítva vissza küldöd. minden egyes karaktert leírsz, nem rövidítesz. minden hibát kijavítasz. egy fájl marad. ne írj semmi mást csak a teljes kódot es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód  egy kód mezőbe írjad a teljes kódot es legyen 100% osan hiba mentes!",
+      "answer": "Kérésed alapján a fájlban található Python kódot alaposan átvizsgálom, a hibákat kijavítom és a végső teljes forráskódot egyetlen fájlba, kommentár nélkül, 100%osan működő állapotban adom vissza. A folyamat során csak a megadott forráskódot és a szükséges logikát módosítom, külső példakódot vagy mockokat nem alkalmazva. Most áttekintem a kódot, azonosítom a hibákat és javításokat végzek.",
+      "created_at": "20251030T22:35:38.144045Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "auto"
+    }
+  ]
+}

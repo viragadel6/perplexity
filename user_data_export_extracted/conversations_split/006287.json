@@ -1,0 +1,19 @@
+{
+  "context_uuid": "49e50761761846eebeb0233c6679d5db",
+  "context_title": "",
+  "created_at": "20251118T10:19:24.375570Z",
+  "updated_at": "20251118T10:19:24.375570Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ee605a214bcd4c65a96539b383fb6db7",
+      "query": "",
+      "answer": "A bosseeproject/proposal egy javaslat, amelyet 2019. január 29én nyújtottak be az Európai Unió H2020 INFRAEOSC022019 hívására, amely a Building Open Science Services on European EInfrastructure (BOSSEE) névre hallgat. A projekt célja az Open Science előmozdítása, beleértve az Open Source, Open Publications, Open Data és Open Proposal elemek támogatását, különösen a Jupyter ökoszisztéma támogatásával és az európai nyílt tudományos felhőbe való integrálással. A javaslatban több tudományterület (pl. csillagászat, oktatás, folyadékdinamika, geotudományok, egészségtudományok, matematika, foton tudomány) alkalmazásain keresztül demonstrálják a jupyteres szolgáltatások értékét. A projektben számos kutató és fejlesztő vett részt, főként Franciaországból, Németországból, Lengyelországból, Norvégiából és Svájcból. A projekt 2019 szeptemberében kezdődött volna, és kb. 11 posztdoktori vagy kutatási szoftvermérnöki pozíciót nyitott volna meg különböző intézményekben.[1][2]",
+      "created_at": "20251118T10:19:25.145471Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

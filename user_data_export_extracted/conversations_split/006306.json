@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8f5a5e6a1b7b403c92d7c8dbf1c799c5",
+  "context_title": "",
+  "created_at": "20251117T19:30:25.522107Z",
+  "updated_at": "20251117T19:30:25.522107Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2f0c7f6d4f9c4883b3469836af51fb8b",
+      "query": "",
+      "answer": "A  egy Next.js keretrendszerrel készült projekt, amit a createnextapp indított el. A projekt fejlesztői szerver futtatásával (pl. npm run dev) a  címen érhető el, és automatikusan frissül, ha a forrásfájlokat módosítják. A projekt a Geist betűtípust használja a Vercel platform optimalizálása érdekében.\n\nEz a repository része az Exa Labs munkáinak, amelyeken belül az Exa API segítségével valós idejű webes keresési képességeket biztosítanak AI alkalmazások számára. Itt a gemini3exa projekt egy Next.js alapú webes alkalmazás, amely a legújabb webtechnológiákat (TypeScript, CSS, JavaScript) használja. A projekt nem mutat csillagszám vagy fork aktivitást, ami azt jelzi, hogy viszonylag új vagy kisebb közösség által használt projekt.\n\nÁltalános információk a gemini3exa projektről:\n Központi technológia: Next.js a React keretrendszerére épülve.\n Fejlesztési parancsok: npm run dev vagy alternatív csomagkezelők prímán használhatók.\n Cél: Egy webes alkalmazás fejlesztése az Exa APIval integrált környezetben.\n Használja a Vercel platform szolgáltatásait telepítéshez és betűtípus optimalizáláshoz.\n Kód főként TypeScriptben íródott, amely a JavaScript egy típusrendszerrel kibővített változata.\n\nEz a projekt elsősorban fejlesztőknek szól, akik Next.js alapú alkalmazást kívánnak létrehozni az Exa Labs webes keresési APIjának használatával, és az alkalmazás fejlesztési környezetét egyszerűen tudják beállítani a mellékelt utasítások alapján.[1][2]",
+      "created_at": "20251117T19:30:27.399412Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

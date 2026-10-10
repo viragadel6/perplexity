@@ -1,0 +1,19 @@
+{
+  "context_uuid": "bfd4e1184da84226970dc5145f17b6fb",
+  "context_title": "Torold a csillagokat es fix the grammar:\n\nA megadott adatok alapján a WWE bajnokai (2026os idővonal szerint) a következők:\n\nFőbajnokok:\n   Sami Zayn: Undisputed WWE Bajnok (a Night of Champions 2026os esemény után).\n   Roman Reigns: World Heavyweight Bajnok (Raw).\n\nNői bajnokok:\n   Liv Morgan: Women's World Bajnok (Raw).\n   Rhea Ripley: WWE Női Bajnok (SmackDown).\n\nKözépkategóriás bajnokok:\n   Penta: Intercontinental Bajnok (Raw).\n   Trick Williams: United States Bajnok (SmackDown).\n   Becky Lynch: Női Intercontinental Bajnok (Raw).\n   Tiffany Stratton: Női United States Bajnok (SmackDown).\n\nParos bajnokok:\n   The Vision (Logan Paul és Austin Theory): World Tag Team Bajnokok (Raw).\n   Damian Priest és RTruth: WWE Tag Team Bajnokok (SmackDown).\n   Brie Bella és Paige: WWE Női Tag Team Bajnokok (CrossBrand).\n\nNXT Bajnokok:\n   Tony D'Angelo: NXT Bajnok.\n   Roxanne Perez / Lola Vice: NXT Női Bajnok (különböző források említik).\n   Oba Femi / Myles Borne: NXT North American Bajnok.\n\nEgyéb kitüntetések:\n   Oba Femi: King of the Ring (2026).\n   Iyo Sky: Queen of the Ring (2026).",
+  "created_at": "20260701T18:55:15.190872Z",
+  "updated_at": "20260701T18:55:19.536484Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1ee9ec06bb9e445c9f72af0c2759627e",
+      "query": "Torold a csillagokat es fix the grammar:\n\nA megadott adatok alapján a WWE bajnokai (2026os idővonal szerint) a következők:\n\nFőbajnokok:\n   Sami Zayn: Undisputed WWE Bajnok (a Night of Champions 2026os esemény után).\n   Roman Reigns: World Heavyweight Bajnok (Raw).\n\nNői bajnokok:\n   Liv Morgan: Women's World Bajnok (Raw).\n   Rhea Ripley: WWE Női Bajnok (SmackDown).\n\nKözépkategóriás bajnokok:\n   Penta: Intercontinental Bajnok (Raw).\n   Trick Williams: United States Bajnok (SmackDown).\n   Becky Lynch: Női Intercontinental Bajnok (Raw).\n   Tiffany Stratton: Női United States Bajnok (SmackDown).\n\nParos bajnokok:\n   The Vision (Logan Paul és Austin Theory): World Tag Team Bajnokok (Raw).\n   Damian Priest és RTruth: WWE Tag Team Bajnokok (SmackDown).\n   Brie Bella és Paige: WWE Női Tag Team Bajnokok (CrossBrand).\n\nNXT Bajnokok:\n   Tony D'Angelo: NXT Bajnok.\n   Roxanne Perez / Lola Vice: NXT Női Bajnok (különböző források említik).\n   Oba Femi / Myles Borne: NXT North American Bajnok.\n\nEgyéb kitüntetések:\n   Oba Femi: King of the Ring (2026).\n   Iyo Sky: Queen of the Ring (2026).",
+      "answer": "A megadott adatok alapján a WWE bajnokai (a 2026os idővonal szerint) a következők:\n\nFőbajnokok:  \nSami Zayn: Undisputed WWEbajnok (a 2026os Night of Champions esemény után).  \nRoman Reigns: World Heavyweightbajnok (Raw).\n\nNői bajnokok:  \nLiv Morgan: Women’s Worldbajnok (Raw).  \nRhea Ripley: WWE női bajnok (SmackDown).\n\nKözépkategóriás bajnokok:  \nPenta: Intercontinentalbajnok (Raw).  \nTrick Williams: United Statesbajnok (SmackDown).  \nBecky Lynch: Női Intercontinentalbajnok (Raw).  \nTiffany Stratton: Női United Statesbajnok (SmackDown).\n\nPáros bajnokok:  \nThe Vision (Logan Paul és Austin Theory): World Tag Teambajnokok (Raw).  \nDamian Priest és RTruth: WWE Tag Teambajnokok (SmackDown).  \nBrie Bella és Paige: WWE női Tag Teambajnokok (crossbrand).\n\nNXTbajnokok:  \nTony D’Angelo: NXTbajnok.  \nRoxanne Perez / Lola Vice: NXT női bajnok (különböző források szerint).  \nOba Femi / Myles Borne: NXT North Americanbajnok.\n\nEgyéb kitüntetések:  \nOba Femi: King of the Ring (2026).  \nIyo Sky: Queen of the Ring (2026).",
+      "created_at": "20260701T18:55:15.309816Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

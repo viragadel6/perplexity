@@ -1,0 +1,37 @@
+{
+  "context_uuid": "4b178e99e2654f20b4727ea023c5ccd6",
+  "context_title": "",
+  "created_at": "20260121T08:42:49.570182Z",
+  "updated_at": "20260121T08:45:18.289831Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "3459ce99618448f98836bdbd966a7c53",
+      "query": "",
+      "answer": "A LeakHub egy nyílt forrású, közösségi “system prompt” leak leaderboard és verifikációs platform, amely az elder‑plinius (Pliny the Prompter) ökoszisztémájához tartozik, és szorosan kapcsolódik a CL4R1T4S rendszerprompt‑gyűjteményhez.[3][6][7]\n\n Mi ez a LEAKHUB?\n\n A LeakHub célja, hogy egy központi hub legyen, ahol a közösség feltöltheti, rendszerezheti és ellenőrizheti a különböző LLM‑ek (ChatGPT, Gemini, Claude, Grok, stb.) kiszivárgott vagy visszafejtett system promptjait.[6][7][3]\n A projektet ugyanaz az alkotó hozta létre, aki a CL4R1T4S és a L1B3RT4S repókat is, amelyek a kiszivárgott system promptok, illetve jailbreak / “liberation” promtok nagy gyűjteményei.[4][8][9][10][11][3]\n\n Fő funkciók, szerep\n\n Leaderboardként működik: a különböző modellekhez tartozó promptleakeket pontszám, bizalom, forrás és dátum szerint lehet rangsorolni és összehasonlítani.[7][6]\n Verifikációs platform: a nehéz rész nem maga a “leakelés”, hanem annak igazolása, hogy a prompt valóban az adott modell system szintű utasítása; LeakHub ezt a közösségi ellenőrzést próbálja strukturálni.[3][6][7]\n\n Kapcsolat a CL4R1T4S‑szal\n\n A CL4R1T4S önmagában egy hatalmas repó “decompiled” model‑infóval: teljes system promptok, guideline‑ok, tool‑leírások nagy modellekre (OpenAI, Google, Anthropic, xAI, Perplexity, Cursor, Devin, stb.).[5][3]\n A LeakHub ehhez képest inkább meta‑réteg: közösségi felület a leakek katalogizálására, értékelésére és hitelesítésére, amire a CL4R1T4S konkrét tartalmai támaszkodhatnak.[6][7][3]\n\n Technikai / licenc környezet\n\n A CL4R1T4S AGPL‑3.0 licenc alatt áll, ami erősen copyleft jellegű; a LeakHub repó leírása szerint Apache 2.0 licencet használ, ami lazább, permisszívebb licenc.[1][3]\n A LeakHub modern full‑stack TypeScript stackre épül, Convex‑szel (backend/backend‑as‑a‑service) és shadcn/ui komponensekkel, ikonokhoz Lucide‑ot használ.[1]\n\nHa konkrétan a LeakHub API‑járól, adatmodelljéről vagy a verifikációs szabályairól szeretnél részletes technikai bontást (schema‑k, endpointok, hozzájárulási workflow), írd meg, és abba az irányba fog menni a következő válasz.",
+      "created_at": "20260121T08:42:52.325792Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "92780f889ef044c99a803f68acf138e5",
+      "query": "link?",
+      "answer": "A LEAKHUB hivatalos GitHub repository linkje: \n\n Kapcsolódó linkek az ökoszisztémához\n\n Fő repositoryk\n\n LEAKHUB (System Prompt Leak Leaderboard):  – A közösségi verifikációs platform system prompt leakekhez[2][1]\n CL4R1T4S (Leaked System Prompts):  – A legnagyobb nyilvános gyűjtemény decompiled/leaked system promptokból (OpenAI, Google, Anthropic, xAI, Perplexity, Cursor, Devin stb.)[4][5]\n L1B3RT4S:  – Jailbreak és \"liberation\" promptok gyűjteménye különböző modellekhez (ChatGPT, Gemini, Meta, DeepSeek stb.)[6][7][8][9][10]\n\n Közösségi és dokumentációs linkek\n\n Elder Plinius GitHub profilja:  – A projekt",
+      "created_at": "20260121T08:44:22.558145Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "a1cc598d4732453e870332b31f0ba09c",
+      "query": "de a platformrol",
+      "answer": "A LEAKHUB platform jelenleg elsősorban a GitHub repositoryn keresztül érhető el, és úgy tűnik, még nincs széles körben megosztott élő webes URL a működő alkalmazáshoz.[1][2][3]\n\n Helyzet a platform elérhetőségével\n\nA projekt opensource fejlesztés alatt áll, Convexalapú fullstack TypeScript alkalmazásként épült:[4][5][3]\n\n GitHub repository:   Itt a teljes forráskód elérhető\n Élő deploy: A keresési eredmények és a repository leírása szerint nincs publikus URL megosztva a működő platformhoz\n Deploy lehetőségek: A Convex projektek általában Vercelen vagy Netlifyon hosztolhatók, de jelenleg nincs nyilvános információ arról, hogy Elder Plinius hol vagy mikor deployolta volna[5][4]\n\n Hogyan lehet használni most\n\n Lokális futtatás\n\nA repositoryból klónozva és lokálisan futtatva tudod használni a platformot:[3]\n\nbash\ngit clone https://github.com/elder-plinius/LEAKHUB.git\ncd LEAKHUB\nnpm install\nconvex dev\nnpm run dev\n\n\n Közösségi verifikáció státusza\n\nA platform célja hogy közösségi hub legyen system prompt leakek számára, verifikációval és leaderboarddal:[2][1]\n\n Crowdsourced tartalom: Bárki feltölthet leaked promptokat\n Verifikációs rendszer: A közösség ellenőrzi az autenticitást\n Leaderboard: Rangsorolás modell, pontszám és bizalmi szint szerint\n\n Kapcsolódó élő források\n\nBár a LEAKHUB platform még nem publikus, az ökoszisztéma más részei elérhetők:\n\n CL4R1T4S repository:   6500+ leaked system prompt közvetlenül GitHubon[6][7][8]\n L1B3RT4S repository:   Jailbreak promptok gyűjteménye[9][1]\n\nHa szeretnél hozzájárulni a projekthez vagy értesítést kapni a platform launcháról, a legjobb módszer a GitHub repository követése (Watch/Star) és a contribution guidelinok követése.[3]",
+      "created_at": "20260121T08:44:48.617754Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

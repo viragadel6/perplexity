@@ -1,0 +1,19 @@
+{
+  "context_uuid": "15444f2379bf4162a30cd65d8f6b58fc",
+  "context_title": "native swift ui library",
+  "created_at": "20260327T02:35:14.666050Z",
+  "updated_at": "20260327T02:35:34.287021Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e2f492365c03408b81c532b9b5c1b48b",
+      "query": "native swift ui library",
+      "answer": "A SwiftUI „native library” alatt általában maga a SwiftUI értendő: ez az Apple natív UI frameworkje, amellyel iPhone, iPad, Mac, Apple Watch és Apple TV felületeket lehet építeni Swift nyelven.  Ha viszont külső komponenskönyvtárra gondoltál, akkor olyan thirdparty SwiftUI libraryk is vannak, mint például AppLayoutsUI vagy különféle GitHubgyűjtemények.[1][2][3][4]\n\n Mi az a SwiftUI\n\nA hivatalos Appleleírás szerint a SwiftUI egy framework, amely „user interfaces” építésére szolgál az összes Apple platformon, és egy közös eszköz és APIkészlettel használható.  Ez azért számít natívnak, mert közvetlenül az Apple platformjaihoz készült, nem webes vagy multiplatform UIréteg ráerőltetése az iOSre vagy a macOSre.[2][5][1]\n\n Mit ad alapból\n\nA SwiftUI nem csak egy rajzoló réteg, hanem saját beépített nézeteket, kontrollokat és layoutelemeket ad, például listákat, stackeket, gombokat, képeket, navigációt és állapotkezelést.  Az Apple szerint a framework támogatja az inputkezelést, a gestureöket, az adatok modellektől a viewk felé áramlását, valamint az accessibility és lokalizáció kezelését is.[5][2]\n\n Natív, de nem kizárólagos\n\nAz Apple kifejezetten úgy pozicionálja a SwiftUIt, hogy fokozatosan is bevezethető meglévő alkalmazásokba, mert együtt tud működni a UIKittel és AppKittel.  Ez azt jelenti, hogy ha valamelyik UIelem még nincs kényelmesen megoldva SwiftUIban, akkor natív Apple technológiák között maradva át lehet hidalni a hiányt UIKit vagy AppKit komponensekkel.[1][2]\n\n Ha komponenskönyvtárra gondoltál\n\nHa nem a framework definíciójára, hanem egy „native SwiftUI component library”re gondoltál, akkor ilyenből sok külső csomag létezik.  Például az AppLayoutsUI egy SwiftUI komponenskönyvtár iOShez és macOShez, míg az „awesomeswiftuilibraries” jellegű gyűjtemények külön kategóriákban sorolnak fel kamera, sheet, pager, image és loadingkomponenseket.[3][4]\n\n Röviden mire jó\n\nA SwiftUI akkor a legjobb választás, ha Appleplatformra fejlesztesz, és modern, deklaratív módon akarsz natív felületet készíteni.  Ha szeretnéd, a következő üzenetben tudok adni egy rövid, gyakorlati listát a legjobb natív SwiftUI librarykről 2026ban, vagy egy kezdő SwiftUI projektmintát is.[5][1]",
+      "created_at": "20260327T02:35:14.757572Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

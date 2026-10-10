@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b5ebde4950714c1db32f459177008943",
+  "context_title": "",
+  "created_at": "20251125T05:25:49.261255Z",
+  "updated_at": "20251125T05:25:49.261255Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "0318695d2d3249a9b411693393a36831",
+      "query": "",
+      "answer": "A LongCatFlashOmni egy nyílt forráskódú, omnimodális mesterséges intelligencia modell, amely 560 milliárd paraméterrel rendelkezik (ebből 27 milliárd aktív). Kiemelkedő teljesítményt nyújt valós idejű audiovizuális interakcióban, egyesítve a hatékony multimodális érzékelést és beszédrekonstrukciós modulokat egyetlen keretrendszerben. A modell egy magas teljesítményű Shortcutconnected MixtureofExperts (MoE) architektúrán alapul, amely lehetővé teszi alacsony késleltetésű, nagy minőségű audiovizuális feldolgozást. Támogatja akár 128 ezer token hosszúságú kontextusablakot is, ami fejlett többfordulós párbeszédet és időbeli következtetést tesz lehetővé több modalitáson keresztül.\n\nFőbb jellemzői:\n Egyesíti az offline multimodális megértést a valós idejű audiovizuális interakcióval.\n Korszerű, progresszív tanítási stratégiát alkalmaz a multimodális képességek fejlesztésére.\n Nyílt forráskódú, így elérhető a kutatás és fejlesztés támogatására.\n Nagyméretű modell, amely viszonylag alacsony késleltetéssel tud működni, igényel azonban speciális hardvert a futtatáshoz (pl. több GPU node).\n Elérhető webes felületen is () és mobilalkalmazásként Androidra és iOSre.\n\nA modellt a Hugging Face platformon lehet letölteni és futtatni, és részletes dokumentáció, műszaki jelentés is elérhető hozzá. Telepítéshez Python 3.10+, PyTorch 2.8+ és CUDA 12.9+ szükséges, és speciális tensor és expert párhuzamosítási beállításokat támogat.\n\nEz a modell a csúcstechnológiát képviseli az omnimodális, több érzékszervet átfogó mesterséges intelligencia rendszerek között, ami lehetővé teszi szöveg, kép, videó és hang egyidejű és hatékony feldolgozását, interaktív alkalmazásokban is.[2][5][6]",
+      "created_at": "20251125T05:25:49.657881Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

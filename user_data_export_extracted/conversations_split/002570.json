@@ -1,0 +1,19 @@
+{
+  "context_uuid": "07906f66dc6f4be2b1502c7b2a698551",
+  "context_title": "",
+  "created_at": "20260502T07:33:26.564095Z",
+  "updated_at": "20260502T07:33:38.838147Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "a869b213709a46fc926a9bdbddb9f095",
+      "query": "",
+      "answer": "Ez a GitHub repository a Facebook Research (Meta AI) Sapiens2 projektjét tartalmazza, amely egy fejlett vision transformer modellcsalád az emberközpontú számítógépes látás feladatokhoz. A modell 1K (1024x1024) natív felbontásban működik, hierarchikus változatokkal akár 4Kig, és 0.45 milliárd paraméteres méretekben érhető el, 1 milliárd emberképpel előtanítva. Az ICLR 2026 konferencián mutatták be, és jelentősen felülmúlja az elődjét (Sapiens) teljesítményben, például pose estimationben (+4 mAP), testrészek szegmentálásában (+24.3 mIoU), normál becslésben (45.6%kal alacsonyabb szögeltérés) és új feladatokban, mint pointmap vagy albedo becslés.[1][2]\n\n Projekt Áttekintése\nA Sapiens2 egy sokoldalú modellcsalád, amely emberközpontú vizuális feladatokra specializálódott, hangsúlyozva a generalizálást, sokoldalúságot és magas felbontású kimeneteket. Pretrainingje 1 milliárd emberképen történt, ami lehetővé teszi a kiváló teljesítményt valós világbeli forgatókönyvekben. A repository tartalmazza a modellt, edzési/inferenciakódot, dokumentációt (pl. POSE.md, SEG.md) és függőségeket pyproject.toml alapján.[3][4][2][1]\n\n Főbb Funkciók\nA modell támogatja a 2D human pose estimationt 308 kulcsponttal (részletes arc 274 ponttal, kéz és láb kulcspontok), testrészek perpixel szegmentációját 29 osztállyal (28 rész + háttér), valamint depth, normal, pointmap és albedo becslést. Ezeket topdown megközelítéssel végzi, ami különösen alkalmas nagy felbontású bemenetekre, és stateoftheart eredményeket ér el. A hierarchikus architektúra miatt skálázható 1Król 4Kra anélkül, hogy teljesítménycsökkenés lenne.[4][2][1][3]\n\n Telepítés és Használat\nA klónozás egyszerű: git clone https://github.com/facebookresearch/sapiens2.git, majd pip install -e . a függőségek telepítéséhez. A repository CI pipelinenal rendelkezik automatizált tesztekhez, és nyílt forráskódú, LICENSE.mdvel. Dokumentáció a docs mappában található, pl. SEG.md a szegmentációhoz, POSE.md a pose estimationhez.[2][5][6][3][4]\n\n Előd és Kapcsolatok\nAz Sapiens2 az eredeti Sapiens modell továbbfejlesztése, amely szintén a Facebook Researchtől származik (), és hasonló humancentric taskokra fókuszál. A Sapiens2 javítja az előző generációt minden kulcsmetrikában, miközben új feladatokat ad hozzá. További részletekért lásd az arXiv papírt (arxiv:2604.21681).[7][2]",
+      "created_at": "20260502T07:33:26.786354Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "context_uuid": "78ad2ee764e34bcebd8124bb8b4d8d64",
+  "context_title": "",
+  "created_at": "20251221T05:39:13.288901Z",
+  "updated_at": "20251221T05:41:50.619693Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "04bea54b06424b7fa3218bdc46fb75a1",
+      "query": "",
+      "answer": "Ez egy Streamablehez tartozó, aláírt (lejáró) CDNes MP4 link, ezért előfordulhat, hogy már nem elérhető vagy közvetlenül nem tölthető le.  A most kapott URL tartalmát innen nem sikerült közvetlenül beolvasni, így a videó tartalmát sem tudom leírni ebből a linkből.[1]\n\n Mit jelent ez a link?\nA cdn-cf-east.streamable.com egy Streamablehez köthető kiszolgáló (CDN), amely jellemzően Amazon CloudFronton keresztül szolgál ki videófájlokat.  Az Expires és Signature paraméterek arra utalnak, hogy a link időkorlátos, és lejárat után egyszerűen hibát dobhat.[1]\n\n Hogyan nyisd meg (gyakorlati lépések)\n Próbáld meg az „eredeti” Streamable nézetet megnyitni a kódból: a fájlnév alapján ez nagy eséllyel omxlor, tehát: https://streamable.com/omxlor (ha létezik még).  \n Ha a Streamable oldal robotellenőrzést kér, akkor böngészőben engedélyezni kell a JavaScriptet, különben nem fog továbbengedni.[2]\n Ha letöltés a cél, több külső letöltő is úgy működik, hogy a Streamable videó URLjét beilleszted, és felkínál MP4 letöltést; például a StreamableDL leírja ezt a folyamatot, és azt is említi, hogy a domainhez hozzáadott „dl” megoldás is szokott működni.[3]\n\n Mit szeretnél pontosan?\nLeírjam, mi látható a videón, kimentsük letöltéshez, vagy csak megnyitási hiba van?  \nHa tartalomleírás kell, tölts fel 12 képkockát (screenshotot) vagy magát a videót ide, és abból tudok pontosan elemezni.",
+      "created_at": "20251221T05:39:13.403505Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "fac39e625f34447f9e732c8038f3433a",
+      "query": "ird le",
+      "answer": "Nem tudom leírni, mi látható ezen a videón, mert a megadott Streamable CDNes MP4 link tartalmát innen nem sikerült megnyitni/letölteni, és valószínűleg időkorlátos (lejáró) aláírt URLről van szó.  Emiatt a videó képkockáihoz nem férek hozzá, így tartalmi leírást sem tudok adni.[1]\n\n Miért nem elérhető innen?\nA cdn-cf-east.streamable.com egy Streamablehez kapcsolódó CDNkiszolgáló, és az ilyen linkek gyakran Expires + Signature paraméterekkel vannak védve, ami lejárat után hozzáférési hibát okozhat.  Ilyenkor a link működhet nálad böngészőben, de külső rendszerekből (mint itt) már nem feltétlenül elérhető.[1]\n\n Hogyan tudod megosztani, hogy le tudjam írni?\n Küldj 2–3 screenshotot a videóról (eleje/közepe/vége), és azok alapján leírom részletesen, mi történik.\n Vagy töltsd fel magát a videófájlt ide (ha le tudod menteni), és abból pontos leírást adok.\n Ha a Streamableoldal linkje megvan (pl. https://streamable.com/xxxxx), azt is küldd el, mert néha az közvetlenebbül elérhető.\n\n Gyors tipp letöltéshez (ha kell)\nHa a cél az, hogy le tudd menteni és feltöltsd ide: vannak oldalak, ahol a Streamable videó linkjét beillesztve MP4ként le tudod tölteni, és a leírásuk szerint akár a „dl” trükk is működhet (pl. streamable.com → streamabledl.com).[2]\n\nMelyik megoldás a legegyszerűbb számodra: screenshotok küldése vagy a videó feltöltése?",
+      "created_at": "20251221T05:40:02.403351Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "bf717d2f969c485f83a8cc2ebc33be7e",
+      "query": "",
+      "answer": "Nem tudom leírni, mi látható a https://streamable.com/omxlor videóban, mert ezt a Streamableoldalt innen nem sikerült betölteni (valószínűleg JavaScriptes „nem vagy robot” ellenőrzés blokkolja az automatikus elérést).[1]\n\n Miért nem tudom megnyitni?\nA Streamable egyes videóoldalain előfordul, hogy csak JavaScripttel és böngészős ellenőrzés után enged továbblépni, különben nem adja ki a lejátszó tartalmát.  Emiatt itt nem férhető hozzá a videó képkockáihoz, így nem lehet tartalmi leírást készíteni róla.[1]\n\n Hogyan tudom mégis leírni?\n Küldj 2–3 képernyőképet a videóról (eleje/közepe/vége), és ezek alapján leírom, mi történik.[1]\n Alternatíva: töltsd le a videót, és töltsd fel ide fájlként, majd abból pontosan meg tudom írni a tartalmat.[2]\n\n Ha le kell tölteni\nEgy gyakori megoldás, hogy a videó URLjét bemásolod egy Streamableletöltő oldalra, és az MP4 letöltést kínál fel (a StreamableDL leírása szerint ez így működik).  Ugyanez a forrás említi azt is, hogy néha a domainhez hozzáadott „dl” (pl. streamable.com/... → streamabledl.com/...) is átvisz a letöltő nézetre.[2]\n\nKüldesz 2–3 képkockát a videóból, vagy inkább letöltöd és feltöltöd ide a fájlt?",
+      "created_at": "20251221T05:41:20.569725Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

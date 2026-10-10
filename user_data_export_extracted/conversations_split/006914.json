@@ -1,0 +1,19 @@
+{
+  "context_uuid": "d86e0cc050614788878e50909831911b",
+  "context_title": "keresem a kepet az ice age movie bol amikor a sid lajhar ki van fulladva es kezevel mutatja meg mondja us hogy időt",
+  "created_at": "20251030T20:54:05.605379Z",
+  "updated_at": "20251030T20:54:05.605379Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ada9643eb1904ed69ea6565f3fea43c6",
+      "query": "keresem a kepet az ice age movie bol amikor a sid lajhar ki van fulladva es kezevel mutatja meg mondja us hogy időt",
+      "answer": "A keresett képkocka a Jégkorszak 3 – A dínók hajnala jelenetében van, amikor Sid lihegve a „time out” kézjelet mutatja és ezt ki is mondja; a pontos jelenetet és a hozzá tartozó képkockákat itt éred el: \n\n Hol találod még\n Sid részletes képgalériája (sok hivatalos és filmsorozatból vett kép, érdemes átnézni): \n Jégkorszak képernyőfotók gyűjteménye (Screenshots kategória, köztük Sid jelenetei is): \n Ha GIF formátumban is jó a „time out”/lihegős pillanat, itt Sid GIFeket találsz: ",
+      "created_at": "20251030T20:54:05.672037Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

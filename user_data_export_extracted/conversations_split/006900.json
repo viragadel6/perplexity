@@ -1,0 +1,19 @@
+{
+  "context_uuid": "43afdab9d2f944a79b4b4f4a117d8181",
+  "context_title": "ebbe valami?",
+  "created_at": "20251030T22:36:30.095987Z",
+  "updated_at": "20251030T22:36:30.095987Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e5486ba94da5483c83b8f93d5356019d",
+  "entries": [
+    {
+      "entry_uuid": "6594220072da40beaa67c6b46313d30d",
+      "query": "ebbe valami?",
+      "answer": "Igen, a csatolt fájlban (\"arxiv_world_class_dataset.jsonl.txt\") található tartalom az arXiv.org tudományos archívum áttekintése magyar nyelven, beleértve a fő kategóriákat (mint fizika, matematika, számítástechnika, biológia stb.) és a legfrissebb kutatási cikkek összefoglalóit 2025 októberéből. A fájl JSONL formátumú adathalmaz, amely részletesen ismerteti az arXiv kategóriáit, keresési funkcióit, valamint kiemelt témákat, például a számítási pénzügyeket (qfin.CP), űrfizikát (physics.spaceph), gépi tanulást (stat.ML) és biomolekulákat (qbio.BM). Például tárgyalja a ritka események szimulációját a derivatívák árazásában, a napszél turbulenciáját, valamint generatív modellek értékelését.[1]",
+      "created_at": "20251030T22:36:30.389053Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

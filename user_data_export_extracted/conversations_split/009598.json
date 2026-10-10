@@ -1,0 +1,19 @@
+{
+  "context_uuid": "becd932cc5984b35ba16f7c1d7689260",
+  "context_title": "Iphoneon van?",
+  "created_at": "20250710T05:14:23.935082Z",
+  "updated_at": "20250710T05:14:23.935082Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "fde44f434c85401f9bc5e70f2eee0062",
+      "query": "Iphoneon van?",
+      "answer": "Igen, az iPhone egy népszerű, érintőképernyős okostelefoncsalád, amelyet az Apple tervez és forgalmaz[5]. Az iPhoneok minden generációja az iOS operációs rendszert futtatja, és az első modellt 2007ben mutatták be. Azóta folyamatosan jelennek meg újabb hardver és szoftververziók, jelenleg például az iPhone 16/16 Pro a legfrissebb modell[5][8].\n\nAz iPhoneok számos funkcióval rendelkeznek:\n Telefonálás, SMS, internet (WiFi és mobilhálózat)\n Kamera (hátsó és előlapi, videó és fotó)\n GPS, lépésszámláló, egészségügyi funkciók[4]\n Alkalmazások telepítése az App Storeból\n Biztonsági funkciók, például Face ID, jelkód, Ellopott eszköz védelme[1]\n Adattárolás integrált meghajtón, SIMkártya használat\n Zene, videó, médialejátszás\n\nAz iPhoneok Magyarországon is elérhetők, többféle modellben és tárhelykapacitással, különböző szolgáltatóknál és üzletekben is megvásárolhatók[6][8][10].",
+      "created_at": "20250710T05:14:23.972853Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

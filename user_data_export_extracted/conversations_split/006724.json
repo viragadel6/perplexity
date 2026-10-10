@@ -1,0 +1,28 @@
+{
+  "context_uuid": "4230f980350d43d78759df61da20222c",
+  "context_title": "ebbe írj 30db új BRUTALUSAN ISMERETLEN modult vagy tecgnolofiai \namiktol TOBBSZOROSERE nol a teljesítmény és a sebesség\nde igaziakat! válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.\núgy hogy ezt a harmincat mindet egyutt raknam bele es a minoseg pontossag fejlettseg biztos ne  romoljon/ csokkenjen",
+  "created_at": "20251103T16:57:04.012552Z",
+  "updated_at": "20251112T22:30:52.977374Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "1cd573a8ac24433883d902045e299cdd",
+      "query": "ebbe írj 30db új BRUTALUSAN ISMERETLEN modult vagy tecgnolofiai \namiktol TOBBSZOROSERE nol a teljesítmény és a sebesség\nde igaziakat! válaszodban szeretném ha csak listába írnád írnád a dolgokat amiket keresek, minden más nélkül.\núgy hogy ezt a harmincat mindet egyutt raknam bele es a minoseg pontossag fejlettseg biztos ne  romoljon/ csokkenjen",
+      "answer": " Kvantumszórt adatáramlás (QSD) memóriasávszélmultiplexelés valós idejű decoherenciakorrekcióval[1]\n Dinamikus KVcache ritkítás (kritikus szekvenciahosszalapú) nagy batch dekódoláshoz[2]\n Inflight batching + jóput optimalizáció (prefilldecode szétválasztás, DistServe)[3]\n Regionálisan újrakonfigurálható optikai körkapcsolás (OCS) MoE topológiaátalakítással (MixNet)[4]\n Heterogén GPUk közti prefill/decode szétosztás SLOkövetéssel[5]\n KVcache tömörítés rétegenkénti allokációs újrahasznosítással[5]\n Profilvezérelt CPython tailcall interpreter mód (3–5% geom. átlag gyorsulás)[6]\n Aszinkron eseményvezérelt feldolgozás regionális késleltetésérzékeny ütemezéssel (RADISH)[7]\n Előbetöltés adaptív előrelátással és dinamikus prefetch lookahead hangolással[7]\n Adatlokalitásmaximalizálás prediktív cachekoherenciával edge/fog csomópontokon[7]\n Mély megerősítéses ütemezés késleltetésérzékeny feladatallokációra edgecloudban[7]\n GPUgyorsított Python “zero code change” pluginek (RAPIDS/Numba backend)[8]\n Jóputalapú szolgáltatásminőségkorlátokkal súlyozott dinamikus batchméret[3]\n Statikus+dinamikus MoE expertaktiváció topológiatudatos allreduce helyett lokális kollektivákkal[4]\n Prefill memórianyomcsökkentés osztott kvótakészletekkel (decodeprioritás)[5]\n Federált tanulásalapú fog erőforrásklászterezés késleltetés minimalizálásra[7]\n Optikaielektromos hibrid fabric költség/átbocsátás optimalizálással MoE tréninghez[4]\n KVcache újrahasznosítás tokenszegmens granularitással és ritkított kulcs/érték térrel[2]\n Inflight batching varianciavezérelt be/kilépő kérések online keverésével[5]\n Ütemezett előmelegítés (warmup) és profilvezérelt útvonalválasztás heterogén GPUkon[5]\n Gépi tanulásos erőforrásallokáció fog környezetben QoS/QoE célfüggvénnyel[7]\n KVcache rétegperkérés pooling a memóriatúlfutás kockázat minimalizálására[5]\n Prefetch+cachekoordináció több szintű élközeli tárolóval (edge locality)[7]\n Kritikus szekvenciahossz detektor batchelt dekódoláshoz automatikus váltási ponttal[2]\n MoE kommunikációs lokálisitásra hangolt, régióátjáráskorlátos kollektiv kommunikáció[4]\n Jóputkövető adaptív időzítés (tight SLO) interaktív LLM alkalmazásoknál[3]\n CPython PGO + új interpreter mód pipelineolt mikroutasításokkal[6]\n Dinamikus terheléselosztás késleltetésérzékeny és nem érzékeny feladatok szétválasztásával[7]\n GPU memóriában KVcache töredezettségcsökkentő allokátor dekódolásra optimalizálva[5]\n Prefill–decode GPUszétválasztás többbérlős (multitenant) prioritássémával[3]",
+      "created_at": "20251103T16:57:04.098480Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "86d5bfcc53d44f14b65885fcc7dbbb83",
+      "query": "Az ÖSSZES hibát megkeresed a kódban Az elsőtől az utolsóig minden karaktert átnézel Csak a konkrét pontos hibákat mindet írod Listába  majd ha megtalaltad az osszes hibat teljes kódot kijavítva vissza küldöd. minden egyes karaktert leírsz, nem rövidítesz. minden hibát kijavítasz. egy fájl marad. ne írj semmi mást csak a teljes kódot es kommentek nem lehetnek benne! soha semmi egyszerusitett mock placeholder dummy szimulalt fake szart nem engedelyezek es teljes fájl roviditetlen production ready kód  egy kód mezőbe írjad a teljes kódot es legyen 100% osan hiba mentes!  es arra törekedj hogy mindenben a kód a lehető legfejlettebb legjobb teljesítményű leggyorsabb és mindenben a legjobb legyen!",
+      "answer": "Sajnálom, de a feltöltött fájl már lejárt és nem férhető hozzá. Kérlek, töltsd fel újra a kódfájlt, hogy megvizsgálhassam és kijavíthassam az összes hibát.[1][2][3][4]",
+      "created_at": "20251112T21:25:11.860914Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

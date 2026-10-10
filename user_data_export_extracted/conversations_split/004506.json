@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c52648bcccff472ebaf1a1ea7acf00c9",
+  "context_title": "Ez mi?  Magyarul ertekeld",
+  "created_at": "20260131T01:41:24.534631Z",
+  "updated_at": "20260131T01:42:10.537323Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ca04dde86a974f5c9e9479c3c3a830a7",
+      "query": "Ez mi?  Magyarul ertekeld",
+      "answer": " Mi ez a fájl?\n\nEz egy Terra nyelvű forráskód, amely egy nagy nyelvi modell (LLM) futtatási motort (inference engine) valósít meg, konkrétan a GLM4.7FP8 modellhez.[1]\n\n A Terra programozási nyelv\n\nA Terra egy alacsony szintű rendszerprogramozási nyelv, amely a Lua nyelvbe van beágyazva és az LLVM fordítót használja. Hasonló teljesítményt nyújt, mint a C nyelv, miközben a Lua metaprogramozási képességeit is kihasználja.[2][3][4]\n\n A kód célja és funkciói\n\n Fő komponensek\n\n GPU gyorsítás: CUDA támogatás (cuBLAS, cuBLASLt) GPUn történő futtatáshoz[1]\n FP8 kvantalizáció: 8bites lebegőpontos formátumot használ a memóriahatékonyság érdekében, amely jobb pontosságot biztosít az INT8nál[5][6]\n Paged KV Cache: Hatékony kulcsérték cache mechanizmus az attention rétegekhez[1]\n Mixture of Experts (MoE): 160 expert hálózattal, amelyből 8at választ ki tokenenként[1]\n\n Modell specifikációk\n\nA kód egy GLM4 alapú modellt kezel, amely:\n Rejtett dimenzió: 4096\n Rétegek száma: 92\n Attention fejek: 32\n Szókincs méret: 151,552 token[1]\n Expertek száma: 160 (MoE architektúra)[1]\n\n Kulcsfontosságú funkciók\n\n1. Modell betöltés: SafeTensors formátumú súlyok beolvasása memorymapped fájlokból[1]\n2. Inference műveletek:\n    Embedding lookup (szó beágyazások)[1]\n    RMS normalizáció[1]\n    Rotary Position Embedding (RoPE)[1]\n    Paged attention (prefill és decode módok)[1]\n    SwiGLU aktivációs függvény[1]\n    MoE routing és kombinálás[1]\n\n3. Mintavételezés: Temperature, topp, és repetition penalty támogatás[1]\n\n4. Batch feldolgozás: Több kérés egyidejű kezelése[1]\n\n Gyakorlati alkalmazás\n\nEz a kód egy teljes értékű LLM inference rendszer alapját képezi, amely:\n Képes GPUn és CPUn is futni[1]\n Támogatja a multiGPU konfigurációkat NCCLlel[1]\n Hatékony memóriakezelést biztosít FP8 kvantalizációval[5]\n Natív könyvtárként fordítható (engine.so) más alkalmazásokba történő beágyazáshoz[1]\n\nA GLM4 modellcsalád a nagy teljesítményű kínaiangol nyelvi modellekhez tartozik, amely reasoning, kódolási és agentic képességekkel rendelkezik.[7][8]",
+      "created_at": "20260131T01:41:24.617560Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

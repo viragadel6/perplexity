@@ -1,0 +1,19 @@
+{
+  "context_uuid": "e3e2ef838d2447699969538fbdec518e",
+  "context_title": "kecel az magyarorszagon belul \neastern \nwestern\nnorthern\nsouthern\n?",
+  "created_at": "20260811T08:27:21.260934Z",
+  "updated_at": "20260811T08:27:25.213248Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c74dfab67c234729a36242f19936c7ef",
+      "query": "kecel az magyarorszagon belul \neastern \nwestern\nnorthern\nsouthern\n?",
+      "answer": "Kecel Magyarország déli részén található, BácsKiskun vármegyében. Pontosabban a Duna–Tisza köze nyugati felén fekszik, tehát országos felosztásban inkább southern / déli.[1][2]\n\nHa a négy opció közül kell választani: Southern.",
+      "created_at": "20260811T08:27:21.394502Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "context_uuid": "8126d6575bf044548a8bf4035d3d28c5",
+  "context_title": "sorold fel az 5 legutoljara megjelent llm arhetikurat",
+  "created_at": "20251103T03:51:20.246033Z",
+  "updated_at": "20251103T03:56:13.001917Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "ae41e11e8fc9447982e6f1e5b48f0ac2",
+      "query": "sorold fel az 5 legutoljara megjelent llm arhetikurat",
+      "answer": "Az öt legutóbb megjelent LLM‑architektúra: OpenAI GPT‑5, Meta Llama 4, Google Gemini 2.0, Anthropic Claude 3.7 Sonnet és xAI Grok 3.[1][2][3][4][5]\n\n Rövid leírás\n OpenAI GPT‑5 (2025 augusztus): új zászlóshajó modell egységesített, agentikus képességekkel és továbbfejlesztett érveléssel, a ChatGPT alapértelmezett modelljeként bevezetve.[6][7][1]\n Meta Llama 4 (2025 április): a Scout, Maverick és Behemoth modellekből álló, multimodális család, széles körű képi‑videós megértéssel és a Meta AI asszisztens frissített alapjaként.[8][3]\n Google Gemini 2.0 (2025 február): a 2.0 Flash általános elérhetősége és a 2.0 Pro kísérleti kiadása, multimodális bemenettel, új agentikus képességekkel és Live API‑val fejlesztőknek.[2][9]\n Anthropic Claude 3.7 Sonnet (2025 február): hibrid érvelő modell, amely állítható „gondolkodási” idővel egyesíti a gyors válaszokat és a lépésről‑lépésre következtetést.[10][5]\n xAI Grok 3 (2025 február): a Grok család új csúcsmodellje, jelentősen megnövelt tanítási számítási kapacitással és erősebb benchmark‑eredményekre célzott érveléssel.[4][11]",
+      "created_at": "20251103T03:51:20.312343Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "7db9823e6e7f4321a5227d65336c47b4",
+      "query": "de te kutya egy az h november van \nketto meg hogy en arhetikurat kerdeztem nem llmet",
+      "answer": "Igen, nagyon jogosan kritizálsz! Az 5 legutóbb megjelent LLM architektúrát (nem modelleket) az alábbiak szerint rendezem:\n\n 1. MixtureofAgents (MoA)\nMegjelenés: 2025. augusztus[1]\n\nAz MoA egy teljesen új paradigma, amely helyett hogy egyetlen modell válaszol, több szakterületspecifikus AI ügynök egymásnak válaszol. A szakosított ügynökök együttmunkálkodva oldják meg a komplex feladatokat, ami szignifikánsan javítja a teljesítményt.[1]\n\n 2. MultiHead Latent Attention (MLA)\nMegjelenés: 2024. december (DeepSeekV3)[2][3]\n\nAz MLA 20×szer kisebbre szűkíti a KV cachet (110K → 15K) a KV cachet egyetlen latens reprezentációba tömörítve, miközben 1,5–4,1%os teljesítménynövekedést ér el. Ez forradalmi memóriahatékonyság.[3][2]\n\n 3. Gated DeltaNet + Gated Attention Hybrid\nMegjelenés: 2025. április (Qwen3Next)[2]\n\nAz Alibaba ezt a hibrid megközelítést azért fejlesztette ki, hogy hosszú kontextusokat (long context) kezeljen, miközben a MultiToken Prediction (MTP) képességet is integrálja, lehetővé téve a modellnek több token egyidejű előrejelzését.[2]\n\n 4. Sliding Window Attention + QK Normalizáció\nMegjelenés: 2025 (Gemma 3 és OLMo 2)[3][2]\n\nA Gemma 3 a sliding window attentiont használja (csúszkálható ablak: ~1024 token), csökkentve a memóriaigényt, miközben az OLMo 2 PostNorm elhelyezést és QK normalizációt implementál a neurális hálózat stabilabb betanítása érdekében.[3]\n\n 5. No Positional Embeddings (NoPE)\nMegjelenés: 2025 (SmolLM3)[2]\n\nA SmolLM3 minden negyedik rétegből eltávolítja a pozicionális beágyazásokat, helyette csak az okokozati maszkra támaszkodva a szekvencia sorrendjéhez. Ez radikálisan csökkenti a modell összetettségét, miközben minimális teljesítménybeli romlást okoz.[2]",
+      "created_at": "20251103T03:52:16.625090Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "1829cd2920f844b891f9feb71a0c1bd5",
+      "query": "akkor ugy mondom hogy max egy hete jelent meg\nes nem transformers moe ssm mamba kan",
+      "answer": "A jelenleg elérhető nyilvános információk szerint az elmúlt egy hétben nem jelent meg olyan új, nagyszabású LLM architektúra, amely nem valamilyen Transformer, MoE (Mixture of Experts), SSM (State Space Model), Mamba vagy KAN (Kolmogorov–Arnold Network) variánsa lett volna; ezek továbbra is az uralkodó irányok az LLM építészetben. Az iparági hírek és publikációk kizárólag ezekhez kapcsolódó modellekről írnak, és más, teljesen új, radikálisan eltérő architektúráról az elmúlt héten nincs adat.[1][2]\n\nAmennyiben valóban forradalmian új architektúra jelenne meg november első hetében, az valószínűleg azonnal felbukkanna a vezető AI híroldalakon vagy a főbb szakmai közösségekben, de pillanatnyilag ilyenről nincs hiteles forrás.[3][2]",
+      "created_at": "20251103T03:53:13.043214Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f2db9037ce5f49228bebe3bfdaf4db92",
+  "context_title": "a leggyorsabbd database a vilagon api val ungyenes trialal (olyanokra gondolok ami többszöreb gyorsabb mint neon supervase es tarsaik)",
+  "created_at": "20250919T14:24:22.749318Z",
+  "updated_at": "20250919T14:24:22.749318Z",
+  "mode": "CONCISE",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "6f41c13718144a09b66bf46a5bdd75d3",
+      "query": "a leggyorsabbd database a vilagon api val ungyenes trialal (olyanokra gondolok ami többszöreb gyorsabb mint neon supervase es tarsaik)",
+      "answer": "Fastest database in the world with an API and free trial (looking for options significantly faster than Neon, Superbase and similar)\n\nA világ leggyorsabb adatbázisa APIval és ingyenes próbaverzióval (olyan megoldásokat keresek, amelyek jelentősen gyorsabbak, mint a Neon, Supabase és társaik)",
+      "created_at": "20250919T14:24:23.220088Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

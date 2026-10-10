@@ -1,0 +1,19 @@
+{
+  "context_uuid": "8d5b60719aa145a38c3e7f08ce51f99e",
+  "context_title": "ezt .env formába írd meg\n\nmodal token set tokenid akAwqSYvO0FoPZ2EpaliPTEo tokensecret ase81KEG1IFH1q7Kwhe0zL8e",
+  "created_at": "20260102T07:25:41.820628Z",
+  "updated_at": "20260102T07:25:41.820628Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2378e0eec4684fc09d24c9b4bedf392b",
+      "query": "ezt .env formába írd meg\n\nmodal token set tokenid akAwqSYvO0FoPZ2EpaliPTEo tokensecret ase81KEG1IFH1q7Kwhe0zL8e",
+      "answer": "Ez a parancs két azonosítót tartalmaz, amelyeket a Modal konfigurációja során használhatsz. Az alábbi blokkban találod a .env fájlba szánt formátumot.\n\nenv\nMODAL_TOKEN_ID=ak-AwqSYvO0FoPZ2EpaliPTEo\nMODAL_TOKEN_SECRET=as-e81KEG1IFH1q7Kwhe0zL8e\n\n\nSzeretnéd, hogy a változók neveit valamilyen specifikus prefixszel (például NEXT_PUBLIC_) lássam el, vagy megfelel az alapértelmezett elnevezés?",
+      "created_at": "20260102T07:25:41.899526Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

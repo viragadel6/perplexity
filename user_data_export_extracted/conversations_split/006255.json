@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f2a7e1fd36c649c6885f3fd32b04bb0e",
+  "context_title": "",
+  "created_at": "20251120T08:54:05.302370Z",
+  "updated_at": "20251120T08:54:05.302370Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "c70368d3af8548be8511e4d58c42d0ba",
+      "query": "",
+      "answer": "A GitHub oldal szerint a QuantumToolbox.jl egy modern Julia csomag, melyet kvantumfizikai szimulációkhoz terveztek, és szorosan követi a népszerű Pythonos QuTiP csomag funkcionalitásait. A csomag lehetővé teszi kvantumállapotok és operátorok könnyű kezelését, fejlett időfejlődési megoldókat, valamint támogatja a GPU és többszámítási eljárásokat, így nagy méretű kvantumrendszerek gyors szimulációjára alkalmas, akár több számítógépen vagy GPUn is.[2][4][6]\n\n Főbb jellemzők\n Kvantumállapotok és operátorok kezelése: könnyen kezelhetők, hasonlóan a QuTiPhez.[2]\n Időfejlődés szimuláció: fejlett megoldók biztosítottak a Kvantum DiffEvolúciós csomag segítségével.[2]\n GPU támogatás: egyszerűen átvihető a számítás a GPUra a Julia és CUDA segítségével.[8][2]\n Osztott számítás: több szerveren futó szimulációk támogatottak.[2]\n Egyszerű bővíthetőség: a Julia nyelv metaprogramozási és több diszpécsiós képességeinek köszönhetően könnyen fejleszthető a csomag.[2]\n\n Használat és telepítés\nA telepítéshez az Julia REPLében a következő parancsokat kell futtatni:\njulia\nusing Pkg\nPkg.add(\"QuantumToolbox\")\n\nMajd a csomag működésének ellenőrzésére az alábbi parancsokat használhatjuk:\njulia\nusing QuantumToolbox\nQuantumToolbox.versioninfo()\nQuantumToolbox.about()\n\n Példa\nAz egyik példában egy kvantum harmonikus oszcillátort modelleznek, ahol a Hamiltonian a:\n\nĤ = ω  a^†  a\n\nkategoriát és a drágulás (disszipáció) hatását Lindbladformában szimulálják, beleértve a rendszer időszerű, gyorsított GPUs szimulációját is.[2]\n\n Miért érdemes?\nA QuantumToolbox.jl eredményes alternatívát nyújt a Pythonalapú QuTiP csomagnak, de Julia nyelv gyorsasága és könnyű bővíthetősége révén, különösen nagy méretű vagy összetett szimulációk esetén, lényeges teljesítményelőnyt kínál.[8][2]\n\nHa szeretne mélyebben belemerülni, ajánlott a projekt dokumentációja és tutorialjai, amelyek a GitHubon és a hivatalos oldalon is elérhetők.[4][5][6]\n\nKérdése van a konkrét használattal vagy példákkal kapcsolatban, szívesen segítek azokban is!",
+      "created_at": "20251120T08:54:05.988965Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

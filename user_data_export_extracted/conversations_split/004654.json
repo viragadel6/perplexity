@@ -1,0 +1,19 @@
+{
+  "context_uuid": "7b7e93d1660749b4b32eb71f313ec089",
+  "context_title": "?",
+  "created_at": "20260126T19:24:33.723265Z",
+  "updated_at": "20260126T19:27:06.937088Z",
+  "mode": "COPILOT",
+  "collection_uuid": "64a545d57a194713a7e8ed4f506afa7d",
+  "entries": [
+    {
+      "entry_uuid": "b2fd3c34b5fc4ba995e6d1cfe7d6f3d5",
+      "query": "?",
+      "answer": "Ez a csatolt Lean4 anyag formálisan típushelyes/Leanstílusú bizonyításokat tartalmaz, de a tartalma alapján inkább erősen leegyszerűsített “mock/placeholder” verifikáció, nem pedig egy valós rendszer (pl. tényleges allocator / tokenizer / tensor runtime) érdemi, implementációhű formális igazolása.[1]\n\n Mi árulkodik “placeholder”ről?\nTöbb definíció szemmel láthatóan triviális vagy konstans eredményt ad, így a rájuk épülő tételek is “könnyen” bizonyíthatók, de kevés valódi tartalmat garantálnak (pl. isWhitespace mindig true, isPunctuation mindig false).[1]\nUgyanez a minta megjelenik pl. memóriaösszehasonlításnál is: a memoryCompare ... Bool true jellegű definíció azt jelenti, hogy a “reflexív/szimmetrikus” tételek lényegében tautológiák lesznek, mert maga a függvény mindig igazat ad vissza.[1]\n\n Vane “igazi” formális bizonyítás benne?\nA fájlban nem látszik klasszikus “félkész proof” jel (sorry/admit) — a tokenszámlálás alapján sorry = 0 és admit = 0.   \nViszont van legalább egy axioma (axiom quantizeDequantizeApproximate ...), ami azt jelenti, hogy ott a kívánt állítást bizonyítás nélkül, feltevésként emeli be a rendszer.[1]\n\n Mit jelent ez a “valódiságra” nézve?\nEz a kód jó eséllyel alkalmas arra, hogy Leanban “minden lemenjen” (nincsenek nyilvánvaló sorry lyukak), de a sok triviális/ideálisított definíció és az axióma miatt nem ugyanaz, mint egy implementációhű, endtoend formális verifikáció.[1]\nHa a cél az, hogy “nincs doublefree / nincs UAF / boundscheck” egy tényleges allocator implementációra igazolva legyen, akkor ehhez tipikusan (1) a konkrét program/IR modellje, (2) invariánsok, (3) finomítási (refinement) kapcsolat a specifikáció és az implementáció között kell, nem pedig olyan függvények, amik eleve Truet/konstans kimenetet adnak.[1]\n\nÍrd meg egy mondatban: pontosan mit szeretnél “valós formális verifikációként” látni ebben (pl. csak Leanban forduljon, vagy konkrét memóriabiztonsági tulajdonságot akarunk egy adott algoritmushoz)?",
+      "created_at": "20260126T19:24:33.786011Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

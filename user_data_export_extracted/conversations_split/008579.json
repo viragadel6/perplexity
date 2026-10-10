@@ -1,0 +1,19 @@
+{
+  "context_uuid": "926a890dec934a32967f25d5624a2414",
+  "context_title": "",
+  "created_at": "20250910T01:45:43.819956Z",
+  "updated_at": "20250910T01:45:43.819956Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "53397412c4d44ebb9d27c7a4b044c70e",
+      "query": "",
+      "answer": "Nem sikerült elérni a megadott GitHub projekt oldal tartalmát, ezért a fájlok vagy a részletek nem jeleníthetők meg . Ha konkrét információra vagy részletre van szükség ebből a projektből, kérlek adj meg pontosabb fájlnevet, leírást vagy kérdést!",
+      "created_at": "20250910T01:45:44.420576Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

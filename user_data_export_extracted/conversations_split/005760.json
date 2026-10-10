@@ -1,0 +1,37 @@
+{
+  "context_uuid": "2c9f9557e1ef466da4b60388ce419a6a",
+  "context_title": "\n\n\nmagyarba js mukodik?",
+  "created_at": "20251212T03:49:10.315826Z",
+  "updated_at": "20251212T03:51:22.102347Z",
+  "mode": "CONCISE",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "acd0b0ed36774d738ba8737ab66ffd62",
+      "query": "\n\n\nmagyarba js mukodik?",
+      "answer": "Magyarországon letölteni tudod, de a nyelv alapján nem „magyarul működik”: az App Store szerint az app nyelve angol (EN).[1]\n\n Mit mutat az App Store\nA magyar App Storeoldalon az látszik, hogy a „Nyelvek” résznél az app nyelve „angol”.[2]\nA fejlesztő az „XPay Collection Electronic Payment And Settlement Systems Co”, és az app „Pénzügyek” kategóriában van.[2]\n\n Magyarországon használhatóe?\nAz, hogy Magyarországon megjelenik/telepíthető az App Storeban, még nem garancia arra, hogy a szolgáltatás (fizetésfogadás, kifizetés, ügyfélazonosítás stb.) ténylegesen támogatott Magyarországon is; ezt jellemzően a szolgáltató országlistája és szerződési feltételei döntik el.[1]\nA leírás alapján az app fő fókusza fizetési linkek és kártyás fizetések (Visa/Mastercard), illetve KNET (ez tipikusan kuvaiti helyi fizetési mód), ami arra utalhat, hogy a szolgáltatás elsődlegesen nem HU piacra készült.[1]\n\n Gyors ellenőrzés (hogy biztosra menj)\nNézd meg, tudsz‑e HU telefonszámmal regisztrálni, és kére helyi üzleti/azonosítási dokumentumot.[1]\nKérdezz rá a fejlesztő „Támogatás”/„Webhely” linkjén, hogy Magyarországon tudsz‑e pénzt fogadni és kiutalást kapni.[2]\nHa megírod, pontosan mire használnád (csak fizetési link, webshop, kifizetés HU bankszámlára), célzottabban meg tudom mondani, mi a kritikus pont.[1]",
+      "created_at": "20251212T03:49:12.984545Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "0ee4252f2c7c4c558fc6e18197811ff1",
+      "query": "rudom h angol de magyarkent regisztralgatok es mukodik e",
+      "answer": "Valószínűleg nem fog teljes értékűen működni magyar (HU) regisztrációval, mert az app kommunikációja szerint KNETet és kártyás fizetést (Visa/Mastercard) kezel, a KNET pedig jellemzően kuvaiti (Kuwait) fizetési mód, így a szolgáltatás tipikusan régióhoz kötött (különösen a kifizetés/elszámolás része).[1][2]\n\n Mit jelent ez gyakorlatban magyarként?\nRegisztrálni lehet, hogy enged (pl. emaillel), de a kifizetés/azonosítás (KYC) / bankszámla hozzáadása ponton gyakran ország‑ és dokumentum‑korlátozás jön elő (pl. csak bizonyos országok személyije/cégpapírjai, csak helyi bankszámla).[1]\nHa a rendszer a KNETre épít (és a “24 órán belüli payout” ígéretet ehhez a rendszerhez köti), akkor HU bankszámlára utalás nem biztos, hogy elérhető.[2][1]\n\n Biztos ellenőrzés 2 perc alatt\n1) A regisztrációnál nézd meg, szerepel‑e Hungary/HU az országlistában, és elfogad‑e +36 telefonszámot.[1]\n2) Nézd meg a “payout/withdraw/bank account” részt: enged‑e IBANt megadni, és HUF/EUR elszámolást, vagy csak helyi (régiós) opciót.[1]\n3) Ha elakadsz, írj a hivatalos kapcsolat oldalukra, és kérdezd meg konkrétan: “HU állampolgárként, HU/EU bankszámlára tudoke kifizetést kérni?”[3]\n\nHa megírod, hogy magánszemélyként vagy cégként regisztrálnál, és kell‑e HU bankszámlára kifizetés, meg tudom mondani, melyik lépésnél a legvalószínűbb a blokk.[1]",
+      "created_at": "20251212T03:50:15.197431Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "9b42f3d824134062ad6192eced1ab13b",
+      "query": "hat akko kuldj ugyanilyet csak ami magyarorszagon magyarkent tudok haszbalni",
+      "answer": "Magyarországon magyarként legbiztosabban olyan megoldást válassz, ami HU/EU ügyfeleknek hivatalosan elérhető, és nem KNET‑/régióspecifikus: ilyen tipikusan a Barion (vállalkozásnak), illetve egyszerű pénzkérő linkre a PayPal.Me.[2][3]\n\n Ha „fizetési linket” akarsz (gyors)\nPayPal.Me: létrehozhatsz saját fizetési/pénzkérő linket, amit bárkinek elküldhetsz, és PayPalfiókkal rendelkező fizető fél gyorsan tud fizetni neked; a PayPal.Me oldal HU országbeállítással is elérhető.[1]\nRevolut (lakossági): Magyarországon elérhető szolgáltatás, és a „send and receive” funkciókkal ismerősök/ügyfelek felé egyszerű pénzkérés/küldés megoldható (de ez nem klasszikus webes kártyás „checkout”).[4]\n\n Ha „bankkártyás fizetést” akarsz ügyfelektől (üzlet)\nBarion: Magyarországon elterjedt online kártyaelfogadási megoldás; a Barion ügyfélszolgálati leírás szerint az elfogadóhely (merchant) regisztrációt böngészőből lehet elindítani.[5]\nSzámlázóval is összeköthető: például a Billingo tudásbázisa leírja, hogy Barion elfogadással a vevő „KIFIZETEM” gombbal a Barion biztonságos fizetőfelületére kerülhet.[6]\n\n Melyiket válaszd (1 kérdés alapján)\nHa magánszemélyként csak „kérnék pénzt” linkkel: PayPal.Me vagy Revolut.[4][2]\nHa vállalkozásként kártyás fizetést akarsz és számlát/online rendelést: Barion (vagy más HU PSPk; listákban a SimplePay is gyakran szerepel).[7][8]\n\nÍrd meg, hogy magánszemély vagy cég/egyéni vállalkozó, és hogy „csak pénzkérés link” kelle vagy kártyás fizetés (webshop/számla), és adok 2–3 konkrét, HUra passzoló javaslatot a te esetedre.[4]",
+      "created_at": "20251212T03:51:02.965402Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

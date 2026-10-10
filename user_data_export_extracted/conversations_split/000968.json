@@ -1,0 +1,19 @@
+{
+  "context_uuid": "fbb272da3fbb4210a9337b4b52f38d4f",
+  "context_title": "$ python3 m venv /home/user/venv && /home/user/venv/bin/pip q install ziglang==0.14.1 && /home/user/venv/bin/python m ziglang version && ln sf /home/user/venv/bin/python3 /home/user/venv/bin/py && echo OK\n\n\n\nugyanilyen módszerrel a futharkot hogy lehet telepíteni?",
+  "created_at": "20260818T11:11:04.820301Z",
+  "updated_at": "20260818T11:11:24.340059Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bdbdef857baa422e93ced610b5d2a2ce",
+      "query": "$ python3 m venv /home/user/venv && /home/user/venv/bin/pip q install ziglang==0.14.1 && /home/user/venv/bin/python m ziglang version && ln sf /home/user/venv/bin/python3 /home/user/venv/bin/py && echo OK\n\n\n\nugyanilyen módszerrel a futharkot hogy lehet telepíteni?",
+      "answer": "A Futhark fordítóprogramhoz nincs a ziglanghez hasonló, önálló hivatalos PyPI bináris csomag. Ugyanakkor a bináris fájl közvetlenül a virtuális környezet bin/ könyvtárába tölthető le és csomagolható ki.[1][2]\n\n\n\n Egysoros telepítés és ellenőrzés\n\nA következő parancssor letölti az előre lefordított Futhark Linux x86_64 archívumot közvetlenül a megadott venv/bin mappába:[2][1]\n\nbash\npython3 -m venv /home/user/venv && curl -sSL https://github.com/diku-dk/futhark/releases/download/v0.25.35/futhark-0.25.35-linux-x86_64.tar.xz | tar -xJ -C /home/user/venv/bin --strip-components=2 futhark-0.25.35-linux-x86_64/bin/futhark && /home/user/venv/bin/futhark --version && echo OK\n\n\n\n\n Kapcsolódó Python segédcsomagok\n\nAmennyiben a Futhark kódok Pythonból történő hívása vagy adatkezelése a cél, a létrehozott virtuális környezetbe a kapcsolódó könyvtárak telepíthetők pippel:[3][4]\n\nbash\n/home/user/venv/bin/pip -q install futhark-ffi futhark-data\n",
+      "created_at": "20260818T11:11:04.855917Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

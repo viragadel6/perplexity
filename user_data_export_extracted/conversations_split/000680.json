@@ -1,0 +1,19 @@
+{
+  "context_uuid": "bb75dced18484995b73ff4882ef5d08b",
+  "context_title": "Ez mi?  Magyarul ertekeld! OLVASD el line by line end to end de nekem normálisan egyben válaszolj! Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+  "created_at": "20260901T15:10:58.585692Z",
+  "updated_at": "20260901T15:12:26.047150Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "217c128adc0b4240b5a36019e9eee507",
+      "query": "Ez mi?  Magyarul ertekeld! OLVASD el line by line end to end de nekem normálisan egyben válaszolj! Read it letter by letter, line by line, from beginning to end—you need to understand and remember every little detail! Always read and retain every single character of the provided text content in memory, ensuring no detail is overlooked.",
+      "answer": "Ez egy Zig nyelven írt, egyetlen fájlba zsúfolt HTTP backend: saját magát „autonomouspersistentselfhealingexecutionsystem” 1.0.0nak nevezi, és egy multiagent orkesztrációs szervert akar lenni.[1]\n\n Mi ez a gyakorlatban\n\nNagyjából 300 ezer karakteres monolit: saját HTTP/1.1 parser, JSON kézzel, inmemory Store (hash mapek), worker pool, SSE, auth/RBAC, LLMhívások (Cerebras, Requestly, Mimo), Exa keresés, sandbox és artifactAPI. Alapból 0.0.0.0:8080on hallgat, állapotot /var/lib/autonomous alá tenné.[1]\n\nA szándék: user üzenet → intake (GLM 4.7) → ha „autonomous”, roadmap (Claude Opus 4.8) → subagensek (Kimi, MiniMax, DeepSeek, Gemini) → verifier/ranking → GLM 5.2 szintézis. Beszélgetés módban „parliament”: több modell, aztán egy összefésült válasz.[1]\n\n Mi működik koncepcióként\n\n Világos szereposztás: intake, orchestrator, executor, reader, parliament, critic/improver.\n Budgettier (light / medium / heavy), rate limit, CORS, audit, checkpoint, recovery rekordok.\n Van néhány unit teszt (JSON escape, budget, ranking, RBAC, embedding).[1]\n\n Hol dől el\n\nA „selfhealing” és a perzisztencia inkább címke. A Store.persist létezik, de a main nem tölti vissza a JSON snapshotokat induláskor; memóriában él. A jelszó SHA512(salt+password), nem Argon2/bcrypt. JWT secret és admin bootstrap token, ha hiányzik, logba kiíródik. hashPassword nyers digestet tárol, hex nélkül. executeSubagent a status stringet duplán allokálja/freeeli, racees. installSignalHandlers üres. Sandbox nélkül a parancs „simulated”. Embedding SHA256 + PRNG, nem valódi vektorDB.[1]\n\nA HTTP kliens timeout paramétert _ néven eldobja; a szerver minden connectionhöz threadet spawnol, nincs MAX_CONNECTIONS kényszer. Subagent spawn szekvenciális, nem 320 párhuzamos ág.[1]\n\n Értékelés\n\nArchitektúravázlatnak és APIkatalógusnak érdekes: session, task, agent, search, retrieval, verifier, ranking, synthesis, memory, artifacts, sandbox, volumes, snapshots, admin. Produkcióba nem tenném: egy fájl, gyenge kriptó, titkok logolása, nincs valódi DB, LLMJSONra hagyatkozik, a „javítás” ciklus sokszor csak újabb modellhívás.[1]\n\nHa ezt futtatnád, először: ne hallgasson 0.0.0.0n titok nélkül, ne logoljon tokent, jelszóhasht cseréld, SQLite/Postgres kellene a hash mapek helyett, és a HTTP stacket std.http.Serverre vagy egy bejáratott libre.",
+      "created_at": "20260901T15:10:58.624901Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

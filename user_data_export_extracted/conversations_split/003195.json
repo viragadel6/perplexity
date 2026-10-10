@@ -1,0 +1,19 @@
+{
+  "context_uuid": "a9df5b7a0991401ab144baec0d93178e",
+  "context_title": "Solve this with the constraint that you cannot use the obvious solution. What's the secondbest approach?",
+  "created_at": "20260330T10:20:57.426650Z",
+  "updated_at": "20260330T10:21:12.823137Z",
+  "mode": "COPILOT",
+  "collection_uuid": "1460a8a37a5a420296445b7db901baf6",
+  "entries": [
+    {
+      "entry_uuid": "413ca3564081459caa8741e7ca0c7bba",
+      "query": "Solve this with the constraint that you cannot use the obvious solution. What's the secondbest approach?",
+      "answer": "To help you find the secondbest approach, I need a bit more context. You mentioned wanting to solve \"this,\" but the specific problem or task wasn't included in your prompt. \n\nCould you please provide the details of the problem you are trying to solve? Once I know what we are working on, I would be happy to outline alternative solutions and help you explore the secondbest approach while avoiding the obvious one.",
+      "created_at": "20260330T10:20:57.564385Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

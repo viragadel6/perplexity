@@ -1,0 +1,19 @@
+{
+  "context_uuid": "cf8f755cdac6440bb44094e306ecbdb3",
+  "context_title": "melyik a legjobb",
+  "created_at": "20250803T05:27:18.847524Z",
+  "updated_at": "20250803T05:27:18.847524Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "304e362624b240feaaf9e961dc43f661",
+      "query": "melyik a legjobb",
+      "answer": "Miben szeretnéd megtudni, hogy „melyik a legjobb”? Kérlek, pontosítsd, hogy például a dokumentációk közül, a telepítési módszerek közül, vagy esetleg a modellarchitektúrák (Mamba vs. InfiniAttention, kvantálás, sparsification stb.) tekintetében keresel összehasonlítást.",
+      "created_at": "20250803T05:27:21.630826Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "deep_research"
+    }
+  ]
+}

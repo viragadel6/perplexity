@@ -1,0 +1,82 @@
+{
+  "context_uuid": "54921042d59541a6a384cf68d5b73794",
+  "context_title": "morph/morphv3large",
+  "created_at": "20251024T15:43:03.660357Z",
+  "updated_at": "20251024T15:54:41.964126Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e4414251dd2547198fd51db758a057b4",
+      "query": "morph/morphv3large",
+      "answer": "A „morphv3large” a Morph LLM cég „Fast Apply” modellcsaládjának legpontosabb, nagy kontextusú tagja, amely kód és fájlszerkesztési feladatoknál közel 98%os szerkesztési pontosságot és 5 000+ token/másodperc sebességet kínál.[2][4]\n\n Fő jellemzők\n Kontextusablak: 81,9 k token (összesen be és kimenet).[6]\n Teljesítmény: ≈ 4 5005 000 token/s, 98% szerkesztési pontosság komplex kódmódosításoknál.[7][2]\n Kimenettípus: szöveg; bemenetként is pusztán szöveget vár.[6]\n\n Díjszabás (2025. októberi listaárak)\n| Tétel | Ár / millió token |\n|||\n| Bemeneti token | 0,90 USD [4] |\n| Kimeneti token | 1,90 USD [4] |\n| Ingyenes keret | 500 kérés/hó [4] |\n\n Fő használati területek\n „Speculative apply” ügynökök: nagy nyelvi modellek (GPT4o, Claude 3 stb.) által javasolt diffek azonnali be/kimergeelése.[3][8]\n Többfájlos refaktorálás vagy konzisztens változtatások (pl. változónévcsere) egész kódbázison.[2]\n Agentalapú CI/CDpipelines vagy automatikus kódfelülvizsgálat gyorsítása.[10]\n\n Előnyök és korlátok\n Előny: nagy kontextus révén komplett projektek kezelhetők egy kérésben, minimalizálva a kontextuschunkolásból fakadó hibákat.[6]\n Előny: magas sebesség, így interaktív szerkesztő vagy agentloopokban sem jelent szűk keresztmetszetet.[2]\n Korlát: kizárólag szöveges (kód) bemenetet támogat; multimodális inputtal nem kompatibilis.[6]\n Korlát: elsősorban „apply/patch” feladatokra optimalizált, általános szöveg­generálásban nincs benchmarkeredménye.[6]\n\n Gyors integrációs példa (OpenRouter API)\nbash\ncurl https://openrouter.ai/api/v1/chat/completions \\\n  -H \"Authorization: Bearer $OPENROUTER_API_KEY\" \\\n  -H \"HTTP-Referer: yourapp.com\" \\\n  -H \"X-Title: apply-diff\" \\\n  -d '{\n    \"model\": \"morph/morph-v3-large\",\n    \"messages\": [\n      {\"role\": \"system\", \"content\": \"You are the apply agent.\"},\n      {\"role\": \"user\", \"content\": \"Apply this diff to src/*.js ...\"}\n    ]\n  }'\n\nA paraméterezés megegyezik más OpenRouteralapú modellekkel, csak a modellazonosítót kell „morph/morphv3large”ra állítani.[5]\n\n Összegzés\nHa megbízható, gyors és nagykontextusú kód szerkesztőLLMre van szükség, a morphv3large jelenleg a Morph portfólió legjobb árérték arányú választása, különösen agentvezérelt „findandapply” munkafolyamatokban.[4][2][6]",
+      "created_at": "20251024T15:43:03.741962Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "230ba7a6634747a58df9cbce1fe763f2",
+      "query": "es mennyire jo minosegu marmimt tobbi llmhez kepest",
+      "answer": "A morphv3large modell kódszerkesztési pontosságban, sebességben és áron is a legtöbb általános LLMet felülmúlja, de kizárólag diff/patch felhasználásban verhetetlen; általános szövegalkotó képességben nem mérték össze publikusan.[1][2]\n\n Hol jobb, mint mások?\n Sebesség: 4 500–5 000 token/s, ami ~10× gyorsabb a GPT4o, Claude 3 vagy Code Llama 70B „chainofdiff” megoldásainál (350–500 tok/s).[1]\n Pontosság: ≈ 98% első passz sikerarány komplex többfájlos refaktorálásnál; a nyers diffformátumra tanított általános LLMek 75–91% közé esnek ugyanebben a benchmarkban.[1]\n Költség: 0,90 USD / M intoken és 1,90 USD / M outtoken; GPT4onál 10,00 USD / M körül, Claude 3 Opusnál 15 USD / M.[2]\n\n Hol van versenyhátránya?\n Általános feladatok: nincs publikált MMLU vagy BIGbench eredmény; nem „chatLLM”, hanem doménspecifikus „apply engine”.[1]\n Multimodalitás: csak szöveget fogad, míg GPT4o és Claude 3 Vision képet, táblázatot is.[2]\n\n Összkép\nHa a cél gyors, precíz kódjavítás/patchelés nagy projektekben, a morphv3large ma a legmagasabb minőségű nyíltan elérhető modell; általános nyelvi feladatokra azonban szükség lehet egy másik, szélesebb képességű LLMre.[2][1]",
+      "created_at": "20251024T15:44:41.429280Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "7af75f4fcfc04bda9e7bfe2dae727531",
+      "query": "kodot irni nem tud? olyan mint a replit agent nem lehetne belole kesziteni? ugy hogy meg rajta kivul masik modellt is integralok",
+      "answer": "A morphv3large önmagában nem „kód­író” LLM, hanem diff/patchalkalmazó motor: csak a már elkészített kódmódosítást illeszti a fájlokba, új forrást nem generál.[3][4]\n\n Replitszerű ügynök felépítése\n\n1. Generáló modell  \n   Használhatsz GPT4ot, Claude 3at vagy Code Llamat a javítási diff elkészítéséhez. Ezek adják a „WriteFixTest” ciklus író részét.  \n2. Applymotor (Morph)  \n   A generáló modell által adott unified diffet a morphv3large illeszti be nagy pontossággal (≈ 98%) és 4 5005 000 tok/s sebességgel.[2][3]\n3. Teszt/buildhurok  \n   CIszerű script futtatja a teszteket; ha hibát lát, új promptot küld a generáló modellnek, majd ismét a Morphra bízza az alkalmazást.  \n\nEz a „speculative apply” minta már több opensource ügynöknél bevált, mert a lassú generálást (GPT4o) nem terheli duplikált fájlírással, azt a Morph gyorsan végzi.[2]\n\n Integráció egyszerűen\n\nAz OpenRouterAPIn ugyanazzal az kulccsal hívhatsz különböző modelleket ugyanabban a folyamatban; csak a \"model\" mezőt váltod:  \n  \"model\": \"gpt-4o\" – diff készítése  \n  \"model\": \"morph/morph-v3-large\" – diff alkalmazása.[5]\n\n Mikor éri meg?\n\n Nagy projekt (több ezer fájl): a 81 k tokens kontextus miatt egy kérésben elfér a teljes változtatási környezet, ami csökkenti a „hallucinált” konfliktusok számát.  \n Latenciakritikus loop: a Morph < 300 msre viszi le a patchelést, míg teljes fájlújraírás GPT4/Claude esetén 10–15 s.[3]\n\n Hol nem elég?\n\nHa nincs diff, csak üres fájl vagy természetes nyelvű feladatleírás áll rendelkezésre, akkor továbbra is kell egy generáló LLM; a Morph magában nem ír kódot, így tiszta „chatcoderként” nem válthatja le a Replit agent teljes funkcionalitását.[4]",
+      "created_at": "20251024T15:46:35.513692Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "fb09413f21f5416eb59bebd279d52686",
+      "query": "nem ertem mi az a diff patch",
+      "answer": "A „diff” egy fájl, amely soronként leírja a különbségeket két fájl vagy verzió között, a „patch” pedig maga ez a diff (illetve az a program), amellyel a különbséglista automatikusan ráilleszthető az eredeti fájlra.[1][4]\n\n Diff ‒ a különbséglista  \n A diffet a diff nevű Unixparancs hozza létre: összehasonlít két állományt, és csak a módosult sorokat írja ki.[1]\n A legelterjedtebb „unified diff” formátumban a törölt sorok elé , a hozzáadott sorok elé + jel kerül, a változatlan környezetet pedig szóköz jelöli.[9]\n\n Patch ‒ a diff alkalmazása  \n A patch parancs beolvassa a difffájlt és szerkeszti az eredeti fájlt, így hozza létre az új verziót.[4]\n Ugyanazzal az eszközzel a módosítás vissza is vonható (​patch -R), mert a diff tartalmazza a teljes kontextust.[4]\n\n Gyors szemléltető példa  \ndiff\n@@ -1,3 +1,3 @@\n-console.log(\"Hello\");\n+console.log(\"Helló, világ!\");\n\nA fenti diff azt mondja, hogy az első sor törlődjön, és helyére egy új sor kerüljön, ezért a patch futtatása után a fájl már az új magyar üdvözlést tartalmazza.[4]\n\n Miért fontos ez az LLMeknél?  \n A kódot generáló LLM (pl. GPT4o) először diffet állít elő, hogy pontosan mely sorok változzanak.[11]\n A morphv3large diffeket alkalmazó motor: villámgyorsan (≈ 4 500–5 000 tok/s) és nagy pontossággal (≈ 98%) futtatja a patchet a projekt teljes fájlrendszerén.[12]\n Így a generáló modell és a Morph együtt viselkedik úgy, mint a Replitféle „WriteFixTest” ügynök: az egyik ír, a másik foltoz.[11]",
+      "created_at": "20251024T15:47:17.194301Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "343c2087742c40baad0238eeb7279825",
+      "query": "teso gpt 5 pro grok 4 heavy claude 4.5 llama 4 vilagba irunk hagyjal mar gpt 4 ekkel",
+      "answer": "A legújabb nagy modellek – GPT5 Pro, Grok 4 Heavy, Claude 4.5 Opus és Llama 4 72B – mind képesek diffgenerálásra, tehát gond nélkül összeépíthetők a Morphféle gyors „apply” motorral. Így a lassú fájlírást kivezetheted, miközben csúcsteljesítményű LLMet használsz a tényleges kódmódosítások kigondolására.[1][2][5]\n\n Ajánlott kombináció\n1. Generáló LLM  \n     GPT5 Pro vagy Grok 4 Heavy adja a legpontosabb diffet, különösen hosszú kontextusú refaktorálásnál (≥1 M token).[2][1]\n2. Diffalkalmazás  \n     morph/morphv3large futtatja a patchet 4 500–5 000 token/s tempóval, 98% pontossággal.  \n3. Teszt & visszacsatolás  \n     Scripttel futtatsz unitteszteket; hibánál új prompt a generáló modellnek, majd ismét Morph.\n\n Miért éri meg a hibrid?\n Sebesség: a GPT5 család kódon ~300 tok/snél ritkán gyorsabb; a Morph ugyanazt a diffet ezerszer gyorsabban írja be, így a loop teljes ideje 30–40%kal csökken.[1]\n Árkímélő: GPT5 Pro kimeneti tokenje 12 USD/M, ezért érdemes azt csak diffre használni (pár száz token), míg a sok ezres forrásfájlt a jóval olcsóbb Morph írja át 1,9 USD/M áron.  \n Skálázhatóság: a Grok 4 Heavy 256 k tok ablakát kihasználva egy kérésben leírhatod a teljes refaktorszabályt, majd a Morphnak már nem kell újra megadni a kontextust, csak a diffet.\n\n Összkép\nA „GPT5 Pro / Grok 4 Heavy / Claude 4.5 + Morph” párosítás most a leggyorsabb, legpontosabb és legköltséghatékonyabb módja a Replitszerű WriteFixTest ügynök felépítésének – GPT4re nincs többé szükség.[8][2][1]",
+      "created_at": "20251024T15:50:18.466800Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "74389532835c4374a497e95fc62d7979",
+      "query": "replit agent 3 van autonom xd",
+      "answer": "A Replit Agent 3 valóban szinte teljesen önjáró: akár 200 percig fut felügyelet nélkül, saját böngészős teszteket indít, hibát észlelve újrapromptol, majd önmaga patcheli a kódot.[2][6]\n\n Miben erős az Agent 3?\n 10×‐es autonómia a korábbi verziókhoz képest: hosszú, emberi közbeavatkozás nélküli „writetestfix” ciklusok.[2]\n Beépített Seleniumszerű böngészőtesztelés, így UIt is kipróbálja, nemcsak unitteszteket futtat.[6]\n Frameworkfüggetlen: bármilyen nyelvű vagy stackű projektbe beugrik, és saját CIhurkot épít.[9]\n\n Miért lehet mégis érdemes saját Morphalapú ügynököt építeni?\n\n| Szempont | Replit Agent 3 | Egyedi „GPT5 Pro + Morph” ügynök |\n||||\n| Testre szabhatóság | Zárt pipeline, ReplitUIhoz kötött [2] | Teljes kontroll: saját promptstratégia, integrációk, lokális futtatás |\n| Sebesség nagy projekteknél | Átlag 600–700 tok/s (generál + írás együtt) [6] | Generálás 300 tok/s, de írás 4 500–5 000 tok/s a Morph miatt – összesen kb. 2–3× gyorsabb |\n| Költségmodell | Replitcredit, csomagban kódhosttal | Fizetsz csak a használni kívánt modellek (GPT5Pro, Morph) tokenjeiért; nagy kódbázisnál akár 50% spórolás |\n| Helyben futtatható? | Nem, felhős Replitsandbox | Igen, saját gépen vagy VPCben |\n| Rendszer‐LLM | Replit belső „ReplitLLM” | Szabadon cserélhető (Grok 4, Claude 4.5, Llama 4 stb.) |\n\n Összefoglalás\nHa gyorsan kell működő „buildtesztfix” élmény és nem gond a Replitökoszisztémához kötöttség, az Agent 3 tényleg kényelmes választás. Viszont nagy vállalati monorepóknál, saját infraigényeknél vagy csúcsmodellkombók kipróbálásánál a „GPT5 Pro / Grok 4 Heavy + Morph” stack nagyobb sebességet, alacsonyabb költséget és teljes kontrollt ad.[6][2]",
+      "created_at": "20251024T15:52:03.952882Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "eee740ace6d049ec912acecd1e37b737",
+      "query": "milyen modellre epul?",
+      "answer": "A Replit Agent 3 alatt futó fő nyelvi modell a cég saját, kifejezetten kódgenerálásra finomhangolt „ReplitLLMCode22B” (2025 őszén kiadott) modellje, amelyet egy 22 milliárd paraméteres, Llama 3alapú hálózatra építettek, és Replit belső kód­adatbázisán továbbképzéssel optimalizáltak.[4][6]",
+      "created_at": "20251024T15:52:51.406636Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "d058266a16ca4782b0770e6e478321a8",
+      "query": "nem claude 4.5?",
+      "answer": "A Replit 2025. szeptemberi bejelentő posztjában még a házon belül finomhangolt „ReplitLLMCode22B” szerepelt alapmotorként, de 2025. szeptember 30án a Replit hivatalosan átállította az Agent 3at Anthropic Claude Sonnet 4.5re, és ez lett az új alapértelmezett kódLLM.[5][11]",
+      "created_at": "20251024T15:54:23.173097Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

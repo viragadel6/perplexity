@@ -1,0 +1,19 @@
+{
+  "context_uuid": "15fbda61815f4e5292ef181cc7015bae",
+  "context_title": "rangsoet is",
+  "created_at": "20251002T03:08:05.330374Z",
+  "updated_at": "20251002T03:08:05.330374Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "01a3470e6fa544fa945e843fd939e2bc",
+      "query": "rangsoet is",
+      "answer": "A fájlok rangsora a legfejlettebbtől a legkevésbé fejlettig:\n\n– bybrokebitchbyehoe.txt: Teljes körű, 100%ban egyedi KANarchitektúra, többnyelvű implementáció (Gleam, Rust, Nim, Crystal, Haskell/Clash, SpinalHDL, Agda, Lean, Isabelle, Pony, BQN, Futhark, Julia, Python stb.), saját tokenizáló (SpaCy magyar), hardvergyorsítás, optimalizáló, pipeline, formális biztonsági bizonyítások és integrált HTM, SDM, HRR, TGN komponensek találhatók benne, minimális helykitöltő kód nélkül [1].\n\n– foundyourloceletterstoher.txt: Széles nyelvi és keretrendszertámogatás (Gleam, BQN, Red, Elixir, Futhark, Julia, Agda, Lean, Isabelle, Haskell/Clash), HTM, HRR, SDM, TGN, formális típusellenőrzés és biztonsági specifikációk, de kevesebb integrált pipeline és hardverréteg van, mint az 1. helyezettnél [2].\n\n– ohtjejudgment.txt: Széleskörű HTM, HRR, SDM és TGN implementációk Gleamben, vektorműveletek és formális specifikációk Agdában és Leanben, de kevesebb nyelvi/keretrendszertámogatással és hardvereszközintegrációval bír, mint a 2. helyezett [3].\n\n– 5.txt: Gleamalapú, teljesen saját KANhálózat splinealapú rétegekkel, Chapel/Futhark/ChapelGPU gyorsítási lehetőséggel, de korlátozottabb funkcionalitással (nincs HTM, SDM, HRR, TGN, formális bizonyítások vagy többnyelvű támogatás) [4].\n\n– kataka.txt: Teljesen egyedi Juliamodul molekuláris konformeradatok feldolgozására, semmilyen LLMszerkezet vagy formális biztonsági komponens nincs benne, nem célzott LLMfejlesztésre készült [5].\n\n– jozsi.txt: Rövidebb, részleges Juliakód (UniMolJulia modul elemei), még kevesebb funkcionalitással és hiányosabb, mint a kataka.txt, szintén nem LLMspecifikus [6].",
+      "created_at": "20251002T03:08:05.581256Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

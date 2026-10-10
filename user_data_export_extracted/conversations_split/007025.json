@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c9eb257199f14a8ea26d189ef31934fc",
+  "context_title": "shell command alphafold 3 repo klone",
+  "created_at": "20251028T17:03:45.215206Z",
+  "updated_at": "20251028T17:03:45.215206Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "587fb5f2b16f43618419d8b5ba24c51c",
+      "query": "shell command alphafold 3 repo klone",
+      "answer": "Az AlphaFold 3 hivatalos GitHub repóját így klónozod a gépedre.[1]\n\nbash\ngit clone https://github.com/google-deepmind/alphafold3.git && cd alphafold3\n\n\nOpcionálisan készíthetsz sekély klónt a gyorsabb letöltéshez.[1]\n\nbash\ngit clone --depth 1 https://github.com/google-deepmind/alphafold3.git && cd alphafold3\n\n\nMegjegyzés: a futtatáshoz a modell paramétereihez külön hozzáférést kell kérni a repóban jelzett űrlapon keresztül.[1]",
+      "created_at": "20251028T17:03:45.312482Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "a48097b341044ea5bf34b6e7d348eb94",
+  "context_title": "Github kollarjade kiss of death",
+  "created_at": "20260225T12:01:53.616651Z",
+  "updated_at": "20260225T12:05:18.788441Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "35b5eb73b646468ba9b4e7f3ea4a2203",
+      "query": "Github kollarjade kiss of death",
+      "answer": "Nem tudtam beazonosítani egy nyilvánosan elérhető GitHubprofilt vagy repót, ami kifejezetten a „kollarjade” és a „kiss of death” kifejezésekhez köthető lenne (valószínű elírás vagy nem publikus repo/profil). Viszont létezik egy „xkollar” nevű GitHubfiók, ami név alapján közeli találat lehet a „kollar…” részhez, de ez nem „kollarjade”.[1]\n\n Mit jelent a „kiss of death”\nA „kiss of death” angol kifejezés általában azt jelenti, hogy valami (egy lépés, döntés vagy társítás) végül „tönkretesz” egy ügyet, azaz a bukás/kudarc biztos jele.  Gyakori magyarázat, hogy „látszólag ártalmatlan, de végzetes következménye van”, és melléknévi alakban gyakran kötőjellel írják („kissofdeath”).[2][3]\n\n Hogyan találd meg GitHubon (gyorsan)\nHa a cél konkrét repo vagy fájl megtalálása, a GitHub keresőjében próbáld a keresési operátorokat, például: user:kollarjade kiss of death vagy repo:kollarjade/<repo-neve> kiss. Ha a GitHubon belüli keresés nem ad ki semmit, Googleben sokszor jobb a site:github.com kollarjade \"kiss of death\" forma.\n\n Mit küldj, hogy pontosan rá tudjak mutatni\nÍrd meg kérlek az egyik alábbiak közül bármelyiket: a pontos GitHub URLt, a repo nevét (pl. kollarjade/kiss-of-death), vagy csak annyit, hogy a „kollarjade” egy felhasználónév, szervezetnév, vagy egy fájl/branch neve. Ha elküldöd a linket, meg tudom mondani, pontosan mi az a „Kiss of Death” az adott repóban (projekt, exploit, PoC, játék, indikátor, stb.), és hol van a kódban/dokuban.",
+      "created_at": "20260225T12:01:53.772800Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "6f4682e2918b4efd8b1b7e9541aa656e",
+      "query": "",
+      "answer": "Sajnos a https://github.com/kollarjade/kissofdeathz repositoryt nem tudom elérni – sem keresési indexből, sem közvetlen lekéréssel. Ennek legvalószínűbb okai a következők:\n\n A lehetséges okok\n\nA repo privát. Ez a leggyakoribb eset. Ha a kollarjade felhasználó a repositoryt „Private\"ra állította, akkor az csak bejelentkezés után, a tulajdonos által adott hozzáféréssel érhető el. Publikus webes botok (és jelen esetén én sem) nem tudják betölteni a tartalmát.\n\nA repo nem létezik vagy eltávolították. Előfordulhat, hogy a felhasználó törölte a repositoryt, áthelyezte más névvel, vagy a felhasználói fiók maga lett törölve/átnevezve. GitHubon az URL casesensitive, tehát kollarjade és KollarJade eltérő felhasználók lennének.\n\nElírás az URLben. Ha valamelyik karaktert eltévesztettük (pl. kissofdeathz vs. kissofdeath), GitHub 404et ad vissza, amit szintén nem tudok tartalomként feldolgozni.\n\n Mit tehetsz\n\nHa neked van hozzáférésed a repohoz (pl. te vagy a tulajdonos, vagy meghívott collaborator), a legegyszerűbb módja, hogy klónozd le lokálisan:\n\nbash\ngit clone https://github.com/kollarjade/kissofdeathz.git\n\n\nHa a repo publikus kellene legyen, de mégse érhető el, érdemes ellenőrizni a GitHub fiók beállításait: Settings → Repositories → kissofdeathz → Change visibility → Public.\n\nHa te alkottad a repót, és szeretnéd, hogy segítsek valamiben (pl. a kód megértésében, README megírásában, hibakeresésben, stb.), akkor másold be ide a fájlok tartalmát vagy a releváns kódrészleteket, és szívesen segítek!",
+      "created_at": "20260225T12:04:01.076341Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

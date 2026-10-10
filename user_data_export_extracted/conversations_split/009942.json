@@ -1,0 +1,19 @@
+{
+  "context_uuid": "c927d1ffb5104f1d850c9100605a0c2a",
+  "context_title": "mi a kategorianak az elnevezese amibe pl az exa ai tartpzik",
+  "created_at": "20250616T11:54:53.749289Z",
+  "updated_at": "20250616T11:54:53.749289Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "e37ba4ea1b66445c85cc45130c9a0934",
+      "query": "mi a kategorianak az elnevezese amibe pl az exa ai tartpzik",
+      "answer": " Az Exa AI kategóriája\n\nAz Exa AI egy olyan technológiai vállalat, amely mesterséges intelligencián (AI) alapuló keresőmotort fejleszt, kifejezetten AIügynökök, nagy nyelvi modellek (LLMek) és fejlesztők számára[1][2][3]. Az alábbiakban összefoglalom, hogy milyen kategóriába sorolható:\n\n Fő kategória\n\n Mesterséges intelligencia (AI) keresőmotor  \n  Exa AI egy webes keresőmotor, amely kifejezetten AIügynökök és LLMek számára készült, hogy valós idejű, releváns adatokat szolgáltasson számukra[1][2][3].\n\n Részletesebb kategóriák\n\n AIalapú webes keresőmotor  \n  A cég fejlett, LLMalapú keresési technológiát kínál, amely képes a weben található információk szemantikus (jelentésalapú) feldolgozására és releváns válaszok generálására[1][2][4].\n RetrievalAugmented Generation (RAG) infrastruktúra  \n  Az Exa AIt gyakran használják úgynevezett RAG rendszerekben, ahol a keresőmotor valós idejű adatokat szolgáltat a generatív AImodellek számára, hogy azok pontosabb, naprakész válaszokat adjanak[2][4].\n AIügynök infrastruktúra  \n  Az Exa AIt kifejezetten AIügynökök (autonóm mesterséges intelligencia rendszerek) támogatására fejlesztették, hogy ezek gyorsan és hatékonyan férjenek hozzá strukturált webes tudáshoz[3].\n Szoftverfejlesztés / API szolgáltató  \n  A vállalat fejlesztőknek kínál APIt, mellyel a keresőmotor funkciói könnyen integrálhatók más alkalmazásokba, chatbotokba vagy automatizált rendszerekbe[1][2][4].\n\n Példák a kategória elnevezésére\n\n Mesterséges intelligencia keresőmotor (AI search engine)\n AIalapú webes kereső (AIpowered web search)\n AIügynök infrastruktúra (AI agent infrastructure)\n RetrievalAugmented Generation (RAG) platform\n Szemantikus keresőmotor (Semantic search engine)\n\n Összefoglalás\n\nAz Exa AI tehát a mesterséges intelligencia alapú keresőmotorok, illetve AIügynök infrastruktúrák kategóriájába tartozik, amelyeket kifejezetten arra terveztek, hogy AImodellek és fejlesztők számára valós idejű, szemantikus keresési és adatkinyerési lehetőségeket biztosítsanak[1][2][3].",
+      "created_at": "20250616T11:54:53.874929Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

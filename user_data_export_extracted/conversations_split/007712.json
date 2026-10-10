@@ -1,0 +1,46 @@
+{
+  "context_uuid": "5763099bde4f4327b28a5f0a206a1fac",
+  "context_title": "ezt hogy kell replit secretsbe menteni marmint milyen neven?",
+  "created_at": "20251011T13:12:47.188774Z",
+  "updated_at": "20251011T13:30:40.752468Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "2a2b7d5613d34011b063a79edf10fd1f",
+      "query": "ezt hogy kell replit secretsbe menteni marmint milyen neven?",
+      "answer": "A Turso adatbázis tokenét a Replit Secretsben a következő nevekkel kell menteni: TURSO_DATABASE_URL és TURSO_AUTH_TOKEN.[1][2][3]\n\n Mentés lépései\n\nA Replit Secrets panelje lehetővé teszi a környezeti változók biztonságos tárolását. A Turso adatbázis esetében két kulcsérték párt kell létrehozni:[4]\n\n1. TURSO_DATABASE_URL: Ide kerül az adatbázis URLje, amit a turso db show --url <database-name> paranccsal szerezhetsz meg[1]\n2. TURSO_AUTH_TOKEN: Ide az autentikációs tokent kell beilleszteni, amit a képen látható módon generáltál[2][1]\n\n Használat kódban\n\nA mentett értékeket Node.js környezetben a process.env objektumon keresztül érheted el automatikusan, külön dotenv csomag telepítése nélkül:[5][6]\n\njavascript\nconst url = process.env.TURSO_DATABASE_URL;\nconst authToken = process.env.TURSO_AUTH_TOKEN;\n\n\nA Replit automatikusan titkosítja ezeket az értékeket AES256 titkosítással, és környezeti változóként elérhetővé teszi az alkalmazásod számára.[6][4]",
+      "created_at": "20251011T13:12:47.306443Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "87b7028528854166811f2b2bc9562123",
+      "query": "es ezeket",
+      "answer": "A Hasura Cloud projekthez kapcsolódó adatokat a Replit Secretsben a következő nevekkel kell menteni:\n\n Hasura környezeti változók\n\n1. HASURA_GRAPHQL_ADMIN_SECRET: Ide kerül az Admin Secret (a képen **** jelöléssel látható)[1][2][3]\n2. HASURA_GRAPHQL_ENDPOINT vagy HASURA_ENDPOINT: Ide a GraphQL API végpont URLjét kell beilleszteni, ami a képen https://advanced-bluejay-97hasura.app/v1graphql formátumban látható[4][5]\n\n Használat a kódban\n\nA mentett értékeket Node.js környezetben így érheted el:[6][7]\n\njavascript\nconst hasuraEndpoint = process.env.HASURA_GRAPHQL_ENDPOINT;\nconst adminSecret = process.env.HASURA_GRAPHQL_ADMIN_SECRET;\n\n\n Fontos adatok a képről\n\nA képen látható információk alapján:\n GraphQL API URL: https://advanced-bluejay-97hasura.app/v1graphql (ezt a teljes URLt használd)\n Admin Secret: A csillagokkal jelölt érték, amit a projektbeállításokból tudsz kimásolni[8][4]\n\nA Hasura GraphQL kérésekben az admin secretet a x-hasura-admin-secret HTTP headerben kell elküldeni.[4][8]",
+      "created_at": "20251011T13:15:16.161436Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "2316e7f91e684f0da0b473a3c1772e07",
+      "query": "es ezt?",
+      "answer": "Az AWS Bedrock API kulcsot a Replit Secretsben AWS_BEARER_TOKEN_BEDROCK néven kell menteni.[1][2][3]\n\n Bedrock API kulcs tárolása\n\nA CSV fájlban található API kulcs (ABSKQmVkcm9ja0FQSUtleS10Zm81LWF0LTUyMjkwODkzNDM2NTpweGVXc3paNTdyVXR6d0FDWjBEOVZwVjIwYTZUL0xuU0xmTThvQ3JCaSswcFFGbmcvS0dtM2gvYmtSST0=) egy hosszú távú (longterm) Bedrock API kulcs, amely 30 napig vagy tovább érvényes.[4][5][2]\n\nA Replit Secretsben hozz létre egy új változót:\n Kulcs neve: AWS_BEARER_TOKEN_BEDROCK\n Érték: A teljes API kulcs a CSV fájlból[3][1]\n\n Használat a kódban\n\nA Bedrock SDK automatikusan felismeri ezt a környezeti változót:[1][3]\n\npython\nimport os\napi_key = os.getenv('AWS_BEARER_TOKEN_BEDROCK')\n\n\n HTTP kérésekben\n\nHa közvetlenül HTTP kérést küldesz, az API kulcsot bearer tokenként add meg az Authorization headerben:[2][1]\n\npython\nheaders = {\n    \"Authorization\": \"Bearer YOUR_BEDROCK_API_KEY\",\n    \"Content-Type\": \"application/json\"\n}\n\n\nAz AWS_BEARER_TOKEN_BEDROCK környezeti változó az AWS SDKk által hivatalosan támogatott név Bedrock API kulcsokhoz.[6][3][1]",
+      "created_at": "20251011T13:29:36.696964Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    },
+    {
+      "entry_uuid": "281e8e846b8644cfb8067731ddd04dd8",
+      "query": "de .env formaba ird",
+      "answer": "Íme a teljes .env fájl formátumban az összes környezeti változóval:[1][2][3][4]\n\nenv\n# Turso Database\nTURSO_DATABASE_URL=libsql://advanced-bluejay-97-tursoapps.turso.io\nTURSO_AUTH_TOKEN=eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3Mjg2NDU3MzIsImlkIjoiOGU3YTU5MDItNWU4Yy00YzU1LWE0NTItYWIzZGE0ZmFjNGIwIn0.eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9\n\n# Hasura GraphQL\nHASURA_GRAPHQL_ENDPOINT=https://advanced-bluejay-97.hasura.app/v1/graphql\nHASURA_GRAPHQL_ADMIN_SECRET=**********\n\n# AWS Bedrock\nAWS_BEARER_TOKEN_BEDROCK=ABSKQmVkcm9ja0FQSUtleS10Zm81LWF0LTUyMjkwODkzNDM2NTpweGVXc3paNTdyVXR6d0FDWjBEOVZwVjIwYTZUL0xuU0xmTThvQ3JCaSswcFFGbmcvS0dtM2gvYmtSST0=\n\n\nA Replit Secrets panelén minden sort külön kell felvenni, ahol a = előtti rész a kulcs neve, az utána lévő rész pedig az érték. A HASURA_GRAPHQL_ADMIN_SECRET értékét a Hasura dashboardról kell kimásolni, mivel a képen csak csillagok láthatók.[2][5][6][7]",
+      "created_at": "20251011T13:30:15.656918Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

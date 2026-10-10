@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b316f1af89d740feba4416e23bd80da6",
+  "context_title": "Melyik a jobb",
+  "created_at": "20250926T19:27:16.328577Z",
+  "updated_at": "20250926T19:27:16.328577Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8e5005cd14284d708366c26b71ea4b2e",
+      "query": "Melyik a jobb",
+      "answer": "A két csatolt fájl közül a T2.txt a „jobb”, mert közelebb áll egy teljes, produkciós AlphaFold 3 implementációhoz és dokumentáltan „valós” (DeepMindspecifikus) struktúrákat, konstansokat és adatfolyamot követ, míg a Stipp.txt kísérleti, erősen optimalizáció és kutatásfókuszú kódmódosításokat tartalmaz sok nemstandard elemmel. [1][2]\n\n Miért a T2.txt\n Részletesen deklarálja a „Real AlphaFold 3” konstansokat, dimenziókat, adatstruktúrákat és műveleteket (MSA, Pair repr., softmax, layer norm, pozicionális kódolás) a DeepMind leírásának megfelelően, célzott megjegyzésekkel, ami nagyobb hűséget és reprodukálhatóságot jelez. [1]\n Teljes végponttól végpontig futási útvonalat mutat be: bemenet validálás, MSA generálás, kezdeti koordináták, előrehaladás, benchmark, eredmények mentése (JSON, PDB), pLDDT/PAE/TMscore, kontakt és szerkezeti metrikák, ami használatra kész pipelinet ad. [1]\n Produkciós paraméterekkel dolgozik (48 Evoformer blokk, 20 recycle, 200 diffúziós lépés, 2048 max szekvencia, 512 MSA mélység), így a mért teljesítmény és minőség értelmezhetőbb. [1]\n\n Mikor lehet jobb a Stipp.txt\n Ha a cél kísérleti gyorsítás és rendszerszintű optimalizáció (SIMD attention kernel, ivdep hint, adaptív precízió, BFloat16 alacsonyrangú kvantálás, dinamikus sharding, cacheaware layout, kernel fúzió, memóriapool, prefetch queue), vagy hibrid kvantumklasszikus kísérletek (QuTiPalapú QFT preprocessz, GHZ entanglement, „HybridQCAttention”). [2]\n Ha új neurális operátoros preconditionerek, entropiavezérelt feature szelekció, hierarchikus fejkompresszió, NASfej integráció, alacsonyrangú tensorfaktorok és gráfpropagáció kipróbálása a cél, nem pedig hű rekonstrukció. [2]\n\n Kompromisszumok\n T2.txt: nagyobb hűség és teljes pipeline, de kevesebb agresszív rendszeroptimalizáció; fókusz a „helyes” AF3 viselkedésen és értékelési metrikákon. [1]\n Stipp.txt: innovatív gyorsítások és memóriatechnikák, de sok „real/experimental” jellegű kód, kvantum és kutatásfunkciók, amelyek eltérhetnek a gyári specifikációktól. [2]\n\n Rövid ajánlás\n Gyártási hűség, reprodukció, elemzés és eredménymentés: T2.txt. [1]\n Kísérleti teljesítménytuning, új ötletek és kvantum/optimalizációs prototípusok: Stipp.txt. [2]",
+      "created_at": "20250926T19:27:16.486896Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

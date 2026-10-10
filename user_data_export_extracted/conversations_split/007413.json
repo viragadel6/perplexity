@@ -1,0 +1,19 @@
+{
+  "context_uuid": "f44a54d456e94c95aec2fe4fe3b0968a",
+  "context_title": "nezd at alaposan hogy van e  benne transformers",
+  "created_at": "20251019T02:49:28.776590Z",
+  "updated_at": "20251019T02:49:28.776590Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "bf65ec2f0ebd4bb7bb8af5a45ecea585",
+      "query": "nezd at alaposan hogy van e  benne transformers",
+      "answer": "Nincs benne a Hugging Face „transformers” könyvtárra utaló import vagy hivatkozás; ilyen kódrészlet nem található a fájlban. A „transformer” szó ugyanakkor előfordul technikai kulcsszóként a tokenizáló domainlistájában.[1]\n\n Részletek\n Nem szerepel „import transformers”, „from transformers import …”, sem „HuggingFace” említés a forrásokban.[1]\n A Julia tokenizáló modul getdomainboost részében a technicalpatterns halmaz kifejezetten tartalmazza a „transformer” kulcsszót (más szavakkal együtt, pl. attention, tensor, optimizer).[1]\n A kód több helyen saját figyelemmechanizmust (scaled dotproduct attention, fejekre bontás/összefűzés) implementál, de nem a Transformers könyvtárat használja.[1]",
+      "created_at": "20251019T02:49:28.854432Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "context_uuid": "efe816f6e3dc4c8dbd1fab2603568927",
+  "context_title": "honlapink linkjeit rendesen leirva kuld ezekhez\ncerebras\nxai\ngemini docs\ngithub models & docs\nanthorpic docs\nexa ai docs",
+  "created_at": "20250817T02:26:58.122035Z",
+  "updated_at": "20250817T02:27:39.826287Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "8ac969773d70451eb1ffda92d8156953",
+      "query": "honlapink linkjeit rendesen leirva kuld ezekhez\ncerebras\nxai\ngemini docs\ngithub models & docs\nanthorpic docs\nexa ai docs",
+      "answer": "Természetesen, itt vannak a kért weboldalak linkjei:\n\n   Cerebras:  [1][2][3]\n   xAI:  [4][5]\n   Gemini dokumentáció:  \n   GitHub Gemini API Cookbook:  [6]\n   GitHub Models dokumentáció:  [7]\n   Anthropic dokumentáció:  [8]\n   Exa AI dokumentáció:  [9]",
+      "created_at": "20250817T02:26:58.218279Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    },
+    {
+      "entry_uuid": "75d2e4140cf94088a99ae0ea1f82b085",
+      "query": "csak a linkek",
+      "answer": "   \n   \n   \n   \n   \n   \n   ",
+      "created_at": "20250817T02:27:33.795816Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "pro"
+    }
+  ]
+}

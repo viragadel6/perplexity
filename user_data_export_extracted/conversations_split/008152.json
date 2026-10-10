@@ -1,0 +1,19 @@
+{
+  "context_uuid": "3af1b4f6783544108acf8cb45e4780a7",
+  "context_title": "melyik a jobb?",
+  "created_at": "20251001T01:11:04.437125Z",
+  "updated_at": "20251001T01:11:04.437125Z",
+  "mode": "COPILOT",
+  "collection_uuid": null,
+  "entries": [
+    {
+      "entry_uuid": "f8cb3afc5da94bc7a6150d1384ab017f",
+      "query": "melyik a jobb?",
+      "answer": "A mainkurva.jl a jobb választás, mivel jelentős többletfunkcionalitással rendelkezik az alapverzióhoz képest[1][2].\n\n Kulcsfontosságú különbségek\n\nA mainkurva.jl 9,7%kal nagyobb (345 382 byte vs. 314 814 byte), és lényegesen több funkcionalitást tartalmaz[1][2]:\n\n Többlet funkciók és struktúrák\n\nA mainkurva.jl 19 további funkciót és 36 további struktúrát tartalmaz[1][2]. A legfontosabb kiegészítések:\n\nUniMol Julia integráció: Teljes molekuláris modellezési modul PyCall használatával, amely RDKitet használ kémiai struktúrák kezelésére[2]. Ez lehetővé teszi SMILES stringek feldolgozását, 2D és 3D koordináták generálását, molekuláris gráfok létrehozását, valamint konformer generálást és klaszterezést[2].\n\nPython integráció: A mainkurva.jl teljes PyCall támogatással rendelkezik, amely lehetővé teszi RDKit, NumPy, Pandas, scikitlearn és további Python könyvtárak használatát[2]. Ez a main.jlben nem érhető el[1].\n\n Fejlett hardver gyorsítás\n\nA mainkurva.jl kiterjedt hardverakcelerációs struktúrákat tartalmaz[2]:\n\n CXL memória vezérlők és hibrid HBMCXL pufferek\n Fotonikus MAC gyorsítók és optikaielektronikus cache\n Analóg tenzor szorzók és adaptív precíziós skálázók\n Dinamikus adatfolyamütemezők és prediktív előretöltők\n\n Generatív AI képességek\n\nEgyedülálló funkciók a mainkurva.jlben[2]:\n\n E(3) ekvivariáns neurális hálózatok molekuláris geometriához\n Diffúziós modellek konformer generáláshoz\n Generatív AI molekula tervező osztályok\n Kvantált zajú diffúziós geometria\n\n Kód minőség\n\nMindkét fájl jól dokumentált, de a mainkurva.jl 53 további kommentet tartalmaz (925 vs. 872)[1][2]. A kód struktúra mindkét verzióban tiszta AlphaFold 3 implementációt követ[1][2].\n\nA mainkurva.jl tehát a teljesebb, korszerűbb választás, amely integrálja a kémiai informatikai és molekuláris modellezési képességeket a fehérje struktúra előrejelzéssel[2].",
+      "created_at": "20251001T01:11:05.052294Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}

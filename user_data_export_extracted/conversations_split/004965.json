@@ -1,0 +1,19 @@
+{
+  "context_uuid": "b73fb6371fc04e67b306958e90494d21",
+  "context_title": "from exa_py import Exa\n\nexa = Exa(api_key = \"b21ebdee27fb43138559ab60427dc9ef\")\n\nresult = exa.search_and_contents(\n  \"state of the art professional video editor ios\",\n  context = True,\n  end_crawl_date = \"20260114T02:03:35.301Z\",\n  end_published_date = \"20260114T22:59:59.999Z\",\n  exclude_text = [\"generator maker \"],\n  extras = {\n    \"links\": 1\n  },\n  include_domains = [\"apps.apple.com\"],\n  include_text = [\"video\"],\n  num_results = 100,\n  start_crawl_date = \"20251014T01:03:35.301Z\",\n  start_published_date = \"20251214T23:00:00.000Z\",\n  summary = {\n    \"query\": \"magyarul írj mindent\"\n  },\n  type = \"auto\"\n)",
+  "created_at": "20260114T02:12:39.479236Z",
+  "updated_at": "20260114T02:12:39.479236Z",
+  "mode": "COPILOT",
+  "collection_uuid": "e39360a56ce14a02840fb26e8c4fe2b2",
+  "entries": [
+    {
+      "entry_uuid": "7ec3083a902347baac17c347d03158f0",
+      "query": "from exa_py import Exa\n\nexa = Exa(api_key = \"b21ebdee27fb43138559ab60427dc9ef\")\n\nresult = exa.search_and_contents(\n  \"state of the art professional video editor ios\",\n  context = True,\n  end_crawl_date = \"20260114T02:03:35.301Z\",\n  end_published_date = \"20260114T22:59:59.999Z\",\n  exclude_text = [\"generator maker \"],\n  extras = {\n    \"links\": 1\n  },\n  include_domains = [\"apps.apple.com\"],\n  include_text = [\"video\"],\n  num_results = 100,\n  start_crawl_date = \"20251014T01:03:35.301Z\",\n  start_published_date = \"20251214T23:00:00.000Z\",\n  summary = {\n    \"query\": \"magyarul írj mindent\"\n  },\n  type = \"auto\"\n)",
+      "answer": "English:\nHere is a professionalgrade video editing application for iOS with advanced features, professional tools, and stateoftheart capabilities\n\nMagyar:\nProfesszionális szintű videószerkesztő alkalmazás iOSre fejlett funkciókkal, profi eszközökkel és csúcstechnológiás képességekkel",
+      "created_at": "20260114T02:12:39.557942Z",
+      "label": null,
+      "query_status": "COMPLETED",
+      "engine_mode": "reasoning"
+    }
+  ]
+}
